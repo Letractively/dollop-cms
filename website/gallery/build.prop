@@ -1,0 +1,155 @@
+;**********************************************
+;**********************************************
+;# Module build configuration file
+;**********************************************
+;**********************************************
+;
+;
+;##############################################
+;##############################################
+; MAIN configuration
+;##############################################
+;##############################################
+[MAIN]
+;##############################################
+;	Module name 
+;##############################################
+;
+module.name				='gallery'
+;
+;##############################################
+;	Module Version 
+;##############################################
+;
+module.version				=1
+;
+;##############################################
+;	Module compatible with kernel version 
+;##############################################
+;
+module.vkernel				=1
+;
+;
+;'templates/'
+module.templates			=templates/
+;
+;
+;   Language folder
+;
+;language/
+module.language             =language/
+;
+;
+[FACIAL]
+;
+;
+;##############################################
+;##############################################
+; FACIAL SECTION
+;##############################################
+;##############################################
+;
+;   Language file
+;
+;_lan.php
+module.facial.lan.file                  =lan.php
+;
+;
+;##############################################
+; File to be load at enter in module  
+;##############################################
+;# Init string. If is "0" (null) must use: 
+;	"module.facial.url.[url request]=[path to file]"
+;
+module.facial.source 			=0
+;
+;
+; Execute files from folder
+;----------------------------------------------
+;
+module.facial.url.=src/main.php
+module.facial.url.main=src/main.php
+module.facial.url=src/main.php
+module.facial.url.upload=src/upload.php
+
+;
+;----------------------------------------------
+;
+;
+;# if "module.admin.admin" is 0 must 
+;	fill full value with destination to files in 
+;	"module.fac.url.*" string
+;
+;
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+; Include sector
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   NOTE basic this varibles are for folders 
+;   inclde "/" at end of value
+;
+;PHP:
+module.facial.includes		=include/
+;JS:
+module.facial.javascript	=javascript/
+;CSS:
+module.facial.css               =style/
+; 
+; Change include path to start from module`s directorie
+;
+module.facial.include_path      =0
+;
+[CPANEL]
+;##############################################
+;##############################################
+; ADMIN SECTION
+;##############################################
+;##############################################
+;
+; Module Manager Root folder
+module.manager.main             =manager/
+; (all data below is attached after main manager dir)
+;
+;
+; prop files with privilege:
+module.manager.privilege        =privilege/
+;
+; Manager files:
+module.manager.source		    =source/
+;
+; Manager source files
+module.manager.includes         =include/
+;
+; FRAMEWORK
+;
+; Module Manager Cover Image
+module.manager.cover            =framework/img/cover.jpg
+;
+; Module Manager icon image
+module.manager.icon		=framework/img/icon.png
+;
+; Mudule Manager CSS
+module.manager.css         =framework/css/
+;
+; Module Manager Javascript
+module.manager.js		=framework/js/
+;
+;
+; If is empty will use def value "template" folder
+;
+module.manager.template         =templates/
+;
+[INSTALL]
+;##############################################
+;##############################################
+;
+; Folder for instalation:
+;
+kernel.install                  =install
+;
+; Create dependencies strings at the beginning of the kernel
+;kernel.depends=install
+;
+[BOOT]
+;##############################################
+;##############################################
+;

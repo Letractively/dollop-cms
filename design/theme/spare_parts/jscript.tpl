@@ -1,0 +1,1 @@
+<script src="{tag}" type="text/javascript"></script>

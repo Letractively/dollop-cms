@@ -1,0 +1,146 @@
+; ============================================================
+; Last committed:     	$Revision: 3 $
+; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
+; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
+; ID:            	$Id: panel.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;;;;;;;;;;;
+; WARNING ;
+;;;;;;;;;;;
+; This is the default settings file for new Dollop installations.
+; By default, Dollop installs itself with a configuration suitable for
+; development purposes, and *NOT* for production purposes.
+; For several security-oriented considerations that should be taken
+
+
+;;;;;;;;;;;;;;;;;;;
+; About this file ;
+;;;;;;;;;;;;;;;;;;;
+; This file controls many aspects of Dollop's behavior.  
+;
+; The syntax of the file is extremely simple.  Whitespace and Lines
+; beginning with a semicolon are silently ignored (as you probably guessed).
+; Section headers (e.g. [Foo]) are also silently ignored, even though
+; they might mean something in the future.
+;
+; Directives are specified using the following syntax:
+; directive = value
+; Directive names are *case sensitive* - foo=bar is different from FOO=bar.
+;
+; The value can be a string, a number, a Dollop constant (e.g. MODULE_DIR or __FILE__), one
+; of the INI constants (On, Off, True, False, Yes, No and None) or an expression
+; (e.g. E_ALL & ~E_NOTICE), or a quoted string ("foo").
+;
+; Expressions in the INI file are limited to bitwise operators and parentheses:
+; |        bitwise OR
+; &        bitwise AND
+; ~        bitwise NOT
+; !        boolean NOT
+;
+; Boolean flags can be turned on using the values 1, On, True or Yes.
+; They can be turned off using the values 0, Off, False or No.
+;
+; An empty string can be denoted by simply not writing anything after the equal
+; sign, or by using the None keyword:
+;
+;  foo =         ; sets foo to an empty string
+;  foo = none    ; sets foo to an empty string
+;  foo = "none"  ; sets foo to the string 'none'
+;
+; If you use constants in your value, and these constants belong to a
+; dynamically loaded extension (either a PHP extension or a Zend extension),
+; you may only use these constants *after* the line that loads the extension.
+;
+; All the values in the php.ini-dist file correspond to the builtin
+; defaults (that is, if no php.ini is used, or if you delete these lines,
+; the builtin defaults will be identical).
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;^^     Dollop Panel Prop File
+;^^     This prop file is for panel class 
+;^^
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+panel.version=1.00
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This string contain value of directory that is panel theme
+    panel.theme.folder=design/cpanel/inside/
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This string contain value for style css panel 
+	panel.theme.style[]=ui/main/jquery-ui-custom.css
+    panel.theme.style[]=style.css
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This string contain value of file for theme
+    panel.theme.file=theme.php
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This string contain value of file for JavaScript
+
+    panel.theme.jscript[]=js/scrollTo-min.js
+    panel.theme.jscript[]=js/localscroll-min.js
+    panel.theme.jscript[]=js/tinyscrollbar.js
+    panel.theme.jscript[]=js/tableEffect.js
+    panel.theme.jscript[]=js/init.js
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+    
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This string contain value of string used in theme.php file
+    panel.theme.string=$theme
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   This boolean will convert, inserted java script in html theme to mini if is true.
+	panel.jscript.mini=0
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Script Editor configuration
+; first     "*" is replaced with "panel.scriptEditor.name" value
+; second    "^" is replaced with "panel.scriptEditor.mude" value
+; Avalible editors `cloud9`,`codemirror` 
+
+    ; ACTIVE EDITOR
+
+    panel.scriptEditor.name     =codemirror ; (this name is name of folder)
+       
+
+    ;   Template files
+    panel.scriptEditor.head  ='*.head.^.tpl'
+    panel.scriptEditor.area  ='*.area.^.tpl'
+    panel.scriptEditor.tag.folder   =dir
+    panel.scriptEditor.tag.area     =id_area
+    panel.scriptEditor.tag.text     =text
+    panel.scriptEditor.tag.name     =name
+    panel.scriptEditor.tag.style    =style
+    
+
+
+    
+    
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Autocomplete configuration
+    panel.autocomplete.minChars=2
+;
+    panel.autocomplete.delimiter="/[\W0-9;]+/"
+   panel.autocomplete.lib.php=system/lib/etc/acm.srlz.php.dp
+   panel.autocomplete.lib.jquery=system/lib/etc/acm.srlz.jquery.dp

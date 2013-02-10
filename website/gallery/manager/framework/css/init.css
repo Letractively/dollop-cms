@@ -1,0 +1,127 @@
+
+
+.switchers{
+    width:30%;
+    cursor:pointer;
+    display: inline-block;
+}
+#queue{
+    min-height: 300px;
+    max-height: 300px;
+    background: rgba(255,255,255,0.5);
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+}
+.video-button{
+    display: none;
+}
+.resurce-content{
+     float: left;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+}
+.resurce-content img.image{
+-webkit-transition: all 0.6s ease-in-out;
+-moz-transition: all 0.6s ease-in-out;
+-o-transition: all 0.6s ease-in-out;
+-ms-transition: all 0.6s ease-in-out;
+transition: all 0.6s ease-in-out;
+    width: 40px;
+    display: block;
+    clear: both;
+}
+.resurce-content img.image:hover{
+    width: 120px;
+    display: block;
+    clear: both;
+}
+
+.resurce-content.video img{
+    display: none;
+    
+}
+.resurce-content.video input{
+    margin-top: 40px;
+}
+.resurce-content.video{
+    background-image: url(video.png);
+    background-position: center 15px ;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.uploadify-button{
+
+font-weight: bold;
+
+color: #808080;
+outline: none !important;
+padding: 4px;
+border: 2px solid #51ACFF;
+background: #F3F3F3;
+box-shadow: 0px 0px 2px #888;
+border-bottom-right-radius: 14px;
+margin: 2px;
+-webkit-transition: all 0.6s ease-in-out;
+-moz-transition: all 0.6s ease-in-out;
+-o-transition: all 0.6s ease-in-out;
+-ms-transition: all 0.6s ease-in-out;
+transition: all 0.6s ease-in-out;
+display: block;
+outline: none !important;
+text-shadow: 0px 0px 2px #0a77d5;
+font-family: "neuropol";
+letter-spacing: 2px;
+color: #fff;
+cursor: pointer;
+box-shadow: 0px 0px 4px #333;
+text-transform: uppercase;
+font-weight: bolder;
+border-radius: 0px;
+border-top-left-radius: 14px;
+border-bottom-right-radius: 14px;
+margin-left: -120px;
+min-width: 350px;
+padding: 5px !important;
+
+
+
+background: rgb(30,87,153);
+background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 51%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(51%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1)));
+background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 51%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 51%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 51%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 51%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+box-shadow: 0px 0px 0px #0a77d5;
+font-size: 14px !important;
+}
+.uploadify-button:hover{
+    text-shadow: 0 0 25px #fff;
+}
+
+li.inform {
+    position: relative !important;
+}
+.small-form{
+    display: none;
+    position: absolute;
+    width: 290px;
+    height: 150px;
+    padding: 5px;
+    background-color:#fff;
+    border: solid 1px #fff;
+    border-radius: 3px;
+    color: #000;
+    box-shadow: 0 5px 10px #999;
+    z-index: 1;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,245 @@
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-image: url(img/dollop-bg.png);
+}
+body,td,th {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+
+.upper{
+	padding-top: 55px;
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-image: url(img/bg-color.png);
+}
+.logo {
+	position: absolute;
+	left: 15%;
+	top: 19px;
+	z-index: 1;
+}
+
+.logo-text {
+	position: absolute;
+	left: 3px;
+	top: 354px;
+	z-index: 2;
+	width: 100%;
+	height: 352px;
+	background-image: url(img/bg-color.png);
+}
+.header {
+    
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #999;
+	
+	position: relative;
+	background-image: url(img/head-bg.png);
+    background-position: -10px;
+    
+	height: 45px;
+    box-shadow: 0 0 5px #333;
+    display: block;
+    
+}
+.header ul.links {
+margin: 13px;
+white-space:nowrap;
+	margin-left: 30%;
+    display:inline-block
+}
+
+
+.header .links  li a{
+
+display:block;
+	color: #4198B9;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	padding: 2px;
+	font-weight: normal;
+	
+
+}
+.header .links li a:hover  {
+display:block;
+	margin-right: 8px;
+	margin-left: 8px;
+	padding: 5px;
+    margin-top:-3px;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: #fff;
+	/*border: 1px solid #fff;*/
+	background-color: #222;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers*/
+	font-weight: normal;
+    box-shadow: 0 0 2px #4198B9;
+
+
+}
+
+
+
+
+
+.page {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+}
+.page .space{
+
+margin-top: 30px;
+}
+.page .splashes{
+
+    background-repeat: repeat;
+    border: 1px solid #ccc;
+    background-image: url(img/bg-page.png);
+}
+.page .splashes-bg{
+
+font-size: 200%;
+margin-bottom: 20px;
+height: 280px;
+box-shadow: 0 0 5px #000;
+border:none;
+border-bottom: solid 20px #222; 
+color:#555;
+padding: 10px;
+padding-left: 28%;
+
+background-repeat: no-repeat;
+background-image: url(img/inner.png);
+font-weight: bolder;
+background-position: top 30%; 
+
+
+}
+.splashes .inf{
+color:#eee;
+font-weight: normal;
+font-size: 40%;
+padding: 10px;
+border: solid 1px #666;
+box-shadow: 0 0 5px #999;
+background-color:  rgba(0, 0, 0,0.7 );
+}
+.splashes .inf span{color:#99FFFF;}
+
+
+.page .menu {
+	width: 250px;
+	float: left;
+    margin-top: 50px;
+	margin-left: 25px;
+	background-color: #3F3F3F;
+	margin-right: 30px;
+	padding: 5px;
+
+	background-image: url(img/menu.png);
+
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+	font-family: Verdana, Geneva, sans-serif;
+    
+}
+.page .menu .title {
+	color: #3EB6EC;
+	padding: 3px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+	margin-top: 5px;
+    height: 20px;
+}
+.page .menu .content {
+	margin: 5px;
+	padding: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #DDD;
+}
+.page .body_transparent {
+
+			width: 95%;	
+            margin-left: 3%;
+	float: left;
+	padding: 15px;
+	background-repeat: repeat;
+	border: 1px solid #ccc;
+	background-image: url(img/bg-page.png);
+	background-position: top;
+}
+.page .body_transparent .page_content {
+
+	background-color: #D6D6D6;
+	color: #999;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1px solid #666666;
+}
+.page .body_transparent .page_content .title {
+	background-color: #353535;
+	padding: 10px;
+	color: #FFF;
+	font-weight: bold;
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+}
+.page .body_transparent .page_content .content {
+	padding: 10px;
+	background-color: #FFF;
+	margin: 5px;
+	color: #333;
+}
+a:link {
+	color: #09C;
+}
+a:visited {
+	color: #09F;
+}
+a:hover {
+	color: #0CF;
+}
+a:active {
+	color: #0FF;
+}
+a {
+	font-weight: bold;
+}
+
+.wr-menu{
+float: left;
+width: 250px;
+
+}
+.wr-body{
+width: 70%;    
+
+position: absolute;
+padding-left: 310px;
+
+}

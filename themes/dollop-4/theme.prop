@@ -1,0 +1,28 @@
+;################################################################################################
+; BASIC CONFIGURATION OF THEME
+;
+;  FOR DOLLOP [4+]
+;  AUTHOR FIRE1 (Angel Zaprianov)
+;
+; 	all right reserved
+;
+;29.9.2011 ?. 16:07:14
+;################################################################################################
+;
+;
+;
+; THEME NAME
+theme.name=dollop 4
+;
+; THEME VALID FOR VERSION OF KERNEL
+theme.valid=1.00
+;
+; THEME VERSION
+theme.version=1.00
+;
+; THEME AUTHOR
+theme.author=fire1
+
+
+
+
