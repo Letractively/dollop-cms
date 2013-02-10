@@ -1,0 +1,126 @@
+; ============================================================
+; Last committed:     $Revision: 3 $
+; Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
+; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
+; ID:            $Id: fields-keywords.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+;
+;
+
+; Summary:
+; This file contain basic key fields that Dollop will operate or 
+;   treat to reduce the work of the developer or owner.
+;
+; Let me give you an example:
+;   In case of using field (col name) "userage".
+;   When user registe from social network the fields from
+;   social networks like "birthday","date_birth" or "userage"
+;   will be merged in to one key fied from this list.
+;
+; Association of files: "reconciliation.prop","fields-query.prop","fields-keywords.prop"
+;
+
+[user_age]
+;
+; User age
+users.mysql.fields[]=age
+
+;
+; User age
+users.mysql.fields[]=userage
+
+; 
+; User birthday
+users.mysql.fields[]=birthday
+
+[user_sex]
+;
+; User sex
+users.mysql.fields[]=usersex
+
+;
+; User sex
+users.mysql.fields[]=gender
+
+[user_loc]
+;
+; User country
+users.mysql.fields[]=country
+
+;
+; User city
+users.mysql.fields[]=city
+
+;
+; User location
+users.mysql.fields[]=locale
+
+;
+; User state
+users.mysql.fields[]=state
+
+;
+; User zip code
+users.mysql.fields[]=zip
+
+[user_act]
+;
+; User social status
+users.mysql.fields[]=social
+
+;
+; User interest
+users.mysql.fields[]=interest
+
+;
+; User religion
+users.mysql.fields[]=religion
+
+;
+; User working at
+users.mysql.fields[]=work 
+
+;
+; User working at
+users.mysql.fields[]=employer
+
+;
+; User job
+users.mysql.fields[]=job
+
+;
+; User website 
+users.mysql.fields[]=job
+
+[user_time]
+
+;
+; User website 
+users.mysql.fields[]=timezone
+
+[user_lan]
+
+;
+; User website 
+users.mysql.fields[]=language
+
+;
+; User website 
+users.mysql.fields[]=lang
+
+;
+; User website 
+users.mysql.fields[]=lan

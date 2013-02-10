@@ -1,0 +1,26 @@
+[AI_MAIN]
+
+; To recording MySQL errors in file 
+ai.recording.err    = On
+; Log file destination
+ai.erors.logfile    ='{root}mysql_ai.log'
+
+
+
+
+
+
+
+[TEXT_FIELDS]
+;
+;   Option Auto filter requested fields, main is designated for tinyMCE
+;   This option allows you to attach functions and when is called
+;   ExecuteTextFields" will execute text field with function that is set-up here
+;   Use "ai.txtfld." extension and then the field name.
+;   This extension "ai.txtfld." is required because the "ai.prop" file is merged with boot file.
+;
+ai.txtfld.title[]       =trim
+ai.txtfld.title[]       =htmlspecialchars
+ai.txtfld.name[]        =trim
+ai.txtfld.name[]        =htmlspecialchars
+ai.txtfld.comment       =htmlspecialchars

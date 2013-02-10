@@ -1,0 +1,47 @@
+.news{
+
+    clear: both; 
+}
+
+.news .news-ttl{ font-size: 180%;  padding: 5px;}
+.news .news-img{ float: left; padding: 1%;}
+.news .news-cnt{ font-size: 95%; padding: 10px;}
+.news .news-dsc { 
+    color:#585858;
+    font-size: 90%; 
+    background-color: rgba(200, 200, 200, 0.3);
+    padding:5px; 
+    clear: both; 
+    position:relative;
+}
+#container{ width: 700px; margin: 40px auto; }
+h1{ font-size: 1.5em; font-weight: bold; }
+hr{ clear: both; }
+
+.thumbnails a
+{
+    display: block;
+    float: left;
+    margin: 4px;
+}
+.news .news-img a img, .thumbnails a img{
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+	border: solid 5px rgba(255,255,255,0.30);
+	box-shadow: 0 2px 10px rgba(0,0,0,0.30);
+	margin-right:10px;
+	margin-top:30px;
+	margin-left:20px;
+	margin-bottom:5px;
+	
+}
+.news .news-img a:hover img, .thumbnails a:hover img{
+	Opacity:0.85;
+	border: solid 5px rgba(255,255,255,0.70);
+	box-shadow: 0 2px 10px rgba(0,0,0,0.60);
+	background-color:#fff;
+}
+.thumbnails a:hover img{ border: solid 1px #fff;  box-shadow: 0 0 5px #333;}

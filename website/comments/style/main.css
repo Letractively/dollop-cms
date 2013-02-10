@@ -1,0 +1,161 @@
+hr#comment-line {
+    border: 0;
+    width: 80%;
+    height: 0px;
+    border-top:solid 1px #eee;
+    border-bottom:solid 1px #777;
+    clear: both;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#comments {
+    clear: both;
+    min-height: 80px;
+    background-color: rgba(220,220,230,0.5);
+    padding: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+
+}
+#comments a:link{
+    color: #32A3E7;
+    font-weight: bold;
+}
+#comments a:hover{
+    color: #099CEC;
+    text-decoration: underline;
+}
+#comments a:visited{
+    color: #32A3E7;
+}
+#comments p {
+    padding: 20px;
+    font-weight: bold;
+}
+#comments small{
+    margin-left:15px;
+}
+#comments #comment-textarea{
+
+    outline-width: 0;
+    padding: 5px;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    font-family: Verdana, Geneva, sans-serif;
+
+    color:#000;
+    font-weight: bold;
+    font-size: 1.3em;
+
+    width: 95%;
+    border:solid 1px #ccc;
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 0 0px #fff;
+
+
+}
+#comments #comment-textarea:focus{
+    border:solid 1px #333;
+    box-shadow: 0 0 20px #ccc;
+}
+#comments input[type="submit"]{
+
+    cursor: pointer;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    color:#444;
+    font-weight: bold;
+    font-size: 1.1em;
+
+    float: right;
+    margin-right: 15px;
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border:solid 1px #ccc;
+    border-radius: 4px;
+
+    box-shadow: 0 0 0px #fff;
+
+
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+}
+#comments input[type="submit"]:hover{
+
+    color:#32A3E7;
+    text-shadow: 0 0 20px #fff;
+    box-shadow: 0 0 20px #fff;
+}
+#comments table#comment-table{
+    background-color: rgba(205,205,205,0.3);
+    margin-bottom: 20px;
+    border:solid 2px #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #ccc;
+}
+#comments table#comment-table tr td{padding: 10px; margin: 0;}
+#comments table#comment-table .user-ti{
+    color:#444;
+    font-weight: bold;
+    background-color: #eee;
+    border-bottom: solid 1px #ccc; 
+    border-top-right-radius: 15px;
+
+}
+#comments table#comment-table td.user-im{
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #eee;
+    width: 100px;
+    text-align: center;
+}
+#comments table#comment-table td.user-im img{
+box-shadow: 0 0 10px #ccc;
+max-width: 80px;
+max-height: 80px;
+border-radius: 150px;
+text-align: center;
+}
+#comments table#comment-table td.user-co{
+    border:none;
+    border-left: solid 1px #ccc; 
+    background-color: #fff;
+    border-bottom-right-radius: 15px;
+}
+#comments table#comment-table td.user-ti .user-da{
+color:#969696;
+font-weight: normal;
+font-size: 0.8em;
+float:right;
+}
+#comments table#comment-table.first{
+display: none;
+}
+#comments #loader{
+margin-top:12px;
+margin-left:20px;
+float:left;
+position:absolute;
+display:none;
+}

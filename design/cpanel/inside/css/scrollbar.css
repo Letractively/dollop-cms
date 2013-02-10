@@ -1,0 +1,11 @@
+#cp-scrollbar {width: 950px;  padding: 10px; background: #fff;}
+
+ .viewport { width: 100%;  overflow: hidden; position: absolute; }
+ .overview { width: 98%; list-style: none; position: absolute; z-index: 1000; float: left; }
+ .thumb .end,
+ .thumb { background-color: #8FD5FA; }
+ .scrollbar { position: relative; float: right; width: 15px; }
+ .track { background-color: #eee; height: 100%; width:13px; position: relative; padding: 0 1px; }
+ .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+ .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+ .disable{ display: none; }

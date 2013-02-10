@@ -1,0 +1,18 @@
+;##############################################
+;##############################################
+;
+[INSTALL]
+; etc file to install
+etc=etc/constants.prop
+;
+; sql file to install 
+sql=dbtables.sql
+;
+; php script to add
+;
+;php=
+;
+;
+;
+;
+;

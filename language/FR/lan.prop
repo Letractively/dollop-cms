@@ -1,0 +1,318 @@
+; ====================================================================
+;Droit d'auteur Ange Zaprianov [2009] [INFOHELP]
+;
+; Sous licence Apache, version 2.0 (la "Licence");
+, Vous ne pouvez pas utiliser ce fichier, sauf en conformité avec la licence.
+; Vous pouvez obtenir une copie de la licence à
+;
+; http://www.apache.org/licenses/LICENSE-2.0
+;
+; Sauf si requis par la loi en vigueur ou accord écrit, le logiciel
+; Distribué sous la licence est distribué sur une base "EN L'ÉTAT»,
+; SANS GARANTIES OU CONDITIONS DE QUELQUE SORTE, explicite ou implicite.
+; Voir la licence pour les autorisations spécifiques du langage et qui régissent
+; Limitations sous la licence.
+Voir COPYRIGHT ET LICENCE
+;
+; ====================================================================
+
+; ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+;Fichier de langue: Français
+; ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+
+error.numerical = "Erreur dans URL lien! S'il vous plaît vérifier le lien."
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+; Nouvelles
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+web.news = Nouvelles.
+web.news.articles = article.
+web.news.last =" Dernières nouvelles de la journée."
+web.news.mont = "Nouvelles de ce mois-ci."
+web.news.empty = 'Pas de nouvelles encore.
+web.news.nonew = 'Pas de changement. "
+
+web.captcha = "code de sécurité de l'image:"
+web.captcha.err = "Désolé, le code de sécurité n'est pas valide! S'il vous plaît essayez de nouveau. "
+
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+; général
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+
+lan.back = back
+lan.submit = submit
+lan.update = mise à jour
+lan.reset = remise à zéro
+lan.empty = la page vide de site web.
+lan.need.users = 'Vous devez être un utilisateur <b> </ b> du site à accès <b> </ b> cette page!
+lan.months.jan = Janvier
+lan.months.feb = Février
+lan.months.mar = Mars
+lan.months.apr = Avril
+lan.months.may = mai
+lan.months.jun = Juin
+lan.months.jul = Juillet
+lan.months.aug = Août
+lan.months.sep = Septembre
+lan.months.oct = Octobre
+lan.months.nov = Novembre
+lan.months.dec = Décembre
+
+; ------------------------------------------------- --------------------------------------
+; La valeur NOTE doit se termine par l'espace "texte" vide
+; ------------------------------------------------- --------------------------------------
+
+main.cp.news = Nouvelles
+main.cp.pages = Pages
+main.cp.manus = Une menus
+main.cp.mail = postale
+main.cp.logs = Connexion
+main.cp.links = Liens
+main.cp.users = Utilisateurs
+main.cp.update = Mise à jour
+main.cp.preference = Préférence
+main.cp.theme = Thème
+main.cp.flash = Flash
+main.cp.comments = Commentaires
+main.cp.require =" S'il vous plaît remplir les champs de texte nécessaires"
+main.cp.question.erase=  "Etes-vous sûr de vouloir supprimer"
+main.cp.question.alt= " Voulez-vous vraiment à"
+
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+; utilisateurs
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+
+users.err.require = 'domaine manqué (*) requis!'
+users.err.taken.name = "Le nom d'utilisateur est déjà en cours d'utilisation."
+users.err.pass.match = 'Vos mots de passe des champs ne correspondent pas '
+users.err.valid.email = 'Pas une e-mail valide. '
+users.err.nosuch.user = "Il n'y a pas un tel utilisateur."
+users.err.taken.mail = 'E-mail existe déjà. "
+users.err.req.signin = 'Vous devez être un utilisateur de site Web pour voir ce contenu!
+
+users.lan.login = "Sing-in '
+users.lan.registration = 'Sing-up'
+users.lan.uname = "Nom d'utilisateur "
+users.lan.upass = "Mot de passe utilisateur"
+users.lan.confirm = "Confirmer"
+users.lan.email = 'Internet e-mail'
+users.lan.photo = 'Votre photo '
+users.lan.status ="priorité profil" 
+users.lan.signature = 'Signature'
+users.lan.signout = 'Connexion-out » »Derniers changements des' 
+users.lan.changes = Une
+users.lan.welcome = 'Bienvenue'
+users.lan.profile = "Votre profil"
+users.lan.messages = 'Les messages des'
+users.passreset = 'Vous avez oublié votre mot de passe?'
+users.passreset.mail = 'Entrez votre e-mail complète avec laquelle vous avez enregistré dans le site Web et nous vous enverrons votre nouveau mot de passe.'
+users.passreset.err.mail = "Cet e-mail n'existe pas dans notre base de données."
+users.passreset.send = 'Maintenant, vérifiez votre e-mail.' 
+users.passreset.mail.title= "Mot de passe oublié (pas de réponse) "
+users.passreset.mail.content = "Cet e-mail a été envoyé parce que vous avez oublié votre mot de passe. S'il vous plaît cliquer sur le lien ci-dessous pour réinitialiser votre mot de passe. "
+
+users.pm =«Message personnel».
+users.signup.ok = 'Vous avez réussi à signé dans ce site.
+
+^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+; Liste des mots
+; ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+; ------------------------------------------------- --------------------------------------
+; La valeur NOTE doit se termine par l'espace "texte" vide
+; ------------------------------------------------- --------------------------------------
+lw.content = contenu
+lw.title = title
+lw.titles = Titres
+lw.new = new
+lw.address adresse =
+lw.addresses = adresse
+= position lw.position
+= Une lw.positions positions
+lw.target = cible
+lw.targets = Une des cibles
+lw.option = option
+lw.options = options
+lw.category = catégorie
+lw.categories = catégories
+lw.create = créer des
+lw.templates = Une modèles
+lw.template = modèle
+lw.templates = Une modèles
+lw.theme = thème
+lw.themes = thèmes
+lw.body = corps
+lw.section = section
+lw.sections = sections
+lw.default = par défaut
+lw.menu = menu
+lw.menus = Une menus
+lw.erase = effacement
+lw.delete = delete
+lw.image = image
+lw.activate= activate
+lw.active = actif
+lw.refresh = refresh
+lw.user = utilisateur
+lw.users = utilisateurs
+lw.text = texte
+lw.texts = textes
+lw.area = zone de
+lw.areas = zones
+lw.sounds = une sons
+lw.sound = son
+lw.log = log
+lw.logs = Connexion
+lw.page = la page
+lw.pages = pages
+lw.recordet = recordet
+lw.date date =
+lw.dates = dates
+lw.disclaimer = disclaimer
+lw.website = site
+lw.name = nom
+lw.meta = méta
+lw.description = description
+lw.additional = supplémentaires
+lw.addons = addons
+lw.addon = addon
+lw.plugin = plug-in
+lw.plugins = Plugins
+lw.module = module de
+lw.modules = modules
+lw.general = générale
+lw.installed = installé
+lw.install = install
+lw.installing = installation
+lw.other = autre
+lw.info = info
+lw.information = informations
+lw.simple = simple
+lw.host = accueil
+lw.charset = charset
+lw.keywords =" Mots-clés"
+lw.contact = contact
+lw.e-mail =" e-mail"
+language = lw.language
+lw.copyright =" droits d'auteur"
+lw.icon = favicon
+lw.save = sauvegarde
+lw.saved =sauvé
+lw.action = action
+lw.start = début
+lw.home = home
+lw.class = class
+lw.level = niveau
+lw.admin = admin
+lw.admins = admins
+lw.manager = gestionnaire
+lw.manage = Gérer
+lw.priority = priorité
+lw.problem = problème
+lw.execute = execute
+lw.reading lecture =
+lw.processing = traitement
+lw.deny = nier
+lw.denied = refusé
+lw.update = mise à jour
+lw.successfully = succès
+lw.progress = progrès
+lw.error = erreur
+lw.errors = erreurs
+lw.edit = edit
+lw.edits = modifications
+lw.empty = vide
+lw.field = champ
+lw.fields = champs
+lw.time = temps
+lw.times = temps
+lw.tag = tag
+lw.tags = tags
+lw.process = processus de
+lw.full = full
+lw.require = exigent
+lw.registration = inscription
+lw.login = login
+lw.username = nom d'utilisateur
+lw.password = mot de passe
+lw.link = lien
+lw.links = liens
+lw.editor = éditeur
+lw.editors = Une éditeurs
+lw.change = changement
+lw.changes = changements
+lw.prevent = Prevent
+lw.prevents = empêche
+lw.setting = réglage
+lw.settings = réglages
+lw.view = view
+lw.views = Vues
+lw.viewing = visualisation
+lw.show = show
+lw.shows = Affiche
+lw.showing = montrant
+lw.topic = sujet
+lw.topics = Une sujets
+lw.post = post
+lw.posts = Une messages
+lw.last = dernière
+lw.lasts = dure
+lw.reply = réponse
+lw.replys = réponses
+lw.reset = remise à zéro
+lw.resets = réinitialise
+lw.first = premier
+lw.analyzing = analyse
+lw.additions = entrées
+lw.author=auteur
+lw.version=version
+
+lw.sub = sous-
+lw.for = pour
+lw.from = à partir de
+lw.to = pour
+lw.the = l'
+lw.while = tout
+lw.this = ce
+lw.your = votre
+lw.you = vous
+lw.do = faire
+lw.like = comme
+lw.is = est
+lw.tick = tick
+lw.some = quelques
+lw.be = être
+lw.more = plus
+lw.date = date
+lw.end = fin
+lw.start = début
+lw.startpage = page de démarrage
+lw.may = mai
+lw.not = pas
+lw.allow = permettent
+lw.now = maintenant
+lw.one = un
+lw.moment = moment
+lw.ok = ok
+lw.close = fermer
+lw.cancel = annulation
+lw.press = presse
+lw.click = clic
+lw.already = déjà
+lw.ready = prêt
+lw.exist = existe
+lw.here = ici
+lw.type = type de
+lw.on = sur
+lw.really = vraiment
+lw.want = voulez
+lw.auto = auto
+lw.radio = radio
+lw.check = chèque
+lw.select = select
+lw.selected = sélectionné
+lw.checkbox = checkbox
+lw.in = dans
+lw.with = avec
+lw.cause = cause
+lw.all = all
+

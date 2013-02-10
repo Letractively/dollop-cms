@@ -1,0 +1,21 @@
+;///////////////////////////////////////////////////////////////////////
+;
+;	All DOLLOP code is released under the apache LICENSE 2.0
+;	See COPYRIGHT and LICENSE
+;
+;\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+;-===================================================================-
+;	This file will shows to the system, who and how to add scripts
+;-===================================================================-
+;
+;		value 0 is is NOT for add
+;		value 1 is include
+;		value 2 is require
+;
+; The name of string is name of file, without extension.
+
+
+fix_gpc_magic=2
+server_http=1

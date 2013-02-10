@@ -1,0 +1,345 @@
+; ============================================================
+; Last committed:     	$Revision: 5 $
+; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
+; Last changed date:    $Date: 2013-02-07 12:05:11 +0200 (÷åòâ, 07 ôåâð 2013) $
+; ID:            		$Id: design.prop 5 2013-02-07 10:05:11Z fire1.A.Zaprianov@gmail.com $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;;;;;;;;;;;
+; WARNING ;
+;;;;;;;;;;;
+; This is the default settings file for new Dollop installations.
+; By default, Dollop installs itself with a configuration suitable for
+; development purposes, and *NOT* for production purposes.
+; For several security-oriented considerations that should be taken
+
+
+;;;;;;;;;;;;;;;;;;;
+; About this file ;
+;;;;;;;;;;;;;;;;;;;
+; This file controls many aspects of Dollop's behavior.  
+;
+; The syntax of the file is extremely simple.  Whitespace and Lines
+; beginning with a semicolon are silently ignored (as you probably guessed).
+; Section headers (e.g. [Foo]) are also silently ignored, even though
+; they might mean something in the future.
+;
+; Directives are specified using the following syntax:
+; directive = value
+; Directive names are *case sensitive* - foo=bar is different from FOO=bar.
+;
+; The value can be a string, a number, a Dollop constant (e.g. MODULE_DIR or __FILE__), one
+; of the INI constants (On, Off, True, False, Yes, No and None) or an expression
+; (e.g. E_ALL & ~E_NOTICE), or a quoted string ("foo").
+;
+; Expressions in the INI file are limited to bitwise operators and parentheses:
+; |        bitwise OR
+; &        bitwise AND
+; ~        bitwise NOT
+; !        boolean NOT
+;
+; Boolean flags can be turned on using the values 1, On, True or Yes.
+; They can be turned off using the values 0, Off, False or No.
+;
+; An empty string can be denoted by simply not writing anything after the equal
+; sign, or by using the None keyword:
+;
+;  foo =         ; sets foo to an empty string
+;  foo = none    ; sets foo to an empty string
+;  foo = "none"  ; sets foo to the string 'none'
+;
+; If you use constants in your value, and these constants belong to a
+; dynamically loaded extension (either a PHP extension or a Zend extension),
+; you may only use these constants *after* the line that loads the extension.
+;
+; All the values in the php.ini-dist file correspond to the builtin
+; defaults (that is, if no php.ini is used, or if you delete these lines,
+; the builtin defaults will be identical).
+; NOTE
+;################################################################################################
+; This is the main dollop configuration file.  It contains the
+; configuration directives that contain default data and its instructions.
+; See <URL:http://http.fire1.org/dollop/> for detailed information.
+; In particular, see 
+;
+; Do NOT simply read the instructions in here without understanding
+; what they do.  They're here only as hints or reminders.  If you are unsure
+; consult the online docs. You have been warned.  
+;################################################################################################
+;
+; This is configuration for "design.dp.php"
+;
+; If is on will save theme to trunk
+;
+theme.trunkit               =1
+;
+;
+;
+theme.prop_filename         =theme.prop
+;
+;
+; Will force system to use theme from folder.
+; 
+theme.force_to_be           =
+;
+;
+; The default theme spare parts 
+;
+theme.spare_parts           =design/theme/
+;
+;
+; Spare parts folder
+;
+theme.spare_parts_folder    =design/theme/spare_parts/
+;
+;
+; Extension for spare parts
+;
+theme.spare_parts_extension =.tpl
+;
+;
+; Tag in spare parts for replace with content
+;
+theme.spare_parts_tag ={tag}
+;
+;
+; Default spare part header for theme  
+;
+theme.spare_parts_header    =spare_parts/header.tpl
+;
+;
+; URL request string for command theme data and output
+;
+design.urirequest.vendor='dp-theme'
+;
+; Default Text area tags for prop configuration file
+;
+design.textarea.javascript=jscript
+design.textarea.template=template
+design.textarea.ctemplate=ctemplate
+;
+[MAIN]
+;#################################################################################################
+;////////////////////////////////////////////////////////////////  
+; MAIN CONFIGURATION THEME
+;////////////////////////////////////////////////////////////////
+;
+;# NOTE:
+; This is internal configuration for html theme.
+; You may copy [MAIN],[HEADER], and [DEF_HTML_HEADER] sectors from this file, to your theme.prop file.
+; Like this way, you will create external configuration for this sectors.
+; Do not change this configuration, in this file, its recommended!
+;
+;# NOTE: external configuration will be merge with internal.
+;
+;*********************************************************************
+;   -= Theme main Configuration =-
+;*********************************************************************
+;
+; Boolean string, in case value is "1" the system will fill html header tags,
+; ;  with full html tag for gived string. 
+; ;  example: string "PAGETITLE" will be returned with "<title></title>" tags.
+;
+theme.html_header           =1
+;
+;
+; Boolean string, in case value is "1" the system will replace all value
+;  for attributes name "src=" 
+;
+theme.src_in_tags           =1
+;
+;
+;
+; Default css style file to open in theme folder
+;
+theme.default_style         =style.css
+;
+;
+; Mobile css style file to open in theme folder
+;
+theme.mobile_style         =mobile.css
+;
+;
+;
+; With this string system check theme for header html
+;
+theme.html_start_tag        ='<!DOCTYPE html'
+;
+;
+; Default theme file name
+;
+theme.def_filename          =theme
+;
+;
+; Default theme extension
+;
+theme.file_extension        =.html
+;
+;
+; This strings are for segregation  URL request after "?"
+;
+theme.request_parts[]       ='&'
+theme.request_parts[]       ='='
+;
+;
+;
+; This string contains separator for theme file name replaced from upper strings.
+;
+theme.file_separator        ='_'
+;
+;
+;*********************************************************************
+;   -= Template main Configuration =-
+;*********************************************************************
+;
+; Theme prop file name. Note its recommended to use ".prop" extension!
+;
+template.prop_filename         =template.prop
+;
+;
+; Template folder in activated theme 
+;
+template.folder_destination    =templates/
+;
+;
+; Default template file name
+;
+template.def_filename          =template
+;
+;
+; Template file extention
+;
+template.file_extension         =".tpl"
+;
+;
+; This string contains separator for template file name replaced from "theme.request_parts" strings.
+;
+template.file_separator         ="_"
+;
+;
+;#################################################################################################
+;
+; 
+;
+;*********************************************************************
+;   -= Template content Configuration =-
+;*********************************************************************
+;
+;# NOTE:
+; This is internal configuration for templates.
+; You may copy sectors below to your template.prop file to create 
+; external configuration for templates sectors.
+; Do not change this configuration, Its recommended.
+;
+;# NOTE: external configuration will be merge with internal.
+;
+;
+;   MAIN PROP TEMPLATE CONTENT
+;################################################################################################
+[SECTORS]
+sector[]=body
+sector[]=desc
+sector[]=link
+sector[]=sublink
+sector[]=menu
+;
+;   LINK PROP TEMPLATE CONTENT
+;################################################################################################
+[LINK]
+sector[]=title
+sector[]=url
+sector[]=target
+sector[]=sublink
+;
+;   LINK PROP TEMPLATE CONTENT
+;################################################################################################
+[SUBLINK]
+sector[]=title
+sector[]=target
+sector[]=url
+;
+;   MENU PROP TEMPLATE CONTENT
+;################################################################################################
+[MENU]
+sector[]=title
+sector[]=content
+sector[]=sub_content
+;
+;   BODY PROP TEMPLATE CONTENT
+;################################################################################################
+[BODY]
+sector[]=title
+sector[]=content
+sector[]=sub_content
+;
+;   DESC PROP TEMPLATE CONTENT
+;################################################################################################
+[DESC]
+sector[]=content
+;
+;
+;
+;*********************************************************************
+;   -= Theme content Configuration =-
+;*********************************************************************
+;
+;
+;   HEADER PROP INTERNAL CONTENT
+;################################################################################################
+[HEADER]
+;
+;
+; Header html tags for theme
+;
+LANGUAGE={LANGUAGE}
+CHARSET={CHARSET}
+METATAGS={METATAGS}
+KEYWORDS={KEYWORDS} 
+PAGETITLE={PAGETITLE}
+CHARSET={CHARSET}
+JSCRIPT={JSCRIPT}
+STYLECSS={STYLECSS}
+FAVICON={FAVICON}
+;
+;
+;
+;   HEADER PROP INTERNAL CONTENT
+;################################################################################################
+[DEF_HTML_HEADER]
+;
+; Javascript Jquery Library included in head html
+; {design},{jquery} and {jquery_file} tags are setted-up by boot file.
+;
+; jQuery main file
+JSCRIPT[0]    = '{jquery}/{jquery_file}';
+;
+; JavaScript for links in website
+JSCRIPT[2]     = '{design}/theme/jscript/superfish.js';
+JSCRIPT[3]     = '{design}/theme/jscript/superfish.process.js';
+;
+;
+STYLECSS[0]       ="{design}/theme/css/dollop.css";
+STYLECSS[1]       ="{themes}{theme}/style.css";
+;
+;
+;
+;   PHP_INIT PROP INTERNAL CONTENT
+;################################################################################################
+[PHP_INIT]
+; syntax:
+;         string_outpu[]="path_to_file"
+;
+;   The End of file 

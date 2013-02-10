@@ -1,0 +1,20 @@
+[INSTALL]
+;====================
+;   Installation manage file
+;
+
+
+; etc file to add
+;--------------------
+etc=etc/md.prop
+
+
+; sql file to install 
+;--------------------
+sql=tables.sql
+
+
+; php script to add
+;--------------------
+;php=
+

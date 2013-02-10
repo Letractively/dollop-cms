@@ -1,0 +1,32 @@
+BODY, TD {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 12px;
+}
+
+ a.button,  a:visited.button {
+
+text-decoration: none;
+font-weight: bolder;
+border:solid 2px #777;
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+
+margin: 15px;
+background: #444;
+color:#ddd;
+
+border-radius: 15px;
+}
+
+ a:Hover.button{
+color: #fff;
+background: #666;
+}
+
+
+.boxshadow{
+
+box-shadow: 0 0 2px 2px #ccc;
+}

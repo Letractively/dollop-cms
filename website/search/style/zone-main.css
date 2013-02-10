@@ -1,0 +1,14 @@
+.close-button{
+transition: background 0.4s ease;
+-moz-transition: background 0.4s ease;    /* FF3.7+ */
+-o-transition: background 0.4s ease;      /* Opera 10.5 */
+-webkit-transition: background 0.4s ease; /* Saf3.2+, Chrome */
+    float: right;
+    width: 32px;
+    height: 32px;
+    background: url(close.png) no-repeat center center rgba(150,150,150,0.5);
+    cursor: pointer; 
+}
+.close-button:hover{
+    background-color: #000;
+}

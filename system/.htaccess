@@ -1,0 +1,24 @@
+<Files ~ "\.prop$">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.class$">
+Order allow,deny
+Deny from all
+</Files>
+<Files ~ "\.dllp$">
+Order allow,deny
+Deny from all
+</Files>
+
+<Directory ~ "\trunk">
+Order allow,deny
+Deny from all
+</Directory>
+
+<Directory ~ "\hkey">
+Order allow,deny
+Deny from all
+</Directory>
+
+Redirect 301 / ../

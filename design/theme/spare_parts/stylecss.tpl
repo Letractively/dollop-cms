@@ -1,0 +1,1 @@
+<link href="{tag}" rel="stylesheet" type="text/css" />

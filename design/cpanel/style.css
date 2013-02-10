@@ -1,0 +1,268 @@
+div#cpanel-header.head {
+	background-image: url(img/anand-head-bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 50px;
+	width: 100%;
+	position: relative;
+	z-index: auto;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	clear: both;
+	bottom: auto;
+    z-index: 50;
+}
+div#cpanel-header.head div.logo-cpanel {
+	top: 0px;
+	position: absolute;
+	background-image: url(img/dollop-logo.png);
+	height: 43px;
+	width: 198px;
+	left: 10%;
+}
+div#cpanel-header.head .lnksps {
+	left: 40%;
+	position: absolute;
+	top: 0px;
+}
+body #cpanel-header.head .lnksps a {
+        -webkit-transition: all 0.6s ease-in-out;
+        -moz-transition: all 0.6s ease-in-out;
+        -o-transition: all 0.6s ease-in-out;
+        -ms-transition: all 0.6s ease-in-out;
+        transition: all 0.6s ease-in-out;
+	background-image: url(img/anand-button.png) !important;
+	background-repeat: no-repeat !important;
+	height: 44px !important;
+	width: 81px !important;
+        margin:0px;
+	margin-right: 25px !important;
+	float: left !important;
+	position: relative !important;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px !important;
+	color: #0CF !important;
+	text-decoration: none !important;
+        padding: 0px !important;
+}
+body div#cpanel-header.head .lnksps a:hover {
+	background-image: url(img/anand-button-h.png) !important;
+	color: #0FF  !important;
+}/**
+.head .lnksps a:active {
+	background-image: url(img/anand-button-a.png);
+	color: #0FF;
+}**/
+ #cpanel-header div.lnksps a:link img,body #cpanel-header div.lnksps a img {
+	margin-top: 10px !important;
+	border: none !important;
+	margin-bottom: auto !important;
+        padding: 0px !important;
+        padding-left:  0px !important;
+        padding-right:  0px !important;
+        padding-top:  0px !important;
+        padding-bottom:   0px !important;
+	text-align: left !important;
+	vertical-align: top !important;
+        background: none !important;
+    margin-left:24px !important;
+    margin-left:24px !important;
+}
+.error span{}
+.error{
+display:none;
+position:absolute;
+top:48px;
+left:36%;
+width:400px;
+padding:2px;
+background:#0CF;
+border:solid 2px #fff;
+    box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0px 0px 10px  #333 ; 
+    -moz-box-shadow: 0px 0px 10px   #333 ;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;  
+font-size:12px;
+font-family: Arial, Helvetica, sans-serif;
+z-index: 201 !important;
+}
+
+body div.fullpage{
+display:none;
+position:absolute;
+top:48px;
+left:5%;
+width:967px;
+padding:10px;
+margin-left: auto;
+margin-right: auto;
+background:#F0F0F0;
+background-image: url(img/bg-color.png);
+background-position: top;
+background-repeat: repeat-x;
+border:solid 2px #585858;
+    box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0px 0px 10px  #333 ; 
+    -moz-box-shadow: 0px 0px 10px   #333 ;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;  
+font-size:12px;
+font-family: Arial, Helvetica, sans-serif;
+z-index: 200 !important;
+}
+ .auto-height{
+background-color:#fff;   
+ width: 100%;
+  border-width: 0px;
+ border-top-width: 1px;
+ border-top-color: #808080;
+border-style: solid;
+
+}
+body div.fullpage .cp-title{
+    color: #03C9FA;
+    font-size: 32pt;
+        font-family: impact,"Arial Black", Gadget, sans-serif;
+    letter-spacing: 0.2em;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #09F;
+    border-right-color: #09F;
+    border-bottom-color: #09F;
+    border-left-color: #03C9FA;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 4px   #999 ;
+}
+
+body div.fullpage .cp-title .cp-menu a:link{
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    font-family: arial  !important;
+    font-size: 15px  !important;
+    float:right  !important;
+    color:#000  !important;
+    margin-right: 15px;
+    text-decoration: none  !important;
+    letter-spacing: 0.15em  !important;
+}
+body div.fullpage .cp-title .cp-menu a:visited{
+
+    color:#000;
+
+}
+body div.fullpage .close-cp-button, .close-cp-button{
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        right: 10px;
+        top:5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-image: url(img/close_panel.png);
+    position: absolute;
+    
+
+}
+body div.fullpage .close-cp-button:hover{
+border:none;
+border-top: solid #03C9FA 3px;
+top:2px;
+}
+
+body div.fullpage .cp-title .cp-menu a:hover{
+    font-family: arial  !important;
+
+    float:right  !important;
+    color:#03C9FA  !important;
+    margin-right: 15px  !important;
+    text-decoration: none  !important;
+
+    text-shadow: none   !important;
+}
+
+.overlay {
+    z-index: 49 !important;
+    background:rgba(0,0,0,0.3);
+    display:none;
+    width:100%; height:100%;
+    position:absolute; top:0; left:0; z-index:99998;
+}
+
+.lnksps {
+position:absolute !important;
+}
+
+body {
+	margin-left: 0px!important;
+	margin-top: 0px !important;
+	margin-right: 0px!important;
+	margin-bottom: 30px !important;
+}
+a:active {
+	color: #0FF  !important;
+}
+
+body div.fullpage div.cp-title a.cp-fullscreen:hover{
+border:none;
+border-top: solid #03C9FA 3px;
+top:2px;
+}
+
+#cose-cp-error{
+z-index: -1;
+margin-top: 10px;
+margin-right: -52px;
+background-color: #03C9FA;
+border-bottom: solid 2px #fff;
+border-top: solid 2px #fff;
+border-right: solid 2px #fff;
+border-left: solid 0px #fff;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-bottomright: 5px;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;   
+}
+
+body div.fullpage div.cp-title a.cp-fullscreen{
+          -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+right: 50px;
+top:5px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-image: url(img/full_screen.png);
+    position: absolute;
+
+}
+

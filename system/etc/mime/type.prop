@@ -1,0 +1,170 @@
+; ============================================================
+; Last committed:     $Revision: 3 $
+; Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
+; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
+; ID:            $Id: type.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+[mime_type]
+dwg     = application/acad
+asd     = application/astound
+tsp     = application/dsptype
+dxf     = application/dxf
+spl     = application/futuresplash
+gz      = application/gzip
+ptlk    = application/listenup
+hqx     = application/mac-binhex40
+mbd     = application/mbedlet
+mif     = application/mif
+xls     = application/msexcel
+xla     = application/msexcel
+hlp     = application/mshelp
+chm     = application/mshelp
+ppt     = application/mspowerpoint
+ppz     = application/mspowerpoint
+pps     = application/mspowerpoint
+pot     = application/mspowerpoint
+doc     = application/msword
+dot     = application/msword
+bin     = application/octet-stream
+oda     = application/oda
+pdf     = application/pdf
+ai      = application/postscript
+eps     = application/postscript
+ps      = application/postscript
+rtc     = application/rtc
+smp     = application/studiom
+tbk     = application/toolbook
+vmd     = application/vocaltec-media-desc
+vmf     = application/vocaltec-media-file
+xhtml   = application/xhtml+xml
+bcpio   = application/x-bcpio
+z       = application/x-compress
+cpio    = application/x-cpio
+csh     = application/x-csh
+dcr     = application/x-director
+dir     = application/x-director
+dxr     = application/x-director
+dvi     = application/x-dvi
+evy     = application/x-envoy
+gtar    = application/x-gtar
+hdf     = application/x-hdf
+php     = application/x-httpd-php
+phtml   = application/x-httpd-php
+latex   = application/x-latex
+mif     = application/x-mif
+nc      = application/x-netcdf
+cdf     = application/x-netcdf
+nsc     = application/x-nschat
+sh      = application/x-sh
+shar    = application/x-shar
+swf     = application/x-shockwave-flash
+cab     = application/x-shockwave-flash
+spr     = application/x-sprite
+sprite  = application/x-sprite
+sit     = application/x-stuffit
+sca     = application/x-supercard
+sv4cpio = application/x-sv4cpio
+sv4crc  = application/x-sv4crc
+tar     = application/x-tar
+tcl     = application/x-tcl
+tex     = application/x-tex
+texinfo = application/x-texinfo
+texi    = application/x-texinfo
+t       = application/x-troff
+tr      = application/x-troff
+roff    = application/x-troff
+troff   = application/x-troff
+ustar   = application/x-ustar
+src     = application/x-wais-source
+zip     = application/zip
+au      = audio/basic
+snd     = audio/basic
+es      = audio/echospeech
+tsi     = audio/tsplayer
+vox     = audio/voxware
+aif     = audio/x-aiff
+aiff    = audio/x-aiff
+aifc    = audio/x-aiff
+dus     = audio/x-dspeeh
+cht     = audio/x-dspeeh
+mid     = audio/x-midi
+midi    = audio/x-midi
+mp2     = audio/x-mpeg
+ram     = audio/x-pn-realaudio
+ra      = audio/x-pn-realaudio
+rpm     = audio/x-pn-realaudio-plugin
+stream  = audio/x-qt-stream
+wav     = audio/x-wav
+dwf     = drawing/x-dwf
+cod     = image/cis-cod
+ras     = image/cmu-raster
+fif     = image/fif
+gif     = image/gif
+ief     = image/ief
+jpeg    = image/jpeg
+jpg     = image/jpeg
+jpe     = image/jpeg
+tiff    = image/tiff
+tif     = image/tiff
+mcf     = image/vasa
+wbmp    = image/vnd.wap.wbmp
+fh4     = image/x-freehand
+fh5     = image/x-freehand
+fhc     = image/x-freehand
+pnm     = image/x-portable-anymap
+pbm     = image/x-portable-bitmap
+pgm     = image/x-portable-graymap
+ppm     = image/x-portable-pixmap
+rgb     = image/x-rgb
+xwd     = image/x-windowdump
+xbm     = image/x-xbitmap
+xpm     = image/x-xpixmap
+csv     = text/comma-separated-values
+css     = text/css
+htm     = text/html
+html    = text/html
+shtml   = text/html
+js      = text/javascript
+txt     = text/plain
+rtx     = text/richtext
+rtf     = text/rtf
+tsv     = text/tab-separated-values
+wml     = text/vnd.wap.wml
+wmlc    = application/vnd.wap.wmlc
+wmls    = text/vnd.wap.wmlscript
+wmlsc   = application/vnd.wap.wmlscriptc
+xml     = text/xml
+etx     = text/x-setext
+sgm     = text/x-sgml
+sgml    = text/x-sgml
+talk    = text/x-speech
+spc     = text/x-speech
+mpeg    = video/mpeg
+mpg     = video/mpeg
+mpe     = video/mpeg
+qt      = video/quicktime
+mov     = video/quicktime
+viv     = video/vnd.vivo
+vivo    = video/vnd.vivo
+avi     = video/x-msvideo
+movie   = video/x-sgi-movie
+vts     = workbook/formulaone
+vtts    = workbook/formulaone
+3dmf    = x-world/x-3dmf
+3dm     = x-world/x-3dmf
+qd3d    = x-world/x-3dmf
+qd3     = x-world/x-3dmf
+wrl     = x-world/x-vrml

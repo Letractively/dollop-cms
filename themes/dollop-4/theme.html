@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+
+{LANGUAGE}
+{CHARSET}
+{PAGETITLE}
+{STYLECSS}
+{JSCRIPT}
+
+<script type="text/javascript">
+  $().ready(function() {
+           $(".page").height($(document).height());
+   }); 	 
+</script>
+</head>
+
+<body>
+
+<div class="upper">
+	<div class="logo"><img src="img/frog-dollop.png" width="150" height="194" alt="dollop" /></div>
+	<div class="header">
+  
+
+		<ul class="links"> {LINK} </ul>
+
+
+	</div>
+</div>
+
+<div class="page">
+<div class="space"></div>
+<div class="wr-menu">
+{MENU[1]} 
+{MENU[2]}
+
+
+</div>
+
+<div class="wr-body">
+<div class="body_transparent">{BODY}</div>
+</div>
+</div>
+
+</body>
+</html>

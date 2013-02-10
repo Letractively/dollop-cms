@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#gallery {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+        width: 100%;
+        margin: auto;
+}
+#gallery ul{margin: auto;width: auto;}
+#gallery li{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    font-weight: 700;
+    background: rgba(110,110,110,0.3) !important;
+    float: left;
+	width: 80px;
+	height: 80px;
+        padding: 40px;
+	display: block;
+	overflow: hidden;
+        color: #000;
+        margin: 10px;
+        border-radius: 80px;
+}
+#gallery li:hover{
+    color: #fff;
+    background-color: rgba(0,0,0,1)!important;
+    border-radius: 0%;
+}
+.video{
+	background: #000; 
+}
+
+
+

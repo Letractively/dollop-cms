@@ -1,0 +1,18 @@
+.dollop-diagram-memory{
+color: #03C9FA;
+position: fixed;
+height: 15px;
+background: #000;
+border:solid 1px #03C9FA;
+    box-shadow: 0 0 10px #333;
+bottom: 0px;
+right: 0px;
+padding: 10px;
+opacity:0.4;
+filter:alpha(opacity=40); 
+cursor: pointer;
+}
+.dollop-diagram-memory:hover{opacity:1;filter:alpha(opacity=100); }
+.dollop-diagram-memory-content{box-shadow: 0 0 10px #333; width:1026px; height: 402px; bottom: 55px;background-color: #fff;
+right: 0px;position: fixed; border:solid 1px #03C9FA;color: #03C9FA;-moz-border-radius: 5px;
+border-radius: 5px;  }

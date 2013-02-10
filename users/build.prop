@@ -1,0 +1,212 @@
+;**********************************************
+;**********************************************
+;# Module build configuration file
+;**********************************************
+;**********************************************
+;
+;
+;##############################################
+;##############################################
+; MAIN configuration
+;##############################################
+;##############################################
+[MAIN]
+;##############################################
+;	Module name 
+;##############################################
+;
+module.name                             ='users'
+;
+;##############################################
+;	Module Version 
+;##############################################
+;
+module.version				=2,1
+;
+;##############################################
+;	Module compatible with kernel version 
+;##############################################
+;
+module.vkernel				=1,1
+;
+;
+;'templates/'
+module.templates			=templates/
+;
+;
+;   Language folder
+;
+;language/
+module.language                         =language/
+;
+;
+[FACIAL]
+;
+;
+;##############################################
+;##############################################
+; FACIAL SECTION
+;##############################################
+;##############################################
+;
+;   Language file
+;
+;_lan.php
+module.facial.lan.file                  =_lan.php
+;
+;
+;##############################################
+; File to be load at enter in module  
+;##############################################
+;# Init string. If is "0" (null) must use: 
+;	"module.facial.url.[url request]=[path to file]"
+;
+module.facial.source 			=0
+;
+;
+; Execute files from folder
+;----------------------------------------------
+;
+module.facial.url.=src/main.php
+module.facial.url.main=src/main.php
+module.facial.url=src/main.php
+module.facial.url.avatar=src/avatar.php
+module.facial.url.process=src/process.php
+module.facial.url.register=src/register.php
+module.facial.url.valid=src/valid.php
+module.facial.url.forgotpass=src/forgotpass.php
+module.facial.url.useredit=src/useredit.php
+module.facial.url.logout=src/logout.php
+module.facial.url.messages=src/messages.php
+module.facial.url.edit=src/edit.php
+module.facial.url.view=src/view.php
+
+;;
+;; Social networks pages:
+module.facial.url.twitter=src/twitter.php
+module.facial.url.facebook=src/facebook.php
+module.facial.url.google=src/google.php
+
+module.facial.url.datacheck=src/datacheck.php
+
+; Social Network Login
+;----------------------------------------------
+;
+; Require email from social networks  
+users.require.mail=1
+
+module.socialnetworks=1
+;
+;   Twitter
+; (https://dev.twitter.com/apps)
+twitter.consumer.key=Umiho9lt9jCktIi7fJJ59A
+twitter.consumer.secret=oxSfa9kta5ITWpt8GdfxviIStwuU1QsedeG8Mkv7E
+;
+;   Facebook
+;   (https://www.facebook.com/developers/) 
+;       NOTE: "Website with Facebook Login" must be http://[domain.name]/users/facebook
+facebook.consumer.key=215698545223593
+facebook.consumer.secret=c0db4e6592598de8a18dc06ffe85cc5d
+;
+;   Google
+;   (https://code.google.com/apis/console/)
+google.consumer.key="878207875649.apps.googleusercontent.com"
+google.consumer.secret="rOuqajPFG96_Wcymy_U6F52P"
+google.developer.key="AIzaSyC1DrvZzdOwHeFizhan-dRIxlpTaXt-1YY"
+; [Provide this URL as the Callback URL for your website http://domainname.com/users/google]
+;
+;
+; Email Configuration
+;----------------------------------------------
+;
+; The type of sendet mail
+;   Avalible commands are: `text`,`html`
+users.mail.type=text
+;
+;
+; It will require user to verify mail after registration
+;   Avalible commands are: On/Off (0/1)
+users.mail.proof=0
+;
+;----------------------------------------------
+;
+;
+;# if "module.admin.admin" is 0 must 
+;	fill full value with destination to files in 
+;	"module.fac.url.*" string
+;
+module.admin.source             =admin/admin.php
+;
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+; Include sector
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   NOTE basic this varibles are for folders 
+;   inclde "/" at end of value
+;
+;PHP:
+module.facial.includes		=include/
+;JS:
+module.facial.javascript	=javascript/
+;CSS:
+module.facial.css               =css/
+; 
+; Change include path to start from module`s directorie
+;
+module.facial.include_path=0
+;
+[CPANEL]
+;##############################################
+;##############################################
+; ADMIN SECTION
+;##############################################
+;##############################################
+;
+; Module Manager Root folder
+module.manager.main             =manager/
+; (all data below is attached after main manager dir)
+;
+;
+; prop files with privilege:
+module.manager.privilege        =privilege/
+;
+; Manager files:
+module.manager.source			=source/
+;
+; Manager source files
+module.manager.includes         =include/
+;
+; FRAMEWORK
+;
+; Module Manager Cover Image
+module.manager.cover            =framework/img/cover.jpg
+;
+; Module Manager icon image
+module.manager.icon		        =framework/img/icon.png
+;
+; Mudule Manager CSS
+module.manager.css              =framework/css/
+;
+; Module Manager Javascript
+module.manager.js		        =framework/js/
+;
+;
+; If is empty will use def value "template" folder
+;
+module.manager.template 				=templates/
+;
+[INSTALL]
+;##############################################
+;##############################################
+;
+; folder for instalation:
+;
+kernel.install=install
+;
+kernel.depends=install
+;
+[BOOT]
+;##############################################
+;##############################################
+;
+
+
