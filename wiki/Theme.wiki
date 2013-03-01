@@ -52,7 +52,7 @@ As you can see, Dollop has different types of files and structure. When you cust
 
  
 
-==Mobile Theme==
+===Mobile Theme===
 
 Your website mobile theme is contained in subfolder called by default "mobile". Also the mobile templates sets  for theme and modules are placed in the same sub-folder (mobile). 
 
@@ -60,7 +60,7 @@ You should know also, the changing name of mobile folder from  "boot file" will 
 
  
 
-Sensitivity in HTML tags sectors
+===Sensitivity in HTML tags sectors===
 
 {{{
  {LANGUAGE}
