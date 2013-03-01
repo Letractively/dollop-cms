@@ -1,4 +1,4 @@
-#labels Phase-Implementation,Phase-Support
+#labels Phase-Implementation,Phase-Support,Featured
 <h2>Basic of functionality</h2>
 The universal construction of files and folders in Dollop gives you opportunity to easy manage and develop different types of modules and add-ons. What we mean when we saying modules and add-ons, what's are differences and importance. <br>The modules in Dollop are folders that's contents basics functionality sectors like already knowable part of websites, users, news, blogs and etc.<br>The add-ons are the sub-functionality in the modules. I will give you one quick example to understand me correctly. Lets say we have module "news" in our website and we need to add a comment to already created module. The solution is very easily. We just need to add comment add-on in add-on folder build.prop int configuration will supply part of configuration that's needed by installation of "comment" add-on. I must note here if you are new to Dollop, that the all installations in platform Dollop are only executable inlet from users that's have access to Control Panel. The customisation of HTML design can be done by editing a default comment template file in module "news" or just copy template file in used theme and modified from there.<br>One of futures of Dollop is to show all available searched templates and themes sub files.
 Note:<br> When installing the Dollop CMS kernel class is used like a real class<br> in other cases kernel class is  used in static mode, working only with functions.<br>This does not mean, the function do not interact one with other function.
@@ -39,4 +39,3 @@ When Control Panel is active, the "kernel" extend the system to comprehensive da
 </blockquote>
 <h3>Templates</h3>
 <strong></strong>Templates are available in three Dollop system sectors in priority order like, theme templates, external script templates and spear parts (system default). The HTML template sectors in theme don not have limit of numer, to create your custom sectors (tags) . <br>In order to create your custom template with replacement tags follow the link to <strong>template tutorial</strong>.
-
