@@ -58,7 +58,10 @@ This is the default settings file for new Dollop installations.
   
     It's highly required to NOT USE arrays in this file,  like:
     `string[]=a`
+
     `string[]=b`
+
     `string[]=c`
+
         THIS USE OF STRINGS WILL CRUSH THE CMS!!!
  
