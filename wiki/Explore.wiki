@@ -1,0 +1,91 @@
+#labels Phase-Implementation,Phase-Support
+Basic of functionality
+
+The universal construction of files and folders in Dollop gives you opportunity to easy manage and develop different types of modules and add-ons. What we mean when we saying modules and add-ons, what's are differences and importance. 
+The modules in Dollop are folders that's contents basics functionality sectors like already knowable part of websites, users, news, blogs and etc.
+The add-ons are the sub-functionality in the modules. I will give you one quick example to understand me correctly. Lets say we have module "news" in our website and we need to add a comment to already created module. The solution is very easily. We just need to add comment add-on in add-on folder build.prop int configuration will supply part of configuration that's needed by installation of "comment" add-on. I must note here if you are new to Dollop, that the all installations in platform Dollop are only executable inlet from users that's have access to Control Panel. The customisation of HTML design can be done by editing a default comment template file in module "news" or just copy template file in used theme and modified from there.
+One of futures of Dollop is to show all available searched templates and themes sub files.
+
+Note:
+ When installing the Dollop CMS kernel class is used like a real class
+ in other cases kernel class is  used in static mode, working only with functions. 
+This does not mean, the function do not interact one with other function. 
+
+ 
+
+Boot file
+
+The format of this file is init.
+This file contending all configuration of website. It's very imported to have backup of this file with your last changes. Other options available for this file are glue code and master initial configuration, allow you to manipulate whole website.
+
+ 
+
+ Glue code 
+
+This option can attach PHP script with custom configuration and variables used by the external source to main source of Dollop.
+
+ 
+
+Master/Slave configuration
+
+Other good future you can examine is master/slave configuration. The idea of this is to load your desired configuration without unpleasant search in configuration fies.
+To perform this operation, you must prepare "[BOOT].prop" and fill needed strings with data.
+Now upload file in to root of website and erase "config.php" and reload your website. Click submit on showed form and "next" on second page of installation shield. This operation will re-build Dollop configuration.
+In future I will show all default configuration strings used in Dollop.
+
+ 
+
+Classes from class library
+
+Now is time to mention how to load the PHP classes from class library.
+Classes are grouped in folders like HTML, MySQL and etc. Like this way you can use many different class that have same use or functionality.
+One good example, loading mysql_air class like $mysql=new mysql_ai;
+This will load "ai.php" class feom mysql folder.
+
+ 
+
+System file association
+
+***
+
+
+Module
+
+We offer a constantly growing number of new website features that can be easily added to your website at any time. Add-ons are simpler features that do not require a management interface, whereas modules are more complex features that come with a management interface integrated to the main Dollop 4 management functionality. 
+
+More about Module file association can be found here.
+
+ 
+
+Rebooting (new configuration data)
+
+Тo renew boot configuration of Dollop, you need to erase config.php file from web root directory and Dollop script will load again [BOOT].dp file.
+
+ 
+
+Quick note
+
+Boot file contains hex keys for whole website configuration of Dollop. Changing this data will mess up your website functionality.
+
+ 
+
+Theme 
+
+The theme in Dollop is facial, html fila used by the Dollop CMS to contribute your design in your website. 
+Themes used by Dollop are based on HTML,CSS and JavaScript files. Therefore this limit many options are available from Dollop design treatment. 
+One of opportunity that offert Dollop are custom HTML header, sub theme files, sub request theme files 
+data, custom init-tags and etc. 
+The theme init configuration is merged with Dollop design init configuration, so this allows you to create the website theme without filling every time initialization data. You can create your own theme with using this tutorial.
+
+ Keep in mind, the whole website design dependent on caches, so every time when you do some changes in website it required to be logged as admin.
+
+When Control Panel is active, the "kernel" extend the system to comprehensive data.
+
+ 
+
+Templates
+
+Templates are available in three Dollop system sectors in priority order like, theme templates, external script templates and spear parts (system default). The HTML template sectors in theme don not have limit of numer, to create your custom sectors (tags) . 
+In order to create your custom template with replacement tags follow the link to template tutorial.
+
+ 
