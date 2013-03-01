@@ -1,17 +1,18 @@
 #labels Phase-Requirements,Phase-Deploy,Featured
 =REQUIREMENTS AND NOTES=
+---- 
 
-- LINUX web server.
-- Apache version 2.0 (or higher) is recommended.
-- *The `RewriteEngine` is required! Check the `.htaccess` file for more info.
-- PHP 5.3 (or higher GD library pack is required ) .
-- MySQL 5.0.15 (or higher) (http://www.mysql.com/).
+ LINUX web server.
+ Apache version 2.0 (or higher) is recommended.
+ The `RewriteEngine` is required! Check the `.htaccess` file for more info.
+ PHP 5.3 (or higher GD library pack is required ) .
+ MySQL 5.0.15 (or higher) (http://www.mysql.com/).
 
 NOTE:
 At the moment Dollop can be run properly only on a Linux server with Apache 2 and Mysql database.
 
 =INSTALLATION PREPARATIONS=
-
+---- 
 - Confirm that the user under which Apache runs has permission to write into the website directory.
 - Check can be done e.g. via `ls -la` command on the website root directory. To fix this you may use this command `chown -hR www-data /var/www/`
 - Confirm that the mcrypt extension is installed and running properly . 
@@ -21,7 +22,7 @@ At the moment Dollop can be run properly only on a Linux server with Apache 2 an
 - Confirm that the Mysql process is running on the server.
 
 =INSTALLATION=
-
+---- 
 ==1. Download and extract Dollop.==
 
 You can obtain the latest Dollop release from http://fire1.eu -- "dollop files"
