@@ -1,7 +1,7 @@
 #labels Phase-Design
 ===Main path for modules:===
 
-website request is: http://website.com/{module}/{request}?id=1
+website request is: `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -11,7 +11,7 @@ open files:
 
 ===Full path for modules:===
 
-website request is: http://website.com/{module}/{request}?id=1
+website request is: `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -23,7 +23,7 @@ open files:
 
 ===Incomplete path for modules:===
 
-website request is: http:/website.com/{module}/{request}?id=1
+website request is: `http:/website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -35,7 +35,7 @@ open files:
 
 ===Main path for themes:===
 
-website request is: http://website.com/{module}/{request}?id=1
+website request is: `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -45,7 +45,7 @@ themes/{theme}/templates/{module}/{request}/template_{html_sector}.tpl
 
 ===Full path for themes:===
 
-website request is:  http://website.com/{module}/{request}?id=1
+website request is:  `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -55,7 +55,7 @@ themes/{theme}/templates/{module}/{request}/template_{html_sector}_id_1.tpl
 
 ===Incomplete path for themes:===
 
-website request is: http://website.com/{module}/{request}?id=1
+website request is: `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -65,7 +65,7 @@ themes/{theme}/templates/{module}/{request}/template_{html_sector}_id.tpl
 
 ===Short path for themes:===
 
-website request is: http://website.com/{module}/{request}?id=1
+website request is: `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
@@ -75,7 +75,7 @@ themes{theme}/templates/id.tpl
 
 ===Default path for themes:===
 
-website request is:  http://website.com/{module}/{request}?id=1
+website request is:  `http://website.com/{module}/{request}?id=1`
 
 open files:
 {{{
