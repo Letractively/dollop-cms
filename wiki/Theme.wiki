@@ -46,7 +46,7 @@ Now you're ready! You can activate your theme from the Control Panel.
 ==Advanced HTML Design==
 
 Do not think that all the html design ends here - the Dollop project has 3 types of design - system design from modules, custom design from themes and spare parts for emergency mode in case something is missing .
-Before we continue you must review the HTML Design Path Names, in case you've missed it. 
+Before we continue you must review the HTMLDesignPaths Names, in case you've missed it. 
 
 As you can see, Dollop has different types of files and structure. When you customise your prop. files with data desired to modify your design theme, design can end in seconds with maximum flexibility.
 
