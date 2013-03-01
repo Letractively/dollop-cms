@@ -1,4 +1,4 @@
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
  
 =BOOT file=
 This file contending all configuration of website. It's very imported to have backup of this file with your last changes. 
