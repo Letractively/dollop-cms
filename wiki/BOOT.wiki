@@ -23,8 +23,7 @@ This is the default settings file for new Dollop installations.
   Directive names are *case sensitive* - foo=bar is different from FOO=bar.
  
   The value can be a string, a number, a Dollop constant (e.g. `MODULE_DIR` or `__FILE__`), one
-  of the INI constants (On, Off, True, False, Yes, No and None) or an expression
-  (e.g. E_ALL & ~E_NOTICE), or a quoted string ("foo").
+  of the INI constants (On, Off, True, False, Yes, No and None) or an expression, or a quoted string ("foo").
  
   Expressions in the INI file are limited to bitwise operators and parentheses:
   |        bitwise OR
@@ -56,11 +55,11 @@ This is the default settings file for new Dollop installations.
 
   ==IMPORTANT NOTE==
   
-    It's highly required to NOT USE arrays in this file,  like:<br />
+    It's highly required to NOT USE arrays in this file,  like:
 
-    `string[]=a`
-    `string[]=b`
-    `string[]=c`
+    `string[]=a` Empty array kay 
+    `string[]=b` or listing with empty keys
+
 
         THIS USE OF STRINGS WILL CRUSH THE CMS!!!
  
