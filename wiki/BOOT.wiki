@@ -1,6 +1,9 @@
 #labels Phase-Implementation
  
 =BOOT file=
+This file contending all configuration of website. It's very imported to have backup of this file with your last changes. 
+
+*The contents of this file (INI) is treated as master and can substitute values ​​from other properties (.prop) files. *
 
 This is the default settings file for new Dollop installations.
   By default, Dollop installs itself with a configuration suitable for
@@ -19,7 +22,7 @@ This is the default settings file for new Dollop installations.
   they might mean something in the future.
  
   Directives are specified using the following syntax:
-  directive = value
+  `directive = value`
   Directive names are *case sensitive* - foo=bar is different from FOO=bar.
  
   The value can be a string, a number, a Dollop constant (e.g. `MODULE_DIR` or `__FILE__`), one
