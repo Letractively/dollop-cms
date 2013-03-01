@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: main.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 121 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+ * ID:                  $Id: main.php 121 2013-03-01 13:54:10Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,15 +20,17 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop Users
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
+
+
 if (!defined('FIRE1_INIT')) {
     header("location:error400");
     exit();
@@ -139,10 +141,10 @@ oth;
         callback_users();
         $url = HOST . request_uri();
         $js = <<<js
-    <meta property="og:image" content="{$avatar}" /> 
-    <meta property="og:description" content="{$usr[USERS_SQLTBL_COL_UNAME]}" /> 
-    <meta property="og:url" content="{$url}"> 
-    <script type="text/javascript"> 
+    <meta property="og:image" content="{$avatar}" />
+    <meta property="og:description" content="{$usr[USERS_SQLTBL_COL_UNAME]}" />
+    <meta property="og:url" content="{$url}">
+    <script type="text/javascript">
 $(document).ready(function(){
             $(".usr-avt").hover(function(){
             $(".usr-avt-option").slideToggle(500);

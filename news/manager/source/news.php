@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 5 $
- * Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:    $Date: 2013-02-07 12:05:11 +0200 (÷åòâ, 07 ôåâð 2013) $
- * ID:       $Id: news.php 5 2013-02-07 10:05:11Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 121 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+ * ID:       $Id: news.php 121 2013-03-01 13:54:10Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,9 +44,9 @@ function news_category($category = null) {
             $slct = null;
         }
         $option.= <<<eol
-<option value="{$row['title']}" {$slct} >{$row['title']}</option>        
+<option value="{$row['title']}" {$slct} >{$row['title']}</option>
 eol;
-        
+
     }
     return $option;
 }
@@ -55,7 +55,7 @@ if (isset($_POST['cat_new']) && !empty($_POST['cat_new'])) {
     $_POST = stripslashes_deep($_POST);
     $_POST['cat_new'] = (htmlspecialchars(trim(addslashes($_POST['cat_new']))));
     $_POST['cat_des'] = addslashes($_POST['cat_des']);
-    mysql_query("INSERT INTO `" . PREFIX . "news_category`(`title`,`description`) 
+    mysql_query("INSERT INTO `" . PREFIX . "news_category`(`title`,`description`)
             VALUES('{$_POST['cat_new']}','{$_POST['cat_des']}');") or ($mysql_error = mysql_error());
 }
 // INSERT
@@ -69,7 +69,7 @@ if (isset($_POST[$sector_insert])) {
     } else {
         $category = $_POST['cat'];
     }
-    mysql_query("INSERT INTO `" . PREFIX . "news_content`(`title`,`body`,`image`,`description`,`keywords`,`timestamp`,`category`) 
+    mysql_query("INSERT INTO `" . PREFIX . "news_content`(`title`,`body`,`image`,`description`,`keywords`,`timestamp`,`category`)
             VALUES(
 
             '{$_POST['title']}',
@@ -93,9 +93,9 @@ if (isset($_POST["{$sector_edit}-this"]) && !empty($_POST['id'])) {
     } else {
         $category = $_POST['cat'];
     }
-    mysql_query("UPDATE  `" . PREFIX . "news_content` 
+    mysql_query("UPDATE  `" . PREFIX . "news_content`
 
-            SET  
+            SET
             `title` =    '{$_POST['title']}',
             `body`  =    '{$_POST['body']}',
             `image` =    '{$_POST['image']}',
@@ -103,7 +103,7 @@ if (isset($_POST["{$sector_edit}-this"]) && !empty($_POST['id'])) {
             `keywords`='{$_POST['tag']}',
 
             `category`='{$category}'
-            
+
 
             WHERE `ID`='{$_POST['id']}' ;
 
@@ -150,11 +150,9 @@ $data_upl
 // content data array
 );
 $operations.= '</ul>';
-if (empty($_SESSION['picture'])) {
+
     $image = $r['image'];
-} else {
-    $image = $_SESSION['picture'];
-}
+
 $SUBBODY[$sector_insert] = <<<eol
 
 
@@ -165,18 +163,12 @@ $SUBBODY[$sector_insert] = <<<eol
 <p align="center">
 
 </p>
-<p> 
+<p>
 <table width="80%" border="0" align="center" cellpadding="8" cellspacing="0">
 <tr>
-<td width="10%">&nbsp;</td>
-<td> 
-<script>
-
-               
-    
-
-</script>
-{$operations}  <input type="text" name="image" value="{$image}" style="width:20%;"  /></td>
+<th width="10%" align="right">{$language['lw.image']}:</th>
+<td>
+{$operations}  <input type="text" name="image" value="{$image}" style="width:20%;" id="image" class="upload_image" /></td>
 </tr>
 <tr>
 <td height="5px"></td>
@@ -196,38 +188,38 @@ $(document).ready(function(){
 <div style="display:block;">
     <div style="width:35%; display:inline-block;" >
         <label for="{$sector}-title"><small> {$language['main.cp.news']} {$language['lw.title']}:</small><br />
-            <input type="text" name="title"  value="{$r['title']}" id="{$sector}-title" />       
-        </label>
-    </div> 
-      
-     <div style="width:35%; display:inline-block;" >
-        <label for="{$sector}-tag"><small> {$language['main.cp.news']} {$language['lw.tags']}:</small><br />
-            <input type="text" name="tag"  value="" id="{$sector}-tag" />    
+            <input type="text" name="title"  value="{$r['title']}" id="{$sector}-title" />
         </label>
     </div>
-    
+
+     <div style="width:35%; display:inline-block;" >
+        <label for="{$sector}-tag"><small> {$language['main.cp.news']} {$language['lw.tags']}:</small><br />
+            <input type="text" name="tag"  value="" id="{$sector}-tag" />
+        </label>
+    </div>
+
     <div style="width:2%; display:inline-block; " id="button-{$sector_insert}-ctegory-switch" title="{$language['lw.new']}  {$language['lw.category']} / {$language['lw.categories']}">
         <span class="ui-state-default ui-corner-all" id="button-{$sector_insert}-ctegory-switch" style="float:right">
             <span class="ui-icon ui-icon-carat-2-n-s" ></span>
         </span>
     </div>
-    
+
     <div style="width:25%; display:inline-block; max-height: 42px;" >
-        
+
         <div class="{$sector_insert}-ctegory-switch" style="display:none;">
             <label for="{$sector}-category"><small>{$language['lw.new']} {$language['main.cp.news']} {$language['lw.category']}:</small><br />
                 <input type="text" name="cat_new"  value="" id="{$sector}-category" />
             </label>
         </div>
-        
+
         <div class="{$sector_insert}-ctegory-switch">
             <label for="{$sector}-category"><small> {$language['main.cp.news']} {$language['lw.categories']}:</small><br />
             <select name="cat" id="{$sector}-category">
                 {$cat_opt}
-            </select>   
+            </select>
             </label>
         </div>
-    
+
     </div>
 </div>
 
@@ -244,8 +236,8 @@ $(document).ready(function(){
   <tr>
         <td colspan="2" align="center">
         <input type="submit" name="{$sector_insert}" id="button" value="{$language['lan.submit']}" />
-        </td> 
-        
+        </td>
+
     </tr>
 
 </table>
@@ -277,11 +269,9 @@ $data_upl
 // content data array
 );
 $operations.= '</ul>';
-if (empty($_SESSION['picture'])) {
+
     $image = $r['image'];
-} else {
-    $image = $_SESSION['picture'];
-}
+
 $SUBBODY[$sector_edit] = <<<eol
 
 
@@ -291,13 +281,12 @@ $cat_opt
 <p align="center">
 {$mysql_error}{$edit_info}
 </p>
-<p> 
+<p>
 <table width="80%" border="0" align="center" cellpadding="8" cellspacing="0">
 <tr>
-<td width="10%">&nbsp;</td>
-<td> 
-
-    {$operations}  <input type="text" name="image" value="{$image}" style="width:20%;"  />
+<th width="10%" align="right">{$language['lw.image']}:</th>
+<td>
+    {$operations}  <input type="text" name="image" value="{$image}" style="width:20%;" id="image" class="upload_image" />
 </td>
 </tr>
 <tr>
@@ -318,23 +307,23 @@ $(document).ready(function(){
 <div style="display:block;">
     <div style="width:35%; display:inline-block;" >
         <label for="{$sector}-title"><small> {$language['main.cp.news']} {$language['lw.title']}:</small><br />
-            <input type="text" name="title"  value="{$r['title']}" id="{$sector}-title" />       
-        </label>
-    </div> 
-      
-     <div style="width:35%; display:inline-block;" >
-        <label for="{$sector}-tag"><small> {$language['main.cp.news']} {$language['lw.tags']}:</small><br />
-            <input type="text" name="tag"  value="{$r['keywords']}" id="{$sector}-tag" />    
+            <input type="text" name="title"  value="{$r['title']}" id="{$sector}-title" />
         </label>
     </div>
-    
+
+     <div style="width:35%; display:inline-block;" >
+        <label for="{$sector}-tag"><small> {$language['main.cp.news']} {$language['lw.tags']}:</small><br />
+            <input type="text" name="tag"  value="{$r['keywords']}" id="{$sector}-tag" />
+        </label>
+    </div>
+
     <div style="width:2%; display:inline-block; " id="button-{$sector_edit}-ctegory-switch" title="{$language['lw.new']}  {$language['lw.category']} / {$language['lw.categories']}">
         <span class="ui-state-default ui-corner-all" id="button-{$sector_edit}-ctegory-switch" style="float:right">
             <span class="ui-icon ui-icon-carat-2-n-s" ></span>
         </span>
     </div>
-    
-    <div style="width:25%; display:inline-block; max-height: 42px;" >  
+
+    <div style="width:25%; display:inline-block; max-height: 42px;" >
         <div class="{$sector_edit}-ctegory-switch" style="display:none;">
             <label for="{$sector}-category"><small>{$language['lw.new']} {$language['main.cp.news']} {$language['lw.category']}:</small><br />
                 <input type="text" name="cat_new"  value="" id="{$sector}-category" />
@@ -344,10 +333,10 @@ $(document).ready(function(){
             <label for="{$sector}-category"><small> {$language['main.cp.news']} {$language['lw.categories']}:</small><br />
             <select name="cat" id="{$sector}-category">
                 {$cat_opt}
-            </select>   
+            </select>
             </label>
         </div>
-    
+
     </div>
 </div>
 
@@ -364,8 +353,8 @@ $(document).ready(function(){
   <tr>
         <td colspan="2" align="center">
         <input type="submit" name="{$sector_edit}-this" id="button" value="{$language['lan.submit']}" />
-        </td> 
-        
+        </td>
+
     </tr>
 
 </table>

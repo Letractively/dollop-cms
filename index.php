@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:     $Revision: 5 $
- * Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:    $Date: 2013-02-07 12:05:11 +0200 (÷åòâ, 07 ôåâð 2013) $
- * ID:       $Id: index.php 5 2013-02-07 10:05:11Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 118 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
+ * ID:       $Id: index.php 118 2013-02-14 14:45:23Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +20,7 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Index file, the contant with all resurces
  * @package dollop
  * @subpackage dollop construction
@@ -54,7 +54,7 @@ if (file_exists(ROOT . SRCDR . "lib/inc/" . $file)) {
 }
 //
 // Required functions for website.
-require_once (ROOT . $libsysdir . $file); 
+require_once (ROOT . $libsysdir . $file);
 build_inc($libsysdir); // system functions
 build_inc($binsysdir); // execute functions
 build_inc($arrsysdir); // execute array data functions
@@ -112,4 +112,5 @@ kernel::set_header();
 theme::theme_echo();
 //  Adding glueCode to index at end
 kernel::glueCode("index.end");
+
 ?>

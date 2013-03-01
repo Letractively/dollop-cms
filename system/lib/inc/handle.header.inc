@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: handle.header.inc 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 119 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+ * ID:                  $Id: handle.header.inc 119 2013-02-22 14:58:55Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -160,8 +160,13 @@ function header_location($uri = null, $exit = false, $debug = false) {
     } elseif (request_uri() == "/" OR request_uri() != $uri) {
         header("location: {$uri} ");
         $chk = "false";
+        // Problem!
+        // Must be "== 1 " to login from first POST set!
         // execut header location only once
-    } elseif ($header_location == 1) {
+        // On Windows XP $header_location == 1 will loop endless
+        // Changet to 2 for fixing XP
+        //    } elseif ( ($header_location == 2 &&empty($_POST)) OR  ($header_location == 1 &&isset($_POST))) {
+    } elseif ($header_location == 1 OR isset($_POST)) {
         if ($b['name'] != "Unknown" && $_SESSION['header_location'] <= 2) {
             header("location: {$uri} ");
         }

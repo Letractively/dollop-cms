@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     $Revision: 3 $
-; Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-; ID:            $Id: lan.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     $Revision: 121 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+; ID:            $Id: lan.prop 121 2013-03-01 13:54:10Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@
 error.numerical             = 'Error in"URL" link! Please check the link.'
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   News 
+;   News
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 web.news                    = News.
 web.news.articles           = Article.
@@ -34,13 +34,26 @@ web.news.mont               = News from this month.
 web.news.empty              ='No news yet.'
 web.news.nonew              ='No change.'
 
-web.captcha                    =Type security code from image:
-web.captcha.err                ='Sorry, the security code is invalid! Please try it again.'
+web.captcha                 =Type security code from image below:
+web.captcha.err             ='Sorry, the security code is invalid! Please try it again.'
+web.messages.in             ='<br />
+You are receiving this message because the user ( {username} ) wishes to share content with you.
+<strong>{link}</strong>
+<p>If you think that getting this message is abuse, please contact us {site_mail}.</p>
+'
+web.mess.button.t           =' Share the content with Personal Message'
+web.emailing.in             ='Link to this article will be sent to specify email addresses.'
+web.mail.button.t           ='Share the content with e-mail';
+web.emailing.sn.b           ='The email message was sent successfuly!<br /><br /> Thank you for using our mail form'
+web.emailing.sn.a           ='Thank you for using our contact form'
+soc.mess.ttl                ='Messaging';
+soc.mail.ttl                ='Mailing';
+shr.mail.ttl                ='Content Share';
 
 
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   General 
+;   General
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 lan.back                        = back
@@ -69,28 +82,28 @@ lan.months.dec        =December
 ;NOTE value must end with empty space "text  "
 ;---------------------------------------------------------------------------------------
 
-main.cp.news                =News 
-main.cp.pages               =Pages 
-main.cp.manus               =Menus 
-main.cp.mail                =Mailing  
-main.cp.logs                =Logs  
-main.cp.links               =Links   
-main.cp.users               =Users  
-main.cp.update              =Update  
-main.cp.preferences         =Preferences  
-main.cp.theme               =Theme   
-main.cp.flash               =Flash   
-main.cp.comments            =Comments    
-main.cp.require             =Please fill the required text fields  
-main.cp.question.erase      =Are you sure you want to delete  
-main.cp.question.alt        =Do you really want to 
+main.cp.news                =News
+main.cp.pages               =Pages
+main.cp.manus               =Menus
+main.cp.mail                =Mailing
+main.cp.logs                =Logs
+main.cp.links               =Links
+main.cp.users               =Users
+main.cp.update              =Update
+main.cp.preferences         =Preferences
+main.cp.theme               =Theme
+main.cp.flash               =Flash
+main.cp.comments            =Comments
+main.cp.require             =Please fill the required text fields
+main.cp.question.erase      =Are you sure you want to delete
+main.cp.question.alt        =Do you really want to
 
 repo.cpanel.expire.title    = " Session expired"
-repo.cpanel.expire.body     = 'Session that was used by user profile has expired. <p> <b>Please log in again!</b> </p> You can use the link for <A href="users/view">default user section</A>.'
+repo.cpanel.expire.body     = 'Sessione che è stato utilizzato in base al profilo utente è scaduto. <p> <b>Please log in again!</b> </p> You can use the link for <A href="users/view">default user section</A>.'
 
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   Users 
+;   Users
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 users.err.require           ='Missed (*) required field!'
@@ -101,13 +114,13 @@ users.err.nosuch.user       ='There is no such user.'
 users.err.taken.mail        ='E-mail already exists.'
 users.err.req.signin        ='Only members can view this content!'
 
-users.lan.login             ='Sing in'
-users.lan.registration      ='Sing up'
+users.lan.login             ='Sign in'
+users.lan.registration      ='Sign up'
 users.lan.uname             ='User name'
 users.lan.upass             ='User password'
 users.lan.newpass           ='New password'
 users.lan.confirm           ='Confirm password'
-users.lan.email             ='Internet e-mail'
+users.lan.email             ='E-mail'
 users.lan.photo             ='Your photo'
 users.lan.status            ='Profile priority'
 users.lan.signature         ='Signature'
@@ -145,153 +158,153 @@ sys.countdown                   ="<b> seconds  remaining </b> to type your data!
 sys.countout                  ="<b>Please Try Again!</b>"
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   List of words 
+;   List of words
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;---------------------------------------------------------------------------------------
 ;NOTE value must ends with empty space "text  "
 ;---------------------------------------------------------------------------------------
-lw.content=content 
-lw.title=title 
-lw.titles=titles 
-lw.new=new 
-lw.address=address 
-lw.addresses=addresses 
+lw.content=content
+lw.title=title
+lw.titles=titles
+lw.new=new
+lw.address=address
+lw.addresses=addresses
 lw.position=position
-lw.positions=positions 
+lw.positions=positions
 lw.target=target
 lw.targets=targets
-lw.option=option 
-lw.options=options 
-lw.category=category 
+lw.option=option
+lw.options=options
+lw.category=category
 lw.categories=categories
-lw.create=create 
-lw.templates=templates 
-lw.template=template 
+lw.create=create
 lw.templates=templates
-lw.theme=theme 
+lw.template=template
+lw.templates=templates
+lw.theme=theme
 lw.themes=themes
-lw.body=body 
-lw.section=section 
-lw.sections=sections 
+lw.body=body
+lw.section=section
+lw.sections=sections
 lw.default=default
-lw.menu=menu 
-lw.menus=menus 
+lw.menu=menu
+lw.menus=menus
 lw.erase= erase
-lw.delete=delete 
-lw.image=image 
-lw.activate=activate 
-lw.active=active 
-lw.refresh=refresh 
-lw.user=user 
-lw.users=users 
-lw.text=text 
-lw.texts=texts 
-lw.area=area 
-lw.areas=areas 
-lw.sounds=sounds 
-lw.sound=sound 
-lw.log=log 
-lw.logs=logs 
-lw.page=page 
-lw.pages=pages 
-lw.recordet=recordet 
-lw.date=date 
-lw.dates=dates 
-lw.disclaimer=disclaimer 
-lw.website=website 
-lw.name=name 
-lw.meta=meta 
-lw.description=description 
-lw.additional=additional 
-lw.addons=addons 
-lw.addon=addon 
-lw.plugin=plugin 
-lw.plugins=plugins 
-lw.module=module 
-lw.modules=modules 
+lw.delete=delete
+lw.image=image
+lw.activate=activate
+lw.active=active
+lw.refresh=refresh
+lw.user=user
+lw.users=users
+lw.text=text
+lw.texts=texts
+lw.area=area
+lw.areas=areas
+lw.sounds=sounds
+lw.sound=sound
+lw.log=log
+lw.logs=logs
+lw.page=page
+lw.pages=pages
+lw.recordet=recorded
+lw.date=date
+lw.dates=dates
+lw.disclaimer=disclaimer
+lw.website=website
+lw.name=name
+lw.meta=meta
+lw.description=description
+lw.additional=additional
+lw.addons=addons
+lw.addon=addon
+lw.plugin=plugin
+lw.plugins=plugins
+lw.module=module
+lw.modules=modules
 lw.general=general
-lw.installed=installed 
-lw.install=install 
-lw.installing=installing 
-lw.other=other 
-lw.info=info 
-lw.information=information 
-lw.simple=simple 
-lw.host=host 
+lw.installed=installed
+lw.install=install
+lw.installing=installing
+lw.other=other
+lw.info=info
+lw.information=information
+lw.simple=simple
+lw.host=host
 lw.charset=charset
-lw.keywords=keywords  
-lw.contact=contact 
-lw.e-mail=e-mail 
-lw.language=language 
-lw.copyright=copyright 
-lw.icon=favicon 
-lw.save=save 
-lw.saved=saved 
-lw.action=action 
-lw.start=start 
-lw.home=home 
-lw.class=class 
+lw.keywords=keywords
+lw.contact=contact
+lw.e-mail=e-mail
+lw.language=language
+lw.copyright=copyright
+lw.icon=favicon
+lw.save=save
+lw.saved=saved
+lw.action=action
+lw.start=start
+lw.home=home
+lw.class=class
 lw.level=level
-lw.admin=admin 
-lw.admins=admins 
-lw.manager=manager 
-lw.manage=manage 
-lw.priority=priority 
-lw.problem=problem 
-lw.execute=execute 
+lw.admin=admin
+lw.admins=admins
+lw.manager=manager
+lw.manage=manage
+lw.priority=priority
+lw.problem=problem
+lw.execute=execute
 lw.reading=reading
-lw.processing=processing 
-lw.deny=deny 
-lw.denied=denied 
-lw.update=update 
-lw.sucessfully=successfully 
-lw.progress=progress 
-lw.error=error 
-lw.errors=errors 
-lw.edit=edit 
+lw.processing=processing
+lw.deny=deny
+lw.denied=denied
+lw.update=update
+lw.sucessfully=successfully
+lw.progress=progress
+lw.error=error
+lw.errors=errors
+lw.edit=edit
 lw.edits=edits
-lw.empty=empty 
-lw.field=field 
-lw.fields=fields 
-lw.time=time 
-lw.times=times 
-lw.tag=tag 
+lw.empty=empty
+lw.field=field
+lw.fields=fields
+lw.time=time
+lw.times=times
+lw.tag=tag
 lw.tags=tags
-lw.process=process 
-lw.full=full 
-lw.require=require 
-lw.registration=registration 
-lw.login=login 
-lw.username=username 
-lw.password=password 
-lw.link=link 
-lw.links=links 
-lw.editor=editor 
-lw.editors=editors 
-lw.change=change 
-lw.changes=changes 
-lw.prevent=prevent 
-lw.prevents=prevents 
-lw.setting=setting 
-lw.settings=settings 
-lw.view=view 
-lw.views=views 
-lw.viewing=viewing 
-lw.show=show 
-lw.shows=shows 
-lw.showing=showing 
-lw.topic=topic 
-lw.topics=topics 
-lw.post=post 
-lw.posts=posts 
-lw.last=last 
-lw.lasts=lasts 
-lw.reply=reply 
-lw.replys=replys 
-lw.reset=reset 
-lw.resets=resets 
-lw.first=first 
-lw.analyzing=analyzing 
+lw.process=process
+lw.full=full
+lw.require=require
+lw.registration=registration
+lw.login=login
+lw.username=username
+lw.password=password
+lw.link=link
+lw.links=links
+lw.editor=editor
+lw.editors=editors
+lw.change=change
+lw.changes=changes
+lw.prevent=prevent
+lw.prevents=prevents
+lw.setting=setting
+lw.settings=settings
+lw.view=view
+lw.views=views
+lw.viewing=viewing
+lw.show=show
+lw.shows=shows
+lw.showing=showing
+lw.topic=topic
+lw.topics=topics
+lw.post=post
+lw.posts=posts
+lw.last=last
+lw.lasts=lasts
+lw.reply=reply
+lw.replys=replies
+lw.reset=reset
+lw.resets=resets
+lw.first=first
+lw.analyzing=analyzing
 lw.additions=additions
 lw.author=author
 lw.version=version
@@ -303,52 +316,56 @@ lw.has=has
 lw.logged=logged
 lw.loggedin="logged in"
 lw.sub='sub-'
-lw.for=for 
-lw.from=from 
-lw.to=to 
-lw.the=the 
-lw.while=while 
-lw.this=this 
-lw.your=your 
-lw.you=you 
-lw.do=do 
-lw.like=like 
-lw.is= is 
-lw.tick=tick 
-lw.some=some 
-lw.be=be 
-lw.more=more 
+lw.for=for
+lw.from=from
+lw.to=to
+lw.the=the
+lw.while=while
+lw.this=this
+lw.your=your
+lw.you=you
+lw.do=do
+lw.like=like
+lw.is= is
+lw.tick=tick
+lw.some=some
+lw.be=be
+lw.more=more
 lw.date=date
-lw.end=end 
+lw.end=end
 lw.start=start
-lw.startpage=startpage 
-lw.may=may 
-lw.not=not 
-lw.allow=allow 
-lw.now=now 
-lw.one=one 
-lw.moment=moment 
-lw.ok=ok 
-lw.close=close 
-lw.cancel=cancel 
-lw.press=press 
-lw.click=click 
-lw.already=already 
-lw.ready=ready 
-lw.exist=exist 
-lw.here=here 
-lw.type=type 
-lw.on=on 
-lw.really=really 
-lw.want=want 
-lw.auto=auto 
-lw.radio=radio 
-lw.check=check 
-lw.select=select 
-lw.selected=selected 
-lw.checkbox=checkbox 
-lw.in=in 
-lw.with=with 
-lw.cause=cause 
-lw.all=all 
+lw.startpage=startpage
+lw.may=may
+lw.not=not
+lw.allow=allow
+lw.now=now
+lw.one=one
+lw.moment=moment
+lw.ok=ok
+lw.close=close
+lw.cancel=cancel
+lw.press=press
+lw.click=click
+lw.already=already
+lw.ready=ready
+lw.exist=exist
+lw.here=here
+lw.type=type
+lw.on=on
+lw.really=really
+lw.want=want
+lw.auto=auto
+lw.radio=radio
+lw.check=check
+lw.select=select
+lw.selected=selected
+lw.checkbox=checkbox
+lw.in=in
+lw.with=with
+lw.cause=cause
+lw.all=all
 lw.current=current
+; Added new 19.02.2013
+lw.search=search
+lw.search.title=Website search
+lw.search.menu='To search type and hit enter'

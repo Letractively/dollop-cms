@@ -1,46 +1,48 @@
 <!DOCTYPE HTML>
-<html>
- <head>
-
 {LANGUAGE}
-{CHARSET}
-{PAGETITLE}
-{STYLECSS}
-{JSCRIPT}
+<head>
+    {CHARSET}
+    {PAGETITLE}
+    <!-- **Google - Fonts** -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    {STYLECSS}
+    {JSCRIPT}
 
-<script type="text/javascript">
-  $().ready(function() {
-           $(".page").height($(document).height());
-   }); 	 
-</script>
 </head>
-
 <body>
 
-<div class="upper">
-	<div class="logo"><img src="img/frog-dollop.png" width="150" height="194" alt="dollop" /></div>
-	<div class="header">
-  
+    <div class="upper">
+        <div class="header">
+            <header class="wrap">
+                <div class="logo"><img src="framework/images/logo.png" width="150" height="200" alt="dollop" /></div>
+                <nav>
+                    <ul class="links"> {LINK} </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <section class="clearfix pattern ">
 
-		<ul class="links"> {LINK} </ul>
+        <div id="entry" class="wrap">
 
+            <div class="wr-body">
+                {BODY}
+            </div>
 
-	</div>
-</div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div  class="entry">
+            <div class=" wrap">
+                {MENU[1]}
+                <div class="clearfix"></div>
+                {MENU[2]}
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </foooter>
 
-<div class="page">
-<div class="space"></div>
-<div class="wr-menu">
-{MENU[1]} 
-{MENU[2]}
-
-
-</div>
-
-<div class="wr-body">
-<div class="body_transparent">{BODY}</div>
-</div>
-</div>
 
 </body>
 </html>

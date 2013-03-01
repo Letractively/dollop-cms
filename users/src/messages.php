@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: messages.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 121 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+ * ID:                  $Id: messages.php 121 2013-03-01 13:54:10Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,17 +20,17 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop Users
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
 /**
- * 
+ *
  * @filesource
  * Users messages
  */
@@ -104,7 +104,7 @@ eol;
    <a href="?m=send:{$r['na_sender']}"><img src="{$imgFolder}reply_mail.png" title="{$language['users.messages.mesrep']}"> </a>
 eol;
                     $content .=<<<eol
-   <h2> {$r['title']}</h2>     
+   <h2> {$r['title']}</h2>
 <p>
 {$r['body']}
 <form metthod="get">
@@ -143,9 +143,9 @@ eol;
                         $uname = constant("USER_NAME");
                         $m->type = "text";
                         $m->body = <<<eol
-                    
+
                     {$language['users.messages.mailtx']} {$uname}
-                    
+
                     {$link}
 eol;
                         $m->setHeaders();
@@ -180,24 +180,24 @@ $('#submit').bind("click",function(event){
    var titletxt= $("#send_title").val();
    var na_receiver= $("#na_receiver").val();
 
- 
+
 $("#send_title,#user_list").bind("keypress", function(e) {
-  if (e.keyCode == 13) {               
+  if (e.keyCode == 13) {
     e.preventDefault();
     return false;
   }
-  
+
 });
 
-});   
+});
 eol;
                 global $kernel, $theme;
-                $kernel->external_file("jquery", $js);
+                $kernel->external_file("js", $js);
+
 
 
                 $content .=<<<eol
    <form method="post" action="" id="send-message">
-       
    <br />
 eol;
                 if (is_numeric($_GET['id'])) {
@@ -208,8 +208,11 @@ eol;
                 } else {
                     $content .=user_lister() . "   <div style=\"clear:both;\"></div><hr />";
                 }
+                if (isset($_GET['share'])) {
+                    $message = ($_SESSION['dollop_message']) ? $_SESSION['dollop_message'] : null;
+                }
                 $titletxt = html_form_input("text", "title", null, 'id="send_title" size="40"');
-                $text = $theme->textarea('body', null, "send_body", 25, null, '90%', '350px');
+                $text = $theme->textarea('body', $message, "send_body", 25, null, '90%', '350px');
                 $content .=<<<eol
 
    <p>
@@ -218,13 +221,13 @@ eol;
    {$titletxt}
           </blockquote>
    </p>
-   
+
     <p align="center">
-    
+
     {$language['users.messages.messms']}
         <br />
    {$text}
-   </p>      
+   </p>
    <br />
    <p align="center">
    <input type="submit" id="submit" value="{$language['lan.submit']}" name ="{$uni}"/>
@@ -239,8 +242,8 @@ eol;
 
 $content .=<<<eol
 <div class="mail-border"></div>
-    <a href="main">&laquo; {$language['users.messages.goback']}</a> | 
-    <a href="?">{$language['users.messages.index']}</a> | 
+    <a href="main">&laquo; {$language['users.messages.goback']}</a> |
+    <a href="?">{$language['users.messages.index']}</a> |
     <a href="?m=send">{$language['users.messages.sendme']} &raquo;</a>
 eol;
 

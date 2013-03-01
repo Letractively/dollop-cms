@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage functions
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -43,13 +43,13 @@ if (file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_d
 }
 if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_dollop')) {
     $txt = '      <h2><span>Set-up</span>  MySQL</h2>
-        <form id="form1" name="form1" method="post" action="">  
+        <form id="form1" name="form1" method="post" action="">
         <div class="td">
         <strong>Database</strong> host location:<br />
         <input type="text" name="host" />
         </div>
 
-        <div class="td"> 
+        <div class="td">
         <strong>Database</strong> username:<br />
         <input type="text" name="user" />
         </div>
@@ -60,7 +60,7 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
         <div class="td"><strong>Database</strong> to select:<br />
         <input type="text" name="db" />
         </div>
-        <div class="td"> 
+        <div class="td">
         <strong>Database</strong> prefix:<br />
         <input type="text" name="prefix" />
         </div>
@@ -80,22 +80,22 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
     $data_db = "";
     $fp = "";
     if (file_exists(self::$KERNEL['MAIN']['dp.db'])) {
-        $txt = '      <h2><span>Successfully</span> created the website MySQL file</h2> 
-            <p>  
-            MySQL  configuration file is created successfully.    
+        $txt = '      <h2><span>Successfully</span> created the website MySQL file</h2>
+            <p>
+            MySQL  configuration file is created successfully.
             </p>
-            <p> 
+            <p>
             Go to the next step  for installation of  mysql tables.</p><br />
             <a href="" style="padding:10px; background-color:#E0E0E0;"> NEXT >> </a>
             <p> &nbsp;</p>
             <p>
             <div class="comment"><b>In case of problem:</b><br />
             <small> You do not have Apache write permission on this server. Please fix this to contionue.</small>
-            </div> 
+            </div>
             </p>
             ';
     } else {
-        $txt = '      <h2><span>installation</span> PROBLEM!</h2> 
+        $txt = '      <h2><span>installation</span> PROBLEM!</h2>
             Cannot Write ' . self::$KERNEL['MAIN']['dp.db'] . ' file!    <br />
             <div class="comment"> Please check for write rights of php/apache user and try agen (refresh the page).    </div>
 
@@ -115,35 +115,35 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
             <script>
             $(document).ready(function(){
             $('#resize-dataq small').hide();
-            $('#resize-dataq').delay(3000).animate({ height: '300px'}, { queue: true, duration: 1000, 
+            $('#resize-dataq').delay(3000).animate({ height: '300px'}, { queue: true, duration: 1000,
             complete: function() {
-           
+
                         $('#resize-dataq small').each(function (i) {
-                    
+
                 $(this).show(i * 300);
             });
             $('#resize-dataq').delay(3000).animate({ height: '45px'}, { queue: true, duration: 1000 });
             }
             });
-            
+
             });
             </script>
-            <h2><span>installation</span> of website MySQL </h2> 
+            <h2><span>installation</span> of website MySQL </h2>
             Inserting MySQL tables in server.
-            <p>    
+            <p>
             Go to next step  if all sql data is executed! <br />
             <div class="handle_back" id="resize-dataq" > {$handle_back} </div>
             </p>
-            
-            <p> 
+
+            <p>
             <h2><span>Creating</span> super admin:<br /> </h2>
-            <form id="form1" name="form1" method="post" action="">  
+            <form id="form1" name="form1" method="post" action="">
             <div class="td">
             <strong>Super Admin</strong> name<br />
             <input type="text" name="username" />
             </div>
 
-            <div class="td"> 
+            <div class="td">
             <strong>Super Admin</strong> password:<br />
             <input type="password" name="password" />
             </div>
@@ -152,8 +152,8 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
             <strong>Super Admin</strong> email address:<br />
             <input type="text" name="email" />
             </div>
-            
-            
+
+
 
             <input name="superadmin" type="image" src="design/buttons/EN/submit-white.gif" alt="submit" value="true" align="middle" />
             <input type="hidden" name="superadmin" value="true">
@@ -164,11 +164,11 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
             <p>
             <div class="comment"><b>In case of problem:</b><br />
             <small> Check "install.sql" file in "install" folder to fix the problem
-            and delete "dp.php" file from server and then try agen.</small></div> 
+            and delete "dp.php" file from server and then try agen.</small></div>
             </p>
 eol;
     } else {
-        $txt = '      <h2><span>installation</span> PROBLEM! </h2> 
+        $txt = '      <h2><span>installation</span> PROBLEM! </h2>
             Can not find:  ' . self::$CONFIGURATION['install'] . "/install.sql" . ' file.
             <p> Please check folder and restore the file to continue... instalation</p>
             <a href="' . $_SERVER['PHP_SELF'] . '" style="padding:10px; background-color:#E0E0E0;"> NEXT >> </a>
@@ -184,37 +184,41 @@ eol;
         $hex = self::$CONFIGURATION['HEX'];
         $password = password($_POST['password'], $hex);
         $hash_key = hash_key($_POST['username'], $hex);
-        $sql = "INSERT INTO `" . PREFIX . "users` 
+        $sql = "INSERT INTO `" . PREFIX . "users`
             (`username`, `password`, `userid`, `userlevel`, `usermail`, `valid`, `hash`, `hash_generated`)
             VALUES
             ('{$_POST['username']}','{$password}','1','9','{$_POST['email']}','1',
 
             PASSWORD( '{$hash_key}' + UNIX_TIMESTAMP( NOW() ) ), UNIX_TIMESTAMP( NOW() )
-            
+
             );";
+        /// Set def mail
+        if (!empty($_POST['email'])) {
+            mysql_query("UPDATE `" . PREFIX . "preferences` SET `site_mail`='{$_POST['email']}' WHERE `ID`=1; ");
+        }
         if (mysql_query($sql)) {
             $txt.= <<<eol
         <p>&nbsp;</p>
-        <p>        
+        <p>
         <h2><span>Super</span> admin is created Successfully!</h2>
         <br />
-        
+
         <h1>All done here ! </h1>
         <p>
         Thank you {$_POST['username']} for the installation of Dollop and we wish you a productive and flawless use of your new website.
-        </p>      
+        </p>
         </p>
 eol;
         } else {
             $mysql_error = mysql_error();
             $txt.= <<<eol
-            <p>{$_POST['username']}, we have BAD news .... for you.</p> 
+            <p>{$_POST['username']}, we have BAD news .... for you.</p>
             It was the last step of installation and the process cannot reversed to process that can make a fix.<br />
             You must do this step manually.  <br />
             Register a new user and must set-up col of user field`userlevel` to 9.      <br />
-         <p> MySQL log:<br /> 
+         <p> MySQL log:<br />
          <div class="handle_back">{$mysql_error} </div>
-         </p>   
+         </p>
 eol;
         }
     }
@@ -252,12 +256,12 @@ $refresh = "";
 if (empty($txt)) {
     $txt = <<<eol
         <h2>Build system dependency...</h2>
-        
-        <p> 
+
+        <p>
         Page will be reloadet automatically ... <br />
          »Click <a href="/">here</a> to manually reload.
         </p>
-      
+
 eol;
     $refresh = '<meta http-equiv="refresh" content="1" />';
 }
@@ -273,13 +277,13 @@ echo <<<html
 <script type="text/javascript">
 $(document).ready(function(){
     $('.page').hide();$('.body').hide();$('.gadget').hide();
-var new_height = $(window).height(); 
+var new_height = $(window).height();
 
 
     $('.page').height(new_height);
     $('.body').height(new_height -433);
     $('.gadget').height(new_height -430);
-    
+
     $('.page').fadeIn(2000);
     $('.body').delay(2000).show(1200);
     $('.gadget').delay(2000).show(1200);
@@ -302,7 +306,7 @@ var new_height = $(window).height();
 <p> &nbsp;</p>
 <p>
           <!--~ Server information -->
-          
+
      <div class="php_inf"><span>PHP</span> version:             {$php_info['phpversion']} </div>
      <div class="php_inf"><span>PHP</span> display errors :     {$php_info['display_errors']} </div>
      <div class="php_inf"><span>PHP</span> register globals :   {$php_info['register_globals']} </div>

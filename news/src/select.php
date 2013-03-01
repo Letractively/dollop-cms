@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: select.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 121 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+ * ID:                  $Id: select.php 121 2013-03-01 13:54:10Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop News
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -47,6 +47,7 @@ if (is_numeric($_GET['n'])) {
         $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_CONTENT;
         $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_IMAGE;
         $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_DESCR;
+        $MERGE_TEMPLATE["NEWS"]['sector'][] = "SHARE_SA";
         $theme->template_setup("NEWS");
         // getting folders from base tag
         $thumbs = kernel::base_tag_folder("{thumbs}");
@@ -56,13 +57,25 @@ if (is_numeric($_GET['n'])) {
         if (empty($row['image'])) {
             $image = " ";
         } else {
-            $image = " 
+            $image = "
 
-                <A href=\"/" . $publicfiles . MODULE_DIR . $images . $row['image'] . "\" >
-                <img src=\"/" . $publicfiles . MODULE_DIR . $thumbs . $row['image'] . "\" border=\"0\" title=\"{$row['title']}\"/> 
-                </A>
+                <a href=\"/" . $publicfiles . MODULE_DIR . $images . $row['image'] . "\" >
+                <img src=\"/" . $publicfiles . MODULE_DIR . $thumbs . $row['image'] . "\" border=\"0\" title=\"{$row['title']}\"/>
+                </a>
                 ";
         }
+        //
+        // Generate Category RSS button
+        $mysql->aArrayedResults = null;
+        $proposed = null;
+        $mysql->Select("news_category", array("title" => $row['category']));
+        if((bool)$cat = $mysql->aArrayedResults[0]){
+           $proposed .='<a href="rss?id=' . $cat['ID'] . '" class="rss"><span> </span>' . $language['ns.rssc'] . $cat['title'] . '</a>';
+           $category = $cat['title'];
+        }else{
+           $proposed .='<a href="rss" class="rss"><span> </span>' . $language['ns.rssc'] . '</a>';
+        }
+
         // creating description
         $description = null;
         $description.= date(NEWS_DATEFORMAT, $row['timestamp']) . " ";
@@ -74,7 +87,9 @@ if (is_numeric($_GET['n'])) {
         $title = $row['title'];
         $row_tag[NEWS_SLTAG_CONTENT] = $row['body'];
         $row_tag[NEWS_SLTAG_IMAGE] = $image;
-        $row_tag[NEWS_SLTAG_DESCR] = $description;
+        $row_tag[NEWS_SLTAG_DESCR] = $description . " ".$language['lw.category'].": <b><a href=\"/".MODULE_DIR."view?cat={$cat['ID']}\" >" . $row['category']."</a></b>";
+        $row_tag['SHARE_SA']  = social_networks(1, 1, 1, 1, $row['category'], 1, $proposed);
+        $row_tag['SHARE_SA']  = social_networks(1, 1, 1, 1, $row['category'], 1, $proposed);
         // attach content to template
         $text = theme::content($row_tag, "NEWS", true);
     } else {

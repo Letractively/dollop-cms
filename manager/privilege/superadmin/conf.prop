@@ -5,6 +5,7 @@
 settings[web_info]=web_info.php
 settings[options]=options.php
 settings[theme]=theme.php
+settings[manager]=manager.php
 
 
 

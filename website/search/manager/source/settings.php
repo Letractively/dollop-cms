@@ -20,17 +20,17 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Search
  * @package search
  * @subpackage none
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
 /**
- * 
+ *
  * @filesource
  * manage the news
  */
@@ -45,9 +45,9 @@ $BODY = null;
 $htmltblall = new html_table(null, 'admin', 0, 0, 4);
 $htmltblwht = new html_table(null, 'admin', 0, 0, 4);
 $fch = explode(",", MD_CELLS);
-PRINT_R($fch);
 //
-// Get all tables that have a "text" type in it. 
+//
+// Get all tables that have a "text" type in it.
 $q1 = mysql_query("SHOW FULL TABLES  FROM " . DATABASE . " LIKE '" . PREFIX . "%' ") or die(mysql_error());
 while ($t = mysql_fetch_array($q1)):$q2 = mysql_query("SHOW FULL COLUMNS IN {$t[0]} FROM  " . DATABASE . "") or die(mysql_error());
     while ($c = mysql_fetch_array($q2)):if(in_array($c[0], $fch)):$f[$c[1]][] = $c[0];$tbl[] = $t[0];endif;
@@ -63,9 +63,9 @@ $my = new mysql_ai;
 if(isset($_POST['submit_whitelist']) && is_array($_POST['whitelist'])){
     mysql_query("TRUNCATE TABLE  `".PREFIX."search_whitelist`");
     foreach($_POST['whitelist'] as $insert_row){
-        mysql_query("INSERT INTO `".PREFIX."search_whitelist` (`tables`) VALUES('$insert_row'); ");  
+        mysql_query("INSERT INTO `".PREFIX."search_whitelist` (`tables`) VALUES('$insert_row'); ");
     }
-    
+
 }
 
 
@@ -82,19 +82,19 @@ $checked = null;
 foreach ($my->aArrayedResults as $act ):
     $active[] =$act["tables"];
 endforeach;
-print_r($f);
+//print_r($f);
 
 foreach (array_unique($tbl) as $list):
     $htmltblall->addRow();
     $htmltblall->addCell($i);
     $htmltblall->addCell("<label for=\"table-$list\" >" . $list . "</label>");
-    if((bool)array_search($list, $active) ) {
+    if((bool)  in_array($list, $active) ) {
         $checked = "checked";
     } else {
         $checked = null;
     }
     $form = <<<eol
-   <center><input type="checkbox" name="whitelist[]" value="{$list}" id="table-$list" style=" font-size: 110%; -ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2); " $checked/> </center>
+   <center><input type="checkbox" name="whitelist[]" value="{$list}" id="table-$list" style=" font-size: 110%; -ms-transform: scale(2); -moz-transform: scale(2); -webkit-transform: scale(2); -o-transform: scale(2);" $checked> </center>
 eol;
     $htmltblall->addCell("<ul id=\"icons\">{$form}</ul>");
     $i++;

@@ -1,9 +1,9 @@
 /**
  ============================================================
-Last committed:     $Revision: 3 $
-Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
-Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-ID:            $Id: superfish.process.js 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+Last committed:     $Revision: 119 $
+Last changed by:    $Author: fire $
+Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+ID:            $Id: superfish.process.js 119 2013-02-22 14:58:55Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,7 +24,7 @@ var notify_sound,messages_page,StatusAlert,MessageData;
 function loadNotifyPlayer() {
 
     var audioPlayer = new Audio();
-        
+
     audioPlayer.src=notify_sound;
     document.getElementById("notify-player").appendChild(audioPlayer);
     document.getElementById("notify-player").play();
@@ -35,11 +35,11 @@ function deliverMessageAlert(MessageData){
         messages_page ="/users/messages";
     }
     var a =window.confirm("You have "+MessageData+" massages! \n \n \t Click \"OK\" to go into your account's, INBOX!");
-    if (a==true){             
-        window.location = messages_page;        
+    if (a==true){
+        window.location = messages_page;
     }
 }
-if(typeof $.mobile === "undefined"){        
+if(typeof $.mobile === "undefined"){
     $(function(){
         $('ul.links').superfish();
     });
@@ -52,9 +52,9 @@ if(typeof $.mobile === "undefined"){
             data:{
                 'check_message':'1'
             },
-            dataType:'text', 
+            dataType:'text',
             timeout: 300,
-            success: function(data) {  
+            success: function(data) {
                 MessageData = data;
                 if(data >= 1){
                     if(!notify_sound){
@@ -62,21 +62,21 @@ if(typeof $.mobile === "undefined"){
                     }
                     $('body').append('<audio id="notify-player" width="300" height="32" autoplay="autoplay" src="'+notify_sound+'" name="media" preload="auto" type="audio/mp3" style="display:none;"><source src="'+notify_sound+'" type="audio/mpeg" /> </audio>');
                     loadNotifyPlayer();
-                   
+
                     setTimeout('deliverMessageAlert(MessageData)',1000);
-                    
+
                 }
             }
-            
+
         });
     });
-}else{    
-  
+}else{
+
     /*
  * sf-Touchscreen v1.0b - Provides touchscreen compatibility for the jQuery Superfish plugin.
  *
  * Developer's note:
- * Built as a part of the Superfish project for Drupal (http://drupal.org/project/superfish) 
+ * Built as a part of the Superfish project for Drupal (http://drupal.org/project/superfish)
  * Found any bug? have any cool ideas? contact me right away! http://drupal.org/user/619294/contact
  *
  * jQuery version: 1.3.x or higher.
@@ -84,7 +84,7 @@ if(typeof $.mobile === "undefined"){
  * Dual licensed under the MIT and GPL licenses:
  *  http://www.opensource.org/licenses/mit-license.php
  *  http://www.gnu.org/licenses/gpl.html
- */          
+ */
     (function($){
         $.fn.sftouchscreen = function() {
             // Return original object to support chaining.
@@ -109,7 +109,7 @@ if(typeof $.mobile === "undefined"){
                     });
                 });
             });
-        };       
+        };
     })(jQuery);
     $(function(){
         //
@@ -131,16 +131,16 @@ if(typeof $.mobile === "undefined"){
             }
 
         });
-      
+
     // -
-    // This will fix links 
+    // This will fix links
 
 
     });
-    // fixin ajaj load 
+    // fixin ajaj load
     $(document).bind("mobileinit", function () {
         $.mobile.ajaxEnabled = false;
     });
-    
-    
+
+
 }

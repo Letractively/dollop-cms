@@ -12,22 +12,29 @@
 ;##############################################
 [MAIN]
 ;##############################################
-;	Module name 
+;	Module name
 ;##############################################
 ;
 module.name                             ='users'
 ;
 ;##############################################
-;	Module Version 
+;	Module Version
 ;##############################################
 ;
-module.version				=2,1
+module.version				=2.1
 ;
 ;##############################################
-;	Module compatible with kernel version 
+;	Module Author
 ;##############################################
 ;
-module.vkernel				=1,1
+module.author				=fire1
+;
+
+;##############################################
+;	Module compatible with kernel version
+;##############################################
+;
+module.vkernel				='1.1+'
 ;
 ;
 ;'templates/'
@@ -56,9 +63,9 @@ module.facial.lan.file                  =_lan.php
 ;
 ;
 ;##############################################
-; File to be load at enter in module  
+; File to be load at enter in module
 ;##############################################
-;# Init string. If is "0" (null) must use: 
+;# Init string. If is "0" (null) must use:
 ;	"module.facial.url.[url request]=[path to file]"
 ;
 module.facial.source 			=0
@@ -92,27 +99,27 @@ module.facial.url.datacheck=src/datacheck.php
 ; Social Network Login
 ;----------------------------------------------
 ;
-; Require email from social networks  
+; Require email from social networks
 users.require.mail=1
 
 module.socialnetworks=1
 ;
 ;   Twitter
 ; (https://dev.twitter.com/apps)
-twitter.consumer.key=Umiho9lt9jCktIi7fJJ59A
-twitter.consumer.secret=oxSfa9kta5ITWpt8GdfxviIStwuU1QsedeG8Mkv7E
+;twitter.consumer.key=
+;twitter.consumer.secret=
 ;
 ;   Facebook
-;   (https://www.facebook.com/developers/) 
+;   (https://www.facebook.com/developers/)
 ;       NOTE: "Website with Facebook Login" must be http://[domain.name]/users/facebook
-facebook.consumer.key=215698545223593
-facebook.consumer.secret=c0db4e6592598de8a18dc06ffe85cc5d
+;facebook.consumer.key=
+;facebook.consumer.secret=
 ;
 ;   Google
 ;   (https://code.google.com/apis/console/)
-google.consumer.key="878207875649.apps.googleusercontent.com"
-google.consumer.secret="rOuqajPFG96_Wcymy_U6F52P"
-google.developer.key="AIzaSyC1DrvZzdOwHeFizhan-dRIxlpTaXt-1YY"
+;google.consumer.key=
+;google.consumer.secret=
+;google.developer.key=
 ; [Provide this URL as the Callback URL for your website http://domainname.com/users/google]
 ;
 ;
@@ -131,8 +138,8 @@ users.mail.proof=0
 ;----------------------------------------------
 ;
 ;
-;# if "module.admin.admin" is 0 must 
-;	fill full value with destination to files in 
+;# if "module.admin.admin" is 0 must
+;	fill full value with destination to files in
 ;	"module.fac.url.*" string
 ;
 module.admin.source             =admin/admin.php
@@ -140,7 +147,7 @@ module.admin.source             =admin/admin.php
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ; Include sector
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   NOTE basic this varibles are for folders 
+;   NOTE basic this varibles are for folders
 ;   inclde "/" at end of value
 ;
 ;PHP:
@@ -149,7 +156,7 @@ module.facial.includes		=include/
 module.facial.javascript	=javascript/
 ;CSS:
 module.facial.css               =css/
-; 
+;
 ; Change include path to start from module`s directorie
 ;
 module.facial.include_path=0

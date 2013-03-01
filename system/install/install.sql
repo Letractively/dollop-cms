@@ -73,14 +73,16 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."menus` (
   `ID` mediumint(9) NOT NULL AUTO_INCREMENT,
   `section` int(3) NOT NULL,
   `position` int(3) NOT NULL,
-  `title` varchar(160) NOT NULL,
+  `title` varchar(260) NOT NULL,
   `body` text NOT NULL,
   `configuration` text NOT NULL,
-  `jscripts` mediumtext NOT NULL,
-  `phpscript` mediumtext NOT NULL,
-  `option` mediumtext NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=MyISAM  DEFAULT CHARSET={$charset}  ;
+  `jscripts` text NOT NULL,
+  `phpscript` text NOT NULL,
+  `option` text NOT NULL,
+  `statute` varchar(80) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `statute` (`statute`)
+) ENGINE=MyISAM  DEFAULT CHARSET={$charset};
 
 -- --------------------------------------------------------
 
@@ -90,7 +92,7 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."menus` (
 
 CREATE TABLE IF NOT EXISTS `".PREFIX."pages` (
   `ID` mediumint(15) NOT NULL AUTO_INCREMENT,
-  `title` varchar(250) NOT NULL,
+  `title` varchar(260) NOT NULL,
   `body` text,
   `phpcripts` text NOT NULL,
   `jscripts` text NOT NULL,
@@ -134,6 +136,7 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."preferences` (
   `ID` mediumint(15) NOT NULL AUTO_INCREMENT,
   `site_name` varchar(250) NOT NULL DEFAULT '',
   `site_description` text,
+  `site_mail` varchar(180) NOT NULL,
   `host` varchar(250) NOT NULL DEFAULT '',
   `datestart` date DEFAULT NULL,
   `charset` varchar(50) DEFAULT NULL,
@@ -200,7 +203,7 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."users` (
   `lang` varchar(3) CHARACTER SET utf8 DEFAULT NULL,
   `url` varchar(150) CHARACTER SET utf8 DEFAULT NULL,
   `profile_image_url` varchar(150) CHARACTER SET utf8 DEFAULT NULL,
-  
+
   PRIMARY KEY (`userid`),UNIQUE (`username`)
 ) ENGINE=MyISAM DEFAULT CHARSET={$charset};
 
@@ -236,10 +239,10 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."users_fields` (
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
-INSERT INTO `".PREFIX."preferences` 
+INSERT INTO `".PREFIX."preferences`
 (`ID` ,`site_name` ,`site_description` ,`host` ,`datestart` ,`charset`, `site_meta` ,`site_disclaimer` ,`site_keywords` ,`copyright` ,`ico` ,`start_page` ,`txt_area` ,`theme` ,`lan` ,`IP`)
 VALUES (
-'1' , 'dollop', '<a href=\"http://fire1.eu/\" target=\"_blank\">dollop CMS</a>', '',  NOW(), 'utf-8', '', '', NULL , 'fire', '/design/website/favicon.ico', '/page?view=1', 'tiny_mce', 'dollop-4', 
+'1' , 'dollop', '<a href=\"http://fire1.eu/\" target=\"_blank\">dollop CMS</a>', '',  NOW(), 'utf-8', '', '', NULL , 'fire', '/design/website/favicon.ico', '/page?view=1', 'tiny_mce', 'dollop-4',
 'EN','');
 
 INSERT INTO `".PREFIX."theme` (`ID`, `title`, `autor`, `dates`, `class_view`, `comment`, `com_user`, `template`, `preference`, `preference2`) VALUES
@@ -269,11 +272,11 @@ INSERT INTO `".PREFIX."pages` (`ID`, `title`, `body`, `admin`, `dates`, `class_v
 .</p>
 <p> Start posting new content<br />
   Finally you can start creating content for your website. You may erase or replace this message from (home button) <strong>\"website\"</strong> -> <strong>pages</strong>.</p>
-  
+
   <p>
   <br />
   Basic <strong> Taskbar</strong> Infirmation<br <br />
-  
+
   <strong>Home Button</strong> -  website content.<br />
   <strong>Wrench Hammer Button</strong> - website settings.<br />
   <strong>Spider Button</strong> - shows what happens inside the script.<br />

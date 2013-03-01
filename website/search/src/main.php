@@ -8,23 +8,23 @@ if (!defined('FIRE1_INIT')) {
 global $language;
 /**
 md.search.name=search
-; 
+;
 md.search.destination=website/search/
-; 
+;
 md.search.index=/website/search/main
-; 
+;
 md.search.text=q
-; 
+;
 md.search.table=t
-; 
+;
 md.search.reference=r
-; 
+;
 md.search.language=language/
-; 
+;
 md.search.charset=chs
-; 
+;
 md.search.token=tkn
-; 
+;
 md.search.stand=stn
  */
 $content = null;
@@ -87,15 +87,15 @@ if (isset($_REQUEST[$tableS]) && isset($_REQUEST[$query])) {
         <option value="$name_table" $selected>$htmlCheck $name</option>
 eol;
     }
-    
+
     $tpl_tag["QUERY"]           = $query;
     $tpl_tag["TABLE"]           = $tableS;
     $tpl_tag["TABLE_CONTENT"]   = $htmlopt;
     $tpl_tag["SUBMIT"]          = $language['lan.submit'];
     $tpl_tag["SEARCH_TITLE"]    = $_REQUEST[$query];
-    $content .= theme::custom_template("search", $tpl_tag);   
+    $content .= theme::custom_template("search", $tpl_tag);
     if ($checker === true) {
-        $query = "SELECT title,body, ( MATCH(body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) AS relevance FROM $table 
+        $query = "SELECT title,body, ( MATCH(body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) AS relevance FROM $table
        WHERE ( MATCH(title,body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) HAVING relevance > 0  ORDER BY relevance DESC";
        $page = new mysql_lister($query, 30);
         $result = mysql_query($query . $page->limit()) or theme::content(array($language['md.title.error.srch'], $language['md.body.error.srch'].  mysql_error()));
@@ -130,6 +130,16 @@ eol;
 }
 
 
+
+// Show if content is empty
+if(is_null($content)){
+    $tpl_tag["QUERY"]           = $query;
+    $tpl_tag["TABLE"]           = $tableS;
+    $tpl_tag["TABLE_CONTENT"]   = $htmlopt;
+    $tpl_tag["SUBMIT"]          = $language['lan.submit'];
+    $tpl_tag["SEARCH_TITLE"]    = $_REQUEST[$query];
+    $content = theme::custom_template("search", $tpl_tag);
+}
 
 
 

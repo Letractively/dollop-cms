@@ -16,37 +16,37 @@ function user_lister() {
     }global $language;
     $_SESSION["datacheck"] = kernel::uni_session_name();
     $request = kernel::base_tag("/{module_dir}datacheck");
-    
 
-        
+
+
     $js = <<<eol
        $("#user_list").autocomplete({
             minLength: 0,
-           source: function (request, response) { 
-            $.ajax({ 
-                url: "$request", 
-                dataType: "json", 
-                data: { 
+           source: function (request, response) {
+            $.ajax({
+                url: "$request",
+                dataType: "json",
+                data: {
                     "user_list": request.term
-                    
-                }, 
-                success: function (data) { 
-                    response(data); 
-                } 
-            }); 
+
+                },
+                success: function (data) {
+                    response(data);
+                }
+            });
         },
             focus: function( event, ui ) {
                 $( "#user_list" ).val( ui.item.label );
                 return false;
             },
             select: function( event, ui ) {
-                
+
                 $( "#user-id" ).val( ui.item.id );
                 $( "#user-uname" ).html( ui.item.uname );
                 $( "#na_receiver" ).val( ui.item.uname );
                 $( "#user-fname" ).html( ui.item.fname );
                 $( "#user-icon" ).attr( "src", ui.item.icon );
- 
+
                 return false;
             }
         })
@@ -66,13 +66,13 @@ function user_lister() {
                 return false;
             },
             select: function( event, ui ) {
-                
+
                 $( "#user-id" ).val( ui.item.id );
                 $( "#user-uname" ).html( ui.item.uname );
                 $( "#na_receiver" ).val( ui.item.uname );
                 $( "#user-fname" ).html( ui.item.fname );
                 $( "#user-icon" ).attr( "src", ui.item.icon );
- 
+
                 return false;
             }
         })
@@ -88,14 +88,14 @@ eol;
 
     global $kernel;
     $kernel->external_file("jquery", $js);
-    $input = html_form_input("text", "user_list", null, 'id="user_list" size="20"');
+    $input = html_form_input("text", "user_list", null, 'id="user_list" size="20" style="width:75%;"');
     global $language;
     $pr_image = kernel::base_tag("/{module_dir}/images/stamp-print.png");
     $def_image = kernel::base_tag("/{module_dir}/images/stamp.png");
     return <<<eol
-<div class="ui-widget" style="min-height:180px;" id="widget-select-user">   
+<div class="ui-widget" style="min-height:180px;" id="widget-select-user">
 <div id="user-label">{$language['users.messages.select']}</div>
-<img src="{$pr_image}" class="ui-state-default" alt="stamp-print" 
+<img src="{$pr_image}" class="ui-state-default" alt="stamp-print"
     style="background:none;
     border:none;
     box-shadow:none;
@@ -136,7 +136,7 @@ function datacheck_user_list() {
             $img = kernel::base_tag("{host}{design}users/thumbs/dp4-noavatar.png");
         }
         $return[] = array(
-            "id" => $r[$id], 
+            "id" => $r[$id],
             "uname" => $r[$un],
             "fname" => (empty($r[$fn]))?"":$r[$fn],
             "icon" => $img,
@@ -148,8 +148,8 @@ function datacheck_user_list() {
     }
 }
 function datacheck_messages(){
-    
- if(!defined("USER_ID"))return false;  
+
+ if(!defined("USER_ID"))return false;
     header_remove("content-type");
     if(!(bool)session_id()){
         session_start();
@@ -168,7 +168,7 @@ function datacheck_messages(){
         $GLOBALS['THEME'] =$num;
         $_SESSION['datacheck_messages']=$num;
     }else{
-       $GLOBALS['THEME'] =0; 
+       $GLOBALS['THEME'] =0;
     }
-    
+
 }

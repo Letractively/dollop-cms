@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 6 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-08 18:09:32 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: lan.php 6 2013-02-08 16:09:32Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision$
+ * Last changed by:     $Author$
+ * Last changed date:   $Date$
+ * ID:                  $Id$
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");

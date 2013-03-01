@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: responses.inc 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 119 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+ * ID:                  $Id: responses.inc 119 2013-02-22 14:58:55Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
- * @filesource Main 
+ *
+ * @filesource Main
  * @package dollop kernel
  * @subpackage functions
- * 
+ *
  */
     if (!defined('FIRE1_INIT')) { exit("<div style='background-color: #FFAAAA; '> error..1001</div>"); }
 
@@ -38,17 +38,17 @@
 /**
  * @filesource
  * Functions that need to be loaded on every Dollop request.
- */	
-  
- 
+ */
+
+
 /**
 * Parse the response headers.
-* 	
+*
 * @param mixed $key
 * @example dp_responses(404); return 'Not Found'
 * @return mixed
 */
-function dp_responses($key,$moreinfo=null){	
+function dp_responses($key,$moreinfo=null){
   $responses = array(
     100 => 'Continue',
     101 => 'Switching Protocols',
@@ -96,15 +96,19 @@ function dp_responses($key,$moreinfo=null){
     005 => 'Error in php page.',
     006 => 'Error in dollop php script.',
   );
- 
+
     if(empty($moreinfo)){
     $moreinfo="That’s all we know.";
     }
-    
-    
-return  array($responses[$key],"<h1>". $key . " " .$responses[$key] . " " . 
- "</h1><p><b> The requested URL \"". request_uri() ."\"  creates \"".$responses[$key]."\" on this server.</b> <br /><br />
-  <pre style=\"white-space: normal\">$moreinfo</pre> "); 
+    $NFimg=null;
+if($key == 404){
+    $im = kernel::base_tag("{host}{design}page/404.png");
+    $NFimg = '<center><img src="'.$im.'" style="width:100%;max-width:786px;height:auto;margin-left:auto;margin-right:auto; clear:both;border:0;"/></center>';
+}
+
+return  array($responses[$key],"<h1>". $key . " " .$responses[$key] . " " .
+ "</h1><p class=\" text \"><b> The requested URL \"". request_uri() ."\"  creates \"".$responses[$key]."\" on this server.</b> <br />{$NFimg}<br />
+  <pre style=\"white-space: normal\" >$moreinfo</pre> ");
 }
 
 
@@ -112,6 +116,6 @@ function dp_show_responses($constant,$moreinfo=null){
     if(!empty($constant)){
 
   return  call_user_func("dp_responses",  $constant,$moreinfo ) ;
-    
+
     }
 }

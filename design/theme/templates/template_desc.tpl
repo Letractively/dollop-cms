@@ -1,5 +1,5 @@
-       <div class="desc">
+       <div class="footer description">
 
-        <p id="content">{CONTENT}</p>
+        <p class="text description">{CONTENT}</p>
 
-       </div> 
+       </div>

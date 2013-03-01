@@ -29,63 +29,77 @@
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
-global $language;
+global $language, $kernel;
 $title = kernel::base_tag("{site_name} ") . $language['md.title'];
 $tag = array();
 $my = new mysql_ai;
 
-if (is_numeric($_GET['cat'])) {
-    
-    $my->Select("gallery_category", array(
-        "ID" => $_GET['cat']
+// Main page of gallery
+$folder_public = kernel::base_tag("/{publicfiles}{module_dir}");
+$images = kernel::base_tag("{images}");
+$thumbs = kernel::base_tag("{thumbs}");
+$jsa = null;
+$category = array();
+$my->Select("gallery_category");
+$category = $my->aArrayedResults;
+foreach ($category as $cat) {
+    $cat_name = str_replace("_", " ", $cat['name']);
+
+    // Output template list
+    $category_list.= theme::custom_template("nav-cat", array(
+        "category" => "cat_" . $cat['name'],
+        "title" => $cat_name
     ));
-    $cat = $my->aArrayedResults;
     $my->aArrayedResults = null;
     $my->Select("gallery_content", array(
-        "category" => $cat[0]['name']
+        "category" => $cat['name']
     ));
-    $folder_module = kernel::base_tag("/{publicfiles}{module_dir}");
-    $images = kernel::base_tag("{images}");
-    $thumbs = kernel::base_tag("{thumbs}");
-    $cnt = '<div class="gallery-content">';
-    $title  = $title . " &rarr; " . str_replace("_", " ", $cat[0]['name']);
-    $width  = $cat[0]['value_type'];
-    $videoThumb = HOST . MODULE_DIR . "images/video-thumb.png";
-    foreach ($my->aArrayedResults as $row) {
-        
-        switch ($row['value_type']) {
-            case "image":
-                $cnt.= <<<eol
-            <a href="{$folder_module}{$row['category']}/{$images}{$row['name']}" rel="shadowbox[{$row['category']}]" title="{$row['title']}">
-                <img src="{$folder_module}{$row['category']}/{$thumbs}{$row['name']}"  />
-            </a>
+    $jsa = null;
+
+    // Check Category is empty
+    
+    if (is_array($my->aArrayedResults)) {
+        foreach ($my->aArrayedResults as $row) {
+            $jsa.= <<<eol
+    <li>
+        <img data-frame="{$folder_public}{$row['category']}/{$thumbs}{$row['name']}" src="{$folder_public}{$row['category']}/{$images}{$row['name']}" title="{$row['title']}"  data-description="{$row['body']}"/>
+    </li>
 eol;
-                
-            break;
-            case "video":
-                $cnt.= <<<eol
-            <a href="{$row['value_text']}" rel="shadowbox[{$row['category']}];width=405;height=340;player=swf;">
-                <img src="{$videoThumb}" class="video"  style="height:$width"/>
-            </a>
-eol;
-                
-            break;
+            
         }
+        $jscript = theme::custom_template("js-conf", array(
+            "GALLERY" => "#{$cat['name']}"
+        ));
+        $kernel->external_file("js", $jscript);
+        $cnt.= <<<eol
+    <div class="gallery content" id="cat_{$cat['name']}">
+        <ul id="{$cat['name']}">
+            {$jsa}
+        </ul>
+        <div class="description">{$cat['value_text']}</div>
+    </div>
+eol;
+        
+    } else {
+        $cnt.= <<<eol
+    <div class="gallery content" id="cat_{$cat['name']}">
+        {$language['md.empty']}
+        <div class="description">{$cat['value_text']}</div>
+    </div>
+eol;
+        
     }
-    $content = $cnt . '</div>';
-} else {
-    $my->Select("gallery_category");
-    foreach ($my->aArrayedResults as $row) {
-        $row['name'] = "<a href=\"?cat={$row['ID']}\"> " . str_replace("_", " ", $row['name']) . "</a>";
-        $cnt.= theme::custom_template("category", $row);
-    }
-    $content = "<ul id=\"gallery\" class=\"horizontal\"> $cnt </ul>";
 }
+
+// Creating output and mrege the content with navigation
+$content = theme::custom_template("cat", array(
+    "list" => $category_list,
+    "content" => $cnt
+));
 
 //$THEME = null;
 theme::content(array(
     $title,
     $content
 ));
-
 

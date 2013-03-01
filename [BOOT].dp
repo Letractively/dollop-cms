@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 3 $
-; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-; ID:            		$Id: [BOOT].dp 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     	$Revision: 121 $
+; Last changed by:    	$Author: fire $
+; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+; ID:            		$Id: [BOOT].dp 121 2013-03-01 13:54:10Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -86,7 +86,7 @@
 
 ; IMPORTANT NOTE
 ; ==================
-;   It's highly required to NOT USE arrays in this file,  like: 
+;   It's highly required to NOT USE arrays in this file,  like:
 ;   string[]=a
 ;   string[]=b
 ;   string[]=c
@@ -163,7 +163,7 @@ SlickFlashFile  ='system/bin/slick/flash.swf'
 ; Additional tags for Dollop
 ; used by "base_tag" function
 
-; Image Folders 
+; Image Folders
 ; ------------------
 base_tag[images]=images/
 base_tag[thumbs]=thumbs/
@@ -186,15 +186,19 @@ base_tag[ui_jquery_style]=jquery/ui/theme/jquery-ui.css
 
 ; MOBILE DEVICE
 ; ==================
-; The default mobile theme is place in 
-;	the default spare parts theme folder.  
-; 	For more information view "design.prop", 
+; The default mobile theme is place in
+;	the default spare parts theme folder.
+; 	For more information view "design.prop",
 ;	"theme.spare_parts" variable target.
 
+; - UNCUMENT if you want to use jquery mobile
 ; jQuery Mobile is required for mobile version of website.
 ; ------------------
-mobile_jquery=jquery/mobile/jquery.mobile.js
-mobile_style=jquery/mobile/jquery.mobile.css
+;mobile_jquery=jquery/mobile/jquery.mobile.js
+;mobile_style=jquery/mobile/jquery.mobile.css
+
+mobile_jquery=jquery/mobile/zepto.js
+mobile_style=design/theme/css/mobile/style.css
 
 ; The base_tag with mobile theme folder
 ;  This folder can be and sub-folder of active theme
@@ -220,10 +224,10 @@ COOKIE_SESSION=dollop
 ; ------------------
 ; Generated Key at http://www.andrewscompanies.com/tools/wep.asp
 ; Use  256-bit keys for best
- 
+
 KEY='@"W$RhDu<C8\p8%-N{<Ni|Irr[Vi+';
 HEX	="40225724526844753c43385c7038252d4e7b3c4e697c4972725b56692b";
-SPR = "-"; 
+SPR = "-";
 
 
 ; DEPENDING versions
@@ -238,6 +242,51 @@ phpversion      = "5.3"
 mysqlversion    =  "5"
 
 
+; Dollo Configuration
+; ==================
+
+; Disable mysql cache
+; ------------------
+; This function will disable cache of database
+;
+trunk.disable.sql_fetch=off
+
+; Disable file cache
+; ------------------
+; This function will disable cache of templates and etc.
+;
+trunk.disable.get_contents=off
+
+; Disable cache file cleaning
+; ------------------
+; This function will disable cache cleaning on Admin login.
+;
+trunk.disable.cleaning=On
+
+
+
+; Social Network configuration
+;===================================================================
+module.socialnetworks=1
+;
+;   Twitter
+; (https://dev.twitter.com/apps)
+twitter.consumer.key=Umiho9lt9jCktIi7fJJ59A
+twitter.consumer.secret=oxSfa9kta5ITWpt8GdfxviIStwuU1QsedeG8Mkv7E
+;
+;   Facebook
+;   (https://www.facebook.com/developers/)
+;       NOTE: "Website with Facebook Login" must be http://[domain.name]/users/facebook
+facebook.consumer.key=215698545223593
+facebook.consumer.secret=c0db4e6592598de8a18dc06ffe85cc5d
+;
+;   Google
+;   (https://code.google.com/apis/console/)
+google.consumer.key="878207875649.apps.googleusercontent.com"
+google.consumer.secret="rOuqajPFG96_Wcymy_U6F52P"
+google.developer.key="AIzaSyC1DrvZzdOwHeFizhan-dRIxlpTaXt-1YY"
+; [Provide this URL as the Callback URL for your website http://domainname.com/users/google]
+
 
 
 ; EXTERNAL SCRIPTS
@@ -246,18 +295,18 @@ mysqlversion    =  "5"
 ;
 ;   NOTE
 ;   ========================
-;   || This section gives you opportunity to attach external script 
+;   || This section gives you opportunity to attach external script
 ;   || to dollop kernel.
 ;   || For example you can use this external input of "ajaxplorer".
 ;   || "glueCode.var.*" - give freedom to create varibles
-;   || The array key ( "['folder']" ) is name of varible that is 
+;   || The array key ( "['folder']" ) is name of varible that is
 ;   || create befor including the "glueCode.inc" var value.
-;   || "glueCode['*']"  - contains  kernel function name 
+;   || "glueCode['*']"  - contains  kernel function name
 ;   || of execution.
 ;   || "glueCode.request['*']" -contains URL request of execution.
 ;   || In case "glueCode.request['*']" is null the execution will be
 ;   || in evry page.
-;   
+;
 
 ; GlueCode name and function in kernel
 ;glueCode['ajaxplorer']=index.db
@@ -272,5 +321,5 @@ mysqlversion    =  "5"
 ;glueCode.request['ajaxplorer']=/users/main
 
 
-; END Glue Code 
+; END Glue Code
 ;===================================================================

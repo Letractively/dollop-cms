@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 5 $
-; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-07 12:05:11 +0200 (÷åòâ, 07 ôåâð 2013) $
-; ID:            		$Id: design.prop 5 2013-02-07 10:05:11Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     	$Revision: 119 $
+; Last changed by:    	$Author: fire $
+; Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+; ID:            		$Id: design.prop 119 2013-02-22 14:58:55Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -73,11 +73,11 @@
 ; This is the main dollop configuration file.  It contains the
 ; configuration directives that contain default data and its instructions.
 ; See <URL:http://http.fire1.org/dollop/> for detailed information.
-; In particular, see 
+; In particular, see
 ;
 ; Do NOT simply read the instructions in here without understanding
 ; what they do.  They're here only as hints or reminders.  If you are unsure
-; consult the online docs. You have been warned.  
+; consult the online docs. You have been warned.
 ;################################################################################################
 ;
 ; This is configuration for "design.dp.php"
@@ -92,11 +92,11 @@ theme.prop_filename         =theme.prop
 ;
 ;
 ; Will force system to use theme from folder.
-; 
+;
 theme.force_to_be           =
 ;
 ;
-; The default theme spare parts 
+; The default theme spare parts
 ;
 theme.spare_parts           =design/theme/
 ;
@@ -116,7 +116,7 @@ theme.spare_parts_extension =.tpl
 theme.spare_parts_tag ={tag}
 ;
 ;
-; Default spare part header for theme  
+; Default spare part header for theme
 ;
 theme.spare_parts_header    =spare_parts/header.tpl
 ;
@@ -133,7 +133,7 @@ design.textarea.ctemplate=ctemplate
 ;
 [MAIN]
 ;#################################################################################################
-;////////////////////////////////////////////////////////////////  
+;////////////////////////////////////////////////////////////////
 ; MAIN CONFIGURATION THEME
 ;////////////////////////////////////////////////////////////////
 ;
@@ -150,14 +150,14 @@ design.textarea.ctemplate=ctemplate
 ;*********************************************************************
 ;
 ; Boolean string, in case value is "1" the system will fill html header tags,
-; ;  with full html tag for gived string. 
+; ;  with full html tag for gived string.
 ; ;  example: string "PAGETITLE" will be returned with "<title></title>" tags.
 ;
 theme.html_header           =1
 ;
 ;
 ; Boolean string, in case value is "1" the system will replace all value
-;  for attributes name "src=" 
+;  for attributes name "src="
 ;
 theme.src_in_tags           =1
 ;
@@ -176,7 +176,7 @@ theme.mobile_style         =mobile.css
 ;
 ; With this string system check theme for header html
 ;
-theme.html_start_tag        ='<!DOCTYPE html'
+theme.html_start_tag        ='<!DOCTYPE'
 ;
 ;
 ; Default theme file name
@@ -210,7 +210,7 @@ theme.file_separator        ='_'
 template.prop_filename         =template.prop
 ;
 ;
-; Template folder in activated theme 
+; Template folder in activated theme
 ;
 template.folder_destination    =templates/
 ;
@@ -232,7 +232,7 @@ template.file_separator         ="_"
 ;
 ;#################################################################################################
 ;
-; 
+;
 ;
 ;*********************************************************************
 ;   -= Template content Configuration =-
@@ -240,7 +240,7 @@ template.file_separator         ="_"
 ;
 ;# NOTE:
 ; This is internal configuration for templates.
-; You may copy sectors below to your template.prop file to create 
+; You may copy sectors below to your template.prop file to create
 ; external configuration for templates sectors.
 ; Do not change this configuration, Its recommended.
 ;
@@ -255,6 +255,7 @@ sector[]=desc
 sector[]=link
 sector[]=sublink
 sector[]=menu
+sector[]=site_name
 ;
 ;   LINK PROP TEMPLATE CONTENT
 ;################################################################################################
@@ -290,6 +291,11 @@ sector[]=sub_content
 [DESC]
 sector[]=content
 ;
+;   DESC PROP TEMPLATE CONTENT
+;################################################################################################
+[SITE_NAME]
+sector[]=content
+;
 ;
 ;
 ;*********************************************************************
@@ -307,7 +313,7 @@ sector[]=content
 LANGUAGE={LANGUAGE}
 CHARSET={CHARSET}
 METATAGS={METATAGS}
-KEYWORDS={KEYWORDS} 
+KEYWORDS={KEYWORDS}
 PAGETITLE={PAGETITLE}
 CHARSET={CHARSET}
 JSCRIPT={JSCRIPT}
@@ -327,12 +333,10 @@ FAVICON={FAVICON}
 JSCRIPT[0]    = '{jquery}/{jquery_file}';
 ;
 ; JavaScript for links in website
-JSCRIPT[2]     = '{design}/theme/jscript/superfish.js';
-JSCRIPT[3]     = '{design}/theme/jscript/superfish.process.js';
+
 ;
 ;
-STYLECSS[0]       ="{design}/theme/css/dollop.css";
-STYLECSS[1]       ="{themes}{theme}/style.css";
+STYLECSS[0]   ="{themes}{theme}/style.css";
 ;
 ;
 ;
@@ -342,4 +346,5 @@ STYLECSS[1]       ="{themes}{theme}/style.css";
 ; syntax:
 ;         string_outpu[]="path_to_file"
 ;
-;   The End of file 
+;
+;   The End of file

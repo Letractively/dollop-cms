@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 3 $
- * Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:       $Id: menus.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 117 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-02-13 13:35:16 +0200 (ñð, 13 ôåâð 2013) $
+ * ID:       $Id: menus.php 117 2013-02-13 11:35:16Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -455,7 +455,7 @@ if (!is_array($r)) {
     $text = "{$language['lw.the']} {$language['lw.menu']} {$language['lw.not']} {$language['lw.selected']}.";
     $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_addt_menu_js);
 }
-$area_js = $this->script_editor('js', "{$sector_addt_menu_js}-js", 'jscripts', $r['jscripts'], 'style="height: 450px;"');
+$area_js = $this->script_editor('js', "{$sector_addt_menu_js}-js", 'jscripts', htmlspecialchars($r['jscripts']), 'style="height: 450px;"');
 $autocomplete = $this->autocomplete_function_editor('js', "acm-{$sector_addt_menu_js}");
 $SUBBODY[$sector_addt_menu_js] = <<<html
 <form id="{$sector_addt_menu_js}" name="{$sector_addt_menu_js}" method="post" action="#{$sector}" target="_self">
@@ -499,7 +499,7 @@ if (!is_array($r)) {
     $text = "{$language['lw.the']} {$language['lw.menu']} {$language['lw.not']} {$language['lw.selected']}.";
     $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_addt_menu_php);
 }
-$area_php = $this->script_editor('php', "{$sector_addt_menu_php}-php", 'phpscripts', $r['phpscript'], 'style="height: 450px;"');
+$area_php = $this->script_editor('php', "{$sector_addt_menu_php}-php", 'phpscripts', htmlspecialchars($r['phpscript']), 'style="height: 450px;"');
 $autocomplete = $this->autocomplete_function_editor('php', "acm-{$sector_addt_menu_php}");
 $SUBBODY[$sector_addt_menu_php] = <<<html
 <form id="{$sector_addt_menu_php}" name="{$sector_addt_menu_php}" method="post" action="#{$sector}" target="_self">
