@@ -58,8 +58,8 @@ This is the default settings file for new Dollop installations.
     It's highly required to NOT USE arrays in this file,  like:
 
     `string[]=a` Empty array kay 
+
     `string[]=b` or listing with empty keys
 
-
-        THIS USE OF STRINGS WILL CRUSH THE CMS!!!
+        ==THIS USE WILL CRUSH THE CMS!!!==
  
