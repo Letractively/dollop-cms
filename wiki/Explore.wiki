@@ -39,3 +39,4 @@ When Control Panel is active, the "kernel" extend the system to comprehensive da
 </blockquote>
 <h3>Templates</h3>
 <strong></strong>Templates are available in three Dollop system sectors in priority order like, theme templates, external script templates and spear parts (system default). The HTML template sectors in theme don not have limit of numer, to create your custom sectors (tags) . <br>In order to create your custom template with replacement tags follow the link to <strong>template tutorial</strong>.
+
