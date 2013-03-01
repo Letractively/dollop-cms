@@ -1,4 +1,6 @@
 #labels Phase-Requirements,Phase-Deploy,Featured
+
+
 =REQUIREMENTS AND NOTES=
 ----
 
@@ -11,8 +13,11 @@
 NOTE:
 At the moment Dollop can be run properly only on a Linux server with Apache 2 and Mysql database.
 
+
+
 =INSTALLATION PREPARATIONS=
 ----
+
 - Confirm that the user under which Apache runs has permission to write into the website directory.
 - Check can be done e.g. via `ls -la` command on the website root directory. To fix this you may use this command `chown -hR www-data /var/www/`
 - Confirm that the mcrypt extension is installed and running properly . 
@@ -21,8 +26,12 @@ At the moment Dollop can be run properly only on a Linux server with Apache 2 an
 - For problems on Ubuntu server just use `sudo apt-get install php5-gd` for installation.
 - Confirm that the Mysql process is running on the server.
 
+
+
 =INSTALLATION=
 ----
+
+
 ==1. Download and extract Dollop.==
 
 You can obtain the latest Dollop release from http://fire1.eu -- "dollop files"
@@ -43,6 +52,7 @@ within your web server's document root or your public HTML directory,
 continue with this command:
 
 `$ mv dollop-[code name].xx/* dollop-[code name].xx/.htaccess /path/to/your/installation`
+
 
 ==2. Optionally, download a translation.==
 
