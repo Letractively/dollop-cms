@@ -1,6 +1,6 @@
 #labels Phase-Requirements,Phase-Deploy,Featured
 =REQUIREMENTS AND NOTES=
----- 
+----
 
  LINUX web server.
  Apache version 2.0 (or higher) is recommended.
@@ -12,7 +12,7 @@ NOTE:
 At the moment Dollop can be run properly only on a Linux server with Apache 2 and Mysql database.
 
 =INSTALLATION PREPARATIONS=
----- 
+----
 - Confirm that the user under which Apache runs has permission to write into the website directory.
 - Check can be done e.g. via `ls -la` command on the website root directory. To fix this you may use this command `chown -hR www-data /var/www/`
 - Confirm that the mcrypt extension is installed and running properly . 
@@ -22,7 +22,7 @@ At the moment Dollop can be run properly only on a Linux server with Apache 2 an
 - Confirm that the Mysql process is running on the server.
 
 =INSTALLATION=
----- 
+----
 ==1. Download and extract Dollop.==
 
 You can obtain the latest Dollop release from http://fire1.eu -- "dollop files"
@@ -50,11 +50,10 @@ By default, Dollop is installed in English, and other languages may be
 installed later. If you prefer to install Dollop in another language from the start:
 
 
-- Download a translation file for the correct Dollop version and language
+ Download a translation file for the correct Dollop version and language
 from the translation server: http://(for now is not available)
 
-- Place the file into your language directory. 
-language/
+ Place the file into your language directory. "language/"
 
 For detailed instructions, visit http://fire1.eu/
 
