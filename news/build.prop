@@ -12,22 +12,28 @@
 ;##############################################
 [MAIN]
 ;##############################################
-;	Module name 
+;	Module name
 ;##############################################
 ;
-module.name					='news'
+module.name				='news'
 ;
 ;##############################################
-;	Module Version 
+;	Module Version
 ;##############################################
 ;
-module.version				=2,4
+module.version				=2.4
 ;
 ;##############################################
-;	Module compatible with kernel version 
+;	Module Author
 ;##############################################
 ;
-module.vkernel				=1,1
+module.author				=fire1
+;
+;##############################################
+;	Module compatible with kernel version
+;##############################################
+;
+module.vkernel				='1.1+'
 ;
 ;
 ;'templates/'
@@ -36,8 +42,8 @@ module.templates			=templates/
 ;
 ;   Language folder
 ;
-;language/
-module.language             =language/
+;
+module.language				=language/
 ;
 ;
 ;
@@ -60,9 +66,9 @@ module.facial.lan.file        =lan.php
 ;
 ;
 ;##############################################
-; File to be load at enter in module  
+; File to be load at enter in module
 ;##############################################
-;# Init string. If is "0" (null) must use: 
+;# Init string. If is "0" (null) must use:
 ;	"module.facial.url.[url request]=[path to file]"
 ;
 module.facial.source 				=0
@@ -98,29 +104,31 @@ news.shkeywords =0
 news.firstfull  =Off
 
 ; Limit of content (if is 0 will show all content)
-news.contlimit =160
+news.contlimit =260
 
 
-; News select, template tags 
+; News select, template tags
 news.sltag.title=news_title
 news.sltag.content=news_content
 news.sltag.image=news_image
 news.sltag.descr=news_descr
 
 
+; Folder with Menu PHP files
+module.facial.menu=menu/
 ;
 ;----------------------------------------------
 ;
 ;
-;# if "module.admin.admin" is 0 must 
-;	fill full value with destination to files in 
+;# if "module.admin.admin" is 0 must
+;	fill full value with destination to files in
 ;	"module.fac.url.*" string
 ;
 ;
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ; Include sector
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   NOTE basic this varibles are for folders 
+;   NOTE basic this varibles are for folders
 ;   inclde "/" at end of value
 ;
 ;PHP:
@@ -128,8 +136,8 @@ module.facial.includes		=include/
 ;JS:
 module.facial.javascript	=javascript/
 ;CSS:
-module.facial.css           =style/
-; 
+module.facial.css               =style/
+;
 ; Change include path to start from module`s directorie
 ;
 module.facial.include_path=0
@@ -142,29 +150,29 @@ module.facial.include_path=0
 ;##############################################
 ;
 ; Module Manager Root folder
-module.manager.main             =manager/
+module.manager.main                     =manager/
 ; (all data below is attached after main manager dir)
 ;
 ;
 ; prop files with privilege:
-module.manager.privilege        =privilege/
+module.manager.privilege                =privilege/
 ;
 ; Manager files:
 module.manager.source			=source/
 ;
 ; Manager source files
-module.manager.includes         =include/
+module.manager.includes                 =include/
 ;
 ; FRAMEWORK
 ;
 ; Module Manager Cover Image
-module.manager.cover            =framework/img/cover.jpg
+module.manager.cover                    =framework/img/cover.jpg
 ;
 ; Module Manager icon image
 module.manager.icon		        =framework/img/icon.png
 ;
 ; Mudule Manager CSS
-module.manager.css              =framework/css/
+module.manager.css                      =framework/css/
 ;
 ; Module Manager Javascript
 module.manager.js		        =framework/js/
@@ -172,7 +180,7 @@ module.manager.js		        =framework/js/
 ;
 ; If is empty will use def value "template" folder
 ;
-module.manager.template 				=templates/
+module.manager.template 		=templates/
 ;
 [INSTALL]
 ;##############################################

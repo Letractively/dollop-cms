@@ -12,22 +12,28 @@
 ;##############################################
 [MAIN]
 ;##############################################
-;	Module name 
+;	Module name
 ;##############################################
 ;
 module.name				='livechat'
 ;
 ;##############################################
-;	Module Version 
+;	Module Version
 ;##############################################
 ;
 module.version				=0.1
 ;
 ;##############################################
-;	Module compatible with kernel version 
+;	Module Author
 ;##############################################
 ;
-module.vkernel				=1,1
+module.author				=fire1
+;
+;##############################################
+;	Module compatible with kernel version
+;##############################################
+;
+module.vkernel				=1.1
 ;
 ;
 ;'templates/'
@@ -56,9 +62,9 @@ module.facial.lan.file        =lan.php
 ;
 ;
 ;##############################################
-; File to be load at enter in module  
+; File to be load at enter in module
 ;##############################################
-;# Init string. If is "0" (null) must use: 
+;# Init string. If is "0" (null) must use:
 ;	"module.facial.url.[url request]=[path to file]"
 ;
 module.facial.source 				=0
@@ -84,15 +90,15 @@ module.facial.url.room=src/room.php
 ;----------------------------------------------
 ;
 ;
-;# if "module.admin.admin" is 0 must 
-;	fill full value with destination to files in 
+;# if "module.admin.admin" is 0 must
+;	fill full value with destination to files in
 ;	"module.fac.url.*" string
 ;
 ;
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ; Include sector
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   NOTE basic this varibles are for folders 
+;   NOTE basic this varibles are for folders
 ;   include "/" at end of value
 ;
 ;PHP:
@@ -101,7 +107,7 @@ module.facial.includes		=include/
 module.facial.javascript	=javascript/
 ;CSS:
 module.facial.css           =style/
-; 
+;
 ; Change include path to start from module`s directory
 ;
 module.facial.include_path=0

@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 3 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: view.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 121 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+ * ID:       $Id: view.php 121 2013-03-01 13:54:10Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,26 +17,25 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
- * --------------------------------------
+ * ----------------------------------------------------------
  *       See COPYRIGHT and LICENSE
- * --------------------------------------
- * 
- * @filesource  Dollop News
- * @package dollop 
- * @subpackage Module
- * 
+ * ----------------------------------------------------------
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
-
-global $language;
+/**
+ *
+ * @filesource
+ * News sorceode
+ */
 $content = null;
+$proposed = null;
 // Setup News template tags
 // - Constants: "NEWS_SLTAG_TITLE","NEWS_SLTAG_CONTENT" & etc.
 //      are defined in build.prop" file as "news.sltag.title","news.sltag.content" & etc.
 // Creating News template
-global $MERGE_TEMPLATE, $theme;
+global $language, $MERGE_TEMPLATE, $theme;
 $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_TITLE;
 $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_CONTENT;
 $MERGE_TEMPLATE["NEWS"]['sector'][] = NEWS_SLTAG_IMAGE;
@@ -46,7 +45,7 @@ $theme->template_setup("NEWS");
 if (is_numeric($_GET['cat'])) {
     $news_content = PREFIX . "news_content";
     $news_category = PREFIX . "news_category";
-    $query = "SELECT 
+    $query = "SELECT
 
         `$news_content`.`ID` AS ID,
         `$news_content`.`title` AS title,
@@ -58,18 +57,19 @@ if (is_numeric($_GET['cat'])) {
         `$news_category`.`ID` AS cat_id
 
         FROM `$news_content` RIGHT  JOIN `$news_category` ON `$news_content`.`category`=`$news_category`.`title`
-
-        WHERE  `$news_category`.`ID`='{$_GET['cat']}' 
-
+        WHERE  `$news_category`.`ID`='{$_GET['cat']}'
         ORDER BY `$news_content`.`timestamp` DESC
 
-        LIMIT 20; ";
+        LIMIT " . NEWS_LIMIT . "; ";
     // result of MySQL query
     $result = mysql_query($query) or die(mysql_error());
     // re convert array
     while ($r = mysql_fetch_array($result)) {
         $rs[] = $r;
     }
+    //
+    // Show buuto for rss link
+    $proposed .='<a href="rss?id=' . $_GET['cat'] . '" class="rss"><span> </span>' . $language['ns.rssc'] . $rs['category'] . '</a>';
 } else {
     //
     // Attaching mysql_ai class
@@ -77,6 +77,7 @@ if (is_numeric($_GET['cat'])) {
     //
     // Selecting mysql NEWS rows
     $mysql->Select("news_content", null, "`timestamp` DESC", NEWS_LIMIT);
+    $proposed .='<a href="rss" class="rss"><span></span>' . $language['ns.rssa'] . '</a>';
 }
 //
 // combine arrays
@@ -102,10 +103,10 @@ if (is_array($comb_rows)) {
         if (empty($row['image'])) {
             $image = " ";
         } else {
-            $image = " 
+            $image = "
 
                 <A href=\"/" . $publicfiles . MODULE_DIR . $images . $row['image'] . "\" >
-                <img src=\"/" . $publicfiles . MODULE_DIR . $thumbs . $row['image'] . "\" border=\"0\" title=\"{$row['title']}\"/> 
+                <img src=\"/" . $publicfiles . MODULE_DIR . $thumbs . $row['image'] . "\" alt=\"{$row['title']}\" title=\"{$row['title']}\"/>
                 </A>
                 ";
         }
@@ -135,12 +136,24 @@ if (is_array($comb_rows)) {
     }
     //
     // last check of text in news
-    if ($i <= 0) {
+    if ($i <= 0 OR empty($news_text)) {
         $text = $language['ns.empt'];
     }
     //
+    // Social Networks
+    $socnetwr = social_networks(1, 1, 1, 0, 0, 0, $proposed);
+    $proposed = <<<eol
+            <p>
+                <div class="clearfix"></div>
+                <div class="hr bottom" ></div>
+                {$socnetwr}
+            </p>
+
+eol;
+
+    //
     // Attach/Showing NEWS template in theme
-    theme::content(array(ucfirst($language['ns.view']), $text));
+    theme::content(array(ucfirst($language['ns.view']), $text . $proposed));
 } else {
     // Showing empty message in theme
     theme::content(array(ucfirst($language['ns.view']), $language['ns.empt']));

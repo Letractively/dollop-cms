@@ -1,8 +1,7 @@
 
-	<div class="page_content">
 
-			<div class="title">{TITLE}</div>
+<div class="page-title">
+	<h1>{TITLE}</h1>
+</div>
+        <div class="content">{CONTENT}</div>
 
-			<div class="content">{CONTENT}</div>
-
-	</div>

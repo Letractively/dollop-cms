@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 3 $
-; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-; ID:            	$Id: panel.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     	$Revision: 119 $
+; Last changed by:    	$Author: fire $
+; Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+; ID:            	$Id: panel.prop 119 2013-02-22 14:58:55Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -70,7 +70,7 @@
 ; the builtin defaults will be identical).
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;^^     Dollop Panel Prop File
-;^^     This prop file is for panel class 
+;^^     This prop file is for panel class
 ;^^
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,7 +82,7 @@ panel.version=1.00
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-;   This string contain value for style css panel 
+;   This string contain value for style css panel
 	panel.theme.style[]=ui/main/jquery-ui-custom.css
     panel.theme.style[]=style.css
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,32 +97,32 @@ panel.version=1.00
 
     panel.theme.jscript[]=js/scrollTo-min.js
     panel.theme.jscript[]=js/localscroll-min.js
-    panel.theme.jscript[]=js/tinyscrollbar.js
+    ;panel.theme.jscript[]=js/tinyscrollbar.js; Disable due too many problems with screens
     panel.theme.jscript[]=js/tableEffect.js
     panel.theme.jscript[]=js/init.js
-;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
-    
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;   This string contain value of string used in theme.php file
     panel.theme.string=$theme
-;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;   This boolean will convert, inserted java script in html theme to mini if is true.
 	panel.jscript.mini=0
-;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;   Script Editor configuration
 ; first     "*" is replaced with "panel.scriptEditor.name" value
 ; second    "^" is replaced with "panel.scriptEditor.mude" value
-; Avalible editors `cloud9`,`codemirror` 
+; Avalible editors `cloud9`,`codemirror`
 
     ; ACTIVE EDITOR
 
     panel.scriptEditor.name     =codemirror ; (this name is name of folder)
-       
+
 
     ;   Template files
     panel.scriptEditor.head  ='*.head.^.tpl'
@@ -132,11 +132,11 @@ panel.version=1.00
     panel.scriptEditor.tag.text     =text
     panel.scriptEditor.tag.name     =name
     panel.scriptEditor.tag.style    =style
-    
 
 
-    
-    
+
+
+
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;   Autocomplete configuration
     panel.autocomplete.minChars=2

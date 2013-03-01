@@ -69,26 +69,58 @@ body div#cpanel-header.head .lnksps a:hover {
     margin-left:24px !important;
     margin-left:24px !important;
 }
-.error span{}
-.error{
+#error_cpanel_content.error span{}
+#error_cpanel_content.error{
 display:none;
 position:absolute;
 top:48px;
 left:36%;
-width:400px;
+width:600px;
 padding:2px;
 background:#0CF;
 border:solid 2px #fff;
     box-shadow: 0 0 10px #333;
-    -webkit-box-shadow: 0px 0px 10px  #333 ; 
+    -webkit-box-shadow: 0px 0px 10px  #333 ;
     -moz-box-shadow: 0px 0px 10px   #333 ;
     -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;  
-font-size:12px;
-font-family: Arial, Helvetica, sans-serif;
+border-radius: 5px;
+font-size:19px;
+font-family: Verdana, Helvetica, sans-serif;
 z-index: 201 !important;
+
 }
+
+#error_cpanel_content.error.opened > div{
+    overflow-y: scroll;
+max-height: 786px;
+font-size: 9px;
+}
+#error_cpanel_content.error.opened > div::-webkit-scrollbar {
+    width: 3px;
+    margin-right: 4px !important;
+    border-radius: 3px;
+}
+#error_cpanel_content.error.opened > div::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(80,80,80,0.4);
+}
+#error_cpanel_content.error.opened > div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+    border-radius: 3px;
+
+}
+
+#error_cpanel_content.error.opened > div::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 0 6px #8FD5FA;
+    background:  #fff;
+}
+#error_cpanel_content.error.opened > div::-webkit-scrollbar-button       { color: #222; }
+
+#error_cpanel_content.error.opened > div.close-cp-button{
+    overflow-y:hidden;
+}
+
 
 body div.fullpage{
 display:none;
@@ -105,17 +137,17 @@ background-position: top;
 background-repeat: repeat-x;
 border:solid 2px #585858;
     box-shadow: 0 0 10px #333;
-    -webkit-box-shadow: 0px 0px 10px  #333 ; 
+    -webkit-box-shadow: 0px 0px 10px  #333 ;
     -moz-box-shadow: 0px 0px 10px   #333 ;
     -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
-border-radius: 5px;  
+border-radius: 5px;
 font-size:12px;
 font-family: Arial, Helvetica, sans-serif;
 z-index: 200 !important;
 }
  .auto-height{
-background-color:#fff;   
+background-color:#fff;
  width: 100%;
   border-width: 0px;
  border-top-width: 1px;
@@ -182,7 +214,7 @@ body div.fullpage .close-cp-button, .close-cp-button{
     background-position: top;
     background-image: url(img/close_panel.png);
     position: absolute;
-    
+
 
 }
 body div.fullpage .close-cp-button:hover{
@@ -244,7 +276,7 @@ border-left: solid 0px #fff;
 -moz-border-radius-topright: 5px;
 -moz-border-radius-bottomright: 5px;
 border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;   
+border-bottom-right-radius: 5px;
 }
 
 body div.fullpage div.cp-title a.cp-fullscreen{

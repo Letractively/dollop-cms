@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 3 $
- * Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:       $Id: pages.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 117 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-02-13 13:35:16 +0200 (ñð, 13 ôåâð 2013) $
+ * ID:       $Id: pages.php 117 2013-02-13 11:35:16Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -257,7 +257,7 @@ if ($_POST['addt-this-page-js']) {
     $text = "{$language['lw.the']} {$language['lw.page']} {$language['lw.not']} {$language['lw.selected']}.";
     $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_edit_menu);
 }
-$area_js = $this->script_editor('js', "{$sector_addt_page_js}-js", 'jscripts', $r['jscripts'], 'style="height: 450px;"');
+$area_js = $this->script_editor('js', "{$sector_addt_page_js}-js", 'jscripts', htmlspecialchars($r['jscripts']), 'style="height: 450px;"');
 $autocomplete = $this->autocomplete_function_editor('js', "acm-{$sector_addt_page_js}");
 $SUBBODY[$sector_addt_page_js] = <<<html
 <form id="{$sector_addt_page_js}" name="{$sector_addt_page_js}" method="post" action="#{$sector}" target="_self">
@@ -300,7 +300,8 @@ if ($_POST['addt-this-page-php']) {
     $text = "{$language['lw.the']} {$language['lw.page']} {$language['lw.not']} {$language['lw.selected']}.";
     $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_edit_menu);
 }
-$area_php = $this->script_editor('php', "{$sector_addt_page_js}-php", 'phpscripts', $r['phpcripts'], 'style="height: 450px;"');
+
+$area_php = $this->script_editor('php', "{$sector_addt_page_js}-php", 'phpscripts', htmlspecialchars($r['phpcripts']), 'style="height: 450px;"');
 $autocomplete = $this->autocomplete_function_editor('php', "acm-{$sector_addt_page_php}");
 $SUBBODY[$sector_addt_page_php] = <<<html
 <form id="{$sector_addt_page_php}" name="{$sector_addt_page_php}" method="post" action="#{$sector}" target="_self">

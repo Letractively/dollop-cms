@@ -31,7 +31,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  White space and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -72,7 +72,13 @@
 
 
 ; Default dependencies of module for dollop
-name=MODULE_NAME
-destination=MODULE_DIR
-index=URI_PATH
+
+; The name of Module
+name        = MODULE_NAME
+
+; Destination of module
+destination = MODULE_DIR
+
+; Index of Module
+index       = URI_PATH
 

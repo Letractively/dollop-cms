@@ -98,8 +98,7 @@ $language['users.f.resnw']    = "Link not working? Copy and paste the one below 
 $language['users.chml.ttl']   ="You receive this message to change current email in {host}";
 $language['users.chml.mss']   ="By clicking the link below you will be redirected to web page that will activate the  current mailbox.";
 $language['users.chml.smss']   ="It is recommended to be signed-in like a user, before you continue.";
-$language['users.chml.sendmail']   ="The email message for changing mailbox is sent successfully. <p>
-Please check your requested mailbox.<p>";
+$language['users.chml.sendmail']   ="The email message for changing mailbox is sent successfully.<p>Please check your requested mailbox.<p>";
 $language['users.chml.sesexp'] ="Session for change of mailbox is expired.";
 
 //
@@ -122,12 +121,12 @@ $language['users.flds.reqn']    ="Display ";
 // Forgotten password
 $language['users.sent.mail']="The email for password recovery is sent successfully,</br > check your email and follow the steps written in the email.";
 $language['users.sent.err'] = "Please Try Again!";
-$language['users.sent.cont']="To continue please click <b><a href=\"/users\">here</a></b>";
+$language['users.sent.cont']="To continue please click <b><a href='/users'>here</a></b>";
 $language['users.recov.errorhash'] = "Error in the given link";
 $language['users.recov.changfor'] = "Changing password for username:";
 
-$language['users.updated'] = "<p align=\"center\">New information is set in your profile!<br /><br />
-    To continue go into <a href=\"main\">the user's main page</a> or <a href=\"/\">the website home page.</a></p>
+$language['users.updated'] = "<p align='center'>New information is set in your profile!<br /><br />
+    To continue go into <a href='main'>the user's main page</a> or <a href='/'>the website home page.</a></p>
 ";
 $language['users.change.mail']="Change your email";
 $language['users.change.password']="Change your password";
@@ -159,7 +158,7 @@ $language['users.messages.mailer']="Are you sure you want to delete ";
 
 
 // View user
-$language['users.view.notexist']="This user do not exist. <br /> Check your link";
+$language['users.view.notexist']="This user do not exist.<br /> Check your link";
 $language['users.view.sendmess']="Send personal message";
 $language['users.view.viewingu']="viewing ";
 

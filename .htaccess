@@ -1,6 +1,8 @@
-# .htaccess
-# Apache/PHP/Dollop settings file:
 #
+# Apache/PHP/Drupal settings:
+#
+
+AddHandler x-httpd-php53 .php
 
 # Protect files and directories from prying eyes.
 <FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)$|^(\..*|Entries.*|Repository|Root|Tag|Template)$">
@@ -13,28 +15,20 @@ Options -Indexes
 # Follow symbolic links in this directory.
 Options +FollowSymLinks
 
-# Make Dollop handle any 404 errors.
+# Make Drupal handle any 404 errors.
 ErrorDocument 404 /index.php
 
 # Set the default handler.
 DirectoryIndex index.php index.html index.htm
 
-# Adding Handler PHP 5.3 to ".php" file if is not set-up by default
- # uncomment the following:
- # AddHandler x-httpd-php53 .php
-
-# Override PHP settings that cannot be changed at run time. See
-# sites/default/default.settings.php and dollop_initialize_variables() in
-# includes/bootstrap.inc for settings that can be changed at run time.
-
-
-
-
+# Override PHP settings that cannot be changed at runtime. See
+# sites/default/default.settings.php and drupal_initialize_variables() in
+# includes/bootstrap.inc for settings that can be changed at runtime.
 
 # PHP 5, Apache 1 and 2.
 <IfModule mod_php5.c>
-  php_flag magic_quotes_gpc                 off
-  php_flag magic_quotes_sybase              off
+  php_flag magic_quotes_gpc                 on
+  php_flag magic_quotes_sybase              on
   php_flag register_globals                 off
   php_flag session.auto_start               off
   php_value mbstring.http_input             pass
@@ -55,7 +49,7 @@ DirectoryIndex index.php index.html index.htm
     # headers themselves. Otherwise all scripts would have to overwrite the
     # headers set by mod_expires if they want another caching behavior. This may
     # fail if an error occurs early in the bootstrap process, and it may cause
-    # problems if a non-Dollop PHP file is installed in a sub directory.
+    # problems if a non-Drupal PHP file is installed in a subdirectory.
     ExpiresActive Off
   </FilesMatch>
 </IfModule>
@@ -95,18 +89,18 @@ DirectoryIndex index.php index.html index.htm
   # RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   # RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
 
-  # Modify the RewriteBase if you are using Dollop in a sub directory or in a
+  # Modify the RewriteBase if you are using Drupal in a subdirectory or in a
   # VirtualDocumentRoot and the rewrite rules are not working properly.
-  # For example if your site is at http://example.com/dollop uncomment and
+  # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /dollop
+  # RewriteBase /drupal
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
   # RewriteBase /
 
   # Pass all requests not referring directly to files in the filesystem to
-  # index.php. Clean URLs are handled in dollop_environment_initialize().
+  # index.php. Clean URLs are handled in drupal_environment_initialize().
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !=/favicon.ico
@@ -128,18 +122,8 @@ DirectoryIndex index.php index.html index.htm
     # Serve correct content types, and prevent mod_deflate double gzip.
     RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
     RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
-    
-    #
-    # Try to gzip encode
-     <FilesMatch "\.(generated*)$">
-      # Serve correct encoding type.
-      Header set Content-Encoding gzip
-      # Force proxies to cache gzipped & non-gzipped css/js files separately.
-      Header append Vary Accept-Encoding
-      # Set a php content type 
-    </FilesMatch>
-    
-    <FilesMatch "(\.js\.gz|\.css\.gz|\.generated)$">
+
+    <FilesMatch "(\.js\.gz|\.css\.gz)$">
       # Serve correct encoding type.
       Header set Content-Encoding gzip
       # Force proxies to cache gzipped & non-gzipped css/js files separately.
@@ -147,6 +131,3 @@ DirectoryIndex index.php index.html index.htm
     </FilesMatch>
   </IfModule>
 </IfModule>
-
-
-

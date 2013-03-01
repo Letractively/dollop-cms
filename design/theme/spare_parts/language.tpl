@@ -1,1 +1,1 @@
-<meta http-equiv="content-language" content="{tag}" />
+<html lang="{tag}">

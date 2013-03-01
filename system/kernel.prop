@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 3 $
-; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-; ID:            		$Id: kernel.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     	$Revision: 119 $
+; Last changed by:    	$Author: fire $
+; Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+; ID:            		$Id: kernel.prop 119 2013-02-22 14:58:55Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -72,9 +72,9 @@
 
 ; Dollop - Kernel configuration
 ;=========================
-; for more information check http://fire1.eu/ 
+; for more information check http://fire1.eu/
 ;
-; CONTENTS OF THIS FILE: 
+; CONTENTS OF THIS FILE:
 ;
 ;   * MAIN
 ;   * EXTENSIONS
@@ -84,14 +84,14 @@
 ;
 [MAIN]
 ;=========================
-;   
+;
 ;   Basic folders in system
 ;
 dollop.lib=lib
 dollop.bin=bin
 dollop.usr=usr
 dollop.etc=etc
-dollop.class=lib/acl 
+dollop.class=lib/acl
 ;
 ;
 ;
@@ -107,7 +107,7 @@ dp.etc="boot.prop"
 ; Database Managment class
 ;^^^^^^^^^^^^^^^^^^^^^^^^^
 ;
-;   Constant used in biuld.prop 
+;   Constant used in biuld.prop
 kernel.database.constant="KERNEL_DATABASE";(in file will be: "kernel.database=" )
 ;
 ;   lib Folder
@@ -117,13 +117,13 @@ kernel.database.folder=database/
 ;
 ;  USERS / CONTROL PANEL
 ;^^^^^^^^^^^^^^^^^^^^^^^^^
-; Control Panel have 3 types for run and you may choose one of them. 
+; Control Panel have 3 types for run and you may choose one of them.
 ; Types:
 ;       off - always OFF
 ;       {auto} class name - for admin only (recommended)
 ;       on - always ON
 ;
-dp.cpanel=2                                        
+dp.cpanel=2
 dp.cpanel.default=cpanel
 ;
 ;
@@ -138,7 +138,7 @@ dp.manager.file=source.php
 kernel.users.depend.folder="users{depend}"
 ;
 ;   Sessions for remembering users
-; 
+;
 kernel.users.session.remember=remember
 kernel.users.session.username=remember.username
 kernel.users.session.password=remember.password
@@ -189,15 +189,15 @@ kernel.repo.html="{design}/theme/repo.html"
 ;  LANGUAGE FILES
 ;^^^^^^^^^^^^^^^^^^^^^^^^^
 ;
-kernel.languageFile=lan_.php 
+kernel.languageFile=lan_.php
 kernel.languageFileMain=lan.prop
 ;
 ;
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP KERNEL / FILE PROCESSING
 ;/////////////////////////////////////////////////////////////////////
 
-;    == OTHER DATA FILES == 
+;    == OTHER DATA FILES ==
 ; These files are generated from the main source code
 ; Available types:
 kernel.externelFile.types[]=js
@@ -205,19 +205,19 @@ kernel.externelFile.types[]=css
 kernel.externelFile.types[]=jquery
 kernel.externelFile.types[]=json
 
-;    == CACHE AND TRUNK FILES == 
+;    == CACHE AND TRUNK FILES ==
 ; file time in hours during which valid files in trunk and cache
 ; this time is valid if is not set other from the system
 ; [dollop cookie is 2592000 sec 30 days]
 kernel.trunkTime        =720;hours
-kernel.cacheTime        =24;hours  
+kernel.cacheTime        =24;hours
 
 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ;  Crypt mode in kernel
-;/////////////////////////////////////////////////////////////////////  
-; 
-; valid options are ofb,cfb,ecb and other valid for "mcrypt" module 
+;/////////////////////////////////////////////////////////////////////
+;
+; valid options are ofb,cfb,ecb and other valid for "mcrypt" module
 
 kernel.cryptMode=cfb
 
@@ -234,30 +234,30 @@ kernel.cryptMode=cfb
 kernel.cryptCypher=cast-128
 ;
 ;
-; Hash for mcrypt key 
+; Hash for mcrypt key
 ;
 ;NOTE: in most cases if you use faster crypt the mcrypt key must be lower size.
 ; For example:  if you use `blowfish` encryption key length is 32
 ;               if you use `cast-128` encryption key length is 16
-;small  hash: crc32  
-;normal hash: md5        
+;small  hash: crc32
+;normal hash: md5
 ;kernel.cryptHash=md5   [COSED must be fixed]
 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ;  Trunk kernel files
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ;
-; force trunk files to be valid for time set here, in this file  
-; it's recommended to do not use this (Forece Time) option 
+; force trunk files to be valid for time set here, in this file
+; it's recommended to do not use this (Forece Time) option
 
 kernel.trunkFTime=
 
-; force cache files to be valid for time set here, in this file 
+; force cache files to be valid for time set here, in this file
 ; it's recommended to do not use this (Forece Time) option
- 
+
 kernel.cacheFTime=
 
-; converts content of trunk files to base 64 
+; converts content of trunk files to base 64
 
 kernel.trunk64=1
 
@@ -268,18 +268,18 @@ kernel.trunk64=1
 kernel.trunkHash=md5
 
 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ;  Kernel Glue Code
-;/////////////////////////////////////////////////////////////////////  
-; 
+;/////////////////////////////////////////////////////////////////////
+;
 ; glueCode is for externel scrip execution.
 ; THe scripts are attached from the boot Dollop file
 
 kernel.glueCode=1
 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ; Kernel bufer configuration
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; php standart buffering (ob_start ...)
 ;
 kernel.buffering=0
@@ -287,9 +287,9 @@ kernel.buffering.type=ob_gzhandler
 kernel.buffering.level=5
 kernel.content.cache=0
 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ; Kernel Memory diagram
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; kernel.memory.diagram have 3 positions
 ; value "2" is for memory diagram always on
 ; value "1" is for memory diagram active on cpanel mode
@@ -299,53 +299,75 @@ kernel.memory.diagram=0
 kernel.memory.diagram.style='design/cpanel/memory-dd.css'
 
 ; random key string for hash files
-; if is empty will use HEX from boot loaded file 
+; if is empty will use HEX from boot loaded file
 
 kernel.trunkKey=
- 
+
 ; extension of trunk kernel encrypted files (with mcrypt)
 ; def ext for UNIX is ".nc"
 
-kernel.trunkExt=".nc"    
- 
- ;Folder name key of kernel trunk. This key will include and hex from installation
- 
- kernel.trunkDir="trunk_cAche012@F!rE"  
- ;///////////////////////////////////////////////////////////////////// 
+kernel.trunkExt=".nc"
+
+ ; Folder name key of kernel trunk. This key will include and hex from installation
+
+ kernel.trunkDir="trunk_cAche012@F!rE"
+
+; Emptying the trunk folder on Andministrator login
+
+kernel.emptying.trunk=On
+
+ ;/////////////////////////////////////////////////////////////////////
  ;  urlCourse Configuration
- ;/////////////////////////////////////////////////////////////////////  
- 
+ ;/////////////////////////////////////////////////////////////////////
+
  ; load modules at kernel class
- 
+
  kernel.urlCourse.inKernel=1
- 
+
  ; file to load for module configuration
- 
+
  kernel.urlCourse.configProp=build.prop
- 
-;///////////////////////////////////////////////////////////////////// 
-; urlCourse File name execute installation 
-;///////////////////////////////////////////////////////////////////// 
+
+;/////////////////////////////////////////////////////////////////////
+; urlCourse File name execute installation
+;/////////////////////////////////////////////////////////////////////
 
 kernel.urlCourse.installProp=install.prop
 
 kernel.urlCourse.installPropSector=INSTALL
 
 ;-------------------------------------------------------------------
-;///////////////////////////////////////////////////////////////////// 
-; urlCourse Keyword process installation 
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
+; urlCourse Keyword process installation
+;/////////////////////////////////////////////////////////////////////
 
 kernel.urlCourse.installEtc=etc
- 
+
 kernel.urlCourse.installSql=sql
- 
+
 kernel.urlCourse.installPhp=php
-;------------------------------------------------------------------- 
- 
+
+;-------------------------------------------------------------------
+
+;/////////////////////////////////////////////////////////////////////
+; urlCourse Keyword process Menu installation
+;/////////////////////////////////////////////////////////////////////
+kernel.urlCourse.installPropMenu=MENU
+
+; MySQL MENU database table configuration
+; This part from kernel will insert menu row
+; in database and will include the script from module
+
+kernel.urlCourse.installMnu.table   =menus;     Menu table
+kernel.urlCourse.installMnu.tcll    =title;     Menu title
+kernel.urlCourse.installMnu.bcll    =body;      Menu Body
+kernel.urlCourse.installMnu.scll    =statute;   Menu Key Name descramble
+kernel.urlCourse.installMnu.pcll    =phpscript; Menu Cell to insert script
+kernel.urlCourse.installMnu.jcll    =jscripts;  Menu Cell to insert script
+
  ; will delete file after load configuration
  ; in boolean mode
- 
+
 kernel.urlCourse.unlinkProp=0
 
 ;kernel/reserved/request?new=etc/system_requests/reserved_url.prop
@@ -353,25 +375,29 @@ kernel.urlCourse.unlinkProp=0
 ; Data with reserved requests
 
 kernel.reserved_request=etc/system_requests/reserved_url.prop
- 
-;///////////////////////////////////////////////////////////////////// 
+
+; Enable/Disable etc prop to be overwritten
+
+kernel.overwritten.etc=On
+
+;/////////////////////////////////////////////////////////////////////
 ; Privilege Configuration
 ;/////////////////////////////////////////////////////////////////////
- 
-kernel.privilege.none   =0  
-kernel.privilege.normal =1 
+
+kernel.privilege.none   =0
+kernel.privilege.normal =1
 kernel.privilege.high   =2
- 
-;/////////////////////////////////////////////////////////////////////  
+
+;/////////////////////////////////////////////////////////////////////
 ; Initialization Eradicate Execution
 ;/////////////////////////////////////////////////////////////////////
-;  
+;
 ;  IN Future !
-inerex                  =0; 
+inerex                  =0;
 ;
 ;
 ;
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; Global string in output for "loadprop" function
 ;/////////////////////////////////////////////////////////////////////
 ;
@@ -381,14 +407,14 @@ kernel.loadprop.global_string    =1
 ;
 ;
 ;
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; Initialization Eradicate Execution
 ;/////////////////////////////////////////////////////////////////////
 ; stops script on mysql error
 
 sqlStopError=1
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP PROXY CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
 ; true - value for allow  users to view website from proxy servers
@@ -396,31 +422,31 @@ sqlStopError=1
 ProxyAllow                =0;
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP SECURITY CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
 
-SecurityFolder    ="security" 
+SecurityFolder    ="security"
 
 ;SECURITY TYPES AVAILABLE
-;========================= 
+;=========================
 ;     you can set-up:
 ;   true         - value is default,
-;   advanced     - value is for advanced 
-;   another     - value, another security    
-;   0 / false     - value, no security (off)   
+;   advanced     - value is for advanced
+;   another     - value, another security
+;   0 / false     - value, no security (off)
 
 SetSecurityType        ='advanced'
 
 
-; OTHER SECURITY 
-;========================= 
+; OTHER SECURITY
+;=========================
 ; "AnotherSecurity" with destination of file for Another Security script
 ;
 AnotherSecurity      =
 ;
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP PHP SESSIONS
 ;/////////////////////////////////////////////////////////////////////
 
@@ -434,7 +460,7 @@ kernel.session.check=1
 kernel.session.strCheckUA=dollop_user_agent; User Agent string name
 kernel.session.strCheckIP=dollop_user_ipadd; IP Address string name
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP COOKIES CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
 ; time for cookies
@@ -444,31 +470,31 @@ CookieTime              =3600;
 ; This is the default maximum for most server
 MaxCookieTime           =2592000
 
-;    == LOCK COOKIES == 
-; Check cookie with  information on the server  
+;    == LOCK COOKIES ==
+; Check cookie with  information on the server
 ; If some data is different will exit from script
 ; this  is available for  user data only.
 
-CookieCheck            =1;  
+CookieCheck            =1;
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP URL CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
-;    == LOCK QUERY VAR == 
+;    == LOCK QUERY VAR ==
 ; this will lock "id"  query string to be numeric
 ; it will exit from script if this string is different
 
-IdNumeric            =1; 
-  
+IdNumeric            =1;
 
-;/////////////////////////////////////////////////////////////////////  
+
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP REGISTER GLOBALS CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
-; This feature has been DEPRECATED as of PHP 5.3.0. 
+; This feature has been DEPRECATED as of PHP 5.3.0.
 ; Relying on this feature is highly discouraged.
 ; == REGISTER GLOBALS ==
-;  fill with intit (0/1) or (true/false)  for  on/off 
+;  fill with intit (0/1) or (true/false)  for  on/off
 
 RegisterGlobals            =0
 
@@ -476,41 +502,41 @@ RegisterGlobals            =0
 
 UnsetRegisterGlobals    =1
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; Master And Slave Prop
 ;/////////////////////////////////////////////////////////////////////
 ; If this is on script will conver boot prop ([BOOT].dp) to masster
 ;   and other configurations will be slaves to this prop.
 ;   This operation is designed for centralized management of configuration.
-; 
+;
 MasterWithSlaveProp=on
 ;
 ;
 ;
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ;  Hypertext Transfer Protocol Secure
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ; this section is not tested well and is still in development
 ; script it will auto redirect to https:// if is valid
 
 HTTPSecure=0
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP MOBILE DEVICE CONFIGURATIONS
 ;/////////////////////////////////////////////////////////////////////
-; class for discover mobile devise and change output design 
-; and data of website  
+; class for discover mobile devise and change output design
+; and data of website
 
-MobileDevice    =1 
+MobileDevice    =1
 
 ;   Script to detect mobile user
 
 MobileScript    =mobile.class.php
 
-;    == MOBILE THEME ==  
-;  Mobile section design theme of website 
-  
+;    == MOBILE THEME ==
+;  Mobile section design theme of website
+
 MobileSDDTW        =
 
 ; Applications and Modules available to be open from
@@ -519,13 +545,13 @@ MobileSDDTW        =
 MobileCSOAP        =
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP PRIVILEGE CONFIGURATIONS
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ; * Privilege configurations information:
-; Default system script is set to "highest" for instkeyallation and the 
+; Default system script is set to "highest" for instkeyallation and the
 ; additional address to the lowest "none".
-; The reason is to be the lowest is that not everyone will enjoy 
+; The reason is to be the lowest is that not everyone will enjoy
 ; module option settings or data to be load before the charge the script.
 
 prvlg.hard=4
@@ -534,26 +560,26 @@ prvlg.highest=4
 prvlg.high=3
 prvlg.loud=3
 prvlg.large=3
-prvlg.require=3 
+prvlg.require=3
 prvlg.normal=2
 prvlg.soft=1
 prvlg.none=0
 prvlg.small=0
 prvlg.null=0
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; OTHER CONFIGURATION
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 
-; -= INCLUDE BY HTML =- 
+; -= INCLUDE BY HTML =-
 ; this strings value contains tag for including other Java Script
-; library from external scripts  
+; library from external scripts
 
 include.TagJavaScript="<!-- JavaScript -->"
 
 include.TagStyleCSS="<!-- StyleCSS -->"
 
-; -= HTML THEME =- 
+; -= HTML THEME =-
 ; This option will make current page theme to be used in cpanel
 
 ; This will turn on/off this option
@@ -567,9 +593,9 @@ kernel.requests.vermin       =panel,generated,upload,favicon.ico,design,themes,
 
 ;
 ;
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; SQL inser update function
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 ;
 ; This string will filter the $_POST request for button names
 ;   like "submit", "update", "login", "register", "signin" and "signup"
@@ -581,7 +607,7 @@ kernel.sql_post_input_query.unset[]=register
 kernel.sql_post_input_query.unset[]=signin
 kernel.sql_post_input_query.unset[]=signup
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; Dollop Cache
 ;/////////////////////////////////////////////////////////////////////
 
@@ -593,9 +619,9 @@ kernel.opty=On
 kernel.opty.cache=/dev/shm
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP EXTENSIONS CONFIGURATIONS
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 
 
 [EXTENSIONS]
@@ -612,15 +638,15 @@ TPL=".tpl";
 EXC=".dllp";
 
 
-;/////////////////////////////////////////////////////////////////////  
+;/////////////////////////////////////////////////////////////////////
 ; DOLLOP INSTALLATION CONFIGURATIONS
-;///////////////////////////////////////////////////////////////////// 
+;/////////////////////////////////////////////////////////////////////
 
 [instkeyALL]
 ; This section of the file "class.prop" is executed only for the instkeyallation of the system
 ; Array below are the keys to folders that will be defined in  "conf.php"
 ; example:
-; instkey[]=module   --=defines=-- >   module="system/modules"  
+; instkey[]=module   --=defines=-- >   module="system/modules"
 ; --=defines=-- >  constant in config.php will be "MODULE" with value "system/modules"
 
 instkey[]=source

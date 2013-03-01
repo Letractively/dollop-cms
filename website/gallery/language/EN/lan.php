@@ -51,4 +51,5 @@ $language['md.erase.cnt'] = "Erasing content";
 $language['md.erase.all'] = "Do you want to erase all<br /> content of <br />the gallery category ";
 // Facial
 $language['md.title'] = "Gallery";
+$language['md.empty'] = "<p>The Gallery is emmpty.</p>";
 

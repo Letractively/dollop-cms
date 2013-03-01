@@ -1,4 +1,2 @@
-
-
-<li><a href="{URL}" class="link" target="{TARGET}" data-ajax="true">{TITLE}</a></li>
+<li class="sub-navigation mobile"><a href="{URL}" target="{TARGET}" data-ajax="true">{TITLE}</a></li>
 

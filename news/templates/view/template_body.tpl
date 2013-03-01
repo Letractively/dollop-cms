@@ -1,10 +1,6 @@
-<!--// all news template html file [start] //--> 
+<!--// all news template html file [start] //-->
+    <div class="news-title title h2">{TITLE}</div>
+    <div class="news-content text content normal">{CONTENT}</div>
+    <div class="clearfix"></div>
 
-
-<div class="news-ttl">{TITLE}</div>
-
-<div class="news-cnt">{CONTENT}</div>
-
-</div> 
-
-<!--// all news template html file [end] //--> 
+<!--// all news template html file [end] //-->

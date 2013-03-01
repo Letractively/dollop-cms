@@ -1,9 +1,9 @@
 ﻿/**
   ============================================================
- * Last committed:      $Revision: 4 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 15:04:50 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: tableEffect.js 4 2013-02-03 13:04:50Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 119 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+ * ID:                  $Id: tableEffect.js 119 2013-02-22 14:58:55Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,11 +18,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
- * @filesource Dollop CPanel  
+ *
+ * @filesource Dollop CPanel
  * @package Dollop
  * @subpackage CPanel
- * 
+ *
  */
 var $topbar  =$('<div id="cp-menu-head">'+
     '<ul id="icons" style="background-color:#fff; position:absolute;margin-left:95%;margin-right:0px;">'+
@@ -31,40 +31,62 @@ var $topbar  =$('<div id="cp-menu-head">'+
     '<a href="#index" class="button" style="display:none;"><img src="/design/cpanel/img/inside-close-fullscreen.png"  id="close-fullscreen"></a>'+
     '</div>');
 
-function execNearTbl(sectortbl,eff) {
-    //////// fix position to chrome
-    // parent.window.scrollTo(0,0);
-    var  scroller = $(window).scrollLeft();
-    var  offset = $("#" + sectortbl).offset();
-    $("div#" + sectortbl + " table").find('tr').hide();
-    $(window).scroll(function() {
-        scroller = $(window).scrollLeft();
-        offset = $("#" + sectortbl).offset();
-        if (  location.hash == ("#"+sectortbl) && ( scroller + 100) >= offset.left) {
-            $("div#" + sectortbl + " table").find('tr').each(function (i) {
-                alltime=(i+eff)*2+"00";
-                $(this).delay( alltime ).fadeIn(1000);
+(function($) {
+    if(jQuery()){
+        $.fn.execNearTbl = function(sectortbl,eff) {
+            // Exec the scroll bar
+            var $ScrollBar = $('#cp-scrollbar-'+sectortbl);
+            //$ScrollBar.tinyscrollbar();
+            var alltimer = 0;
+            // Scroll controlls
+            var  scroller = $(window).scrollLeft();
+            var  offset = $("#" + sectortbl).offset();
+            $("div#" + sectortbl + " table ").find('tr').hide();
+            $(window).scroll(function() {
+                scroller = $(window).scrollLeft();
+                offset = $("#" + sectortbl).offset();
+                // Get location id check it with URL
+                if (  location.hash == ("#"+sectortbl) && ( scroller + 100) >= offset.left) {
+
+                    // Hide all table rows
+                    $("div#" + sectortbl + " table").find('tr').each(function (i) {
+                        alltime=(i+eff)*200;
+                        $(this).delay( alltime ).fadeIn(500);
+                        alltimer = (alltimer+alltime)+500;
+                    });
+                        //  Disable due too many problems with windows screens
+                        //$ScrollBar.tinyscrollbar_update()
+                        //$('#cp-scrollbar-'+sectortbl).delay(alltimer).tinyscrollbar();
+                        //$('#cp-scrollbar-'+sectortbl).delay(alltimer).tinyscrollbar_update(alltimer);
+
+                }
             });
-        }
-    });
-    /* DISABLE To do a fix 
+            /* DISABLE To do a fix
               $('#'+sectortbl).hover(function(){
               $('#cp-scrollbar-'+sectortbl).tinyscrollbar_update(1);
               return false;
             });
             */
-    ///////////////////////////  
-    // fix fo firefox 
-    // after submit form
-    ///////////////////////////
-    if ( $.browser.mozilla && scroller  >= offset.left && location.hash == ("#"+sectortbl) ){
-        $("div" + location.hash + " table").find('tr').each(function (i) {
-            $(this).delay((i+eff)*2+"00").fadeIn(1000);   
-        // uncomment to force chrom to go on top of main screen
-        // parent.window.scrollTo(0,0);      
-        });
+            ///////////////////////////
+            // fix fo firefox
+            // after submit form
+            ///////////////////////////
+            if ( $.browser.mozilla && scroller  >= offset.left && location.hash == ("#"+sectortbl) ){
+                var alltimer = 0;
+                $("div" + location.hash + " table").find('tr').each(function (i) {
+                    alltime=(i+eff)*200;
+                    $(this).delay(alltime).fadeIn(500);
+                    alltimer = (alltimer+alltime)+500;
+                // uncomment to force chrom to go on top of main screen
+                // parent.window.scrollTo(0,0);
+                });
+
+            }
+
+            //setTimeout($ScrollBar.tinyscrollbar_update(),alltimer+10000);
+        };
     }
-}
+}(jQuery));
 // fix for chrome
 function fixlinkScroll(){
 //parent.window.scrollTo(0,0);
@@ -88,15 +110,15 @@ $(document).ready(function(){
         });
         $('body').find('.content').each(        function(c){
             $(this).width(document_width);
-        });   
+        });
         $('body').find('#cp-scrollbar').each(   function(c){
             $(this).width(document_width);
-        }); 
-        $('body').find('.cp-title').each(       function(b){ 
+        });
+        $('body').find('.cp-title').each(       function(b){
             $(this).css({
                 right:"0px"
             });
-        }); 
+        });
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         //  create bottom links menu on fullscreen
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

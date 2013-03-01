@@ -1,22 +1,70 @@
-<!DOCTYPE html>
-<html>
-	<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">		
+<!DOCTYPE HTML>
+<!--\\ Spare Part Dollop mobile theme
+        This theme is not provided from web site designer.
+        - It may cause improper viewing web pages.
+        - Revision:
+         Last committed:        $Revision: 119 $
+         Last changed by:       $Author: fire $
+         Last changed date:     $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
+         ID:                    $Id: theme.html 119 2013-02-22 14:58:55Z fire $
+*       See COPYRIGHT and LICENSE
+//-->
 {LANGUAGE}
-{CHARSET}
-{PAGETITLE}
-{STYLECSS}
-{JSCRIPT}
-	</head>
-	<body>
-<!-- page content -->
-		<div data-role="page" data-theme="a">
-<div data-role="navbar" data-iconpos="top">
-	<ul class="links"> {LINK} </ul>
-</div>	
-<!-- body content -->
-{BODY}
-{MENU[1]}
-		</div>
-	</body>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    {CHARSET}
+    {PAGETITLE}
+    {STYLECSS}
+    {JSCRIPT}
+      <script src='/design/theme/jscript/mobile/mobile.menu.js' type="text/javascript"></script>
+
+</head>
+<body>
+    <!-- page content -->
+    <div data-role="page" data-theme="a" id="pagebody">
+        <header id="toolbarnav">
+            <a href="#pr-nav" id="nav-btn"></a>
+            <a href="#pr-menu" id="menu-btn"></a>
+            {SITE_NAME}
+
+        </header>
+        <!-- body content -->
+        <section id="content" class="clearfix">
+
+            {BODY}
+
+        </section>
+        <footer id="entry">
+            {DESC}
+        </footer>
+    </div>
+    <!-- start navigation -->
+    <div id="navmenu">
+        <header>
+            <!-- Default Search Configuration -->
+            {SEARCH}
+            </form>
+        </header>
+
+        <div  data-iconpos="top">
+            <ul> {LINK} </ul>
+        </div>
+    </div>
+    <!-- end navigation -->
+
+    <!-- start All menus -->
+
+    <div id="allmenu">
+        <div class="split">{MENU[1]}</div>
+        <div class="split">{MENU[2]}</div>
+        <div class="split">{MENU[3]}</div>
+        <div class="split">{MENU[4]}</div>
+        <div class="split">{MENU[5]}</div>
+    </div>
+    <!-- end All menus -->
+
+</body>
 </html>

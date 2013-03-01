@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 3 $
-; Last changed by:    	$Author: fire1.A.Zaprianov@gmail.com $
-; Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-; ID:            	$Id: build.prop 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+; Last committed:     	$Revision: 121 $
+; Last changed by:    	$Author: fire $
+; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
+; ID:            	$Id: build.prop 121 2013-03-01 13:54:10Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -87,3 +87,5 @@ kernel.handle   =1
 google.code     =1
 examiner.server =1
 handle.header   =1
+social.networks =1
+handle.captcha  =1

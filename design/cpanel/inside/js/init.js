@@ -1,9 +1,9 @@
 ﻿/**
   ============================================================
- * Last committed:      $Revision: 4 $
- * Last changed by:     $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:   $Date: 2013-02-03 15:04:50 +0200 (íåä, 03 ôåâð 2013) $
- * ID:                  $Id: init.js 4 2013-02-03 13:04:50Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:      $Revision: 115 $
+ * Last changed by:     $Author: fire $
+ * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
+ * ID:                  $Id: init.js 115 2013-02-08 16:27:29Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");

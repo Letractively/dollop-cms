@@ -1,4 +1,4 @@
 
-<li id="link"><a href="{URL}" class="link" target="{TARGET}">{TITLE}</a>
-<ul>{SUBLINK}</ul>
+<li class="navigation"><a href="{URL}" target="{TARGET}">{TITLE}</a>
+    <ul class="sub-navigation">{SUBLINK}</ul>
 </li>
