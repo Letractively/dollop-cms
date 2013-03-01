@@ -1,0 +1,84 @@
+#labels Phase-Design
+===Main path for modules:===
+
+website request is: http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+{module}/templates/{request}/theme.html
+{module}/templates/{request}/template_{html_sector}.tpl
+ }}}
+
+===Full path for modules:===
+
+website request is: http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+{module}/templates/{request}/theme_id_1.html
+{module}/templates/{request}/template_{html_sector}_id_1.tpl
+}}}
+
+ 
+
+===Incomplete path for modules:===
+
+website request is: http:/website.com/{module}/{request}?id=1
+
+open files:
+{{{
+{module}/templates/{request}/theme_id.html
+{module}/templates/{request}/template_{html_sector}_id.tpl
+}}}
+
+ 
+
+===Main path for themes:===
+
+website request is: http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+themes/{theme}/{module}/{request}/theme.html
+themes/{theme}/templates/{module}/{request}/template_{html_sector}.tpl
+}}}
+
+===Full path for themes:===
+
+website request is:  http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+themes/{theme}/{module}/{request}/theme_id_1.html
+themes/{theme}/templates/{module}/{request}/template_{html_sector}_id_1.tpl
+}}}
+
+===Incomplete path for themes:===
+
+website request is: http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+themes/{theme}/{module}/view/theme_id.html
+themes/{theme}/templates/{module}/{request}/template_{html_sector}_id.tpl
+}}}
+
+===Short path for themes:===
+
+website request is: http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+themes/{theme}/id.html
+themes{theme}/templates/id.tpl
+}}}
+
+===Default path for themes:===
+
+website request is:  http://website.com/{module}/{request}?id=1
+
+open files:
+{{{
+themes/{theme}/theme.html
+themes/{theme}/templates/template_{html_sector}.tpl
+}}}
