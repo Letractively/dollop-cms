@@ -1,0 +1,370 @@
+﻿; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (����, 14 ���� 2013) $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Грешка в "URL" връзка! Моля, проверете връзката.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'Новини.'
+web.news.articles           = 'Статии'
+web.news.last               = 'Последни новини от деня.'
+web.news.mont               = 'Новини от този месец.'
+web.news.empty              ='Все още няма новини.'
+web.news.nonew              ='Няма промени.'
+web.captcha                 ='Препиши кодът от изображението':
+web.captcha.err             ='Съжаляваме, кода за защита е невалидна! Моля, опитайте отново.'
+web.messages.in             ='Вие получавате това съобщение, защото потребител желае да сподели съдържание с вас.'
+
+web.captcha                 ='Препиши кодът от изображението по-долу':
+web.captcha.err             ='Съжаляваме, кодът от изображението не съвпада! Моля, опитайте отново.'
+web.messages.in             ='<br />
+Вие получавате това съобщение, защото потребител {username} желае да сподели съдържание с вас.<br />
+<strong>{link}</strong>
+<p>
+Ако считате, че получаването на това писмо е злоупотреба, моля свържете се с Нас  {site_mail}.
+</p>
+'
+web.mess.button.t           ='Споделяне на съдържанието с лично съобщение'
+web.emailing.in             ='Връзка до съдържанието ще бъде изпратено до посоченият Email адрес.'
+web.mail.button.t           = 'Споделяне на съдържанието с Email адрес.';
+web.emailing.sn.b           ='Електронното писмо беше изпратено успешно.<br /><br /> Благодарим, че използвахте нашият Уеб-сайт за тази дейност!'
+web.emailing.sn.a           ='Съдържанието беше изпратено успешно! <br /><br />Благодарим Ви, че изпозвахте нашата форма за връзка.'
+soc.mess.ttl                ='Съобщение';
+soc.mail.ttl                ='Поща';
+shr.mail.ttl                ='Content Share';
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        ='Назад'
+lan.submit                      ='Изпрати'
+lan.update                      ='Актуализирай'
+lan.reset                       ='Изчистване'
+lan.empty                       ='Празна страница в сайта.'
+lan.need.users                  ='Трябва да сте<b>потребител</b> на сайта <b>за достъп до</b> тази страница!'
+lan.choose.file                 ='Изберете файл'
+
+lan.months.jan        ='Януари'
+lan.months.feb        ='Февруари'
+lan.months.mar        ='Март'
+lan.months.apr        ='Април'
+lan.months.may        ='Май'
+lan.months.jun        ='Юни'
+lan.months.jul        ='Юли'
+lan.months.aug        ='Август'
+lan.months.sep        ='Септември'
+lan.months.oct        ='Октомври'
+lan.months.nov        ='Ноември'
+lan.months.dec        ='Декември'
+
+
+;---------------------------------------------------------------------------------------
+;NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='Новини'
+main.cp.pages               ='Страници'
+main.cp.manus               ='Менюта'
+main.cp.mail                ='Поща'
+main.cp.logs                ='Логове'
+main.cp.links               ='Връзки'
+main.cp.users               ='Потребители'
+main.cp.update              ='Актуализация'
+main.cp.preferences         ='Предпочитания'
+main.cp.theme               ='Тема'
+main.cp.flash               ='Флаш'
+main.cp.comments            ='Коментари'
+main.cp.require             ='Моля попълнете задължителните полета текст'
+main.cp.question.erase      ='Сигурни ли сте , че изкате да изтриете?'
+main.cp.question.alt        ='Наистина ли искате да:'
+
+repo.cpanel.expire.title    = " Изтекла сесия"
+repo.cpanel.expire.body     = 'Потребителската сесия е изтекла. <p> <b>Моля влезте отново!</b> </p> Можете да използвате връзката за <A href="users/view">Начало на потребители</A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='Пропуснато (*) задължително поле!'
+users.err.taken.name        ='Потребителското име вече се използва.'
+users.err.pass.match        ='Вашите пароли не съвпадат.'
+users.err.valid.email       ='Не валиден e-mail.'
+users.err.nosuch.user       ='Няма такъв потребител.'
+users.err.taken.mail        ='Този E-mail вече се използва.'
+users.err.req.signin        ='Само потребители могат да виждат това съдържание!'
+
+users.lan.login             ='Вход'
+users.lan.registration      ='Регистрация'
+users.lan.uname             ='Потребителско име'
+users.lan.upass             ='Потребителска парола'
+users.lan.newpass           ='Нова парола'
+users.lan.confirm           ='Потвърдете паролата'
+users.lan.email             ='E-mail'
+users.lan.photo             ='Ваша снимка'
+users.lan.status            ='Приоритет'
+users.lan.signature         ='Подпис'
+users.lan.signout           ='Изход'
+users.lan.changes           ='Последни промени'
+users.lan.welcome           ='Добре дошли'
+users.lan.profile           ='Вашият профил'
+users.lan.messages          ='Входяща поща'
+users.lan.editprof          ='Редактиране на профил'
+
+users.passreset             ='Забравена парола?'
+users.passreset.mail        ='Въведете Вашият e-mail и ние ще ви изшратим нова парола.'
+users.passreset.err.mail    ='Този e-mail не съществува в нашата база данни.'
+users.passreset.send        ='Проверете Вашият e-mail .'
+users.passreset.mail.title  ='Забравена парола (no reply) '
+users.passreset.mail.content="
+ Този e-mail Ви е изпратен защото сте забравили паролата си.
+
+ Моля натиснете връзката за да възтановите паролата си.
+ Имате два часа активна сесия за да извършите промяната."
+
+userrs.pass.recov.uerr      ="Моля, свържете се с администрацията на уеб сайта за решаване на проблема с Вашия профил"
+users.pm                    ='Лично съобщение.'
+users.signup.ok             ='Вие успешно се регистрирали за този сайт.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Използвайте вашите профили в социални мрежи:"
+users.soc.mess                  ="Имате ли вече регистрация в един от тези сайтове? Кликнете върху логото, за да влезете  с него и тук.";
+users.soc.loginw                ="Влез с: "
+
+users.soc.wreq.ttl              ="Допълнителна информация за потребителя"
+users.soc.wreq.txt              ='<b>"{site_name}"</b> Сайтът изисква повече попълнени полета.'
+
+sys.countdown                   ="<b> Оставащи секунди </b> за попълване на Вашата информация!"
+sys.countout                    ="<b>Моля опитайте отново!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='съдържание'
+lw.title='заглавие'
+lw.titles='заглавия'
+lw.new='нов'
+lw.address='адрес'
+lw.addresses='адреси'
+lw.position='позиция'
+lw.positions='позиции'
+lw.target='target'
+lw.targets='цели'
+lw.option='опция'
+lw.options='опции'
+lw.category='категория'
+lw.categories='категории'
+lw.create='създаване'
+lw.templates='шаблони'
+lw.template='шаблон'
+lw.templates='шаблони'
+lw.theme='тема'
+lw.themes='теми'
+lw.body='тяло'
+lw.section='секция'
+lw.sections='секции'
+lw.default='подразбиране'
+lw.menu='меню'
+lw.menus='менюта'
+lw.erase= 'изчисти'
+lw.delete='изтрий'
+lw.image='снимка'
+lw.activate='активиране'
+lw.active='активен'
+lw.refresh='опресняване'
+lw.user='потребител'
+lw.users='потребители'
+lw.text='текст'
+lw.texts='текстове'
+lw.area='зона'
+lw.areas='зони'
+lw.sounds='звуци'
+lw.sound='звук'
+lw.log='запис'
+lw.logs='записи'
+lw.page='страница'
+lw.pages='страници'
+lw.recordet='записано'
+lw.date='дата'
+lw.dates='дати'
+lw.disclaimer='опровержение'
+lw.website='уеб сайт'
+lw.name='име'
+lw.meta=meta
+lw.description='описание'
+lw.additional='допълнителен'
+lw.addons='добавки'
+lw.addon='добавка'
+lw.plugin=плъгин
+lw.plugins=плъгини
+lw.module='модул'
+lw.modules='модули'
+lw.general='основен'
+lw.installed='инсталиран'
+lw.install='инсталирам'
+lw.installing='инсталиране'
+lw.other='друг'
+lw.info='информация'
+lw.information='информация'
+lw.simple='елементарен'
+lw.host=хост
+lw.charset=чарсет
+lw.keywords='ключови думи'
+lw.contact='контакт'
+lw.e-mail=e-mail
+lw.language='език'
+lw.copyright='авторско право'
+lw.icon='фаворит икона'
+lw.save='зашази'
+lw.saved='запазено'
+lw.action='действие'
+lw.start='старт'
+lw.home='начало'
+lw.class='клас'
+lw.level='ниво'
+lw.admin='администратор'
+lw.admins='администратори'
+lw.manager='мениджър'
+lw.manage='управление'
+lw.priority='приоритет'
+lw.problem='проблем'
+lw.execute='изпълнение'
+lw.reading='четене'
+lw.processing='обработване'
+lw.deny='забрани'
+lw.denied='отказано'
+lw.update='актуализация'
+lw.sucessfully='успешно'
+lw.progress='напредък'
+lw.error='грешка'
+lw.errors='грешки'
+lw.edit='редактиране'
+lw.edits='редакции'
+lw.empty='празно'
+lw.field='поле'
+lw.fields='полета'
+lw.time='време'
+lw.times='пъти'
+lw.tag='таг'
+lw.tags='тагове'
+lw.process='процес'
+lw.full='пълен'
+lw.require='изисква'
+lw.registration='регистрация'
+lw.login='Вход'
+lw.username='потребителско име'
+lw.password='парола'
+lw.link='връзка'
+lw.links='връзки'
+lw.editor='редактор'
+lw.editors='редактори'
+lw.change='промяна'
+lw.changes='промени'
+lw.prevent='предотвратяване'
+lw.prevents='предотвратява'
+lw.setting='настройка'
+lw.settings='настройки'
+lw.view='преглед'
+lw.views='прегледи'
+lw.viewing='преглеждания'
+lw.show='показва'
+lw.shows='показвания'
+lw.showing='показване'
+lw.topic='под тема'
+lw.topics='под теми'
+lw.post='изложение'
+lw.posts='изложения'
+lw.last='последно'
+lw.lasts='последни'
+lw.reply='отговор'
+lw.replys='отговори'
+lw.reset='нулиране'
+lw.resets='нулирания'
+lw.first='първи'
+lw.analyzing='анализиране'
+lw.additions='допълнения'
+lw.author='автор'
+lw.version='версия'
+lw.max='максимален'
+lw.size='размер'
+lw.upload='качване'
+lw.data='данни'
+lw.has='има'
+lw.logged='влезете'
+lw.loggedin="'влезнал'"
+lw.sub='под-'
+lw.for='за'
+lw.from='от'
+lw.to='до'
+lw.the=
+lw.while='докато'
+lw.this='това'
+lw.your='Вашият'
+lw.you='Вие'
+lw.do='правя'
+lw.like='като'
+lw.is= 'е'
+lw.tick='отметка'
+lw.some='малко'
+lw.be='бъде'
+lw.more='повече'
+lw.date='дата'
+lw.end='край'
+lw.start='старт'
+lw.startpage='начална страница'
+lw.may='може'
+lw.not='не'
+lw.allow='позволи'
+lw.now='сега'
+lw.one='един'
+lw.moment='момент'
+lw.ok='ok'
+lw.close='затвори'
+lw.cancel='отмени'
+lw.press='натисни'
+lw.click='клик'
+lw.already='вече'
+lw.ready='готов'
+lw.exist='изисква'
+lw.here='тук'
+lw.type='тип'
+lw.on='включено'
+lw.really='наистина'
+lw.want='искаш'
+lw.auto='автоматично'
+lw.radio='радио'
+lw.check='отметка'
+lw.select='изберете'
+lw.selected='избрано'
+lw.checkbox='чек бокс'
+lw.in='в'
+lw.with='с'
+lw.cause='причина'
+lw.all='всичко'
+lw.current='настоящ'

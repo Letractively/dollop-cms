@@ -109,7 +109,7 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
     $handle = self::$CONFIGURATION['install'] . "/install.sql";
     global $CONFIGURATION;
     $CONFIGURATION = self::$CONFIGURATION;
-    if ($handle_back = $this->read_sql($handle)) {
+    if ((bool)$handle_back = $this->read_sql($handle)) {
         $hashed = md5(HEX);
         $txt = <<<eol
             <script>
@@ -132,7 +132,7 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
             Inserting MySQL tables in server.
             <p>
             Go to next step  if all sql data is executed! <br />
-            <div class="handle_back" id="resize-dataq" > {$handle_back} </div>
+            <div class="handle_back" id="resize-dataq" > <pre>{$handle_back}</pre> </div>
             </p>
 
             <p>

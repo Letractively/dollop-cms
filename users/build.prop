@@ -177,7 +177,7 @@ module.manager.main             =manager/
 module.manager.privilege        =privilege/
 ;
 ; Manager files:
-module.manager.source			=source/
+module.manager.source           =source/
 ;
 ; Manager source files
 module.manager.includes         =include/
@@ -188,18 +188,18 @@ module.manager.includes         =include/
 module.manager.cover            =framework/img/cover.jpg
 ;
 ; Module Manager icon image
-module.manager.icon		        =framework/img/icon.png
+module.manager.icon             =framework/img/icon.png
 ;
 ; Mudule Manager CSS
 module.manager.css              =framework/css/
 ;
 ; Module Manager Javascript
-module.manager.js		        =framework/js/
+module.manager.js               =framework/js/
 ;
 ;
 ; If is empty will use def value "template" folder
 ;
-module.manager.template 				=templates/
+module.manager.template         =templates/
 ;
 [INSTALL]
 ;##############################################
@@ -209,7 +209,7 @@ module.manager.template 				=templates/
 ;
 kernel.install=install
 ;
-kernel.depends=install
+;kernel.depends=install
 ;
 [BOOT]
 ;##############################################
