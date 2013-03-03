@@ -1,0 +1,11 @@
+;------------------------------------------
+;   Prop file for Search
+;   Language code standarts for voice shearch
+;------------------------------------------
+voice[BG]=bg
+voice[EN]='en-GB'
+voice[IT]='it-IT'
+voice[SK]=sk
+voice[HU]=hu
+voice[RO]='ro-RO'
+voice[FR]='fr-FR'

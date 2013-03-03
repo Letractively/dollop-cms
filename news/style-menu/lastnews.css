@@ -1,0 +1,42 @@
+#menu-last-news{
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    font-size: 80%;
+    position: relative;
+}
+#menu-last-news .menu-news-entry{
+    width: 3000px;
+}
+#menu-last-news .last-news-block{
+    display: inline-block;
+
+    width: auto;
+}
+#menu-last-news #navigation-last-news{
+    width: 30px;
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 2px;
+    right: 6px;
+}
+#navigation-last-news #nav-menu-last-news-pv{
+    background: url("pv.png") no-repeat center center;
+}
+#navigation-last-news #nav-menu-last-news-nx{
+    background: url("nx.png") no-repeat center center;
+}
+#navigation-last-news #nav-menu-last-news-pv,#nav-menu-last-news-nx{
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin: 1px;
+}
+.clearfix{
+    clear: both;
+  
+}
+

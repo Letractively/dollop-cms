@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 121 $
+; Last committed:     	$Revision: 122 $
 ; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
-; ID:            	$Id: install.prop 121 2013-03-01 13:54:10Z fire $
+; Last changed date:    $Date: 2013-03-03 15:14:56 +0200 (íåä, 03 ìàðò 2013) $
+; ID:            	$Id: install.prop 122 2013-03-03 13:14:56Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -71,7 +71,7 @@
 ; the builtin defaults will be identical).
 
 
-; Module instalation data
+; Module installation data
 ;====================
 
 [INSTALL]
@@ -79,18 +79,18 @@
 
 ; etc file to add
 ;--------------------
-etc=etc/md.prop
+etc="etc/md.prop";
 
 
 ; sql file to install
 ;--------------------
-sql=my.sql
+sql="my.sql";
 
 ; PHP scripts to add
 ;--------------------
 ;php=testhere.php disable
 
-; Module instalation data
+; Menu installation data
 ;====================
 
 [MENU]

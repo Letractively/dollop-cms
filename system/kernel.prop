@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 119 $
+; Last committed:     	$Revision: 122 $
 ; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
-; ID:            		$Id: kernel.prop 119 2013-02-22 14:58:55Z fire $
+; Last changed date:    $Date: 2013-03-03 15:14:56 +0200 (íåä, 03 ìàðò 2013) $
+; ID:            		$Id: kernel.prop 122 2013-03-03 13:14:56Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -326,44 +326,48 @@ kernel.emptying.trunk=On
 
  ; file to load for module configuration
 
- kernel.urlCourse.configProp=build.prop
+ kernel.urlCourse.configProp="build.prop"
 
 ;/////////////////////////////////////////////////////////////////////
 ; urlCourse File name execute installation
 ;/////////////////////////////////////////////////////////////////////
 
-kernel.urlCourse.installProp=install.prop
+kernel.urlCourse.installProp="install.prop"
 
-kernel.urlCourse.installPropSector=INSTALL
+; NOTE HERE Keep value in Quotes!!!
+; This value without quotes will be mixed with value from BOOT file
+kernel.urlCourse.installPropSector="INSTALL";
 
 ;-------------------------------------------------------------------
 ;/////////////////////////////////////////////////////////////////////
 ; urlCourse Keyword process installation
 ;/////////////////////////////////////////////////////////////////////
 
-kernel.urlCourse.installEtc=etc
+kernel.urlCourse.installEtc="etc";
 
-kernel.urlCourse.installSql=sql
+kernel.urlCourse.installSql='sql';
 
-kernel.urlCourse.installPhp=php
+kernel.urlCourse.installPhp="php";
 
 ;-------------------------------------------------------------------
 
 ;/////////////////////////////////////////////////////////////////////
 ; urlCourse Keyword process Menu installation
 ;/////////////////////////////////////////////////////////////////////
-kernel.urlCourse.installPropMenu=MENU
+; NOTE HERE Keep value in Quotes!!!
+; This value without quotes will be mixed with value from BOOT file
+kernel.urlCourse.installPropMenu="MENU"
 
 ; MySQL MENU database table configuration
 ; This part from kernel will insert menu row
 ; in database and will include the script from module
 
-kernel.urlCourse.installMnu.table   =menus;     Menu table
-kernel.urlCourse.installMnu.tcll    =title;     Menu title
-kernel.urlCourse.installMnu.bcll    =body;      Menu Body
-kernel.urlCourse.installMnu.scll    =statute;   Menu Key Name descramble
-kernel.urlCourse.installMnu.pcll    =phpscript; Menu Cell to insert script
-kernel.urlCourse.installMnu.jcll    =jscripts;  Menu Cell to insert script
+kernel.urlCourse.installMnu.table   ="menus";     Menu table
+kernel.urlCourse.installMnu.tcll    ="title";     Menu title
+kernel.urlCourse.installMnu.bcll    ="body";      Menu Body
+kernel.urlCourse.installMnu.scll    ="statute";   Menu Key Name descramble
+kernel.urlCourse.installMnu.pcll    ="phpscript"; Menu Cell to insert script
+kernel.urlCourse.installMnu.jcll    ="jscripts";  Menu Cell to insert script
 
  ; will delete file after load configuration
  ; in boolean mode
