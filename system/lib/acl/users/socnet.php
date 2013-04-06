@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 123 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: socnet.php 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+ * ID:                  $Id: socnet.php 123 2013-03-09 12:54:46Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage class
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -32,7 +32,7 @@ if (!defined('FIRE1_INIT')) {
 
 /**
  *
- * 
+ *
  * @package users_socnet
  * @author Angel Zaprianov <fire1@abv.bg>
  */
@@ -154,9 +154,13 @@ class users_socnet extends kernel {
      * @param mixed $arrOther Thish Array will fill additional information for user if exist in Mysql User fields
      */
     public function insert_user($arr = array()) {
-        if (empty($arr['id']) OR empty($arr['username']) OR empty($arr['email']) OR empty($arr['picture'])) {
+        if (empty($arr['id']) AND empty($arr['username'])) {
             $arr = array();
-            $arr = array_merge($arr, $_SESSION['userdata']);
+            //
+            // Combine recordet data
+            $arr =array_merge($arr, $_SESSION['userdata']);
+        }elseIf(!empty($arr['id']) AND !empty($arr['username']) AND empty($arr['email'])){
+            $_SESSION['userdata'] =$arr;
         }
 
         // this is for  TWITTER thing!
@@ -213,7 +217,7 @@ class users_socnet extends kernel {
 
         // upload image to our server
         $picture = $this->insert_picture($picture, $username);
-        $sql = "INSERT INTO `" . self::tbl . "` 
+        $sql = "INSERT INTO `" . self::tbl . "`
             (
             `" . self::tbl . "`.`" . self::tbl_aid . "`,
             `" . self::tbl_prv . "`,
@@ -227,7 +231,7 @@ class users_socnet extends kernel {
             `" . self::tbl_lan . "`,
             `" . self::tbl_hsh . "`,
             `" . self::tbl_hsg . "`
-            {$this->fields_name}   
+            {$this->fields_name}
             )
             VALUES
             (
@@ -321,15 +325,15 @@ eol;
             }
             $html.= <<<html
 <tr>
-<td class="fld-title">{$field['fld_title']} {$rqr} </td> 
-</tr> 
-<tr>        
+<td class="fld-title">{$field['fld_title']} {$rqr} </td>
+</tr>
+<tr>
 <td class="fld-content" ><div id="{$field['fld_name']}"> {$html_field} <div class="{$field['fld_name']}"> </div></div> </td>
-</tr> 
-<tr> 
-<td class="fld-descr">{$field['fld_descr']}</td> 
-</tr> 
-<tr> <td class="fld-space">&nbsp; </td> </tr>       
+</tr>
+<tr>
+<td class="fld-descr">{$field['fld_descr']}</td>
+</tr>
+<tr> <td class="fld-space">&nbsp; </td> </tr>
 html;
         }
         //////////////////////////////////////
@@ -361,18 +365,18 @@ eol;
             $images_fld = kernel::base_tag("{host}{module_dir}images/");
             global $language;
             $html = <<<eol
-            
+
             <!--//[form for additional information]
             * This is not a template
             //-->
 
-<script type="text/javascript">           
+<script type="text/javascript">
 $(document).ready(function(){
  $('#tick_username').hide();$('#submit_username').hide();
 $('#username').keyup(username_check);
 });
 
-function username_check(){    
+function username_check(){
     var username = $('#username').val();
     if(username == "" || username.length < 4){
         $('#username').css('border', '3px #CCC solid');
@@ -385,7 +389,7 @@ function username_check(){
             cache: false,
             success: function(response){
                 if(response >= 1){
-                    $('#username').css('border', '3px #C33 solid');    
+                    $('#username').css('border', '3px #C33 solid');
                     $('#tick_username').stop().hide();
                     $('#submit_username').stop().hide();
                     $('#submit_username').attr('disabled', 'disabled');
@@ -404,17 +408,17 @@ function username_check(){
             <form name="usernaeme" method="post" enctype="multipart/form-data">
             <table border='0' width="80%" align="center">
              <tr>
-                    <td class="fld-title">{$language['users.lan.uname']}:</td> 
-                </tr> 
-                <tr>        
+                    <td class="fld-title">{$language['users.lan.uname']}:</td>
+                </tr>
+                <tr>
                     <td class="fld-content" >
-                     <input type="text" name="username" id="username" value="{$login_name}" maxlength="30"> 
+                     <input type="text" name="username" id="username" value="{$login_name}" maxlength="160" autocomplete="off" style="max-width:90% !important; float:left; display:inline-block;" />
                      <img id="tick_username" src="{$images_fld}tick.png" width="16" height="16"/>
                      <img id="cross_username" src="{$images_fld}cross.png" width="16" height="16"/>
                      </td>
-                </tr> 
-                <tr> <td class="fld-space">&nbsp; </td> </tr>       
-            </table>           
+                </tr>
+                <tr> <td class="fld-space">&nbsp; </td> </tr>
+            </table>
             <p> <input type="submit" name="submit" value="{$language['lan.submit']}" id="submit_username"> </p>
             </form>
 eol;
@@ -448,12 +452,12 @@ eol;
             <!--//[form for additional information]
             * This is not a template
             //-->
-<script type="text/javascript">           
+<script type="text/javascript">
 $(document).ready(function(){
  $('#tick_usermail').hide();$('#submit_usermail').hide();
 $('#usermail').keyup(usermail_check);
 });
-function usermail_check(){    
+function usermail_check(){
 var usermail = $('#usermail').val();
 if(usermail == "" || usermail.length < 4){
 $('#usermail').css('border', '3px #CCC solid');
@@ -466,7 +470,7 @@ jQuery.ajax({
    cache: false,
    success: function(response){
 if(response == 1){
-    $('#username').css('border', '3px #C33 solid');    
+    $('#username').css('border', '3px #C33 solid');
     $('#tick_usermail').stop().hide();
     $('#submit_usermail').stop().hide();
   $('#submit_usermail').attr('disabled', 'disabled');
@@ -485,17 +489,17 @@ if(response == 1){
             <form name="usermail" method="post" enctype="multipart/form-data">
             <table border='0' width="80%" align="center">
                 <tr>
-                    <td class="fld-title">{$language['users.lan.email']}:</td> 
-                </tr>               
-                <tr>        
+                    <td class="fld-title">{$language['users.lan.email']}:</td>
+                </tr>
+                <tr>
                     <td class="fld-content" >
-                        <input type="text" name="usermail" id="usermail" value="{$login_mail}" maxlength="30">                    
+                        <input type="text" name="usermail" id="usermail" value="{$login_mail}" maxlength="120" autocomplete="off" style="max-width:90% !important; float:left; display:inline-block;" />
                         <img id="tick_usermail" src="{$images_fld}tick.png" width="16" height="16"/>
                      <img id="cross_usermail" src="{$images_fld}cross.png" width="16" height="16"/>
                      </td>
-                </tr> 
-                <tr> <td class="fld-space">&nbsp; </td> </tr>       
-            </table>  
+                </tr>
+                <tr> <td class="fld-space">&nbsp; </td> </tr>
+            </table>
             <p> <input type="submit" name="submit" value="{$language['lan.submit']}" id="submit_usermail"> </p>
             </form>
 eol;
@@ -684,8 +688,8 @@ eol;
         $txt = kernel::base_tag($language['users.soc.wreq.txt']);
         theme::content(Array($language['users.soc.wreq.ttl'], "
                     <p>{$txt}<br />
-                    {$this->html_output} </p> 
-                    <p> {$this->messages} </p> 
+                    {$this->html_output} </p>
+                    <p> {$this->messages} </p>
                     <p> {$sql} </p>
                     "));
     }

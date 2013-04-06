@@ -26,17 +26,18 @@ div#cpanel-header.head .lnksps {
 	position: absolute;
 	top: 0px;
 }
-body #cpanel-header.head .lnksps a {
-        -webkit-transition: all 0.6s ease-in-out;
-        -moz-transition: all 0.6s ease-in-out;
-        -o-transition: all 0.6s ease-in-out;
-        -ms-transition: all 0.6s ease-in-out;
-        transition: all 0.6s ease-in-out;
-	background-image: url(img/anand-button.png) !important;
+body #cpanel-header.head .lnksps a:link {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
+	background-image: url(img/combo-button.png) !important;
 	background-repeat: no-repeat !important;
+        background-position: top left !important;
 	height: 44px !important;
 	width: 81px !important;
-        margin:0px;
+        margin:0px !important;
 	margin-right: 25px !important;
 	float: left !important;
 	position: relative !important;
@@ -47,7 +48,9 @@ body #cpanel-header.head .lnksps a {
         padding: 0px !important;
 }
 body div#cpanel-header.head .lnksps a:hover {
-	background-image: url(img/anand-button-h.png) !important;
+	background-image: url(img/combo-button.png) !important;
+	background-repeat: no-repeat !important;
+        background-position: bottom left !important;
 	color: #0FF  !important;
 }/**
 .head .lnksps a:active {
@@ -155,10 +158,10 @@ background-color:#fff;
 border-style: solid;
 
 }
-body div.fullpage .cp-title{
+body div.fullpage > .cp-title{
     color: #03C9FA;
     font-size: 32pt;
-        font-family: impact,"Arial Black", Gadget, sans-serif;
+        font-family: impact,"Arial Black", Gadget, sans-serif !important;
     letter-spacing: 0.2em;
     border-top-width: 0px;
     border-right-width: 0px;
@@ -172,14 +175,18 @@ body div.fullpage .cp-title{
     border-right-color: #09F;
     border-bottom-color: #09F;
     border-left-color: #03C9FA;
-    margin-left: -10px;
-    margin-bottom: 30px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    margin-left: -10px !important;
+    height:45px !important;
+    line-height: 45px;
+    margin-bottom: 5px !important;
+    margin-top: 10px !important;
+    padding-left: 20px !important;
+    padding-bottom: 0px !important;
     text-shadow: 0px 0px 4px   #999 ;
 }
 
-body div.fullpage .cp-title .cp-menu a:link{
+body div.fullpage > .cp-title .cp-menu a:link{
+    font-family: impact,"Arial Black", Gadget, sans-serif !important;
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -189,7 +196,9 @@ body div.fullpage .cp-title .cp-menu a:link{
     font-size: 15px  !important;
     float:right  !important;
     color:#000  !important;
-    margin-right: 15px;
+    margin-right: 15px !important;
+    margin-top: -25px !important;
+    font-weight: bold !important;
     text-decoration: none  !important;
     letter-spacing: 0.15em  !important;
 }
@@ -224,7 +233,7 @@ top:2px;
 }
 
 body div.fullpage .cp-title .cp-menu a:hover{
-    font-family: arial  !important;
+    font-family: Arial  !important;
 
     float:right  !important;
     color:#03C9FA  !important;
@@ -250,9 +259,25 @@ body {
 	margin-left: 0px!important;
 	margin-top: 0px !important;
 	margin-right: 0px!important;
-	margin-bottom: 30px !important;
+	margin-bottom: 0px!important;
+	margin: 0px!important;
+        padding: 0px;
+        display:box ;
+
 }
-a:active {
+* {
+margin: 0;
+}
+
+html {
+margin: 0;
+}
+
+body {
+margin: 0;
+}
+
+body div.fullpage .cp-title a:active {
 	color: #0FF  !important;
 }
 

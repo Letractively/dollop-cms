@@ -2,10 +2,10 @@
 
 /**
   ============================================================
-  Last committed:     $Revision: 3 $
-  Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
-  Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
-  ID:            $Id: ai.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+  Last committed:     $Revision: 124 $
+  Last changed by:    $Author: fire $
+  Last changed date:    $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
+  ID:            $Id: ai.php 124 2013-03-19 13:00:12Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  *      [This file is modified for to be used with Dollop properties]
- * 
+ *
  * Continue with Second License of main author:
- * 
+ *
  */
 /*
  *  Copyright (C) 2011
@@ -133,13 +133,13 @@ class mysql_ai extends kernel {
     }
 
     /**
-     * Executes MySQL query, like mysql_query(); 
+     * Executes MySQL query, like mysql_query();
      * @param type $sSQLQuery
      * @return boolean
      */
     function ExecuteSQL($sSQLQuery) {
         $this->sLastQuery = $sSQLQuery;
-        if ($this->aResult = mysql_query($sSQLQuery, $this->sDBLink)) {
+        if ((bool)$this->aResult = mysql_query($sSQLQuery, $this->sDBLink)) {
             $this->iRecords = @mysql_num_rows($this->aResult);
             $this->iAffected = @mysql_affected_rows($this->sDBLink);
             return true;

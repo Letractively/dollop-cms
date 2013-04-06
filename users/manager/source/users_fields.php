@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: users_fields.php 115 2013-02-08 16:27:29Z fire $
+ * Last committed:      $Revision: 134 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-05 12:49:50 +0300 (ïåò, 05 àïð 2013) $
+ * ID:                  $Id: users_fields.php 134 2013-04-05 09:49:50Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop Users
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -133,7 +133,7 @@ $SUBBODY[$process] = <<<feof
 <p>&nbsp;</p>
 <script>
 $(document).ready(function(){
-    $("#fld_name").keyup(function (e) { 
+    $("#fld_name").keyup(function (e) {
     if (this.value.match(/[^a-zA-Z0-9_]/g)) {
     this.value = this.value.replace(/[^a-zA-Z0-9_]/g, '');
     }
@@ -176,7 +176,7 @@ $(document).ready(function(){
       <th>{$language['users.flds.order']} </th>
     </tr>
     <tr>
-      <td>   
+      <td>
       <select name="row_type">
         <option value="{$r['row_type']}" selected="selected" $ac> {$r['row_type']}</option>
         <option value="BOOLEAN">BOOLEAN</option>
@@ -194,10 +194,10 @@ $(document).ready(function(){
         <option value="MEDIUMTEXT">MEDIUMTEXT</option>
         <option value="DATE">DATE</option>
         </select>
-        
+
         </td>
       <td><textarea name="fld_attr"  rows="1">{$r['fld_attr']}</textarea></td>
-      <td> 
+      <td>
        <select name="fld_order">
         <option value="{$r['fld_order']}" selected="selected" $ac> {$r['fld_order']}</option>
         <option>1</option>
@@ -245,7 +245,7 @@ $(document).ready(function(){
       <td><input type="text" maxlength="120" value="{$r['fld_rowscols']}" name="fld_rowscols" /><br />
       <small>use separator "|" to separate like <b>rows|cols</b> (textarea only)</small>
       </td>
-      <td rowspan="4" valign="top"> 
+      <td rowspan="4" valign="top">
        <textarea name="fld_value"  rows="8">{$r['fld_value']}</textarea>
      <br /><small>For Radio and CheckBox new line is option</small>
         </td>
@@ -253,17 +253,17 @@ $(document).ready(function(){
     <tr>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
-     
+
     </tr>
     <tr>
       <th>{$language['users.flds.desc']}</th>
       <td>&nbsp;</td>
-      
+
     </tr>
     <tr>
       <td colspan="2">
       <textarea name="fld_descr" id="fld_descr" rows="2">{$r['fld_descr']}</textarea></td>
-     
+
     </tr>
     <tr>
       <td colspan="3" align="center"><input type="submit" name="{$sector}" id="button" value="{$language['lan.submit']}" /></td>

@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: handle.main.inc 115 2013-02-08 16:27:29Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: handle.main.inc 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage functions
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -433,7 +433,7 @@ function unset_all_cookies($redirect = null) {
 }
 /**
  * Truncate content
- * @param	string	$text	Truncate input content 
+ * @param	string	$text	Truncate input content
  * @param	init	$length	Numbers
  * @param	string	$suffix	Ending with ...
  * @param	Boolean	$isHTML	Is it HTML or not
@@ -480,7 +480,10 @@ function unset_all_cookies($redirect = null) {
     $output = $one . implode($tags[0]);
 
     //added to remove  unnecessary closure
-    $output = str_replace('</!-->','',$output); 
+    $output = str_replace('</!-->','',$output);
 
+    if(!(bool)$isHTML){
+        $output = strip_tags($output);
+    }
     return $output;
 }

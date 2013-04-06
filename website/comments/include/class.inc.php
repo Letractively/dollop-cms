@@ -2,7 +2,7 @@
     #$Id: dollop 4
     /**
 
-    Copyright Angel Zaprianov [2009] [INFOHELP] 
+    Copyright Angel Zaprianov [2009] [INFOHELP]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
     */
     if (!defined('FIRE1_INIT')) { exit("<div style='background-color: #FFAAAA; '> error..1001</div>"); }
     /**
-    * 
+    *
     * @filesource
     * Issues function libs
     */
@@ -44,7 +44,7 @@
 
         /**
         * Contruction Comments for section
-        * 
+        *
         * @param mixed $db
         * @param mixed $request_uri
         * @param mixed $sec
@@ -75,7 +75,7 @@
 
         /**
         * Admin mysql process
-        * 
+        *
         */
         private function admin(){
             if(defined("CPANEL")){
@@ -89,11 +89,11 @@
                         $this->db->Delete("comments_content",array("ID"=>$_POST['id']));
 
                         break;
-                        
+
                     case 'censor':
                         global $language;
            $this->db->Update("comments_content",array("body"=>"[".$language['md.censorship'].USER_PRIV_NAME." ]"),array("ID"=>$_POST['id']));
-                    
+
                     break;
 
 
@@ -107,17 +107,17 @@
 
         /**
         * Retrun admin form
-        * 
+        *
         */
         private function admin_form($id){
-        
+
         if(!defined('CPANEL')) return null;
-        
+
         $cpanel=constant("CPANEL");
-        
+
         $action = kernel::base_tag("/{module_dir}/process");
         $imgdir = kernel::base_tag("/{module_dir}/img/");
-        
+
             $html = <<<eol
             <!-- // Admin prc // -->
                 <form method="post" action="{$action}" id="insert_comments" name="admin-{$id}-erase" style="float:left;margin-right:10px;margin-left:10px;">
@@ -134,13 +134,13 @@
                 </form>
             <!-- // Admin prc // -->
 eol;
-        
+
         return $html;
         }
-        
+
         /**
         * Showint comments with json filter
-        * 
+        *
         */
         private function show(){
 
@@ -156,11 +156,11 @@ eol;
                 `body`,
                 `dates`,
                 `ID`
-                 FROM ".USERS_SQLTBL_MAIN." 
+                 FROM ".USERS_SQLTBL_MAIN."
 
                 INNER   JOIN `".PREFIX."comments_content` ON
 
-                ".PREFIX."comments_content.`user_id`=`".USERS_SQLTBL_MAIN."`.`userid` 
+                ".PREFIX."comments_content.`user_id`=`".USERS_SQLTBL_MAIN."`.`userid`
 
                 WHERE uri_request='{$this->request}'
 
@@ -170,7 +170,7 @@ eol;
 
 
 
-            if((bool)$res) { 
+            if((bool)$res) {
                 $i=0;
                 while( $r = mysql_fetch_array($res)){
                     /*
@@ -187,12 +187,12 @@ eol;
                     $first=" ";
                     if($i ==0){$first='class="first"';}
 
-                   
+
                     $row['first']          = ($i ==0) ? 'class="first"': " " ;
                     $row['achor']          = "<a name=\"{$row['ID']}\" ></a>";
                     $row['user_na']     = $r['user_na'];
                     $row['user_pi']     = $image;
-                    $row['user_id']     = $r['user_id'];
+                    $row['user_id']     = kernel::base_tag("{users}/view?id={$r['user_id']}");
                     $row['body']        = str_replace('\n','<br />' ,nl2br( stripslashes($r['body']) )  );
                     $row['dates']       = $this->admin_form($r['ID']).$r['dates'];
                     $row['ID']          = "";
@@ -213,7 +213,7 @@ eol;
 
         /**
         * Filter html text
-        * 
+        *
         * @param mixed $var
         */
         private function html_filter($var){
@@ -228,7 +228,7 @@ eol;
 
         /**
         * Set-up request in classs
-        * 
+        *
         * @param mixed $request request uri
         */
         private function request($request=null){
@@ -248,7 +248,7 @@ eol;
 
         /**
         * put your comment there...
-        * 
+        *
         */
         private function msg($k){
             global $language;
@@ -260,17 +260,17 @@ eol;
 
         /**
         * Check for loged-in user
-        * 
+        *
         */
         private function usr(){
 
             if(defined("USER_ID")){ return true;}else{return false;}
 
-        } 
+        }
 
         /**
         * Creating Form for comments
-        * 
+        *
         * @param mixed $sec
         */
         private function form($sec=false){
@@ -305,7 +305,7 @@ eol;
 
             // if($_SESSION['hashoem'] != $_POST['comment_hash']) return false;
 
- 
+
 
             $_POST['user_na']=USER_NAME;
             $_POST['user_id']=USER_ID;
@@ -355,7 +355,7 @@ eol;
 
         /**
         * Return data formated for type
-        * 
+        *
         * @param mixed $type html/json
         */
         public function output($type="html"){

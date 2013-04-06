@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:     $Revision: 118 $
+ * Last committed:     $Revision: 124 $
  * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
- * ID:       $Id: index.php 118 2013-02-14 14:45:23Z fire $
+ * Last changed date:    $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
+ * ID:       $Id: index.php 124 2013-03-19 13:00:12Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -102,7 +102,7 @@ theme::content(dp_show_responses((defined("WEBSITE_RESPONSES")) ? constant("WEBS
 // Output the manager html theme
 if (!defined("WEBSITE_RESPONSES"))
     $kernel->manager_out();;
-    $theme->init_php();
+$theme->init_php();
 // Attachment of the resulting estimates of the used memory
 $kernel->memory_use();
 // Adding glueCode to index at theme output
@@ -112,5 +112,4 @@ kernel::set_header();
 theme::theme_echo();
 //  Adding glueCode to index at end
 kernel::glueCode("index.end");
-
 ?>

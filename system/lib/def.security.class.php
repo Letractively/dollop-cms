@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 123 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: def.security.class.php 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+ * ID:                  $Id: def.security.class.php 123 2013-03-09 12:54:46Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,12 +20,13 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage class
- * 
+ *
  */
+
 class Security extends kernel {
 
     protected static $instance;

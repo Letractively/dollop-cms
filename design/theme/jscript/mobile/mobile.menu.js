@@ -19,7 +19,7 @@ function l_handleClick(event)
       if(z_index != 1){
         $navigation.css({'z-index':1});
       }
-     $page.animate({left:"80%"},1000);
+     $page.css({left:"80%"});
       l_showOrHide     = true;
   }else{
        $page.animate({left:"0"});
@@ -35,7 +35,7 @@ function r_handleClick(event)
         $allmeus.css({'z-index':1});
         z_index = 0;
       }
-      $page.animate({left:"-80%"},1000);
+      $page.css({left:"-80%"});
       r_showOrHide     = true;
   }else{
       $page.animate({left:"0"});

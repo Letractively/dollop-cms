@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 124 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: cpanel.class.php 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
+ * ID:                  $Id: cpanel.class.php 124 2013-03-19 13:00:12Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage class
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -71,7 +71,7 @@ class cpanel extends kernel {
 
     /**
      * This wunction show errors  from scripts
-     * 
+     *
      * @param mixed $value   // string with errors from kernel
      */
     function errors($value) {
@@ -86,7 +86,7 @@ class cpanel extends kernel {
 
     /**
      * create link in bar
-     * 
+     *
      * @param mixed $name        // name
      * @param mixed $content     // content (links)
      * @param mixed $url         // uri adress
@@ -97,13 +97,9 @@ class cpanel extends kernel {
     }
 
     public function manager_process($exec = "") {
-
         global $db;
-
         $this->exec = str_replace(ROOT, "", $exec);
-
         $path = realpath(ROOT . self::manage . "/");
-
         if ($path) {
 
             if ($this->prop = $this->add_priv_prop()) {
@@ -139,9 +135,9 @@ class cpanel extends kernel {
 
 
 
-        $outJS = '<script type="text/javascript">
+        $outJS = '
 
-$(document).ready(function() {
+
 function savelink(){
 $(window).data("pastlink", window.location);
 }
@@ -152,7 +148,7 @@ winmin= (windowheight +97) / 3;
 $(".iframe-cpanel").height(windowheight - winmin);
 ';
 
-#         $(".'.$click.'_debugger").css("background-image", "url(design/debugger/img/anand-button-a.png)");  
+#         $(".'.$click.'_debugger").css("background-image", "url(design/debugger/img/anand-button-a.png)");
         foreach ($this->js as $click) {
 
             if (in_array($click, $this->fullscreen)) {
@@ -167,7 +163,7 @@ $(".iframe-cpanel").height(windowheight - winmin);
                 $open_url =
                         <<<popen
  //$(".iframe-cpanel").contents().find("body").css("background-color","#fff");
- //$('.iframe-cpanel').iframeAutoHeight({debug: true});  
+ //$('.iframe-cpanel').iframeAutoHeight({debug: true});
 popen;
             } else {
                 $open_url = "";
@@ -196,18 +192,17 @@ $('#if_{$click} html body').localScroll({
 
 $(".{$click}_cpanel").live('click',function(){
 
-         {$js_fs}       
+         {$js_fs}
          $('.opened').hide();
             $("#{$click}_cpanel_content").addClass('opened')
-            $("#{$click}_cpanel_content").toggle("blind", { direction: "vertical" }, 600); 
-         {$open_url}       
-         }        
-     );			
+            $("#{$click}_cpanel_content").toggle("blind", { direction: "vertical" }, 600);
+         {$open_url}
+         }
+     );
 HTML;
         }
 
-        $outJS .='});
-</script> ';
+
 
         return $outJS;
     }
@@ -232,14 +227,14 @@ HTML;
 
                 //panel?3079943161=users/#mained
                 $link_menu .=<<<DOM
-<A HREF="/panel?{$cpanel_get}={$name}/#{$title_lnk}" target="cpanel_{$name}" class="href-{$title_lnk}">{$title_name_lnk}&nbsp;</A>    
+<A HREF="/panel?{$cpanel_get}={$name}/#{$title_lnk}" target="cpanel_{$name}" class="href-{$title_lnk}">{$title_name_lnk}&nbsp;</A>
 DOM;
             }
             $title = <<<DIV
 
- <div class="cp-title"> {$name} 
- <a href="{$HOST}panel?{$cpanel_get}={$real_name}/#index" class="cp-fullscreen" onClick="savelink()" target="_top">  </a> 
- <div class="cp-menu" id="cp-menu-$name"> {$link_menu} </div> 
+ <div class="cp-title"> {$name}
+ <a href="{$HOST}panel?{$cpanel_get}={$real_name}/#index" class="cp-fullscreen" onClick="savelink()" target="_top">  </a>
+ <div class="cp-menu" id="cp-menu-$name"> {$link_menu} </div>
  </div>
 DIV;
             $this->fullscreen[] = $name;
@@ -248,15 +243,15 @@ DIV;
             $current = current($content);
             /*
              * Remuving scrolling="no" from iframe
-             * 
+             *
              */
             $html_content =
                     <<<html
 <!-- inline, after the iframe {$name}/{$url}/{$current}-->
-<iframe src="{$HOST}panel?{$cpanel_get}={$real_name}/" class="auto-height iframe-cpanel" 
+<iframe src="" hrefsrc="{$HOST}panel?{$cpanel_get}={$real_name}/" class="auto-height iframe-cpanel"
  frameborder="0" name="cpanel_{$name}" id="if_{$name}">
     </iframe>
-  
+
 html;
             $js_upper = "";
         } else {
@@ -285,7 +280,7 @@ IMG;
         }
 
         $link = <<<EOL
-    <a href="#{$name}" class="{$name}_cpanel">
+    <a href="#{$name}" class="{$name}_cpanel" onClick="document.getElementById('if_{$name}').src=document.getElementById('if_{$name}').getAttribute('hrefsrc')">
     <span style="float:left;width:9px; position:absolute;">{$num}</span>
     {$img}
     </a>
@@ -293,7 +288,7 @@ EOL;
 
         $this->content .=<<<EOL
     <div  id="{$name}_cpanel_content" style="z-index:{$this->i};" class="{$class} " >
-    <div  class="close-cp-button" id="cose-cp-{$name}" onClick="setTimeout(1200, 'changeParentUrl_{$name}()');"></div>  
+    <div  class="close-cp-button" id="cose-cp-{$name}" onClick="setTimeout(1200, 'changeParentUrl_{$name}()');"></div>
     {$title}
     {$html_content}
     </div>
@@ -407,15 +402,17 @@ EOL;
 
     /**
      * Output of Control Panel
-     * 
+     *
      */
     function output() {
+        global $kernel;
         if (defined("CPANEL") && !isset($_GET[@constant('CPANEL')])) {
             kernel::includeByHtml(HOST . $this->style, 'css');
             kernel::includeByHtml(HOST . 'jquery/ui/jquery-ui-custom.min.js', 'js');
             //kernel::includeByHtml(HOST.'design/cpanel/iframe.js','js');
             kernel::includeByHtml(HOST . 'design/cpanel/inside/js/localscroll-min.js', 'js');
-            kernel::includeByHtml(self::JavaScript(), 'add');
+            $kernel->external_file('jquery', self::JavaScript());
+            //kernel::includeByHtml(self::JavaScript(), 'add');
             $fulscreen = "\n" . '<div class="overlay"></div>';
 
             global $THEME;

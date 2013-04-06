@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:     $Revision: 121 $
- * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:       $Id: lan.php 121 2013-03-01 13:54:10Z fire $
+ * Last committed:     $Revision: 133 $
+ * Last changed by:    $Author: fire1 $
+ * Last changed date:    $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:       $Id: lan.php 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,6 +24,7 @@
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
+
 /**
  *
  * @filesource
@@ -39,7 +40,7 @@ $language['ns.date'] = "date:";
 $language['ns.lstc'] = "modified:";
 $language['ns.catg'] = "category:";
 $language['ns.tags'] = "tags:";
-$language['ns.more'] = "[read more]";
+$language['ns.more'] = " read more ";
 $language['ns.sles'] = "<h3>Error in mysql selection! </h3> The news can not be displayed";
 $language['ns.slur'] = "<h3>Error in the URL query! </h3>The news can not be displayed";
 $language['ns.view'] = "viewing last news";

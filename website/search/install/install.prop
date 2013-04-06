@@ -96,7 +96,7 @@ sql=my.sql
 [MENU]
 ; Menu scripts to add
 ;--------------------
-search[title]="Seach"
+search[title]="Search"
 search[phpscript]="phpmenu/search.php"
 search[body]="{SEARCH}"
 

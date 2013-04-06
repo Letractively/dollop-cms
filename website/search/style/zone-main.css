@@ -1,14 +1,1 @@
-.close-button{
-transition: background 0.4s ease;
--moz-transition: background 0.4s ease;    /* FF3.7+ */
--o-transition: background 0.4s ease;      /* Opera 10.5 */
--webkit-transition: background 0.4s ease; /* Saf3.2+, Chrome */
-    float: right;
-    width: 32px;
-    height: 32px;
-    background: url(close.png) no-repeat center center rgba(150,150,150,0.5);
-    cursor: pointer; 
-}
-.close-button:hover{
-    background-color: #000;
-}
+.close-button{    transition: background 0.4s ease;    -moz-transition: background 0.4s ease;    /* FF3.7+ */    -o-transition: background 0.4s ease;      /* Opera 10.5 */    -webkit-transition: background 0.4s ease; /* Saf3.2+, Chrome */    float: right;    width: 32px;    height: 32px;    background: url(close.png) no-repeat center center rgba(150,150,150,0.5);    cursor: pointer;}.close-button:hover{    background-color: #000;}.search.content{    border-top: solid 1px rgba(0,0,0,0.5);}.search.content.animate{    -webkit-border-top-left-radius: 15px;    -webkit-border-top-right-radius: 15px;    -moz-border-radius-topleft: 15px;    -moz-border-radius-topright: 15px;    border-top-left-radius: 15px;    border-top-right-radius: 15px;    border-top: solid 1px rgba(0,0,0,0.5);    background: rgba(200,200,200,0.3);    box-shadow: -3px 0 3px rgba(0,0,0,0.3);}

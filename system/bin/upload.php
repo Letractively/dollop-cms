@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: upload.php 115 2013-02-08 16:27:29Z fire $
+ * Last committed:      $Revision: 130 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-03-28 14:53:34 +0200 (÷åòâ, 28 ìàðò 2013) $
+ * ID:                  $Id: upload.php 130 2013-03-28 12:53:34Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -123,9 +123,13 @@ class upload extends kernel {
 
     private function get_folder() {
         $target = $_GET[$this->upload_prop['upload.request.get_folder']] . "/";
-        if (empty($target))
-            return null;;
-        kernel::mkdirTree($target);
+        if (empty($target)) {
+            return null;
+
+        }
+        //
+        // Closed false targeting
+        //kernel::mkdirTree($target);
         $thf = $this->conf['publicfiles'] . $target . $this->upload_prop['upload.thumb.folder'];
         $imf = $this->conf['publicfiles'] . $target . $this->upload_prop['upload.image.folder'];
         if (!is_dir($thf)) {

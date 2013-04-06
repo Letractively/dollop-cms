@@ -20,17 +20,19 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop Users
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
 
-global $language;
+global $language, $USERS_PRIVILEGE;
+
+
 if (!defined("USER_ID")) {
     header("location: main");
 } else {
@@ -46,13 +48,19 @@ if (!defined("USER_ID")) {
                     $users_process->signUp_fields();
                     $r = $d->aArrayedResults[0];
                     $tag = array();
-                    $tag['avatar'] = kernel::base_tag("{host}{publicfiles}{module_dir}".$r[USERS_SQLTBL_COL_UNAME].DIRECTORY_SEPARATOR."{thumbs}".$r[USERS_SQLTBL_COL_AVATAR]);
+                    $picture = kernel::base_tag("{publicfiles}{module_dir}" . $r[USERS_SQLTBL_COL_UNAME] . DIRECTORY_SEPARATOR . "{thumbs}" . $r[USERS_SQLTBL_COL_AVATAR]);
+                    $tag['avatar'] = (file_exists(ROOT . $picture)) ? HOST . $picture : kernel::base_tag_folder_filter("{host}{design}users/thumbs/dp4-noavatar.png");
                     $tag['uname'] = $r[propc("users.sqltbl.col.uname")];
                     $mail = urlencode(str_replace("@", "|-+-|", $r[USERS_SQLTBL_COL_UMAIL]));
                     $alt_mail = urlencode(str_replace("@", " at ", $r[USERS_SQLTBL_COL_UMAIL]));
                     $img_email = HOST . ("images?image=create&text={$mail}&font=arial&size=12");
-                    $tag['imgmail'] = $img_email;
-                    $tag['altmail'] = $alt_mail;
+                    // $tag['imgmail'] = $img_email;
+                    $tag['imgmail'] = null;
+                    // $tag['altmail'] = $alt_mail;
+                    $tag['altmail'] = null;
+                    $tag['MEMBERFOR'] = "<b>{$language['users.revw.usrfromt']}:</b> ". datediff(date('Y-m-d ', $r['hash_generated']), date('Y-m-d', time())) . " " . $language['users.days'];
+                    $tag['AUTHPROVR'] = ((bool) $r['auth_provider']) ? "<b>{$language['users.revw.authprov']}:</b> ". $r['auth_provider'] :"<b>{$language['users.revw.authprov']}:</b> ". $language['users.revw.authnone'];
+                    $tag['USERLEVEL'] = "<b>{$language['lw.level']}:</b> ".  $USERS_PRIVILEGE['users.privilege'][$r['userlevel']] ;
                     $filds = $users_process->fields_user;
                     $other = null;
                     foreach ($filds as $oth) {

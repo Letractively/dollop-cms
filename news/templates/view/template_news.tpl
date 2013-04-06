@@ -7,6 +7,7 @@
     </div>
 
   <div class="text  content  news-cnotent">{NEWS_CONTENT}</div>
+  <div class="clearfix"></div>
     <div class="text  description  news-description">{NEWS_DESCR} </div>
 </div>
 <!--// news template html file [end] //-->

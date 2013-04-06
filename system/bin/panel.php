@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 119 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
- * ID:                  $Id: panel.php 119 2013-02-22 14:58:55Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: panel.php 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,9 +21,9 @@
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
  *
- * @filesource Main Dollop
- * @package dollop kernel
- * @subpackage class
+ * @filesource Dollop Panel
+ * @package dollop CPanel
+ * @subpackage Panel
  *
  */
 if (!defined("FIRE1_INIT")) {
@@ -34,11 +34,6 @@ if (!defined("CPANEL")) {
     theme::content(dp_show_responses(500));
 }
 
-/**
- * @package dollop
- * @subpackage dollop CPanel-Fullscreen
- * @filesource
- */
 class panel extends cpanel {
 
     var $group = null;
@@ -68,7 +63,6 @@ class panel extends cpanel {
             /** @type \kernel::loadprop $this->panel__prop */
             $this->panel__prop = kernel::loadprop(__FILE__, 1);
             $bool_module = $this->module_prop();
-
 
 
             if ($bool_module && is_array($this->module_prop)) {
@@ -106,7 +100,6 @@ class panel extends cpanel {
      * @package kernel.cpanel.panel
      */
     private function module_includes() {
-
 
 
         $dir = $this->module_prop['CPANEL']['module.manager.main'];
@@ -153,7 +146,7 @@ class panel extends cpanel {
      * @return string
      */
     private function group_folder_array($dir) {
-        if ($handle = opendir($dir)) {
+        if ((bool) $handle = opendir($dir)) {
             while (false !== ($entry = readdir($handle))) {
                 if ($entry != "." && $entry != "..") {
                     $arr[] = $entry;
@@ -189,13 +182,13 @@ class panel extends cpanel {
             $SUBBODY = "";
 
             $html_out = $this->index_in_module();
-            $js =null;
+            $__js_dollop_script = null;
             foreach ($this->attachments as $sector => $file) {
                 $content_in_panel_admin = "";
                 $BODY = "";
                 $return_back = '<a href="#index" onClick="fixlinkScroll()"><div id="back"> &larr; back</div></a>';
 
-                $title = str_replace("_", " ", $sector);
+                $_title_dollop_ = str_replace("_", " ", $sector);
 
                 //for group modules (panels)
                 $SUBBODY = "";
@@ -208,31 +201,35 @@ class panel extends cpanel {
                 eval('$content_in_panel_admin' . " ={$STRING}; ");
                 $sub_content = "";
                 $c = 0;
-                $effjs = 1;
+                $__e__ffjs = 1;
                 if (is_array($SUBBODY)) {
-                    $return_up = '<a href="#' . $sector . '" onClick="fixlinkScroll()"><div id="back"> &uarr; up</div></a>';
+                    $return_up___ = '<a href="#' . $sector . '" onClick="fixlinkScroll()"><div id="back"> &uarr; up</div></a>';
                     $sector_links = "";
 
-                    foreach ($SUBBODY as $key => $sub_contents) {
-                        $key_title = str_replace($filter_title, " ", $key);
+                    foreach ($SUBBODY as $__key => $sub_contents) {
+                        $__key_title = str_replace($filter_title, " ", $__key);
 
-                        if (in_array($key, $this->show_sublink)) {
-                            $sector_links .='<span> <a href="#' . $key . '" > &darr;' . $key_title . '&darr; </a></span> ';
+                        if (in_array($__key, $this->show_sublink)) {
+                            $sector_links .='<span> <a href="#' . $__key . '" > &darr;' . $__key_title . '&darr; </a></span> ';
                         }
-                        if ($key == end(array_keys($SUBBODY))) {
+                        if ($__key == end(array_keys($SUBBODY))) {
                             $fixspace = "end-viewport";
                         } else {
                             $fixspace = "nor-viewport";
                         }
 
 
-                        $js .= "$.fn.execNearTbl('{$key}',{$effjs});";
+                        $__js_dollop_script .= "
+
+                            $.fn.execNearTbl('{$__key}',{$__e__ffjs});
+
+                        ";
                         $sub_content .=<<<html
 
 
-<div id="{$key}" class="sub-content"  name="{$key}">
- <div class="cp-title">{$title} {$return_up}</div>
-    <div id="cp-scrollbar-{$key}-{$effjs}">
+<div id="{$__key}" class="sub-content"  name="{$__key}">
+ <div class="cp-title">{$_title_dollop_} {$return_up___}</div>
+    <div id="cp-scrollbar-{$__key}-{$__e__ffjs}">
         <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
 			<div class="viewport" id="{$fixspace}">
 				<div class="overview">
@@ -243,15 +240,21 @@ class panel extends cpanel {
 	</div>
 html;
                         $c++;
-                        $effjs++;
+                        $__e__ffjs++;
                     }
+
+                // End SubBody
                 }
-                $js .= "$.fn.execNearTbl(\"{$sector}\",0);";
+                $__js_dollop_script .= "
+
+                    $.fn.execNearTbl('{$sector}',0);
+
+                ";
                 $html_out .=<<<html
 
 <div class="full-content">
 <div id="{$sector}" class="content"  name="{$sector}">
- <div class="cp-title">{$title} {$return_back}</div>
+ <div class="cp-title">{$_title_dollop_} {$return_back}</div>
     <div id="cp-scrollbar-{$sector}"  >
         <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
         <div class="viewport">
@@ -269,7 +272,7 @@ html;
                 $sub_content = "";
                 $i++;
             }
-            $this->html_include("{$js}", 'jscript');
+            $this->html_include("{$__js_dollop_script}", 'jscript');
             return $html_out;
         }
     }
@@ -324,13 +327,13 @@ link;
                     system("rm -rf $dir");
                     header("location:" . propc("md." . propc("module.name") . ".index"));
                 }
-                if($_POST['exec_prop'] == md5(HEX . $_POST['exec_id'] . "exec_prop")){
+                if ($_POST['exec_prop'] == md5(HEX . $_POST['exec_id'] . "exec_prop")) {
                     unset($_POST['exec_prop']);
                     unset($_POST['exec_id']);
                     global $KERNEL_PROP_MAIN;
                     //Re-insert new array data
                     kernel::kernel_new_configuration($this->module_prop_use_file, 1, 1, $KERNEL_PROP_MAIN['kernel.urlCourse.unlinkProp'], NULL, $_POST);
-                    header("location:".request_uri());
+                    header("location:" . request_uri());
                 }
             }
             // Show information from Build
@@ -344,7 +347,7 @@ link;
             $exec_refresh = md5(HEX . $phpidin . "exec_refresh");
             $exec_prop = md5(HEX . $phpidin . "exec_prop");
             // Build Prop Manager Content
-            $pbm = self::prop_manager_table($exec_prop,$phpidin);
+            $pbm = self::prop_manager_table($exec_prop, $phpidin);
             // Build Prop Refresh Content
             $rbuildtrnk = <<<rebuiod
     <form method="post" action="" name="rbuildtrnk" target="_parent" >
@@ -354,11 +357,9 @@ link;
    </form>
    $pbm
 rebuiod;
-        if(USER_PRIV < 9 ){
-            $rbuildtrnk = "------";
-
-        }
-
+            if (USER_PRIV < 9) {
+                $rbuildtrnk = "------";
+            }
         } else {
             $scriptname = "Dollop CSM pack";
             $scriptvers = "Dollop: <strong>" . $CONFIGURATION['version'] . "</strong> <small> (main version of Dollop)</small>";
@@ -367,7 +368,7 @@ rebuiod;
             $kernelvers = kernel::version;
             $dollopvers = "<strong>" . $CONFIGURATION['codname'] . "</strong> " . " " . $CONFIGURATION['version'];
         }
- $js =<<<js
+        $js = <<<js
 
 {$show_eff_nav}
 $("div#index table").find('tr').hide();
@@ -377,7 +378,7 @@ $("div#index table").find('tr').each(function (i) {
 
 js;
 
-$this->html_include("{$js}", 'jscript');
+        $this->html_include("{$js}", 'jscript');
         return <<<html
 <script type="text/javascript">
 
@@ -416,12 +417,13 @@ $this->html_include("{$js}", 'jscript');
 </div>
 html;
     }
+
     /**
      * Create prop menager in Dollop CPanle
      *
      * @global array $language Language in Dollop
      */
-    private function prop_manager_table($activator,$phpidin){
+    private function prop_manager_table($activator, $phpidin) {
         global $language;
         $module_proparr = $this->module_prop;
         $js = <<<js
@@ -462,21 +464,21 @@ jsv;
             <input type="hidden" value="{$activator}" name="exec_prop" />
             <input type="hidden" value="$phpidin" name="exec_id" />
 html;
-        foreach($module_proparr as $sector => $props){
+        foreach ($module_proparr as $sector => $props) {
             $html .=<<<html
             <fieldset>
                 <legend class="menu-title title">{$sector}</legend>
 html;
-                foreach($props as $key=>$data){
-                    if($sector == "MAIN"){
-                        $readonly = "readonly";
-                    }else{
-                        $readonly = null;
-                    }
-                    $key_nm = str_replace(".","_",$key);
-                    $jsvars .=" {$key_nm} = $( '#{$key_nm}'),";
-                    $jsallf .=".add( $key_nm )";
-                    $html .=<<<html
+            foreach ($props as $key => $data) {
+                if ($sector == "MAIN") {
+                    $readonly = "readonly";
+                } else {
+                    $readonly = null;
+                }
+                $key_nm = str_replace(".", "_", $key);
+                $jsvars .=" {$key_nm} = $( '#{$key_nm}'),";
+                $jsallf .=".add( $key_nm )";
+                $html .=<<<html
                     <div class="inline-row">
                         <div class="inline-cell a">
                         <label for="{$key_nm}">{$key}</label>
@@ -487,22 +489,22 @@ html;
                     </div>
 
 html;
-                    $jsbutton .=<<<js
+                $jsbutton .=<<<js
 
                     bValid = bValid && checkRegexp( $key_nm, /[a-zA-Z]|\d|\:_\/\+\./, " <b>$key</b> field only allow : " );
 
 js;
-                }
-                $html .=<<<html
+            }
+            $html .=<<<html
 
                 </fieldset>
 html;
 
-                $js .=<<<js
+            $js .=<<<js
 
 js;
         }
-                $js .=<<<js
+        $js .=<<<js
                 {$jsvars}{$jsallf},tips = $( ".validateTips" );
 
 
@@ -535,12 +537,13 @@ js;
 
 
 js;
-          $this->html_include("{$js}", 'jscript');
+        $this->html_include("{$js}", 'jscript');
         $html .= <<<html
    </form></div>
 html;
-   return $html;
+        return $html;
     }
+
     /**
      * Interception of module language
      *
@@ -663,9 +666,9 @@ eol;
 eol;
             }
 
-
+$jscript_file = "";
             if (is_array($this->html_attach['jscript'])) {
-                $jscript_file = "";
+
                 foreach ($this->html_attach['jscript'] as $js_value) {
 
                     if ($this->panel__prop['panel.jscript.mini']) {
@@ -1091,7 +1094,7 @@ html;
         return <<<eol
 
 <iframe src="{$request}?d={$sector}&exec=image" align="center" frameborder="0" height="100%" width="100%" name="upload" id="iframe-upload"
-style="box-shadow: 0 0 10px #333;border:solid 4px #fff;">
+style="box-shadow: 0 0 10px #333;border:solid 1px #fff;">
 </iframe>
 
 eol;
@@ -1102,13 +1105,13 @@ eol;
      *
      * @example operation_buttons($row['ID'],$sector,"update","update","arrow","this will update");
      * @package kernel.cpanel.panel
-     * @param mixed $ID
-     * @param mixed $sector
-     * @param mixed $action
-     * @param mixed $name
-     * @param mixed $icon
-     * @param mixed $title
-     * @param mixed $dialog
+     * @param mixed $ID ID of form
+     * @param mixed $sector Unic sector
+     * @param mixed $action Action of form
+     * @param mixed $name Name of Operation
+     * @param mixed $icon jQuery UI Icon
+     * @param mixed $title Title of button
+     * @param mixed $dialog Dialog data array
      */
     public function operation_buttons($ID, $sector, $action, $name, $icon, $title, $dialog = false) {
         global $language;
@@ -1120,8 +1123,8 @@ eol;
     </li>
 eol;
             $form = <<<eol
-    <form id="{$sector}-{$ID}-{$name}-form" method="post" action="#{$action}" target="_self">
-    <input type="hidden" name="$action" value="{$ID}"  readonly>
+    <form id="{$sector}-{$ID}-{$name}-form" name="{$sector}-{$ID}-{$name}-form" method="post" action="#{$action}" target="_self">
+        <input type="hidden" name="$name" value="{$ID}"  readonly>
 
     </form>
 
@@ -1143,7 +1146,7 @@ eol;
             if ((bool) $dialog['OK']) {
                 //DIALOG MESSAGE
                 $in_form = <<<eol
-    <form id="{$sector}-{$ID}-{$name}-form" method="post" action="#{$action}" target="_self">
+    <form id="{$sector}-{$ID}-{$name}-form" name="{$sector}-{$ID}-{$name}-form" method="post" action="#{$action}" target="_self">
     <input type="hidden" name="$name" value="{$ID}"  readonly>
 
     </form>
@@ -1163,19 +1166,31 @@ eol;
 
 eol;
             if (empty($dialog['w'])) {
-                $dialog['w'] = 400;
+                $dialog['w'] = 600;
+            }
+            if (empty($dialog['h'])) {
+                $dialog['h'] = 400; // closed becose cose scroll shows
             }
 
             $js = <<<eol
                   $('#{$sector}-{$ID}-{$name}-dialog').dialog({
                     autoOpen: false,
+                    show: {
+                    effect: "fade",
+                    duration: 500
+                    },hide: {
+                    effect: "fade",
+                    duration: 500
+                    },
                     width: {$dialog['w']},
+
                     buttons: {
                          {$in_script}
 
                         "{$language['lw.close']}": function() {
                             $(this).dialog("close");
                         }
+
                     }
                 });
 $('#{$sector}-{$ID}-{$name}-button' ).click(function(){ $('#{$sector}-{$ID}-{$name}-dialog').dialog('open');return false; });
@@ -1218,12 +1233,9 @@ eol;
     }
 
 }
-
-$panel = new panel();
-
-
-
-$panel->attach_theme();
+global $cpanel;
+$cpanel = new panel();
+$cpanel->attach_theme();
 
 
 

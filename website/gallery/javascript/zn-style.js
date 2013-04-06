@@ -5,9 +5,9 @@ $(function(){
         $(".gallery.content").removeClass("opened");
         $("#"+hash).slideToggle("slow",function(){
             $(this).addClass("opened");
-            $("html, body").animate({ scrollTop: $("#"+hash).height() }, 1000);
-            }); 
-    }); 
+            $("html, body").animate({ scrollTop: $("#gallery-scroll-content").height() }, 1000);
+            });
+    });
 });
 
 $(document).ready(function() {
@@ -15,7 +15,7 @@ $(document).ready(function() {
     if(open){
         $("#"+open).show();
         $("#"+open).addClass("opened");
-      
+
     }
 
 });

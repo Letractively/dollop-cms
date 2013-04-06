@@ -23,9 +23,10 @@ theme.version=1.00
 ; THEME AUTHOR
 theme.author=fire1
 [DEF_HTML_HEADER]
-JSCRIPT[]    = '{jquery}/{jquery_file}';
-JSCRIPT[]    = '{design}/theme/jscript/superfish.js';
-JSCRIPT[]    = '{design}/theme/jscript/superfish.process.js';
+JSCRIPT[0]    = '{jquery}/{jquery_file}';
+JSCRIPT[9]    = '{jquery}/{jquery_dp}';
+JSCRIPT[1]    = '{design}/theme/jscript/superfish.js';
+JSCRIPT[2]    = '{design}/theme/jscript/superfish.process.js';
 
 [PHP_INIT]
 ;search={themes}{theme}/framework/php/search.php

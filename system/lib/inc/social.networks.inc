@@ -41,22 +41,24 @@ if (!defined('FIRE1_INIT')) {
  *
  * @return type HTML Content
  */
-function google_plus() {
+function google_plus($href = false) {
     $custemer = propc("google.consumer.key");
-    $cusecret = propc("rOuqajPFG96_Wcymy_U6F52P");
+
     $requestu = request_uri();
     $requesth = HOST;
 
     if (propc("module.socialnetworks")) {
 
 
+        if( is_bool($href) ){
         return <<<eol
 
     <!--Google-Plus-->
 
-   <div class="g-plusone line-item" data-size="Medium" ></div>
+<div class="g-plusone line-item" style="float:left;display:inline" data-size="medium" data-href="{$requesth}{$requestu}"></div>
 
-<script>
+
+<script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://apis.google.com/js/plusone.js';
@@ -67,6 +69,28 @@ function google_plus() {
     <!--Google-Plus-->
 
 eol;
+
+        }else{
+            return <<<eol
+
+    <!--Google-Plus-Share-->
+
+<div class="g-plus line-item" style="float:left;display:inline" data-action="share" data-annotation="bubble" data-href="{$requesth}{$requestu}"></div>
+
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+     <!--Google-Plus-Share-->
+
+eol;
+        }
     }
 }
 
@@ -82,7 +106,7 @@ function facebook_share() {
 
    <!--Facebook-Share-->
 
-<div class="fb-like line-item" data-href="{$link}" data-send="true" data-layout="button_count" data-width="80" data-show-faces="true"></div>
+<div class="fb-like line-item" style="float:left;display:inline; margin-right:15px;" data-href="{$link}" data-send="true" data-layout="button_count" data-width="120" data-show-faces="true"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -103,13 +127,19 @@ eol;
  * Send link to Twitter
  *
  */
-function twitter_link() {
+function twitter_link($href =false) {
+
+
+    if( is_bool($href) ){
+
+
+    }
 
     return <<<eol
 
    <!--Twitter-Link-->
 
-   <div class="line-item tw-link">
+   <div class="line-item tw-link" style="float:left;display:inline">
    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
    </div>
@@ -135,7 +165,7 @@ function twitter_hash($hash = null) {
 
     <!--Twitter-Hash-->
 
-   <div class="line-item tw-hash">
+   <div class="line-item tw-hash" style="float:left;display:inline">
    <a href="https://twitter.com/intent/tweet?button_hashtag={$hash}" class="twitter-hashtag-button">Tweet #{$hash}</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
    </div>

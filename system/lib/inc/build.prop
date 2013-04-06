@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 121 $
+; Last committed:     	$Revision: 124 $
 ; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
-; ID:            	$Id: build.prop 121 2013-03-01 13:54:10Z fire $
+; Last changed date:    $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
+; ID:            	$Id: build.prop 124 2013-03-19 13:00:12Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -80,6 +80,7 @@
 ;
 ; The name of string is name of file, without extension.
 
+
 handle.hash     =2
 handle.main     =2
 kernel.scope    =1
@@ -89,3 +90,4 @@ examiner.server =1
 handle.header   =1
 social.networks =1
 handle.captcha  =1
+handle.database =2
