@@ -1,0 +1,373 @@
+﻿; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 четв, 14 февр 2013 $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 the "License";
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Error in"URL" link! Please check the link.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'lajm.'
+web.news.articles           = 'artikull.'
+web.news.last               = 'Lajmet e fundit tл ditлs.'
+web.news.mont               = 'Lajme nga ky muaj.'
+web.news.empty              ='Asnjл lajm ende.'
+web.news.nonew              ='Asnjл ndryshim.'
+
+web.captcha                    ='Lloji kodin e sigurisл nga imazhi:'
+web.captcha.err                ='Na vjen keq, Kodi i sigurisл лshtл i pavlefshлm! Ju lutemi provoni pлrsлri.'
+web.messages.in             ='<br />
+Ju merrni kлtл mesazh sepse pлrdoruesit  {username}  dлshiron tл ndajnл pлrmbajtjen e me ju.
+<strong>{link}</strong>
+<p>Nлse ju mendoni se duke marrл kлtл mesazh лshtл abuzimi, ju lutemi na kontaktoni {site_mail}.</p>
+'
+web.mess.button.t           =' Ndajnл pлrmbajtjen e me mesazh personal'
+web.emailing.in             ='Link tл kлtij neni do tл dлrgohet nл adresat e emailit tл specifikojл.'
+web.mail.button.t           ='Ndajnл pлrmbajtjen me e-mail';
+web.emailing.sn.b           ='Mesazhi u dлrgua me sukses mail!<br /><br /> Faleminderit pлr duke pлrdorur formularin tonл tл postлs'
+web.emailing.sn.a           ='Faleminderit pлr duke pлrdorur formularin tonл tл kontaktit'
+soc.mess.ttl                ='Mesazhimi';
+soc.mail.ttl                ='mailing';
+shr.mail.ttl                ='Share Pлrmbajtja';
+
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        = 'prapa'
+lan.submit                      ='dлrgoj'
+lan.update                      ='rinovuar'
+lan.reset                       ='pastrim'
+lan.empty                       ='faqe bosh'
+lan.need.users                  ='Ju duhet tл jetл njл <b>pлrdorues</b> e faqes ndaj<b>hyrje</b> kjo faqe!'
+lan.choose.file                 ='zgjidhni dosjen'
+
+lan.months.jan        ='janar'
+lan.months.feb        ='shkurt'
+lan.months.mar        ='mars'
+lan.months.apr        ='prill'
+lan.months.may        ='mund'
+lan.months.jun        ='qershor'
+lan.months.jul        ='korrik'
+lan.months.aug        ='gusht'
+lan.months.sep        ='shtator'
+lan.months.oct        ='tetor'
+lan.months.nov        ='nлntor'
+lan.months.dec        ='dhjetor'
+
+cont.from.ttl           ="subjekt"
+cont.from.mss           ="mesazh"
+
+
+;---------------------------------------------------------------------------------------
+; NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='lajm'
+main.cp.pages               ='faqet'
+main.cp.manus               ='menus'
+main.cp.mail                ='njoftim'
+main.cp.logs                ='Shkrime'
+main.cp.links               ='Lidhje'
+main.cp.users               ='pлrdoruesit'
+main.cp.update              ='rinovuar'
+main.cp.preferences         ='Preferenca'
+main.cp.theme               ='temл'
+main.cp.flash               =Flash
+main.cp.comments            ='komente'
+main.cp.require             ='Ju lutemi plotлsoni fushat e kлrkuara tekst'
+main.cp.question.erase      ='Jeni te sigurte qe doni te fshini'
+main.cp.question.alt        ='A jeni tл vлrtetл duan tл'
+repo.cpanel.expire.title    = " Sesioni skaduar"
+repo.cpanel.expire.body     = 'Sesioni qл лshtл pлrdorur nga pлrdorues ka skaduar profilin. <p> <b>Ju lutemi hyni brлnda pлrsлri!</b> </p> Ju mund tл pлrdorni lidhjen pлr<A href="users/view">pлrdoruesit e parazgjedhur seksion   </A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='Humbura * Fusha e kлrkuar!'
+users.err.taken.name        ='Emrin лshtл tashmл nл pлrdorim.'
+users.err.pass.match        ='Fjalлkalimet tuaja nuk perputhen.'
+users.err.valid.email       ='Jo njл tл vlefshme e-mail.'
+users.err.nosuch.user       ='Nuk ka asnjл pлrdorues tл tillл.'
+users.err.taken.mail        ='E-mail tashmл ekziston.'
+users.err.req.signin        ='Vetлm anлtarлt mund tл shikoni kлtл pлrmbajtje!'
+
+users.lan.login             ='Sign nл'
+users.lan.registration      ='regjistrim'
+users.lan.uname             ='emri i pлrdoruesit'
+users.lan.upass             ='User fjalлkalimi'
+users.lan.newpass           ='fjalлkalimi i ri'
+users.lan.confirm           ='Konfirmo fjalлkalimin'
+users.lan.email             ='E-mail'
+users.lan.photo             ='Komenti juaj'
+users.lan.status            ='prioritet profilin'
+users.lan.signature         ='nлnshkrim'
+users.lan.signout           ='Sign jashtл';
+users.lan.changes           ='ndryshimet e fundit';
+users.lan.welcome           ='i mirлpritur ';
+users.lan.profile           ='profilin tuaj';
+users.lan.messages          =' Inbox ';
+users.lan.editprof          =' Edit profilin ';
+
+users.passreset             ='Harruat fjalлkalimin tuaj?'
+users.passreset.mail        ='Shkruani e-mailin tuaj dhe ne do t'ju dлrgojmл fjalлkalimin tuaj tл ri.'
+users.passreset.err.mail    ='Ky e-mail nuk ekziston nл database tonл.'
+users.passreset.send        ='Kontrolloni e-mailin tuaj tani.'
+users.passreset.mail.title  ='Harruar fjalлkalimi nuk ka pлrgjigje'
+users.passreset.mail.content="
+ Kjo adresл e-mail лshtл dлrguar pлr shkak se keni harruar fjalлkalimin tuaj.
+
+ Ju lutem klikoni lidhjen mл poshtл pлr tл rivendosni fjalлkalimin tuaj.
+ Ju keni njл sesion dy orлve by default nл tл cilлn ju mund tл bлni ndryshime"
+
+userrs.pass.recov.uerr      ="Ju lutem kontaktoni me administrimin e internetit pлr zgjidhjen e problemit me profilin tuaj"
+users.pm                    ='Mesazhi personale.'
+users.signup.ok             ='Ju sukses nлnshkruar pлr kлtл faqe.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Pлrdorni profilet sociale rrjetit tuaj:"
+users.soc.mess                  ="A ju tashmл keni njл llogari nл njл nga kлto vende? Kliko logon pлr tл hyni nл tл me kлtu:";
+users.soc.loginw                ="identifikohuni me: "
+
+users.soc.wreq.ttl              ="Informacion shtesл pлrdoruesit"
+users.soc.wreq.txt              =' <b>"{site_name}"</b> website kлrkojnл fusha Rreth anлtarit.'
+
+sys.countdown                   ="<b> sekonda mbetura</b> tл tipit tл dhлnat tuaja!"
+sys.countout                  ="<b>Ju lutem provoni pлrsлri!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='pлrmbajtje'
+lw.title='titull'
+lw.titles='titujt'
+lw.new='i ri'
+lw.address='adresл'
+lw.addresses='adresat'
+lw.position='pozicion'
+lw.positions='pozicione'
+lw.target='objektiv'
+lw.targets='objektivat'
+lw.option='alternativл'
+lw.options='opsione'
+lw.category='kategori'
+lw.categories='kategoritл'
+lw.create='krijoj'
+lw.templates=templates
+lw.template='shabllon'
+lw.templates=templates
+lw.theme='temл'
+lw.themes='temat'
+lw.body='trup'
+lw.section='seksion'
+lw.sections='pjesлt'
+lw.default='prezgjedhur'
+lw.menu=menu
+lw.menus='menus'
+lw.erase= 'shuaj'
+lw.delete='fshij'
+lw.image='imazh'
+lw.activate='aktivizoj'
+lw.active='aktiv'
+lw.refresh='freskoj'
+lw.user='pлrdorues'
+lw.users='pлrdoruesit'
+lw.text='tekst'
+lw.texts='tekste'
+lw.area='zonл'
+lw.areas='fushat'
+lw.sounds='Dashuri'
+lw.sound='zл'
+lw.log=log
+lw.logs='Shkrime'
+lw.page='faqe'
+lw.pages='faqet'
+lw.recordet='regjistruar'
+lw.date='data'
+lw.dates='datat'
+lw.disclaimer='mohim'
+lw.website=website
+lw.name='emлr'
+lw.meta=meta
+lw.description='pлrshkrim'
+lw.additional='plotлsues'
+lw.addons='shtojcave'
+lw.addon='shtesл'
+lw.plugin=plugin
+lw.plugins=plugins
+lw.module='modul
+lw.modules='modulet'
+lw.general='i pлrgjithshлm'
+lw.installed='instaluar'
+lw.install='instaloj'
+lw.installing='instalimi'
+lw.other='tjetлr'
+lw.info=info
+lw.information=information
+lw.simple='i thjeshtл'
+lw.host=host
+lw.charset=charset
+lw.keywords='fjalл kyзe'
+lw.contact='kontakt'
+lw.e-mail=e-mail
+lw.language='gjuhл'
+lw.copyright='drejtлn e autorit'
+lw.icon=favicon
+lw.save='ruaj'
+lw.saved='ruajtur'
+lw.action='veprim
+lw.start='fillim'
+lw.home='shtлpi'
+lw.class='klasл'
+lw.level='nivel'
+lw.admin=admin
+lw.admins=admins
+lw.manager='menaxher'
+lw.manage='menaxhuar'
+lw.priority='prioritet'
+lw.problem=problem
+lw.execute='kryej'
+lw.reading='lexim'
+lw.processing='pлrpunim'
+lw.deny='mohoj'
+lw.denied='mohuar'
+lw.update='rinovuar'
+lw.sucessfully='sukses'
+lw.progress='progres'
+lw.error='gabim'
+lw.errors='gabimet'
+lw.edit='redaktoj'
+lw.edits='redaktimet'
+lw.empty='bosh'
+lw.field='fushл'
+lw.fields='fushat'
+lw.time='kohл'
+lw.times='kohлt'
+lw.tag=tag
+lw.tags=tags
+lw.process='proces'
+lw.full='plot'
+lw.require='kлrkojnл'
+lw.registration='regjistrim'
+lw.login='hyrje'
+lw.username='emrin'
+lw.password='fjalлkalimi'
+lw.link='lidhje'
+lw.links='Lidhje'
+lw.editor='redaktor'
+lw.editors='redaktorлt'
+lw.change='ndryshim'
+lw.changes='ndryshimet'
+lw.prevent='parandaloj'
+lw.prevents='pengon'
+lw.setting='vendosjen e'
+lw.settings='Konfigurimet'
+lw.view='pamje'
+lw.views=views
+lw.viewing='shikimin'
+lw.show='shfaqje
+lw.shows='tregon'
+lw.showing='treguar'
+lw.topic='temл'
+lw.topics='Temat'
+lw.post=post
+lw.posts=posts
+lw.last='i fundit'
+lw.lasts='zgjat'
+lw.reply='pлrgjigje'
+lw.replys='pлrgjigje'
+lw.reset='rivendosur'
+lw.resets='Rivendos'
+lw.first='i parл'
+lw.analyzing='analizuar'
+lw.additions='Futjet'
+lw.author='autor'
+lw.version=version
+lw.max=max
+lw.size='madhлsi'
+lw.upload=upload
+lw.data='tл dhлna'
+lw.has='ka'
+lw.logged='Anglisht'
+lw.loggedin="'Regjistrohu'"
+lw.sub='sub-'
+lw.for='pлr'
+lw.from='nga'
+lw.to='tek'
+lw.the=the
+lw.while='ndлrsa'
+lw.this='kjo'
+lw.your='juaj'
+lw.you='ju'
+lw.do='bлj'
+lw.like='si'
+lw.is= 'лshtл'
+lw.tick=tick
+lw.some='disa'
+lw.be='jetл'
+lw.more='mл shumл'
+lw.date='data'
+lw.end='fund'
+lw.start='fillim'
+lw.startpage='Fillimi i faqes'
+lw.may='mund'
+lw.not='nuk'
+lw.allow='lejoj'
+lw.now='tani'
+lw.one='njл'
+lw.moment='momenti'
+lw.ok=ok
+lw.close='afлr'
+lw.cancel='anuloj'
+lw.press='shtyp'
+lw.click=click
+lw.already='tashmл'
+lw.ready='gati'
+lw.exist='ekzistoj'
+lw.here='kлtu'
+lw.type='lloj'
+lw.on='mbi'
+lw.really='vлrtet'
+lw.want='dua'
+lw.auto=auto
+lw.radio=radio
+lw.check='kontrolloj'
+lw.select='zgjedh'
+lw.selected='i zgjedhur'
+lw.checkbox='kontrolloni kutinл'
+lw.in='nл'
+lw.with='me'
+lw.cause='bлj'
+lw.all='tл gjithл'
+lw.current='aktual'
+; Added new 19.02.2013
+lw.search='kлrko'
+lw.search.title='Kлrko website'
+lw.search.menu='Pлr tл kлrkuar lloji dhe hit enter'

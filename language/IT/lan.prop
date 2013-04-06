@@ -1,0 +1,375 @@
+; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Errore nel link "URL"! Si prega di controllare il link.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'Notizie.'
+web.news.articles           = 'Articolo.'
+web.news.last               = 'Ultime notizie del giorno.'
+web.news.mont               = 'Novità da questo mese.'
+web.news.empty              ='Nessuna notizia ancora.'
+web.news.nonew              ='Nessun cambiamento.'
+
+web.captcha                    ='Digitare il codice di sicurezza dall immagine:'
+web.captcha.err                ='Spiacenti, il codice di protezione non è valido! Si prega di riprovare.'
+web.messages.in             ='<br />
+You are receiving this message because the user ( {username} ) wishes to share content with you.
+<strong>{link}</strong>
+<p>If you think that getting this message is abuse, please contact us {site_mail}.</p>
+'
+web.mess.button.t           =' Condividere il contenuto con messaggio personale'
+web.emailing.in             ='Link a questo articolo verrà inviato per specificare indirizzi e-mail.'
+web.mail.button.t           ='Condividere il contenuto con e-mail'
+web.emailing.sn.b           ='Il messaggio di posta elettronica è stato inviato con successo!<br /><br /> Grazie per aver utilizzato il nostro modulo di posta'
+web.emailing.sn.a           ='Grazie per aver utilizzato il nostro modulo di contatto'
+soc.mess.ttl                ='messaggistica'
+soc.mail.ttl                ='mailing'
+shr.mail.ttl                ='Condividi contenuti'
+
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        = 'indietro'
+lan.submit                      = 'presentare'
+lan.update                      = 'aggiornare'
+lan.reset                       = 'reset'
+lan.empty                       = 'Pagina vuota del sito.'
+lan.need.users                  = 'Devi essere un <b>user</b> del sito <b>accesso</b> questa pagina!'
+lan.choose.file                 = 'scegli il file'
+
+lan.months.jan        ='Gennaio'
+lan.months.feb        ='Febbraio'
+lan.months.mar        ='Marzo'
+lan.months.apr        ='Aprile'
+lan.months.may        ='Maggio'
+lan.months.jun        ='Giugno'
+lan.months.jul        ='Luglio'
+lan.months.aug        ='Agosto'
+lan.months.sep        ='Settembre'
+lan.months.oct        ='Ottobre'
+lan.months.nov        ='Novembre'
+lan.months.dec        ='Dicembre'
+
+cont.from.ttl           ="soggetto"
+cont.from.mss           ="messaggio"
+
+
+;---------------------------------------------------------------------------------------
+;NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='Notizie'
+main.cp.pages               ='Pagine'
+main.cp.manus               ='Menu'
+main.cp.mail                ='Mailing'
+main.cp.logs                ='Registri'
+main.cp.links               ='Links'
+main.cp.users               ='Utenti'
+main.cp.update              ='Aggiornare'
+main.cp.preferences         ='Preferenze'
+main.cp.theme               ='Tema'
+main.cp.flash               ='Flash'
+main.cp.comments            ='Commenti'
+main.cp.require             ='Si prega di compilare i campi di testo obbligatori'
+main.cp.question.erase      ='Sei sicuro di voler eliminare'
+main.cp.question.alt        ='Sei sicuro di voler'
+
+repo.cpanel.expire.title    = " Sessione scaduta"
+repo.cpanel.expire.body     = 'Sessione che è stato utilizzato in base al profilo utente è scaduto. <p> <b>Si prega di accedere di nuovo!</b> </p> È possibile utilizzare il collegamento per <A href="users/view">utente predefinito sezione</A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='Senza risposta (*) campo obbligatorio!'
+users.err.taken.name        ='Il nome utente è già in uso.'
+users.err.pass.match        ='Le password non corrispondono.'
+users.err.valid.email       ='Non è un indirizzo e-mail.'
+users.err.nosuch.user       ='Non esiste tale utente.'
+users.err.taken.mail        ='E-mail esiste già.'
+users.err.req.signin        ='Solo i membri possono visualizzare questo contenuto!'
+
+users.lan.login             ='Accedi'
+users.lan.registration      ='Iscriviti'
+users.lan.uname             ='Nome utente'
+users.lan.upass             ='Utente Password'
+users.lan.newpass           ='Nuova password'
+users.lan.confirm           ='Conferma password'
+users.lan.email             ='E-mail'
+users.lan.photo             ='La tua foto'
+users.lan.status            ='Profilo priorità'
+users.lan.signature         ='Firma'
+users.lan.signout           ='Esci'
+users.lan.changes           ='Ultime modifiche'
+users.lan.welcome           ='Benvenuto '
+users.lan.profile           ='Il tuo profilo'
+users.lan.messages          ='Posta in arrivo'
+users.lan.editprof          ='Modifica profilo'
+
+users.passreset             ='Hai dimenticato la password?'
+users.passreset.mail        ='Inserisci la tua e-mail e ti invieremo la nuova password.'
+users.passreset.err.mail    ='Questo indirizzo e-mail non esiste nel nostro database.'
+users.passreset.send        ='Controlla la tua e-mail ora.'
+users.passreset.mail.title  ='Ho dimenticato la password (nessuna risposta)'
+users.passreset.mail.content="
+
+Questo indirizzo e-mail è stata inviata perché ti sei dimenticato la password.
+
+ Si prega di fare clic sul link qui sotto per reimpostare la tua password.
+ Si dispone di un due sessioni di ore (per impostazione predefinita) in cui è possibile apportare le modifiche"
+
+userrs.pass.recov.uerr      ="Si prega di contattare con la somministrazione di sito web per risolvere il problema con il profilo"
+users.pm                    ='Messaggio personale.'
+users.signup.ok             ='È completato la registrazione a questo sito.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Utilizzare i profili di social network:"
+users.soc.mess                  ="Hai già un account su uno di questi siti? Fare clic sul logo per accedere con esso qui:";
+users.soc.loginw                ="Accesso con: "
+
+users.soc.wreq.ttl              ="Ulteriori informazioni dell'utente"
+users.soc.wreq.txt              ='Il <b> "{site_name}" </ b> sito richiedono campi utente più.'
+
+sys.countdown                   ="<b> secondi rimanenti </ b> per digitare i dati!"
+sys.countout                  ="<b>Riprovare!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='contenuto'
+lw.title='titolo'
+lw.titles='titoli'
+lw.new='nuovo'
+lw.address='indirizzo'
+lw.addresses='indirizzi'
+lw.position='posizione'
+lw.positions='posizioni'
+lw.target='obiettivo'
+lw.targets='obiettivi'
+lw.option='opzione'
+lw.options='opzioni'
+lw.category='categoria'
+lw.categories='categorie'
+lw.create='creare'
+lw.templates='modelli'
+lw.template='sagoma'
+lw.templates='modelli'
+lw.theme='tema'
+lw.themes='temi'
+lw.body='corpo'
+lw.section='sezione'
+lw.sections='sezioni'
+lw.default='default'
+lw.menu='menu'
+lw.menus='menu'
+lw.erase= 'cancellare'
+lw.delete='cancellare'
+lw.image='immagine'
+lw.activate='attivare'
+lw.active='attivo'
+lw.refresh='rinfrescare'
+lw.user='utente'
+lw.users='utenti'
+lw.text='testo'
+lw.texts='testi'
+lw.area='area'
+lw.areas='aree'
+lw.sounds='suoni'
+lw.sound='suono'
+lw.log='log'
+lw.logs='logs'
+lw.page='pagina'
+lw.pages='pagini'
+lw.recordet='registrato'
+lw.date='data'
+lw.dates='date'
+lw.disclaimer='disconoscimento'
+lw.website='sito web'
+lw.name='nome'
+lw.meta='meta'
+lw.description='descrizione'
+lw.additional='supplementare'
+lw.addons='addons'
+lw.addon='addon'
+lw.plugin='plugin'
+lw.plugins='plugins'
+lw.module='modulo'
+lw.modules='moduli'
+lw.general='generale'
+lw.installed='installato'
+lw.install='installare'
+lw.installing='l`installazione di'
+lw.other='altro'
+lw.info='info'
+lw.information='informazioni'
+lw.simple='semplice'
+lw.host='ospite'
+lw.charset='charset'
+lw.keywords='parole chiave'
+lw.contact='contatto'
+lw.e-mail='e-mail'
+lw.language='lingua'
+lw.copyright='copyright'
+lw.icon= ' favicon '
+lw.save= ' memorizzare '
+lw.saved= ' memorizzato '
+lw.action='azione'
+lw.start='inizio'
+lw.home='casa'
+lw.class='classe'
+lw.level='livello'
+lw.admin='admin'
+lw.admins='admins'
+lw.manager='manager'
+lw.manage='gestire'
+lw.priority='priorità'
+lw.problem='problema'
+lw.execute='eseguire'
+lw.reading='lettura'
+lw.processing='elaborazione'
+lw.deny='negare'
+lw.denied='negato'
+lw.update='aggiornare'
+lw.sucessfully='con successo'
+lw.progress='progressi'
+lw.error='errore'
+lw.errors='errori'
+lw.edit='modifica'
+lw.edits='modifiche'
+lw.empty='vuoto'
+lw.field='campo'
+lw.fields='campi'
+lw.time='tempo'
+lw.times='volte'
+lw.tag='etichetta'
+lw.tags='etichetti'
+lw.process='processo'
+lw.full='completo'
+lw.require='richiedere'
+lw.registration='registrazione'
+lw.login='accesso'
+lw.username='nome utente'
+lw.password='password'
+lw.link='collegamento'
+lw.links='collegamenti'
+lw.editor='editore'
+lw.editors='redattori'
+lw.change='cambiare'
+lw.changes='modifiche'
+lw.prevent='prevenire'
+lw.prevents='impedisce'
+lw.setting='regolazione'
+lw.settings='impostazioni'
+lw.view='vista'
+lw.views='visualizzazioni'
+lw.viewing='visualizzazione'
+lw.show='mostra'
+lw.shows='spettacoli'
+lw.showing='mostra'
+lw.topic='argomento'
+lw.topics='argomenti'
+lw.post='inviare'
+lw.posts='messaggi'
+lw.last='ultimo'
+lw.lasts='dura'
+lw.reply='risposta'
+lw.replys='risposte'
+lw.reset='azzerare'
+lw.resets='resetta'
+lw.first='prima'
+lw.analyzing='l'analisi'
+lw.additions='integrazioni'
+lw.author='autore'
+lw.version='versione'
+lw.max='max'
+lw.size='dimensione'
+lw.upload='caricare'
+lw.data='dati'
+lw.has='ha'
+lw.logged='registrato'
+lw.loggedin="collegato"
+lw.sub='sub-'
+lw.for='per'
+lw.from='da'
+lw.to='a'
+lw.the='il'
+lw.while='mentre'
+lw.this='questo'
+lw.your='il tuo'
+lw.you='voi'
+lw.do='fare'
+lw.like='come'
+lw.is= 'è'
+lw.tick='spuntare'
+lw.some='un po 'di'
+lw.be='essere'
+lw.more='di più'
+lw.date='data'
+lw.end='fine'
+lw.start='inizio'
+lw.startpage='pagina iniziale'
+lw.may='può'
+lw.not='non'
+lw.allow='consentire'
+lw.now='ora'
+lw.one='uno'
+lw.moment='momento'
+lw.ok='ok'
+lw.close='chiudere'
+lw.cancel='annullare'
+lw.press='premere'
+lw.click='fare clic'
+lw.already='già'
+lw.ready='pronto'
+lw.exist='esistere'
+lw.here='qui'
+lw.type='tipo'
+lw.on='su'
+lw.really='davvero'
+lw.want='volere'
+lw.auto='auto'
+lw.radio='radio'
+lw.check='controllare'
+lw.select='selezionare'
+lw.selected='selezionato'
+lw.checkbox='casella di controllo'
+lw.in='in'
+lw.with='con'
+lw.cause='causare'
+lw.all='tutti'
+lw.current='corrente'
+; Added new 19.02.2013
+lw.search='ricerca'
+lw.search.title='cerca nel sito'
+lw.search.menu='cerca nel sito'
