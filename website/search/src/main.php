@@ -55,7 +55,22 @@ foreach ($my->aArrayedResults as $row) {
     endif;
     ;
 }
+    $htmlopt = null;
+    foreach($options as $option){
+        $name = str_replace(array(PREFIX, "_"), array("", " "), $option);
+        $name_table =  urlencode( md5crypt(  $option . HEX ));
+        if($table == $option){
+            $selected = 'selected="selected"';
+            $htmlCheck = "&#10004;";
+        }else{
+            $selected = '';
+            $htmlCheck=null;
+        }
 
+        $htmlopt .=<<<eol
+        <option value="$name_table" $selected>$htmlCheck $name</option>
+eol;
+    }
 
 //
 // Get results
@@ -72,21 +87,6 @@ if (isset($_REQUEST[$tableS]) && isset($_REQUEST[$query])) {
             break;
         endif;
     }
-    $htmlopt = null;
-    foreach($options as $option){
-        $name = str_replace(array(PREFIX, "_"), array("", " "), $option);
-        $name_table =  urlencode( md5crypt(  $option . HEX ));
-        if($table == $option){
-            $selected = 'selected="selected"';
-            $htmlCheck = "&#10004;";
-        }else{
-            $selected = '';
-            $htmlCheck=null;
-        }
-        $htmlopt .=<<<eol
-        <option value="$name_table" $selected>$htmlCheck $name</option>
-eol;
-    }
 
     $tpl_tag["QUERY"]           = $query;
     $tpl_tag["TABLE"]           = $tableS;
@@ -95,7 +95,7 @@ eol;
     $tpl_tag["SEARCH_TITLE"]    = $_REQUEST[$query];
     $content .= theme::custom_template("search", $tpl_tag);
     if ($checker === true) {
-        $query = "SELECT title,body, ( MATCH(body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) AS relevance FROM $table
+        $query = "SELECT title,body, ( MATCH(title,body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) AS relevance FROM $table
        WHERE ( MATCH(title,body) AGAINST ('{$var}%' IN BOOLEAN MODE) ) HAVING relevance > 0  ORDER BY relevance DESC";
        $page = new mysql_lister($query, 30);
         $result = mysql_query($query . $page->limit()) or theme::content(array($language['md.title.error.srch'], $language['md.body.error.srch'].  mysql_error()));
@@ -111,12 +111,15 @@ eol;
                 $tb->addRow("");
                 $tb->addCell("&nbsp;","","",array("height"=>"35px"));
                 $tb->addRow();
+
+                $body = str_replace('src="','src="/',$row['body']);
+
                 $subs .=<<<eol
                 <div id="{$id}"  style="display:none" class="search content">
                 <div class="close-button"></div>
                     <h2>{$row['title']}</h2>
                     <p>
-                        {$row['body']}
+                        {$body}
                     </p>
                 </div>
 eol;
@@ -130,6 +133,20 @@ eol;
 }
 
 
+    foreach($options as $option){
+        $name = str_replace(array(PREFIX, "_"), array("", " "), $option);
+        $name_table =  urlencode( md5crypt(  $option . HEX ));
+        if($table == $option){
+            $selected = 'selected="selected"';
+            $htmlCheck = "&#10004;";
+        }else{
+            $selected = '';
+            $htmlCheck=null;
+        }
+        $htmlopt .=<<<eol
+        <option value="$name_table" $selected>$htmlCheck $name</option>
+eol;
+    }
 
 // Show if content is empty
 if(is_null($content)){

@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 121 $
-; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
-; ID:            		$Id: [BOOT].dp 121 2013-03-01 13:54:10Z fire $
+; Last committed:     	$Revision: 133 $
+; Last changed by:    	$Author: fire1 $
+; Last changed date:    $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+; ID:            		$Id: [BOOT].dp 133 2013-04-02 17:13:15Z fire1 $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -144,7 +144,6 @@ publicfiles     ="public-files/"
 
 ; Path to uploads
 ; ------------------
-
 websiteUploads  =/upload
 
 ; Path to users
@@ -157,6 +156,28 @@ websiteUsers    =/users
 
 SlickFlashFile  ='system/bin/slick/flash.swf'
 
+; Upload
+; ==================
+; Upload Configuration
+; upload.* string are merged with:
+; /system/bin/upload.prop
+
+; Max file size for upload in bytes
+; ------------------
+upload.max.size=512000
+
+; IMAGE RESIZING
+; I'm using 4:3 Aspect Ratio
+
+;  Image maximum size
+; ------------------
+upload.image.xmax.size=960
+upload.image.ymax.size=720
+
+; Thumbs maximum size
+; ------------------
+upload.thumb.xmax.size=220
+upload.thumb.ymax.size=165
 
 ; TAGS
 ; ==================
@@ -175,6 +196,10 @@ base_tag[sqlcharset]=cp1251
 ; jQuery file
 ; ------------------
 base_tag[jquery_file]=jquery.js
+
+; Dollop  jQuery file
+; ------------------
+base_tag[jquery_dp]=dollop/init.js
 
 ; jQuery UI file
 ; ------------------
@@ -271,21 +296,22 @@ module.socialnetworks=1
 ;
 ;   Twitter
 ; (https://dev.twitter.com/apps)
-twitter.consumer.key=Umiho9lt9jCktIi7fJJ59A
-twitter.consumer.secret=oxSfa9kta5ITWpt8GdfxviIStwuU1QsedeG8Mkv7E
+twitter.consumer.key=
+twitter.consumer.secret=
+; Provide this URL as the Callback URL for your website http://domainname.com/users/twitter
 ;
 ;   Facebook
 ;   (https://www.facebook.com/developers/)
 ;       NOTE: "Website with Facebook Login" must be http://[domain.name]/users/facebook
-facebook.consumer.key=215698545223593
-facebook.consumer.secret=c0db4e6592598de8a18dc06ffe85cc5d
+facebook.consumer.key=
+facebook.consumer.secret=
 ;
 ;   Google
 ;   (https://code.google.com/apis/console/)
-google.consumer.key="878207875649.apps.googleusercontent.com"
-google.consumer.secret="rOuqajPFG96_Wcymy_U6F52P"
-google.developer.key="AIzaSyC1DrvZzdOwHeFizhan-dRIxlpTaXt-1YY"
-; [Provide this URL as the Callback URL for your website http://domainname.com/users/google]
+google.consumer.key=""
+google.consumer.secret=""
+google.developer.key=""
+; Provide this URL as the Callback URL for your website http://domainname.com/users/google
 
 
 

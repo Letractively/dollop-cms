@@ -1,10 +1,11 @@
 <?php
-  
+
 
 global $language;
 
 
 $language['lchat.channels']="channels";
+$language['lchat.with']="chat with";
 $language['lchat.channel']="channel";
 $language['lchat.livechat']="live chat";
 $language['lchat.chat']="chat";
@@ -51,10 +52,12 @@ $language['lchat.icon'][':P'] = "tongue";
 $language['lchat.icon'][':-p'] = "tongue";
 $language['lchat.icon'][':-P'] = "tongue";
 
-$language['lchat.icon'][':o'] = "shocked";
-$language['lchat.icon']['O:'] = "shocked";
-$language['lchat.icon']['=0'] = "shocked";
-$language['lchat.icon'][':O'] = "shocked";
+$language['lchat.icon'][':o'] = "shock";
+$language['lchat.icon']['O:'] = "shock";
+$language['lchat.icon']['=0'] = "shock";
+$language['lchat.icon'][':O'] = "shock";
+$language['lchat.icon'][':O'] = "shock";
+$language['lchat.icon'][':o'] = "shock";
 
 $language['lchat.icon'][':@'] = "angry";
 
@@ -68,13 +71,15 @@ $language['lchat.icon'][':$'] = "embarrassed";
 $language['lchat.icon'][':S'] = "embarrassed";
 $language['lchat.icon'][':s'] = "embarrassed";
 
-$language['lchat.icon'][':|'] = "disappointed";
+$language['lchat.icon'][':|'] = "disapointed";
 
 $language['lchat.icon']['+o('] = "sick";
 $language['lchat.icon'][':[]'] = "sick";
 
-$language['lchat.icon'][':-#'] = "shut";
-$language['lchat.icon'][':#'] = "shut";
+$language['lchat.icon'][':-#'] = "shut-mouth";
+$language['lchat.icon'][':#'] = "shut-mouth";
+$language['lchat.icon'][':x'] = "shut-mouth";
+$language['lchat.icon'][':X'] = "shut-mouth";
 
 $language['lchat.icon']['|-)'] = "sleepy";
 $language['lchat.icon']["X)"] = "sleepy";
@@ -82,8 +87,10 @@ $language['lchat.icon']["X)"] = "sleepy";
 $language['lchat.icon'][':/'] = "thinking";
 $language['lchat.icon'][':-/'] = "thinking";
 
-$language['lchat.icon']['8)'] = "nerdy";
-$language['lchat.icon']['8-)'] = "nerdy";
+$language['lchat.icon']['8)'] = "glasses-nerdy";
+$language['lchat.icon']['8-)'] = "glasses-nerdy";
+
+
 
 
 

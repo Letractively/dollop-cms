@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 119 $
+; Last committed:     	$Revision: 123 $
 ; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
-; ID:            		$Id: design.prop 119 2013-02-22 14:58:55Z fire $
+; Last changed date:    $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+; ID:            		$Id: design.prop 123 2013-03-09 12:54:46Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -331,6 +331,7 @@ FAVICON={FAVICON}
 ;
 ; jQuery main file
 JSCRIPT[0]    = '{jquery}/{jquery_file}';
+JSCRIPT[9]    = '{jquery}/{jquery_dp}';
 ;
 ; JavaScript for links in website
 

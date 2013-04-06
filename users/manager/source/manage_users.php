@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 126 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: manage_users.php 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-22 17:58:47 +0200 (ïåò, 22 ìàðò 2013) $
+ * ID:                  $Id: manage_users.php 126 2013-03-22 15:58:47Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource  Dollop Users
- * @package dollop 
+ * @package dollop
  * @subpackage Module
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -43,9 +43,9 @@ if ($_POST[$priority] && $_POST['userid'] && $_POST['userlevel']) {
     array_map('addslashes', $_POST);
 
     if (constant("USER_PRIV") > $_POST['userlevel']) {
-        $slq = mysql_query("UPDATE  `" . USERS_SQLTBL_MAIN . "` SET `userlevel`='{$_POST['userlevel']}'
+        $slq = db_query("UPDATE  `" . USERS_SQLTBL_MAIN . "` SET `userlevel`='{$_POST['userlevel']}'
 
-    WHERE `userid`='{$_POST['userid']}'; ") or ( $mysql_error = mysql_error());
+    WHERE `userid`='{$_POST['userid']}'; ") or ( $mysql_error = db_error());
     } else {
 
         $alert_error = $this->mysql_alert_box("Cannot set-up this user level with bigger from your own level!", $sector);
@@ -54,41 +54,92 @@ if ($_POST[$priority] && $_POST['userid'] && $_POST['userlevel']) {
 
 if ($_POST['erase-user']) {
 
-    $slq = mysql_query("DELETE FROM `" . USERS_SQLTBL_MAIN . "` WHERE `" . USERS_SQLTBL_MAIN . "`.`userid`='{$_POST['erase-user']}' ") or ($mysql_error = mysql_error());
+    $slq = db_query("DELETE FROM `" . USERS_SQLTBL_MAIN . "` WHERE `" . USERS_SQLTBL_MAIN . "`.`userid`='{$_POST['erase-user']}' ") or ($mysql_error = db_error());
 }
-
-
-
-
+if($_POST['input-save-group']){
+    if(!is_array($_SESSION['saved-group'])){
+        $_SESSION['saved-group'] = array();
+    }
+    array_push($_SESSION['saved-group'],explode(",",$_POST['input-save-group']));
+}
+if($_POST['input-erase-save-group']){
+    $_SESSION['saved-group'] = null;
+}
 
 $BODY = <<<eol
 
-<p>&nbsp; {$mysql_error} {$alert_error}</p>
-<table width="80%" border="0" align="center" cellpadding="8" cellspacing="1">
+   <script type="text/javascript">
+   $(function(){
+        $("#search-users").filtertbl({table:"#user-list"});
+        $("#save-group").click(function(){
+            $("#user-list").savegroup({
+            elements: "td:first",
+            elmntype: "text",
+            outputin: "#input-save-group",
+            formelmn: "#form-save-group"
+
+        });
+        });
+        $("#erase-save-group").click(function(){
+                  var checkconfirm =confirm('{$language['main.cp.question.erase']} {$language['lw.saved']} {$language['lw.view']}');
+                  if (checkconfirm==true){
+                        $("#form-erase-group").submit();
+
+              }
+        });
+
+        $("#help-save-group").click(function(){
+   $(".help-save-group").toggle();
+});
+   });
+   </script>
+<p>&nbsp; {$mysql_error} {$alert_error}
+<div>
+<input type="text" id="search-users" value="{$language['lw.search']}" style="width:15%;margin-left:10%;float:left;"
+ onblur="if (this.value == '') {this.value = '{$language['lw.search']}';}"
+ onfocus="if (this.value == '{$language['lw.search']}') {this.value = '';}"
+ />
+ <ul id="icons" style="float:left">
+    <li id="save-group"><span class="ui-icon ui-icon-copy" title="{$language['lw.save']} {$language['lw.view']}" >&nbsp;</span></li>
+    <li id="erase-save-group"> <span class="ui-icon ui-icon-trash " title="{$language['lw.erase']} {$language['lw.saved']} {$language['lw.view']}">&nbsp;</span> </li>
+    <li id="help-save-group"> <span class="ui-icon ui-icon-help " title="help">&nbsp;</span> </li>
+ </ul>
+ <span class="help-save-group" style="display:none">{$language['p.users.hgr']}</span>
+ </div>
+</p>
+
+<form name="save-group" id="form-save-group" method="post">
+<input type="hidden" value="" name="input-save-group" id="input-save-group" />
+</form>
+
+<form name="form-erase-group" id="form-erase-group" method="post">
+    <input type="hidden" value="true" name="input-erase-save-group"  />
+</form>
+<table width="80%" border="0" align="center" cellpadding="8" cellspacing="1" id="user-list">
 eol;
 
 
 
-$sql = mysql_query("SELECT * FROM `" . USERS_SQLTBL_MAIN . "`   ");
+$sql = db_query("SELECT * FROM `" . USERS_SQLTBL_MAIN . "`   ");
 $BODY .= <<<eol
 <tr>
-<th width="16px" align="center">{$language['p.users.id']}</th>
-<th width="auto">   {$language['p.users.na']}   </th>
-<th width="20%">    {$language['p.users.ro']}   </th>
+    <th width="16px" align="center">{$language['p.users.id']}</th>
+    <th width="auto">   {$language['p.users.na']}   </th>
+    <th width="20%">    {$language['p.users.ro']}   </th>
 
-<th width="10%">    {$language['p.users.st']}   </th>
-<th width="15%">    {$language['p.users.mbf']}  </th>
-<th width="20%">    {$language['p.users.op']}   </th>
+    <th width="10%">    {$language['p.users.st']}   </th>
+    <th width="15%">    {$language['p.users.mbf']}  </th>
+    <th width="20%">    {$language['p.users.op']}   </th>
 </tr>
 eol;
 $userlevel = "";
-while ($r = mysql_fetch_array($sql)) {
+foreach ( db_fetch($sql) as $r) {
 
     $userlevel = user_status_privilege($r['userlevel']);
 
 
     if ($r['hash_generated'] != 0) {
-        $time_ago = datediff(date('Y-m-d ', $r['hash_generated']), date('Y-m-d', time()), true);
+        $time_ago = datediff(date('Y-m-d ', $r['hash_generated']), date('Y-m-d', time()));
     } else {
         $time_ago = "";
     }
@@ -106,7 +157,7 @@ while ($r = mysql_fetch_array($sql)) {
     $options .= $this->operation_buttons($r[USERS_SQLTBL_COL_UID], $sector, $priority, $priority, 'battery-2', " {$language['lw.user']} {$language['lw.priority']}");
 // ban user
     $options .= $this->operation_buttons($r[USERS_SQLTBL_COL_UID], $sector, $sector, "banned", 'unlocked', " {$language['lw.deny']} {$language['lw.website']} {$language['lw.for']} {$language['lw.this']} {$language['lw.user']}");
-//erase user    
+//erase user
     $options .= $this->operation_buttons($r[USERS_SQLTBL_COL_UID], $sector, $sector, "erase-user", 'trash', " {$language['lw.erase']} {$language['lw.user']}", array(
         "OK" => true,
         'title' => " {$language['main.cp.question.erase']}:",
@@ -117,12 +168,12 @@ while ($r = mysql_fetch_array($sql)) {
 
     $BODY .=<<<eol
 <tr>
-    <td align="center"> {$r[USERS_SQLTBL_COL_UID]} </td>
+    <td> {$r[USERS_SQLTBL_COL_UID]} </td>
     <td> {$r[USERS_SQLTBL_COL_UNAME]} </td>
-    <td> <small>{$userlevel}</small> </td>
+    <td align="center"> <small>{$userlevel}</small> </td>
 
     <td> {$status} </td>
-    <td> <small> {$time_ago['Days']} {$language['users.days']}  </small> </td>
+    <td align="center"> <small> {$time_ago} {$language['users.days']}  </small> </td>
     <td> <ul id="icons">{$options}</ul> </td>
 </tr>
 eol;
@@ -131,7 +182,7 @@ eol;
 
 
 $BODY .=<<<eol
- 
+
  </table>
 eol;
 

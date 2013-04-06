@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     $Revision: 121 $
+; Last committed:     $Revision: 127 $
 ; Last changed by:    $Author: fire $
-; Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
-; ID:            $Id: lan.prop 121 2013-03-01 13:54:10Z fire $
+; Last changed date:    $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+; ID:            $Id: lan.prop 127 2013-03-27 07:19:53Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -27,12 +27,12 @@ error.numerical             = 'Error in"URL" link! Please check the link.'
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ;   News
 ;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-web.news                    = News.
-web.news.articles           = Article.
-web.news.last               = Last news of the day.
-web.news.mont               = News from this month.
-web.news.empty              ='No news yet.'
-web.news.nonew              ='No change.'
+web.news                    = News
+web.news.articles           = Article
+web.news.last               = Last news of the day
+web.news.mont               = News from this month
+web.news.empty              ='No news yet'
+web.news.nonew              ='No change'
 
 web.captcha                 =Type security code from image below:
 web.captcha.err             ='Sorry, the security code is invalid! Please try it again.'
@@ -76,6 +76,10 @@ lan.months.sep        =September
 lan.months.oct        =October
 lan.months.nov        =November
 lan.months.dec        =December
+
+cont.from.ttl           ="Subject"
+cont.from.mss           ="Message"
+
 
 
 ;---------------------------------------------------------------------------------------
@@ -351,7 +355,7 @@ lw.ready=ready
 lw.exist=exist
 lw.here=here
 lw.type=type
-lw.on=on
+lw.on="on"
 lw.really=really
 lw.want=want
 lw.auto=auto

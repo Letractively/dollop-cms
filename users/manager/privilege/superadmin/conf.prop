@@ -1,5 +1,5 @@
 add_user=create_user.php
 manage_users=manage_users.php
-mail_users=mail_users.php
+mass_mail=mass_mail.php
 banned_users=banned_users.php
 users_fields=users_fields.php

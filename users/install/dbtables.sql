@@ -1,6 +1,15 @@
 
 
 
+--
+--  Function for Selecting unreaded messages
+--  This MySQL function is not tested well
+--  @ver - 01
+--
+DROP PROCEDURE IF EXISTS UnreadedMessages;
+
+CREATE PROCEDURE UnreadedMessages(IN `id_val` INT UNSIGNED) BEGIN SELECT COUNT(*) FROM ".PREFIX."messages WHERE id_receiver = `id_val` AND readed=1; END;
+
 
 -- --------------------------------------------------------
 
@@ -77,58 +86,8 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."messages` (
   PRIMARY KEY (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET={$charset};
 
---
---  Fixing table for missing erase cel
---  This MySQL function is not tested well
---  @ver - 01
---
-DELIMITER $$
-
-DROP PROCEDURE IF EXISTS addFieldIfNotExists 
-$$# MySQL returned an empty result set (i.e. zero rows).
 
 
-DROP FUNCTION IF EXISTS isFieldExisting 
-$$# MySQL returned an empty result set (i.e. zero rows).
 
 
-CREATE FUNCTION isFieldExisting (table_name_IN VARCHAR(100), field_name_IN VARCHAR(100)) 
-RETURNS INT
-RETURN (
-    SELECT COUNT(COLUMN_NAME) 
-    FROM INFORMATION_SCHEMA.columns 
-    WHERE TABLE_SCHEMA = DATABASE() 
-    AND TABLE_NAME = table_name_IN 
-    AND COLUMN_NAME = field_name_IN
-)
-$$# MySQL returned an empty result set (i.e. zero rows).
-
-
-CREATE PROCEDURE addFieldIfNotExists (
-    IN table_name_IN VARCHAR(100)
-    , IN field_name_IN VARCHAR(100)
-    , IN field_definition_IN VARCHAR(100)
-)
-BEGIN
-
-    -- http://javajon.blogspot.com/2012/10/mysql-alter-table-add-column-if-not.html
-
-    SET @isFieldThere = isFieldExisting(table_name_IN, field_name_IN);
-    IF (@isFieldThere = 0) THEN
-
-        SET @ddl = CONCAT('ALTER TABLE ', table_name_IN);
-        SET @ddl = CONCAT(@ddl, ' ', 'ADD COLUMN') ;
-        SET @ddl = CONCAT(@ddl, ' ', field_name_IN);
-        SET @ddl = CONCAT(@ddl, ' ', field_definition_IN);
-
-        PREPARE stmt FROM @ddl;
-        EXECUTE stmt;
-        DEALLOCATE PREPARE stmt;
-
-    END IF;
-
-END;
-$$# MySQL returned an empty result set (i.e. zero rows).
-
-CALL addFieldIfNotExists ('".PREFIX."messages', 'erase', 'INT(1) NOT NULL DEFAULT 0');
 

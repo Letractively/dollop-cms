@@ -1,21 +1,22 @@
 <?php
+
 /**
- ============================================================
- * Last committed:     $Revision: 121 $
- * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:       $Id: news.php 121 2013-03-01 13:54:10Z fire $
- ============================================================
- Copyright Angel Zaprianov [2009] [INFOHELP]
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- http://www.apache.org/licenses/LICENSE-2.0
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+  ============================================================
+ * Last committed:     $Revision: 133 $
+ * Last changed by:    $Author: fire1 $
+ * Last changed date:    $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:       $Id: news.php 133 2013-04-02 17:13:15Z fire1 $
+  ============================================================
+  Copyright Angel Zaprianov [2009] [INFOHELP]
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
  * ----------------------------------------------------------
  *       See COPYRIGHT and LICENSE
  * ----------------------------------------------------------
@@ -28,16 +29,17 @@ if (!defined('FIRE1_INIT')) {
  * @filesource
  * manage the news
  */
-global $language, $db;
+global $language, $cpanel;
 $sector_insert = 'insert_' . $sector;
 $sector_edit = 'edit_' . $sector;
 $this->show_sublink[] = $sector_insert;
 $tbl = new html_table(null, 'admin', 0, 0, 4);
+
 // news categories
 function news_category($category = null) {
-    $query = mysql_query("SELECT * FROM `" . PREFIX . "news_category` ") or die($mysql_error = mysql_error());
+    $query = db_query("SELECT * FROM `" . PREFIX . "news_category` ") or die($mysql_error = db_error());
     $option = null;
-    while ($row = mysql_fetch_array($query)) {
+    foreach (db_fetch($query) as $row) {
         if ($category == $row['title']) {
             $slct = 'selected="selected"';
         } else {
@@ -46,21 +48,30 @@ function news_category($category = null) {
         $option.= <<<eol
 <option value="{$row['title']}" {$slct} >{$row['title']}</option>
 eol;
-
     }
     return $option;
 }
+
+if (isset($_POST['erase-news'])) {
+    db_query("DELETE FROM `" . PREFIX . "news_content` WHERE   `ID`='{$_POST['erase-news']}' ") or ($mysql_error = db_error());
+}
+
+
+
+
 /// Process mysql
 if (isset($_POST['cat_new']) && !empty($_POST['cat_new'])) {
     $_POST = stripslashes_deep($_POST);
     $_POST['cat_new'] = (htmlspecialchars(trim(addslashes($_POST['cat_new']))));
     $_POST['cat_des'] = addslashes($_POST['cat_des']);
-    mysql_query("INSERT INTO `" . PREFIX . "news_category`(`title`,`description`)
-            VALUES('{$_POST['cat_new']}','{$_POST['cat_des']}');") or ($mysql_error = mysql_error());
+    db_query("INSERT INTO `" . PREFIX . "news_category`  (`title`,`description`)
+
+            VALUES  ('{$_POST['cat_new']}','{$_POST['cat_des']}');  ") or ($mysql_error = db_error());
 }
 // INSERT
 if (isset($_POST[$sector_insert])) {
     @$_SESSION['picture'] = null;
+    $_POST['image'] = basename($_POST['image']);
     $_POST = stripslashes_deep($_POST);
     $_POST['title'] = (htmlspecialchars(trim($_POST['title'])));
     $_POST = array_map('addslashes', $_POST);
@@ -69,7 +80,7 @@ if (isset($_POST[$sector_insert])) {
     } else {
         $category = $_POST['cat'];
     }
-    mysql_query("INSERT INTO `" . PREFIX . "news_content`(`title`,`body`,`image`,`description`,`keywords`,`timestamp`,`category`)
+    db_query("INSERT INTO `" . PREFIX . "news_content`(`title`,`body`,`image`,`description`,`keywords`,`timestamp`,`category`)
             VALUES(
 
             '{$_POST['title']}',
@@ -80,11 +91,12 @@ if (isset($_POST[$sector_insert])) {
             UNIX_TIMESTAMP(),
             '{$category}'
 
-            );", $db) or ($mysql_error = mysql_error());
+            );") or ($mysql_error = db_error());
 }
 // UPDATE
 if (isset($_POST["{$sector_edit}-this"]) && !empty($_POST['id'])) {
     @$_SESSION['picture'] = null;
+    $_POST['image'] = basename($_POST['image']);
     $_POST = stripslashes_deep($_POST);
     $_POST['title'] = (htmlspecialchars(trim($_POST['title'])));
     $_POST = array_map('addslashes', $_POST);
@@ -93,7 +105,7 @@ if (isset($_POST["{$sector_edit}-this"]) && !empty($_POST['id'])) {
     } else {
         $category = $_POST['cat'];
     }
-    mysql_query("UPDATE  `" . PREFIX . "news_content`
+    db_query("UPDATE  `" . PREFIX . "news_content`
 
             SET
             `title` =    '{$_POST['title']}',
@@ -107,9 +119,9 @@ if (isset($_POST["{$sector_edit}-this"]) && !empty($_POST['id'])) {
 
             WHERE `ID`='{$_POST['id']}' ;
 
-            ") or die(mysql_error());
+            ") or die(db_error());
 }
-$query = mysql_query("SELECT `ID`,`title`,`category`,`timestamp` FROM `" . PREFIX . "news_content` ORDER BY `ID` DESC ") or ($mysql_error = mysql_error());
+$query = db_query("SELECT `ID`,`title`,`category`,`timestamp` FROM `" . PREFIX . "news_content` ORDER BY `ID` DESC ") or ($mysql_error = db_error());
 $tbl->addRow();
 $tbl->addCell('id', null, 'header', array('width' => '5%'));
 $tbl->addCell($language['lw.title'], null, 'header', array('width' => '40%'));
@@ -117,7 +129,7 @@ $tbl->addCell($language['lw.category'], null, 'header', array('width' => '15%'))
 $tbl->addCell($language['lw.date'], null, 'header', array('width' => '15%'));
 $tbl->addCell($language['lw.options'], null, 'header', array('width' => '50px'));
 $i = 0;
-while ($r = mysql_fetch_array($query)) {
+foreach (db_fetch($query, "assoc") as $r) {
     $i++;
     $tbl->addRow();
     $tbl->addCell($r['ID']);
@@ -125,13 +137,25 @@ while ($r = mysql_fetch_array($query)) {
     $tbl->addCell($r['category']);
     $tbl->addCell("<center>" . date("d-m-Y", $r['timestamp']) . "</center>");
     $operations = '<ul id="icons">';
-    $operations.= $this->operation_buttons($r['ID'], $i, $sector_edit, $sector, ' ui-icon-pencil', " {$language['lw.edit']} ");
+    $operations.= $cpanel->operation_buttons($r['ID'], $i, $sector_edit, $sector_edit, ' ui-icon-pencil', " {$language['lw.edit']} ");
+    $operations.= $cpanel->operation_buttons($r['ID'], $i, "$sector", "erase-news", 'trash', " {$language['lw.erase']} ", array(
+        "OK" => true,
+        'title' => " {$language['main.cp.question.alt']} {$language['lw.erase']}:",
+        'body' => "{$language['main.cp.question.erase']}: <br/><b> {$r['title']}</b>"
+            )
+    );
+    ;
     $operations.= '</ul>';
     $tbl->addCell($operations);
     $operations = null;
 }
 if ($i > 0) {
-    $BODY = $tbl->display();
+    $error = null;
+    if (!empty($mysql_error)) {
+        $error = '<p align="center">' . $cpanel->mysql_error_box($mysql_error, $sector) . "</p>";
+    }
+
+    $BODY = $error . $tbl->display();
 } else {
     $BODY = "<p align='center'><b>{$language['ns.empt']}</b></p>";
 }
@@ -139,19 +163,18 @@ if ($i > 0) {
 $textarea = theme::textarea('body', null, null, 25, null, '80%', '340px');
 $cat_opt = news_category();
 $operations = '<ul id="icons">';
-$data_upl = array("OK" => false, "title" => $language['lw.upload'], "body" => $this->upload_operation(MODULE_DIR), "w" => "550");
+$data_upl = array("OK" => false, "title" => $language['lw.upload'], "body" => $this->upload_operation(MODULE_DIR), "w" => "660");
 $operations.= $this->operation_buttons("option", // sub name
-$sector_insert, // name
-null, //
-$language['lw.upload'], // operation option name
-"arrowthickstop-1-n", // option icon
-$language['lw.upload'], // title
-$data_upl
+        $sector_insert, // name
+        null, //
+        $language['lw.upload'], // operation option name
+        "arrowthickstop-1-n", // option icon
+        $language['lw.upload'], // title
+        $data_upl
 // content data array
 );
 $operations.= '</ul>';
-
-    $image = $r['image'];
+$image = $r['image'];
 
 $SUBBODY[$sector_insert] = <<<eol
 
@@ -188,7 +211,7 @@ $(document).ready(function(){
 <div style="display:block;">
     <div style="width:35%; display:inline-block;" >
         <label for="{$sector}-title"><small> {$language['main.cp.news']} {$language['lw.title']}:</small><br />
-            <input type="text" name="title"  value="{$r['title']}" id="{$sector}-title" />
+            <input type="text" name="title"  value="" id="{$sector}-title" />
         </label>
     </div>
 
@@ -245,32 +268,38 @@ $(document).ready(function(){
 
 eol;
 ///// EDIT NEWS
-if ($_POST[$sector_edit]) {;
-    $sql = mysql_query("SELECT * FROM  `" . PREFIX . "news_content` WHERE
+$r = null;
+$text = "{$language['lw.the']} {$language['main.cp.news']} {$language['lw.not']} {$language['lw.selected']}.";
+if ($_POST[$sector_edit]) {
 
-            `" . PREFIX . "news_content`.`ID`='{$_POST[$sector_edit]}'  ") or die(mysql_error());
-    $r = mysql_fetch_array($sql);
+    $sql = db_query("SELECT * FROM  `" . PREFIX . "news_content` WHERE
+
+            `ID`='{$_POST[$sector_edit]}'  ") or ($mysql_error = $cpanel->mysql_error_box(db_error(), $sector));
+    $r = db_fetch($sql, "assoc", "current");
+    if (is_null($r)) {
+        $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_edit);
+    }
 } else {
-    $text = "{$language['lw.the']} {$language['main.cp.news']} {$language['lw.not']} {$language['lw.selected']}.";
+
     $edit_info = $this->mysql_alert_box(ucfirst($text), $sector_edit);
 }
-$mysql_error = mysql_error();
+
 $textarea = theme::textarea('body', $r['body'], null, 25, null, '80%', '340px');
 $cat_opt = news_category($r['category']);
 $operations = '<ul id="icons">';
-$data_upl = array("OK" => false, "title" => $language['lw.upload'], "body" => $this->upload_operation(MODULE_DIR), "w" => "550");
+$data_upl = array("OK" => false, "title" => $language['lw.upload'], "body" => $this->upload_operation(MODULE_DIR), "w" => "660");
 $operations.= $this->operation_buttons("option", // sub name
-$sector_edit, // name
-null, //
-$language['lw.upload'], // operation option name
-"arrowthickstop-1-n", // option icon
-"{$language['lw.upload']} {$language['lw.image']}", // title
-$data_upl
+        $sector_edit, // name
+        null, //
+        $language['lw.upload'], // operation option name
+        "arrowthickstop-1-n", // option icon
+        "{$language['lw.upload']} {$language['lw.image']}", // title
+        $data_upl
 // content data array
 );
 $operations.= '</ul>';
 
-    $image = $r['image'];
+$image = $r['image'];
 
 $SUBBODY[$sector_edit] = <<<eol
 

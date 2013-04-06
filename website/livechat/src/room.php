@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 86 $
+ * Last committed:     $Revision: 123 $
  * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2012-10-30 14:12:58 +0200 (вторник, 30 Октомври 2012) $
- * ID:       $Id: room.php 86 2012-10-30 12:12:58Z fire $
+ * Last changed date:    $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+ * ID:       $Id: room.php 123 2013-03-09 12:54:46Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -35,28 +35,31 @@ if ($_GET['id'] && is_numeric($_GET['id'])) {
     $mysql = new mysql_ai();
     if ($mysql->Select("chat_chanels", array("ID" => $_GET['id']))) {
         $row = $mysql->aArrayedResults[0];
-        $title.= "{$title}";
+        //$title.= " &rarr; {$row['title']}";
         $content = null;
+        $smyle = livechat_emotions_show();
         $content.= <<<eol
   <p align="center">
 <a href="view">{$language['lchat.channels']}</a> {$language['lchat.ch.spr']} {$row['title']}
 </p>
-<form id="chat_content_form" action="process?m={$_GET['id']}" method="post"> 
+<form id="chat_content_form" action="process?m={$_GET['id']}" method="post">
     <div class="lc-messages">
     <div id="live_message"> </div>
     </div>
-   
+
     <small>{$language['lchat.ch.message']}</small>: <br />
     <div class="chat_form">
-    <textarea name="chat_message" rows="1" id="chat_message"></textarea> 
-    <input type="submit" value="&#8629;"  id="chat_button" /> 
+    <textarea name="chat_message" rows="1" id="chat_message" style="height:14px;font-size:14px;"></textarea>
+    <div id="chat_emotions">{$smyle}</div>
+    <input type="submit" value="&#8629;"  id="chat_button" />
     </div>
-</form>  
-  
+    <div id="sub_emotions"></div>
+</form>
+
 eol;
-        
+
     } else {
-        $content = " asd";
+        $content = " Empty Channel";
     }
 } else {
     $content = $language['lchat.ch.errurl'];

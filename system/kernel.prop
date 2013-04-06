@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 122 $
+; Last committed:     	$Revision: 127 $
 ; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-03-03 15:14:56 +0200 (íåä, 03 ìàðò 2013) $
-; ID:            		$Id: kernel.prop 122 2013-03-03 13:14:56Z fire $
+; Last changed date:    $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+; ID:            		$Id: kernel.prop 127 2013-03-27 07:19:53Z fire $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -101,6 +101,7 @@ dp.boot="[BOOT].dp"
 dp.db="db.php"
 dp.config="config.php"
 dp.etc="boot.prop"
+dp.etc.static="static.prop"
 ;
 ;
 ;
@@ -407,7 +408,7 @@ inerex                  =0;
 ;
 ; Funtion load prop will create global string for loadet configuration.
 ;
-kernel.loadprop.global_string    =1
+kernel.loadprop.global_string=1
 ;
 ;
 ;

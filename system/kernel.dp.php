@@ -1,2 +1,3693 @@
-<?php ${"GL\x4f\x42A\x4c\x53"}["\x76\x67\x64\x6ew\x66ec\x72"]="\x63\x6f\x6e\x74\x65\x6e\x74";${"G\x4cO\x42AL\x53"}["\x6d\x6awwk\x77\x65\x66b\x70\x7a\x6d"]="\x69\x76";global$CONFIGURATION,$SQL_WEBSITE,$USER_SESS,$THEME,$ERRORS;${"G\x4c\x4f\x42\x41\x4cS"}["\x62\x6a\x70\x75\x66q\x6e\x6f"]="fi\x6c\x65_ro\x6f\x74";${"\x47\x4cO\x42AL\x53"}["g\x6dfe\x70lf\x6el"]="\x66i\x6c\x74e\x72S\x52\x43\x48";${"GL\x4fB\x41\x4c\x53"}["\x71\x63\x76\x76\x66\x65\x6d\x71c\x7a\x77q"]="\x61\x72ra\x79\x46i\x6cter\x53\x72\x63h";${"\x47\x4c\x4fB\x41\x4c\x53"}["ms\x61l\x6aw"]="\x64\x65\x73t\x69\x6eat\x69\x6fn";${"GL\x4fBA\x4cS"}["\x7a\x6e\x64\x70p\x78\x69"]="u\x6eame\x5fke\x79";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["pw\x6f\x6c\x73\x65\x6bi"]="\x63\x6fns\x74\x61\x6e\x74\x73_\x66il\x65";${"\x47L\x4f\x42ALS"}["r\x66\x6f\x65\x67\x65"]="\x6d\x6fr\x65I\x6e\x66\x6f";${"GLO\x42\x41\x4c\x53"}["\x65\x69\x78\x75oe\x69\x62l\x6c\x74"]="\x62\x75f";${"\x47\x4c\x4f\x42\x41L\x53"}["\x61w\x6c\x6a\x66vyb\x62\x67r"]="\x67\x6cue\x5f\x6e\x61me";${"\x47\x4c\x4fB\x41\x4c\x53"}["o\x65\x64\x77\x6ck\x6a"]="f\x6fl\x64\x65\x72";${"G\x4cO\x42\x41\x4cS"}["\x79\x6fok\x6e\x71\x64\x75\x67\x64\x6em"]="\x61U\x73\x61\x67\x65";${"\x47L\x4fB\x41LS"}["\x6a\x69\x67\x71dr"]="\x69n\x63";${"G\x4c\x4f\x42\x41L\x53"}["\x6c\x62\x72\x66f\x79\x63\x66el\x6c"]="\x70a\x74\x74\x65\x72ns";${"\x47LO\x42\x41\x4cS"}["\x77r\x71\x73l\x64\x74\x78\x62\x76n\x71"]="\x67\x6co\x62\x61\x6c_\x73\x74\x72i\x6e\x67";${"\x47\x4c\x4fB\x41\x4cS"}["\x61\x63\x6fi\x75\x6fu\x73w\x6c\x64"]="\x73\x76\x61l\x75\x65";${"G\x4cO\x42\x41L\x53"}["\x62\x66\x71d\x6e\x6dv\x73n\x64\x74\x6c"]="\x63o\x6c\x75m\x6e\x73";${"\x47LOB\x41L\x53"}["e\x6b\x6a\x6c\x6d\x71\x79\x6d\x70\x73y"]="\x70a\x74\x68tr\x65\x65";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69\x69\x6d\x6b\x65e\x62\x64x\x76"]="\x72\x65\x73\x75r\x73\x65";${"GL\x4fB\x41LS"}["\x70\x61zu\x74g"]="\x6ee\x77Ar\x72";${"G\x4c\x4fB\x41L\x53"}["n\x6fu\x63fv"]="\x6f\x6e\x6c\x79\x4do\x64\x75\x6c\x65\x44\x69\x72";${"\x47L\x4f\x42\x41\x4c\x53"}["\x71\x63p\x6arm"]="den\x63";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x63fpk\x64\x76\x78"]="\x75\x72\x69t\x72e\x65";${"\x47\x4c\x4f\x42\x41L\x53"}["l\x63\x65\x67\x75\x71\x73t\x66\x68"]="\x61\x74\x74a\x63h";${"\x47\x4c\x4fB\x41\x4c\x53"}["i\x65\x69\x71\x63\x6e\x70\x66i"]="a\x72\x67v\x5fp\x61\x72am\x65\x74er";${"\x47L\x4f\x42A\x4c\x53"}["\x67\x6a\x63\x65\x73\x77\x67\x64"]="\x72\x65\x6d\x61i\x6e\x73";${"\x47L\x4f\x42\x41\x4c\x53"}["\x70q\x6d\x79\x76\x6d\x63l"]="\x4b\x45\x52N\x45\x4c_\x50\x52\x4f\x50\x5fMAI\x4e";${"\x47L\x4f\x42\x41L\x53"}["\x71\x6c\x77\x65\x69\x71p\x64\x6ac"]="CUR\x52\x45\x4e\x54_P\x41\x47\x45_T\x48\x45\x4d\x45";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x77\x6dc\x6b\x75\x75\x6eg\x69\x73\x78"]="\x72\x65qu\x65\x73\x74\x5ffold\x65\x72\x73";${"\x47\x4c\x4fB\x41L\x53"}["\x65\x70\x77\x70\x6f\x67\x74\x71j\x72\x73\x6d"]="\x63a\x63\x68e";${"G\x4cO\x42A\x4c\x53"}["d\x75\x65w\x6c\x72b"]="\x69";${"G\x4c\x4f\x42\x41\x4c\x53"}["b\x63l\x75s\x79\x6bq\x64\x76\x6b"]="\x70\x61\x74h\x5f\x65x\x74\x65\x72n\x61\x6c";${"\x47\x4cOB\x41L\x53"}["q\x6cq\x62wt"]="t\x64";${"\x47\x4c\x4fBALS"}["\x6e\x78\x6e\x76o\x6a\x76ppo"]="\x73qlt\x61\x62le";${"\x47LO\x42\x41LS"}["e\x75\x78xy\x75\x61\x67\x6a"]="t\x79\x70e";${"GL\x4fBAL\x53"}["\x62\x73o\x72\x66\x76\x65\x64"]="\x66il\x65\x5fp\x61rts";${"\x47\x4cO\x42ALS"}["\x74\x6b\x72u\x75\x6b\x75\x77\x69z\x78\x6c"]="s\x71\x6c_\x75\x73\x65\x72_\x74\x61\x62l\x65\x5f\x72\x6fw_\x75\x70\x61\x73s";${"\x47\x4cO\x42A\x4cS"}["n\x65\x74m\x74m\x6d\x6c\x73\x68\x7ab"]="\x6da\x69\x6e";${"\x47\x4cOB\x41LS"}["d\x75\x66o\x75\x68ecx\x75"]="mo\x72e";${"G\x4c\x4fB\x41L\x53"}["\x73\x71\x6fve\x6fc"]="\x68\x65a\x64er\x73";${"\x47\x4cO\x42AL\x53"}["\x6d\x6c\x64\x71\x71g\x79\x75"]="ext";${"\x47\x4c\x4fB\x41\x4c\x53"}["w\x67b\x75\x6a\x72\x6f\x64j\x77"]="r\x65\x6c\x6f\x61\x64";${"\x47\x4c\x4f\x42\x41L\x53"}["\x6f\x67u\x6c\x70u\x75"]="\x61\x72r\x61\x79";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["n\x63\x79\x61u\x62\x68xnum"]="\x64i\x72";${"G\x4cOB\x41\x4cS"}["\x69\x6c\x78\x64e\x72\x6b\x62\x6f"]="\x74\x69\x6de";${"G\x4c\x4fB\x41\x4cS"}["\x79r\x67\x71b\x69\x7a"]="\x63\x6f\x6e\x66\x69\x67u\x72a\x74\x69o\x6e";${"G\x4c\x4f\x42\x41\x4cS"}["\x79\x6ddw\x67e\x6an"]="u\x6e\x6ci\x6e\x6b";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x64\x62\x79\x64\x6f\x62\x68"]="\x68\x74\x74\x70\x5f\x73\x74\x72\x69n\x67";${"GL\x4f\x42\x41\x4c\x53"}["\x76j\x6f\x6c\x73s\x79\x69\x70"]="t\x72\x75n\x6b";${"\x47\x4cO\x42\x41\x4c\x53"}["f\x6b\x6fbu\x79afu\x71"]="\x48\x61\x73\x68\x49\x44";${"G\x4cO\x42\x41\x4cS"}["\x77\x77\x6ec\x63\x72"]="\x69\x6e\x63\x6c\x75de\x5f\x66i\x6c\x65";${"\x47\x4cO\x42A\x4c\x53"}["\x61\x70\x79\x6dn\x6bodw"]="\x4b\x45\x52\x4e\x45\x4c_\x50\x52\x4f\x50\x5f\x45\x58TEN\x53\x49O\x4e\x53";${"GL\x4f\x42\x41\x4cS"}["\x79\x71\x64\x6em\x76\x6a\x6d\x73\x71\x78"]="b\x61s\x69\x63\x5f\x6b\x65\x79";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x67\x67\x65ifh\x64\x66v"]="\x6dC\x72\x59p\x74\x4be\x79";${"\x47L\x4f\x42\x41L\x53"}["\x73f\x74\x76\x71\x73\x6b"]="s\x71\x6c\x5f\x75\x73e\x72_t\x61\x62\x6c\x65\x5fro\x77_\x75\x69\x64";${"GL\x4fBAL\x53"}["\x78\x77bc\x63\x73\x77\x67\x61"]="\x70\x6fs\x74";${"GL\x4f\x42A\x4c\x53"}["\x62cw\x75t\x6b\x64\x6b\x77\x6f"]="\x63\x61\x73\x65";${"G\x4c\x4f\x42\x41\x4c\x53"}["v\x72\x62\x7a\x79rx"]="\x70\x61\x72\x73U\x72l\x48\x6f\x73\x74";${"G\x4c\x4fB\x41\x4c\x53"}["t\x6ey\x68\x73nh\x63l"]="\x61dd";${"G\x4c\x4fB\x41\x4c\x53"}["\x77\x61uct\x65\x6c\x63"]="s\x74\x61\x74\x75s";${"G\x4c\x4f\x42\x41\x4c\x53"}["uf\x67w\x6f\x78y\x6ai\x6c"]="\x61\x72\x72_\x73\x65\x73\x73";${"GLO\x42\x41\x4cS"}["\x67j\x68\x69v\x6b\x65w\x66"]="e\x72r\x6f\x72";${"\x47\x4cO\x42\x41LS"}["\x76\x71\x6c\x6a\x77y\x78\x71"]="\x6f\x75t\x70\x75\x74";${"GL\x4f\x42\x41L\x53"}["tbv\x6c\x71i\x68\x78"]="\x74\x72\x75\x6ek\x49t";${"G\x4c\x4f\x42AL\x53"}["\x65\x75s\x6f\x6bk\x6e"]="\x6ber\x6e\x65\x6c_\x6d\x65\x6do\x72\x79\x5fget\x5f\x75\x73\x61\x67\x65\x5f\x62\x61\x73\x65";${"G\x4cO\x42A\x4c\x53"}["k\x6f\x6a\x68pf\x72\x62"]="\x69\x6e\x73\x74\x61l\x6c\x61\x74\x69\x6fn\x5f\x69\x64";${"\x47L\x4fBAL\x53"}["\x70g\x6b\x6b\x68\x79\x65\x67"]="r\x65\x70\x6c\x61ces";${"GL\x4f\x42A\x4c\x53"}["\x75\x6ds\x6d\x73\x70\x72\x6e\x6b\x6cf\x67"]="jQuery";${"GL\x4fBA\x4c\x53"}["\x6f\x72\x67c\x74\x70\x73"]="\x66\x69l\x74\x65r";${"\x47\x4cOB\x41\x4cS"}["\x62\x76\x78\x7a\x64mp"]="\x70\x72\x6f\x67ram";${"GL\x4f\x42\x41\x4cS"}["\x64ir\x75\x62nji\x68"]="d\x61\x74a";${"G\x4cO\x42\x41\x4c\x53"}["\x6a\x71\x68\x72yk\x79l"]="d\x62";${"G\x4c\x4fBA\x4c\x53"}["\x70f\x70bm\x78"]="\x6ea\x6de";${"GL\x4f\x42\x41\x4c\x53"}["\x78os\x76im\x63g\x6b\x64c"]="Sr\x63\x68";${"G\x4c\x4f\x42A\x4c\x53"}["\x7a\x74\x67\x77\x62\x78\x6a\x6e\x76"]="\x43O\x4e\x46\x49GU\x52\x41T\x49\x4fN";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x69\x75\x61ph\x6f"]="\x4b\x45\x52\x4e\x45\x4c\x5f\x53AVEM\x4f\x44\x45";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x71\x70\x76\x79\x77\x67\x70\x6bh"]="i\x6e\x73\x75r\x74";${"\x47\x4cOB\x41\x4c\x53"}["r\x79\x68bv\x68\x70"]="\x41\x72\x72\x61\x79";${"\x47LO\x42\x41LS"}["m\x66\x7a\x6fp\x65\x72\x72\x6d\x76"]="\x61";${"GL\x4f\x42\x41\x4c\x53"}["\x65\x79wb\x73\x6b\x6f\x73\x73\x78"]="\x70\x61r\x73\x65\x55\x72\x6c";${"G\x4c\x4fBA\x4cS"}["o\x64\x79opw\x6b\x6b"]="\x70\x6c\x61\x69\x6e\x74\x65\x78t";${"G\x4c\x4f\x42A\x4c\x53"}["\x6b\x6cm\x69\x67qsh"]="mo\x64\x75le_\x72\x65\x71\x75\x65\x73\x74_\x66\x6fl\x64\x65\x72";${"\x47\x4c\x4f\x42\x41\x4cS"}["v\x6e\x72\x65af\x62\x75u\x6a"]="cach\x65D\x69\x72";${"GLO\x42\x41L\x53"}["\x73a\x75\x75\x64\x77"]="\x75\x6e\x69\x63_\x76\x61lue";${"G\x4c\x4fB\x41\x4c\x53"}["\x76\x6az\x79\x67\x71\x73\x6a"]="\x6b\x65\x79\x5fpart\x73";${"\x47L\x4fBA\x4c\x53"}["p\x66yu\x6b\x6e\x77"]="\x73\x74\x72_R\x65Loc\x61\x74\x69\x6f\x6e";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x78es\x63\x66\x70j\x77"]="\x6be\x72\x6e\x65l_\x6d\x65\x6d\x6fr\x79_g\x65\x74_\x75s\x61\x67\x65";${"\x47\x4cOBA\x4cS"}["m\x6aml\x77e\x70"]="\x66il\x65";${"\x47L\x4f\x42ALS"}["lf\x78\x6d\x74\x74\x74a"]="\x72\x6f\x6f\x74";${"\x47L\x4f\x42AL\x53"}["u\x64\x66g\x71d\x79"]="\x4bE\x59";${"GLOBA\x4cS"}["\x77\x78yvj\x6f\x63\x7am\x6cgm"]="\x70r\x69\x76i\x6ce\x67\x65\x5ff\x69\x6ce";${"\x47\x4c\x4f\x42\x41L\x53"}["\x77\x75\x6d\x74x\x72\x63\x6c\x7a\x71w"]="\x6d\x79\x45\x72\x72\x6f\x72";${"\x47\x4c\x4f\x42\x41L\x53"}["\x69\x65\x71\x79\x74\x78\x67hua\x74"]="\x74\x68\x65\x6de\x5ffi\x6c\x65";${"\x47\x4cO\x42\x41\x4c\x53"}["r\x66\x68g\x71\x72"]="\x63o\x6fk\x69\x65\x5f\x75\x69\x64\x69\x6e";${"\x47\x4c\x4f\x42A\x4cS"}["\x68\x75\x63\x63py\x67\x75"]="\x6d\x65\x74\x68\x6f\x64";${"\x47L\x4f\x42\x41LS"}["\x73\x6a\x7a\x77\x75w\x70\x6b\x75\x6c"]="req\x75e\x73t_\x66\x69l\x65\x5f\x61t\x5fe\x6e\x64";${"\x47\x4c\x4fB\x41\x4cS"}["\x6c\x66\x6c\x6ayy\x67td\x66"]="re\x71\x75\x65\x73\x74\x5ffi\x6c\x65\x5fe\x6e\x64";${"G\x4c\x4f\x42\x41\x4cS"}["\x77\x75xq\x69qn"]="s\x65\x73\x73io\x6e\x43\x6f\x6f\x6b\x69\x65E\x78\x70\x69\x72\x65T\x69\x6d\x65";${"\x47LO\x42\x41L\x53"}["\x6e\x62\x65\x69l\x74y\x73"]="\x63pa\x6ee\x6c";${"\x47LO\x42\x41\x4cS"}["fwxh\x67\x6b\x64\x70b\x6b"]="er\x72\x6f\x72\x65n\x64";${"\x47\x4cOB\x41\x4c\x53"}["v\x75\x78\x69\x71\x71\x73\x61dd"]="c\x6fl\x75m\x6e";${"\x47\x4cOBAL\x53"}["c\x74\x77\x67\x75\x67\x6b\x73\x68\x61s\x65"]="co\x6f\x6b\x69e\x5fus\x65\x72\x5f\x6e\x61\x6de";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["d\x61\x76\x7a\x76pf\x71jt\x61"]="\x74\x65m\x70na\x6d";${"\x47\x4c\x4fB\x41L\x53"}["\x78s\x6d\x77\x6e\x6b\x64y\x6e\x75"]="\x69\x6ec\x6c\x6fu\x74";${"\x47L\x4fB\x41\x4c\x53"}["\x77\x6b\x67h\x69\x77"]="\x70\x72\x6fp";${"G\x4cO\x42\x41\x4c\x53"}["\x67r\x74nt\x6b\x69\x77v"]="us\x65\x72\x5f\x6e\x61\x6d\x65";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["rh\x70\x62\x67wo\x78r\x62"]="ha\x73\x68";${"\x47L\x4f\x42ALS"}["\x78q\x71k\x64p\x77\x6d\x6d\x73"]="fol\x64\x65r\x5f\x74\x72ee";${"\x47L\x4f\x42A\x4c\x53"}["\x64\x62c\x67j\x69\x77j"]="eval";${"\x47\x4c\x4fB\x41\x4cS"}["\x6ck\x63\x68\x6fq\x79\x64z\x64"]="\x61\x72\x72\x61\x79Fil\x74e\x72R\x70ls";${"\x47\x4cO\x42\x41\x4cS"}["\x62\x66hf\x71\x6f\x64"]="\x63n\x66\x66";${"GL\x4f\x42\x41\x4cS"}["\x62k\x66\x71rrg\x6b\x76d\x6c"]="\x73\x72c\x68A\x72\x72";${"\x47\x4cOB\x41\x4cS"}["t\x68\x78dd\x66\x62\x76"]="j\x73";${"G\x4cOBA\x4cS"}["\x6c\x7ar\x72\x6e\x65"]="c\x6f\x6e\x73\x74";${"GLOB\x41\x4cS"}["\x71c\x78\x61ymn\x79\x66"]="arr\x5f\x45R\x52\x4fR\x53";${"\x47LO\x42ALS"}["\x62\x7ar\x6cxr\x71\x6e\x6c\x73\x76"]="\x6d\x6f\x64\x75l\x65_\x64\x69r";${"\x47\x4c\x4f\x42ALS"}["\x6a\x65\x6d\x78\x62\x69\x63v"]="\x73c\x72i\x70t";${"GL\x4f\x42\x41LS"}["\x64\x78\x64\x6eh\x63uw\x6e\x72"]="\x6a\x73\x68\x74\x6d\x6c";${"\x47LOB\x41\x4cS"}["\x6fn\x62\x73tcd\x73p"]="\x73ql_\x75s\x65\x72_\x74\x61\x62\x6c\x65\x5f\x72o\x77\x5fu\x70r\x69\x76";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x78\x66\x62g\x76\x68\x6d\x77\x6d\x70\x6b\x6b"]="\x4b\x45\x52NE\x4c";${"\x47\x4c\x4f\x42\x41\x4cS"}["x\x64\x77\x63\x62\x75"]="arr_p";${"\x47LOBALS"}["x\x6fxcx\x7a\x77\x76"]="r\x65p\x6c\x61c\x65";${"G\x4c\x4f\x42AL\x53"}["h\x6e\x77b\x70\x78wr\x6a\x67"]="\x74\x65mp";${"\x47LO\x42\x41LS"}["\x76\x63ip\x70tg\x70"]="\x70\x6f\x73";${"GL\x4f\x42\x41\x4cS"}["\x64\x79\x64j\x79m\x75\x64"]="f\x69r\x73\x74_\x72\x65\x71ue\x73\x74";${"\x47L\x4fBA\x4c\x53"}["\x64j\x79\x71um"]="c\x65l\x6c\x62od\x79";${"GL\x4f\x42\x41\x4c\x53"}["\x62\x67fc\x62\x78\x67\x72x\x64r"]="co\x6e\x74e\x6e\x74s";${"\x47\x4c\x4fB\x41L\x53"}["wj\x69v\x75\x67\x63"]="\x70\x72\x6f\x70_v\x61\x72";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6cl\x6c\x6a\x6d\x63"]="\x68\x6fs\x74\x65\x64\x5fsit\x65";${"\x47\x4c\x4fB\x41\x4cS"}["rr\x72\x72k\x6d\x74i"]="\x73\x65\x73s\x69\x6fn";${"\x47L\x4f\x42\x41\x4cS"}["\x70\x6a\x61\x68\x6b\x71\x77"]="\x76\x61l\x75e";${"G\x4c\x4f\x42A\x4c\x53"}["\x6bu\x6e\x72u\x71\x71\x74"]="\x62";${"\x47L\x4f\x42\x41\x4c\x53"}["r\x68\x6dj\x71v\x6d\x64\x62\x74\x71l"]="\x6dkt\x69\x6d\x65";${"G\x4c\x4f\x42\x41\x4cS"}["\x6c\x63\x6d\x6aj\x79\x65lcg\x6c"]="c";${"\x47\x4c\x4fB\x41\x4c\x53"}["m\x78\x74\x63\x74n\x79d"]="\x70\x72\x6f\x70_\x64a\x74a";${"G\x4c\x4f\x42A\x4c\x53"}["\x73\x6c\x6c\x72ry\x68\x63"]="\x74\x61\x67\x73";${"\x47\x4c\x4fBA\x4c\x53"}["\x77n\x65s\x6f\x66\x6a\x75\x72"]="\x63\x6f\x6f\x6b\x69e\x5f\x75s\x65\x72\x5fi\x64";${"GLO\x42\x41LS"}["\x67b\x74\x6b\x75\x72r\x6e"]="\x4ca\x73t\x43\x68\x61\x6e\x67eT\x69\x6d\x65";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["e\x6d\x73\x67\x6b\x69qw"]="\x61\x72r\x43\x6f\x6e\x74en\x74";${"\x47L\x4f\x42\x41\x4c\x53"}["\x6a\x72\x78\x78\x71i\x67ehe\x72"]="\x6b\x6c\x6f\x67";${"\x47L\x4f\x42ALS"}["\x6axdfn\x61\x67"]="inp\x72op";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x77y\x66\x75\x75h\x74\x61\x77\x65\x71"]="\x72\x65\x71\x75\x65st";${"\x47L\x4f\x42\x41\x4c\x53"}["\x66uri\x7a\x67\x72c\x63zl\x68"]="f\x69\x6c\x65\x6e\x61\x6d\x65";${"\x47\x4c\x4fB\x41L\x53"}["\x62\x75aj\x6axwh\x74\x70"]="p\x61\x74h\x70\x61\x72\x74\x73";${"\x47L\x4fBA\x4c\x53"}["\x62x\x76\x63j\x78\x6aq\x6c\x6a"]="\x70\x72\x69\x76i\x6ceg\x65";${"\x47L\x4fB\x41\x4c\x53"}["\x75\x6e\x6avu\x78\x65\x67"]="\x75n\x6c\x69\x6ek_\x74\x68\x69s";${"\x47LOBA\x4c\x53"}["j\x67p\x74n\x66fs\x6fy\x68"]="\x66\x69\x6c\x65\x70\x72op";${"G\x4cO\x42\x41LS"}["\x6e\x62\x73w\x78dlvs\x68"]="\x62ase\x5f\x74a\x67\x5fa\x72r\x61y\x5f\x66\x69\x6ct\x65\x72\x5f\x67l\x6f\x62\x61l\x5f\x76\x61lue_to_\x64\x6fl\x6c\x6f\x70_\x73\x61\x76e_\x73ear\x63\x68";${"\x47LOBALS"}["\x6a\x62\x76u\x76\x69p"]="\x70o\x73\x74_\x72\x65\x6c\x6f\x61d";${"G\x4c\x4fB\x41\x4cS"}["\x71xh\x72gw\x66\x76"]="s\x73\x73\x6e";${"G\x4cOB\x41LS"}["v\x61\x65\x66\x74fo\x78i"]="iv\x73\x69ze";${"\x47\x4c\x4f\x42AL\x53"}["\x63wi\x79b\x76i"]="\x63q";${"\x47\x4c\x4fB\x41L\x53"}["\x62f\x77\x67\x75\x65r"]="\x73\x71\x6c_\x75\x73e\x72\x5f\x74\x61\x62le_r\x6fw\x5f\x75n\x61\x6d\x65";${"GLOB\x41\x4cS"}["\x61qdg\x76\x76\x67\x77\x65\x77"]="\x69n\x70u\x74";${"G\x4c\x4fB\x41\x4c\x53"}["\x6b\x76\x62\x70\x6fzuiy\x69\x79"]="\x72eal_p\x61t\x68";${"\x47LOB\x41\x4c\x53"}["whw\x74\x72h\x66h"]="g\x65\x46i\x6ce";${"GL\x4f\x42\x41\x4c\x53"}["k\x77t\x66\x6bv\x7a\x64\x6a\x6fo\x6e"]="cell\x73\x74\x74\x65";${"\x47\x4c\x4fBA\x4cS"}["\x62\x67\x75j\x75v\x65\x77"]="f\x64";${"\x47\x4cO\x42A\x4c\x53"}["\x6b\x67g\x71\x75\x6di\x70v\x72"]="un";${"\x47\x4c\x4f\x42A\x4cS"}["\x6f\x6cs\x6bm\x70j\x6e\x71\x72\x66"]="\x76a\x72";${"\x47L\x4fB\x41\x4c\x53"}["\x62\x74\x75\x63ije\x6bv\x6a\x79"]="\x63\x72y\x70\x74t\x65\x78t";${"G\x4c\x4f\x42\x41\x4cS"}["\x74\x76u\x6c\x69\x62\x6c\x6aq\x6av"]="\x74r\x75\x6e\x4b_\x70\x72\x6f\x70";${"G\x4cO\x42\x41\x4c\x53"}["\x6at\x72\x73\x6fodzns\x65"]="S\x51L_\x57\x45\x42\x53\x49\x54\x45";${"G\x4c\x4fB\x41\x4c\x53"}["\x72\x76\x77\x78j\x65\x6d"]="\x75\x73\x65\x72\x5f\x73\x65\x73d";${"G\x4cO\x42A\x4cS"}["z\x63\x72n\x6e\x6e\x71\x70"]="\x76a\x6cu\x65\x73";${"G\x4c\x4fB\x41\x4c\x53"}["\x65s\x75\x70\x6e\x65\x6a\x6e\x78\x71"]="\x48T\x54\x50S";${"G\x4cO\x42\x41\x4c\x53"}["\x77\x70\x6d\x66\x73jc\x65"]="\x66\x6f\x6cd\x65\x72\x6e\x61\x6de";${"G\x4c\x4f\x42\x41\x4c\x53"}["dac\x63ml\x63\x72b\x6a"]="\x66\x69\x72\x65\x31\x5f";${"G\x4c\x4fBAL\x53"}["\x6f\x73q\x63\x69\x6f"]="\x64\x61\x74\x65";${"\x47\x4c\x4f\x42AL\x53"}["\x69\x71\x74b\x75\x6d"]="\x75se\x72\x5f\x64a\x74\x61";${"\x47\x4cO\x42\x41L\x53"}["\x68\x67\x6fj\x75\x61b\x62"]="b\x6fot\x73";${"\x47\x4cOB\x41\x4c\x53"}["\x71\x61\x62\x68\x6a\x68\x67\x72"]="\x71u\x65\x72\x79";${"\x47L\x4f\x42A\x4c\x53"}["\x61\x63ae\x6a\x71\x71\x67\x6e"]="\x73\x72\x63";${"G\x4c\x4f\x42A\x4cS"}["q\x69m\x6ed\x77by"]="\x65\x74\x63\x5ff\x6f\x6c\x64\x65\x72";${"GLO\x42\x41LS"}["\x6edbv\x75t\x6d\x79s\x6dl"]="\x6b\x65\x79";${"GL\x4f\x42A\x4cS"}["\x70\x74\x74\x61\x6a\x79\x64s\x64v\x63"]="\x68\x61\x73\x68e\x721";${"\x47\x4cO\x42\x41\x4c\x53"}["d\x6c\x78\x76\x74g\x62\x74\x75\x6di"]="\x6ci\x6e\x65s";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x78\x6e\x62\x63\x68\x6e\x75\x6e\x6c\x61w\x6a"]="\x73\x6f\x75\x72c\x65";${"\x47\x4c\x4fB\x41LS"}["\x7act\x72s\x71\x65\x66g"]="o\x6c\x64A\x72\x72";${"G\x4c\x4f\x42\x41L\x53"}["\x77m\x73\x69\x76mr\x63f"]="u\x73age";${"GL\x4fB\x41\x4cS"}["\x76\x6bvx\x72c\x74"]="p\x61\x74\x68";${"G\x4c\x4f\x42A\x4c\x53"}["r\x74\x76\x76\x70w\x74\x74\x75c\x68\x70"]="\x6ber\x6e\x65\x6c\x5f\x66i\x6c\x65\x5f\x63ont\x65\x6ets";${"G\x4cO\x42\x41L\x53"}["hd\x6bmly\x6ag"]="\x72\x65\x73\x65\x72\x76\x65\x64";${"\x47\x4c\x4f\x42AL\x53"}["\x79w\x75\x6at\x70\x79"]="\x61\x55s\x61\x67\x65T\x61\x62l\x65";${"GL\x4fB\x41\x4c\x53"}["\x6e\x75\x68\x78b\x77\x63v"]="st\x6f\x72e\x6ea\x6de\x5f\x6c\x6fg";${"GLO\x42\x41L\x53"}["\x72b\x61x\x6f\x6b\x71"]="\x74\x61g";${"\x47\x4c\x4fBAL\x53"}["wm\x75\x78\x6fkza"]="\x74a\x62l\x65_\x6e\x61m\x65";${"\x47\x4c\x4f\x42A\x4cS"}["\x66\x73\x73j\x62\x6act\x63"]="\x73\x74\x72\x69n\x67";${"\x47\x4cO\x42A\x4cS"}["v\x65dj\x66z\x79\x65"]="c\x61tc\x68_\x74able\x5f\x73\x71\x6c";${"\x47\x4c\x4f\x42\x41L\x53"}["zc\x62\x67\x69\x64e\x71\x7a\x68\x6c"]="\x70\x61\x72t\x73";${"\x47\x4c\x4f\x42AL\x53"}["\x64\x75br\x79\x7aq\x66\x65"]="\x45\x78\x70i\x72\x65\x54\x69\x6de";${"\x47\x4c\x4fBA\x4c\x53"}["s\x63\x73\x77\x76\x76\x6d\x75\x69"]="\x70uF\x69\x6c\x65";${"\x47\x4c\x4fBA\x4c\x53"}["\x62\x65y\x78\x72\x64ey"]="\x70ut_va\x72";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x64\x71\x6ch\x79\x73\x68\x66r"]="\x6c\x61\x6eg\x75a\x67\x65";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77j\x6d\x68f\x78"]="\x6d\x65\x6e\x75na\x6d";${"G\x4c\x4fBA\x4cS"}["\x71j\x63tux\x67"]="\x77\x68\x65r\x65";${"G\x4c\x4fB\x41\x4cS"}["\x7a\x72u\x71\x68\x69ov"]="\x67\x6c\x6fb\x61\x6c";${"GL\x4f\x42\x41\x4c\x53"}["\x63\x73\x74y\x6c\x66\x75"]="c\x6c\x61ss\x5f\x6ea\x6d\x65";${"\x47\x4cO\x42\x41LS"}["ls\x73\x70y\x6b"]="\x70\x61r\x61\x6d";${"\x47\x4c\x4fBA\x4c\x53"}["\x63wf\x6d\x72p\x75\x64"]="\x64\x69\x72\x74\x72\x65\x65";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6b\x79m\x72mi\x77\x65\x6fu\x69\x6b"]="c\x65\x6c\x6c\x73\x63\x74\x70";${"G\x4cO\x42A\x4c\x53"}["\x6a\x76\x73\x78t\x67\x6c\x6b\x6f\x6cs"]="\x65\x76a\x6cu\x65";${"G\x4cO\x42AL\x53"}["\x69\x63q\x70\x67\x77\x68\x79\x75"]="Fol\x64er\x46\x69\x6c\x65\x73";${"\x47\x4cO\x42A\x4c\x53"}["s\x6fw\x70l\x76\x6bs\x63"]="n\x65w\x5fk\x65\x79";${"GLO\x42\x41\x4cS"}["e\x64\x66ygn\x72zy\x65n"]="d";${"G\x4c\x4f\x42ALS"}["\x7a\x63\x6b\x77\x6c\x6boi"]="\x65\x74c";${"\x47LO\x42A\x4cS"}["\x72\x77\x68d\x64\x6e\x78\x7a\x77v\x71\x63"]="coo\x6bie\x5f\x75\x73\x65\x72_\x73e\x73";${"\x47LO\x42\x41\x4c\x53"}["\x63\x6et\x72h\x64x"]="\x71";${"GLO\x42\x41\x4cS"}["\x78jo\x75\x66id"]="\x74i\x74le";${"\x47\x4cO\x42\x41LS"}["\x62a\x6f\x61cu\x65\x78"]="\x70a\x72t";${"\x47\x4c\x4f\x42A\x4c\x53"}["\x74\x71\x67n\x79\x75tful"]="a\x76\x61\x6c\x5f\x74y\x70\x65s";${"\x47LO\x42\x41\x4cS"}["\x6d\x68lehuo"]="f\x69\x6c\x65na\x6de\x4b\x65y";${"\x47L\x4fBALS"}["\x65n\x7a\x6a\x6a\x65u\x73"]="in\x69\x74\x41r\x72ay";${"\x47L\x4f\x42ALS"}["o\x6c\x78x\x77\x6e\x77\x7aj\x6b\x77"]="s\x72c\x68r\x65\x70\x6c";${"G\x4c\x4f\x42\x41\x4cS"}["\x77\x63\x77x\x67\x61\x66\x6e\x6b"]="\x62u\x66\x66\x54y\x70\x65";${"\x47\x4c\x4f\x42\x41\x4cS"}["q\x75\x6bgvg\x66\x6fi\x6dc"]="t\x65\x78\x74";${"\x47\x4c\x4f\x42\x41L\x53"}["v\x74vk\x63\x75v\x72\x78\x66\x65"]="\x73\x71\x6c";${"\x47\x4c\x4f\x42AL\x53"}["\x68fb\x79\x62\x67\x70"]="Pa\x67\x65\x57\x61\x73\x55p\x64at\x65\x64";${"\x47\x4c\x4f\x42AL\x53"}["\x66\x7a\x66nnf"]="\x74r\x6e\x6b";${"\x47\x4cO\x42\x41\x4cS"}["\x66\x73\x7a\x79f\x6b\x7awk\x74"]="h\x61\x73h\x65\x72\x32";${"\x47L\x4fB\x41\x4cS"}["\x66\x6f\x75fw\x7av"]="c\x6fn\x73\x74an\x74s_\x66\x6f\x6cde\x72";${"\x47\x4c\x4f\x42\x41\x4cS"}["j\x65\x70\x7a\x66\x65\x76xy\x67q"]="\x74\x68is\x5f\x4b\x45\x52\x4e\x45L";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x79\x6b\x6c\x61\x67\x74fa"]="\x6d\x6f\x64\x75\x6ce\x5fn\x61m\x65";${"\x47\x4cO\x42AL\x53"}["\x70\x62q\x63\x70\x69\x64\x78nu"]="\x6c\x61n\x5ffi\x6c\x65";${"\x47L\x4f\x42\x41\x4c\x53"}["\x6bv\x78i\x6f\x62\x69c\x73w\x69"]="\x62\x61\x73\x65\x5ft\x61\x67\x5f\x61r\x72a\x79\x5f\x66\x69\x6c\x74e\x72_\x67lo\x62\x61l\x5f\x76al\x75\x65_\x74\x6f\x5f\x64o\x6cl\x6f\x70\x5f\x73\x61v\x65\x5f\x72\x65p\x6c\x61\x63e";${"\x47\x4cO\x42\x41LS"}["w\x79\x6ei\x75\x7ak\x69"]="sq\x6c\x5f\x72\x65\x71\x75\x65\x73\x74";${"\x47\x4cOB\x41\x4c\x53"}["\x73\x63t\x6ccw\x68\x71\x77\x6b"]="sq\x6c\x5fp\x61s\x73w\x6fr\x64";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x76\x6b\x70\x61d\x7a"]="ke\x72\x6e\x65l";${"\x47L\x4fB\x41\x4c\x53"}["\x72\x6bxf\x7ai\x72h\x62\x65"]="\x62\x6f\x6f\x74";${"\x47\x4cO\x42\x41LS"}["bh\x78\x66s\x6a\x7a"]="\x4b\x45R\x4e\x45L_PRO\x50\x5f\x44A\x54\x41";${"GLO\x42\x41LS"}["\x6a\x68lab\x61x\x6c\x70tc"]="\x68\x6f\x75\x72";${"GL\x4f\x42\x41L\x53"}["\x78\x6c\x68oo\x73\x67h\x6b"]="G\x45\x54";${"G\x4c\x4fBA\x4c\x53"}["\x6d\x72\x6c\x6aem\x69"]="i\x6ec\x5f\x66il\x65s";${"\x47LOB\x41\x4c\x53"}["\x78\x7ag\x6b\x6e\x7a\x78\x72"]="c\x6f\x6e\x66\x5fk\x65\x79\x73";${"\x47\x4c\x4f\x42A\x4cS"}["\x62\x76\x77v\x63\x7a\x73y"]="c\x5f\x70i\x64";${"\x47L\x4f\x42A\x4cS"}["\x64\x62\x74k\x77i\x68mc"]="\x6d\x61x\x6c\x65n";${"\x47L\x4f\x42\x41\x4cS"}["tr\x76\x63\x70\x75\x66\x6f\x74"]="\x63\x6f\x6e\x73t\x61n\x74\x5fn\x61\x6d\x65";${"G\x4c\x4f\x42\x41L\x53"}["y\x6br\x6b\x6c\x68\x65d\x75ir"]="\x66i\x6ce\x5f\x70\x72o\x70";${"\x47\x4c\x4fB\x41LS"}["\x6a\x71\x6d\x62\x62\x6ar\x6c"]="\x63o\x6ef";${"G\x4c\x4f\x42AL\x53"}["xo\x6di\x70\x63d"]="\x69\x6e\x73\x74\x61l\x6c\x61tio\x6e\x5f\x68\x61s\x68";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77a\x6d\x73\x64\x68\x75\x74\x72c\x66\x64"]="\x66il\x65\x5fso\x75\x72\x63e";${"\x47\x4cO\x42\x41\x4cS"}["\x6a\x79\x75\x77\x6f\x67\x6fs\x76j\x79"]="\x70u\x74";${"GL\x4fB\x41\x4cS"}["\x70\x72\x71gj\x6f\x76"]="\x61\x72\x72\x43\x72\x65\x61\x74\x65SQL\x6e\x61\x6d\x65";${"\x47\x4c\x4f\x42A\x4cS"}["\x64\x6c\x70\x62\x6c\x6cs\x63\x7a\x6b"]="\x64i\x72s";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x76\x66n\x62\x69\x6f\x62\x6e\x66"]="\x72o\x77";${"GLO\x42\x41L\x53"}["r\x66\x76\x67\x76\x67\x6c\x77"]="\x73e\x63\x74_a\x72\x74i\x63\x6c\x65s";${"GLO\x42\x41\x4cS"}["\x6b\x63dlfqe"]="\x66\x69\x6c\x74\x65r\x52\x50\x4c\x53";${"\x47\x4cO\x42\x41\x4c\x53"}["\x63\x65\x74k\x70\x61\x78\x61i"]="col\x75\x6dns\x5f\x76\x61l\x75\x65\x73";${"\x47LO\x42\x41\x4c\x53"}["\x77\x69\x76\x69\x6dp\x70f\x6d\x70\x73"]="\x64\x62_\x63on\x66";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x75\x7a\x71\x67\x6fm"]="\x63\x61t\x63\x68\x5f\x74a\x62\x6c\x65";${"\x47\x4c\x4fBA\x4cS"}["\x63h\x72\x6ecv\x61\x65e\x6c"]="\x68e\x78";${"\x47\x4cO\x42A\x4c\x53"}["\x6fis\x68\x72\x79\x75k"]="\x75\x6e\x69\x63";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6c\x7a\x73x\x74ff"]="\x72\x65\x73e\x72ved\x5f\x72\x65\x71u\x65\x73\x74\x5f\x75\x72\x69";${"\x47\x4c\x4f\x42\x41L\x53"}["m\x79rjw\x6e"]="K\x45R\x4eE\x4c_\x52\x45\x42\x49R\x54\x48";${"\x47\x4c\x4fB\x41\x4cS"}["z\x74\x71\x6ca\x72\x7a"]="\x63\x61\x74c\x68\x5ft\x69m\x65";${"\x47\x4c\x4f\x42AL\x53"}["\x6a\x70j\x73gt\x78em"]="phy\x73i\x63a\x6c";${"\x47LO\x42\x41LS"}["\x70\x69t\x63\x79ep\x72"]="\x63\x6fo\x6bi\x65K\x65\x79";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6a\x77\x70\x69x\x73"]="t\x65m\x70\x6c\x61t\x65";${"G\x4cO\x42\x41\x4c\x53"}["\x6e\x67\x67hee\x67q"]="\x61\x72\x72P\x61r\x73e";${"\x47\x4cO\x42A\x4c\x53"}["o\x77n\x6e\x6e\x71lq\x66\x74\x62\x6c"]="\x65\x72\x72";${"\x47\x4c\x4f\x42AL\x53"}["\x69\x6c\x62\x71\x73\x64\x71"]="C\x6bT\x69\x6d\x65";${"\x47L\x4f\x42\x41\x4cS"}["\x6f\x74\x70jfc\x63"]="\x68a\x73h\x5f\x66\x69\x6ce";${"\x47\x4c\x4f\x42A\x4cS"}["j\x67\x7a\x69\x67d"]="\x61\x72\x72\x4b\x65\x79";${"\x47\x4c\x4f\x42A\x4cS"}["e\x73\x6c\x74\x6a\x7a\x71\x6b\x79z\x75"]="\x74a\x62\x6c\x65";${"\x47\x4c\x4fB\x41LS"}["\x62r\x67k\x64\x66\x68\x75"]="\x66\x69le\x5f\x6d\x79";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x78\x72t\x64\x6c\x6f\x64\x6b\x6d"]="\x68\x61nd\x6c\x65";${"\x47\x4cO\x42\x41\x4c\x53"}["\x6fho\x72y\x6f\x67\x67s"]="\x63\x6f\x6f\x6b\x69\x65_use\x73\x73";${"G\x4c\x4f\x42\x41\x4cS"}["\x77\x69\x65\x74\x63\x65\x70\x73\x72\x71p"]="\x64i\x72M\x61\x70";class kernel{const version="\x31\x2e10\x32\x36";PRIVATE$MAIN;PRIVATE static$KERNEL;PRIVATE$BOOT;PUBLIC$EXTENSIONS;var$ERRORS;PUBLIC$SAVEMODE=false;PUBLIC$REBIRTH=false;private static$kernel_file_contents;private static$kernel_file_contents_hash;private$exec_after_conn_sql=array();private static$KERNEL_SAVEMODE;private static$KERNEL_REBIRTH;private static$KERNEL_PROP_DATA;private static$KERNEL_PROP_MAIN;private static$KERNEL_PROP_EXTENSIONS;private static$CONFIGURATION;var$CONF;private static$installation_hash;private static$installation_id;private static$klog;public$db;private static$db_conf;private$external_file=array();public$current_page_theme;private static$dirMap=array();public function __construct(){self::kernel_count_memory(1);$ourrfzdeft="\x43O\x4e\x46\x49\x47\x55RA\x54I\x4f\x4e";self::CONFIGURATION();global$CONFIGURATION;ini_set("da\x74e\x2e\x74\x69\x6d\x65z\x6fn\x65",${$ourrfzdeft}["tim\x65z\x6fne"]);self::session_fix();self::buffering("\x73\x74\x61r\x74");self::kernel_status_mode();self::dollop_session_start();self::exec_etc_boot();if(self::SAVEMODE()===false){self::SetSecurityType();self::id_is_numericl();self::RegisterGlobals();self::ProxyAllow();}self::load_get_contents();self::MobileDevice();self::urlCourse_in_kernel();define("\x51F",self::query_GFV());self::glueCode(__FUNCTION__);}private static function classload($class_name){include self::lib().${${"G\x4cO\x42A\x4c\x53"}["c\x73tyl\x66u"]}."\x2eclass\x2ep\x68\x70";}public function kernel_count_memory($a=null){global$kernel_memory_get_usage,$kernel_memory_get_usage_base;${"G\x4cOB\x41\x4cS"}["\x71g\x66\x75d\x6c\x70\x72ik\x6d"]="\x61";$rpmimlw="a";if(${$rpmimlw}==1){${${"G\x4c\x4fB\x41L\x53"}["\x65\x75so\x6b\x6b\x6e"]}=memory_get_usage();}elseif(${${"G\x4cO\x42A\x4cS"}["q\x67\x66\x75\x64\x6cpr\x69k\x6d"]}==2){${"\x47\x4c\x4f\x42ALS"}["v\x62wv\x64t"]="k\x65rne\x6c\x5f\x6d\x65m\x6f\x72\x79_get_\x75\x73\x61\x67\x65";return(array)${${"\x47L\x4f\x42\x41\x4c\x53"}["v\x62\x77\x76\x64\x74"]};}else{${${"\x47LOB\x41\x4cS"}["\x78e\x73\x63\x66\x70\x6a\x77"]}[${${"\x47\x4c\x4fB\x41L\x53"}["\x6d\x66\x7a\x6fp\x65rrm\x76"]}]=memory_get_usage()-${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x65\x75\x73\x6f\x6b\x6bn"]};}}protected static function Register($virtual,$physical){$rxbepqg="\x76\x69\x72t\x75\x61\x6c";self::${${"G\x4cOB\x41L\x53"}["\x77\x69e\x74\x63e\x70s\x72\x71p"]}[${$rxbepqg}]=${${"\x47\x4c\x4fBA\x4c\x53"}["\x6a\x70\x6a\x73\x67t\x78e\x6d"]};}public static function Attach($file){$knqujnkfdcp="\x64\x69\x72\x4d\x61p";${"G\x4c\x4fB\x41\x4cS"}["\x69h\x62\x74h\x63\x61\x71\x72"]="f\x69\x6c\x65";$fruqtofq="\x66\x69l\x65";${"\x47\x4c\x4fBA\x4c\x53"}["k\x65\x74\x64\x75\x77\x6e\x6c\x77\x68"]="\x70o\x73";$uuchvatbq="\x70\x6f\x73";${${"\x47L\x4fB\x41\x4c\x53"}["\x6b\x65\x74\x64\x75\x77n\x6c\x77\x68"]}=strrpos(${${"G\x4c\x4f\x42AL\x53"}["mjml\x77e\x70"]},".");if(${$uuchvatbq}===false){die("Er\x72\x6f\x72: \x65\x78p\x65c\x74\x65d \x61t \x6ce\x61\x73t\x20\x6fn\x65 \x64o\x74\x2e");}${${"\x47LO\x42AL\x53"}["\x76\x6b\x76\x78\x72\x63\x74"]}=substr(${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69\x68b\x74\x68ca\x71\x72"]},0,${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76\x63i\x70\x70\x74\x67p"]});${$fruqtofq}=substr(${${"G\x4cO\x42\x41L\x53"}["\x6d\x6a\x6dl\x77\x65\x70"]},${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x76ci\x70\x70t\x67\x70"]}+1);$rxxsrxhxzxfw="\x66i\x6c\x65";${"\x47\x4c\x4f\x42A\x4cS"}["\x62yjsq\x6a\x75t\x6ep\x69"]="\x70a\x74h";if(!isset(self::${$knqujnkfdcp}[${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76kv\x78\x72\x63\x74"]}])){die("\x55\x6e\x6bn\x6fwn v\x69r\x74ual di\x72\x65\x63\x74ory:\x20".${${"\x47LOB\x41L\x53"}["vk\x76\x78\x72c\x74"]});}include(self::${${"\x47\x4cOB\x41\x4c\x53"}["\x77\x69\x65\x74c\x65\x70s\x72\x71\x70"]}[${${"\x47\x4c\x4f\x42\x41LS"}["\x62\x79\x6a\x73q\x6a\x75tnpi"]}].DIRECTORY_SEPARATOR.${$rxxsrxhxzxfw}.".php");}public function buffering($case){$dudlvxu="\x4b\x45R\x4e\x45L\x5fP\x52\x4f\x50_M\x41\x49\x4e";$stecxuyac="\x4b\x45\x52N\x45L_P\x52OP\x5fMA\x49\x4e";$gnirbgrecq="\x4bERN\x45L\x5f\x50RO\x50_\x4d\x41I\x4e";if(!self::${$gnirbgrecq}["k\x65\x72n\x65\x6c.\x62u\x66\x66er\x69ng"])return false;$cnvvqaw="\x63\x61\x73\x65";if(!empty(self::${$dudlvxu}["\x6berne\x6c\x2e\x62\x75f\x66\x65r\x69n\x67\x2e\x74yp\x65"])){${${"\x47\x4cO\x42\x41\x4cS"}["\x77\x63\x77x\x67a\x66\x6e\x6b"]}=self::${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x70\x71\x6d\x79\x76m\x63\x6c"]}["k\x65\x72\x6e\x65\x6c\x2e\x62uf\x66\x65r\x69\x6eg\x2etyp\x65"];${${"GLOB\x41\x4c\x53"}["\x64\x62yd\x6fb\x68"]}="\$_SE\x52\x56\x45\x52[\x22\x48\x54\x54\x50\x5fAC\x43\x45PT\x5f\x45\x4e\x43\x4fDI\x4eG\"]";}else{${${"G\x4c\x4f\x42A\x4c\x53"}["w\x63w\x78\x67\x61\x66\x6ek"]}="";}${"GL\x4f\x42A\x4c\x53"}["ttmi\x77\x64\x6f\x68l\x6c"]="\x62\x75f\x66\x54\x79\x70\x65";switch(${$cnvvqaw}){case"\x73\x74\x61r\x74":ini_set("\x7a\x6cib\x2e\x6f\x75tp\x75\x74_\x63\x6fm\x70\x72\x65\x73sio\x6e_\x6c\x65v\x65l",self::${$stecxuyac}["\x6bern\x65l.\x62uf\x66\x65\x72i\x6eg\x2e\x6c\x65v\x65\x6c"]);if(@${${"\x47\x4cOB\x41\x4c\x53"}["\x74\x74mi\x77\x64\x6fh\x6c\x6c"]}){${${"\x47L\x4fB\x41\x4c\x53"}["db\x63g\x6a\x69\x77\x6a"]}="\ni\x66\x20(\x73u\x62\x73\x74r\x5f\x63ou\x6et({$http_string},\x20'gzip\x27)) \x6fb\x5fst\x61\x72\x74(\"{$buffType}\")\x3b\n\nels\x65\x20\x6f\x62\x5f\x73\x74a\x72t()\x3b\n";}else{${"\x47LOBA\x4c\x53"}["y\x77\x69g\x66a\x70x\x75\x69\x77"]="\x65\x76a\x6c";${${"G\x4c\x4f\x42AL\x53"}["\x79\x77i\x67fapx\x75\x69\x77"]}="\x20i\x66 ( !o\x62\x5f\x73tar\x74(\x20!\x44\x45BUG\x4dO\x44E ?\x20'\x6f\x62\x5fgz\x68\x61\x6edler\x27 :\x20\x6eul\x6c\x20) )\x20{\x20ob\x5fst\x61\x72\x74(); }\x20";}return eval(${${"GL\x4fB\x41\x4cS"}["\x64\x62cg\x6a\x69\x77\x6a"]});break;case"e\x6e\x64":return eval("\x6fb_end_\x66\x6c\x75\x73h();");break;}}public function memory_use(){$pcsmcituycu="K\x45\x52\x4eE\x4c_\x50R\x4fP_\x4d\x41\x49\x4e";${"\x47\x4cO\x42\x41\x4c\x53"}["\x79\x68j\x68\x78ys\x6f\x69q"]="KE\x52\x4e\x45\x4c\x5f\x50RO\x50\x5fM\x41\x49N";if(defined("C\x50A\x4e\x45L")&&self::${$pcsmcituycu}["k\x65\x72\x6ee\x6c\x2e\x6dem\x6fry.\x64ia\x67\x72\x61\x6d"]==1 OR self::${${"GLO\x42A\x4c\x53"}["yh\x6ah\x78\x79s\x6fiq"]}["k\x65rne\x6c\x2em\x65\x6d\x6fry.\x64i\x61\x67r\x61m"]==2){if(!isset($_GET[CPANEL])){$zsyenlw="K\x45R\x4e\x45\x4c_PRO\x50\x5f\x4d\x41\x49\x4e";eval("\x20\x73el\x66::i\x6ecl\x75de\x42\x79\x48\x74\x6dl(\x22".self::${$zsyenlw}["\x6be\x72\x6eel\x2e\x6de\x6d\x6f\x72y.\x64iagr\x61\x6d\x2es\x74y\x6c\x65"]."\x22,\"\x63\x73s\");\$GLOB\x41\x4cS[\x22\x54H\x45ME\x22]\x3d st\x72_\x72\x65\x70l\x61\x63\x65(\x22</bod\x79\x3e\",\x64i\x61\x67\x72a\x6d_c\x68\x61\x72\x74_d\x61ta(\x6b\x65\x72ne\x6c::ke\x72ne\x6c_co\x75\x6et\x5f\x6demo\x72\x79(\x32)).\x22\x3c/\x62\x6fdy\x3e\",\$GL\x4fBA\x4c\x53[\x22\x54HE\x4dE\x22]);");}}}public static function autoload_classes(){self::kernel_count_memory(__FUNCTION__);eval("\n\x20\x20\x20\x20\x20    \x20 \x20\x20  \x20f\x75\x6e\x63ti\x6f\x6e\x20_\x5fau\x74\x6f\x6coad(\$\x63\x6ca\x73\x73\x5f\x6ea\x6d\x65) {\n\x20  \x20\x20\x20   \x20\x20 \x20\x20  \x67\x6cob\x61l\x20\$\x4bER\x4eE\x4c\x5fPROP_MA\x49N;\n\x20\x20    \x20 \x20\x20\x20 \x20  \x20\x69\x66(d\x65fine\x64(\$\x4bER\x4eEL\x5f\x50\x52\x4f\x50_M\x41\x49\x4e['k\x65\x72nel\x2edat\x61base\x2econ\x73\x74a\x6e\x74'])){\n\x20 \x20  \x20\x20  \x20\x20\x20\x20\x20\x20 if(c\x6f\x6es\x74an\x74(\$K\x45RNEL\x5f\x50ROP_M\x41\x49\x4e[\x27\x6b\x65r\x6e\x65\x6c\x2e\x64\x61ta\x62\x61\x73\x65.c\x6fn\x73t\x61nt\x27]) \x3d\x3d \$\x63lass\x5f\x6eame)\x20\x72etur\x6e \x66a\x6cs\x65;\n \x20\x20 \x20\x20 \x20 \x20 \x20    }\n\x20 \x20   \x20\x20  \x20\x20 \x20  \$\x70\x61t\x68\x20=\x20\x73t\x72\x5f\x72e\x70lace(\"\x5f\", DIR\x45\x43TORY_S\x45\x50ARA\x54\x4f\x52, \$\x63las\x73_\x6ea\x6de)\x3b\n \x20\x20  \x20\x20  \x20\x20   \x20\x20r\x65qu\x69re\x5f\x6f\x6ece(\x20\"".ROOT.SRCDR.self::${${"\x47\x4c\x4f\x42\x41LS"}["\x70q\x6d\x79\x76\x6d\x63l"]}["\x64\x6f\x6cl\x6fp.c\x6ca\x73\x73"].DIRECTORY_SEPARATOR."\"\x20\x2e\$\x70a\x74h\x20 .\x20\x22.p\x68p\")\x3b\n\x20\x20\x20\x20\x20 \x20\x20\x20  \x20}");}private static function db_kernel(){if(defined(self::${${"G\x4cO\x42\x41\x4cS"}["\x70\x71\x6d\x79\x76\x6dcl"]}["ke\x72n\x65\x6c.\x64a\x74\x61\x62ase\x2eco\x6e\x73t\x61\x6e\x74"])){${"\x47L\x4f\x42AL\x53"}["\x61n\x73\x6d\x71\x73\x6b"]="\x64\x62\x5f\x63\x6f\x6e\x66";${"G\x4cOBALS"}["\x6a\x70\x78z\x77\x61\x71\x74\x75\x76\x68b"]="u\x73\x61g\x65";${"GL\x4f\x42\x41\x4c\x53"}["\x72h\x63el\x76"]="\x4b\x45R\x4eE\x4c\x5f\x50\x52O\x50\x5f\x4d\x41I\x4e";${${"\x47L\x4f\x42\x41\x4c\x53"}["jp\x78\x7a\x77\x61\x71\x74\x75\x76\x68\x62"]}=constant(self::${${"GL\x4fB\x41L\x53"}["p\x71m\x79\x76\x6d\x63\x6c"]}["\x6b\x65r\x6ee\x6c\x2edat\x61\x62\x61se\x2e\x63on\x73t\x61\x6et"]);self::${${"\x47LO\x42\x41\x4c\x53"}["\x61\x6e\x73m\x71\x73k"]}=self::etc(self::${${"GLOBAL\x53"}["\x72\x68\x63e\x6c\x76"]}["k\x65\x72\x6e\x65\x6c.d\x61tab\x61\x73\x65\x2e\x66ol\x64\x65\x72"],${${"\x47\x4c\x4fB\x41\x4c\x53"}["wmsi\x76\x6d\x72\x63f"]});if(!defined("\x4b\x45RNEL_\x44A\x54\x41\x42ASE\x5f\x43O\x4eF\x5f\x49\x4eIT")){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6ei\x70\x6d\x61ti\x6e\x68\x6a"]="\x64b_\x63o\x6e\x66";$jeledkcj="\x63on\x66\x5f\x6bey\x73";${"G\x4c\x4f\x42\x41\x4c\x53"}["x\x77\x69\x75\x79\x77\x66\x67\x77"]="\x64\x62_\x63\x6f\x6e\x66";$tnipauyrvmn="c\x6f\x6e\x66\x5f\x76\x61\x6c\x73";include self::lib().self::${${"G\x4cOBA\x4cS"}["p\x71\x6dy\x76mc\x6c"]}["k\x65r\x6ee\x6c\x2e\x64at\x61b\x61\x73\x65\x2e\x66\x6f\x6cde\x72"].self::${${"\x47LO\x42A\x4c\x53"}["\x6e\x69p\x6d\x61\x74\x69\x6e\x68\x6a"]}["k\x65\x72ne\x6c\x2e\x64\x61\x74a\x62\x61se\x2e\x63\x6c\x61s\x73"];${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x78\x7a\x67k\x6e\x7a\x78r"]}=array("\x73\x71l\x48\x4fST","\x44\x41TA\x42\x41\x53E","s\x71l\x55S\x45R","s\x71l\x50\x41\x53\x53");${$tnipauyrvmn}=array(constant("s\x71\x6cHOST"),constant("DA\x54\x41BASE"),constant("\x73ql\x55\x53ER"),constant("s\x71lP\x41S\x53"));$lvfuggmomhv="c\x6fnf\x5fv\x61\x6cs";eval(str_replace(${$jeledkcj},${$lvfuggmomhv},self::${${"\x47\x4cOBA\x4c\x53"}["\x77\x69v\x69\x6d\x70\x70\x66\x6d\x70\x73"]}["\x6b\x65rnel.dat\x61\x62\x61\x73\x65.\x63on\x66g"]));if(!empty(self::${${"G\x4c\x4f\x42\x41L\x53"}["\x78\x77\x69\x75y\x77fg\x77"]}["k\x65rn\x65l.\x64\x61\x74a\x62a\x73e\x2e\x73u\x70pl"])){${"\x47L\x4f\x42\x41\x4cS"}["\x77l\x65\x6eew"]="\x4b\x45\x52\x4e\x45\x4c_\x50R\x4f\x50\x5f\x4d\x41\x49N";include self::lib().self::${${"G\x4c\x4f\x42\x41L\x53"}["\x77l\x65\x6ee\x77"]}["\x6be\x72ne\x6c.d\x61ta\x62as\x65\x2ef\x6f\x6cder"].self::${${"G\x4c\x4f\x42A\x4c\x53"}["wiv\x69mp\x70\x66m\x70\x73"]}["\x6b\x65rn\x65l.dat\x61b\x61s\x65.\x73\x75ppl"];}}}}public function db($sMethod,$aUsage){${"\x47\x4cO\x42A\x4cS"}["\x77i\x70s\x69\x6f\x6b\x76\x75q"]="db_\x63\x6fn\x66";$usilyuvm="\x73\x4d\x65t\x68od";global$kernel;${"\x47L\x4f\x42\x41\x4cS"}["\x65\x68\x66\x69\x79\x6d\x6f\x67\x6a"]="\x61Us\x61\x67\x65";${${"\x47\x4cOB\x41LS"}["y\x77uj\x74\x70y"]}=str_replace(constant("P\x52\x45F\x49X"),"",${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x65\x68fi\x79\x6d\x6f\x67\x6a"]}[0]);${${"G\x4c\x4fBA\x4c\x53"}["\x79oo\x6b\x6eqdu\x67\x64\x6em"]}[0]=constant("PRE\x46IX").${${"\x47L\x4fB\x41\x4c\x53"}["y\x77uj\x74\x70y"]};$kernel->db=call_user_func_array(self::${${"\x47L\x4fB\x41\x4c\x53"}["\x77\x69\x70\x73\x69o\x6b\x76uq"]}["k\x65\x72\x6ee\x6c\x2e\x64\x61t\x61\x62\x61s\x65\x2eusa\x67e"].${$usilyuvm},${${"\x47L\x4fBA\x4c\x53"}["yoo\x6bnq\x64ug\x64n\x6d"]});}private function dir(){return dirname(__FILE__);}public function etc($folder,$resurse,$case=null,$initArray=null,$boot=0){$tlkcfwoh="\x4b\x45\x52\x4e\x45\x4c\x5f\x50\x52OP\x5f\x4d\x41I\x4e";${"\x47\x4c\x4fBA\x4cS"}["\x6a\x6dkz\x75\x76\x6ba"]="\x4b\x45\x52\x4eE\x4c\x5f\x50\x52\x4f\x50\x5f\x4d\x41\x49\x4e";${"GL\x4fBAL\x53"}["\x79ac\x68\x6fh\x68\x69\x6c\x67"]="\x66\x69\x6c\x65";${"\x47\x4c\x4f\x42A\x4cS"}["wm\x65\x67\x67\x6d\x70\x76\x6f"]="r\x65\x73ur\x73\x65";$frxabksq="\x6b\x65y";$xntikitp="\x66\x69le";$dcybtmvx="\x72\x65s\x65\x72\x76\x65\x64";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x65\x6ce\x63\x6dg\x78"]="\x6b\x65\x79";${"\x47L\x4fB\x41\x4cS"}["\x67ji\x75\x68\x73g\x6e\x71\x6e"]="b\x6fo\x74";$lyvdyeqwtq="\x69n\x69\x74A\x72\x72\x61y";$ffweppuwdk="\x72\x65\x71u\x65s\x74";$fjtulkkzj="\x76\x61\x6c\x75\x65";${${"G\x4cO\x42ALS"}["\x79\x61\x63ho\x68\x68\x69lg"]}=(ROOT.SRCDR.self::${$tlkcfwoh}["\x64\x6fl\x6cop.\x65tc"].DIRECTORY_SEPARATOR.${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6f\x65d\x77l\x6b\x6a"]}.DIRECTORY_SEPARATOR.pathinfo(${${"\x47L\x4f\x42A\x4c\x53"}["\x77m\x65\x67\x67m\x70\x76o"]},PATHINFO_FILENAME)."\x2epr\x6fp");$hnggjlxoy="\x72e\x73\x65\x72\x76\x65d";${"\x47\x4c\x4fBA\x4cS"}["\x6by\x76\x6bb\x67wrdq"]="d\x69\x72";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x71p\x6ash\x6e\x73\x67\x62"]="fi\x6c\x65";$ysqybkr="\x66\x6f\x6c\x64\x65r";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x78\x68\x72\x70\x70\x74\x77\x64"]="\x69\x6e\x69\x74\x41\x72\x72\x61\x79";${"G\x4c\x4f\x42\x41\x4c\x53"}["j\x79z\x70\x76ie"]="\x66\x69\x6c\x65";${"G\x4c\x4fB\x41\x4c\x53"}["\x6b\x78hc\x6al\x73"]="\x72\x65qu\x65\x73t";if(${${"\x47\x4c\x4f\x42A\x4c\x53"}["b\x63wu\x74\x6b\x64\x6bwo"]}==null){$jmestoa="\x63\x61\x73e";${$jmestoa}="\x63h\x65\x63\x6b";}${"\x47L\x4fB\x41\x4c\x53"}["\x6d\x77\x6d\x68\x70\x6d\x64\x6f"]="\x63\x61se";switch(${${"GLO\x42\x41\x4c\x53"}["\x6d\x77\x6d\x68\x70\x6dd\x6f"]}){case"\x63\x68e\x63\x6b":${$hnggjlxoy}=self::loadprop(${${"\x47LO\x42A\x4c\x53"}["\x71pj\x73\x68\x6e\x73\x67b"]},1);return${$dcybtmvx};break;case"\x61\x64\x64":${${"\x47L\x4f\x42A\x4c\x53"}["o\x73q\x63io"]}=date("d")."-".date("m")."-".date("\x59");foreach(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x78\x68\x72\x70\x70\x74\x77\x64"]} as${$frxabksq}=>${${"G\x4c\x4fB\x41\x4cS"}["p\x6aa\x68\x6bq\x77"]}){${"\x47\x4c\x4fB\x41\x4c\x53"}["\x69\x6d\x77\x74\x76c\x7a\x67m\x6en\x69"]="\x72eq\x75\x65\x73\x74";${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69\x6d\x77t\x76\x63\x7a\x67\x6d\x6e\x6e\x69"]}.="\n\x3b#\x61dd\x65d o\x6e\x20d\x61\x74\x65:{$date}\n{$folder}.{$resurse}.{$key}={$value}\n";}file_put_contents(${$xntikitp},${${"G\x4c\x4fB\x41\x4cS"}["\x6b\x78h\x63\x6a\x6cs"]},FILE_APPEND);break;case"\x69\x6e\x73\x74al\x6c":${${"\x47\x4cO\x42\x41LS"}["\x6b\x79\x76\x6b\x62g\x77r\x64\x71"]}=ROOT.SRCDR.self::${${"G\x4c\x4fB\x41\x4c\x53"}["\x70q\x6dy\x76\x6dcl"]}["\x64\x6fl\x6cop.\x65\x74c"].DIRECTORY_SEPARATOR.${$ysqybkr};if(!is_dir(${${"\x47\x4c\x4f\x42\x41L\x53"}["n\x63\x79au\x62h\x78n\x75m"]})){${"\x47\x4c\x4f\x42\x41L\x53"}["\x76\x78j\x6fil\x76"]="\x64\x69\x72";mkdir(${${"G\x4c\x4f\x42A\x4cS"}["\x76\x78\x6ao\x69\x6cv"]},0700,true);}if((bool)self::${${"G\x4c\x4fB\x41\x4c\x53"}["j\x6d\x6bz\x75\x76\x6b\x61"]}["\x6bern\x65\x6c.ov\x65\x72\x77\x72it\x74e\x6e.e\x74\x63"]===false){${"\x47\x4cO\x42A\x4c\x53"}["cgw\x74o\x72\x6e"]="re\x73\x75r\x73e";if(file_exists(${${"G\x4c\x4f\x42\x41L\x53"}["n\x63\x79\x61\x75\x62\x68\x78\x6e\x75\x6d"]}.${${"\x47L\x4f\x42A\x4c\x53"}["c\x67\x77\x74\x6f\x72\x6e"]}."\x2e\x70\x72\x6f\x70")){return false;}}${${"G\x4c\x4fB\x41L\x53"}["\x6f\x73\x71\x63\x69\x6f"]}=date("d")."-".date("\x6d")."-".date("\x59");${${"\x47LO\x42A\x4c\x53"}["\x64l\x78\x76t\x67\x62\x74\x75\x6d\x69"]}=count(${${"G\x4c\x4f\x42\x41\x4c\x53"}["e\x6e\x7a\x6a\x6a\x65\x75s"]});${${"\x47L\x4fB\x41\x4c\x53"}["\x77\x79fuu\x68t\x61\x77eq"]}=";#\x23#\x23\x23#\x23\x23##\x23\x23\x23\x23\x23\x23\x23\x23#\x23#\x23##\x23#\x23\x23\x23\x23\x23####\x23#\x23\x23\n\x3b\x20\x22\x65\x74c\x22\x20\x44o\x6cl\x6f\x70\x20gener\x61ted\x20f\x69le\n;\x20\x20 DO NO\x54 \x45D\x49T\x20TH\x49\x53\x20FI\x4cE\x20\x42\x59\x20\x48\x41ND\n;   --\x20Y\x4f\x55\x52 \x43HANG\x45\x53 \x57\x49\x4c\x4c \x42\x45\x20\x4fV\x45\x52WRIT\x54E\x4e\n\x3b \x20 \x20  o\x6e d\x61t\x65:{$date}\n\x3b\x20\x20\x20\x20 \x20\x20\x20\x20 \x20\x77i\x74h l\x69\x6ee\x73:\x20{$lines}\n\x3b\x20 \x66i\x6ce:\x20{$file}\n;\x23\x23#\x23####\x23\x23##\x23#\x23\x23####\x23\x23\x23####\x23\x23\x23\x23#\x23\x23##\x23\x23\x23\n";if(!is_array(${$lyvdyeqwtq})){$xferfb="\x63\x61\x73\x65";self::ERROR("\x3cf\x6f\x6e\x74 color\x3d\"\x23BF\x30000\x22\x3e[\x21]\x20ER\x52OR\x20\x49\x4e\x20\x3cb\x3e\"ker\x6eel::\x65\x74c\"</\x62>\x20\x49NS\x54AL\x4c \x2e\x2e.\x20!\x21\x21 </\x66o\x6et\x3e","ph\x70"," hav\x65 wr\x6fn\x67\x20p\x61\x72am\x65t\x65\x72,\x20\x6du\x73\x74 b\x65\x20a\x72\x72\x61\x79 "."\n\x20\x43a\x73\x65: ".${$xferfb}."\n \x46i\x6ce:".${${"G\x4cO\x42\x41\x4cS"}["\x6d\x6am\x6c\x77ep"]}."\n\x20Li\x6ee:".__LINE__);return false;}if(defined("\x4d\x4f\x44UL\x45\x5fNAM\x45")){${${"G\x4c\x4f\x42\x41L\x53"}["\x6c\x62\x72\x66\x66\x79\x63fe\x6c\x6c"]}=array("/\\W+/","/\\\x64+/","/_+/","/\\s+/");${"\x47\x4c\x4fB\x41\x4cS"}["j\x6d\x63c\x68f"]="st\x72i\x6e\x67";${"GL\x4f\x42A\x4c\x53"}["\x68h\x71\x75ngo\x68sv\x72"]="p\x61\x74\x74\x65\x72\x6e\x73";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x70gk\x6b\x68ye\x67"]}=array("","","","\x5f");${${"G\x4cOB\x41\x4cS"}["\x6a\x6dc\x63hf"]}=preg_replace(${${"\x47\x4c\x4f\x42AL\x53"}["\x68h\x71\x75ngo\x68\x73\x76r"]},${${"GL\x4f\x42A\x4cS"}["\x70\x67k\x6b\x68\x79\x65\x67"]},strtolower(constant("M\x4f\x44\x55LE_NA\x4dE")))."\x2e";}else{${${"G\x4c\x4f\x42\x41\x4cS"}["fss\x6a\x62j\x63tc"]}=${${"\x47\x4c\x4fB\x41L\x53"}["\x69\x69\x6d\x6be\x65\x62\x64x\x76"]}.".";}foreach(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x65\x6ez\x6a\x6a\x65\x75s"]} as${${"\x47L\x4fB\x41L\x53"}["\x65\x6c\x65\x63m\x67\x78"]}=>${$fjtulkkzj}){${${"\x47\x4c\x4f\x42AL\x53"}["\x77\x79fuu\x68\x74\x61\x77\x65\x71"]}.="\x3b\nm\x64\x2e{$string}{$key}={$value}\n";}file_put_contents(${${"\x47\x4c\x4f\x42AL\x53"}["j\x79\x7a\x70\x76i\x65"]},${$ffweppuwdk},LOCK_EX);if(defined("\x4dO\x44\x55LE\x5f\x4e\x41M\x45")){${"\x47\x4c\x4f\x42A\x4c\x53"}["y\x6a\x77\x69\x6f\x62\x71a\x73"]="\x66ile";${${"G\x4c\x4fB\x41L\x53"}["r\x6b\x78fz\x69\x72h\x62\x65"]}=array(constant("MOD\x55L\x45_N\x41M\x45")=>realpath(${${"\x47\x4c\x4f\x42\x41LS"}["\x79jwi\x6f\x62qa\x73"]}));}else{$xkciokhqjd="b\x6fo\x74";${$xkciokhqjd}=array(${${"\x47L\x4fB\x41\x4c\x53"}["\x6d\x6a\x6d\x6c\x77\x65p"]});}if(${${"\x47LO\x42A\x4c\x53"}["\x67jiu\x68\x73g\x6e\x71\x6e"]}){$hujdwbl="boot";self::make_etc_boot(${$hujdwbl});}break;}}private function make_etc_boot($arrayFiles){${"G\x4c\x4f\x42\x41\x4c\x53"}["\x74\x6a\x75m\x66\x72\x6dm\x79"]="\x4b\x45\x52N\x45\x4c_P\x52O\x50\x5f\x4d\x41I\x4e";$byeobcg="dir";${"\x47L\x4f\x42A\x4c\x53"}["\x71zc\x68\x77\x6f\x71b\x61"]="\x64\x69\x72";${"\x47\x4cOBALS"}["on\x69\x6dh\x67\x73qjd\x6be"]="\x66\x69le";self::glueCode(__FUNCTION__);${${"GL\x4fB\x41L\x53"}["\x6fn\x69\x6d\x68gs\x71\x6a\x64ke"]}=self::${${"G\x4cO\x42\x41\x4c\x53"}["t\x6a\x75m\x66\x72mmy"]}["\x64\x70\x2eetc"];${${"\x47\x4c\x4f\x42A\x4cS"}["\x6ec\x79a\x75\x62\x68\x78nu\x6d"]}=ROOT.SRCDR.self::${${"G\x4c\x4f\x42\x41L\x53"}["\x70q\x6dy\x76mc\x6c"]}["dol\x6co\x70\x2e\x65\x74c"].DIRECTORY_SEPARATOR.".\x62\x6f\x6ft";if(!is_dir(${${"\x47\x4c\x4f\x42\x41LS"}["\x71zc\x68woqba"]})){mkdir(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6e\x63\x79\x61\x75bh\x78\x6e\x75m"]},0700,true);}if(!file_exists(${$byeobcg}.DIRECTORY_SEPARATOR.${${"\x47L\x4f\x42\x41\x4c\x53"}["m\x6a\x6d\x6cw\x65p"]})){$wqwtnpxdgwy="\x61r\x72ay\x46\x69\x6ce\x73";$ceqvdh="\x66i\x6ce";file_put_contents(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6e\x63\x79\x61u\x62\x68\x78\x6eu\x6d"]}.DIRECTORY_SEPARATOR.${$ceqvdh},serialize(${$wqwtnpxdgwy}),LOCK_EX);}else{${"\x47\x4c\x4fBALS"}["no\x76i\x79v\x70v\x76\x76"]="\x66i\x6c\x65";${"\x47\x4cO\x42\x41\x4c\x53"}["c\x6c\x6a\x75\x6f\x76\x69\x74xetq"]="\x61rra\x79\x46il\x65\x73";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["zctrsqef\x67"]}=unserialize(file_get_contents(${${"\x47\x4c\x4f\x42A\x4cS"}["\x6e\x63\x79a\x75\x62\x68x\x6eu\x6d"]}.DIRECTORY_SEPARATOR.${${"\x47\x4c\x4f\x42A\x4c\x53"}["no\x76i\x79\x76\x70\x76\x76v"]}));$ublyuoprk="dir";${${"G\x4c\x4fBALS"}["\x70\x61\x7a\x75\x74\x67"]}=array_merge(${${"G\x4c\x4f\x42\x41L\x53"}["\x7a\x63t\x72\x73\x71ef\x67"]},${${"\x47LOB\x41LS"}["\x63\x6c\x6au\x6f\x76\x69\x74\x78et\x71"]});${"\x47LO\x42\x41\x4cS"}["j\x72q\x62vn\x61\x78"]="f\x69\x6ce";$jljzxsvjnyj="\x6ee\x77Ar\x72";file_put_contents(${$ublyuoprk}.DIRECTORY_SEPARATOR.${${"G\x4c\x4fB\x41\x4c\x53"}["jr\x71\x62v\x6ea\x78"]},serialize(${$jljzxsvjnyj}),LOCK_EX);}}private function exec_etc_boot(){self::kernel_count_memory(__FUNCTION__);${${"\x47L\x4f\x42\x41L\x53"}["\x6d\x6a\x6d\x6c\x77\x65\x70"]}=self::${${"\x47LOB\x41LS"}["\x70\x71\x6d\x79\x76mcl"]}["\x64\x70\x2eet\x63"];$honochd="\x66i\x6c\x65";${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6e\x63\x79\x61ub\x68\x78\x6e\x75m"]}=ROOT.SRCDR.self::${${"\x47L\x4fB\x41L\x53"}["\x70qm\x79vm\x63\x6c"]}["d\x6f\x6c\x6co\x70\x2eetc"].DIRECTORY_SEPARATOR.".\x62\x6fo\x74/";${"G\x4c\x4f\x42\x41\x4cS"}["u\x77b\x6a\x66\x78\x68"]="\x64\x69r";if(file_exists(${${"\x47\x4c\x4fB\x41L\x53"}["u\x77\x62\x6a\x66\x78h"]}.DIRECTORY_SEPARATOR.${$honochd})){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["r\x6b\x75\x64\x69xw\x66\x68"]="\x66\x69\x6c\x65";$gbyjlpkuhqy="\x62\x6f\x6f\x74s";${"\x47\x4cOB\x41\x4c\x53"}["l\x68\x67f\x69p\x61\x6cg\x79"]="\x62\x6fo\x74";$sjeyaipbnicp="\x62o\x6fts";$iltwnllbbdw="d\x69r";${$sjeyaipbnicp}=unserialize(file_get_contents(${$iltwnllbbdw}.DIRECTORY_SEPARATOR.${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72\x6b\x75d\x69\x78\x77\x66\x68"]}));if(!is_array(${$gbyjlpkuhqy})){return false;}foreach(${${"G\x4cO\x42A\x4c\x53"}["h\x67\x6f\x6a\x75abb"]} as${${"GL\x4f\x42\x41LS"}["lh\x67\x66\x69\x70\x61l\x67\x79"]}){$txfwozxomyde="\x66\x69\x6ce";${$txfwozxomyde}=str_replace("{s\x79s\x74\x65\x6d}",ROOT.SRCDR,${${"\x47\x4cO\x42A\x4c\x53"}["\x72\x6b\x78f\x7a\x69\x72\x68b\x65"]});$tglboysxbqx="\x61\x72r\x50\x61\x72s\x65";if(!realpath(${${"\x47\x4cO\x42\x41\x4c\x53"}["mjml\x77\x65\x70"]})){$bnvmmopic="b\x6fo\x74";self::ERROR("\x3c\x66\x6f\x6e\x74 \x63o\x6cor\x3d\"\x23B\x46\x30000\x22\x3e[\x21]\x20ER\x52O\x52 IN <\x62>\x22k\x65\x72n\x65\x6c::e\x78ec_etc\x5fb\x6f\x6f\x74\x22</b\x3e \x42\x4f\x4f\x54\x20\x3c/\x66\x6fnt>","\x70\x68p","Boo\x74e\x64 fil\x65\x20d\x6f \x6eo\x74\x20\x65\x78is\x74\x20"."\n Fi\x6ce: ".${$bnvmmopic}." \x4ci\x6e\x65:".__LINE__);}${${"\x47L\x4f\x42A\x4c\x53"}["\x6e\x67\x67he\x65\x67q"]}=self::loadprop(${${"\x47\x4c\x4f\x42A\x4c\x53"}["m\x6a\x6dl\x77\x65\x70"]},1);if(is_array(${$tglboysxbqx})){$qfvpqeophr="\x6be\x79";foreach(${${"\x47L\x4fB\x41\x4c\x53"}["n\x67gh\x65\x65\x67\x71"]} as${$qfvpqeophr}=>${${"\x47\x4c\x4f\x42A\x4c\x53"}["p\x6a\x61\x68\x6bq\x77"]}){$lntnfjjncybj="\x6b\x65\x79";${"\x47L\x4fB\x41LS"}["\x72\x6b\x77uw\x64"]="\x6b\x65\x79";${${"\x47\x4cO\x42\x41\x4cS"}["n\x64\x62\x76\x75\x74mys\x6dl"]}=strtoupper(str_replace(".","_",${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72\x6b\x77u\x77\x64"]}));if(!defined(${$lntnfjjncybj})){$ufgghqapeub="\x76\x61\x6c\x75\x65";define(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x6e\x64b\x76u\x74mys\x6dl"]},${$ufgghqapeub});}}}}}}protected function loadprop($__FILE__="",$return=false){if(empty($__FILE__)){self::kernel_count_memory(__FUNCTION__);self::${${"\x47\x4c\x4f\x42\x41LS"}["x\x66\x62\x67v\x68\x6dwm\x70\x6bk"]}=parse_ini_file(self::dir().DIRECTORY_SEPARATOR."\x6b\x65rn\x65\x6c\x2e\x70ro\x70",true);${"\x47L\x4f\x42A\x4cS"}["\x6ar\x7a\x6cxu\x70"]="\x4b\x45\x52\x4e\x45L\x5f\x50R\x4f\x50\x5f\x44\x41\x54\x41";${"\x47\x4cOB\x41LS"}["t\x78\x6ew\x63\x73\x73"]="\x4b\x45R\x4eEL\x5fP\x52\x4fP_\x4dA\x49\x4e";self::${${"\x47L\x4fB\x41L\x53"}["j\x72zl\x78\x75\x70"]}=self::${${"\x47\x4cO\x42A\x4cS"}["\x78fb\x67\x76\x68mwm\x70\x6bk"]};$nnsfmie="KE\x52NE\x4c\x5f\x50\x52\x4f\x50_\x44AT\x41";self::${${"G\x4c\x4f\x42\x41\x4cS"}["t\x78\x6ew\x63\x73\x73"]}=self::${${"GLO\x42\x41\x4c\x53"}["\x78f\x62\x67\x76\x68\x6dwm\x70k\x6b"]}["MA\x49\x4e"];${"GL\x4f\x42\x41\x4c\x53"}["\x73\x72q\x65\x6exu\x66\x77\x6a\x6a"]="\x4b\x45R\x4eE\x4c_\x50R\x4f\x50\x5f\x45\x58\x54\x45\x4eSI\x4f\x4e\x53";if(is_object($this)){$ymdynvtgkz="\x74\x68\x69\x73\x5f\x4b\x45\x52\x4e\x45L";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["bhfp\x71i\x66\x68r\x6av"]="\x74\x68i\x73\x5f\x4b\x45R\x4e\x45L";$this->KERNEL=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x68\x66p\x71\x69\x66\x68\x72\x6a\x76"]};$this->MAIN=${$ymdynvtgkz}["MA\x49\x4e"];$this->EXTENSIONS=${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6a\x65\x70zf\x65v\x78\x79\x67\x71"]}["\x45\x58\x54EN\x53I\x4f\x4eS"];}global$KERNEL_PROP_DATA,$KERNEL_PROP_MAIN,$KERNEL_PROP_EXTENSIONS;${${"\x47\x4c\x4f\x42\x41L\x53"}["\x62\x68x\x66\x73j\x7a"]}=self::${${"G\x4c\x4f\x42\x41\x4cS"}["\x78f\x62g\x76\x68m\x77m\x70\x6bk"]};${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x70q\x6d\x79\x76mc\x6c"]}=self::${${"\x47L\x4fBAL\x53"}["\x62h\x78f\x73\x6a\x7a"]}["M\x41\x49\x4e"];${${"\x47LOBAL\x53"}["\x73\x72qe\x6ex\x75f\x77\x6aj"]}=self::${$nnsfmie}["\x45\x58\x54E\x4e\x53IONS"];self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x61p\x79mnko\x64w"]}=self::${${"\x47\x4c\x4f\x42\x41L\x53"}["\x78\x66bg\x76\x68mw\x6d\x70\x6b\x6b"]}["\x45X\x54\x45N\x53IO\x4e\x53"];}else{global$CONFIGURATION;${"GLOBA\x4c\x53"}["\x76\x6e\x6f\x6e\x67\x77k\x6bw"]="f\x69\x6ce\x5fp\x61\x72\x74\x73";$dmqwbpyqo="\x72\x65p\x6c\x61\x63\x65";${${"\x47LO\x42\x41\x4c\x53"}["\x62\x73\x6f\x72fv\x65d"]}=pathinfo($__FILE__);${"\x47LO\x42\x41L\x53"}["okdsxu\x6c\x78\x74\x65"]="\x72\x65t\x75r\x6e";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x62\x6bfq\x72r\x67\x6bv\x64\x6c"]}=array(${${"G\x4c\x4f\x42\x41LS"}["\x76\x6e\x6fng\x77\x6bk\x77"]}["e\x78\x74e\x6e\x73\x69o\x6e"],".\x64\x70","\x2e\x63la\x73s");$jqcobvbei="\x73\x72\x63h\x41r\x72";${${"\x47L\x4f\x42A\x4cS"}["xo\x78c\x78z\x77\x76"]}=array("pro\x70","");${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6d\x6a\x6dl\x77\x65\x70"]}=str_replace(${$jqcobvbei},${$dmqwbpyqo},$__FILE__);if(${${"GLO\x42\x41LS"}["o\x6bdsxu\x6c\x78\x74e"]}){${"\x47L\x4fBA\x4c\x53"}["f\x72\x79\x67\x67\x77ki"]="\x43\x4f\x4e\x46IGU\x52\x41T\x49\x4f\x4e";${${"\x47L\x4f\x42\x41L\x53"}["\x6dxt\x63\x74\x6e\x79\x64"]}=parse_ini_file(${${"GLOBA\x4cS"}["m\x6a\x6d\x6c\x77\x65\x70"]},true);if(is_array(${${"\x47L\x4f\x42\x41LS"}["\x66\x72\x79\x67g\x77k\x69"]})&&(bool)self::${${"\x47LO\x42\x41\x4c\x53"}["\x70q\x6d\x79\x76\x6d\x63\x6c"]}["\x4d\x61st\x65\x72W\x69thS\x6c\x61v\x65P\x72\x6fp"]){${"G\x4cOBALS"}["\x69\x66\x6bq\x74\x68"]="pr\x6fp\x5f\x64\x61\x74\x61";${"\x47\x4cO\x42\x41\x4c\x53"}["\x67\x65\x64\x71\x63\x70\x75\x74"]="\x43ON\x46\x49\x47\x55\x52\x41\x54I\x4f\x4e";${${"G\x4c\x4f\x42A\x4c\x53"}["\x69fk\x71\x74\x68"]}=combine_master_with_slave(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["g\x65dqcp\x75\x74"]},${${"GL\x4fB\x41LS"}["m\x78\x74\x63\x74n\x79\x64"]});}return${${"\x47\x4c\x4fB\x41\x4c\x53"}["mxt\x63\x74ny\x64"]};}else{${"G\x4c\x4f\x42A\x4c\x53"}["o\x67sz\x6ctd"]="\x66\x69le_\x70\x61\x72\x74\x73";$iiqebvd="C\x4fNF\x49\x47\x55\x52AT\x49\x4f\x4e";${"G\x4c\x4f\x42\x41\x4c\x53"}["d\x74\x61\x62\x67\x76q\x65\x6f\x70\x65"]="\x67\x6c\x6fb\x61l\x5fs\x74\x72\x69ng";${"\x47\x4c\x4f\x42\x41L\x53"}["\x79\x6a\x67q\x77\x74\x77\x77\x69"]="\x70rop\x5fda\x74\x61";$luaizwdp="\x4b\x45RN\x45\x4c_P\x52\x4f\x50\x5f\x4dA\x49\x4e";${${"\x47\x4c\x4f\x42AL\x53"}["\x6f\x72\x67\x63tps"]}=array("\x2e","-","\x40","\x3d","{","}","\x23","!","\x7e");${"G\x4c\x4f\x42ALS"}["\x70\x75\x64\x77\x6f\x79\x6a\x72ef\x69"]="\x4bE\x52\x4eEL_\x50\x52\x4f\x50\x5f\x4dA\x49\x4e";${${"GLO\x42AL\x53"}["\x64\x74\x61\x62\x67\x76qeo\x70\x65"]}=str_replace(${${"\x47\x4c\x4fBA\x4cS"}["o\x72\x67c\x74\x70s"]},"\x5f",${${"GL\x4fB\x41\x4c\x53"}["\x6f\x67s\x7a\x6ctd"]}["file\x6eam\x65"]);${${"\x47LOBALS"}["\x6dx\x74\x63tn\x79\x64"]}=parse_ini_file(${${"G\x4c\x4f\x42A\x4c\x53"}["\x6d\x6am\x6cwe\x70"]},true);if(is_array(${$iiqebvd})&&(bool)self::${$luaizwdp}["\x4da\x73\x74e\x72W\x69\x74\x68S\x6c\x61\x76eP\x72\x6fp"]){${"G\x4c\x4f\x42AL\x53"}["\x64t\x74\x7axo\x65t\x78\x68"]="\x70\x72o\x70\x5fda\x74a";${${"\x47\x4cO\x42\x41\x4c\x53"}["\x64ttzx\x6f\x65t\x78\x68"]}=combine_master_with_slave(${${"\x47\x4cO\x42\x41LS"}["\x7at\x67wbx\x6a\x6e\x76"]},${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6dxtc\x74nyd"]});}$this->PROP=${${"\x47L\x4fBAL\x53"}["\x79jg\x71\x77\x74\x77w\x69"]};if(preg_match("/^[\x41-Z\x61-z][a-z\x41-\x5a0-\x39\x5f]/",${${"\x47\x4c\x4f\x42\x41L\x53"}["\x77\x72\x71s\x6cd\x74x\x62v\x6e\x71"]})&&self::${${"\x47LO\x42A\x4c\x53"}["pu\x64\x77o\x79jr\x65\x66\x69"]}["ke\x72n\x65\x6c\x2el\x6f\x61\x64\x70ro\x70\x2eg\x6c\x6fba\x6c_s\x74\x72in\x67"]){${"\x47\x4cO\x42\x41L\x53"}["bjg\x66\x6cj\x76\x79"]="\x67\x6c\x6f\x62al_\x73\x74\x72\x69\x6e\x67";$kmdxmd="\x70\x72\x6fp_da\x74\x61";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77\x72\x71\x73\x6cd\x74\x78\x62\x76\x6e\x71"]}="\x70ro\x70\x5f".${${"G\x4c\x4f\x42A\x4c\x53"}["\x77\x72\x71s\x6cdt\x78b\x76\x6eq"]};$GLOBALS[strtoupper(${${"\x47\x4c\x4f\x42\x41LS"}["bj\x67f\x6cj\x76y"]})]=${$kmdxmd};}}}}protected function lib($file="",$type="",$main=false){self::kernel_count_memory(__FUNCTION__);if(empty(${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x6dj\x6d\x6c\x77\x65\x70"]})){return self::dir().DIRECTORY_SEPARATOR.self::${${"\x47\x4cO\x42\x41L\x53"}["p\x71m\x79\x76\x6d\x63\x6c"]}["d\x6f\x6c\x6co\x70.li\x62"].DIRECTORY_SEPARATOR;}else{$cdivpialdps="\x66\x69\x6ce";$jhmlgeikqdee="\x66\x69\x6c\x65";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6f\x71\x61v\x63\x75\x78a"]="\x74\x79\x70e";if((bool)${${"\x47\x4cO\x42\x41L\x53"}["\x6e\x65\x74\x6d\x74\x6d\x6dl\x73h\x7a\x62"]}){$brtbydxr="f\x69le";$vylalyacmumo="\x66il\x65";${$brtbydxr}=self::dir().DIRECTORY_SEPARATOR.self::${${"\x47L\x4f\x42A\x4c\x53"}["p\x71m\x79\x76\x6dc\x6c"]}["do\x6c\x6c\x6fp.\x6ci\x62"].DIRECTORY_SEPARATOR.${$vylalyacmumo};}switch(${${"\x47L\x4fB\x41L\x53"}["\x6f\x71av\x63\x75x\x61"]}){case"\x72\x65\x71\x75ir\x65":if(file_exists(${$jhmlgeikqdee})){require_once(${${"GL\x4fBA\x4c\x53"}["\x6dj\x6dl\x77ep"]});}else return false;break;case"\x69\x6eclu\x64\x65":@include(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x6d\x6a\x6d\x6c\x77\x65\x70"]});break;case"\x75n\x73\x65ri\x61\x6c\x69z\x65":return unserialize(file_get_contents(${$cdivpialdps}));break;DEFAULT:file_put_contents(${${"\x47\x4c\x4f\x42AL\x53"}["\x6d\x6a\x6dl\x77\x65\x70"]},serialize(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x65\x75x\x78\x79u\x61\x67j"]}),LOCK_EX);break;}}}function usr($name,$type=""){$ufxgvblphttv="\x6eam\x65";self::kernel_count_memory(__FUNCTION__);if(empty(${$ufxgvblphttv})){return self::dir().DIRECTORY_SEPARATOR.self::${${"GLOB\x41LS"}["\x70\x71\x6d\x79\x76\x6d\x63\x6c"]}["d\x6fllo\x70\x2e\x75\x73r"].DIRECTORY_SEPARATOR;}else{$yapfnonvo="\x66\x69\x6c\x65";${"GL\x4f\x42\x41\x4c\x53"}["\x75\x63\x77\x6e\x6c\x6b\x78x\x63f"]="\x6e\x61\x6d\x65";switch(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["e\x75\x78\x78\x79\x75\x61\x67\x6a"]}){case"\x72eq\x75ire":${$yapfnonvo}=self::usr()."\x2e$name.gzp";if(file_exists(${${"\x47L\x4f\x42A\x4c\x53"}["\x6d\x6a\x6dl\x77e\x70"]})){$vroupt="n\x61m\x65";${${"\x47LO\x42\x41L\x53"}["\x68\x6ewb\x70\x78\x77\x72\x6ag"]}=tmpfile();file_put_contents(${${"GL\x4fB\x41\x4c\x53"}["h\x6e\x77\x62\x70\x78w\x72\x6ag"]},rgzp(self::usr(),${$vroupt}));require_once(${${"\x47\x4c\x4fB\x41\x4c\x53"}["h\x6e\x77bpx\x77\x72j\x67"]});}else return false;break;case"uns\x65\x72ia\x6c\x69\x7ae":return unserialize(rgzp(self::usr(),${${"\x47L\x4fB\x41\x4cS"}["\x70fp\x62\x6dx"]}));break;DEFAULT:self::wgzp(self::usr(),${${"G\x4c\x4f\x42\x41\x4cS"}["u\x63\x77n\x6c\x6b\x78x\x63\x66"]},serialize(${${"\x47\x4c\x4f\x42\x41L\x53"}["e\x75\x78\x78\x79\x75\x61\x67\x6a"]}));break;}}}protected function bin($name="",$type=""){self::kernel_count_memory(__FUNCTION__);if(empty(${${"\x47L\x4f\x42\x41LS"}["\x70\x66p\x62\x6dx"]})){return self::dir().DIRECTORY_SEPARATOR.self::${${"\x47\x4c\x4f\x42A\x4cS"}["\x70\x71m\x79vm\x63\x6c"]}["d\x6fllo\x70\x2e\x62i\x6e"].DIRECTORY_SEPARATOR;}else{$vfpsdjlvgl="\x74\x79\x70e";$hyumyrcf="\x66\x69\x6c\x65";${"\x47LOB\x41\x4cS"}["l\x62s\x71\x6c\x75\x66\x69\x66\x64\x6b"]="\x74\x79\x70\x65";switch(${$vfpsdjlvgl}){case"\x72\x65q\x75\x69r\x65":${$hyumyrcf}=self::bin()."\x2e$name.gzp";if(file_exists(${${"GL\x4fB\x41\x4c\x53"}["\x6d\x6am\x6c\x77\x65p"]})){$qqdroqfcn="\x74\x65\x6dp";${"\x47\x4c\x4fBA\x4c\x53"}["\x63n\x66\x77\x70\x75\x6dt\x6d"]="\x6e\x61me";${"\x47LO\x42\x41LS"}["\x68\x65c\x74\x79\x62p\x6b"]="\x74em\x70";${$qqdroqfcn}=tmpfile();file_put_contents(${${"\x47\x4c\x4fBAL\x53"}["hec\x74\x79\x62\x70\x6b"]},rgzp(self::bin(),${${"\x47\x4c\x4f\x42AL\x53"}["\x63\x6e\x66\x77p\x75m\x74\x6d"]}));require_once(${${"GL\x4f\x42\x41L\x53"}["h\x6e\x77\x62p\x78\x77\x72\x6a\x67"]});}else return false;break;case"\x75nse\x72i\x61l\x69\x7ae":return unserialize(rgzp(self::bin(),${${"\x47L\x4f\x42\x41\x4cS"}["pfp\x62\x6d\x78"]}));break;DEFAULT:self::wgzp(self::bin(),${${"\x47LOB\x41\x4cS"}["\x70\x66\x70b\x6dx"]},serialize(${${"G\x4c\x4fB\x41\x4cS"}["\x6c\x62\x73q\x6c\x75f\x69\x66dk"]}));break;}}}public function cache($name,$put=""){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x74\x62\x64\x65\x79\x69\x68\x66\x6b\x6e"]="d\x69\x72";$qlponoj="p\x75\x74";self::kernel_count_memory(__FUNCTION__);${${"\x47L\x4f\x42\x41L\x53"}["\x74\x62d\x65y\x69h\x66k\x6e"]}=ROOT.TRUNK.trunk_temp().DIRECTORY_SEPARATOR;if(empty(${$qlponoj})OR is_numeric(${${"G\x4cOBAL\x53"}["\x6a\x79\x75w\x6f\x67\x6fsv\x6a\x79"]})){$wlgvuduggzw="n\x61\x6de";${"\x47L\x4fB\x41LS"}["\x76p\x77y\x6a\x6co"]="\x70\x75t";${"G\x4c\x4fBAL\x53"}["qv\x73\x70\x6f\x72\x64"]="\x4bER\x4e\x45L\x5f\x50\x52O\x50\x5fMA\x49\x4e";${"\x47\x4c\x4f\x42\x41L\x53"}["q\x62ko\x6eu\x69"]="h\x6f\x75r";if(empty(${${"G\x4c\x4fB\x41\x4c\x53"}["v\x70\x77yj\x6co"]})OR isset(self::${${"G\x4cOB\x41LS"}["q\x76\x73p\x6f\x72\x64"]}["k\x65\x72\x6ee\x6c.c\x61\x63he\x46Time"])){$wfpoxnx="\x4b\x45R\x4e\x45L\x5fPR\x4f\x50_\x4dA\x49\x4e";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x76\x73\x64\x79\x77\x74\x70\x65"]="\x68\x6f\x75\x72";${${"\x47LO\x42ALS"}["\x76\x73dy\x77\x74\x70\x65"]}=self::${$wfpoxnx}["k\x65\x72nel\x2e\x63\x61ch\x65Ti\x6d\x65"];}else{$lhbxcgelcni="\x68\x6fur";${"\x47LOBA\x4c\x53"}["\x64\x65\x68\x6d\x67\x77g\x72\x79"]="\x70\x75\x74";${$lhbxcgelcni}=${${"GLO\x42\x41\x4cS"}["d\x65\x68\x6dgw\x67\x72\x79"]};}$mhwvrlfaqm="\x64\x69\x72";if(!file_exists(${$mhwvrlfaqm}.${${"\x47LOBAL\x53"}["\x70f\x70\x62\x6d\x78"]})OR@filemtime(${${"G\x4c\x4f\x42ALS"}["\x6e\x63y\x61u\x62\x68\x78n\x75m"]}.${$wlgvuduggzw})>(time()+${${"G\x4c\x4f\x42\x41\x4cS"}["\x71\x62\x6b\x6fnui"]}*3600)){return false;}else{$fpybgf="\x64\x69\x72";return file_get_contents(${$fpybgf}.${${"G\x4c\x4f\x42\x41\x4c\x53"}["pfp\x62m\x78"]});}}else{${"\x47\x4cOB\x41\x4c\x53"}["\x76\x6d\x77cq\x6c\x77\x75\x74"]="\x70\x75t";$msetwmyj="na\x6d\x65";file_put_contents(${${"GL\x4f\x42A\x4cS"}["\x6e\x63y\x61\x75\x62\x68\x78\x6e\x75\x6d"]}.${$msetwmyj},${${"\x47\x4c\x4fBA\x4c\x53"}["\x76\x6d\x77\x63\x71\x6c\x77ut"]});}}protected static function trunkit($name,$put="",$FILE=""){$ikywwxadsj="\x4bER\x4e\x45\x4c_SAV\x45\x4d\x4fD\x45";$sgpgjdvj="\x6e\x61\x6d\x65";self::kernel_count_memory(__FUNCTION__);${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x67\x67\x65\x69f\x68d\x66v"]}=crc32_(constant("HEX").${$sgpgjdvj});if(!self::${$ikywwxadsj}){$ljstjnlev="KERNE\x4c\x5fPR\x4f\x50\x5f\x4d\x41\x49\x4e";${"\x47\x4cOB\x41\x4c\x53"}["\x73\x72\x70\x66f\x61\x71zntv\x6f"]="\x6eam\x65";$rsyypbx="filen\x61\x6d\x65K\x65\x79";${${"\x47L\x4f\x42\x41L\x53"}["\x65\x75x\x78\x79\x75\x61\x67j"]}=${${"\x47\x4c\x4f\x42\x41L\x53"}["\x73r\x70\x66\x66\x61\x71\x7a\x6e\x74\x76\x6f"]};$qhyqjyfc="\x43\x4fN\x46\x49\x47\x55\x52A\x54I\x4f\x4e";$fttooxyvx="\x6e\x61m\x65";$qiylgjyjq="\x66\x69\x6c\x65\x6ea\x6de\x4be\x79";if(empty(self::${$ljstjnlev}["\x6be\x72ne\x6c\x2e\x74runkE\x78\x74"])){${"\x47LO\x42\x41\x4cS"}["s\x62\x6f\x6b\x68\x73xqt"]="ex\x74";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x73\x62\x6f\x6b\x68s\x78\x71t"]}=self::${${"GLO\x42\x41\x4cS"}["a\x70\x79\x6d\x6ek\x6fdw"]}["\x45\x58C"];}else{${"\x47LO\x42A\x4c\x53"}["\x76q\x72h\x64\x70\x73\x72cfl"]="KE\x52\x4e\x45\x4c_P\x52O\x50\x5f\x4d\x41\x49N";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["m\x6cd\x71qg\x79\x75"]}=self::${${"\x47\x4cO\x42A\x4c\x53"}["\x76qrh\x64\x70s\x72\x63f\x6c"]}["ke\x72\x6e\x65\x6c\x2e\x74r\x75n\x6b\x45x\x74"];}${$rsyypbx}=md5(${${"GL\x4f\x42AL\x53"}["\x70\x66\x70\x62\x6dx"]}.self::${${"GL\x4f\x42\x41\x4cS"}["z\x74gw\x62\x78\x6an\x76"]}["\x53\x50R"].self::${$qhyqjyfc}["\x4b\x45\x59"]);$ueynhgpc="\x70\x75\x74";${$fttooxyvx}=${$qiylgjyjq}."-{FILE\x5f\x48A\x53\x48\x45}-".self::${${"\x47\x4cO\x42\x41\x4c\x53"}["\x70\x71m\x79v\x6d\x63\x6c"]}["k\x65rne\x6c.\x74r\x75n\x6bE\x78t"];if(defined("\x54\x52\x55N\x4b")){$octeeycxoo="f\x6f\x6c\x64\x65r\x6e\x61\x6d\x65";${${"G\x4c\x4f\x42\x41\x4c\x53"}["bu\x61jjxw\x68\x74\x70"]}=pathinfo(constant("T\x52\x55\x4e\x4b"));${$octeeycxoo}=trunk_temp();${${"\x47L\x4fBA\x4c\x53"}["\x65\x64f\x79g\x6erzyen"]}=str_replace(${${"\x47LOBALS"}["bu\x61j\x6a\x78\x77\x68t\x70"]},"",dirname(__FILE__)).constant("T\x52\x55NK").${${"G\x4c\x4f\x42A\x4cS"}["\x77\x70\x6df\x73\x6ace"]};if(!is_dir(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["e\x64\x66y\x67\x6er\x7ay\x65n"]})){${"GL\x4f\x42A\x4c\x53"}["\x6d\x67su\x79\x7abid"]="d";if(!(bool)readlink(${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6dg\x73\x75y\x7a\x62\x69\x64"]})){$pkwkvku="\x64";mkdir(${$pkwkvku},0700);}}${${"G\x4cO\x42\x41\x4cS"}["\x6ecy\x61\x75b\x68\x78\x6e\x75m"]}=${${"\x47L\x4f\x42\x41\x4cS"}["e\x64\x66y\x67\x6e\x72\x7a\x79\x65\x6e"]}.DIRECTORY_SEPARATOR;}if(empty(${$ueynhgpc})OR is_numeric(${${"\x47\x4cO\x42\x41\x4cS"}["\x6a\x79uw\x6f\x67\x6fs\x76\x6ay"]})){${"G\x4c\x4f\x42AL\x53"}["\x65\x69o\x66\x76bm\x79\x77w"]="\x46old\x65\x72\x46\x69\x6ce\x73";$oixbqeytj="\x66\x69le\x5f\x6d\x79";$uiolyxlopy="\x68a\x73\x68e\x72\x31";$aqyfhpd="na\x6d\x65";${"\x47\x4cO\x42\x41\x4cS"}["x\x75\x75\x6b\x68o\x71\x63\x76\x6cy"]="\x68ash\x65r\x32";$gihhwck="\x66i\x6ce\x5fm\x79";${"\x47\x4cO\x42\x41\x4c\x53"}["qj\x70\x74\x71\x74\x68\x62zg"]="\x73rc\x68\x72\x65p\x6c";$qjakioxcddti="\x73\x65\x61r\x63\x68S\x74r";$emrxjqj="p\x75\x74";$nmeicikk="\x46\x6fl\x64\x65\x72\x46\x69\x6c\x65\x73";$yjomjnpfjcm="\x46o\x6c\x64\x65r\x46\x69\x6ce\x73";${"GLO\x42A\x4c\x53"}["\x78u\x78\x70\x62\x68\x6d\x6ew\x69l\x71"]="\x75n\x6c\x69n\x6b_\x74\x68is";${${"G\x4cO\x42\x41\x4cS"}["\x78\x75\x78\x70\x62h\x6dn\x77i\x6c\x71"]}=false;$lkddeeqt="\x65x\x74";${"G\x4c\x4f\x42AL\x53"}["\x76\x6b\x74uw\x78i\x61"]="\x46\x6fl\x64e\x72\x46i\x6c\x65s";if(empty(${$emrxjqj})){${"\x47\x4c\x4fBAL\x53"}["q\x6b\x78s\x71\x77\x64"]="\x68ou\x72";$biquirwla="K\x45R\x4e\x45\x4c_\x50\x52OP\x5f\x4d\x41\x49N";${${"\x47\x4c\x4f\x42\x41\x4cS"}["q\x6b\x78s\x71\x77d"]}=self::${$biquirwla}["\x6ber\x6e\x65\x6c\x2e\x74\x72\x75\x6e\x6bT\x69me"];}else{${"G\x4c\x4f\x42\x41L\x53"}["e\x61\x72\x62\x63\x67\x6f\x70o\x6f\x70w"]="p\x75\x74";if(${${"G\x4cO\x42\x41\x4c\x53"}["\x65\x61rb\x63\x67\x6fp\x6f\x6f\x70\x77"]}<0){${${"\x47\x4cO\x42AL\x53"}["\x75\x6ej\x76\x75\x78\x65\x67"]}=true;}else{${"\x47\x4c\x4f\x42\x41\x4c\x53"}["yda\x76\x6d\x67n\x6c\x62\x62l"]="pu\x74";${${"\x47LO\x42\x41\x4cS"}["\x6ah\x6c\x61\x62\x61\x78l\x70\x74c"]}=${${"\x47\x4c\x4f\x42\x41L\x53"}["\x79\x64\x61v\x6dg\x6el\x62b\x6c"]};}}${$qjakioxcddti}=str_replace("{\x46ILE_H\x41S\x48E}","*",${${"\x47\x4cO\x42\x41\x4cS"}["\x6ec\x79a\x75b\x68\x78\x6e\x75\x6d"]}.${${"\x47\x4cO\x42A\x4c\x53"}["p\x66p\x62\x6d\x78"]});${$nmeicikk}=glob(${${"\x47\x4cOB\x41\x4cS"}["\x6ec\x79\x61\x75\x62\x68\x78\x6e\x75\x6d"]}.${${"\x47L\x4f\x42A\x4c\x53"}["\x6d\x68\x6c\x65h\x75\x6f"]}."*".${$lkddeeqt});if(is_array(${$yjomjnpfjcm})AND!empty(${${"\x47LO\x42\x41L\x53"}["v\x6b\x74\x75\x77x\x69\x61"]}[0])){$stquegtxba="\x46o\x6cde\x72\x46\x69\x6ce\x73";${$stquegtxba}=${${"\x47L\x4f\x42\x41\x4c\x53"}["i\x63\x71pgw\x68\x79u"]}[0];}else{${"\x47LO\x42A\x4cS"}["m\x79\x77\x67\x70\x6bb"]="\x66\x69l\x65nam\x65K\x65\x79";$jwjxjscr="\x46\x6fl\x64e\x72F\x69\x6c\x65\x73";self::ERROR("<\x62\x3eCAN\x20NOT</\x62> lo\x63at\x65\x20files f\x6f\x72\x20\x74run\x6bit\x20fo\x72:"." <\x62>$type</b>\x20","f\x69\x6ce",${${"\x47LO\x42\x41L\x53"}["\x6d\x79w\x67p\x6b\x62"]});$xbyettjucye="\x46\x6fl\x64\x65\x72\x46\x69l\x65s";${$jwjxjscr}=@${$xbyettjucye}[0];}${${"\x47\x4c\x4fB\x41\x4c\x53"}["o\x6cx\x78\x77n\x77zjk\x77"]}=explode("{FI\x4cE\x5f\x48\x41S\x48E}",${${"GLOB\x41L\x53"}["\x6e\x63\x79\x61ub\x68\x78\x6eu\x6d"]}.${$aqyfhpd});$hcctwdxe="\x4b\x45\x52N\x45\x4c\x5f\x50\x52\x4f\x50\x5f\x4d\x41IN";${${"GL\x4fB\x41\x4c\x53"}["p\x74\x74\x61\x6a\x79d\x73dvc"]}=str_replace(${${"\x47\x4c\x4fB\x41LS"}["\x71jp\x74q\x74hbz\x67"]},"",${${"\x47L\x4f\x42A\x4cS"}["e\x69\x6f\x66vb\x6d\x79ww"]});${${"\x47L\x4f\x42\x41\x4c\x53"}["\x66szyfk\x7a\x77\x6b\x74"]}=@hash_file(self::${$hcctwdxe}["\x6b\x65\x72\x6ee\x6c\x2etr\x75n\x6bH\x61\x73\x68"],${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x69\x63qpg\x77\x68\x79u"]});if(${$uiolyxlopy}==${${"\x47\x4cOB\x41\x4c\x53"}["\x78\x75u\x6b\x68\x6f\x71\x63v\x6c\x79"]}){$xabgnojmyk="\x46\x6f\x6cd\x65\x72Fil\x65\x73";$ryveydgpw="file\x5f\x6d\x79";${$ryveydgpw}=${$xabgnojmyk};}${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x77\x65zx\x74\x76c\x65\x6e\x67"]="\x4b\x45R\x4e\x45L_PR\x4f\x50\x5f\x4d\x41I\x4e";${"\x47LO\x42\x41\x4c\x53"}["\x69\x76dde\x71o\x70\x67"]="h\x6f\x75\x72";if(empty(${$oixbqeytj})){${"\x47L\x4f\x42\x41LS"}["\x6f\x73\x6fqa\x76\x70"]="\x6eam\x65";${"\x47\x4c\x4f\x42A\x4c\x53"}["\x64\x69\x6ci\x65\x74k\x63"]="\x64\x69r";self::ERROR("t\x72\x75nk\x69\x74 \x65\x72r\x6fr: Can\x20\x6eot\x20\x6c\x6f\x61\x64 \x74\x68e \x74r\x75nk","\x66i\x6ce",${${"G\x4cO\x42\x41\x4c\x53"}["\x64\x69l\x69\x65\x74\x6b\x63"]}.${${"\x47\x4c\x4f\x42\x41LS"}["\x6f\x73\x6fq\x61\x76\x70"]});}if(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x75\x6ej\x76u\x78e\x67"]}===true){$cnchgurkvkaf="fi\x6c\x65\x5fm\x79";@unlink(${$cnchgurkvkaf});}if((bool)self::${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6a\x77ez\x78\x74v\x63\x65n\x67"]}["ker\x6eel.em\x70t\x79\x69ng.\x74\x72unk"]==true){${"\x47\x4c\x4fB\x41L\x53"}["vm\x74\x72gj\x79"]="KER\x4e\x45\x4c\x5f\x52E\x42\x49\x52\x54\x48";${"\x47L\x4fBA\x4cS"}["\x75\x6b\x67qnh\x69e"]="\x43O\x4e\x46\x49\x47\x55\x52\x41T\x49\x4fN";if((bool)self::${${"G\x4c\x4f\x42\x41LS"}["v\x6d\x74\x72g\x6ay"]}==true&&(bool)self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["u\x6b\x67q\x6ehi\x65"]}["t\x72\x75\x6ek.\x64is\x61b\x6c\x65.\x63l\x65\x61\x6ei\x6e\x67"]===false){$vyoeijsrd="K\x45R\x4e\x45\x4c_\x50R\x4f\x50\x5fM\x41I\x4e";foreach(glob(constant("\x52O\x4fT").constant("TRUNK")."{$foldername}/*".self::${$vyoeijsrd}["\x6b\x65rne\x6c.t\x72u\x6ekEx\x74"])as${${"\x47\x4c\x4fB\x41\x4cS"}["\x6bg\x67\x71\x75\x6d\x69\x70\x76\x72"]}){@unlink(${${"\x47\x4cO\x42\x41\x4c\x53"}["kg\x67q\x75\x6di\x70\x76r"]});}}}if(!file_exists(${${"G\x4c\x4fB\x41\x4c\x53"}["b\x72\x67\x6b\x64\x66\x68\x75"]})OR@filemtime(${$gihhwck})>(time()+${${"G\x4cOB\x41LS"}["iv\x64\x64\x65qopg"]}*3600)){$irfbbsjtpcaf="\x66\x69l\x65_\x6d\x79";@unlink(${$irfbbsjtpcaf});return false;}else{$owddgloxkjv="\x6fu\x74\x70\x75\x74";$lmhtba="\x74\x79\x70\x65";$pwrhwxlrxr="\x6futp\x75\x74";${"\x47\x4c\x4fB\x41\x4cS"}["j\x6c\x63\x66\x70\x6e\x67\x65"]="c\x61\x73\x65";${$owddgloxkjv}=file_get_contents(${${"\x47\x4c\x4fBA\x4c\x53"}["br\x67\x6bd\x66\x68\x75"]});$mdngrn="KERN\x45L\x5f\x50\x52\x4f\x50_MA\x49\x4e";$blsisyfejsdd="\x63\x61s\x65";${${"GLO\x42\x41L\x53"}["\x76ql\x6aw\x79\x78\x71"]}=self::deCrypt(${$pwrhwxlrxr},${${"G\x4cOB\x41LS"}["\x67ge\x69\x66\x68df\x76"]});$dryduhnqio="o\x75\x74p\x75\x74";${$blsisyfejsdd}=strtolower(substr(${$lmhtba},strrpos(${${"G\x4c\x4fB\x41\x4cS"}["e\x75\x78\x78y\x75a\x67\x6a"]},"\x2e")+1));switch(${${"\x47\x4c\x4f\x42\x41LS"}["\x6a\x6cc\x66\x70nge"]}){case"s\x65ri\x61l\x69\x7a\x65":return unserialize(${$dryduhnqio});break;case"\x65\x76\x61\x6c":if(self::${${"\x47\x4c\x4fB\x41LS"}["\x70\x71m\x79\x76m\x63\x6c"]}["\x6b\x65\x72\x6eel\x2et\x72\x75\x6ek\x364"]){${"G\x4cO\x42A\x4c\x53"}["\x6e\x6chp\x6e\x68\x64\x6ak\x68\x72"]="\x6fut\x70u\x74";${${"\x47\x4c\x4f\x42\x41\x4cS"}["v\x71\x6c\x6a\x77yx\x71"]}=base64_decode(${${"\x47\x4c\x4fB\x41L\x53"}["\x6el\x68\x70n\x68\x64j\x6b\x68\x72"]});}eval(${${"\x47\x4cOB\x41L\x53"}["\x76q\x6c\x6awy\x78\x71"]});break;DEFAULT:if(self::${$mdngrn}["ker\x6ee\x6c\x2et\x72u\x6e\x6b\x36\x34"]){$vkdilvdcrxv="outp\x75\x74";${$vkdilvdcrxv}=base64_decode(${${"\x47L\x4fB\x41\x4cS"}["\x76\x71lj\x77\x79\x78\x71"]});}eval(${${"\x47\x4c\x4fB\x41LS"}["vq\x6cjw\x79\x78\x71"]});break;}return true;}}else{${${"GL\x4f\x42A\x4cS"}["b\x63\x77u\x74\x6b\x64kw\x6f"]}=strtolower(substr(${${"GL\x4fBAL\x53"}["\x65\x75\x78\x78y\x75ag\x6a"]},strrpos(${${"\x47LO\x42\x41\x4c\x53"}["\x65\x75xxy\x75\x61g\x6a"]},"\x2e")+1));switch(${${"GL\x4fBA\x4c\x53"}["\x62\x63w\x75tk\x64k\x77o"]}){case"\x73erial\x69z\x65":${${"\x47\x4c\x4fB\x41L\x53"}["j\x79\x75\x77\x6f\x67\x6fs\x76\x6a\x79"]}=serialize(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x6a\x79\x75\x77\x6fg\x6f\x73v\x6ay"]});break;default:if(self::${${"\x47L\x4f\x42A\x4c\x53"}["\x70\x71m\x79v\x6dcl"]}["\x6b\x65\x72ne\x6c.tru\x6ek\x364"]){$ydlwefn="p\x75\x74";${${"G\x4cO\x42\x41\x4cS"}["jy\x75\x77o\x67o\x73\x76\x6a\x79"]}=base64_encode(${$ydlwefn});}break;}if(!empty(${${"\x47\x4cOBA\x4c\x53"}["g\x67\x65\x69\x66\x68\x64\x66\x76"]})&&!empty(${${"G\x4c\x4f\x42\x41\x4c\x53"}["jyu\x77o\x67\x6f\x73v\x6a\x79"]})){${"\x47\x4c\x4f\x42A\x4c\x53"}["wmzd\x6c\x6b\x71\x72\x63"]="\x6e\x61\x6d\x65";$gtspyrjau="\x4b\x45\x52N\x45\x4c_P\x52OP_MAIN";$oxuhwssr="\x64\x69r";${"\x47L\x4f\x42\x41\x4c\x53"}["\x63\x6bx\x6f\x71\x65\x69\x69\x72"]="\x64i\x72";${"\x47LO\x42\x41\x4cS"}["gwft\x67\x73\x68q"]="\x6e\x65wn\x61\x6d\x65";${"G\x4c\x4f\x42\x41LS"}["qf\x73\x78m\x67\x6f\x6ej"]="\x64\x69\x72";@file_put_contents(${${"\x47\x4c\x4fB\x41LS"}["c\x6b\x78o\x71\x65\x69\x69\x72"]}.${${"\x47\x4c\x4f\x42A\x4c\x53"}["pf\x70b\x6d\x78"]},self::enCrypt(${${"GL\x4f\x42\x41L\x53"}["\x6a\x79u\x77\x6f\x67\x6f\x73\x76j\x79"]},${${"\x47LO\x42\x41\x4cS"}["\x67\x67\x65\x69\x66\x68\x64f\x76"]}));${${"GL\x4f\x42\x41\x4c\x53"}["o\x74\x70\x6a\x66c\x63"]}=@hash_file(self::${$gtspyrjau}["\x6b\x65\x72\x6eel.tr\x75\x6ek\x48\x61\x73\x68"],${$oxuhwssr}.${${"\x47\x4c\x4f\x42\x41LS"}["\x77mz\x64\x6ck\x71\x72\x63"]});${${"\x47\x4c\x4f\x42\x41LS"}["\x67w\x66\x74\x67\x73\x68\x71"]}=str_replace("{F\x49\x4cE\x5fHA\x53H\x45}",${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6ft\x70\x6a\x66c\x63"]},${${"\x47\x4c\x4fB\x41\x4cS"}["\x71\x66\x73x\x6dg\x6fn\x6a"]}.${${"\x47\x4cO\x42A\x4c\x53"}["\x70f\x70b\x6d\x78"]});$rtwmtjfxgb="n\x65\x77n\x61\x6de";@rename(${${"\x47\x4c\x4fBAL\x53"}["\x6e\x63\x79\x61\x75b\x68\x78\x6eum"]}.${${"\x47LOB\x41\x4c\x53"}["\x70fpb\x6dx"]},${$rtwmtjfxgb});return false;}}return false;}}private function hkey($name,$destination=""){$stvtntpiu="KE\x52\x4e\x45\x4c_\x53\x41\x56\x45\x4d\x4f\x44\x45";if(!self::${$stvtntpiu}){$ihnlaxgvr="\x6ea\x6d\x65";${${"\x47\x4cO\x42\x41L\x53"}["\x63\x68r\x6ec\x76\x61e\x65\x6c"]}=md5(${$ihnlaxgvr}."+".self::${${"\x47\x4cO\x42AL\x53"}["pqmy\x76\x6dc\x6c"]}["\x6b\x65\x72nel.\x74\x72\x75\x6e\x6bK\x65\x79"]);if(!empty(${${"G\x4cO\x42\x41\x4cS"}["m\x73\x61l\x6a\x77"]})){${${"\x47LOB\x41\x4c\x53"}["\x6e\x63\x79\x61\x75\x62h\x78n\x75\x6d"]}=constant("H\x4b\x45\x59\x53").md5(${${"\x47\x4c\x4fB\x41L\x53"}["ms\x61\x6c\x6aw"]});}else{$kjdnojlb="\x64\x69r";${$kjdnojlb}=constant("HKEY\x53").${${"\x47L\x4f\x42\x41\x4c\x53"}["\x63\x68\x72\x6e\x63vaee\x6c"]};}$cqyltxrsrgy="dir";${"\x47L\x4fBA\x4c\x53"}["tc\x7afe\x6c\x69\x69tsvx"]="\x64i\x72";if(!is_dir(ROOT.${$cqyltxrsrgy})){${"\x47\x4c\x4fB\x41\x4c\x53"}["\x75b\x67l\x64\x6b\x6fyl\x69\x69"]="\x64i\x72";mkdir(ROOT.${${"G\x4cOB\x41\x4cS"}["\x75\x62\x67l\x64\x6b\x6fy\x6c\x69\x69"]},0700,true);}${${"G\x4cO\x42A\x4c\x53"}["n\x63\x79\x61\x75\x62\x68\x78\x6eu\x6d"]}=${${"G\x4c\x4f\x42\x41\x4c\x53"}["n\x63\x79\x61\x75b\x68\x78\x6eum"]}.DIRECTORY_SEPARATOR;if(defined("\x48E\x58")){${${"\x47\x4c\x4f\x42\x41L\x53"}["\x63h\x72\x6ec\x76\x61\x65el"]}=md5(${${"\x47\x4cOBA\x4c\x53"}["\x63\x68\x72\x6e\x63\x76ae\x65\x6c"]}."-".@constant("H\x45\x58"));}if(!file_exists(${${"\x47L\x4fB\x41L\x53"}["\x74\x63z\x66\x65l\x69i\x74\x73v\x78"]}.${${"\x47\x4c\x4f\x42A\x4cS"}["c\x68\x72\x6ecva\x65\x65l"]})){$yhtcrov="n\x65\x77\x5f\x6b\x65\x79";${"G\x4c\x4f\x42\x41LS"}["\x6d\x61\x79\x70ygu\x73\x63w\x75"]="\x6ee\x77\x5f\x6b\x65\x79";$vlirdfudr="d\x69\x72";${${"\x47\x4c\x4fBALS"}["m\x61yp\x79gus\x63w\x75"]}=md5(time()."-".${${"GL\x4f\x42A\x4cS"}["\x63\x68\x72nc\x76\x61e\x65\x6c"]}."*".rand(111,999));file_put_contents(ROOT.${$vlirdfudr}.${${"\x47\x4c\x4f\x42\x41L\x53"}["\x63hr\x6e\x63\x76a\x65\x65\x6c"]},${$yhtcrov});return${${"\x47LO\x42\x41LS"}["\x73\x6fw\x70\x6c\x76\x6bs\x63"]};}else{${"G\x4c\x4f\x42A\x4c\x53"}["d\x67uvlp\x77\x77i\x72c"]="\x63\x6f\x6ete\x6e\x74";${${"\x47L\x4f\x42AL\x53"}["\x64g\x75\x76l\x70\x77\x77i\x72\x63"]}=@file_get_contents(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6e\x63\x79\x61\x75\x62\x68\x78\x6e\x75\x6d"]}.${${"G\x4c\x4fBA\x4c\x53"}["ch\x72n\x63\x76\x61\x65\x65\x6c"]});if(${${"\x47\x4c\x4fBA\x4cS"}["\x76\x67\x64n\x77\x66\x65cr"]}){return${${"GL\x4fB\x41LS"}["\x76\x67\x64\x6e\x77\x66\x65\x63\x72"]};}else{return false;}}}}private function chdr(){$qbuuqspgs="\x70\x61th";${"G\x4cO\x42\x41L\x53"}["ze\x6ep\x71\x69u\x67\x66\x64\x6a"]="p\x61\x74\x68\x74\x72\x65e";${"G\x4cOB\x41L\x53"}["\x65\x7a\x6dy\x78k\x62"]="\x70\x61\x74h\x74r\x65\x65";${${"\x47LOBAL\x53"}["\x65z\x6d\x79x\x6b\x62"]}=explode(DIRECTORY_SEPARATOR,self::dir());${${"G\x4cO\x42\x41\x4cS"}["\x64\x6cp\x62\x6c\x6cs\x63\x7a\x6b"]}=count(${${"\x47L\x4f\x42AL\x53"}["\x7a\x65\x6epqiu\x67fd\x6a"]});foreach(${${"\x47L\x4fB\x41\x4cS"}["\x65kj\x6c\x6d\x71\x79m\x70\x73\x79"]} as${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x63\x79\x61\x75\x62hxn\x75\x6d"]}){$xpvlicnu="\x69";$xqulclcdgpwv="\x64\x69\x72\x73";${"\x47\x4c\x4f\x42A\x4cS"}["\x6f\x66\x69jo\x65\x62\x74ovz"]="\x69";$psflwuhfbew="d\x69\x72s";${${"\x47L\x4f\x42A\x4c\x53"}["\x6ff\x69\x6a\x6f\x65b\x74\x6f\x76\x7a"]}++;if(${$psflwuhfbew}>${$xpvlicnu} AND!empty(${$xqulclcdgpwv})){};}$enbjjwkt="\x63\x61c\x68\x65Di\x72";if(!defined("C\x41\x43\x48E")){${"\x47\x4cOBA\x4c\x53"}["\x6f\x6e\x6bc\x66\x69p\x6b"]="c\x61c\x68e";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6fn\x6b\x63f\x69p\x6b"]}="\x63\x61c\x68\x65";}else{${${"G\x4c\x4f\x42\x41L\x53"}["\x65\x70w\x70o\x67\x74q\x6a\x72sm"]}=constant("C\x41C\x48\x45");}${${"\x47\x4cO\x42\x41L\x53"}["\x76\x6er\x65\x61f\x62\x75u\x6a"]}=${$qbuuqspgs}.${${"\x47\x4cO\x42\x41\x4cS"}["\x65\x70wp\x6fg\x74\x71jr\x73\x6d"]};if(!is_dir(${$enbjjwkt})){mkdir(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76\x6e\x72e\x61fbu\x75\x6a"]},0755,true);}return${${"G\x4c\x4f\x42\x41LS"}["v\x6ere\x61\x66\x62\x75\x75\x6a"]}.DIRECTORY_SEPARATOR;}private function opch($stat=null){$qssmbahlh="\x4b\x45\x52NE\x4c_\x50\x52\x4fP\x5fMA\x49\x4e";${"\x47\x4c\x4f\x42\x41LS"}["l\x6f\x66f\x71\x65f\x73\x63\x68\x75s"]="\x73\x74\x61\x74";if(self::SAVEMODE()===true)return false;if(!(bool)self::${$qssmbahlh}["k\x65\x72\x6e\x65\x6c.o\x70t\x79"])return false;${"\x47\x4c\x4f\x42AL\x53"}["\x6d\x6brn\x72\x73\x74\x62\x7a"]="ss\x73\x6e";${${"G\x4cO\x42\x41\x4c\x53"}["fzf\x6e\x6ef"]}=ROOT.kernel::base_tag("{\x74ru\x6ek}").trunk_temp();${"\x47\x4c\x4fBA\x4cS"}["\x70y\x65\x66r\x75\x78"]="\x74r\x6e\x6b";${${"\x47\x4cOB\x41L\x53"}["\x6d\x6b\x72\x6e\x72\x73\x74b\x7a"]}=ROOT.kernel::base_tag("{se\x73s\x69on}");switch(${${"G\x4cO\x42A\x4cS"}["l\x6ff\x66\x71\x65f\x73\x63\x68u\x73"]}){default:if(is_readable(self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x71\x6d\x79vm\x63\x6c"]}["\x6b\x65\x72\x6eel\x2eopty.\x63\x61c\x68e"])&&is_writable(self::${${"\x47\x4c\x4fB\x41L\x53"}["\x70\x71\x6d\x79v\x6d\x63\x6c"]}["\x6b\x65rnel\x2e\x6f\x70\x74y.\x63\x61ch\x65"])){$ersyusfolhh="\x74\x72n\x6b";if(!(bool)readlink(${$ersyusfolhh})){if(is_dir(${${"\x47\x4c\x4f\x42\x41LS"}["f\x7a\x66\x6en\x66"]})OR is_dir(${${"\x47L\x4f\x42ALS"}["\x71\x78h\x72gw\x66\x76"]})){${"G\x4c\x4f\x42\x41L\x53"}["q\x6d\x6dw\x7a\x64\x6a\x6c"]="tr\x6e\x6b";${"\x47\x4c\x4fB\x41LS"}["\x65\x70j\x66py\x63ow\x72\x7a\x6d"]="\x73\x73sn";${"\x47\x4c\x4fBAL\x53"}["z\x6d\x67\x69\x6dy"]="KE\x52N\x45\x4c\x5fPRO\x50\x5fMA\x49\x4e";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x65\x6dk\x75\x75\x6exr\x62\x70e"]="\x74\x72\x6ek";if(is_dir(${${"\x47L\x4f\x42AL\x53"}["\x71\x6d\x6d\x77\x7a\x64\x6al"]}))@self::rrmdir(${${"\x47\x4c\x4f\x42A\x4cS"}["e\x6dk\x75u\x6ex\x72b\x70\x65"]}.DIRECTORY_SEPARATOR);${"\x47LOB\x41\x4c\x53"}["\x78\x71\x76z\x65gs"]="\x73\x73\x73n";${"G\x4cOBALS"}["\x69\x76\x69\x66q\x62"]="\x4b\x45R\x4e\x45\x4c\x5fPR\x4f\x50_M\x41\x49\x4e";if(is_dir(${${"G\x4c\x4fBAL\x53"}["\x78\x71vz\x65\x67s"]}))@self::rrmdir(${${"\x47\x4c\x4fBA\x4cS"}["\x65\x70\x6af\x70\x79\x63\x6fwrzm"]}.DIRECTORY_SEPARATOR);@mkdir(self::${${"\x47L\x4fB\x41LS"}["\x69\x76if\x71\x62"]}["k\x65\x72n\x65\x6c\x2e\x6f\x70\x74y.c\x61\x63\x68e"].DIRECTORY_SEPARATOR."\x73\x65ss\x69\x6fn");@mkdir(self::${${"G\x4c\x4fBA\x4c\x53"}["\x70qmy\x76\x6dc\x6c"]}["\x6b\x65rn\x65\x6c\x2eop\x74\x79.\x63\x61\x63\x68\x65"].DIRECTORY_SEPARATOR."\x74\x72un\x6b");symlink(self::${${"\x47\x4cO\x42A\x4cS"}["\x7a\x6dgi\x6d\x79"]}["ke\x72nel.op\x74\x79\x2ec\x61\x63\x68e"].DIRECTORY_SEPARATOR."\x74ru\x6e\x6b",${${"\x47\x4c\x4f\x42AL\x53"}["f\x7a\x66nn\x66"]}."");symlink(self::${${"GL\x4f\x42\x41LS"}["\x70\x71\x6dy\x76m\x63\x6c"]}["k\x65r\x6eel.\x6fp\x74\x79.ca\x63\x68e"].DIRECTORY_SEPARATOR."s\x65\x73\x73\x69o\x6e",${${"GL\x4f\x42\x41\x4c\x53"}["\x71xhrg\x77f\x76"]}."");return true;}}}break;case"c\x6cear":if(is_link(${${"\x47\x4cOB\x41\x4cS"}["p\x79\x65fru\x78"]})||is_link(${${"G\x4c\x4fBA\x4c\x53"}["\x71\x78\x68r\x67\x77\x66\x76"]})){${"\x47\x4cO\x42\x41\x4c\x53"}["\x75\x66k\x62\x67h\x67\x6d"]="\x74\x72\x6e\x6b";@unlink(${${"G\x4cO\x42\x41\x4cS"}["\x75\x66\x6bb\x67h\x67m"]});@unlink(${${"\x47\x4c\x4fBALS"}["\x71\x78\x68\x72\x67\x77fv"]});}break;}}private function rrmdir($dir){${"GL\x4f\x42\x41L\x53"}["nv\x70\x61\x62g\x77"]="\x64\x69r";${"\x47\x4c\x4f\x42A\x4cS"}["\x6dl\x71\x7a\x70mv"]="\x64\x69r";foreach(glob(${${"G\x4c\x4f\x42\x41\x4cS"}["n\x76\x70\x61\x62g\x77"]}."/*")as${${"\x47L\x4f\x42\x41\x4c\x53"}["m\x6aml\x77\x65\x70"]}){$yqgjqukpey="\x66\x69l\x65";$nrhszj="fil\x65";if(is_dir(${$yqgjqukpey}))rrmdir(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6dj\x6dl\x77e\x70"]});else unlink(${$nrhszj});}rmdir(${${"\x47\x4c\x4f\x42\x41LS"}["mlqz\x70\x6d\x76"]});}private function rgzp($d,$f){${"\x47LO\x42A\x4c\x53"}["\x6ca\x6e\x77q\x6f\x6f\x74b"]="\x66\x69\x6c\x65";${${"G\x4cO\x42A\x4cS"}["\x6c\x61\x6e\x77q\x6f\x6f\x74\x62"]}=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x65\x64\x66ygn\x72z\x79\x65n"]}.".$f.\x67zp";$lftumntdjki="\x66\x69le";$etdzhfys="f\x64";if(file_exists(${${"\x47LO\x42\x41\x4c\x53"}["m\x6a\x6d\x6c\x77e\x70"]})and${$etdzhfys}=@fopen(${$lftumntdjki},"\x72",true)){$taqiwl="fil\x65";${"GLOB\x41\x4c\x53"}["u\x63\x67s\x72\x64\x6b\x76\x72\x68\x6e"]="\x66\x64";if(${${"\x47L\x4fB\x41\x4cS"}["\x65\x69x\x75o\x65\x69b\x6c\x6ct"]}=fread(${${"GL\x4f\x42\x41L\x53"}["u\x63\x67s\x72d\x6b\x76r\x68\x6e"]},filesize(${$taqiwl}))){$rloknxatna="\x62\x75\x66";return gzuncompress(${$rloknxatna});}else{return false;}}else return false;}private function wgzp($d,$f,$i=9){$gymvindnsiao="f";$oquygjefbh="\x64";${"G\x4cOB\x41LS"}["\x65p\x67jw\x74\x77\x63"]="\x69";if(empty(${${"G\x4c\x4f\x42\x41\x4cS"}["\x65\x64\x66\x79\x67\x6er\x7aye\x6e"]})OR empty(${$gymvindnsiao})OR empty(${${"\x47LOB\x41L\x53"}["\x65\x70g\x6aw\x74w\x63"]}))return false;$sbldphccik="\x66\x69\x6c\x74\x65\x72A\x72\x72\x61\x79";${"G\x4c\x4f\x42\x41\x4c\x53"}["zc\x6agv\x65\x77"]="\x74\x65\x6dp\x6e\x61\x6d";$tvhoqcrljsw="\x66\x69\x6c\x74e\x72\x41\x72r\x61y";$rmtvfnr="\x74e\x6dp\x6ea\x6d";$oestkualnt="\x66\x64";${${"G\x4c\x4f\x42A\x4c\x53"}["da\x76\x7av\x70\x66q\x6a\x74a"]}=tmpfile();${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x62gu\x6a\x75\x76\x65\x77"]}=fopen(${${"\x47\x4c\x4f\x42\x41LS"}["\x7a\x63\x6ag\x76e\x77"]},"\x77");${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x6cs\x73\x70\x79k"]}=array("b\x6co\x63k\x73"=>9,"\x77\x6fr\x6b"=>0);${$tvhoqcrljsw}=array("\n","\t","\r","\0","\x0B");fwrite(${${"G\x4c\x4f\x42A\x4c\x53"}["\x62\x67u\x6a\x75\x76\x65\x77"]},gzcompress(str_replace(${$sbldphccik},"",${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x71\x70v\x79\x77g\x70k\x68"]}),${${"GL\x4fB\x41\x4c\x53"}["\x64\x75e\x77\x6c\x72\x62"]}));fclose(${$oestkualnt});rename(${$rmtvfnr},${${"\x47L\x4f\x42\x41\x4c\x53"}["\x65df\x79\x67\x6e\x72zyen"]}.".$f.\x67\x7ap");chmod(${$oquygjefbh}."\x2e$f.\x67z\x70",0600);}private function id_is_numericl(){if(!empty($_GET["id"])){If(!is_numeric($_GET["\x69\x64"])&&$_GET["\x69\x64"]<=0){@mysql_close();exit("<h\x31\x3eAc\x63ess \x64enie\x64\x20to\x20\x66i\x72e1\x20d\x6fl\x6co\x70:</h\x31\x3e\x20<h2>\x20ERR\x4fR\x20in U\x52L\x20\x61dd\x72\x65ss\x2e\x20\x3c\x62\x72\x3e\n\n\x20   \x20 \x20\x20  \x20\x20      \x20\x20\x20\x20\x20\x20R\x65\x70\x6frt: ".link_report("\x38\x30\x37",${${"G\x4cOB\x41L\x53"}["\x64\x61\x63c\x6d\x6c\x63\x72\x62\x6a"]})." \x3c/h\x32\x3e\x20\x3c\x68r\x3e\x50l\x65a\x73\x65 set s\x70ecif\x79 on\x6c\x79\x20\x74\x68\x65\x20\x61\x64\x64r\x65s\x73 of \x77eb\x73\x69\x74e. \x3c!--\x20\x45\x72r\x6f\x72\x20\x69n\x20\x22\x55R\x4c\" a\x64\x64re\x73s!\x20-->");}}}private function SetSecurityType(){$edcerqnvc="\x4b\x45\x52NE\x4c\x5fPROP\x5f\x4d\x41\x49N";$fisnbd="K\x45\x52\x4eE\x4c_PR\x4fP\x5f\x4d\x41IN";switch(self::${$edcerqnvc}["SetS\x65\x63\x75\x72i\x74yTyp\x65"]){case"\x30":break;case"\x61d\x76an\x63ed":require_once(self::lib()."\x61dv\x2es\x65c\x75ri\x74y.\x63\x6c\x61\x73\x73.php");break;case"an\x6f\x74\x68\x65r":require_once(self::${$fisnbd}["A\x6e\x6f\x74h\x65r\x53e\x63u\x72\x69t\x79"]);break;default:require_once(self::lib()."\x64e\x66\x2es\x65curi\x74y.\x63\x6ca\x73s.php");break;}}private function ProxyAllow(){if(isset($_SERVER["\x48\x54TP\x5f\x58_F\x4fR\x57\x41RDED\x5fF\x4f\x52"])||($_SERVER["\x48\x54\x54\x50\x5f\x55S\x45\x52\x5f\x41GE\x4eT"]=="")||(@$_SERVER["HT\x54P_\x56I\x41"]!="")){$cvpmytnhn="f\x69re\x31\x5f";@mysql_close();exit("\x3c\x681\x3e\x41\x63ce\x73\x73\x20d\x65\x6eie\x64\x20\x74o\x20fi\x72e1 \x64o\x6c\x6co\x70:\x20</h\x31> <h2>\x20\x45RROR \x72\x65p\x6f\x72t:\x20".link_report("\x3809",${$cvpmytnhn})."\x20</\x68\x32\x3e<\x68r\x3e\x20We\x62s\x69te\x20is l\x6f\x63\x6bed\x20for\x20p\x72\x6fxy \x75ser\x73\x2e<\x21-- W\x65\x62si\x74e\x20is l\x6fc\x6b\x65d\x20fo\x72\x20\x70\x72\x6f\x78y\x20-->");}}private function RegisterGlobals(){$jifyfddcu="\x4b\x45\x52\x4e\x45\x4c_\x50R\x4f\x50\x5f\x4d\x41I\x4e";if(self::${$jifyfddcu}["Reg\x69st\x65rG\x6c\x6fb\x61l\x73"]){${"G\x4c\x4f\x42A\x4c\x53"}["\x65t\x79\x68t\x69"]="\x67\x6c\x6f\x62al";while(list(${${"\x47L\x4fB\x41\x4c\x53"}["e\x74\x79\x68ti"]})=each($GLOBALS)){if(!preg_match("/^(_\x50\x4f\x53T|_G\x45T|_COOKI\x45|\x5f\x53E\x52VER|\x5f\x46I\x4cES|G\x4cO\x42\x41\x4cS|HT\x54P.*|\x5fRE\x51\x55\x45\x53\x54|ret\x72ie\x76\x65\x5f\x70\x72\x65\x66\x73|epl\x75g\x5f\x61\x64\x6d\x69\x6e|\x65\x54imi\x6e\x67St\x61\x72\x74)|o\x62\x6cev\x5f\x2e*\$/",${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["zru\x71\x68\x69\x6f\x76"]})){}}if(self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["p\x71\x6dy\x76\x6d\x63l"]}["\x55\x6e\x73\x65\x74\x52e\x67i\x73t\x65r\x47lo\x62als"]){${"GL\x4f\x42\x41\x4c\x53"}["k\x6f\x6b\x65\x70\x79\x63\x6e"]="gl\x6f\x62\x61\x6c";unset(${${"\x47L\x4f\x42AL\x53"}["k\x6fkep\x79cn"]});}}}private function HTTPSecure(){${"G\x4c\x4f\x42A\x4cS"}["\x64t\x6av\x79\x79\x65"]="\x48\x54\x54P\x53";${${"\x47\x4cO\x42\x41L\x53"}["\x64\x74\x6a\x76y\x79e"]}=$_SERVER["HTT\x50S"];$REQUEST_URI=$_SERVER["\x52EQ\x55E\x53T_\x55R\x49"];if(!isset(${${"\x47L\x4fB\x41\x4c\x53"}["\x65\x73\x75\x70\x6ee\x6a\x6e\x78\x71"]})){${"GL\x4f\x42A\x4cS"}["\x6d\x63\x78\x63\x64i"]="\x73t\x72_\x66\x69\x6c\x65\x52\x65\x71u\x65s\x74";$hdpascw="hos\x74ed\x5f\x73\x69\x74\x65";${"G\x4cOB\x41L\x53"}["\x6b\x79\x67\x72i\x74\x62\x61"]="p\x61r\x73e\x55\x72\x6c";$dghyhscq="A\x64\x64r\x65\x73\x73";${"\x47\x4cOB\x41\x4c\x53"}["\x74of\x79\x6a\x73\x69\x6e\x69\x69\x6f"]="\x70\x61\x72\x73\x65\x55\x72\x6c";${${"\x47\x4c\x4f\x42\x41L\x53"}["mc\x78\x63\x64i"]}=$REQUEST_URI;${"GL\x4fBA\x4c\x53"}["\x73\x72\x76\x7a\x7aa\x6b\x61"]="\x70a\x72\x73\x65U\x72l";${${"G\x4c\x4f\x42\x41LS"}["\x6b\x79gr\x69\x74b\x61"]}=parse_url(trim(${$dghyhscq}));${${"\x47\x4c\x4f\x42AL\x53"}["\x6cllj\x6d\x63"]}=trim(${${"\x47\x4c\x4f\x42A\x4cS"}["\x65\x79wbs\x6b\x6f\x73\x73\x78"]}["\x68\x6fs\x74"]?${${"GL\x4f\x42\x41\x4c\x53"}["\x74\x6f\x66y\x6a\x73\x69\x6eii\x6f"]}["h\x6f\x73t"]:array_shift(explode("/",${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x73\x72\x76\x7a\x7a\x61\x6b\x61"]}["pa\x74\x68"],2)));${${"G\x4c\x4f\x42\x41\x4cS"}["\x70\x66\x79\x75kn\x77"]}="h\x74t\x70s://".${$hdpascw}."/";header_location(${${"\x47\x4cO\x42\x41LS"}["pfy\x75k\x6ew"]});}}public function dollop_session_start(){if(!(bool)self::${${"GL\x4f\x42\x41\x4cS"}["\x70\x71\x6d\x79\x76\x6d\x63l"]}["\x6ber\x6e\x65\x6c.se\x73\x73ion\x2esta\x72t"])return false;if(!isset($_SESSION)){${"\x47\x4c\x4fB\x41L\x53"}["\x61\x78\x66\x67\x63r\x65"]="\x4b\x45\x52NE\x4c\x5f\x50R\x4fP_M\x41\x49\x4e";session_start();if(!isset($_SESSION[self::${${"\x47L\x4f\x42\x41\x4cS"}["\x61\x78\x66\x67cr\x65"]}["\x6b\x65\x72ne\x6c.\x73\x65ss\x69\x6f\x6e.st\x72C\x68e\x63\x6bUA"]])||!isset($_SESSION[self::${${"GL\x4f\x42\x41L\x53"}["\x70\x71\x6d\x79\x76\x6d\x63l"]}["\x6be\x72n\x65\x6c.\x73e\x73\x73\x69on\x2e\x73trCh\x65c\x6bIP"]]))$_SESSION[self::${${"\x47\x4c\x4fB\x41\x4cS"}["p\x71m\x79vmcl"]}["k\x65rn\x65\x6c.\x73e\x73si\x6f\x6e.\x73tr\x43\x68e\x63k\x55A"]]=$_SERVER["\x48\x54\x54P\x5fUS\x45R_AG\x45NT"];$_SESSION[self::${${"GL\x4f\x42A\x4c\x53"}["\x70\x71\x6dy\x76\x6d\x63l"]}["ke\x72\x6eel.ses\x73\x69\x6f\x6e\x2e\x73trCh\x65\x63kIP"]]=$_SERVER["\x52EM\x4fTE\x5f\x41DDR"];}}private function protect_session(){if(!(bool)self::${${"\x47\x4cO\x42A\x4cS"}["\x70qm\x79\x76\x6dc\x6c"]}["kerne\x6c\x2ese\x73\x73\x69on.c\x68eck"])return false;if($_SESSION[self::${${"\x47L\x4f\x42\x41\x4c\x53"}["\x70\x71m\x79\x76\x6d\x63\x6c"]}["kerne\x6c\x2esess\x69on.s\x74\x72\x43\x68\x65\x63\x6b\x55\x41"]]!=$_SERVER["\x48TTP_\x55\x53\x45R\x5f\x41\x47E\x4eT"]||$_SESSION[self::${${"G\x4c\x4f\x42\x41L\x53"}["p\x71\x6dyv\x6dc\x6c"]}["\x6b\x65r\x6eel\x2ese\x73si\x6f\x6e.\x73t\x72C\x68\x65\x63\x6b\x49\x50"]]!=$_SERVER["R\x45MO\x54E_A\x44DR"]){kernel::ERROR("Se\x73\x73io\x6e \x70\x72\x6ft\x65c\x74i\x6f\x6e\x20war\x6eing\x21","p\x68p","Prote\x63\x74io\x6e\x20f\x6fr \x73es\x73\x69\x6f\x6e giv\x65\x20b\x61ck\x20wa\x72\x6eing\x21");@define("WEB\x53I\x54\x45_\x52E\x53P\x4fN\x53\x45S",205);theme::content(dp_show_responses(constant("W\x45\x42\x53ITE_\x52\x45\x53P\x4f\x4eS\x45\x53"),"S\x65\x73si\x6f\x6e pr\x6ft\x65\x63tio\x6e \x67\x69v\x65 bac\x6b un\x65xp\x65\x63\x74\x65d s\x65\x73\x73ion v\x61lu\x65s\x21"));return false;}}protected function MobileDevice(){${"\x47\x4cO\x42\x41\x4cS"}["lym\x7af\x73\x70\x62h"]="\x4bERNE\x4c_\x50\x52OP\x5f\x4d\x41\x49N";if(file_exists(self::lib().self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x71m\x79vm\x63\x6c"]}["M\x6f\x62ileScrip\x74"])&&self::${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6c\x79m\x7a\x66\x73\x70bh"]}["Mobi\x6c\x65\x44\x65\x76\x69\x63\x65"]){$jbnclkhmsj="K\x45\x52\x4e\x45L\x5f\x50\x52\x4fP_\x4d\x41\x49\x4e";$cxcofeidusr="\x64\x65\x74\x65\x63\x74";require_once(self::lib().self::${$jbnclkhmsj}["Mob\x69\x6ceSc\x72\x69pt"]);${$cxcofeidusr}=new Mobile_Detect();if($detect->isMobile()){define("\x4dOBI\x4c\x45_D\x45\x56I\x43\x45",true);return true;}}}public function users_const_data(){$pzpcblhctz="v\x61\x6c\x75\x65";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["v\x78m\x67\x70\x6d"]="\x65\x74\x63_f\x6fl\x64\x65\x72";${"\x47LO\x42\x41\x4c\x53"}["\x78hgx\x62\x66l\x76jmk"]="\x4b\x45RNE\x4c\x5fPR\x4f\x50_\x4d\x41\x49\x4e";$wnfxrpqhbq="\x63\x6f\x6e\x73\x74\x61nt\x73_\x66\x6fl\x64e\x72";${"\x47\x4c\x4f\x42AL\x53"}["ygo\x72\x6ew\x71\x6at\x65"]="\x63\x6f\x6e\x73t";${${"\x47L\x4f\x42A\x4c\x53"}["\x71\x69\x6d\x6e\x64\x77\x62\x79"]}=self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x71\x6d\x79\x76\x6d\x63\x6c"]}["\x64o\x6cl\x6fp.\x65\x74\x63"];${"\x47\x4cO\x42\x41\x4cS"}["ni\x62\x62n\x6e\x69"]="p\x72\x6fp";${$wnfxrpqhbq}=self::${${"\x47\x4c\x4f\x42ALS"}["\x78\x68\x67xb\x66l\x76jmk"]}["k\x65rn\x65l.u\x73e\x72\x73\x2e\x64\x65pe\x6e\x64.f\x6f\x6c\x64\x65\x72"];${${"GL\x4f\x42\x41\x4cS"}["\x70\x77\x6f\x6c\x73e\x6bi"]}=self::${${"\x47\x4c\x4fBALS"}["\x70\x71m\x79\x76\x6dc\x6c"]}["k\x65\x72ne\x6c.u\x73e\x72s\x2e\x64epend\x2e\x63\x6f\x6estan\x74\x73"];${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x77k\x67h\x69\x77"]}=ROOT.SRCDR.${${"G\x4c\x4fBA\x4c\x53"}["\x76\x78m\x67p\x6d"]}.DIRECTORY_SEPARATOR.${${"G\x4c\x4fB\x41L\x53"}["\x66oufw\x7a\x76"]}.DIRECTORY_SEPARATOR.${${"\x47LOBA\x4c\x53"}["\x70\x77\x6f\x6cseki"]};if(!file_exists(${${"\x47\x4c\x4f\x42A\x4c\x53"}["w\x6b\x67\x68\x69w"]})){self::ERROR("E\x52RO\x52\x20ETC\x20\x64\x61\x74a \x66or u\x73e\x72\x73 \x63\x6f\x6es\x74\x61\x6e\x74s d\x6f\x20\x6e\x6ft\x20e\x78is\x74\x73","\x70\x68\x70","\x46\x75nc\x74ion: k\x65\x72n\x65\x6c::\x75\x73\x65\x72\x73_c\x6f\x6e\x73\x74_\x64at\x61\n\x20Fi\x6c\x65:{$prop}\n \x4cine:".__LINE__);return false;}${${"G\x4cO\x42A\x4cS"}["\x6c\x7a\x72r\x6ee"]}=self::loadprop(${${"\x47\x4cO\x42\x41LS"}["\x6eib\x62\x6e\x6e\x69"]},1);eval("\$\x70\x72\x65\x66i\x78\x20\x3d \x63\x6f\x6es\x74an\x74(\"\x50\x52\x45FI\x58\");");foreach(${${"\x47\x4cO\x42\x41L\x53"}["\x79g\x6f\x72\x6e\x77qj\x74\x65"]} as${${"\x47\x4c\x4fB\x41L\x53"}["\x6ed\x62vu\x74\x6d\x79\x73m\x6c"]}=>${$pzpcblhctz}){${"G\x4c\x4f\x42\x41LS"}["\x65\x6f\x65\x6eep"]="\x6b\x65\x79";$jnpxzzbg="\x63o\x6e\x73\x74_\x6b\x65\x79";${"\x47\x4c\x4f\x42AL\x53"}["\x6e\x77\x73\x6fl\x6e\x62"]="\x63\x6f\x6e\x73t\x5f\x6b\x65\x79";${${"GL\x4f\x42\x41LS"}["\x6e\x77s\x6f\x6cn\x62"]}=strtoupper(str_replace(".","\x5f",${${"\x47LO\x42\x41L\x53"}["eoen\x65\x70"]}));if(!defined(${$jnpxzzbg})){$xvkbqqhsls="\x70\x72ef\x69\x78";$uonffabquo="\x63\x6fn\x73\x74_\x6b\x65\x79";define(${$uonffabquo},str_replace("{\x50RE\x46\x49X}",${$xvkbqqhsls},${${"GLO\x42\x41\x4c\x53"}["\x70j\x61\x68\x6b\x71\x77"]}));}}}public function session_fix(){global$CONFIGURATION;$jnmfwhiytkb="C\x4fN\x46I\x47\x55\x52\x41T\x49O\x4e";if(empty($_COOKIE[${$jnmfwhiytkb}["C\x4f\x4fK\x49E\x5f\x53E\x53\x53I\x4f\x4e"]])&&isset($_COOKIE[ini_get("se\x73\x73io\x6e\x2ename")])){setcookie(ini_get("s\x65\x73\x73io\x6e\x2e\x6ea\x6d\x65"),"",0,DIRECTORY_SEPARATOR);header_location(null,true);return false;}elseIf(!is_array($HTTP_COOKIE_VARS)&&empty($_COOKIE[${${"GL\x4f\x42\x41L\x53"}["\x7a\x74\x67\x77\x62x\x6an\x76"]}["COOKIE\x5f\x53ES\x53I\x4f\x4e"]]))self::SESSION_SET("","");if(!defined("\x43O\x4f\x4bIE\x5f\x53\x45\x53SIO\x4e")){define("CO\x4fK\x49\x45\x5f\x53\x45S\x53I\x4f\x4e",$_COOKIE[${${"\x47L\x4f\x42AL\x53"}["\x7a\x74\x67\x77\x62\x78\x6a\x6e\x76"]}["COOKIE_SES\x53IO\x4e"]]);}}protected function username_session($username){${"\x47\x4c\x4fBAL\x53"}["b\x6e\x72\x72\x67r\x71a"]="\x61\x72\x72\x5f\x73\x65\x73s";return md5(md5(HEX)." \\/\x20".${${"G\x4cO\x42\x41L\x53"}["\x62\x6err\x67rq\x61"]}["na\x6de"]);}private function users_session(){${"\x47\x4c\x4fB\x41\x4cS"}["p\x6f\x68\x74\x78\x66\x61\x74y\x79"]="K\x45R\x4e\x45L\x5f\x50R\x4fP\x5f\x4d\x41IN";$pddwjafb="\x4b\x45\x52N\x45\x4c\x5f\x50\x52\x4f\x50_\x4d\x41\x49N";$oherlpzems="b\x61\x73\x69\x63\x5f\x6b\x65\x79";${"G\x4cO\x42\x41\x4cS"}["w\x6b\x68jw\x61\x6e\x62u"]="\x63\x75\x72\x72e\x6et\x54\x69\x6d\x65\x6f\x75\x74I\x6e\x53ec\x73";$jngcic="\x75\x70\x61\x73\x73_\x6b\x65y";${$oherlpzems}=self::${${"\x47\x4c\x4f\x42\x41L\x53"}["\x70\x6f\x68t\x78\x66\x61\x74yy"]}["k\x65\x72\x6e\x65l\x2eus\x65\x72s\x2e\x73e\x73\x73io\x6e.\x72e\x6d\x65m\x62\x65\x72"];$kejapdmww="\x4b\x45RNE\x4c\x5f\x50\x52OP\x5f\x4d\x41\x49\x4e";$cmsufnsdm="\x72\x65\x6d\x61\x69\x6e_\x74\x6d";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["z\x6e\x64p\x70\x78\x69"]}=self::${${"\x47\x4cOB\x41\x4cS"}["\x70\x71m\x79\x76mc\x6c"]}["kernel\x2e\x75s\x65r\x73\x2es\x65\x73si\x6fn\x2e\x75\x73\x65\x72\x6eam\x65"];${$jngcic}=self::${$pddwjafb}["k\x65\x72nel.us\x65rs.sessi\x6fn\x2epa\x73\x73\x77o\x72d"];${"GL\x4f\x42A\x4c\x53"}["\x6a\x68\x68w\x6a\x78h\x79"]="K\x45\x52\x4eEL_\x50R\x4fP\x5f\x4dAI\x4e";${${"\x47\x4cOB\x41\x4cS"}["\x70i\x74\x63\x79ep\x72"]}=self::${${"G\x4c\x4fB\x41\x4c\x53"}["j\x68h\x77\x6axh\x79"]}["\x6b\x65\x72n\x65l.\x75\x73er\x73\x2es\x65s\x73i\x6f\x6e.co\x6f\x6b\x69e"];${$cmsufnsdm}=self::${${"\x47\x4cO\x42A\x4c\x53"}["\x70q\x6dy\x76\x6d\x63\x6c"]}["k\x65\x72n\x65\x6c\x2eu\x73e\x72\x73.s\x65\x73\x73\x69\x6f\x6e\x2e\x6fn\x72e\x6dain\x73"];${${"GL\x4fB\x41\x4cS"}["v\x72\x62\x7ayrx"]}=parse_url(constant("H\x4f\x53T"),PHP_URL_HOST);${${"G\x4c\x4fB\x41\x4c\x53"}["\x77\x6ee\x73\x6f\x66\x6a\x75\x72"]}=constant("US\x45RS\x5fCO\x4f\x4b\x49E\x5f\x55\x49\x44");${${"\x47L\x4f\x42\x41L\x53"}["\x77\x6b\x68\x6a\x77\x61\x6eb\x75"]}=ini_get("s\x65ssio\x6e\x2egc\x5fm\x61\x78li\x66eti\x6de");${${"\x47LO\x42\x41\x4c\x53"}["w\x75x\x71i\x71\x6e"]}=self::${$kejapdmww}["Cooki\x65T\x69\x6de"];if(isset($_COOKIE[ini_get("\x73e\x73s\x69o\x6e\x2e\x6ea\x6d\x65")])&&empty($_SESSION[${${"\x47LO\x42A\x4c\x53"}["\x7a\x6edpp\x78i"]}])){${"G\x4c\x4f\x42\x41\x4c\x53"}["\x79e\x77\x79n\x76i\x61\x61"]="\x62a\x73i\x63\x5f\x6bey";if(!(bool)session_id()){session_start();}if(isset($_SESSION[${${"\x47\x4cOB\x41\x4c\x53"}["\x79ew\x79\x6e\x76\x69\x61a"]}])){${"\x47\x4cO\x42\x41L\x53"}["i\x6e\x71\x79\x71\x61\x6f\x75\x75"]="\x4b\x45R\x4e\x45L_\x50\x52\x4fP_\x4dA\x49\x4e";$dezcexphwvd="\x4bER\x4e\x45\x4c_PR\x4f\x50\x5f\x4dA\x49N";$cfwbdtljmf="\x73e\x73\x73\x69o\x6eC\x6f\x6f\x6b\x69\x65E\x78\x70ir\x65\x54\x69\x6d\x65";${$cfwbdtljmf}=self::${${"G\x4c\x4f\x42\x41L\x53"}["p\x71\x6d\x79v\x6dc\x6c"]}["\x4da\x78\x43o\x6fki\x65Ti\x6de"];self::${${"G\x4c\x4f\x42A\x4c\x53"}["in\x71\x79\x71a\x6fuu"]}["Coo\x6bi\x65T\x69me"]=self::${$dezcexphwvd}["\x4daxCo\x6f\x6bie\x54\x69\x6de"];}${"G\x4cO\x42\x41\x4c\x53"}["x\x67q\x6dy\x6e\x6f\x6b\x67e\x6d"]="\x62a\x73\x69\x63\x5fk\x65y";$cpcyhbdm="\x63\x6f\x6f\x6b\x69e\x5f\x75\x73\x65\x72\x5f\x69d";if(isset($_SESSION[${${"\x47L\x4f\x42\x41L\x53"}["x\x67qm\x79n\x6f\x6bgem"]}])&&!isset($_COOKIE[${${"GL\x4fB\x41L\x53"}["\x70\x69\x74cye\x70\x72"]}])){${"\x47\x4cO\x42ALS"}["\x76\x67\x75\x70d\x66\x62"]="\x75na\x6d\x65\x5f\x6be\x79";$eagjtxbee="\x73\x65\x73\x73\x69\x6f\x6eC\x6f\x6fkie\x45\x78pi\x72\x65\x54\x69\x6d\x65";${"\x47LO\x42\x41\x4cS"}["g\x71e\x63\x6d\x74dsu\x6bt\x61"]="\x75n\x61\x6d\x65\x5fk\x65\x79";${"\x47L\x4fBAL\x53"}["\x61\x6brf\x72fj\x73\x6br"]="s\x65\x73\x73i\x6f\x6eCo\x6f\x6b\x69\x65Expire\x54\x69\x6d\x65";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x63j\x76\x6c\x78n\x64p\x69\x62\x77"]="\x73es\x73\x69\x6fn\x43oo\x6b\x69\x65\x45\x78p\x69\x72\x65\x54\x69\x6d\x65";${"\x47\x4c\x4f\x42\x41LS"}["\x67\x77n\x69pxp"]="s\x65s\x73\x69\x6f\x6e\x43\x6f\x6f\x6b\x69\x65E\x78\x70\x69r\x65T\x69m\x65";setcookie(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x70\x69\x74\x63y\x65p\x72"]},time()+${${"G\x4cOB\x41\x4c\x53"}["\x61\x6b\x72frf\x6a\x73k\x72"]},time()+${${"\x47LO\x42\x41\x4c\x53"}["\x77u\x78\x71\x69\x71\x6e"]},DIRECTORY_SEPARATOR,${${"\x47\x4c\x4fB\x41\x4cS"}["vr\x62\x7ayr\x78"]},check_secure_http("\x68t\x74\x70\x73"),check_secure_http("\x68t\x74\x70"));@session_set_cookie_params(${$eagjtxbee});${"\x47\x4c\x4f\x42\x41L\x53"}["\x76\x73\x73\x77w\x77f\x6d\x76"]="u\x6e\x61m\x65\x5f\x6be\x79";setcookie(ini_get("s\x65\x73\x73\x69o\x6e\x2ena\x6de"),$_COOKIE[ini_get("se\x73si\x6f\x6e\x2en\x61m\x65")],time()+${${"\x47\x4cO\x42\x41L\x53"}["\x63j\x76l\x78\x6e\x64\x70\x69bw"]},DIRECTORY_SEPARATOR,${${"\x47\x4c\x4fBA\x4c\x53"}["\x76\x72\x62z\x79\x72\x78"]},check_secure_http("h\x74tps"),check_secure_http("h\x74\x74p"));setcookie(self::CONFIGURATION("CO\x4f\x4b\x49\x45\x5fSE\x53SIO\x4e"),$_COOKIE[self::CONFIGURATION("\x43OO\x4b\x49\x45_SESS\x49ON")],time()+${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["gwn\x69\x70\x78\x70"]},"/",${${"GL\x4fB\x41L\x53"}["\x76\x72\x62\x7a\x79\x72\x78"]},check_secure_http("h\x74tp\x73"),check_secure_http("\x68t\x74\x70"));$_SESSION[${${"G\x4cOBAL\x53"}["yqd\x6e\x6dvj\x6d\x73qx"]}]=true;$jtndxu="use\x72\x5f\x64\x61\x74\x61";$_SESSION[${${"\x47\x4c\x4fBALS"}["v\x73s\x77\x77\x77\x66\x6dv"]}]=$_SESSION[${${"G\x4cOB\x41L\x53"}["\x67\x71\x65\x63m\x74\x64\x73u\x6b\x74\x61"]}];${$jtndxu}=self::SESSION(self::username_session($_SESSION[${${"GL\x4f\x42\x41\x4cS"}["\x76\x67u\x70dfb"]}]));$_SESSION["che\x63\x6b\x65d"]="c\x68\x65\x63k\x65\x64\x3d\"\x63\x68\x65c\x6b\x65d\"\x20";}elseIf(isset($_COOKIE[${${"G\x4cOBALS"}["\x70\x69t\x63\x79e\x70\x72"]}])){${"GLOBA\x4cS"}["\x68s\x6du\x6ctecc\x76"]="\x63o\x6fki\x65\x4b\x65\x79";$jltysquhieel="\x72\x65\x6d\x61in\x73";${"G\x4c\x4fB\x41\x4cS"}["\x75\x77\x6e\x71\x63\x78y\x66\x72\x73"]="r\x65\x6dain_\x74\x6d";${${"G\x4c\x4f\x42\x41\x4cS"}["\x67j\x63e\x73\x77g\x64"]}=time()-$_COOKIE[${${"GL\x4f\x42\x41\x4c\x53"}["\x68\x73\x6du\x6c\x74e\x63cv"]}];if(${$jltysquhieel}<${${"G\x4cO\x42\x41L\x53"}["u\x77n\x71\x63\x78\x79f\x72\x73"]}){$ylbabojsnmdu="p\x61r\x73Url\x48\x6fst";${"\x47LO\x42ALS"}["v\x67\x66\x62p\x63\x76\x6b\x7au\x73\x71"]="\x73\x65\x73\x73\x69\x6fn\x43\x6f\x6f\x6b\x69\x65Exp\x69\x72\x65Ti\x6de";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x76\x75u\x61\x69e\x65"]="\x70a\x72sU\x72l\x48os\x74";${"\x47\x4c\x4fB\x41\x4c\x53"}["sis\x70\x77\x6cjv\x73"]="\x73\x65ss\x69o\x6e\x43o\x6f\x6bi\x65\x45\x78\x70i\x72e\x54\x69m\x65";${"\x47\x4cO\x42A\x4c\x53"}["\x67m\x67bubcz"]="s\x65\x73\x73io\x6e\x43\x6f\x6f\x6b\x69e\x45x\x70\x69\x72\x65\x54i\x6d\x65";setcookie(${${"\x47\x4cO\x42\x41L\x53"}["\x70\x69t\x63y\x65\x70\x72"]},time()+${${"\x47\x4cO\x42\x41\x4c\x53"}["si\x73p\x77\x6c\x6a\x76\x73"]},time()+${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76\x67\x66b\x70cv\x6b\x7au\x73\x71"]},DIRECTORY_SEPARATOR,${${"\x47\x4c\x4fBA\x4c\x53"}["\x62\x76\x75\x75a\x69\x65\x65"]},check_secure_http("\x68t\x74\x70s"),check_secure_http("htt\x70"));setcookie(ini_get("se\x73\x73\x69\x6fn.\x6ea\x6de"),$_COOKIE[ini_get("\x73\x65s\x73io\x6e.na\x6d\x65")],time()+${${"\x47L\x4f\x42\x41\x4c\x53"}["g\x6d\x67\x62\x75\x62\x63\x7a"]},DIRECTORY_SEPARATOR,${$ylbabojsnmdu},check_secure_http("\x68\x74t\x70\x73"),check_secure_http("\x68\x74tp"));}}if(!$_COOKIE[${$cpcyhbdm}]&&!empty($_SESSION[${${"\x47\x4c\x4fB\x41L\x53"}["\x7a\x6e\x64\x70\x70xi"]}])){$eukkhxsi="u\x6e\x61m\x65\x5f\x6b\x65\x79";return array("u\x73\x65\x72"=>$_SESSION[${$eukkhxsi}],"\x70as\x73"=>${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69qt\x62u\x6d"]}["\x70\x61\x73s"]);}else return false;}}public function ctrl_cookie($case=null,$user_name=null,$reload=false){${"G\x4c\x4f\x42AL\x53"}["\x67\x74m\x67\x78\x70xr\x71\x72e\x67"]="\x68\x65x";${"\x47\x4cO\x42A\x4cS"}["\x77yr\x6a\x66c\x6b\x6a\x73\x76\x6c"]="K\x45\x52\x4e\x45\x4c\x5fP\x52\x4f\x50_MA\x49N";${"\x47L\x4f\x42\x41L\x53"}["\x67p\x6d\x6c\x63jimo\x68\x6e"]="\x61r\x72\x5f\x73e\x73s";self::glueCode(__FUNCTION__);$kbdlrrnbx="\x4b\x45RNE\x4c\x5f\x50R\x4fP\x5fM\x41\x49N";$xcyfrh="sq\x6c\x5f\x75\x73e\x72\x5f\x74\x61\x62\x6ce\x5fro\x77_\x75m\x61\x69\x6c";$econjktnuw="\x63\x61\x74\x63\x68\x5f\x74\x69\x6de";${"\x47\x4cO\x42\x41L\x53"}["\x71\x68\x65\x64r\x62"]="\x63o\x6f\x6bie_\x75na\x6de";${"\x47\x4cOB\x41\x4c\x53"}["d\x66p\x76nv\x6cd"]="\x4bE\x52\x4e\x45\x4c\x5f\x50\x52O\x50_\x4d\x41\x49N";${"\x47\x4cO\x42\x41\x4c\x53"}["wtk\x79\x62\x73\x69lt\x6cn"]="\x73\x71\x6c\x5f\x75\x73\x65\x72\x5f\x74\x61b\x6c\x65\x5f\x72\x6f\x77\x5fupr\x69v";kernel::protect_session();${"\x47L\x4fB\x41\x4c\x53"}["i\x70tbm\x6bp"]="\x75\x6ei\x63\x5fv\x61l\x75\x65";${${"\x47L\x4fB\x41\x4c\x53"}["y\x71\x64\x6e\x6d\x76jms\x71\x78"]}=self::${${"\x47L\x4f\x42\x41\x4c\x53"}["p\x71m\x79\x76\x6d\x63\x6c"]}["\x6b\x65\x72\x6ee\x6c.\x75se\x72\x73\x2esessio\x6e.r\x65\x6d\x65\x6d\x62e\x72"];${${"G\x4c\x4fB\x41L\x53"}["\x77x\x79vj\x6fc\x7a\x6d\x6c\x67\x6d"]}=self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x77\x79\x72\x6af\x63k\x6a\x73vl"]}["\x6b\x65\x72\x6ee\x6c.u\x73er\x73.d\x65pen\x64\x2e\x70\x72i\x76ile\x67e"];$rasmvbwmku="\x73\x71l\x5f\x72\x65qu\x65\x73\x74";$jyktqy="\x61\x72r\x5f\x73ess";${"\x47LO\x42A\x4cS"}["\x6a\x79\x6av\x68xw\x75\x68w"]="\x63\x61\x73\x65";$qdtgwi="\x63\x6f\x6f\x6b\x69e\x5f\x75\x69din";${"\x47\x4cO\x42\x41LS"}["\x72\x61\x75\x6ccoxa"]="\x73\x71\x6c\x5fu\x73e\x72_t\x61b\x6ce";$ltwplcztoj="\x61\x72\x72\x5fs\x65\x73s";${"G\x4c\x4f\x42\x41\x4c\x53"}["pnj\x63\x74\x73o\x70\x76\x6cqy"]="\x63on\x66";${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x66o\x75f\x77\x7a\x76"]}=self::${${"G\x4cO\x42AL\x53"}["df\x70\x76n\x76\x6c\x64"]}["ke\x72\x6eel.u\x73\x65rs\x2e\x64e\x70e\x6e\x64.\x66o\x6cd\x65r"];${"G\x4c\x4f\x42\x41\x4c\x53"}["x\x65cs\x64\x69\x6a\x69"]="\x63\x6f\x6e\x66";${${"GL\x4f\x42\x41\x4c\x53"}["\x71\x69\x6dn\x64w\x62\x79"]}=self::${${"\x47\x4cO\x42A\x4cS"}["\x70\x71\x6d\x79vmcl"]}["dol\x6co\x70.et\x63"];${${"\x47\x4c\x4f\x42AL\x53"}["\x67\x74\x6d\x67xp\x78\x72\x71\x72\x65\x67"]}=constant("HEX");$hyldmmad="c\x6f\x6e\x66";$ldfnoil="\x63\x6f\x6ef";$uevhiylfww="\x61r\x72\x5f\x73e\x73\x73";${${"\x47L\x4fBA\x4cS"}["\x72au\x6c\x63\x6fx\x61"]}=constant("U\x53\x45\x52S_\x53Q\x4c\x54B\x4c_MA\x49N");${${"\x47\x4cO\x42\x41\x4cS"}["\x73\x66\x74v\x71s\x6b"]}=constant("\x55\x53\x45RS_S\x51L\x54\x42L\x5f\x43\x4f\x4c\x5f\x55I\x44");${"G\x4cO\x42\x41\x4c\x53"}["\x74\x73g\x77\x6d\x77lrx"]="co\x6f\x6b\x69\x65\x5fu\x6e\x61m\x65";${${"\x47L\x4f\x42\x41\x4c\x53"}["\x62\x66\x77\x67\x75\x65r"]}=constant("U\x53\x45\x52S_SQ\x4c\x54\x42\x4c_\x43OL_\x55\x4e\x41\x4dE");${${"\x47L\x4fB\x41\x4c\x53"}["\x74\x6br\x75\x75\x6b\x75\x77\x69\x7a\x78\x6c"]}=constant("\x55S\x45R\x53\x5fS\x51L\x54\x42L\x5fC\x4fL_\x55\x50AS\x53");$fepyxhrnkx="\x75\x6e\x69\x63_valu\x65";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x62\x62\x75\x76\x76w\x6b\x6f\x70\x62"]="\x75\x6e\x69c\x5f\x76al\x75\x65";${$xcyfrh}=constant("\x55S\x45R\x53_\x53Q\x4c\x54BL_C\x4fL\x5fU\x4dAIL");$kcfolrbn="\x64\x61\x74\x61";$wdkfyjp="d\x6f\x6c\x6co\x70\x43ooki\x65";$hhgkezyfy="\x63\x6f\x6fkie_\x75\x73\x65\x73\x73";${${"GL\x4fBALS"}["\x77t\x6b\x79\x62\x73\x69\x6ct\x6cn"]}=constant("\x55\x53ER\x53\x5fS\x51LT\x42L\x5fC\x4fL\x5f\x55\x50R\x49\x56");${"\x47\x4c\x4f\x42\x41\x4cS"}["\x78\x76mj\x77r\x72r\x78\x76"]="mk\x74\x69\x6d\x65";${${"\x47\x4cOBAL\x53"}["\x63tw\x67\x75\x67\x6b\x73\x68a\x73\x65"]}=constant("USERS_\x43\x4f\x4f\x4b\x49E_\x55\x4e\x41ME");${${"G\x4c\x4f\x42\x41\x4cS"}["w\x6e\x65\x73o\x66\x6a\x75\x72"]}=constant("\x55SE\x52\x53\x5fC\x4f\x4fK\x49E\x5f\x55\x49\x44");${${"\x47\x4cO\x42\x41\x4c\x53"}["\x72\x77\x68d\x64nx\x7aw\x76\x71\x63"]}=constant("USERS\x5fCOOK\x49\x45\x5f\x55S\x45\x53\x53");${$ldfnoil}=self::CONFIGURATION();if(!is_array(${${"G\x4c\x4f\x42\x41\x4cS"}["\x70n\x6a\x63\x74\x73\x6f\x70vlq\x79"]})){self::ERROR("[!] Can\x6e\x6f\x74\x20e\x78\x74\x72\x61\x63\x74\x69\x6f\x6e\x20w\x65\x62s\x69\x74\x65 \x63\x6f\x6e\x66i\x67\x75r\x61\x74io\x6e\x21 ","p\x68\x70","\x65rror\x20\x69\x73\x20\x69\x6e\x20'k\x65\x72ne\x6c::c\x70a\x6e\x65l\x5f\x63o\x6f\x6b\x69\x65' funct\x69on\x21\x20\n\x20L\x69n\x65:".__LINE__);}${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x72\x68mj\x71\x76\x6dd\x62\x74\x71\x6c"]}=sprintf("\x25\x75",crc32("@".time()));$yymedtnvhmt="\x63\x6f\x6f\x6b\x69\x65\x5f\x75\x73e\x73s";if(!${${"\x47LO\x42AL\x53"}["grt\x6et\x6biw\x76"]}&&(${${"G\x4c\x4f\x42\x41\x4c\x53"}["r\x76w\x78j\x65\x6d"]}=self::users_session())){$wrwpnpq="\x75s\x65r\x5fn\x61me";$sbjkjcnofte="u\x73\x65\x72\x5f\x73\x65\x73\x64";$yeqhwsiaoqh="\x63\x61se";${$yeqhwsiaoqh}="s\x65\x74";${${"G\x4c\x4f\x42\x41L\x53"}["wg\x62\x75j\x72\x6f\x64\x6a\x77"]}=true;${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x61luk\x7a\x6b\x70"]="\x73ql\x5f\x61d\x64\x72\x65lo\x67i\x6e";${$wrwpnpq}=addslashes(${${"\x47L\x4f\x42ALS"}["\x72\x76wxj\x65\x6d"]}["use\x72"]);${${"\x47LOB\x41\x4c\x53"}["\x73\x63\x74\x6cc\x77h\x71\x77k"]}=addslashes(${$sbjkjcnofte}["\x70a\x73\x73"]);${${"\x47\x4c\x4f\x42A\x4c\x53"}["a\x6cu\x6bz\x6b\x70"]}=" \x41N\x44 \x60{$sql_user_table_row_upass}\x60=\x27{$sql_password}\x27 ";}switch(${${"GL\x4f\x42A\x4c\x53"}["\x6a\x79jv\x68x\x77\x75\x68\x77"]}){case"s\x65t":if(!(bool)session_id()){session_start();}if(defined(strtoupper(${${"G\x4c\x4f\x42\x41L\x53"}["y\x71d\x6em\x76j\x6d\x73q\x78"]}))OR($_SESSION[${${"GL\x4f\x42\x41\x4c\x53"}["y\x71\x64\x6em\x76\x6a\x6d\x73\x71x"]}]===true)){${"\x47\x4c\x4f\x42\x41\x4cS"}["\x62o\x6d\x77\x64\x76\x64\x71u\x72s"]="\x43\x6b\x54i\x6d\x65";${${"\x47L\x4f\x42\x41\x4cS"}["\x62omwdv\x64\x71\x75\x72\x73"]}=self::${${"\x47LOB\x41\x4c\x53"}["\x70\x71\x6d\x79v\x6dc\x6c"]}["\x4da\x78\x43ooki\x65\x54\x69\x6d\x65"];}else{${${"G\x4cOBA\x4c\x53"}["\x69\x6c\x62\x71\x73dq"]}=self::${${"\x47\x4cO\x42ALS"}["pq\x6dyv\x6d\x63l"]}["\x43o\x6f\x6b\x69e\x54\x69\x6de"];}${${"\x47\x4cOB\x41L\x53"}["\x76\x74\x76k\x63\x75\x76\x72x\x66e"]}="\x53E\x4cE\x43T\n\x20\x20\x20   \x20 \x20\x20\x20 \x20\x20\x20\x20\x20\x20 \x20`$sql_user_table_row_uid`,\n\x20 \x20\x20 \x20 \x20\x20 \x20\x20   \x20  \x20 \x60$sql_user_table_row_uname`,\n  \x20\x20\x20\x20 \x20\x20\x20\x20\x20 \x20\x20\x20\x20\x20  \x60$sql_user_table_row_upass\x60,\n\x20\x20 \x20 \x20 \x20\x20   \x20\x20     \x20`$sql_user_table_row_umail\x60,\n\x20\x20\x20\x20   \x20\x20\x20 \x20\x20 \x20\x20\x20\x20\x20\x20\x60$sql_user_table_row_upriv`\n\x20     \x20     \x20\x20\x20\x20 \x20\x20\x20FR\x4f\x4d `$sql_user_table`\n\x20   \x20\x20  \x20\x20\x20\x20\x20\x20 \x20 \x20\x20\x20\x57H\x45\x52E  \x60$sql_user_table_row_uname`\x3d\x27$user_name'\x20{$sql_addrelogin} \x4fR\n      \x20 \x20  \x20  \x20 \x20\x20  `$sql_user_table_row_umail\x60\x3d'$user_name' {$sql_addrelogin}\x20\x4cIMI\x54\x20\x31; ";global$db;${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77\x79\x6eiuz\x6b\x69"]}=mysql_query(${${"\x47\x4cOB\x41\x4c\x53"}["\x76\x74\x76\x6b\x63\x75\x76\x72x\x66\x65"]},${${"\x47\x4c\x4f\x42\x41L\x53"}["j\x71\x68ryk\x79l"]})or die(mysql_error());if(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76\x66\x6e\x62\x69obnf"]}=mysql_fetch_array(${$rasmvbwmku})){${"\x47\x4cO\x42A\x4c\x53"}["\x76\x6f\x68\x77i\x70\x63"]="\x6d\x6btim\x65";$vtulthyvlg="\x63\x6f\x6ef";${"GL\x4fB\x41\x4cS"}["y\x73\x62ok\x76\x66\x6bv"]="\x72\x6f\x77";${"\x47\x4c\x4f\x42\x41LS"}["\x76\x73\x6dwu\x7a\x64\x67l"]="\x43k\x54\x69m\x65";$hkijbaijuyei="\x73\x71\x6c_us\x65r\x5f\x74a\x62le\x5fro\x77\x5f\x75na\x6de";${"GLO\x42\x41\x4cS"}["\x6dpb\x6b\x62m\x6b\x67x\x6bh"]="\x6d\x6b\x74\x69\x6de";${"\x47L\x4f\x42A\x4cS"}["\x6a\x6ec\x75\x6a\x69b\x72d\x6b\x63"]="\x63\x6f\x6fk\x69\x65_\x75\x73\x65\x72\x5f\x69\x64";$yyumikemt="\x73\x71l\x5f\x75\x73\x65r_\x74\x61\x62\x6ce_r\x6f\x77\x5f\x75i\x64";${"\x47\x4cO\x42\x41\x4c\x53"}["\x75\x68zd\x74\x79"]="a\x72r\x5fs\x65s\x73";${"G\x4cOB\x41\x4c\x53"}["\x6f\x62\x72n\x75y\x7a\x6e"]="\x63\x6f\x6ef";${"\x47L\x4f\x42AL\x53"}["c\x6co\x6e\x77\x6b\x74\x7a\x70"]="\x73ql_\x75\x73\x65\x72_ta\x62l\x65\x5f\x72o\x77\x5f\x75n\x61m\x65";$podlhofn="sql\x5fu\x73\x65\x72\x5ft\x61\x62\x6c\x65\x5f\x72\x6f\x77\x5fu\x6ea\x6d\x65";$rcjjczcwgii="\x73\x71\x6c\x5f\x75s\x65r\x5ft\x61\x62\x6c\x65_\x72\x6f\x77\x5f\x75\x70\x61\x73\x73";$cvgjctcljsr="\x63\x6fok\x69e_u\x73\x65\x72\x5fs\x65s";${"\x47\x4cO\x42\x41L\x53"}["\x77t\x67\x6c\x71en\x79z"]="\x64a\x74\x61";$qyekjmstky="row";${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x64\x69\x72u\x62\x6ej\x69h"]}=${${"\x47L\x4f\x42A\x4cS"}["\x76\x66\x6eb\x69o\x62nf"]}[${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x63\x6c\x6f\x6e\x77\x6btz\x70"]}].${${"\x47\x4c\x4fB\x41L\x53"}["\x63h\x72\x6e\x63\x76\x61\x65\x65\x6c"]}.${${"G\x4cOBAL\x53"}["v\x6f\x68\x77\x69pc"]}.${${"G\x4cO\x42A\x4cS"}["\x6f\x62r\x6eu\x79zn"]}["\x4b\x45\x59"].${${"GLO\x42\x41\x4c\x53"}["\x79\x73bo\x6bvf\x6bv"]}[${$yyumikemt}].$_COOKIE[${${"GL\x4f\x42\x41\x4c\x53"}["\x6aq\x6d\x62\x62\x6ar\x6c"]}["C\x4f\x4f\x4bI\x45_SE\x53SI\x4fN"]];$ultnmudbun="s\x71\x6c_\x75s\x65\x72\x5f\x74a\x62\x6c\x65_\x72o\x77_\x75i\x64";${${"\x47\x4c\x4f\x42\x41L\x53"}["\x73\x61uu\x64\x77"]}=md5(${${"\x47L\x4f\x42\x41L\x53"}["\x77\x74\x67\x6cq\x65ny\x7a"]}).${$vtulthyvlg}["\x53PR"].${${"\x47\x4cO\x42A\x4cS"}["\x6d\x70\x62kbm\x6b\x67\x78k\x68"]};setcookie(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x63\x74w\x67\x75\x67ks\x68\x61\x73\x65"]},${$qyekjmstky}[${$hkijbaijuyei}],time()+${${"G\x4c\x4fBAL\x53"}["\x69lbqs\x64\x71"]},DIRECTORY_SEPARATOR,parse_url(constant("\x48OST"),PHP_URL_HOST),check_secure_http("ht\x74\x70s"),check_secure_http("\x68tt\x70"));$hksxcpjy="\x61\x72r\x5f\x73\x65\x73s";${"\x47LO\x42\x41L\x53"}["\x71\x70\x65v\x65\x6dn\x6dx\x62"]="r\x6f\x77";setcookie(${${"\x47\x4c\x4f\x42\x41\x4cS"}["j\x6ec\x75j\x69b\x72\x64\x6bc"]},${${"\x47LO\x42\x41\x4c\x53"}["vf\x6e\x62i\x6f\x62\x6ef"]}[${${"GLO\x42\x41L\x53"}["s\x66\x74\x76\x71sk"]}],time()+${${"\x47\x4c\x4f\x42\x41L\x53"}["\x69\x6c\x62qs\x64\x71"]},DIRECTORY_SEPARATOR,parse_url(constant("\x48\x4f\x53T"),PHP_URL_HOST),check_secure_http("\x68\x74\x74\x70s"),check_secure_http("\x68t\x74p"));setcookie(${$cvgjctcljsr},${${"\x47\x4c\x4f\x42ALS"}["s\x61\x75\x75\x64\x77"]},time()+${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x76\x73mw\x75\x7adgl"]},"/",parse_url(constant("\x48\x4f\x53T"),PHP_URL_HOST),check_secure_http("htt\x70s"),check_secure_http("\x68ttp"));${${"\x47L\x4f\x42\x41L\x53"}["uhzd\x74y"]}["\x6e\x61\x6de"]=${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x71p\x65\x76\x65m\x6emx\x62"]}[${$podlhofn}];$spdsikxjq="\x61r\x72_\x73e\x73\x73";${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x75\x66\x67wox\x79\x6a\x69l"]}["\x70ass"]=${${"\x47LOB\x41L\x53"}["\x76f\x6e\x62\x69\x6fb\x6e\x66"]}[${$rcjjczcwgii}];${${"G\x4cO\x42\x41L\x53"}["\x75\x66\x67\x77o\x78\x79\x6ail"]}["\x69\x64in"]=${${"GL\x4f\x42A\x4cS"}["\x76fn\x62\x69o\x62n\x66"]}[${$ultnmudbun}];${$spdsikxjq}["p\x72\x69v"]=${${"G\x4c\x4f\x42A\x4cS"}["\x76fn\x62\x69obn\x66"]}[${${"G\x4cO\x42\x41\x4c\x53"}["\x6f\x6e\x62\x73\x74\x63d\x73\x70"]}];${${"GL\x4f\x42\x41LS"}["\x75\x66g\x77\x6fx\x79ji\x6c"]}["ses\x73"]=${${"\x47LOB\x41\x4c\x53"}["\x73\x61uud\x77"]};self::SESSION_SET(self::username_session(${$hksxcpjy}["name"]),${${"\x47\x4c\x4fB\x41L\x53"}["\x75\x66\x67\x77\x6fx\x79\x6a\x69\x6c"]});}self::${${"\x47L\x4f\x42ALS"}["\x6d\x79r\x6aw\x6e"]}=true;if(${${"GL\x4fB\x41\x4c\x53"}["\x77g\x62\x75\x6ar\x6f\x64\x6a\x77"]}){header_location();}break;DEFAULT:global$CONFIGURATION;${${"GLOBA\x4c\x53"}["\x69\x6c\x62q\x73\x64q"]}=self::${$kbdlrrnbx}["\x4d\x61\x78\x43\x6fok\x69\x65\x54\x69m\x65"];If(!$_COOKIE[${${"\x47\x4c\x4f\x42\x41L\x53"}["\x63\x74\x77g\x75\x67\x6b\x73h\x61\x73\x65"]}]AND!$_COOKIE[${${"G\x4cO\x42\x41L\x53"}["wn\x65\x73\x6f\x66ju\x72"]}]AND!$_COOKIE[${${"GL\x4f\x42ALS"}["r\x77\x68\x64\x64\x6e\x78\x7aw\x76qc"]}])return false;${${"G\x4c\x4f\x42\x41L\x53"}["\x7a\x74\x71l\x61\x72\x7a"]}=explode(${$hyldmmad}["SPR"],str_replace("--","-",$_COOKIE[${${"\x47L\x4f\x42A\x4cS"}["\x72\x77\x68\x64\x64\x6e\x78\x7a\x77\x76qc"]}]));${${"G\x4c\x4f\x42\x41\x4cS"}["\x72h\x6d\x6a\x71v\x6d\x64\x62t\x71\x6c"]}=${$econjktnuw}[1];${${"\x47\x4cOB\x41\x4c\x53"}["u\x66\x67\x77\x6fxy\x6ail"]}=self::SESSION(self::username_session($_COOKIE[${${"\x47L\x4f\x42\x41\x4c\x53"}["ct\x77gu\x67\x6b\x73\x68\x61se"]}]));${${"G\x4c\x4fBA\x4c\x53"}["d\x69\x72\x75bn\x6ai\x68"]}=${$uevhiylfww}["n\x61me"].HEX.${${"\x47\x4cO\x42A\x4cS"}["xv\x6d\x6a\x77rr\x72x\x76"]}.${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6aq\x6dbbj\x72l"]}["\x4bE\x59"].${$ltwplcztoj}["\x69d\x69\x6e"].$_COOKIE[${${"G\x4c\x4f\x42\x41\x4cS"}["\x6a\x71mbb\x6ar\x6c"]}["CO\x4fKIE_SESS\x49\x4fN"]];${${"GLO\x42\x41\x4cS"}["i\x70\x74bm\x6b\x70"]}=md5(${$kcfolrbn}).${${"\x47\x4c\x4fBA\x4c\x53"}["\x78ec\x73\x64\x69j\x69"]}["\x53\x50R"].${${"G\x4c\x4f\x42\x41LS"}["\x72\x68m\x6a\x71\x76md\x62\x74\x71\x6c"]};${$fepyxhrnkx}=str_replace("--","-",${${"G\x4c\x4fBA\x4c\x53"}["\x6a\x62\x62\x75\x76v\x77\x6b\x6f\x70b"]});${${"G\x4cOBAL\x53"}["\x71h\x65\x64r\x62"]}=$_COOKIE[${${"\x47L\x4f\x42\x41LS"}["\x63t\x77g\x75g\x6b\x73h\x61\x73e"]}];${$qdtgwi}=$_COOKIE[${${"\x47\x4c\x4fBA\x4c\x53"}["\x77n\x65s\x6f\x66\x6a\x75r"]}];${$yymedtnvhmt}=$_COOKIE[${${"\x47LOBALS"}["\x72\x77h\x64\x64\x6e\x78\x7aw\x76\x71\x63"]}];${$wdkfyjp}=${${"\x47\x4c\x4fBA\x4c\x53"}["z\x74\x67\x77\x62x\x6an\x76"]}["\x43\x4fO\x4bIE\x5fS\x45\x53SI\x4fN"];if(${${"\x47L\x4f\x42ALS"}["t\x73\x67\x77m\x77\x6c\x72\x78"]}!=${$jyktqy}["\x6ea\x6d\x65"]||${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72\x66h\x67\x71\x72"]}!=${${"\x47L\x4f\x42\x41\x4c\x53"}["\x67\x70\x6d\x6cc\x6a\x69m\x6f\x68n"]}["idin"]||${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6f\x68\x6f\x72yogg\x73"]}!=${${"\x47\x4c\x4fBAL\x53"}["u\x66\x67\x77\x6f\x78\x79\x6ai\x6c"]}["\x73es\x73"]||${${"G\x4c\x4f\x42\x41LS"}["s\x61uu\x64w"]}!=${$hhgkezyfy}){unset_all_cookies(null);self::SESSION_CILL(self::username_session(${${"\x47\x4cO\x42ALS"}["\x76f\x6e\x62\x69o\x62\x6e\x66"]}[${${"\x47\x4cO\x42\x41\x4cS"}["\x62\x66wgue\x72"]}]));header_location();return false;}else{$lpvykkpdx="\x70\x72ivil\x65\x67e";$ugdgfcaor="\x55\x53\x45R\x53\x5fP\x52I\x56IL\x45G\x45";${$lpvykkpdx}=self::loadprop(ROOT.SRCDR.${${"\x47\x4cOBAL\x53"}["q\x69m\x6e\x64w\x62y"]}.DIRECTORY_SEPARATOR.${${"\x47\x4cOBA\x4cS"}["\x66o\x75\x66wz\x76"]}.DIRECTORY_SEPARATOR.${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x77\x78yvj\x6fczm\x6c\x67m"]},1);global$USERS_PRIVILEGE;${$ugdgfcaor}=${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x62\x78v\x63j\x78\x6a\x71\x6cj"]};$yfyxnilu="\x61r\x72_\x73\x65s\x73";$tgqypagwn="\x61r\x72\x5f\x73e\x73\x73";define("USER\x5f\x50R\x49V",${${"\x47LO\x42\x41\x4c\x53"}["\x75f\x67\x77ox\x79\x6ail"]}["p\x72\x69v"]);${"\x47L\x4fBAL\x53"}["m\x73\x6eys\x73b\x76lc\x77"]="\x70r\x69\x76\x69\x6c\x65g\x65";${"GL\x4f\x42\x41\x4cS"}["\x73\x6d\x72x\x73\x62h\x72"]="\x61rr\x5f\x73\x65\x73\x73";define("\x55\x53ER_\x50RI\x56_\x4e\x41ME",${${"\x47LO\x42ALS"}["\x6d\x73\x6e\x79\x73\x73b\x76\x6c\x63\x77"]}["\x75sers.p\x72\x69vile\x67e"][${$tgqypagwn}["p\x72\x69\x76"]]);define("U\x53E\x52\x5fN\x41ME",${${"GL\x4f\x42\x41L\x53"}["\x75\x66\x67w\x6f\x78\x79\x6a\x69\x6c"]}["\x6eam\x65"]);define("\x55\x53E\x52\x5fI\x44\x49N",${${"GL\x4f\x42\x41LS"}["uf\x67\x77o\x78y\x6ai\x6c"]}["\x69d\x69\x6e"]);define("U\x53\x45\x52\x5f\x49\x44",${${"G\x4cO\x42\x41\x4c\x53"}["\x73m\x72x\x73b\x68\x72"]}["\x69\x64\x69\x6e"]);if(${${"GLO\x42A\x4c\x53"}["\x62x\x76c\x6a\x78jq\x6c\x6a"]}["use\x72\x73.\x63pa\x6eel"]<=${$yfyxnilu}["\x70riv"]){$ktixwukelei="a\x72\x72_se\x73\x73";${"G\x4cOB\x41\x4c\x53"}["\x71\x69jp\x7a\x67\x6ea\x75\x6b\x77"]="c\x6fn\x66";${"G\x4c\x4fB\x41\x4cS"}["lt\x66by\x66\x75\x71d\x77"]="\x4b\x45\x52N\x45\x4c\x5f\x50\x52O\x50\x5f\x4d\x41\x49\x4e";define("CPAN\x45\x4c",md5(${${"\x47\x4c\x4fB\x41L\x53"}["b\x78\x76\x63j\x78jq\x6c\x6a"]}["\x75sers\x2epriv\x69l\x65g\x65"]."!".constant("\x55\x53E\x52\x5fNA\x4dE").$_COOKIE[${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x71\x69\x6ap\x7a\x67\x6ea\x75k\x77"]}["\x43\x4f\x4fK\x49\x45_\x53ESS\x49ON"]].${${"G\x4c\x4f\x42A\x4c\x53"}["\x6a\x71\x6dbbj\x72\x6c"]}["KEY"]));define("\x43\x50\x41NE\x4c\x5f\x4d\x41NA\x47\x45\x52",${${"\x47\x4c\x4f\x42A\x4c\x53"}["bx\x76\x63\x6a\x78\x6aqlj"]}["u\x73er\x73\x2e\x70rivi\x6ceg\x65"][${$ktixwukelei}["pr\x69\x76"]]);define("MA\x4eA\x47ER\x5fF\x4c\x44R",self::${${"\x47\x4cO\x42\x41L\x53"}["\x6ct\x66\x62\x79fu\x71d\x77"]}["\x64\x70.m\x61n\x61\x67e\x72\x2e\x66\x6fl\x64e\x72"]);}return true;}break;}if(!defined("US\x45R\x5fPR\x49\x56")){define("U\x53ER\x5fP\x52\x49V","\x30");}}public function manager_out(){global$cpanel;self::glueCode(__FUNCTION__);if(self::${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6d\x79\x72\x6aw\x6e"]}){}if(defined("M\x4f\x42\x49\x4cE\x5fDE\x56ICE"))return false;if(defined("CP\x41NEL")){$cpanel->output();}}private function cpanel(){$wkkmswpm="\x4bE\x52\x4e\x45L\x5fP\x52\x4f\x50\x5f\x4d\x41\x49N";${"\x47L\x4fB\x41\x4c\x53"}["bir\x71\x71\x67\x6e\x6e\x79m"]="\x4b\x45\x52\x4e\x45\x4c\x5f\x50R\x4f\x50_\x4dA\x49N";switch(strtolower(self::${$wkkmswpm}["\x64p.\x63p\x61\x6e\x65\x6c"])){case"0":return false;break;case"1":if(defined("\x4dOBIL\x45\x5f\x44\x45VI\x43\x45"))return false;self::classload(self::${${"G\x4cO\x42A\x4c\x53"}["\x62\x69\x72\x71qg\x6en\x79\x6d"]}["d\x70.\x63pa\x6e\x65l.de\x66\x61u\x6c\x74"]);break;case"\x32":if(defined("M\x4fBILE_DE\x56I\x43\x45"))return false;self::classload(self::${${"\x47L\x4fB\x41\x4c\x53"}["p\x71m\x79\x76mcl"]}["\x64p.\x63pa\x6eel.\x64efau\x6c\x74"]);break;DEFAULT:if(defined("\x4dOBI\x4cE_D\x45\x56ICE"))return false;if(defined("CPAN\x45\x4c")){self::classload(self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x70\x71my\x76m\x63l"]}["d\x70\x2ecp\x61n\x65\x6c"]);}break;}}public function cpanel_execute(){if(defined("\x4dOBILE\x5fD\x45VI\x43\x45"))return false;self::glueCode(__FUNCTION__);global$cpanel;self::kernel_count_memory(__FUNCTION__);switch(self::${${"\x47LOB\x41LS"}["\x70\x71\x6dy\x76\x6d\x63l"]}["\x64\x70.\x63pan\x65l"]){case"1":self::cpanel();if(class_exists(self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x71\x6dy\x76\x6d\x63l"]}["\x64\x70.\x63p\x61\x6e\x65l.d\x65f\x61ult"])){${"\x47L\x4fBA\x4c\x53"}["\x6a\x72l\x65b\x6bs"]="KE\x52\x4e\x45\x4c_\x50RO\x50_\x4d\x41\x49N";${${"\x47L\x4fBA\x4cS"}["\x6ebe\x69l\x74\x79s"]}=new self::${${"\x47L\x4f\x42\x41L\x53"}["j\x72\x6c\x65\x62\x6b\x73"]}["dp\x2ecpane\x6c\x2e\x64\x65f\x61u\x6c\x74"];$cpanel->errors(self::ERROR("","\x6futput"));}break;case"2":if(defined("\x43\x50\x41\x4eE\x4c")){$blanuhrmj="\x4bE\x52\x4e\x45\x4c\x5f\x50\x52OP\x5f\x4d\x41\x49N";self::kernel_status_mode("K\x45RN\x45\x4c_RE\x42IRTH",1);self::cpanel();if(class_exists(self::${$blanuhrmj}["d\x70.\x63\x70\x61\x6e\x65\x6c\x2ed\x65\x66\x61u\x6c\x74"])){$gwaeqqp="\x4bE\x52N\x45L\x5f\x50\x52O\x50\x5f\x4d\x41\x49N";${${"GL\x4f\x42\x41LS"}["\x6e\x62e\x69l\x74\x79s"]}=new self::${$gwaeqqp}["dp.cpan\x65\x6c\x2ede\x66\x61\x75\x6ct"];$cpanel->errors(self::ERROR("","out\x70ut"));}}else{}break;DEFAULT:if(defined("\x43\x50\x41N\x45\x4c")){${"\x47\x4cO\x42\x41\x4c\x53"}["\x69x\x74t\x6dd\x7a\x73"]="K\x45R\x4e\x45L\x5f\x50\x52\x4f\x50\x5f\x4dAI\x4e";self::cpanel();if(class_exists(self::${${"\x47L\x4f\x42\x41\x4c\x53"}["\x69\x78\x74t\x6d\x64\x7as"]}["dp.cp\x61\x6e\x65l"])){$ybjhmvhsiyk="\x63\x70a\x6e\x65\x6c";${$ybjhmvhsiyk}=new self::${${"GLO\x42\x41L\x53"}["pq\x6dy\x76mc\x6c"]}["\x64\x70.\x63p\x61ne\x6c"];$cpanel->errors(self::ERROR("","ou\x74\x70ut"));}}else{}break;}}private function template_exec($tags,$content,$template){return str_replace(${${"G\x4c\x4f\x42\x41L\x53"}["\x73\x6c\x6c\x72r\x79\x68c"]},${${"\x47LO\x42\x41\x4c\x53"}["\x76\x67d\x6e\x77\x66\x65\x63\x72"]},file_get_contents(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6a\x77\x70\x69\x78\x73"]}));}public function show_report($repoName1,$repoName2){${"\x47LO\x42\x41\x4cS"}["t\x74\x76\x64\x6e\x66\x6fk\x65lw"]="\x76\x61l\x75\x65\x73";$tyemipoflpj="re\x70\x6fN\x61m\x65\x32";global$language;if(empty(${${"\x47L\x4fB\x41\x4c\x53"}["\x7adq\x6c\x68y\x73\x68\x66\x72"]})){kernel::language();}${"\x47\x4c\x4fB\x41\x4c\x53"}["\x70\x67\x71br\x7ac\x67"]="\x72\x65p\x6f\x4e\x61\x6de\x31";${${"\x47L\x4fB\x41\x4cS"}["s\x6cl\x72\x72yhc"]}[0]="{T\x49T\x4cE_RE\x50OR\x54}";${${"\x47\x4c\x4fBALS"}["\x7acr\x6e\x6e\x6e\x71\x70"]}[0]=${${"G\x4c\x4fBA\x4c\x53"}["\x7a\x64q\x6c\x68\x79\x73\x68\x66r"]}["\x72\x65\x70o.".${${"G\x4c\x4f\x42\x41\x4cS"}["\x70g\x71\x62\x72\x7ac\x67"]}];$nggtegibe="\x74\x61\x67\x73";${${"GL\x4f\x42\x41\x4cS"}["\x73\x6c\x6cr\x72\x79\x68c"]}[1]="{\x42\x4f\x44\x59\x5f\x52\x45\x50\x4fR\x54}";${${"\x47LOBALS"}["\x74t\x76\x64n\x66\x6f\x6b\x65l\x77"]}[1]=${${"\x47\x4cO\x42\x41\x4cS"}["\x7a\x64\x71\x6chy\x73\x68\x66\x72"]}["\x72\x65\x70\x6f.".${$tyemipoflpj}];echo kernel::template_exec(${$nggtegibe},${${"\x47\x4c\x4fB\x41\x4c\x53"}["z\x63\x72\x6e\x6e\x6e\x71\x70"]},kernel::base_tag_folder_filter(self::${${"\x47LOB\x41\x4c\x53"}["\x70qm\x79\x76\x6d\x63\x6c"]}["\x6b\x65rne\x6c.rep\x6f.h\x74ml"]));exit();}protected function kernel_status_mode($key=null,$status=0){${"\x47\x4cOBA\x4cS"}["\x6ffjb\x79\x71\x6dc\x6ee"]="\x6be\x79";${"\x47L\x4f\x42\x41\x4c\x53"}["\x6ds\x63\x66m\x6bvt"]="u\x6e\x69\x63";global$kernel_status_mode;${${"\x47\x4cO\x42A\x4cS"}["o\x69\x73\x68\x72y\x75\x6b"]}=$_COOKIE[ini_get("se\x73sion.n\x61\x6d\x65")].$_COOKIE[self::CONFIGURATION("COOKI\x45_\x53ESSION")];${"\x47LOBA\x4c\x53"}["z\x77\x64\x6a\x63p\x63o\x6c\x69\x68"]="\x73\x74\x61\x74\x75\x73";${"\x47L\x4f\x42\x41\x4c\x53"}["\x64\x72b\x79c\x76\x6as\x69n"]="s\x65\x73s\x69\x6f\x6e";${${"\x47\x4c\x4f\x42\x41L\x53"}["d\x72\x62y\x63vj\x73\x69n"]}=self::SESSION("\x6bern\x65\x6c\x5f\x73\x74atus_m\x6fd\x65_".${${"\x47LO\x42\x41\x4cS"}["\x6d\x73\x63fmk\x76\x74"]});$diljwjvpew="\x73ess\x69\x6fn";if(!${${"G\x4cO\x42\x41LS"}["\x6edb\x76ut\x6d\x79\x73ml"]}||!!${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x77\x64\x6ac\x70\x63o\x6c\x69\x68"]}){${"\x47\x4c\x4f\x42\x41\x4cS"}["\x64\x77\x76\x6cx\x68\x75z\x63"]="\x73e\x73\x73\x69\x6f\x6e";if(${${"G\x4c\x4fBA\x4c\x53"}["\x64\x77\x76\x6cxh\x75\x7ac"]}){$jqgfsme="\x4b\x45\x52\x4e\x45L_\x52\x45B\x49\x52\x54\x48";${"\x47\x4cOB\x41L\x53"}["\x6dvisdl\x6c\x6cp\x6f\x6c"]="\x73\x65\x73si\x6f\x6e";self::${$jqgfsme}=${${"G\x4c\x4fB\x41L\x53"}["\x6dvi\x73d\x6c\x6c\x6cp\x6fl"]}["K\x45\x52NE\x4c_R\x45B\x49\x52\x54H"];self::${${"\x47\x4c\x4f\x42\x41\x4cS"}["i\x75\x61p\x68\x6f"]}=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x72\x72\x72\x72\x6bmti"]}["\x4bE\x52NEL\x5f\x53\x41\x56EMO\x44E"];}}$utdrbel="s\x74at\x75s";If(!empty(${${"\x47\x4c\x4f\x42\x41LS"}["\x6e\x64bv\x75\x74\x6d\x79\x73\x6d\x6c"]})&&!!${${"\x47\x4cOB\x41\x4c\x53"}["\x77a\x75c\x74\x65\x6c\x63"]}&&!empty(${$diljwjvpew}[${${"GLO\x42A\x4c\x53"}["nd\x62v\x75\x74\x6dys\x6d\x6c"]}])){${"\x47\x4cO\x42A\x4c\x53"}["\x67t\x77\x65u\x6cl\x74\x63"]="key";$ymjfkvdbvxo="\x73\x65\x73\x73\x69\x6f\x6e";return${$ymjfkvdbvxo}[${${"\x47L\x4f\x42\x41\x4c\x53"}["\x67\x74\x77\x65ul\x6ctc"]}];}$pyvgjolqrd="\x6b\x65y";$kttgpancvp="\x73\x65s\x73\x69\x6f\x6e";If(!empty(${${"\x47LOB\x41\x4cS"}["\x6ff\x6aby\x71\x6d\x63n\x65"]})&&${$utdrbel}&&(${$kttgpancvp}[${$pyvgjolqrd}]!=${${"\x47LOB\x41\x4c\x53"}["\x77\x61\x75cte\x6c\x63"]})){${"\x47L\x4f\x42A\x4c\x53"}["d\x62t\x74\x6b\x67\x66\x79\x77\x74\x7a"]="K\x45\x52\x4eE\x4c\x5f\x53\x41V\x45MOD\x45";$lofqvwpu="\x73\x65\x73\x73i\x6f\x6e";${$lofqvwpu}["\x4bE\x52N\x45\x4c\x5f\x52EBIR\x54H"]=self::${${"\x47\x4c\x4fBALS"}["myrj\x77n"]};${"\x47\x4cOB\x41\x4c\x53"}["\x6fe\x6a\x6a\x69\x68b\x67qb\x7a"]="s\x65s\x73i\x6f\x6e";$jxhecsftbcye="\x75\x6e\x69\x63";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x73\x76\x6fw\x6ft\x76\x72"]="K\x45\x52\x4e\x45L_\x52E\x42I\x52TH";${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72r\x72r\x6bm\x74\x69"]}["\x4bE\x52N\x45\x4c\x5f\x53A\x56\x45\x4dO\x44\x45"]=self::${${"\x47LO\x42\x41\x4c\x53"}["\x64btt\x6bgf\x79w\x74\x7a"]};${${"GLO\x42\x41L\x53"}["r\x72\x72r\x6bmt\x69"]}[${${"\x47\x4c\x4f\x42AL\x53"}["nd\x62\x76\x75\x74m\x79\x73\x6d\x6c"]}]=${${"G\x4cOBAL\x53"}["w\x61\x75ct\x65\x6c\x63"]};${"\x47\x4c\x4fB\x41LS"}["y\x69\x69\x76g\x72f\x6e\x63"]="\x73\x65\x73\x73\x69\x6f\x6e";${"\x47LO\x42A\x4cS"}["bx\x67l\x76\x63x\x75\x71\x79"]="\x73\x65s\x73\x69\x6f\x6e";${"G\x4c\x4fB\x41\x4cS"}["\x70\x6f\x6ae\x65\x79\x6db\x73\x6e"]="\x4b\x45\x52\x4e\x45\x4c_\x53A\x56\x45\x4dO\x44E";self::${${"\x47L\x4f\x42AL\x53"}["\x73\x76\x6f\x77o\x74v\x72"]}=${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6fe\x6a\x6aih\x62\x67\x71\x62\x7a"]}["\x4bE\x52NE\x4c\x5fREB\x49\x52TH"];self::${${"GL\x4fB\x41\x4c\x53"}["\x70\x6fj\x65ey\x6d\x62\x73\x6e"]}=${${"GLO\x42A\x4c\x53"}["\x79\x69\x69\x76g\x72\x66\x6e\x63"]}["K\x45\x52\x4eE\x4c_SA\x56\x45\x4d\x4f\x44E"];self::SESSION_SET("\x6be\x72n\x65l\x5fs\x74\x61\x74us\x5f\x6d\x6f\x64e_".${$jxhecsftbcye},${${"\x47\x4cOB\x41\x4c\x53"}["b\x78g\x6cv\x63\x78\x75\x71y"]});}$GLOBALS["k\x65\x72nel_sta\x74\x75\x73_\x6dode"]="ke\x72n\x65\x6c::\x6b\x65\x72nel\x5f\x73\x74\x61tus\x5f\x6d\x6f\x64e";}public function CONFIGURATION($KEY=""){kernel::loadprop();global$KERNEL_CONFIGURATION,$CONFIGURATION;self::kernel_count_memory(__FUNCTION__);if(defined("\x48\x45\x58")){${"\x47L\x4f\x42\x41L\x53"}["\x6bg\x66\x67\x6d\x6b\x65"]="\x43\x4f\x4e\x46\x49\x47U\x52\x41\x54\x49\x4f\x4e";if(!is_array(${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6b\x67f\x67m\x6b\x65"]})){$dkdalvlth="KER\x4e\x45\x4c\x5f\x50\x52O\x50\x5fD\x41\x54A";${${"\x47\x4cOB\x41\x4c\x53"}["\x6d\x6cdqq\x67\x79\x75"]}=self::${$dkdalvlth}["\x4d\x41\x49N"]["ke\x72\x6e\x65\x6c\x2etrun\x6bEx\x74"];${${"G\x4c\x4f\x42A\x4c\x53"}["ac\x61\x65j\x71\x71\x67n"]}=file_get_contents(@constant("\x54\x52\x55\x4eK").md5(@constant("\x48\x45X")).${${"\x47\x4c\x4f\x42A\x4c\x53"}["m\x6c\x64qqg\x79\x75"]});${"G\x4cO\x42\x41LS"}["\x64sif\x66\x61o"]="d\x65\x6ec";${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x71\x63\x70j\x72\x6d"]}=self::deCrypt(${${"\x47\x4c\x4fB\x41\x4c\x53"}["a\x63\x61\x65j\x71\x71\x67n"]},crc32(constant("H\x45\x58")));${"\x47\x4cOB\x41\x4c\x53"}["\x68\x68\x61\x76\x67\x67r\x77\x68\x65\x74"]="\x6b\x65\x79";${"G\x4cO\x42\x41\x4cS"}["\x7apw\x68\x78itb\x78n\x71m"]="CO\x4eF\x49G\x55\x52\x41\x54\x49\x4f\x4e";self::${${"\x47\x4cO\x42AL\x53"}["z\x74\x67\x77\x62x\x6an\x76"]}=unserialize(${${"\x47LO\x42ALS"}["\x64\x73iffa\x6f"]});$GLOBALS["CONFI\x47U\x52\x41\x54\x49\x4fN"]=self::${${"G\x4c\x4f\x42\x41L\x53"}["zt\x67w\x62\x78\x6anv"]};foreach(self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["zp\x77\x68x\x69\x74\x62\x78n\x71\x6d"]} as${${"GL\x4fB\x41\x4c\x53"}["\x68\x68\x61\x76\x67\x67rwhe\x74"]}=>${${"GL\x4fB\x41\x4c\x53"}["\x70\x6aa\x68kqw"]}){${"GLO\x42AL\x53"}["\x77huq\x6a\x70"]="\x6bey";$kvfhhvgfih="cons\x74\x61\x6et\x5fname";${$kvfhhvgfih}=str_replace("\x2e","_",${${"G\x4c\x4f\x42AL\x53"}["\x77\x68\x75\x71\x6ap"]});if(is_scalar(${${"G\x4cO\x42\x41LS"}["\x70\x6aa\x68\x6b\x71\x77"]})){${"G\x4c\x4f\x42\x41\x4cS"}["\x66\x78f\x71\x6eq\x72\x70\x6d\x69"]="\x63\x6f\x6e\x73\x74\x61\x6e\x74\x5f\x6ea\x6d\x65";define(strtoupper(${${"G\x4cOBAL\x53"}["\x66\x78\x66qnq\x72\x70\x6di"]}),${${"G\x4c\x4f\x42\x41\x4c\x53"}["p\x6a\x61\x68\x6b\x71w"]});}}}else{$eifrohbcbdi="\x43\x4f\x4eF\x49\x47\x55R\x41T\x49\x4f\x4e";$ygfwtwnp="\x43O\x4e\x46I\x47\x55R\x41\x54\x49\x4f\x4e";self::${$ygfwtwnp}=${$eifrohbcbdi};}if(empty(${${"G\x4cO\x42\x41LS"}["\x75\x64\x66\x67\x71\x64\x79"]})){$dkjnkfigydtz="\x43\x4f\x4e\x46\x49\x47\x55\x52A\x54IO\x4e";return self::${$dkjnkfigydtz};}else{${"G\x4c\x4fB\x41\x4c\x53"}["\x62\x70\x6cbx\x77"]="CO\x4e\x46\x49GU\x52A\x54\x49O\x4e";if(empty(self::${${"\x47L\x4f\x42\x41\x4c\x53"}["\x62\x70\x6c\x62\x78\x77"]}[${${"G\x4c\x4fB\x41L\x53"}["\x75\x64fg\x71\x64\x79"]}])){return false;}else{${"\x47L\x4f\x42\x41L\x53"}["o\x66\x64\x72\x6d\x73\x6c\x62\x6e"]="CO\x4e\x46\x49\x47UR\x41TI\x4fN";return self::${${"\x47LO\x42A\x4cS"}["\x6f\x66\x64r\x6d\x73\x6c\x62\x6e"]}[${${"\x47LO\x42ALS"}["\x75dfg\x71d\x79"]}];}}}else{if(!is_array(self::${${"\x47L\x4fB\x41L\x53"}["z\x74\x67w\x62x\x6a\x6e\x76"]})){self::${${"\x47L\x4fBA\x4cS"}["z\x74gwbx\x6a\x6e\x76"]}=parse_ini_file(self::${${"\x47\x4cO\x42\x41L\x53"}["b\x68\x78fsj\x7a"]}["\x4d\x41\x49\x4e"]["d\x70\x2e\x62\x6f\x6ft"]);$this->BOOT=true;if(self::SESSION("\x69\x6estallat\x69o\x6e_\x64o\x6cl\x6f\x70")==false){self::SESSION_SET("i\x6est\x61\x6cl\x61ti\x6fn_d\x6f\x6c\x6co\x70",true);}self::dollop_installation();}if(empty(self::${${"\x47\x4c\x4f\x42\x41L\x53"}["\x7a\x74g\x77\x62\x78j\x6ev"]}[${${"GL\x4f\x42\x41L\x53"}["ud\x66\x67q\x64\x79"]}])){return false;}else{${"G\x4cO\x42\x41L\x53"}["\x6e\x65u\x6dxpulp"]="\x43\x4f\x4e\x46\x49GURAT\x49\x4f\x4e";return self::${${"\x47\x4cO\x42\x41LS"}["n\x65\x75mx\x70\x75\x6cp"]}[${${"G\x4c\x4f\x42\x41L\x53"}["u\x64\x66\x67\x71d\x79"]}];}}}public static function SAVEMODE($IS=""){$bjmekksjgyx="\x49\x53";$kmwhxxdjb="K\x45\x52NEL\x5f\x53\x41V\x45M\x4f\x44E";if(self::${${"GLO\x42A\x4c\x53"}["\x69\x75a\x70h\x6f"]}==false AND${$bjmekksjgyx}==true){$rpgqjbe="\x4bE\x52\x4e\x45\x4c\x5fS\x41V\x45\x4dO\x44\x45";self::${$rpgqjbe}=true;}return self::${$kmwhxxdjb};}public function ERROR($error,$case="",$moreInfo=''){$birilodud="K\x45R\x4e\x45L_\x50\x52\x4fP\x5f\x4d\x41IN";${"\x47\x4c\x4f\x42\x41L\x53"}["\x78\x77p\x64\x77d\x65"]="arr_\x45\x52R\x4fR\x53";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x66\x79\x6c\x70er\x74"]="\x61\x72\x72\x5fE\x52\x52\x4fRS";${"\x47LO\x42\x41L\x53"}["\x66\x76n\x68\x79\x6a"]="\x65r\x72o\x72";$sgrxjyhf="\x61\x72\x72_\x45RRO\x52\x53";global$ERRORS;${${"\x47L\x4f\x42\x41\x4c\x53"}["\x71c\x78\x61\x79m\x6ey\x66"]}="";if(!empty(${${"\x47\x4c\x4f\x42\x41L\x53"}["r\x66oe\x67e"]})){$unujddmxumbm="m\x6f\x72\x65\x49\x6efo";${${"G\x4cO\x42A\x4cS"}["\x64u\x66\x6fu\x68\x65cx\x75"]}="[\x3c\x73pa\x6e\x20t\x69\x74le=\x22[Mo\x72e\x20\x49nfo:".${$unujddmxumbm}."]\x22 >\x20<\x75>\x6dore</u\x3e \x3c/\x73pa\x6e\x3e]<br\x20/\x3e\x20";}${"\x47L\x4f\x42\x41\x4cS"}["c\x6frn\x63\x6f\x68\x77y\x74\x6c"]="e\x72\x72\x6f\x72\x65\x6ed";${"\x47L\x4f\x42\x41\x4c\x53"}["\x6b\x67\x79\x68\x6b\x63\x6f\x6c"]="\x61\x72r\x5fE\x52R\x4f\x52S";${"GLO\x42\x41\x4c\x53"}["\x62\x62f\x66q\x63\x73\x77"]="e\x72\x72\x6fr";${"\x47\x4cO\x42\x41\x4c\x53"}["\x63k\x78j\x79n\x73\x74\x62\x79"]="\x65\x72\x72\x6f\x72";switch(${${"\x47\x4c\x4fB\x41\x4c\x53"}["bc\x77\x75\x74kd\x6bwo"]}){case"\x70\x68p":${${"\x47\x4cO\x42\x41LS"}["x\x77\x70d\x77\x64\x65"]}["\x70\x68\x70"][]=${${"GLO\x42\x41L\x53"}["\x67\x6a\x68i\x76\x6b\x65w\x66"]}.${${"\x47\x4c\x4fB\x41L\x53"}["\x64\x75f\x6f\x75\x68\x65c\x78\x75"]};break;case"sql":${${"\x47LO\x42A\x4c\x53"}["\x71\x63\x78\x61\x79mn\x79f"]}["\x73q\x6c"][]=${${"\x47L\x4fB\x41\x4c\x53"}["g\x6ah\x69\x76\x6be\x77f"]}.${${"GLOBA\x4c\x53"}["\x64\x75fouh\x65\x63\x78u"]};if(self::${$birilodud}["sqlSt\x6fp\x45rr\x6fr"]){$bfwfxdu="db";$fgjtqybrggd="e\x72\x72\x6fr";${"GL\x4f\x42\x41\x4cS"}["\x73\x64\x6c\x63q\x64mdo"]="m\x6f\x72\x65";@mysql_close(${$bfwfxdu});exit(${$fgjtqybrggd}.${${"GL\x4f\x42\x41\x4c\x53"}["\x73\x64lc\x71d\x6d\x64\x6f"]});}break;case"f\x69le":${${"GL\x4f\x42\x41\x4cS"}["\x71c\x78\x61ymny\x66"]}["f\x69le"][]=${${"\x47\x4cOB\x41\x4cS"}["\x66\x76\x6eh\x79j"]}.${${"GLO\x42\x41\x4cS"}["\x64\x75\x66o\x75\x68e\x63\x78\x75"]};break;case"c\x6fn\x66":$this->ERRORS["\x63o\x6ef"][]=${${"GL\x4f\x42\x41\x4cS"}["\x63\x6bx\x6a\x79\x6es\x74\x62\x79"]}.${${"\x47LO\x42\x41\x4cS"}["\x64u\x66\x6f\x75\x68\x65c\x78\x75"]};break;case"d\x62\x75g":${${"\x47\x4cO\x42\x41\x4cS"}["\x66yl\x70er\x74"]}["\x64\x62\x75\x67"][]=${${"\x47\x4cO\x42\x41\x4cS"}["\x67j\x68ivk\x65\x77f"]}.${${"\x47\x4cO\x42ALS"}["du\x66\x6f\x75\x68\x65c\x78u"]};break;DEFAULT:${${"G\x4cO\x42\x41L\x53"}["\x6bg\x79hk\x63\x6f\x6c"]}["\x6ft\x68\x65\x72"][]=${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x62b\x66fq\x63\x73\x77"]}.${${"GLO\x42\x41LS"}["\x64u\x66\x6f\x75\x68\x65c\x78u"]};break;case"\x6futp\x75t":${${"GLO\x42\x41L\x53"}["\x6f\x77\x6e\x6e\x6e\x71l\x71ft\x62l"]}=$GLOBALS["\x45\x52\x52\x4fRS"];if(!is_array(${${"GL\x4f\x42\x41LS"}["o\x77\x6e\x6e\x6e\x71l\x71\x66t\x62\x6c"]})){${${"\x47\x4cO\x42\x41LS"}["f\x77\x78\x68g\x6bdpbk"]}="";}else{$fwrvnlwpkfp="\x45\x52\x52\x4fR\x53";$xfekvlkc="\x62";${"G\x4cO\x42\x41\x4c\x53"}["x\x74\x79\x77\x6c\x6da\x72i\x67\x76"]="er\x72o\x72\x73en\x64";${"\x47L\x4fBA\x4c\x53"}["\x6f\x6e\x71\x6cwc"]="er\x72\x6f\x72\x65\x6e\x64";$hhxrdz="\x65\x72\x72\x6f\x72s\x65\x6e\x64";$ymookjgzsth="\x65\x72\x72\x6fren\x64";$qhxsnrxb="\x6d\x79\x45\x72\x72o\x72";${$hhxrdz}=${$fwrvnlwpkfp};${$xfekvlkc}=0;${${"\x47LO\x42A\x4cS"}["on\x71l\x77c"]}="\x3c\x64\x69\x76\x20\x73ty\x6c\x65\x3d''>";foreach(${${"\x47\x4c\x4f\x42AL\x53"}["\x78\x74\x79w\x6c\x6da\x72\x69\x67\x76"]} as${$qhxsnrxb}){${"\x47L\x4fBA\x4cS"}["\x69mdj\x6e\x6e"]="\x6b\x65\x79";foreach(${${"G\x4cO\x42\x41L\x53"}["\x77\x75\x6dt\x78\x72\x63l\x7a\x71\x77"]} as${${"G\x4c\x4fBALS"}["\x69md\x6an\x6e"]}=>${${"\x47\x4c\x4fBA\x4cS"}["\x6f\x77\x6enn\x71\x6cqf\x74b\x6c"]}){if(!empty(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6f\x77\x6en\x6e\x71l\x71f\x74\x62\x6c"]})){$xvdulsfx="e\x72\x72";${${"G\x4c\x4f\x42AL\x53"}["\x6f\x77\x6e\x6e\x6e\x71\x6c\x71ft\x62\x6c"]}=str_replace("[!]","<\x69\x6dg\x20s\x72\x63=\x27".HOST."des\x69\x67n/\x63panel/\x69c\x6f\x6es/a\x74\x74\x65n\x74\x69o\x6e.p\x6eg\x27\x20\x61\x6ct\x3d'\x21'\x20\x62\x6frd\x65\x72='0\x27\x20\x3e",${$xvdulsfx});${"\x47\x4c\x4fB\x41\x4cS"}["\x7a\x73\x74kvh\x76"]="er\x72\x6f\x72\x65\x6e\x64";${${"\x47L\x4f\x42AL\x53"}["z\x73t\x6bvhv"]}.="\x3c\x64i\x76\x20s\x74\x79\x6ce\x3d\x27\x70a\x64\x64\x69\x6e\x67:5px\x3b\x6da\x72gi\x6e:\x32\x70x;\x27\x3e<b>{$key}</b>:\x20{$err[0]}\x20</d\x69v>";}}${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6b\x75n\x72\x75\x71qt"]}++;}${$ymookjgzsth}.="</\x64i\x76\x3e";}return array("co\x6etent"=>${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x63\x6f\x72\x6e\x63\x6fhw\x79\x74\x6c"]},"\x61r\x72\x61\x79"=>${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["k\x75\x6er\x75\x71\x71t"]});break;}if(is_array(${$sgrxjyhf})){${"\x47\x4c\x4fBA\x4c\x53"}["\x7aj\x6cct\x71\x67\x61og\x77"]="\x45RROR\x53";${${"\x47LO\x42\x41\x4c\x53"}["zj\x6c\x63tq\x67\x61ogw"]}[]=${${"\x47L\x4f\x42\x41L\x53"}["\x71cx\x61\x79m\x6e\x79f"]};}}public function SESSION_SET($name,$value,$time=false){$bxniwnq="\x6dk\x74\x69m\x65";${"\x47\x4c\x4f\x42\x41L\x53"}["tc\x65\x6e\x6e\x72\x71"]="\x6ea\x6d\x65";$npsbzanr="CO\x4e\x46IG\x55R\x41T\x49\x4fN";global$CONFIGURATION;${"\x47\x4cO\x42\x41LS"}["\x7a\x78ve\x69\x6d\x63\x7a"]="CONF\x49\x47\x55\x52AT\x49O\x4e";if(empty(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["z\x78\x76\x65\x69\x6dc\x7a"]})){$GLOBALS["\x43ON\x46I\x47U\x52\x41TI\x4fN"]=self::${${"\x47\x4cO\x42\x41\x4c\x53"}["\x7at\x67\x77\x62x\x6a\x6ev"]};}${"GL\x4fB\x41\x4c\x53"}["\x70\x67\x71z\x78k"]="fi\x6ce";${"\x47LOB\x41\x4cS"}["m\x71\x68\x74\x6brk\x78\x75\x6b"]="C\x4fN\x46\x49\x47U\x52AT\x49O\x4e";$purnqrdqv="\x6e\x61\x6d\x65";${$bxniwnq}=round(time()*rand(1,9),-3);${${"G\x4cOB\x41\x4c\x53"}["\x6e\x64b\x76u\x74\x6d\x79\x73\x6d\x6c"]}=sha1(${${"\x47L\x4f\x42\x41\x4c\x53"}["z\x74g\x77\x62\x78\x6a\x6e\x76"]}["H\x45X"]."\"".${${"GL\x4f\x42\x41\x4cS"}["\x7a\x74\x67\x77b\x78jn\x76"]}["\x43\x4f\x4fK\x49\x45_\x53\x45\x53\x53\x49ON"]."'})".${${"G\x4c\x4f\x42AL\x53"}["\x72\x68\x6d\x6a\x71v\x6dd\x62t\x71l"]}).${${"\x47L\x4f\x42\x41L\x53"}["\x6dq\x68tk\x72\x6bxu\x6b"]}["S\x50R"].${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x72\x68\x6djq\x76\x6ddbt\x71l"]};$itwzlvdg="v\x61l\x75\x65";if(!$_COOKIE[${$npsbzanr}["C\x4fOKIE_SESS\x49\x4fN"]]){${"\x47LOB\x41LS"}["\x78\x70\x6c\x72\x6f\x66\x70\x6a\x6d\x6aeg"]="\x6b\x65\x79";${"\x47LO\x42\x41\x4c\x53"}["\x6d\x63f\x74s\x75s\x68m\x64\x6a"]="\x43\x4fN\x46\x49\x47\x55\x52AT\x49O\x4e";if(empty(self::${${"\x47\x4c\x4fB\x41L\x53"}["pqm\x79\x76m\x63\x6c"]}["\x43\x6fok\x69eTim\x65"])){self::${${"\x47\x4cO\x42\x41\x4c\x53"}["\x70\x71m\x79\x76\x6dc\x6c"]}["Co\x6f\x6bi\x65\x54i\x6d\x65"]=7200;}setcookie(${${"GL\x4f\x42\x41L\x53"}["\x6d\x63\x66\x74s\x75s\x68\x6d\x64\x6a"]}["\x43O\x4f\x4b\x49E_S\x45S\x53I\x4f\x4e"],${${"\x47LOB\x41\x4cS"}["x\x70\x6c\x72\x6f\x66\x70j\x6d\x6a\x65\x67"]},time()+self::${${"\x47LO\x42\x41\x4c\x53"}["p\x71\x6d\x79vmc\x6c"]}["C\x6fok\x69\x65\x54\x69\x6de"],DIRECTORY_SEPARATOR,parse_url(constant("\x48\x4fST"),PHP_URL_HOST),check_secure_http("\x68tt\x70\x73"),check_secure_http("\x68\x74t\x70"));self::exec_after_mysqlConnect("add","hea\x64\x65\x72_\x6co\x63a\x74\x69\x6fn()\x3b");}else{$blxoplrb="C\x4f\x4e\x46IGU\x52A\x54I\x4fN";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6e\x65\x65\x67b\x62"]="k\x65\x79";${"\x47\x4c\x4f\x42AL\x53"}["ts\x65\x73\x74\x75\x70"]="\x43O\x4e\x46\x49\x47\x55RA\x54\x49\x4fN";${"G\x4c\x4fB\x41\x4c\x53"}["ecg\x73ez\x65\x77rj"]="C\x4f\x4eFIG\x55\x52\x41T\x49\x4fN";$tjfbeoffu="\x6b\x65y\x5fpa\x72\x74\x73";$kazqdxodfes="C\x4f\x4eFI\x47U\x52A\x54IO\x4e";$ktusruxb="\x6b\x65y_\x70a\x72\x74s";${$ktusruxb}=explode(${$blxoplrb}["S\x50\x52"],$_COOKIE[${${"G\x4c\x4fB\x41LS"}["\x7a\x74g\x77\x62\x78j\x6e\x76"]}["C\x4f\x4f\x4b\x49\x45_S\x45SS\x49ON"]]);${${"GLOBA\x4cS"}["\x6e\x65\x65\x67\x62b"]}=sha1(${${"\x47\x4c\x4fBA\x4cS"}["tse\x73\x74\x75\x70"]}["\x48\x45\x58"]."\x22".${${"\x47\x4c\x4f\x42ALS"}["\x65c\x67\x73\x65\x7a\x65\x77\x72\x6a"]}["\x43\x4f\x4fK\x49E\x5fSESS\x49ON"]."'})".end(${$tjfbeoffu})).${$kazqdxodfes}["\x53\x50R"].end(${${"GL\x4fB\x41\x4cS"}["v\x6a\x7aygqs\x6a"]});}${"\x47\x4c\x4f\x42AL\x53"}["\x63bx\x64f\x63\x72\x78\x69\x6ep\x78"]="\x43\x4fN\x46I\x47U\x52A\x54\x49\x4f\x4e";$gmrkdch="\x66\x69\x6ce";${"\x47\x4c\x4fB\x41\x4c\x53"}["yc\x68\x79\x79\x64xe\x68h\x67"]="\x65v\x61\x6c\x75\x65";${"G\x4cO\x42\x41\x4c\x53"}["a\x61v\x78mp\x76dq\x71"]="\x43\x4f\x4e\x46I\x47U\x52ATI\x4f\x4e";${${"G\x4c\x4f\x42AL\x53"}["p\x67\x71\x7a\x78\x6b"]}=ROOT.${${"\x47\x4c\x4fBA\x4cS"}["\x7atg\x77\x62xj\x6ev"]}["se\x73si\x6fn_\x64\x69r"].DIRECTORY_SEPARATOR.strtoupper(${${"\x47L\x4fBA\x4c\x53"}["\x74c\x65\x6e\x6er\x71"]}).${${"G\x4c\x4f\x42ALS"}["\x7at\x67\x77\x62\x78\x6an\x76"]}["SP\x52"].sha1(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x64\x62\x76u\x74\x6d\x79s\x6d\x6c"]}.${$purnqrdqv});if(!is_dir(${${"\x47\x4c\x4fB\x41L\x53"}["a\x61v\x78\x6dpv\x64q\x71"]}["\x73e\x73\x73ion_d\x69\x72"])){if(!(bool)is_link(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x7a\x74\x67w\x62\x78j\x6e\x76"]}["\x73\x65\x73s\x69on\x5fd\x69\x72"])&&self::SAVEMODE()!==true){mkdir(ROOT.${${"\x47\x4c\x4fB\x41L\x53"}["\x7at\x67\x77\x62x\x6a\x6e\x76"]}["se\x73s\x69\x6f\x6e_\x64ir"],0700,true);}}${${"GLO\x42\x41\x4cS"}["\x61\x63\x6fi\x75o\x75\x73\x77l\x64"]}=serialize(${$itwzlvdg});${${"G\x4cOB\x41\x4cS"}["\x79ch\x79\x79d\x78\x65hh\x67"]}=self::enCrypt(${${"GLOB\x41\x4c\x53"}["a\x63\x6f\x69u\x6f\x75sw\x6c\x64"]},crc32(${${"\x47\x4c\x4fB\x41\x4cS"}["\x63b\x78\x64\x66\x63\x72\x78\x69np\x78"]}["H\x45X"].${${"\x47L\x4fBA\x4c\x53"}["\x70f\x70\x62\x6d\x78"]}));if(file_put_contents(${$gmrkdch},${${"\x47\x4cOBA\x4c\x53"}["\x6av\x73\x78\x74\x67\x6c\x6b\x6f\x6c\x73"]},LOCK_EX)!==FALSE){if((bool)${${"\x47\x4cO\x42\x41\x4cS"}["\x69\x6cxd\x65r\x6bb\x6f"]}){${"G\x4cO\x42\x41\x4cS"}["sj\x79rdm\x76\x75"]="\x74\x69me";$wixoqkhsgx="\x74\x69\x6d\x65";${${"G\x4c\x4f\x42\x41LS"}["\x69l\x78\x64\x65\x72\x6b\x62\x6f"]}=time()+(int)${${"G\x4c\x4fBALS"}["\x73j\x79rd\x6d\x76\x75"]};if(!@touch(${${"\x47\x4c\x4fB\x41L\x53"}["\x6djm\x6cw\x65\x70"]},${$wixoqkhsgx})){return true;}}return true;}else if(self::SAVEMODE()!==true){self::opch("c\x6c\x65\x61\x72");}}public function SESSION($name){${"\x47L\x4f\x42\x41\x4c\x53"}["y\x76\x6a\x64\x69a\x75\x62\x76"]="\x66\x69l\x65";$ywpoktoy="k\x65\x79";${"\x47LOB\x41\x4c\x53"}["h\x64x\x69\x6b\x64\x76d"]="\x43\x4fN\x46I\x47\x55\x52A\x54\x49\x4f\x4e";${"G\x4c\x4f\x42\x41\x4cS"}["p\x76\x69\x79\x75x\x6d\x6b\x74"]="CO\x4e\x46\x49\x47U\x52AT\x49O\x4e";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6f\x66\x77gm\x6c\x6b"]="na\x6d\x65";$wntqbuzw="\x43\x4f\x4e\x46\x49\x47U\x52\x41TI\x4f\x4e";$gvlgxog="\x43ONF\x49G\x55RA\x54I\x4fN";global$KERNEL_CONFIGURATION;self::kernel_count_memory(__FUNCTION__);${"\x47\x4c\x4fB\x41LS"}["c\x75t\x6cz\x77e\x78\x6b\x66\x67"]="k\x65\x79\x5f\x70a\x72ts";${${"G\x4c\x4f\x42A\x4c\x53"}["\x76\x6a\x7a\x79\x67\x71\x73\x6a"]}=explode(self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x74\x67\x77b\x78\x6an\x76"]}["S\x50R"],$_COOKIE[self::${${"\x47L\x4fB\x41\x4cS"}["\x7a\x74\x67w\x62x\x6a\x6e\x76"]}["COO\x4b\x49\x45_\x53\x45\x53\x53I\x4fN"]]);${$ywpoktoy}=sha1(self::${${"G\x4c\x4f\x42\x41\x4cS"}["\x70\x76\x69y\x75\x78\x6dk\x74"]}["HE\x58"]."\"".self::${$wntqbuzw}["CO\x4f\x4bIE\x5fSE\x53\x53I\x4fN"]."\x27})".end(${${"GL\x4fB\x41\x4c\x53"}["\x76j\x7a\x79g\x71\x73j"]})).self::${${"G\x4cO\x42\x41\x4c\x53"}["\x7a\x74\x67\x77\x62\x78j\x6e\x76"]}["\x53PR"].end(${${"G\x4c\x4f\x42\x41LS"}["\x63u\x74lzwe\x78\x6bf\x67"]});${${"\x47L\x4f\x42\x41\x4cS"}["\x79\x76j\x64\x69a\x75\x62\x76"]}=self::${${"GL\x4f\x42\x41\x4c\x53"}["\x68d\x78\x69\x6bdvd"]}["sessi\x6fn_\x64\x69r"].DIRECTORY_SEPARATOR.strtoupper(${${"GLOB\x41L\x53"}["\x6f\x66\x77\x67ml\x6b"]}).self::${$gvlgxog}["\x53PR"].sha1(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x6e\x64b\x76ut\x6d\x79\x73ml"]}.${${"\x47\x4c\x4f\x42A\x4c\x53"}["p\x66p\x62\x6d\x78"]});if(file_exists(${${"\x47\x4c\x4f\x42\x41LS"}["mj\x6d\x6c\x77\x65p"]})){${"\x47L\x4fB\x41\x4c\x53"}["\x69\x68\x70v\x63\x7a"]="v\x61l\x75e";${"\x47\x4cO\x42AL\x53"}["\x79\x6e\x6f\x6f\x64\x63"]="\x43\x4f\x4e\x46I\x47U\x52\x41\x54\x49ON";${"G\x4c\x4f\x42\x41L\x53"}["\x6bkkdou"]="n\x61\x6de";${"\x47LO\x42\x41\x4c\x53"}["\x73\x77\x75\x66pccrlp"]="\x66\x69\x6ce";$mqmfqibwttc="\x76\x61l\x75\x65";${"\x47L\x4f\x42\x41L\x53"}["ngf\x71b\x79\x70\x62l"]="\x76a\x6c\x75e";${${"\x47\x4cO\x42\x41\x4c\x53"}["\x69\x68pvc\x7a"]}=file_get_contents(${${"\x47\x4c\x4f\x42A\x4c\x53"}["s\x77\x75\x66p\x63\x63\x72\x6cp"]});${$mqmfqibwttc}=self::deCrypt(${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x67f\x71\x62\x79\x70\x62l"]},crc32(self::${${"\x47\x4cO\x42\x41LS"}["\x79\x6e\x6f\x6f\x64\x63"]}["\x48\x45\x58"].${${"\x47LO\x42\x41LS"}["\x6b\x6b\x6b\x64ou"]}));return@unserialize(${${"\x47\x4c\x4fB\x41L\x53"}["pj\x61\x68\x6bq\x77"]});}else{return false;}}public function SESSION_CILL($name){$ddhpnpnwoq="na\x6de";$rsaiodbo="C\x4f\x4eF\x49\x47\x55\x52\x41\x54\x49\x4fN";$gmdmbxkyy="C\x4fN\x46\x49G\x55RA\x54\x49\x4f\x4e";${"\x47\x4c\x4f\x42A\x4cS"}["\x65\x63ku\x70\x6b\x77\x77u\x6f"]="\x66i\x6c\x65";$ndlouhql="k\x65\x79\x5fp\x61\x72\x74\x73";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6d\x6c\x76j\x6acy\x65"]="\x6bey_\x70a\x72ts";$bdktpzlvri="\x43\x4fN\x46\x49G\x55R\x41\x54I\x4fN";global$KERNEL_CONFIGURATION;${${"\x47LO\x42\x41L\x53"}["\x76\x6a\x7a\x79\x67\x71\x73j"]}=explode(self::${$bdktpzlvri}["S\x50\x52"],$_COOKIE[self::${${"\x47\x4c\x4fBA\x4cS"}["z\x74\x67\x77\x62xj\x6ev"]}["\x43\x4fO\x4b\x49E_S\x45SSIO\x4e"]]);${${"\x47\x4c\x4fB\x41\x4c\x53"}["nd\x62v\x75\x74\x6d\x79\x73ml"]}=sha1(self::${${"GL\x4f\x42A\x4c\x53"}["\x7a\x74\x67\x77\x62x\x6an\x76"]}["\x48\x45\x58"]."\"".self::${$rsaiodbo}["COOKIE\x5fS\x45\x53\x53\x49ON"]."'})".${${"G\x4c\x4fBA\x4c\x53"}["\x6dl\x76\x6a\x6a\x63\x79\x65"]}[2]).self::${${"\x47L\x4fB\x41L\x53"}["\x7at\x67\x77\x62x\x6a\x6ev"]}["\x53P\x52"].${$ndlouhql}[2];${${"GLO\x42\x41\x4c\x53"}["ec\x6b\x75p\x6bwwu\x6f"]}=self::${$gmdmbxkyy}["\x73\x65\x73s\x69\x6f\x6e\x5f\x64ir"].DIRECTORY_SEPARATOR.strtoupper(${$ddhpnpnwoq}).self::${${"GL\x4f\x42\x41\x4c\x53"}["\x7a\x74\x67w\x62\x78\x6a\x6e\x76"]}["\x53PR"].sha1(${${"\x47\x4cOB\x41\x4cS"}["\x6e\x64\x62\x76\x75tmys\x6dl"]}.${${"\x47L\x4fB\x41\x4c\x53"}["\x70f\x70\x62m\x78"]});if(file_exists(${${"\x47\x4c\x4f\x42A\x4c\x53"}["m\x6am\x6c\x77e\x70"]})){$syorzvwijw="\x66\x69le";unlink(${$syorzvwijw});}}protected function kernel_new_configuration($file,$privilege=0,$sections=0,$unlink=0,$method=null,$reset=false){${"\x47\x4c\x4f\x42\x41\x4cS"}["\x74a\x76\x72q\x79\x76e"]="\x64\x69\x72\x74\x72\x65e";${"\x47\x4c\x4f\x42AL\x53"}["\x66\x74\x78\x75op\x68\x6dvp"]="p\x75\x74\x5fv\x61\x72";$wjsuuibxoy="\x70\x72\x69\x76\x69l\x65g\x65";${"\x47L\x4fB\x41\x4cS"}["\x66d\x6a\x69\x75x\x6c\x66op\x6b"]="\x70\x61\x74\x68\x5fexte\x72n\x61l";$hrqbfsu="\x70\x61\x74h\x5fex\x74\x65r\x6e\x61l";$nsvhepnqqb="\x65tc";$iekullx="\x72e\x73e\x74";if(empty(${${"G\x4cOB\x41\x4c\x53"}["\x6dj\x6dlwe\x70"]})&&${$wjsuuibxoy}>=self::${${"\x47L\x4f\x42\x41\x4cS"}["\x70\x71\x6d\x79\x76mc\x6c"]}["\x6berne\x6c\x2epr\x69\x76i\x6ce\x67e\x2e\x6e\x6fr\x6da\x6c"]){self::ERROR("N\x65w\x20c\x6f\x6e\x66ig\x75ra\x74ion\x20\x63\x61l\x6ce\x64, \x62\x75\x74\x20\x76arible \x64es\x74\x69n\x61\x74\x69\x6fn f\x6f\x72\x20\x66\x69l\x65 \x69s\x20e\x6d\x70t\x79\x21","conf","\x66il\x65:\x20<\x62\x3e$file\x3c/\x62\x3e");${"G\x4cO\x42A\x4c\x53"}["\x69\x73qt\x72\x65g\x77"]="\x4b\x45RN\x45\x4c_\x50\x52\x4f\x50\x5fMAI\x4e";if(${${"G\x4cOB\x41\x4c\x53"}["b\x78v\x63\x6a\x78j\x71l\x6a"]}==self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69\x73qt\x72\x65\x67\x77"]}["\x6ber\x6e\x65l\x2e\x70\x72i\x76\x69\x6c\x65ge.\x68i\x67\x68"]){exit(print_r($GLOBALS["E\x52\x52\x4f\x52S"]));}return false;}if(is_array(${$iekullx})){$ozvebbsgjb="re\x73et";${${"\x47LO\x42AL\x53"}["ol\x73kmp\x6a\x6e\x71\x72\x66"]}=${$ozvebbsgjb};}else{${"\x47\x4c\x4f\x42A\x4c\x53"}["\x77x\x6a\x70r\x69x\x67\x67"]="\x76\x61\x72";${"\x47\x4c\x4f\x42AL\x53"}["yj\x6ex\x61\x6c\x65l\x76n\x6fp"]="\x66\x69l\x65";$dubzykajgtfv="s\x65\x63\x74\x69\x6f\x6es";${${"G\x4cO\x42\x41L\x53"}["\x77\x78\x6a\x70r\x69\x78\x67\x67"]}=parse_ini_file(${${"\x47\x4c\x4fB\x41\x4cS"}["\x79j\x6ex\x61\x6ce\x6c\x76\x6e\x6fp"]},${$dubzykajgtfv});}if(${${"\x47LO\x42A\x4c\x53"}["ym\x64\x77g\x65jn"]}==1){@unlink(${${"\x47\x4cO\x42\x41L\x53"}["\x6dj\x6dl\x77\x65p"]});}${"\x47\x4c\x4fB\x41\x4c\x53"}["gw\x68\x71\x68k\x77\x69\x74r\x6d"]="fi\x6c\x65";${${"\x47\x4cO\x42A\x4cS"}["f\x64\x6a\x69\x75x\x6c\x66\x6fp\x6b"]}=dirname(${${"\x47L\x4f\x42A\x4cS"}["\x67w\x68\x71\x68\x6bw\x69\x74rm"]});${${"\x47\x4cOB\x41L\x53"}["bc\x6cu\x73yk\x71\x64\x76\x6b"]}=str_replace(ROOT,"",${$hrqbfsu});${"\x47\x4cOB\x41\x4cS"}["r\x77\x73\x6d\x6el\x74\x73dei"]="\x70u\x46\x69\x6ce";if(!empty(${${"\x47L\x4fB\x41\x4cS"}["h\x75c\x63\x70\x79\x67\x75"]})&&${${"\x47\x4cOB\x41L\x53"}["\x68\x75\x63c\x70\x79\x67\x75"]}=="k\x65rn\x65l::et\x63"){$mfivkmm="\x64\x69r\x74r\x65e";${$mfivkmm}=SRCDR."\x65\x74c".DIRECTORY_SEPARATOR.${${"\x47\x4cO\x42\x41L\x53"}["bclu\x73yk\x71dvk"]};${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x7ac\x6b\x77\x6c\x6b\x6f\x69"]}=true;}else{$mhohopf="p\x61\x74\x68_\x65\x78\x74e\x72\x6ea\x6c";${"GL\x4f\x42AL\x53"}["\x6c\x63o\x74\x65\x67\x79\x71"]="\x65\x74\x63";${${"\x47L\x4f\x42A\x4c\x53"}["\x6cco\x74\x65\x67\x79\x71"]}=false;${${"\x47LO\x42\x41LS"}["c\x77\x66\x6d\x72\x70\x75\x64"]}=self::CONFIGURATION("\x74ru\x6e\x6b").DIRECTORY_SEPARATOR.${$mhohopf};}self::mkdirTree(${${"\x47LO\x42A\x4cS"}["\x74\x61v\x72\x71y\x76\x65"]});${${"\x47\x4c\x4f\x42ALS"}["\x72w\x73\x6d\x6elts\x64\x65\x69"]}=${${"GLOB\x41\x4cS"}["\x63\x77\x66m\x72\x70\x75\x64"]}.DIRECTORY_SEPARATOR.self::kernel_file_configuration(${${"\x47LO\x42\x41LS"}["m\x6am\x6c\x77e\x70"]});if(${$nsvhepnqqb}==false){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76k\x67\x78\x6f\x65"]="\x76ar";${"\x47\x4cOB\x41\x4c\x53"}["\x63\x71b\x74\x75m\x71"]="\x66\x69l\x65";${${"\x47\x4c\x4f\x42AL\x53"}["\x62\x65\x79x\x72\x64\x65y"]}=self::enCrypt(serialize(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x76\x6b\x67\x78\x6f\x65"]}),crc32_(self::kernel_file_configuration(${${"\x47\x4c\x4fBA\x4c\x53"}["\x63\x71b\x74um\x71"]}).HEX));}else{$sftkqdniyq="\x76\x61\x72";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62ey\x78\x72d\x65\x79"]}=serialize(${$sftkqdniyq});}file_put_contents(${${"G\x4cO\x42\x41\x4c\x53"}["\x73\x63\x73\x77v\x76mu\x69"]},${${"\x47\x4cOB\x41L\x53"}["\x66t\x78\x75op\x68\x6d\x76\x70"]});if(file_exists(${${"GL\x4f\x42AL\x53"}["s\x63s\x77v\x76\x6d\x75i"]})){return${${"\x47\x4c\x4f\x42AL\x53"}["\x6f\x6csk\x6d\x70\x6a\x6e\x71\x72f"]};}else return false;}protected function mkdirTree($dirs,$rights=0755){${"\x47LO\x42\x41\x4cS"}["u\x64\x74\x67\x6d\x76\x67\x70"]="\x64i\x72\x73";if(!is_dir(${${"G\x4cO\x42\x41\x4cS"}["\x75\x64tg\x6d\x76\x67p"]})){$dhrtwuwwnid="\x64i\x72s";$ympptxveo="ri\x67\x68t\x73";${${"\x47\x4cO\x42\x41\x4cS"}["dl\x70\x62\x6c\x6c\x73c\x7a\x6b"]}=str_replace(ROOT,"",${$dhrtwuwwnid});@mkdir(ROOT.${${"\x47L\x4f\x42AL\x53"}["\x64l\x70b\x6c\x6cs\x63\x7ak"]},${$ympptxveo},true);}}protected function kernel_load_configuration($file="",$privilege=0,$sections=0,$method=null){$fvgicxauug="file";$jlsxcttks="v\x61\x72";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x69\x6f\x6a\x74\x70f\x69\x66\x65"]="\x67eF\x69\x6c\x65";$rlncojqeze="\x66\x69\x6ce";$noqxvpgq="\x67\x65Fi\x6ce";${${"\x47L\x4f\x42\x41\x4c\x53"}["b\x63lu\x73\x79kqd\x76\x6b"]}=str_replace(ROOT,"",dirname(${$rlncojqeze}));if(!empty(${${"\x47\x4cO\x42A\x4c\x53"}["\x68\x75\x63\x63\x70\x79gu"]})&&${${"\x47L\x4f\x42\x41\x4c\x53"}["\x68\x75\x63c\x70y\x67\x75"]}=="kern\x65l::\x65\x74c"){$lesbejbgr="\x70\x61t\x68\x5f\x65\x78\x74\x65r\x6ea\x6c";$ebggbyq="\x65\x74\x63";$rusrcjr="\x64\x69\x72t\x72e\x65";${$rusrcjr}=SRCDR."\x65\x74c".DIRECTORY_SEPARATOR.${$lesbejbgr};${$ebggbyq}=true;}else{${"\x47LOB\x41\x4c\x53"}["\x79j\x62h\x63\x68\x6d\x62\x66\x67"]="\x65\x74c";${${"\x47L\x4fBAL\x53"}["\x79\x6abh\x63\x68\x6d\x62\x66g"]}=false;${"\x47L\x4f\x42\x41LS"}["\x6a\x65h\x77\x73\x6dm\x6a\x76s"]="p\x61\x74h\x5f\x65\x78\x74e\x72\x6e\x61\x6c";$ksjwipfqca="\x64\x69\x72\x74\x72\x65\x65";${$ksjwipfqca}=self::CONFIGURATION("\x74\x72\x75\x6e\x6b").DIRECTORY_SEPARATOR.${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6a\x65\x68\x77\x73\x6dm\x6av\x73"]};}${${"G\x4cOB\x41\x4c\x53"}["\x69\x6fjtp\x66\x69\x66\x65"]}=${${"\x47L\x4f\x42\x41\x4c\x53"}["c\x77\x66mr\x70\x75d"]}.DIRECTORY_SEPARATOR.self::kernel_file_configuration(${$fvgicxauug});if(!file_exists(ROOT.${${"\x47\x4cO\x42\x41\x4c\x53"}["w\x68\x77t\x72h\x66h"]}))return false;${${"G\x4c\x4fBA\x4c\x53"}["\x6f\x6cs\x6bm\x70\x6a\x6eqr\x66"]}=file_get_contents(${$noqxvpgq});if(empty(${$jlsxcttks})){self::ERROR("\x43onf\x69\x67u\x72\x61t\x69o\x6e\x20\x63al\x6ce\x64,\x20bu\x74\x20r\x65\x74urne\x74 \x73\x74\x72i\x6e\x67\x20\x69s\x20\x65\x6dpt\x79\x20:-/ ","\x63onf","\x66i\x6c\x65: <b>$file</b\x3e");}else{if(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x7a\x63\x6b\x77l\x6bo\x69"]}==false){${${"G\x4cOB\x41\x4cS"}["o\x6c\x73\x6b\x6d\x70\x6a\x6e\x71\x72\x66"]}=(self::deCrypt(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x6f\x6csk\x6d\x70jn\x71\x72f"]},crc32_(self::kernel_file_configuration(${${"G\x4cO\x42AL\x53"}["\x6dj\x6dl\x77\x65\x70"]}).HEX)));}${${"\x47\x4c\x4f\x42A\x4cS"}["\x6fl\x73k\x6dp\x6a\x6e\x71r\x66"]}=unserialize(${${"\x47\x4cOB\x41\x4c\x53"}["ol\x73k\x6d\x70\x6a\x6e\x71\x72\x66"]});}if(is_array(${${"\x47LO\x42\x41L\x53"}["o\x6cs\x6b\x6d\x70\x6a\x6eqr\x66"]})){return${${"GL\x4f\x42\x41L\x53"}["\x6f\x6c\x73\x6bmp\x6a\x6e\x71\x72f"]};}else{self::ERROR("S\x6fme\x74\x68in\x67\x20i\x73 \x77ro\x6e\x67, \x74\x68\x65 c\x6fn\x66\x69g\x75ra\x74io\x6e \x66o\x72 module\x20is\x20no\x74\x20\x61r\x72a\x79\x20:-/\x20","c\x6fnf","f\x69\x6ce: \x3cb>$file\x3c/\x62\x3e");return false;}}private function kernel_file_configuration($file){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["f\x70\x69pyt\x6f\x78r\x65c\x67"]="fi\x6ce";return md5(${${"\x47L\x4f\x42A\x4c\x53"}["\x66\x70ip\x79\x74\x6f\x78\x72\x65c\x67"]}.HEX).self::${${"\x47LOB\x41\x4c\x53"}["p\x71\x6d\x79\x76\x6d\x63\x6c"]}["ker\x6ee\x6c.\x74\x72u\x6ek\x45\x78\x74"];}protected function enCrypt($input,$key){$anjvjafjhc="i\x76";${"\x47\x4c\x4f\x42A\x4c\x53"}["eqa\x6f\x6e\x73\x6b\x69\x63"]="\x74d";$wfvaugve="\x4b\x45\x52\x4e\x45\x4c_\x50R\x4f\x50_\x4d\x41\x49\x4e";$weiudyqw="td";${$weiudyqw}=mcrypt_module_open(self::${$wfvaugve}["\x6ber\x6e\x65\x6c.c\x72y\x70tCyp\x68\x65r"],"",self::${${"G\x4cOBALS"}["\x70\x71\x6d\x79vm\x63\x6c"]}["k\x65r\x6eel\x2e\x63\x72ypt\x4dode"],"");${${"\x47\x4cO\x42AL\x53"}["\x6dj\x77wk\x77\x65\x66b\x70\x7a\x6d"]}=mcrypt_create_iv(mcrypt_enc_get_iv_size(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x71\x6cq\x62\x77\x74"]}),MCRYPT_RAND);$sookfix="\x6b\x65\x79";mcrypt_generic_init(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x65\x71a\x6f\x6es\x6b\x69\x63"]},${$sookfix},${$anjvjafjhc});${"G\x4c\x4f\x42A\x4c\x53"}["n\x64pa\x76l\x6c\x6b\x62\x66\x63"]="\x63r\x79p\x74\x74\x65x\x74";$hanywru="\x74d";${${"\x47L\x4f\x42\x41\x4c\x53"}["\x62t\x75\x63\x69\x6ae\x6b\x76\x6ay"]}=mcrypt_generic(${$hanywru},${${"G\x4cOB\x41\x4cS"}["a\x71d\x67vvgwew"]});mcrypt_generic_deinit(${${"\x47L\x4fB\x41L\x53"}["qlq\x62w\x74"]});return${${"\x47\x4cOB\x41L\x53"}["m\x6a\x77w\x6b\x77\x65\x66\x62\x70\x7am"]}.${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x64p\x61\x76ll\x6b\x62\x66c"]};}protected function deCrypt($input,$key){$ntdcntuxatk="K\x45RNE\x4c\x5fPR\x4fP\x5fM\x41I\x4e";${"G\x4c\x4f\x42A\x4c\x53"}["y\x65\x62a\x6c\x79gw\x66"]="pla\x69\x6et\x65x\x74";$mwhnrlhjeyfj="\x69\x76";${"\x47\x4c\x4f\x42\x41L\x53"}["\x72\x6a\x72g\x65\x79\x64\x79"]="\x70lai\x6e\x74e\x78\x74";$ruggcwcsmkg="\x74\x64";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x79\x65\x62\x61l\x79g\x77\x66"]}="";${$ruggcwcsmkg}=mcrypt_module_open(self::${${"\x47LO\x42\x41\x4cS"}["p\x71m\x79\x76m\x63l"]}["k\x65rn\x65l.\x63\x72yptC\x79p\x68e\x72"],"",self::${$ntdcntuxatk}["ker\x6eel.c\x72\x79pt\x4d\x6f\x64\x65"],"");$exjqxvixfqjj="\x69\x76";$lngjrky="\x69n\x70\x75\x74";${${"\x47\x4c\x4fBALS"}["\x76\x61\x65f\x74\x66ox\x69"]}=mcrypt_enc_get_iv_size(${${"\x47\x4c\x4f\x42A\x4cS"}["\x71\x6c\x71b\x77\x74"]});${$exjqxvixfqjj}=substr(${${"\x47\x4c\x4f\x42A\x4c\x53"}["aq\x64\x67\x76v\x67\x77\x65\x77"]},0,${${"\x47\x4c\x4fBA\x4c\x53"}["vaef\x74f\x6fx\x69"]});${${"\x47\x4cO\x42\x41\x4c\x53"}["\x62\x74\x75\x63\x69j\x65k\x76\x6a\x79"]}=substr(${$lngjrky},${${"\x47\x4cOB\x41\x4c\x53"}["\x76\x61\x65f\x74\x66\x6f\x78i"]});if(${$mwhnrlhjeyfj}){${"\x47LOBA\x4c\x53"}["gf\x74\x70\x63\x68\x68\x65jk"]="\x6b\x65\x79";$ljyehegaq="\x69\x76";${"G\x4c\x4f\x42A\x4cS"}["\x6e\x73\x74\x73s\x69\x6d\x72"]="c\x72y\x70\x74\x74\x65\x78\x74";$asxuffi="t\x64";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x71\x6dt\x73\x74\x76\x62\x63v\x6f\x70"]="\x74d";mcrypt_generic_init(${$asxuffi},${${"\x47LO\x42A\x4c\x53"}["\x67ftp\x63\x68\x68\x65\x6ak"]},${$ljyehegaq});${${"GL\x4fB\x41\x4c\x53"}["\x6f\x64y\x6fp\x77\x6b\x6b"]}=mdecrypt_generic(${${"\x47\x4c\x4fBA\x4cS"}["bq\x6d\x74\x73\x74v\x62\x63\x76o\x70"]},${${"\x47L\x4fBALS"}["\x6e\x73t\x73\x73\x69m\x72"]});}return${${"\x47LO\x42\x41L\x53"}["\x72\x6a\x72\x67\x65y\x64\x79"]};}public function _GET($GET){$rfxdej="\x47E\x54";self::kernel_count_memory(__FUNCTION__);${"\x47\x4c\x4fB\x41\x4c\x53"}["bd\x78\x61\x71\x63p\x61f"]="\x47\x45T";$uhyrexm="se\x63\x74_\x61\x72\x74i\x63\x6ces";${"\x47LO\x42\x41L\x53"}["\x64z\x6e\x65\x69\x6c\x74\x78"]="\x65x\x74";if(empty(self::${${"\x47\x4c\x4f\x42A\x4cS"}["\x7a\x74\x67\x77bx\x6an\x76"]}["U\x52\x4c_E\x58TE\x4e\x53I\x4fN"])){${"\x47\x4c\x4f\x42\x41L\x53"}["\x78r\x6bp\x7as\x61\x6de\x6a\x61"]="\x65\x78\x74";${${"\x47\x4c\x4f\x42\x41LS"}["\x78r\x6bp\x7a\x73\x61m\x65\x6aa"]}=array(":","\x253\x41");}else{${${"\x47\x4cOB\x41\x4cS"}["mld\x71\x71\x67\x79\x75"]}=self::${${"\x47\x4cO\x42\x41L\x53"}["\x7a\x74\x67\x77b\x78\x6an\x76"]}["\x55RL\x5f\x45XTE\x4e\x53\x49\x4f\x4e"];}${"G\x4cO\x42\x41L\x53"}["\x66y\x65\x62\x74\x76\x75\x64"]="\x73\x65\x63\x74\x5fa\x72t\x69\x63\x6c\x65\x73";$ccfcmzyirv="\x73\x65\x63\x74\x5f\x61\x72\x74\x69c\x6c\x65\x73";$_GET[${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x62d\x78\x61\x71c\x70\x61\x66"]}]=str_replace("{E\x78p\x6c\x6fd\x45}","",$_GET[${${"\x47L\x4f\x42AL\x53"}["\x78\x6choo\x73g\x68\x6b"]}]);${$uhyrexm}=str_replace(${${"GL\x4f\x42A\x4c\x53"}["d\x7an\x65\x69\x6c\x74\x78"]},"{Exp\x6cod\x45}",$_GET[${$rfxdej}]);${${"G\x4cOB\x41L\x53"}["r\x66\x76\x67\x76gl\x77"]}=explode("{\x45x\x70\x6cod\x45}",${$ccfcmzyirv});if(!empty(${${"G\x4cO\x42\x41L\x53"}["f\x79\x65\x62t\x76u\x64"]}[1])&&is_numeric(${${"\x47LO\x42\x41LS"}["\x72\x66\x76\x67\x76\x67\x6c\x77"]}[1])){$clsojeqnwjg="\x47\x45\x54";$scymnu="G\x45\x54";${"G\x4cO\x42A\x4cS"}["\x6d\x6by\x62\x77\x6d\x6e\x76\x6d\x6f"]="\x73\x65ct\x5far\x74\x69\x63l\x65s";$this->URL_TREE[0]=${$scymnu};$this->URL_TREE[1]=${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6d\x6b\x79\x62\x77\x6d\x6e\x76\x6d\x6f"]}[0];$_GET["\x69\x64"]=${${"\x47\x4cO\x42\x41\x4c\x53"}["r\x66\x76\x67v\x67l\x77"]}[1];$_GET[${$clsojeqnwjg}]=${${"\x47LOBA\x4cS"}["\x72\x66v\x67\x76\x67lw"]}[0];return true;}else{return false;}}function query_GFV($part=0){${"\x47L\x4fB\x41L\x53"}["\x6f\x6a\x63\x75i\x72\x69a\x61\x68"]="\x70\x61\x72\x74\x73";${"\x47\x4c\x4fB\x41\x4cS"}["\x6dqv\x65v\x66\x79\x77\x6ait\x76"]="\x71\x73\x74\x72\x69\x6e\x67";${${"\x47L\x4f\x42\x41L\x53"}["\x7a\x63\x62\x67i\x64\x65\x71\x7ah\x6c"]}=array("\x26","\x3d");${"\x47\x4c\x4fB\x41LS"}["j\x69\x78fqzd\x64\x62b"]="\x71s\x74ri\x6e\x67";$query_string=str_replace(${${"\x47\x4cO\x42\x41\x4cS"}["\x6f\x6a\x63\x75\x69\x72\x69a\x61\x68"]},"{|}",$_SERVER["\x51UE\x52Y_ST\x52\x49N\x47"]);${${"\x47\x4c\x4f\x42A\x4c\x53"}["m\x71ve\x76f\x79\x77\x6ai\x74\x76"]}=explode("{|}",$query_string);return${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x69\x78f\x71\x7ad\x64\x62b"]}[${${"\x47\x4cO\x42\x41LS"}["\x62\x61o\x61cu\x65\x78"]}];}public function set_header(){global$SQL_WEBSITE,$THEME;if(!headers_sent()&&!empty(${${"\x47L\x4f\x42\x41\x4cS"}["\x6a\x74\x72so\x6f\x64\x7a\x6e\x73\x65"]})){$iiefokwu="\x50a\x67\x65C\x6f\x6et\x65\x6e\x74";$xrcctefhd="\x50a\x67\x65\x43\x6f\x6e\x74\x65\x6e\x74";if(!defined("\x52E\x53E\x52\x56\x45\x44_UR\x49")){header("Con\x74\x65n\x74-Type:\x20text/ht\x6dl;\x20\x63hars\x65t={$SQL_WEBSITE['charset']}\x3b\x20");}${$xrcctefhd}=ob_get_contents();${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x69\x70\x70\x64\x67q\x65\x64\x77c\x73"]="\x4b\x45\x52\x4e\x45L\x5fPR\x4fP_\x4d\x41I\x4e";if(isset(${$iiefokwu})&&(bool)self::${${"\x47\x4c\x4f\x42AL\x53"}["\x69\x70\x70\x64g\x71e\x64\x77\x63\x73"]}["\x6berne\x6c.c\x6fn\x74\x65n\x74.c\x61\x63\x68e"]){$yxtiow="\x50ag\x65C\x6fn\x74e\x6e\x74";${"GL\x4f\x42AL\x53"}["\x6ey\x6b\x77b\x78"]="\x48\x61\x73h\x49\x44";${"\x47\x4c\x4f\x42A\x4c\x53"}["g\x75\x6b\x75ml\x6a"]="H\x61\x73h\x49\x44";${"GL\x4f\x42\x41\x4c\x53"}["\x6e\x70\x6a\x76\x76\x6c\x67\x71r"]="\x45\x78\x70\x69\x72e\x54\x69\x6d\x65";${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x66\x6bo\x62\x75\x79\x61\x66\x75\x71"]}=md5(${$yxtiow});$xxsbshxa="\x44oI\x44\x73\x4d\x61t\x63h";${${"\x47\x4cO\x42\x41LS"}["g\x62\x74\x6bu\x72\x72\x6e"]}=1144055759;${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x75\x78\x72mw"]="\x45\x78pi\x72\x65\x54i\x6d\x65";${"G\x4c\x4fBA\x4c\x53"}["\x6e\x64\x76c\x78\x68\x79c"]="La\x73t\x43\x68an\x67\x65\x54\x69m\x65";$ypqbsno="\x68\x65a\x64e\x72s";${"\x47\x4c\x4f\x42AL\x53"}["\x67d\x66\x6d\x77\x67\x74\x70\x63l"]="h\x65\x61\x64e\x72\x73";${"G\x4c\x4f\x42AL\x53"}["\x70\x76\x6fgn\x6exy"]="\x68\x65\x61\x64e\x72\x73";${${"G\x4c\x4f\x42A\x4c\x53"}["\x6e\x70\x6a\x76v\x6cg\x71r"]}=3600;${${"\x47\x4c\x4f\x42\x41LS"}["p\x76\x6f\x67\x6e\x6e\x78\x79"]}=apache_request_headers();header("\x43\x61\x63\x68\x65-Contr\x6fl:\x20m\x61x-\x61\x67e=".${${"\x47\x4c\x4fB\x41\x4cS"}["\x62\x75\x78\x72\x6d\x77"]});header("Expi\x72e\x73: ".gmdate("\x44, d M \x59 H:i:\x73",time()+${${"\x47\x4c\x4fBAL\x53"}["d\x75\x62\x72\x79\x7a\x71\x66\x65"]})."\x20\x47M\x54");header("Last-M\x6f\x64\x69f\x69e\x64:\x20".gmdate("\x44, \x64\x20M \x59 \x48:i:s",${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x64\x76c\x78\x68y\x63"]})." \x47MT");header("E\x54\x61g:\x20".${${"G\x4c\x4f\x42A\x4c\x53"}["g\x75\x6bum\x6cj"]});${${"\x47LO\x42\x41\x4c\x53"}["\x68\x66\x62y\x62\x67\x70"]}=!(isset(${$ypqbsno}["\x49f-\x4d\x6f\x64\x69\x66\x69ed-\x53\x69nce"])and strtotime(${${"\x47\x4c\x4fBA\x4c\x53"}["sq\x6f\x76\x65\x6f\x63"]}["I\x66-Modif\x69ed-\x53i\x6e\x63e"])==${${"\x47L\x4f\x42\x41\x4cS"}["\x67\x62tk\x75\x72\x72\x6e"]});${"GL\x4f\x42A\x4cS"}["\x6bq\x61\x64ri\x61\x73\x76"]="\x44\x6f\x49\x44\x73\x4d\x61\x74\x63\x68";${$xxsbshxa}=(isset(${${"GL\x4f\x42\x41L\x53"}["s\x71\x6f\x76eo\x63"]}["If-\x4eone-\x4d\x61\x74c\x68"])and(${${"\x47\x4c\x4fB\x41\x4cS"}["\x6e\x79\x6b\x77\x62x"]}==${${"G\x4cO\x42\x41\x4cS"}["\x67\x64\x66m\x77\x67\x74\x70\x63\x6c"]}["I\x66-\x4e\x6fne-\x4d\x61tc\x68"]));if(!${${"\x47\x4cO\x42\x41\x4c\x53"}["hf\x62\x79\x62\x67\x70"]} or${${"GLOB\x41\x4c\x53"}["\x6b\x71a\x64\x72\x69a\x73\x76"]}){header("HT\x54\x50/\x31\x2e1\x203\x30\x34 Not\x20M\x6fd\x69f\x69\x65\x64");header("\x43\x6f\x6e\x6e\x65\x63t\x69\x6f\x6e: \x63\x6cose");}else{${"\x47LO\x42\x41\x4cS"}["v\x6bj\x77nsr\x74a\x6cw"]="\x50\x61ge\x43o\x6etent";header("H\x54T\x50/\x31\x2e1 200\x20\x4f\x4b");header("\x43\x6f\x6e\x74en\x74-\x4c\x65n\x67t\x68: ".strlen(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x76\x6bj\x77\x6e\x73\x72\x74\x61\x6c\x77"]}));}}}}private function dollop_installation(){if(strlen(request_uri())>1){header_location("/");}self::CONFIGURATION();global$KERNEL_CONFIGURATION;if(!file_exists(self::${${"\x47L\x4f\x42\x41\x4c\x53"}["z\x74\x67wb\x78j\x6e\x76"]}["d\x70\x2e\x63onfig"])){$dpotxcvyr="c";${"G\x4c\x4f\x42\x41L\x53"}["\x65\x65\x6bib\x76m"]="\x63";self::SAVEMODE(TRUE);$pujlquuct="\x4b\x45\x52N\x45L_\x50\x52\x4fP\x5f\x44\x41T\x41";${"\x47LO\x42A\x4c\x53"}["\x63i\x78s\x69p\x79k"]="\x43\x4fN\x46\x49\x47\x55RAT\x49\x4fN";${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6cc\x6djjy\x65\x6c\x63\x67l"]}=self::${${"G\x4c\x4fB\x41\x4cS"}["z\x74g\x77\x62\x78j\x6e\x76"]}["\x74\x72\x75n\x6b"].DIRECTORY_SEPARATOR.md5(self::${${"\x47LO\x42\x41\x4c\x53"}["\x63\x69\x78si\x70y\x6b"]}["\x48E\x58"]).self::${$pujlquuct}["MAIN"]["k\x65\x72\x6e\x65\x6c.t\x72u\x6ekExt"];if(!file_exists(${$dpotxcvyr})OR@filesize(${${"G\x4c\x4fB\x41L\x53"}["\x65\x65k\x69\x62\x76m"]})>1){${"\x47\x4cOBA\x4cS"}["q\x6aq\x70l\x6d\x74\x71\x69\x69\x63\x62"]="\x73\x72\x63";${${"\x47\x4cO\x42ALS"}["\x71j\x71\x70\x6cm\x74\x71ii\x63b"]}=self::enCrypt(serialize(self::${${"\x47L\x4f\x42AL\x53"}["\x7a\x74\x67w\x62x\x6a\x6e\x76"]}),crc32(self::${${"\x47\x4cO\x42\x41LS"}["\x7a\x74g\x77b\x78\x6an\x76"]}["\x48E\x58"]));file_put_contents(${${"GL\x4fB\x41\x4cS"}["\x6c\x63\x6dj\x6a\x79elc\x67l"]},${${"G\x4c\x4fB\x41\x4c\x53"}["\x61\x63\x61\x65\x6a\x71\x71\x67\x6e"]},LOCK_EX);}require_once(self::${${"\x47L\x4f\x42\x41L\x53"}["\x7at\x67w\x62\x78\x6a\x6ev"]}["i\x6e\x73\x74\x61\x6cl"].self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62h\x78\x66\x73\x6a\x7a"]}["in\x73\x74all"]["\x69\x6e\x64ex\x46\x69l\x65"]);}}public function read_sql($file,$arrKey=null,$arrContent=null){$eexfvdt="f\x69\x6c\x65";global$db,$CONFIGURATION;${${"G\x4c\x4f\x42A\x4c\x53"}["\x78r\x74\x64\x6c\x6fd\x6b\x6d"]}=@fopen(${$eexfvdt},"\x72");if(!defined("\x50RE\x46IX")){return"E\x72\x72or\x21 C\x61\x6eno\x74\x20\x66i\x6e\x64\x20\x53\x51L \x50\x72e\x66ix\x21";}global$returnback_sqlresult,$db;if(${${"G\x4c\x4f\x42A\x4c\x53"}["\x78\x72\x74\x64l\x6f\x64\x6bm"]}){$wrtwdxiqc="\x64\x62";${"GLOBALS"}["\x6a\x62\x78\x6eebs"]="r\x65tu\x72n\x62\x61ck\x5f\x73\x71\x6c\x72\x65s\x75\x6c\x74";${"GL\x4f\x42\x41\x4c\x53"}["\x70os\x79pcsw\x6ee"]="\x72\x65\x74\x75\x72\x6eba\x63k\x5fs\x71lr\x65s\x75\x6ct";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x62x\x6e\x65\x62s"]}="";if(${$wrtwdxiqc}==false){return"\x43o\x6en\x65ct\x69on\x20clo\x73\x65d!";}$cofupoiu="han\x64\x6c\x65";While(!feof(${$cofupoiu})){${"\x47\x4cO\x42ALS"}["yd\x74\x75\x75h\x6cq\x76\x77\x79\x64"]="h\x61n\x64\x6c\x65";${${"\x47\x4cO\x42\x41\x4cS"}["\x71\x61\x62hj\x68gr"]}.=fgets(${${"\x47LO\x42\x41\x4cS"}["\x79\x64t\x75\x75\x68\x6c\x71vw\x79\x64"]},4096);if(substr(rtrim(${${"\x47\x4c\x4f\x42A\x4c\x53"}["q\x61bhj\x68g\x72"]}),-1)==";"){${"G\x4cO\x42\x41L\x53"}["\x75\x71l\x6e\x6d\x63\x74\x6a"]="\x43O\x4e\x46\x49\x47U\x52\x41\x54IO\x4e";$iepadpjht="\x72\x65t\x75\x72nba\x63\x6b\x5f\x73\x71\x6c\x72\x65\x73\x75l\x74";${"G\x4cO\x42\x41\x4cS"}["v\x74\x6c\x66\x6b\x78a\x68c\x66s"]="\x71ue\x72\x79";$nxxnivtzh="\x71\x75e\x72y";${"G\x4c\x4f\x42\x41\x4cS"}["b\x76\x79\x6f\x62\x62"]="\x64\x62";$bmxtvj="\x71uery";$tobhita="\x71u\x65\x72y";${"G\x4cO\x42\x41L\x53"}["oa\x6d\x78\x71\x6fc\x63\x6a"]="\x71\x75\x65\x72y";${${"\x47\x4c\x4fBA\x4cS"}["\x71\x61b\x68\x6ahg\x72"]}=str_replace("\x22.\x50\x52E\x46\x49\x58\x2e\x22",constant("P\x52E\x46I\x58"),${$nxxnivtzh});$ucliduimlts="\x4b\x45\x52\x4e\x45\x4c_\x50\x52\x4f\x50\x5fD\x41\x54A";$gmrqps="\x61\x72\x72C\x6f\x6e\x74e\x6e\x74";${"\x47L\x4fB\x41LS"}["h\x6fz\x72d\x6c\x79p\x6e"]="ar\x72\x4b\x65\x79";${$bmxtvj}=str_replace("{\$".${${"\x47\x4c\x4f\x42\x41\x4cS"}["j\x67\x7a\x69\x67\x64"]}."}",${$gmrqps},${${"\x47LO\x42\x41\x4c\x53"}["oa\x6d\x78\x71\x6f\x63\x63j"]});if(!empty(${${"\x47\x4cOB\x41\x4c\x53"}["\x75q\x6cn\x6d\x63t\x6a"]}["b\x61\x73e\x5f\x74ag"]["\x73\x71lch\x61\x72\x73\x65\x74"])&&!empty(self::${$ucliduimlts}["insta\x6c\x6c"]["s\x71\x6c.\x63harset\x5f\x74ag"])){${"GL\x4f\x42\x41\x4c\x53"}["\x62\x75\x6dmfo\x74\x73\x71\x7a\x62y"]="\x43\x4f\x4e\x46\x49\x47UR\x41\x54\x49\x4f\x4e";${${"\x47\x4cO\x42A\x4cS"}["\x71a\x62\x68\x6a\x68gr"]}=str_replace(self::${${"\x47\x4c\x4fBA\x4c\x53"}["b\x68\x78f\x73j\x7a"]}["\x69nstal\x6c"]["\x73ql\x2e\x63\x68arset\x5f\x74\x61g"],${${"G\x4cO\x42\x41\x4cS"}["b\x75mm\x66\x6ft\x73\x71zb\x79"]}["\x62\x61s\x65\x5ft\x61g"]["\x73\x71\x6c\x63ha\x72se\x74"],${${"GLOBA\x4c\x53"}["q\x61\x62\x68\x6a\x68\x67r"]});}${$tobhita}=str_replace("{\$".${${"G\x4c\x4f\x42A\x4c\x53"}["\x68o\x7a\x72d\x6cy\x70\x6e"]}."}",${${"\x47\x4cO\x42\x41L\x53"}["\x65\x6dsgk\x69\x71\x77"]},${${"G\x4c\x4fB\x41LS"}["q\x61\x62h\x6ah\x67\x72"]});${${"G\x4c\x4fBA\x4cS"}["v\x65d\x6af\x7a\x79e"]}=explode(constant("P\x52\x45\x46IX"),${${"\x47\x4c\x4f\x42A\x4c\x53"}["q\x61\x62\x68\x6a\x68\x67\x72"]});${${"\x47\x4cOB\x41L\x53"}["\x62u\x7aq\x67\x6fm"]}=explode("\x20",${${"\x47\x4cO\x42AL\x53"}["\x76\x65d\x6af\x7ay\x65"]}[1]);${$iepadpjht}.=(mysql_query(${${"GLO\x42\x41\x4c\x53"}["v\x74\x6c\x66k\x78ah\x63fs"]},${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x62\x76\x79\x6fb\x62"]}))?"{$catch_table[0]} \x69s\x20e\x78\x65cu\x74\x65d OK.\x2e\x2e\x20\\\x6e":" {$catch_table[0]}\x20\x69\x73\x20\x4eO\x54\x20ex\x65\x63u\x74ed! E\x72\x72or:\\n".mysql_error()."\\\x6e\\\x6e\x5cn";unset(${${"\x47\x4c\x4f\x42\x41L\x53"}["qa\x62\x68\x6a\x68\x67r"]});}}fclose(${${"\x47\x4c\x4fBALS"}["\x78\x72\x74\x64l\x6f\x64\x6bm"]});return${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x6f\x73y\x70cs\x77ne"]}."";}else{return"\x46i\x6ce \x63annot\x20\x62\x65\x20\x6co\x61d!";}}public function sql_fetch_array($query){global$trunkcount_check_same;if(!self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x69ua\x70\x68\x6f"]}){${${"\x47\x4c\x4fB\x41L\x53"}["\x70\x72\x71gjo\x76"]}=explode(constant("P\x52\x45\x46\x49\x58"),${${"\x47\x4cO\x42ALS"}["\x71ab\x68\x6ahg\x72"]});${"\x47\x4c\x4f\x42A\x4c\x53"}["e\x6d\x77\x65n\x69l\x71y\x63\x63"]="t\x61b\x6ce";${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x65\x73l\x74j\x7aq\x6by\x7au"]}=explode(" ",${${"G\x4cO\x42\x41\x4c\x53"}["\x70\x72\x71g\x6a\x6f\x76"]}[1]);$wyhdchjxff="\x74a\x62l\x65";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x72dly\x67bjox\x68"]="\x4b\x45\x52\x4e\x45\x4c\x5f\x52\x45\x42I\x52\x54\x48";${${"\x47\x4c\x4f\x42\x41L\x53"}["\x65\x6d\x77e\x6e\x69\x6cqycc"]}=${$wyhdchjxff}[0];${${"G\x4c\x4f\x42AL\x53"}["\x67\x6df\x65plf\x6el"]}=array("\x20","*","\x60",",","\x2e");${${"G\x4c\x4f\x42\x41\x4cS"}["\x6bc\x64\x6c\x66\x71e"]}=array("_","-","","+","");${"\x47L\x4f\x42\x41\x4c\x53"}["hxb\x64r\x6asq\x78"]="\x74\x61\x62le";$acugshhvngmt="\x74r\x75n\x6b";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["e\x73lt\x6az\x71ky\x7au"]}=str_replace(${${"G\x4c\x4f\x42\x41LS"}["\x67\x6d\x66\x65\x70\x6cfn\x6c"]},${${"\x47LOBA\x4c\x53"}["\x6b\x63\x64\x6c\x66\x71\x65"]},${${"\x47LOB\x41LS"}["es\x6c\x74j\x7a\x71\x6b\x79\x7au"]});${${"\x47\x4cOB\x41L\x53"}["\x74\x62\x76\x6cq\x69\x68x"]}="sql\x5ffetch_ar\x72ay(".${${"GL\x4fB\x41L\x53"}["h\x78b\x64r\x6as\x71\x78"]}."):".crc32_(${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x71\x61\x62\x68j\x68\x67\x72"]}.HEX.request_uri()).".s\x65r\x69a\x6ci\x7ae";if(!(bool)self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["j\x72d\x6c\x79\x67bj\x6fx\x68"]}){$uhnjrmjg="\x74\x72\x75\x6e\x6b";${$uhnjrmjg}=self::trunkit(${${"\x47\x4cO\x42\x41LS"}["t\x62\x76\x6c\x71i\x68\x78"]});}else{${"\x47\x4cO\x42\x41\x4c\x53"}["nwp\x63\x74\x71\x75p\x64\x67\x77"]="\x74ru\x6ek\x49\x74";self::trunkit(${${"\x47L\x4f\x42\x41\x4c\x53"}["n\x77p\x63\x74qu\x70\x64\x67\x77"]},-1);}if((bool)self::${${"\x47\x4c\x4fBA\x4c\x53"}["ztg\x77\x62\x78\x6an\x76"]}["t\x72\x75\x6e\x6b.d\x69s\x61\x62\x6c\x65\x2esql_fe\x74c\x68"]==true){${"GL\x4f\x42A\x4cS"}["\x74\x6f\x63p\x79t"]="\x74\x72\x75\x6e\x6b";${${"\x47\x4c\x4fB\x41\x4cS"}["\x74\x6fc\x70y\x74"]}=false;}if(${$acugshhvngmt}==false){${"\x47\x4cOBAL\x53"}["lh\x68r\x6e\x6en"]="a\x72r\x61y";${"\x47L\x4fBA\x4cS"}["o\x70odf\x71\x64e"]="d\x62";$ghhxqcngx="q\x75\x65ry";global$db;$hbpzwmxsvr="\x71u\x65\x72y";$shuclcu="\x73q\x6c";${$shuclcu}=mysql_query(${$ghhxqcngx},${${"G\x4c\x4f\x42AL\x53"}["\x6f\x70o\x64\x66q\x64\x65"]})or die(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x67\x6a\x68\x69\x76ke\x77\x66"]}=mysql_error());$nuwmnuvwsjr="\x72\x6f\x77";self::ERROR("\x4dy\x53Q\x4c\x20\x74\x61\x62\x6c\x65\x20({$table})\x20\x74r\x75nk u\x70\x64at\x65d\x21 ","db\x75\x67","\x53\x51\x4c \x51\x75\x65\x72\x79: ".${$hbpzwmxsvr});if(${${"\x47L\x4fB\x41\x4c\x53"}["\x67\x6ah\x69\x76\x6b\x65\x77\x66"]}){(kernel::ERROR("\x20\x3c\x62\x3e\x6dysql_que\x72y\x3c/\x62\x3e\x20e\x72r\x6f\x72 fo\x72\x20query [\x3c\x73p\x61n \x74i\x74le\x3d'[\x51\x75e\x72\x79:$query]\n[E\x72ror:".${${"\x47L\x4f\x42\x41L\x53"}["\x67\x6a\x68\x69v\x6b\x65w\x66"]}."]\x27> <\x75>m\x6fre</\x75\x3e\x20\x3c/\x73\x70a\x6e\x3e]<b\x72\x20/>\x20","sql"));}${${"\x47\x4c\x4fBAL\x53"}["\x64\x75\x65w\x6c\x72\x62"]}=0;while(${${"G\x4c\x4fB\x41L\x53"}["l\x68\x68r\x6e\x6en"]}=mysql_fetch_array(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76\x74v\x6b\x63u\x76r\x78\x66e"]})){${"\x47\x4c\x4f\x42\x41L\x53"}["\x76\x69\x72\x65\x77\x6e\x63x"]="a\x72\x72\x61\x79";${${"\x47\x4cO\x42\x41L\x53"}["\x76fnbio\x62n\x66"]}[${${"G\x4cOB\x41L\x53"}["duew\x6cr\x62"]}]=${${"\x47\x4cOBA\x4cS"}["v\x69\x72e\x77\x6ec\x78"]};${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x64\x75e\x77\x6c\x72\x62"]}++;}if(empty(${$nuwmnuvwsjr})){kernel::ERROR("E\x6d\x70\x74y\x20r\x65su\x6ct\x20i\x6e \x73\x71\x6c\x20que\x72y [\x3cs\x70an\x20\x74\x69t\x6c\x65\x3d'[$sql]'\x3e <\x75\x3emo\x72\x65</u\x3e\x20</span>] \x3cb\x72\x20/\x3e ");return false;}else{${"G\x4c\x4f\x42\x41\x4c\x53"}["e\x6fv\x79\x70\x63\x79"]="\x74\x72\x75\x6e\x6b\x49t";self::trunkit(${${"G\x4c\x4f\x42\x41L\x53"}["\x74b\x76\x6c\x71\x69hx"]},-1);self::trunkit(${${"\x47L\x4f\x42A\x4c\x53"}["eov\x79\x70\x63\x79"]},${${"G\x4c\x4fBA\x4c\x53"}["v\x66\x6e\x62\x69\x6fb\x6ef"]});return${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x76f\x6eb\x69\x6f\x62nf"]};}}else{return${${"\x47L\x4f\x42AL\x53"}["\x76\x6a\x6fl\x73\x73\x79\x69\x70"]};}}}public function sql_post_input_query($table,$operation,$where=null){${"\x47\x4c\x4f\x42\x41\x4cS"}["\x69\x66o\x6c\x67vw\x73\x6ej\x74"]="wh\x65r\x65";${"G\x4c\x4fB\x41L\x53"}["r\x72e\x62\x78w\x7a\x6bn"]="\x74a\x62\x6c\x65\x5f\x6e\x61\x6de";${"\x47L\x4f\x42A\x4c\x53"}["x\x74fok\x61\x71\x66\x71\x77\x69"]="\x70o\x73\x74";$pqnsuks="\x70o\x73t";${"\x47L\x4f\x42A\x4c\x53"}["\x79\x64\x71b\x64\x6dx\x71"]="\x70\x6fst";$xmksgnueqag="q";$vnqpdsgyzof="tab\x6c\x65";${"GLOBA\x4c\x53"}["\x64\x67\x74u\x7a\x72m\x78\x72\x66\x78"]="\x70\x6fs\x74";${"G\x4cO\x42\x41\x4c\x53"}["uh\x74\x6b\x75\x6b\x6e"]="c\x6f\x6cu\x6d\x6e";${"\x47\x4cOB\x41\x4c\x53"}["i\x76\x66cx\x6c"]="\x70\x6f\x73t";${"G\x4c\x4f\x42A\x4cS"}["\x63\x62\x66p\x63\x6a\x77\x6cs"]="\x63\x6f\x6c\x75m\x6e\x73";$fzyjlofrke="\x70\x6f\x73t";$csxhggqpwx="\x64\x62";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["m\x74\x79\x63s\x76pl\x77\x69k\x73"]="\x6f\x70\x65\x72\x61\x74ion";${"GL\x4f\x42\x41\x4c\x53"}["m\x67\x6d\x62\x68v\x6a"]="va\x6cu\x65";if(is_array(self::${${"\x47L\x4f\x42A\x4c\x53"}["\x70q\x6d\x79\x76\x6dc\x6c"]})){${"\x47\x4cOBA\x4c\x53"}["\x71j\x77\x75\x6f\x73\x6d\x63e\x72"]="\x75\x6e\x73\x65\x74";${"\x47\x4cO\x42\x41\x4cS"}["\x7a\x6ce\x76\x67se\x66\x64"]="\x4b\x45\x52\x4e\x45\x4c\x5f\x50R\x4f\x50\x5f\x4d\x41\x49\x4e";foreach(self::${${"\x47\x4cOB\x41\x4cS"}["\x7ale\x76\x67\x73\x65\x66\x64"]}["\x6b\x65\x72\x6e\x65l\x2e\x73\x71l_p\x6f\x73t_\x69\x6e\x70\x75\x74\x5f\x71u\x65r\x79\x2e\x75ns\x65t"]as${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x71j\x77u\x6fs\x6d\x63e\x72"]}){$aygjoltv="\x75n\x73\x65t";unset($_POST[${$aygjoltv}]);}}switch(${${"\x47\x4cOBA\x4c\x53"}["\x6d\x74\x79\x63s\x76pl\x77\x69\x6b\x73"]}){case"i\x6esert":if(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["i\x66\x6f\x6c\x67v\x77\x73njt"]}==null){if(is_array($_POST)){${"G\x4c\x4fB\x41\x4cS"}["\x7a\x73dffx\x77\x66\x76\x6c"]="\x70\x6fs\x74";${${"G\x4cO\x42\x41\x4cS"}["\x7a\x73\x64\x66\x66\x78\x77\x66\x76\x6c"]}=$_POST;}else{return false;}}stripslashes_deep(${$fzyjlofrke});array_walk_recursive(${${"\x47\x4c\x4fBAL\x53"}["\x78tf\x6f\x6ba\x71\x66\x71\x77\x69"]},"m\x79\x73q\x6c_\x72\x65al_\x65\x73cape\x5f\x73tri\x6e\x67");array_walk_recursive(${${"\x47\x4c\x4f\x42A\x4cS"}["\x78\x77b\x63\x63\x73w\x67\x61"]},"ad\x64\x73\x6cas\x68e\x73");${${"GL\x4f\x42\x41\x4cS"}["\x77mu\x78\x6f\x6b\x7aa"]}=constant("P\x52E\x46\x49X").${${"G\x4c\x4fB\x41L\x53"}["e\x73\x6ct\x6azq\x6b\x79z\x75"]};${${"G\x4c\x4fB\x41L\x53"}["\x63\x62\x66\x70\x63\x6a\x77l\x73"]}="";${${"\x47L\x4fBA\x4cS"}["\x7a\x63\x72\x6enn\x71p"]}="";foreach(${${"\x47LO\x42A\x4cS"}["xwbc\x63\x73wg\x61"]} as${${"\x47\x4cO\x42\x41\x4cS"}["\x76\x75\x78\x69\x71\x71sa\x64d"]}=>${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6dg\x6db\x68vj"]}){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["i\x6a\x75\x79t\x78y"]="\x63\x6flu\x6dn\x73";${${"\x47LO\x42\x41\x4c\x53"}["i\x6a\x75y\x74x\x79"]}.="`{$table_name}.{$column}`,";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x7acr\x6en\x6eqp"]}.="'{$value}\x27,";}${${"GLO\x42\x41\x4c\x53"}["\x62\x66\x71\x64\x6e\x6d\x76\x73\x6e\x64\x74\x6c"]}="(".substr(${${"\x47\x4c\x4fBALS"}["b\x66q\x64\x6e\x6d\x76\x73nd\x74\x6c"]},0,-1).")";${${"G\x4c\x4f\x42AL\x53"}["zc\x72\x6e\x6en\x71p"]}="(".substr(${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x7a\x63r\x6e\x6en\x71\x70"]},0,-1).")";${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x63\x6e\x74\x72h\x64x"]}="\x49\x4eS\x45\x52\x54\x20\x49\x4eTO\x20{$table_name}\x20{$columns}\x20\x56A\x4cU\x45S {$values};";break;case"\x75p\x64a\x74\x65":if(is_array($_POST)&&!empty(${${"G\x4c\x4f\x42\x41L\x53"}["\x71\x6act\x75\x78\x67"]})){${${"\x47L\x4f\x42\x41\x4c\x53"}["x\x77\x62\x63\x63\x73\x77\x67\x61"]}=$_POST;}else{return false;}${$pqnsuks}=stripslashes_deep(${${"\x47\x4c\x4fBALS"}["dg\x74\x75zr\x6dx\x72\x66\x78"]});array_walk_recursive(${${"\x47L\x4f\x42A\x4cS"}["y\x64\x71\x62\x64mxq"]},"\x6d\x79sql_\x72\x65al_\x65s\x63a\x70e_\x73tr\x69\x6eg");array_walk_recursive(${${"G\x4c\x4fB\x41\x4c\x53"}["\x69\x76\x66cxl"]},"\x61\x64\x64s\x6cas\x68e\x73");${${"G\x4c\x4f\x42\x41\x4c\x53"}["rr\x65b\x78wz\x6bn"]}=constant("PR\x45F\x49X").${$vnqpdsgyzof};${${"\x47L\x4f\x42\x41LS"}["\x62f\x71\x64\x6e\x6dvs\x6edt\x6c"]}="";${${"GLOB\x41\x4c\x53"}["\x7acr\x6e\x6en\x71\x70"]}="";foreach(${${"\x47L\x4f\x42\x41\x4c\x53"}["\x78\x77\x62\x63\x63s\x77\x67\x61"]} as${${"\x47LO\x42\x41\x4c\x53"}["u\x68\x74\x6b\x75k\x6e"]}=>${${"GLO\x42\x41\x4c\x53"}["p\x6aa\x68\x6b\x71w"]}){${${"\x47LO\x42\x41\x4cS"}["c\x65\x74\x6bpa\x78\x61i"]}.="\x60{$table_name}\x2e{$column}`=\x27{$value}',";}${${"\x47L\x4f\x42\x41\x4cS"}["\x63et\x6bp\x61\x78a\x69"]}="(".substr(${${"\x47\x4c\x4fB\x41L\x53"}["\x63etk\x70\x61x\x61\x69"]},0,-1).")";${$xmksgnueqag}="\x55PD\x41TE {$table_name}\x20S\x45T\x20{$columns_values} WHERE {$where};";break;DEFAULT:self::ERROR(" Er\x72or\x20\x69\x6e \x4d\x79\x53Q\x4c <\x62>{$operation}</\x62\x3e \x66\x6f\x72\x20\x74\x61\x62le\x20{$table_name}\x20","\x73q\x6c","\x55s\x65\x20t\x68e \x66\x75n\x63t\x69on\x20l\x69k\x65 thi\x73:\x20\n \x6b\x65rne\x6c::sq\x6c\x5f\x71u\x65\x72y('n\x65ws\x27,'i\x6es\x65\x72t\x27)\x3b \n \x6fr \n kerne\x6c::s\x71l\x5f\x71\x75\x65ry('\x6e\x65\x77\x73',\x27u\x70\x64\x61\x74e',\x27ID\x63o\x6c\x75m\x6e\x3d\x31\x27); ");return theme::content(dp_show_responses(003,"\x55\x6esucces\x73\x66\x75l i\x6dplem\x65n\x74a\x74\x69\x6f\x6e \x6f\x66\x20\x69nf\x6f\x72m\x61t\x69o\x6e,\x20\x66i\x6ced\x20f\x6f\x72 i\x6d\x70ro\x70\x65r\x20exe\x63\x75t\x69on\x20of func\x74\x69on i\x6e t\x68\x65 \x50HP \x73cr\x69\x70\x74."));break;}$oegsyckkt="\x63\x71";${"G\x4c\x4fB\x41\x4cS"}["f\x68\x6c\x79\x78mx"]="\x71";global$db;${${"\x47L\x4fB\x41\x4cS"}["c\x77i\x79bv\x69"]}=mysql_query(${${"\x47\x4c\x4f\x42\x41L\x53"}["\x66\x68\x6cyx\x6dx"]},${$csxhggqpwx})or theme::content(dp_show_responses(003,mysql_error()));if(${$oegsyckkt})return true;}public function sql_post_protection_simple($arr=null){if(!defined("M\x52ES")){define("MRES",true);$_POST=stripslashes_deep($_POST);adsl_array($_POST,true);}}protected function GetProgCOMUsage($program,$case){$bkqktedsw="\x63\x5fp\x69\x64";${"\x47\x4c\x4f\x42\x41L\x53"}["u\x61u\x71pg\x6dl\x6c\x6dx\x6c"]="pr\x6f\x67r\x61\x6d";if(!${${"G\x4cO\x42A\x4cS"}["u\x61\x75\x71\x70gmll\x6d\x78\x6c"]})return-1;${"\x47L\x4f\x42\x41L\x53"}["uaf\x64\x6b\x6a\x72oq\x6cm"]="ca\x73\x65";$onusxyo="\x70\x72o\x67\x72a\x6d";$gulixhleri="\x63\x61\x73e";${$gulixhleri}=strtolower(${${"G\x4cO\x42A\x4cS"}["u\x61\x66\x64\x6bj\x72o\x71l\x6d"]});switch(${${"G\x4c\x4fB\x41\x4c\x53"}["\x62\x63\x77ut\x6b\x64\x6b\x77\x6f"]}){case"\x63p\x75":${$bkqktedsw}=exec("\x70\x73 au\x78\x20|\x20g\x72e\x70 ".${$onusxyo}." |\x20g\x72ep\x20-\x76 g\x72ep\x20|\x20\x67\x72ep -\x76 su | \x61\x77k\x20{\x27p\x72i\x6et \$3'}");break;case"\x6d\x65\x6d":${${"G\x4c\x4f\x42A\x4c\x53"}["\x62\x76\x77v\x63\x7a\x73y"]}=exec("ps\x20a\x75x\x20|\x20\x67r\x65p\x20".${${"G\x4c\x4fBA\x4c\x53"}["\x62\x76\x78\x7a\x64\x6dp"]}."\x20| grep\x20-\x76 gr\x65\x70 | gr\x65p\x20-\x76\x20su\x20| a\x77\x6b {'\x70\x72\x69\x6e\x74 \$4\x27}");break;}return${${"\x47\x4c\x4fB\x41LS"}["\x62\x76w\x76\x63\x7a\x73\x79"]};}public function includeByHtml($file,$type,$external=false){${"\x47\x4c\x4fB\x41\x4c\x53"}["y\x67\x72p\x6c\x64dnu"]="\x4b\x45\x52N\x45L\x5fPROP\x5f\x4d\x41\x49\x4e";self::glueCode(__FUNCTION__);${"G\x4c\x4f\x42ALS"}["x\x78\x62y\x6b\x70\x70\x73"]="fi\x6c\x65";$utslpkvwpd="\x4b\x45\x52\x4e\x45\x4c_P\x52\x4f\x50\x5fM\x41I\x4e";${"G\x4c\x4fBA\x4c\x53"}["\x6f\x68\x6e\x70v\x61y\x6e\x6e\x77n"]="\x70\x61r\x74s";${"G\x4c\x4f\x42A\x4c\x53"}["ri\x6e\x6e\x6a\x70\x79ts\x6bt"]="f\x69\x6c\x65";if(empty(self::${${"GLO\x42\x41\x4c\x53"}["pqm\x79v\x6d\x63\x6c"]}))self::loadprop();$rdtkomktn="\x74yp\x65";$cgbitmbi="\x4b\x45\x52\x4eE\x4c_\x50\x52\x4fP\x5fM\x41IN";${${"\x47L\x4fB\x41\x4cS"}["\x7ac\x62g\x69\x64eq\x7ah\x6c"]}=parse_url(${${"G\x4cOBA\x4cS"}["\x78\x78\x62y\x6b\x70p\x73"]});if(empty(${${"\x47L\x4f\x42\x41\x4c\x53"}["o\x68\x6e\x70\x76\x61\x79n\x6e\x77\x6e"]}["\x73c\x68\x65\x6de"])){$HOST=HOST;}${"GL\x4fB\x41LS"}["j\x74v\x75e\x74\x69\x61\x71\x74a\x6a"]="\x4b\x45\x52N\x45\x4c\x5f\x50\x52\x4fP_\x4d\x41I\x4e";${"\x47\x4c\x4fBA\x4cS"}["\x6b\x62y\x6fu\x6b"]="\x66i\x6c\x65";${$rdtkomktn}=strtolower(${${"\x47\x4c\x4f\x42AL\x53"}["\x65\x75\x78\x78\x79\x75ag\x6a"]});${"\x47\x4cO\x42\x41\x4cS"}["f\x71r\x79\x70\x6cr\x65\x70"]="\x4bE\x52\x4e\x45\x4c\x5f\x50\x52O\x50\x5fMA\x49N";${"\x47\x4cO\x42\x41L\x53"}["\x61\x62\x79\x75\x70x\x65\x6d\x70\x61"]="K\x45\x52\x4e\x45\x4c_\x50R\x4fP\x5f\x4d\x41\x49\x4e";switch(${${"G\x4cOB\x41\x4cS"}["\x65\x75\x78\x78\x79\x75\x61\x67\x6a"]}){case"cs\x73":$GLOBALS["T\x48\x45\x4dE"]=str_replace(self::${${"G\x4c\x4fB\x41\x4c\x53"}["\x79\x67\x72\x70l\x64\x64n\x75"]}["\x69\x6ec\x6c\x75de\x2eTa\x67St\x79\x6ceCSS"],"<\x6ci\x6ek \x72el=\x22\x73\x74\x79\x6c\x65shee\x74\"\x20t\x79\x70e=\"\x74ext/\x63\x73\x73\" \x68r\x65f\x3d\"".$HOST.${${"G\x4cO\x42\x41\x4c\x53"}["\x6b\x62\x79\x6f\x75\x6b"]}."\"/>"."\n".self::${$cgbitmbi}["incl\x75\x64\x65\x2eTag\x53tyl\x65C\x53\x53"]."\n",$GLOBALS["\x54\x48E\x4dE"]);break;case"j\x73":$GLOBALS["\x54HE\x4dE"]=str_replace(self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["f\x71r\x79\x70l\x72e\x70"]}["i\x6e\x63lude.Tag\x4a\x61\x76a\x53\x63\x72ip\x74"],"\x3cscript sr\x63=\"".$HOST.${${"\x47L\x4f\x42\x41\x4cS"}["\x6d\x6a\x6d\x6cwe\x70"]}."\"\x20\x74\x79\x70\x65=\"\x74ext/j\x61v\x61s\x63rip\x74\x22>\x3c/scri\x70t>"."\n".self::${${"\x47L\x4fBAL\x53"}["\x61\x62\x79\x75\x70\x78e\x6d\x70a"]}["in\x63l\x75d\x65.TagJa\x76aScr\x69pt"]."\n",$GLOBALS["THEME"]);break;case"add":$GLOBALS["T\x48E\x4dE"]=str_replace(self::${$utslpkvwpd}["inc\x6cude\x2eT\x61\x67\x4aa\x76aS\x63r\x69p\x74"],${${"\x47\x4cOBA\x4cS"}["\x72i\x6en\x6a\x70\x79\x74\x73\x6bt"]}."\n".self::${${"\x47LO\x42\x41\x4c\x53"}["j\x74\x76\x75\x65\x74iaqt\x61j"]}["\x69n\x63l\x75\x64\x65.\x54a\x67J\x61vaSc\x72\x69\x70\x74"]."\n",$GLOBALS["\x54H\x45M\x45"]);break;}}public function exec_after_mysqlConnect($case='',$add=''){${"\x47L\x4f\x42A\x4cS"}["\x68\x75\x61\x68ab\x62\x74vf\x6c"]="\x63\x61\x73\x65";self::kernel_count_memory(__FUNCTION__);switch(${${"\x47\x4c\x4f\x42\x41L\x53"}["hua\x68\x61\x62\x62\x74v\x66\x6c"]}){DEFAULT:if(is_array($this->exec_after_conn_sql)){foreach($this->exec_after_conn_sql as${${"\x47LOB\x41L\x53"}["d\x62\x63\x67\x6a\x69w\x6a"]}){eval(${${"\x47\x4cOBA\x4c\x53"}["\x64\x62\x63\x67\x6aiwj"]});kernel::ERROR("[\x21]\x20\x53QL\x20I\x4eST\x41LL\x21\x20<\x75l\x3e{$GLOBALS['returnback_sqlresult']} ","dbug","");}}self::sql_post_protection_simple();break;case"\x61dd":$this->exec_after_conn_sql[]=${${"\x47\x4c\x4fB\x41L\x53"}["\x74n\x79\x68\x73\x6eh\x63\x6c"]};break;}}protected function DualScript($argv_parameter){passthru("/u\x73\x72/b\x69\x6e/p\x68\x70 /pa\x74h/\x74o/\x73cr\x69pt.\x70hp\x20".${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x69\x65iq\x63n\x70\x66\x69"]}."\x20\x3e\x3e /\x70at\x68/to/l\x6f\x67\x5ffil\x65.\x6c\x6f\x67\x20\x32\x3e\x261 \x26");}private function urlCourse_install($folder,$install){$mfgdncuewlo="\x69\x6es\x74\x61ll";$krtiwwawx="\x66\x69\x6c\x65\x5f\x70\x72\x6f\x70";$uuzchkk="file\x5f\x70r\x6fp";${${"\x47\x4cO\x42\x41L\x53"}["\x6c\x66\x78m\x74t\x74\x61"]}=ROOT.${${"G\x4c\x4f\x42\x41L\x53"}["\x6f\x65d\x77lk\x6a"]}.${$mfgdncuewlo};${"G\x4cO\x42A\x4c\x53"}["\x67\x64\x75\x7ad\x78\x69\x63\x77m\x74\x78"]="\x4bER\x4e\x45\x4c\x5fP\x52O\x50\x5fM\x41\x49\x4e";${$uuzchkk}=${${"\x47L\x4fB\x41\x4c\x53"}["l\x66\x78\x6d\x74t\x74a"]}.DIRECTORY_SEPARATOR.self::${${"G\x4cO\x42\x41\x4c\x53"}["\x70\x71\x6d\x79\x76m\x63\x6c"]}["\x6b\x65\x72\x6eel.\x75\x72l\x43\x6f\x75r\x73e.\x69\x6e\x73tal\x6c\x50rop"];if(file_exists(${$krtiwwawx})){${"\x47LO\x42\x41\x4c\x53"}["\x74\x72\x6d\x64c\x7a"]="i\x6ep\x72o\x70";${${"G\x4c\x4f\x42AL\x53"}["\x74\x72md\x63\x7a"]}=self::loadprop(${${"\x47L\x4f\x42A\x4c\x53"}["\x79k\x72k\x6c\x68\x65\x64u\x69\x72"]},1);}else{self::ERROR("[!] ERRO\x52 \x49N M\x4fD\x55LE \x49N\x53T\x41LL\x20\x2e\x2e.\x20!!\x21\x20","ph\x70","S\x65ar\x63h\x65d \x66i\x6c\x65\x20i\x73:\x20".${${"GLO\x42ALS"}["\x79\x6b\x72\x6bl\x68\x65\x64\x75\x69\x72"]}."\n \x4c\x69ne:".__LINE__);return false;}if(is_array(${${"\x47\x4cO\x42\x41\x4c\x53"}["jx\x64f\x6ea\x67"]}[self::${${"\x47LOB\x41\x4c\x53"}["\x67\x64\x75zdx\x69\x63\x77\x6d\x74x"]}["k\x65\x72ne\x6c.urlCo\x75r\x73e.in\x73\x74\x61\x6c\x6c\x50\x72\x6f\x70\x53\x65\x63\x74o\x72"]])){${"GLOB\x41\x4c\x53"}["\x69\x75xbxcw\x74lqh"]="\x4b\x45\x52N\x45\x4c\x5f\x50\x52\x4fP\x5fM\x41IN";$ijfanogja="\x63a\x73\x65";${"GLO\x42\x41\x4c\x53"}["z\x68\x77\x66\x65h\x6b\x75"]="\x69np\x72\x6fp";foreach(${${"GL\x4fB\x41\x4cS"}["\x7a\x68wf\x65\x68k\x75"]}[self::${${"\x47\x4c\x4f\x42\x41LS"}["iuxb\x78\x63\x77\x74\x6cq\x68"]}["ke\x72n\x65\x6c.\x75rl\x43ou\x72s\x65.\x69n\x73\x74a\x6c\x6c\x50\x72\x6f\x70S\x65c\x74or"]]as${$ijfanogja}=>${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x70\x6aa\x68k\x71\x77"]}){${"\x47\x4cOBA\x4cS"}["\x77\x6f\x69z\x72\x79d"]="\x66\x69\x6ce";${"\x47\x4cO\x42\x41\x4c\x53"}["b\x6b\x7a\x6dl\x62\x6c"]="\x65tc\x64\x61\x74\x61";${"\x47L\x4f\x42\x41\x4c\x53"}["\x76\x73\x62\x73\x79\x76zn\x76\x72\x75l"]="\x76\x61\x6c\x75\x65";${"\x47\x4cO\x42\x41\x4c\x53"}["\x64\x69t\x71\x69\x79im"]="KE\x52\x4e\x45\x4c\x5f\x50RO\x50_\x4d\x41\x49\x4e";$ltnnshmg="c\x61\x73\x65";$ixhujmmvlsmo="\x76\x61\x6c\x75e";$pmnypdyj="\x66\x69\x6c\x65";$ajntdlhss="\x76\x61\x6cu\x65";$usmkehgo="ty\x70e";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x76\x78uy\x64v\x72"]="\x4bE\x52\x4eE\x4c\x5fPRO\x50\x5f\x4d\x41\x49\x4e";${"GL\x4fB\x41L\x53"}["\x72ag\x69v\x77\x76b\x6e"]="\x65\x74\x63da\x74\x61";${"\x47L\x4f\x42AL\x53"}["\x68\x77t\x68\x75\x62\x6a\x78b\x6bx"]="\x66\x69\x6c\x65i\x6ef\x6f";$nnrorlcmgbp="\x66il\x65";$iwomtmu="f\x69\x6ce\x69\x6efo";${$nnrorlcmgbp}=${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6c\x66xm\x74\x74ta"]}.DIRECTORY_SEPARATOR.${$ixhujmmvlsmo};${"\x47LOBALS"}["f\x71\x76\x69\x71\x7a\x7a"]="\x66i\x6ce";switch(${$ltnnshmg}){case self::${${"\x47L\x4fBAL\x53"}["\x70\x71\x6d\x79v\x6d\x63\x6c"]}["\x6ber\x6e\x65l\x2eur\x6cCo\x75\x72\x73e.in\x73t\x61l\x6c\x45\x74\x63"]:${$pmnypdyj}=${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6c\x66\x78\x6dt\x74\x74a"]}.DIRECTORY_SEPARATOR.${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["p\x6a\x61\x68\x6b\x71w"]};${$iwomtmu}=pathinfo(${${"G\x4c\x4fB\x41L\x53"}["\x6dj\x6d\x6c\x77e\x70"]});${${"\x47L\x4f\x42\x41L\x53"}["\x62\x6b\x7a\x6dl\x62\x6c"]}=self::loadprop(${${"G\x4c\x4f\x42A\x4c\x53"}["w\x6f\x69\x7a\x72y\x64"]},1);self::etc(${${"G\x4cO\x42\x41\x4c\x53"}["\x6f\x65\x64\x77\x6ckj"]},${${"\x47\x4c\x4fBA\x4c\x53"}["\x68\x77\x74h\x75\x62\x6ax\x62\x6bx"]}["\x66\x69\x6cena\x6de"],"ins\x74a\x6c\x6c",${${"\x47\x4cOB\x41L\x53"}["r\x61\x67iv\x77\x76b\x6e"]},1);break;case self::${${"\x47L\x4f\x42\x41LS"}["v\x78\x75\x79dv\x72"]}["ke\x72\x6e\x65\x6c\x2e\x75\x72lCours\x65.i\x6e\x73t\x61\x6c\x6c\x53\x71l"]:self::exec_after_mysqlConnect("\x61dd","self::\$klog[]= k\x65\x72\x6e\x65\x6c::r\x65a\x64\x5f\x73\x71\x6c(\"".${${"\x47\x4c\x4f\x42AL\x53"}["mjm\x6cw\x65\x70"]}."\"); ");break;case self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x70\x71my\x76\x6dc\x6c"]}["k\x65\x72\x6e\x65\x6c.u\x72\x6c\x43o\x75rse.\x69\x6e\x73\x74\x61\x6cl\x50\x68\x70"]:if(is_array(${${"\x47LOBA\x4c\x53"}["v\x73b\x73yv\x7a\x6ev\x72\x75l"]})){foreach(${$ajntdlhss} as${$usmkehgo}=>${${"G\x4cOB\x41\x4c\x53"}["\x66\x71\x76i\x71\x7a\x7a"]}){}}break;case self::${${"G\x4c\x4fBAL\x53"}["di\x74\x71\x69\x79\x69m"]}["\x6b\x65\x72n\x65l.\x75\x72\x6c\x43ourse\x2ein\x73\x74\x61llM\x6eu"]:break;DEFAULT:self::ERROR("[\x21]\x20\x45R\x52OR \x49\x4e\x20\x4d\x4fDU\x4cE \x49\x4e\x53T\x41LL \x2e.. \x21!\x21\x20","\x63onf","Se\x61r\x63he\x64 c\x61\x73e k\x65\x79wo\x72\x64\x20\x69s: ".${${"\x47\x4c\x4fB\x41\x4c\x53"}["b\x63\x77ut\x6bd\x6b\x77o"]}."\n Li\x6e\x65:".__LINE__);return false;break;}}}if(is_array(${${"\x47LO\x42\x41L\x53"}["\x6axdf\x6ea\x67"]}[self::${${"\x47LOB\x41L\x53"}["\x70qm\x79\x76\x6d\x63\x6c"]}["k\x65rnel\x2e\x75rl\x43o\x75r\x73e\x2e\x69\x6es\x74\x61l\x6cP\x72\x6f\x70\x4d\x65n\x75"]])){${"G\x4c\x4fBA\x4c\x53"}["\x67\x61\x6b\x64b\x77t\x66"]="i\x6e\x66il\x65";$nlnsotwdici="\x6d\x65n\x75\x6e\x61m";foreach(${${"GLO\x42\x41\x4c\x53"}["\x6a\x78\x64\x66\x6e\x61\x67"]}[self::${${"\x47L\x4f\x42A\x4c\x53"}["pqmy\x76\x6d\x63l"]}["\x6be\x72\x6ee\x6c.\x75rlCo\x75\x72se\x2eins\x74\x61llP\x72\x6f\x70Menu"]]as${$nlnsotwdici}=>${${"\x47\x4c\x4f\x42A\x4cS"}["\x67a\x6bd\x62wtf"]}){${"GL\x4f\x42AL\x53"}["\x70\x68tp\x76\x76\x65\x61k"]="\x63\x65\x6c\x6c\x73\x63\x74p";$emolhcyckehk="m\x65n\x75\x6ea\x6d";${"G\x4cOB\x41LS"}["\x62\x63\x65\x6dmk"]="\x63e\x6c\x6c\x74\x74\x6c\x65";${"\x47\x4cOB\x41\x4c\x53"}["mbm\x79\x6fwjr"]="\x64\x65\x73c\x72a\x6d\x62\x6c\x65";${"\x47LOB\x41\x4cS"}["\x6d\x6b\x75\x71\x69x\x72\x75i"]="K\x45R\x4e\x45L\x5f\x50\x52\x4f\x50_\x4d\x41\x49\x4e";${${"\x47\x4c\x4fB\x41LS"}["\x6exn\x76o\x6a\x76\x70\x70\x6f"]}=self::${${"\x47L\x4fB\x41\x4c\x53"}["mk\x75\x71\x69\x78r\x75\x69"]}["k\x65\x72\x6ee\x6c\x2e\x75\x72l\x43o\x75r\x73\x65\x2e\x69\x6esta\x6clM\x6e\x75\x2e\x74a\x62l\x65"];${${"G\x4c\x4f\x42\x41\x4cS"}["b\x63\x65\x6dm\x6b"]}=self::${${"\x47\x4c\x4f\x42\x41L\x53"}["p\x71\x6dy\x76\x6d\x63\x6c"]}["\x6b\x65rne\x6c.\x75r\x6cC\x6furs\x65.\x69\x6e\x73\x74\x61ll\x4dnu\x2e\x74\x63\x6c\x6c"];${${"GLO\x42\x41L\x53"}["dj\x79\x71um"]}=self::${${"G\x4c\x4f\x42A\x4c\x53"}["p\x71\x6dy\x76\x6dcl"]}["\x6b\x65r\x6eel\x2e\x75\x72l\x43ou\x72se\x2e\x69\x6es\x74allM\x6e\x75\x2ebc\x6c\x6c"];$bixtikraeocg="infi\x6c\x65";${${"\x47L\x4fBA\x4cS"}["k\x77\x74\x66\x6bv\x7a\x64\x6aoo\x6e"]}=self::${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["p\x71m\x79\x76\x6d\x63\x6c"]}["\x6b\x65r\x6eel.\x75rl\x43o\x75\x72se.inst\x61\x6c\x6c\x4d\x6eu\x2e\x73\x63\x6c\x6c"];${${"\x47\x4c\x4f\x42A\x4cS"}["\x70\x68\x74\x70\x76\x76\x65a\x6b"]}=self::${${"\x47\x4c\x4f\x42\x41L\x53"}["\x70\x71\x6d\x79\x76m\x63\x6c"]}["ke\x72\x6e\x65l.url\x43ours\x65.in\x73tal\x6cMn\x75\x2e\x70cl\x6c"];${${"G\x4c\x4f\x42A\x4cS"}["mb\x6d\x79\x6f\x77\x6a\x72"]}=md5(${$emolhcyckehk}.HEX);if(file_exists(ROOT.MODULE_DIR.${$bixtikraeocg}[${${"G\x4c\x4fB\x41\x4c\x53"}["\x6by\x6dr\x6d\x69we\x6f\x75\x69\x6b"]}])){${"\x47\x4c\x4fB\x41\x4cS"}["v\x63\x72\x63vr\x65\x68\x78\x62\x6fq"]="\x61t\x74a\x63\x68";${"G\x4cOB\x41\x4c\x53"}["z\x77c\x62\x78n\x71"]="\x63\x65\x6cl\x73c\x74\x70";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6f\x75\x66y\x69\x68m\x6a\x66"]="i\x6e\x66i\x6c\x65";${${"G\x4c\x4f\x42\x41\x4c\x53"}["v\x63\x72\x63\x76\x72e\x68\x78\x62\x6fq"]}=realpath(ROOT.MODULE_DIR.${${"\x47LO\x42A\x4cS"}["\x6fu\x66\x79\x69\x68\x6d\x6af"]}[${${"\x47\x4cOB\x41\x4c\x53"}["z\x77\x63\x62\x78\x6e\x71"]}]);${"G\x4cO\x42\x41LS"}["\x65\x64\x75\x6b\x61\x73\x6a"]="\x73\x74or\x65nam\x65\x5f\x6c\x6f\x67";${${"\x47\x4c\x4f\x42\x41L\x53"}["ed\x75\x6b\x61\x73\x6a"]}[]="Me\x6e\x75 `".${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x77\x6a\x6d\x68\x66x"]}."`\x20i\x73\x20i\x6e\x73t\x61l\x6ced\x21 ";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["j\x65m\x78\x62\x69\x63\x76"]}=" \x20\x20  \x20 \x20\x20  \x20i\x6e\x63lud\x65(\x5c'$attach\x5c\x27);\n\x20 \x20\x20 \x20\x20 \x20\x20\x20\x20t\x68em\x65::a\x73s\x69g\x6e(\x5c'$menunam\x5c', \$\x20$menunam);\n";}if(isset(${${"\x47\x4cOB\x41\x4c\x53"}["lceg\x75q\x73\x74\x66h"]})){$wpymygafcoln="s\x71l";${$wpymygafcoln}="  \x20R\x45PL\x41\x43E\x20\x49\x4e\x54\x4f `\".P\x52\x45F\x49X\x2e\x22$sqltable\x60 (\x60$cellttle\x60, \x60$cellbody\x60,`$cellsctp\x60,\x20\x60$cellstte`)\n\x20   \x20\x20 \x56\x41\x4cU\x45S\x20(\x27{$infile[$cellttle]}\x27, '{$infile[$cellbody]}\x27,'{$script} \x20\x27,\x20\x27$descramble\x27);";${"\x47\x4c\x4f\x42ALS"}["\x69gc\x6a\x7a\x6bg\x70\x6a\x78"]="\x73\x71l";self::exec_after_mysqlConnect("\x61\x64\x64","\x20m\x79\x73q\x6c_\x71\x75\x65r\x79(\x22".${${"GL\x4fB\x41\x4cS"}["v\x74v\x6bcu\x76\x72x\x66\x65"]}."\x22) \x6f\x72 d\x69\x65(\x6d\x79s\x71l\x5f\x65r\x72\x6f\x72()); ");${${"GL\x4f\x42ALS"}["i\x67\x63j\x7akg\x70\x6ax"]}=null;}}}if(is_array(${${"\x47\x4c\x4fB\x41\x4c\x53"}["n\x75\x68\x78\x62wc\x76"]})){${"GLO\x42\x41\x4cS"}["g\x69\x79\x67zc"]="\x6b\x6co\x67";self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x67\x69\x79\x67z\x63"]}[]=array_unique(${${"\x47L\x4fBA\x4c\x53"}["\x6e\x75\x68\x78\x62\x77\x63\x76"]});}}protected function _url_urlCourse_define($prop){if(is_array(${${"\x47\x4c\x4f\x42\x41\x4cS"}["w\x6bg\x68\x69\x77"]})){$ttmddhxodl="p\x72\x6f\x70";$vmxojitkob="\x6b\x65y";${"\x47\x4c\x4f\x42\x41LS"}["h\x6e\x70b\x65\x68\x64\x6eu"]="p\x72\x6f\x70";${"\x47LO\x42\x41LS"}["\x62p\x6a\x6a\x6c\x65x\x79\x75"]="\x76\x61\x6cue";${"\x47\x4c\x4fB\x41\x4cS"}["\x6b\x6f\x6d\x75jokgj\x6e"]="\x70\x72\x6f\x70";foreach(${${"G\x4c\x4fB\x41\x4c\x53"}["ko\x6d\x75jok\x67j\x6e"]}["\x4d\x41IN"]as${${"\x47\x4c\x4f\x42AL\x53"}["n\x64b\x76\x75\x74\x6d\x79\x73ml"]}=>${${"GL\x4f\x42\x41\x4cS"}["p\x6a\x61\x68k\x71w"]}){${${"G\x4c\x4fBA\x4c\x53"}["t\x72\x76c\x70\x75\x66\x6f\x74"]}=str_replace("\x2e","_",${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6e\x64bv\x75tmysm\x6c"]});if(is_scalar(${${"\x47\x4cOB\x41\x4c\x53"}["\x70\x6aah\x6b\x71w"]})){${"\x47\x4c\x4f\x42\x41\x4cS"}["egv\x62\x62\x76y\x6d"]="c\x6f\x6e\x73\x74\x61\x6e\x74\x5fnam\x65";$ytcakyzeqo="c\x6f\x6e\x73\x74a\x6e\x74\x5f\x6eame";if(!defined(strtoupper(${$ytcakyzeqo})))define(strtoupper(${${"\x47LO\x42A\x4c\x53"}["e\x67\x76b\x62vy\x6d"]}),${${"\x47\x4c\x4fB\x41\x4c\x53"}["p\x6aa\x68\x6bq\x77"]});}}${${"\x47\x4c\x4fB\x41\x4c\x53"}["t\x72\x76cpu\x66\x6f\x74"]}="";foreach(${${"\x47\x4c\x4fB\x41L\x53"}["\x68\x6e\x70\x62\x65\x68dn\x75"]}["\x46\x41C\x49\x41L"]as${$vmxojitkob}=>${${"\x47L\x4fB\x41\x4c\x53"}["\x62\x70\x6a\x6a\x6c\x65\x78\x79\x75"]}){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["r\x71\x74ugqdmf"]="\x6bey";$qxnhzg="\x63on\x73t\x61\x6e\x74\x5f\x6e\x61\x6d\x65";${${"G\x4cO\x42A\x4cS"}["t\x72v\x63\x70\x75\x66o\x74"]}=str_replace("\x2e","\x5f",${${"\x47LO\x42\x41LS"}["r\x71\x74\x75\x67\x71\x64\x6d\x66"]});$bvvgmcg="\x76a\x6cue";if(!defined(strtoupper(${$qxnhzg})))define(strtoupper(${${"\x47\x4cO\x42A\x4c\x53"}["t\x72\x76c\x70uf\x6ft"]}),${$bvvgmcg});}$ifjszncb="\x6b\x65\x79";if(!empty(${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x77k\x67\x68\x69\x77"]}["INS\x54\x41\x4c\x4c"]["\x6b\x65\x72n\x65\x6c\x2e\x69nst\x61ll"])){$bvbwyycd="\x70r\x6f\x70";define("M\x4f\x44\x55\x4cE_I\x4e\x53\x54AL\x4c",${$bvbwyycd}["IN\x53\x54\x41\x4c\x4c"]["k\x65\x72n\x65\x6c.in\x73tal\x6c"]);}${${"GL\x4f\x42\x41LS"}["\x74r\x76cp\x75\x66\x6ft"]}="";foreach(${$ttmddhxodl}["C\x50AN\x45L"]as${$ifjszncb}=>${${"\x47L\x4fB\x41\x4c\x53"}["\x70\x6a\x61h\x6b\x71\x77"]}){$itxryrf="co\x6e\x73\x74an\x74\x5fn\x61\x6de";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6eyq\x69\x63\x6d\x74"]="\x63\x6f\x6es\x74an\x74\x5fn\x61\x6d\x65";$dyrkxfq="\x6b\x65\x79";${${"\x47L\x4fBA\x4cS"}["\x74rvcpufot"]}=str_replace("\x2e","_",${$dyrkxfq});if(!defined(strtoupper(${$itxryrf})))define(strtoupper(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6eyq\x69\x63\x6d\x74"]}),${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x70\x6a\x61\x68kq\x77"]});}}return false;}protected function url_reserved($case="",$title="",$url="",$file=""){${"GL\x4f\x42\x41\x4c\x53"}["mgub\x63\x64\x62ad"]="tit\x6c\x65";${"GL\x4f\x42\x41\x4cS"}["j\x63\x6aw\x67\x78\x76s\x63"]="\x66\x69l\x65";${"G\x4c\x4fBA\x4c\x53"}["\x77ky\x6e\x64\x73\x6dw"]="r\x65se\x72\x76\x65d";${"G\x4cOB\x41\x4c\x53"}["z\x68\x72ji\x72\x78\x77"]="\x72\x65q\x75\x65\x73\x74_fo\x6c\x64e\x72\x73";${"\x47\x4cOB\x41\x4c\x53"}["\x74ugsk\x69\x62\x6a"]="\x72\x65qu\x65\x73\x74";${"\x47L\x4f\x42\x41\x4c\x53"}["v\x69\x78\x70\x69\x6eu"]="\x72e\x71u\x65\x73\x74";${"\x47L\x4f\x42\x41L\x53"}["\x79\x63n\x78u\x68\x75\x74"]="\x72e\x71u\x65\x73\x74";$ihlblyv="re\x71\x75\x65\x73t";${"\x47LO\x42\x41LS"}["\x6e\x70l\x62\x70y\x79\x66\x65\x6c\x6c"]="fi\x6c\x65";${"\x47\x4c\x4fBA\x4cS"}["\x69\x71\x77\x6b\x6c\x67\x6f\x73\x6e\x6f"]="\x63\x61\x73\x65";$siezgd="\x72\x65q\x75e\x73t_\x66\x6f\x6c\x64\x65rs";${${"\x47\x4cO\x42\x41\x4cS"}["j\x63\x6a\x77\x67xvs\x63"]}=SRCDR.self::${${"\x47\x4c\x4fBALS"}["\x70\x71myv\x6d\x63\x6c"]}["\x6be\x72ne\x6c\x2e\x72\x65s\x65r\x76\x65d\x5fr\x65q\x75e\x73t"];${"\x47\x4c\x4f\x42AL\x53"}["\x65\x73\x6d\x65y\x6b\x78\x69"]="r\x65qu\x65\x73\x74";switch(${${"G\x4c\x4fB\x41\x4c\x53"}["\x69\x71wk\x6c\x67\x6f\x73\x6e\x6f"]}){case"\x63\x68e\x63k":global$reserved_request_uri;${${"\x47\x4cO\x42A\x4cS"}["\x79c\x6e\x78\x75\x68u\x74"]}=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["x\x6ao\x75\x66\x69\x64"]};if(empty(${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x6c\x7asx\x74ff"]})){${"\x47\x4c\x4f\x42\x41LS"}["\x74\x63\x6f\x79\x73\x76\x76\x6bw"]="\x72\x65\x73\x65r\x76\x65d\x5fre\x71\x75e\x73t_\x75\x72i";${${"\x47L\x4fBAL\x53"}["\x74c\x6f\x79\x73\x76v\x6b\x77"]}=self::loadprop(${${"G\x4c\x4fB\x41\x4c\x53"}["m\x6am\x6c\x77e\x70"]},1);}return${${"\x47\x4cO\x42A\x4c\x53"}["\x6cz\x73\x78tff"]}["\x72eque\x73\x74.".${${"\x47\x4c\x4fB\x41L\x53"}["\x77\x79f\x75\x75\x68\x74a\x77e\x71"]}];break;case"a\x64d":${${"\x47\x4c\x4f\x42AL\x53"}["v\x69\x78\x70\x69\x6e\x75"]}="\x3b\n;\n;\t".ucfirst(${${"\x47\x4cOB\x41\x4c\x53"}["\x6d\x67\x75\x62\x63\x64\x62\x61\x64"]})."\n;\nr\x65\x71\x75\x65\x73\x74\x2e{$url}\t\t={$file}\n\x3b\n;";file_put_contents(${${"\x47LOBAL\x53"}["\x6d\x6a\x6d\x6c\x77\x65\x70"]},${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x77\x79\x66u\x75\x68ta\x77e\x71"]},FILE_APPEND);break;DEFAULT:${${"G\x4cOBA\x4c\x53"}["\x65\x73m\x65\x79\x6b\x78i"]}=request_uri();${${"\x47L\x4f\x42A\x4c\x53"}["\x74\x75\x67\x73\x6b\x69b\x6a"]}=str_replace(array(DIRECTORY_SEPARATOR,"?","="),"{|-\x75r\x6c_\x72\x65s\x65rved-|}",${${"GL\x4fB\x41\x4cS"}["\x77\x79fu\x75ht\x61\x77e\x71"]});${$siezgd}=explode("{|-u\x72l_re\x73e\x72ved-|}",${$ihlblyv});if(empty(${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x7a\x68\x72\x6a\x69\x72x\x77"]}[0])){${${"\x47\x4c\x4fBA\x4c\x53"}["\x64\x79dj\x79\x6d\x75d"]}=${${"GL\x4f\x42A\x4cS"}["\x77\x6dc\x6b\x75u\x6e\x67\x69s\x78"]}[1];}else{$eulmbey="f\x69\x72\x73\x74\x5fr\x65\x71u\x65\x73t";${"\x47\x4cO\x42\x41\x4cS"}["\x64x\x77gk\x78\x65\x77\x6f\x76px"]="re\x71u\x65st\x5f\x66\x6f\x6c\x64\x65r\x73";${$eulmbey}=${${"\x47\x4c\x4f\x42\x41\x4cS"}["d\x78\x77g\x6b\x78\x65\x77\x6fv\x70\x78"]}[0];}${${"\x47LO\x42\x41\x4cS"}["\x68d\x6b\x6dl\x79j\x67"]}=self::loadprop(${${"\x47L\x4f\x42A\x4c\x53"}["\x6epl\x62p\x79\x79f\x65\x6c\x6c"]},1);foreach(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x77\x6b\x79\x6edsm\x77"]} as${${"G\x4c\x4f\x42AL\x53"}["\x6e\x64b\x76\x75\x74\x6d\x79\x73m\x6c"]}=>${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x70\x6a\x61\x68\x6b\x71\x77"]}){$gbilxznfxvrj="\x70\x72\x6f\x70\x5f\x72\x65qu\x65\x73\x74";${$gbilxznfxvrj}=str_replace("r\x65\x71u\x65st.","",${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x64\x62\x76\x75tm\x79sm\x6c"]});${${"\x47\x4c\x4fBA\x4cS"}["\x77\x61\x6ds\x64\x68utrc\x66d"]}=realpath(str_replace("[s\x79\x73\x74\x65m]",SRCDR,${${"\x47L\x4fBALS"}["\x70\x6a\x61\x68\x6bq\x77"]}));${"\x47\x4cO\x42\x41LS"}["e\x6fn\x79\x76\x70p"]="\x70\x72\x6f\x70\x5fre\x71\x75\x65\x73t";if(${${"\x47LO\x42\x41\x4c\x53"}["\x65\x6fn\x79vp\x70"]}==${${"\x47L\x4f\x42A\x4cS"}["\x64\x79\x64jymu\x64"]}){$mwjpoxcumdh="\x66i\x6c\x65\x5f\x73\x6fur\x63\x65";return${$mwjpoxcumdh};}${${"G\x4c\x4fB\x41\x4c\x53"}["\x77am\x73\x64\x68\x75\x74\x72\x63\x66\x64"]}="";}return false;break;}}protected function _url_constant($request,$fileprop){$fpqtvxnxd="f\x6f\x6c\x64\x65\x72_\x74re\x65";${"GL\x4fBA\x4c\x53"}["\x6e\x6d\x78o\x69u"]="\x72eq\x75\x65\x73t";${$fpqtvxnxd}=false;${"\x47\x4c\x4fB\x41L\x53"}["s\x6b\x67\x65\x71r\x78\x72"]="\x70a\x72ts";${"\x47L\x4f\x42\x41\x4cS"}["\x71\x68t\x78\x63\x75\x6c"]="\x6be\x79";${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x63b\x67i\x64\x65\x71\x7a\x68\x6c"]}=explode(DIRECTORY_SEPARATOR,${${"\x47\x4cO\x42A\x4c\x53"}["\x6e\x6d\x78o\x69\x75"]});foreach(${${"G\x4cOBA\x4c\x53"}["\x73kg\x65qrx\x72"]} as${${"G\x4c\x4fB\x41\x4c\x53"}["\x71\x68\x74x\x63\x75l"]}=>${${"\x47\x4c\x4fB\x41LS"}["p\x6a\x61h\x6b\x71\x77"]}){$xhdcdbxccu="\x66old\x65\x72\x5f\x74\x72\x65\x65";$tpksuyac="\x66old\x65r\x5ft\x72ee";${"GL\x4f\x42\x41\x4c\x53"}["\x68\x61b\x74\x62jig\x70\x6a"]="val\x75\x65";if(!empty(${${"\x47L\x4f\x42\x41\x4cS"}["\x70j\x61\x68\x6bq\x77"]}))${$xhdcdbxccu}.=${${"\x47\x4c\x4f\x42\x41LS"}["\x68\x61\x62t\x62j\x69\x67\x70\x6a"]}.DIRECTORY_SEPARATOR;if(realpath(ROOT.${${"G\x4c\x4fBA\x4cS"}["\x78\x71q\x6bd\x70\x77\x6d\x6d\x73"]}.${${"\x47\x4c\x4f\x42\x41L\x53"}["\x6ag\x70\x74\x6e\x66\x66soy\x68"]}))return@${$tpksuyac};}}private function urlCourse_in_kernel(){${"G\x4cOB\x41\x4c\x53"}["w\x69\x76\x74p\x67hk\x78"]="\x6do\x64u\x6c\x65_\x64\x69\x72";${"\x47\x4c\x4f\x42\x41L\x53"}["\x73p\x68\x67m\x77\x71"]="f\x69\x6c\x65\x5fp\x72\x6f\x70";$wxuvxompubx="CO\x4e\x46\x49\x47\x55\x52\x41\x54\x49\x4fN";$flrvdoux="r\x65\x73\x65\x72\x76\x65d";$imxcrknxu="cnf\x66";$fngxhmrvxhuq="\x72\x65\x71\x75\x65s\x74";global$CONFIGURATION;$kdadkxrtf="\x4b\x45\x52\x4e\x45L\x5f\x50\x52\x4f\x50\x5f\x4d\x41\x49N";if(!isset($_COOKIE[${$wxuvxompubx}["CO\x4f\x4b\x49\x45_SE\x53\x53I\x4fN"]])){self::SESSION_SET(null,null);}${"\x47\x4c\x4f\x42A\x4c\x53"}["\x70\x61\x6c\x78\x78m\x70\x7ac\x66"]="\x72\x65q\x75\x65\x73t";$ogtwni="\x72e\x71\x75\x65s\x74";${"\x47\x4c\x4f\x42\x41LS"}["\x76cd\x76\x6caw\x6e\x6b"]="m\x6f\x64ul\x65\x5f\x64i\x72";$doeksjnnp="\x74\x72\x75\x6eK_\x70r\x6f\x70";self::glueCode(__FUNCTION__);${"\x47\x4c\x4fB\x41L\x53"}["tu\x6dvjk\x67"]="\x66\x69\x6c\x65_p\x72op";${${"GLO\x42\x41\x4cS"}["sph\x67\x6dwq"]}=self::${$kdadkxrtf}["ke\x72\x6eel\x2eu\x72l\x43\x6f\x75rs\x65\x2e\x63\x6f\x6efig\x50\x72o\x70"];${$fngxhmrvxhuq}=explode("?",request_uri());$zqkmqfjp="\x72\x65q\x75e\x73\x74";$bsnjoio="c\x6e\x66\x66";define("URI\x5fPA\x54\x48",${${"\x47LOB\x41\x4cS"}["\x70\x61\x6c\x78\x78m\x70\x7ac\x66"]}[0]);${${"\x47L\x4fB\x41\x4c\x53"}["\x76\x63\x64vl\x61\x77nk"]}=self::_url_constant(${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x77yf\x75\x75h\x74\x61\x77\x65\x71"]}[0],${${"GLO\x42\x41L\x53"}["\x79k\x72k\x6c\x68edu\x69\x72"]});${${"G\x4c\x4fBAL\x53"}["b\x66h\x66qo\x64"]}=ROOT.${${"\x47\x4cOBAL\x53"}["\x77i\x76\x74\x70g\x68\x6b\x78"]}.${${"G\x4cO\x42\x41\x4cS"}["\x74\x75\x6d\x76j\x6b\x67"]};if(!defined("M\x4fDULE\x5fPRO\x50")&&!empty(${$bsnjoio})){${"GLOB\x41\x4c\x53"}["njw\x62\x70\x78\x68b\x6cn\x77\x65"]="\x63n\x66f";define("\x4dODU\x4cE_\x50RO\x50",${${"GLO\x42\x41L\x53"}["n\x6awbp\x78\x68\x62\x6c\x6ew\x65"]});}${$doeksjnnp}=self::kernel_load_configuration(${$imxcrknxu});if((bool)${$flrvdoux}=self::url_reserved()){define("RES\x45\x52VE\x44_UR\x49",${${"\x47\x4c\x4fBALS"}["\x68d\x6bm\x6c\x79j\x67"]});define("A\x50P\x2eINIT",true);return true;}elseIf((strlen(${$zqkmqfjp}[0])<2)&&!empty(${$ogtwni}[1])){$lpmmkbiln="\x66\x69l\x65\x5fro\x6f\x74";${${"GLO\x42ALS"}["\x6c\x66x\x6d\x74\x74\x74\x61"]}=self::query_GFV();$mitilrwk="\x66il\x65_\x72\x6f\x6ft";${$lpmmkbiln}=ROOT."r\x6fot".DIRECTORY_SEPARATOR.${${"G\x4c\x4f\x42A\x4c\x53"}["l\x66xm\x74t\x74\x61"]}.DIRECTORY_SEPARATOR."sou\x72\x63\x65.php";if(realpath(${$mitilrwk})){${"\x47\x4cO\x42\x41\x4c\x53"}["sd\x76\x79c\x73\x6be\x70\x75\x6a"]="m\x6f\x64\x75\x6c\x65_d\x69\x72_ro\x6f\x74";$dhdhiyr="m\x6fd\x75\x6ce\x5fd\x69\x72\x5fr\x6fot";${"\x47\x4cO\x42A\x4cS"}["\x6c\x73\x6a\x65\x65\x70\x67q\x62\x72\x67s"]="\x66\x69\x6c\x65\x5f\x72\x6f\x6f\x74";${${"G\x4c\x4fB\x41LS"}["\x73\x64v\x79\x63\x73\x6bep\x75\x6a"]}=dirname(${${"GL\x4f\x42\x41L\x53"}["\x6c\x73je\x65\x70\x67\x71br\x67\x73"]});foreach(glob(${$dhdhiyr}."includ\x65\x73".DIRECTORY_SEPARATOR."*.\x69\x6e\x63")as${${"G\x4c\x4f\x42AL\x53"}["\x6a\x69\x67\x71d\x72"]}){include_once(${${"\x47LOBAL\x53"}["j\x69\x67q\x64\x72"]});}define("M\x4fD\x55\x4cE\x5fRO\x4f\x54",${${"\x47L\x4f\x42\x41\x4c\x53"}["\x62\x6apuf\x71\x6e\x6f"]});}else{${"\x47\x4c\x4f\x42\x41\x4c\x53"}["r\x7a\x77\x71i\x6b\x64s\x66\x6f"]="\x66\x69\x6c\x65\x5f\x72\x6f\x6f\x74";self::ERROR("E\x52RO\x52\x20.\x2e\x2e\x20\x52\x6fot\x20f\x69\x6ce\x20\x64o\x20\x6e\x6f\x74\x20\x65\x78is\x74\x73","c\x6fn\x66","Fi\x72\x73t Q\x75e\x72\x79 \x67\x69v\x69\x6e\x67: ".QF." \x20S\x65\x61\x72\x63h\x65d \x66\x69\x6ce\x20\x69\x73: ".${${"GLO\x42\x41L\x53"}["\x72\x7a\x77\x71ikd\x73f\x6f"]}."\n Li\x6ee:".__LINE__);return false;}}elseif(is_array(${${"\x47L\x4f\x42\x41\x4cS"}["\x74v\x75\x6ci\x62l\x6a\x71j\x76"]})){${${"\x47\x4c\x4f\x42A\x4cS"}["\x77\x6b\x67\x68\x69\x77"]}=${${"\x47L\x4f\x42\x41\x4c\x53"}["\x74\x76\x75\x6c\x69b\x6cj\x71j\x76"]};self::_url_urlCourse_define(${${"\x47L\x4fB\x41L\x53"}["\x77k\x67\x68\x69\x77"]});}elseIf(file_exists(${${"\x47\x4c\x4f\x42AL\x53"}["\x62\x66\x68\x66\x71\x6fd"]})){self::CreateInstallationModule(${${"GLO\x42AL\x53"}["b\x66\x68\x66q\x6f\x64"]});${"\x47L\x4f\x42A\x4c\x53"}["r\x6a\x6c\x72\x6a\x66\x74\x6d"]="\x63\x6e\x66\x66";if(self::ApproveInstallationModule(${${"\x47L\x4f\x42A\x4c\x53"}["r\x6a\x6c\x72jf\x74\x6d"]})OR${${"G\x4cOB\x41LS"}["\x62f\x68f\x71o\x64"]}==self::base_tag("{ro\x6ft}{\x75\x73\x65\x72\x73}/b\x75ild\x2ep\x72\x6fp")){$zpludvlou="pr\x6f\x70";${"\x47LO\x42\x41\x4cS"}["\x61\x67\x76dvupyg\x68"]="\x70\x72o\x70";${$zpludvlou}=self::kernel_new_configuration(${${"G\x4cOB\x41\x4c\x53"}["\x62\x66\x68\x66qo\x64"]},1,1,self::${${"\x47\x4cOBA\x4c\x53"}["b\x68x\x66\x73j\x7a"]}["M\x41IN"]["\x6b\x65r\x6ee\x6c.\x75\x72\x6cCo\x75rs\x65.\x75\x6e\x6c\x69n\x6bProp"]);self::_url_urlCourse_define(${${"\x47\x4c\x4fB\x41\x4c\x53"}["ag\x76\x64v\x75py\x67h"]});if(defined("\x4dO\x44\x55L\x45\x5f\x49NSTA\x4cL")){if(!defined("\x4d\x4fD\x55\x4cE\x5fDIR")){define("\x4d\x4fDU\x4cE\x5fD\x49\x52",${${"GLO\x42\x41\x4cS"}["\x62\x7a\x72lx\x72\x71n\x6c\x73v"]});}$kaqihb="\x6d\x6f\x64\x75le\x5f\x64\x69r";if(!defined("MODUL\x45_PRO\x50")&&!empty(${${"\x47\x4cO\x42ALS"}["\x62f\x68fq\x6fd"]})){${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6d\x6a\x61\x77\x6e\x6a\x6b"]="\x63n\x66\x66";define("M\x4fDU\x4cE_\x50RO\x50",${${"GL\x4fB\x41L\x53"}["mj\x61\x77n\x6a\x6b"]});}self::urlCourse_install(${$kaqihb},constant("M\x4f\x44U\x4cE\x5fINST\x41\x4cL"));}}}else{self::ERROR("\x50\x72oble\x6d\x20.\x2e\x2e\x20C\x61\x6en\x6f\x74 \x6co\x61\x64 s\x6f\x75r\x63\x65 \x66i\x6c\x65\x20\x66r\x6f\x6d \x22\x51\x75\x65\x72y \x46\x69\x72st\"\x20","c\x6fn\x66","Fi\x72s\x74 \x51ue\x72y gi\x76\x69\x6e\x67: ".QF." \x20Sear\x63\x68\x65\x64\x20\x66\x69le\x20is: ".${${"G\x4c\x4f\x42AL\x53"}["\x62\x66h\x66\x71o\x64"]}."\n T\x68\x69\x73\x20\x63a\x6e\x20al\x73o be c\x61us\x65d\x20b\x79 t\x68e\x20\x66act\x20t\x68a\x74\x20it\x20i\x73\x20no\x74 s\x65\x74 star\x74 \x70a\x67e.");}if(defined("R\x45\x53E\x52\x56E\x44\x5f\x55\x52I")){}elseif(is_array(${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x77\x6b\x67hi\x77"]})){${${"\x47L\x4f\x42A\x4cS"}["\x6b\x6c\x6dig\x71\x73\x68"]}=str_replace(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x62\x7a\x72\x6c\x78\x72qnl\x73v"]},"",request_uri());if(!defined("\x75rl\x43\x6fu\x72se_te\x6d\x70late\x73")){define("u\x72lC\x6fu\x72\x73\x65_t\x65\x6dp\x6ca\x74\x65s",${${"G\x4c\x4f\x42\x41LS"}["\x77\x6b\x67hi\x77"]}["MAI\x4e"]["\x6dod\x75\x6c\x65.temp\x6c\x61\x74es"]);}if(!defined("\x4dO\x44\x55LE\x5f\x46A\x43IA\x4c")){${"G\x4cOB\x41\x4cS"}["\x6a\x6f\x6aw\x67\x6d\x6c"]="\x63\x6e\x66\x66";$nkcphufyuc="\x70r\x6f\x70";define("\x4dO\x44\x55L\x45\x5f\x46AC\x49\x41L",dirname(dirname(${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["j\x6f\x6a\x77\x67ml"]}).DIRECTORY_SEPARATOR.${$nkcphufyuc}["\x46ACIA\x4c"]["mo\x64ul\x65\x2e\x66\x61\x63\x69\x61l\x2eso\x75rc\x65"]).DIRECTORY_SEPARATOR);}if(!defined("MOD\x55L\x45\x5f\x44\x49\x52")){${"\x47\x4c\x4fB\x41\x4c\x53"}["sf\x70f\x67\x67ib"]="m\x6f\x64ul\x65\x5fd\x69\x72";define("M\x4fDUL\x45\x5fDIR",${${"\x47L\x4f\x42\x41\x4cS"}["\x73\x66\x70\x66\x67\x67i\x62"]});}if(!defined("MOD\x55LE\x5fT\x50\x4c_\x44\x49\x52")){define("M\x4f\x44\x55L\x45_TP\x4c_\x44IR",str_replace(constant("\x4dO\x44ULE\x5fD\x49\x52"),"",@constant("\x55RI_\x50\x41TH")));}if(!defined("\x4d\x4f\x44\x55\x4c\x45\x5fR\x45\x51U\x45STS")){$fgsfyir="mo\x64\x75le_\x72\x65\x71\x75\x65s\x74_\x66\x6f\x6c\x64er";define("\x4dODUL\x45\x5fRE\x51\x55ES\x54\x53",${$fgsfyir});}define("\x41P\x50\x2e\x49\x4e\x49\x54",true);}else{${"G\x4c\x4f\x42AL\x53"}["io\x6b\x76\x6d\x67l\x62\x64\x6b"]="c\x6ef\x66";self::ERROR("P\x72\x6f\x62l\x65m ..\x2e m\x6f\x64ule p\x72o\x70\x20f\x69l\x65\x20dat\x61\x20\x69\x73\x20n\x6f\x74\x20array\x20","c\x6f\x6ef","\x54o\x20fi\x78\x20che\x63\x6b\x20file \x6e\x61\x6d\x65:\x20".${${"\x47L\x4f\x42\x41\x4c\x53"}["io\x6b\x76\x6d\x67l\x62\x64k"]}." \x6fr \x65\x6d\x70\x74y\x20\x6do\x64\x75le\x20\x64ir\x65\x63\x74\x6fry pat\x68 i\x6e sy\x73te\x6d tr\x75nk. ");return false;}}public function urlCourse_includes(){self::glueCode(__FUNCTION__);if(defined("MOD\x55\x4c\x45_F\x41CI\x41L\x5f\x49\x4eCLUD\x45\x53")){${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x78\x73m\x77\x6e\x6b\x64\x79\x6eu"]}=array();foreach(glob(constant("\x4d\x4f\x44\x55LE\x5fD\x49\x52").constant("\x4dO\x44\x55\x4cE_FAC\x49\x41L\x5f\x49NC\x4cU\x44ES")."*".".c\x6fns\x74.php"."*")as${${"GLOB\x41\x4c\x53"}["\x6d\x72\x6cj\x65mi"]}){array_push(${${"GLO\x42\x41\x4c\x53"}["\x78\x73\x6dw\x6e\x6b\x64y\x6e\x75"]},${${"G\x4c\x4fB\x41\x4c\x53"}["\x6d\x72l\x6a\x65mi"]});}$oljihvo="\x69n\x63_\x66\x69\x6ce\x73";foreach(glob(constant("MODULE\x5f\x44I\x52").constant("\x4d\x4fDU\x4cE\x5fF\x41\x43IA\x4c_IN\x43\x4cUD\x45S")."*"."\x2einc.\x70h\x70"."*")as${${"\x47LO\x42\x41\x4cS"}["\x6d\x72l\x6a\x65\x6di"]}){$zqidnetr="\x69\x6e\x63\x6c\x6fu\x74";array_push(${$zqidnetr},${${"\x47L\x4f\x42A\x4c\x53"}["\x6d\x72\x6cj\x65\x6d\x69"]});}foreach(glob(constant("M\x4fDUL\x45\x5fDIR").constant("\x4d\x4fDU\x4cE_\x46A\x43IAL\x5fINCL\x55DES")."*"."\x2ec\x6c\x61s\x73\x2e\x70\x68\x70")as${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["m\x72\x6cjem\x69"]}){${"GLO\x42AL\x53"}["\x68fs\x61vw\x74\x64\x6f"]="\x69n\x63\x6co\x75\x74";$tctijapmot="\x69\x6e\x63_fil\x65\x73";array_push(${${"G\x4c\x4fB\x41\x4c\x53"}["\x68\x66s\x61vw\x74\x64\x6f"]},${$tctijapmot});}foreach(glob(constant("M\x4f\x44\x55\x4cE\x5f\x44IR").constant("\x4d\x4f\x44\x55LE_\x46\x41\x43\x49\x41L_JAV\x41\x53C\x52IPT")."*"."\x2e\x6as")as${$oljihvo}){$sntxodd="\x69\x6ec\x5f\x66i\x6ces";self::includeByHtml(${$sntxodd},"\x6as");}foreach(glob(constant("M\x4f\x44\x55\x4cE\x5f\x44\x49\x52").constant("MO\x44\x55\x4c\x45\x5f\x46\x41\x43\x49A\x4c\x5fC\x53S")."*".".\x63s\x73")as${${"\x47\x4c\x4f\x42\x41LS"}["\x6dr\x6c\x6aem\x69"]}){$oqmnwpqs="\x69\x6ec\x5ffi\x6ces";self::includeByHtml(${$oqmnwpqs},"css");}self::db_kernel();return${${"\x47LO\x42A\x4c\x53"}["\x78\x73m\x77\x6e\x6b\x64\x79n\x75"]};}else return false;}public function urlCourse(){global$SQL_WEBSITE;if(defined("M\x4fD\x55LE\x5f\x4c\x41\x4eGUAG\x45")||defined("MODUL\x45_\x46AC\x49A\x4c\x5fL\x41N\x5fF\x49LE")){$beqnvajxwdd="l\x61n\x5f\x66i\x6c\x65";$rhlnsvcqjir="SQ\x4c_\x57\x45BSI\x54\x45";${$beqnvajxwdd}=constant("MOD\x55LE\x5f\x44IR").constant("M\x4fD\x55LE_\x4c\x41\x4e\x47UAG\x45").${$rhlnsvcqjir}["lan"].DIRECTORY_SEPARATOR.constant("MODULE\x5f\x46\x41\x43IAL\x5fLA\x4e\x5f\x46\x49L\x45");if(file_exists(${${"GL\x4fB\x41\x4c\x53"}["p\x62\x71\x63\x70id\x78\x6eu"]})){$pdrwbxfim="l\x61\x6e\x5f\x66\x69\x6ce";self::language(${$pdrwbxfim});}}self::glueCode(__FUNCTION__);self::kernel_count_memory(__FUNCTION__);if(defined("MODU\x4c\x45_RO\x4fT")){require_once(constant("RE\x53\x45\x52\x56ED\x5fUR\x49"));return false;}if(defined("\x52ES\x45R\x56ED_U\x52I")){return(constant("RE\x53\x45\x52\x56\x45D\x5fURI"));return false;}if(defined("\x41PP\x2eI\x4e\x49T")){$ydcoovqcki="\x72\x65\x71\x75\x65\x73\x74\x65\x64";${"\x47\x4c\x4fB\x41\x4cS"}["d\x6dbvk\x78n\x75\x74r"]="\x72eq\x75\x65\x73\x74e\x64";$pwrlvzdlbt="\x6f\x6e\x6c\x79M\x6f\x64u\x6c\x65\x44i\x72";if(defined("\x4d\x4fD\x55LE_FACI\x41\x4c\x5fKER\x4e\x45\x4c")){foreach(glob(constant("\x4dO\x44U\x4c\x45_\x44I\x52").constant("\x4d\x4fDULE\x5f\x46\x41\x43\x49A\x4c\x5fKERN\x45L")."*".".inc"."*")as${${"\x47LO\x42\x41\x4c\x53"}["\x6d\x72\x6cj\x65m\x69"]}){@include_once(${${"\x47\x4cO\x42\x41\x4c\x53"}["\x6d\x72l\x6aem\x69"]});}}${$ydcoovqcki}=explode("/",request_uri());${"G\x4c\x4fBA\x4c\x53"}["igovc\x72\x66q"]="\x72\x65qu\x65\x73\x74_f\x69\x6ce\x5fen\x64";${${"G\x4c\x4fB\x41L\x53"}["\x6eo\x75c\x66v"]}=explode(DIRECTORY_SEPARATOR,constant("M\x4fD\x55\x4cE\x5fD\x49\x52"));${${"G\x4c\x4f\x42\x41LS"}["\x73\x6a\x7a\x77\x75wpk\x75l"]}=explode("?",${${"\x47\x4cO\x42ALS"}["d\x6d\x62\x76\x6b\x78n\x75\x74\x72"]}[count(${$pwrlvzdlbt})]);if(is_array(${${"\x47\x4c\x4f\x42A\x4cS"}["\x73\x6a\x7awu\x77\x70\x6bu\x6c"]})){${"\x47L\x4fBA\x4c\x53"}["\x68\x77nhd\x68\x67\x72\x6b"]="r\x65qu\x65\x73\x74\x5f\x66\x69le\x5f\x65n\x64";${${"GLO\x42\x41\x4c\x53"}["\x68\x77nh\x64h\x67r\x6b"]}=current(${${"G\x4cOB\x41\x4c\x53"}["sjz\x77\x75\x77p\x6b\x75\x6c"]});}else{${"\x47\x4c\x4f\x42AL\x53"}["a\x65hx\x76\x7ap\x62"]="\x72\x65qu\x65st\x5f\x66il\x65\x5f\x65\x6e\x64";${${"\x47LO\x42\x41\x4c\x53"}["\x61e\x68\x78v\x7a\x70b"]}=${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x73\x6a\x7awu\x77\x70k\x75l"]};}if(defined("\x4d\x4fDUL\x45\x5f\x46ACI\x41\x4c\x5fINC\x4cU\x44E\x5f\x50A\x54H")&&(constant("MO\x44\x55\x4c\x45_\x46\x41CIAL\x5f\x49NC\x4cU\x44E\x5f\x50\x41\x54H")===true)){set_include_path(constant("M\x4fDULE_\x44IR"));}if(realpath(constant("R\x4fOT").constant("MODULE_\x44\x49\x52").@constant("\x4dO\x44UL\x45\x5f\x46A\x43I\x41L_\x53O\x55\x52CE"))){${"\x47\x4cOB\x41L\x53"}["mg\x6br\x74\x6ayn\x76"]="\x73\x6fu\x72\x63\x65";${${"G\x4c\x4f\x42\x41L\x53"}["\x6d\x67k\x72\x74\x6a\x79\x6e\x76"]}=constant("R\x4f\x4fT").constant("\x4d\x4fDUL\x45\x5fD\x49R").constant("\x4d\x4fD\x55\x4c\x45\x5fFA\x43\x49\x41L\x5fS\x4fUR\x43\x45");if(!defined("\x4dO\x44U\x4cE_D\x49\x52_F\x49\x4cE")){define("\x4d\x4fDU\x4cE_\x44\x49R\x5f\x46\x49LE",dirname(${${"GL\x4f\x42\x41L\x53"}["\x78\x6e\x62\x63hnu\x6e\x6ca\x77\x6a"]}));}if(!defined("\x4dOD\x55\x4c\x45\x5fINC\x4cUDE\x5fF\x49LE")){${"\x47LO\x42\x41\x4cS"}["\x71\x71x\x61\x79\x6e\x6c"]="\x73\x6f\x75r\x63e";define("MO\x44ULE_I\x4eCLU\x44\x45\x5f\x46ILE",${${"G\x4c\x4f\x42A\x4cS"}["\x71q\x78a\x79\x6e\x6c"]});}}elseIf(defined("MO\x44\x55L\x45\x5fF\x41C\x49AL\x5f\x55R\x4c\x5f".strtoupper(${${"G\x4cO\x42A\x4cS"}["\x6c\x66\x6c\x6a\x79\x79\x67\x74d\x66"]}))AND realpath(constant("\x52O\x4f\x54").constant("\x4d\x4fDU\x4cE\x5fD\x49R").constant("MO\x44\x55\x4cE_\x46\x41\x43IAL_\x55\x52L\x5f".strtoupper(${${"\x47\x4cO\x42\x41\x4cS"}["\x69\x67o\x76\x63\x72f\x71"]})))){$uuvvnmr="\x73\x6f\x75\x72\x63e";${$uuvvnmr}=constant("\x52\x4fO\x54").constant("M\x4fDU\x4c\x45\x5fD\x49R").constant("MOD\x55LE_\x46\x41C\x49\x41\x4c\x5fUR\x4c\x5f".strtoupper(${${"\x47L\x4fB\x41L\x53"}["\x6cfl\x6ayyg\x74\x64\x66"]}));if(!defined("MODU\x4c\x45\x5fDI\x52\x5fFIL\x45")){$dbmgtbrv="\x73\x6fur\x63\x65";define("\x4d\x4fD\x55LE_\x44IR\x5fFILE",dirname(${$dbmgtbrv}));}if(!defined("M\x4fD\x55\x4c\x45_\x49\x4e\x43\x4c\x55\x44\x45_\x46IL\x45")){$punusfzhdbi="\x73\x6f\x75r\x63e";define("M\x4fDUL\x45\x5f\x49\x4e\x43LU\x44E\x5fF\x49\x4cE",${$punusfzhdbi});}}else{self::ERROR("\x3c\x62\x3e\x45RROR</\x62\x3e F\x69le s\x6fur\x63\x65: \x22\x20".${${"G\x4cOBAL\x53"}["\x78\x6e\x62\x63h\x6eun\x6ca\x77\x6a"]}."\x20\", DO\x20\x4e\x4fT\x20\x45\x58ISTS !","file","\x54o\x20fix\x20\x63h\x65c\x6b\x20\x22\x2e\x70\x72o\x70\" \x61n\x64 era\x73\x65 \x6do\x64\x75\x6ce\x20\x64ir\x65ctory \x70\x61\x74h in\x20s\x79\x73\x74e\x6d\x20tr\x75\x6e\x6b.\x20");return false;}}else{self::ERROR("<b>\x45R\x52\x4fR</b> \x46i\x6ce \x73o\x75r\x63e:\x20\" ".${${"G\x4c\x4fB\x41\x4c\x53"}["\x78\x6e\x62\x63\x68\x6e\x75\x6e\x6c\x61\x77j"]}." \",\x20D\x4f\x20\x4eOT\x20\x45\x58\x49STS \x21","\x66\x69\x6c\x65","T\x6f\x20f\x69x\x20\x63heck\x20\"\x2e\x70\x72\x6f\x70\"\x20\x61nd \x65\x72as\x65\x20\x6dodul\x65\x20d\x69recto\x72y\x20path \x69\x6e sy\x73\x74\x65\x6d\x20\x74ru\x6ek\x2e\x20");define("\x57\x45\x42\x53\x49\x54\x45_\x52\x45S\x50ONSES",404);return false;}return constant("\x4dODUL\x45\x5fI\x4eC\x4cUD\x45_\x46\x49\x4cE");}public function urlCourse_close(){if(defined("MO\x44\x55L\x45\x5f\x46A\x43\x49A\x4c_IN\x43\x4cU\x44\x45\x5fPAT\x48")){ini_restore("i\x6e\x63\x6cude_pat\x68");}self::opch();}private function CreateInstallationModule($module_build){$vltglpcm="\x69nsta\x6c\x6c\x61\x74\x69\x6f\x6e\x5f\x68\x61s\x68";$cndtbrrzx="\x69\x6e\x73\x74\x61ll\x61t\x69\x6f\x6e_\x69d";${"\x47\x4cO\x42ALS"}["\x6ei\x71\x77l\x68n"]="i\x6e\x73\x74\x61\x6c\x6ca\x74ion_\x69\x64";$wifiaaq="\x43\x4f\x4eF\x49\x47UR\x41T\x49O\x4e";$hmtjrfdb="\x43\x4f\x4e\x46I\x47\x55RA\x54I\x4f\x4e";$fcbyljkck="\x6d\x6f\x64\x75l\x65\x5f\x62u\x69l\x64";self::${${"G\x4c\x4f\x42A\x4c\x53"}["n\x69\x71\x77l\x68n"]}=uniqid("\x69nst\x61l\x6cat\x69\x6f\x6e");self::${$vltglpcm}=sha1(self::${${"GL\x4f\x42\x41LS"}["\x7a\x74g\x77bx\x6a\x6e\x76"]}["\x4b\x45Y"].self::${$wifiaaq}["SP\x52"].self::${$cndtbrrzx}.self::${$hmtjrfdb}["\x53\x50\x52"].${$fcbyljkck});}private function ApproveInstallationModule($module_build){$jqqcybqmh="CON\x46I\x47\x55\x52\x41T\x49\x4fN";${"\x47\x4c\x4fBA\x4c\x53"}["\x73\x75\x79\x78h\x62\x67\x73s\x66\x69"]="CO\x4e\x46\x49\x47UR\x41\x54I\x4f\x4e";${"G\x4c\x4f\x42A\x4cS"}["\x62\x77\x78kez\x69\x7a\x66"]="m\x6f\x64\x75l\x65\x5f\x62\x75il\x64";if($_GET["\x6do\x64\x75l\x65_ha\x73h"]==sha1(self::${$jqqcybqmh}["KEY"].self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x74\x67\x77b\x78jn\x76"]}["S\x50\x52"].$_GET["\x6do\x64u\x6c\x65\x5fh\x61\x73h\x5fid"].self::${${"\x47\x4c\x4fBALS"}["\x73\x75y\x78h\x62\x67s\x73f\x69"]}["S\x50\x52"].${${"GL\x4f\x42\x41\x4cS"}["\x62\x77xk\x65\x7a\x69\x7a\x66"]})){return true;}return false;}protected function GenerateAnstallationModule(){$twjclulym="\x69n\x73t\x61\x6c\x6c\x61t\x69\x6f\x6e\x5f\x69\x64";${"G\x4c\x4f\x42A\x4c\x53"}["d\x6cu\x69\x65w\x68lo\x79k"]="\x69n\x73\x74a\x6cl\x61t\x69\x6fn_\x68\x61\x73h";$npmjfhf="i\x64";$hxyhrajssw="\x69\x6e\x73t\x61llat\x69o\x6e";global$language;if(!defined("CPAN\x45\x4c"))return false;if(!empty($_GET["m\x6f\x64\x75\x6c\x65_hash"])&&!empty($_GET["\x6d\x6f\x64ule_\x68\x61\x73\x68\x5f\x69d"]))return false;if(empty(self::${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x64\x6c\x75i\x65w\x68l\x6f\x79\x6b"]})OR empty(self::${$twjclulym}))return false;${${"GL\x4f\x42\x41\x4cS"}["rh\x70b\x67\x77\x6f\x78rb"]}=self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x78\x6f\x6d\x69\x70c\x64"]};${$npmjfhf}=self::${${"\x47\x4c\x4f\x42AL\x53"}["\x6bojh\x70f\x72\x62"]};${${"\x47\x4cO\x42\x41\x4cS"}["\x79\x6b\x6c\x61\x67\x74fa"]}=MODULE_PROP;${$hxyhrajssw}=kernel::base_tag("{ho\x73t}{reques\x74\x5f\x75\x72i}?modul\x65_\x68as\x68={$hash}\x26modu\x6ce\x5fh\x61\x73\x68_\x69\x64\x3d{$id}");$kgvmdgly="j\x73";${${"\x47\x4cO\x42A\x4cS"}["\x74\x68x\x64df\x62\x76"]}="\n\x20 \x20\x20  \x20\x20       \x20  \x76ar \x63he\x63\x6bc\x6f\x6e\x66i\x72m =\x63\x6fn\x66irm(\x27{$language['main.cp.question.alt']} {$language['lw.install']}: \\n {$module_name}\x20?!');\n  \x20\x20\x20  \x20  \x20\x20\x20\x20\x20\x20\x20\x20 \x20if\x20(\x63\x68\x65c\x6bc\x6fnf\x69\x72\x6d\x3d\x3dtru\x65){\n    \x20  \x20\x20  \x20\x20\x20\x20\x20   \x20 \x20\x20 \x77indo\x77.\x6cocatio\x6e\x20\x3d \x22{$installation}\x22\x20\x3b\n\x20 \x20  \x20     \x20    \x20\x20\x20 }\n";kernel::includeByHtml("\x3cscr\x69\x70t \x74\x79\x70e\x3d\x22t\x65\x78t/\x6a\x61\x76ascr\x69p\x74\x22>".${$kgvmdgly}."\x3c/\x73\x63r\x69\x70t\x3e","a\x64\x64");}public function first_page($configuration){${"G\x4c\x4fB\x41LS"}["\x67\x6ao\x70\x62\x64\x63\x65\x64\x75\x64"]="\x72\x65q\x75\x65\x73t";${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77\x79\x66\x75u\x68\x74\x61\x77\x65\x71"]}=str_replace(array("/","?","#"),"",request_uri());if(empty(${${"GL\x4fB\x41LS"}["\x67j\x6fpb\x64\x63e\x64\x75\x64"]})){header_location(${${"\x47L\x4f\x42\x41\x4cS"}["\x79\x72g\x71\x62\x69\x7a"]}["\x73\x74\x61\x72\x74_\x70\x61ge"]);}}public function language($lan_file=NULL){${"\x47\x4c\x4fB\x41\x4cS"}["\x72\x73\x66\x6f\x76w\x74\x73\x77mm"]="\x6c\x61\x6e\x5f\x66\x69\x6c\x65";$wxsqbhlgc="e\x78\x74";global$SQL_WEBSITE;self::glueCode(__FUNCTION__);if(is_null(${${"\x47\x4c\x4f\x42A\x4c\x53"}["r\x73\x66\x6f\x76\x77\x74s\x77mm"]})){$fnqogd="K\x45\x52\x4e\x45L_\x50\x52O\x50\x5fM\x41I\x4e";$wvhmfhbk="\x6ca\x6e_\x66\x6fld\x65\x72";$ocsleqsh="\x6c\x61\x6e_\x66old\x65r";${$wvhmfhbk}=self::CONFIGURATION("\x6ca\x6e\x67uage");${${"GL\x4f\x42\x41\x4c\x53"}["\x70bqc\x70idx\x6eu"]}=${$ocsleqsh}.${${"\x47L\x4f\x42A\x4cS"}["\x6a\x74\x72\x73o\x6f\x64z\x6e\x73\x65"]}["la\x6e"].DIRECTORY_SEPARATOR.self::${$fnqogd}["ke\x72\x6e\x65l\x2e\x6c\x61\x6e\x67\x75\x61g\x65\x46\x69leM\x61i\x6e"];}${$wxsqbhlgc}=explode(".",${${"G\x4c\x4fB\x41L\x53"}["\x70bq\x63\x70id\x78\x6e\x75"]});if(file_exists(${${"G\x4c\x4f\x42A\x4c\x53"}["\x70bq\x63pi\x64\x78\x6e\x75"]})){$qpxkljyh="\x65\x78\x74";$fimplxnloqh="e\x78t";if(end(${$qpxkljyh})=="p\x68\x70"){require_once(${${"\x47L\x4f\x42A\x4c\x53"}["\x70\x62\x71cpi\x64\x78\x6e\x75"]});}elseIf(end(${$fimplxnloqh})=="\x70\x72\x6f\x70"){$GLOBALS["\x6can\x67ua\x67\x65"]=self::loadprop(${${"\x47\x4cO\x42A\x4cS"}["\x70b\x71c\x70\x69\x64\x78n\x75"]},1);}}else{return false;}}public function prop_constant($prop_var){${${"\x47L\x4f\x42\x41\x4cS"}["\x6c\x7a\x72\x72\x6e\x65"]}=strtoupper(str_replace("\x2e","\x5f",${${"\x47\x4cO\x42\x41\x4c\x53"}["\x77\x6a\x69\x76\x75\x67\x63"]}));if(defined(${${"\x47L\x4fBA\x4cS"}["\x6c\x7a\x72\x72\x6e\x65"]})){return constant(${${"G\x4cO\x42\x41\x4c\x53"}["\x6c\x7arr\x6ee"]});}else{return false;}}public function analyzer($file){}public function external_file($type,$content){${${"GL\x4f\x42A\x4cS"}["t\x71g\x6e\x79\x75tful"]}=self::${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x70\x71m\x79v\x6d\x63\x6c"]}["\x6be\x72n\x65\x6c\x2e\x65xter\x6e\x65lF\x69l\x65\x2e\x74yp\x65\x73"];if(in_array(${${"\x47L\x4f\x42AL\x53"}["\x65\x75\x78\x78\x79\x75\x61\x67\x6a"]},${${"\x47\x4c\x4fB\x41\x4cS"}["\x74q\x67\x6e\x79u\x74ful"]})){${"\x47L\x4f\x42\x41\x4c\x53"}["\x69\x66\x6b\x66\x65\x75\x78"]="ty\x70e";$this->external_file[${${"\x47LOB\x41L\x53"}["\x69fkf\x65\x75\x78"]}].=${${"G\x4cO\x42A\x4cS"}["vg\x64\x6ew\x66\x65c\x72"]};}else{return false;}}protected function generete_external_file(){${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6ft\x71\x71\x63h\x6evp\x6c"]="\x43\x4f\x4e\x46\x49\x47\x55\x52\x41\x54I\x4f\x4e";global$CONFIGURATION;if(isset($_POST)){${${"\x47L\x4f\x42\x41L\x53"}["\x6a\x62\x76u\x76\x69p"]}=time();}else{${${"\x47\x4c\x4fB\x41\x4c\x53"}["j\x62\x76uv\x69\x70"]}=null;}${"\x47\x4c\x4f\x42\x41L\x53"}["\x79\x76geuh\x72"]="p\x6fs\x74_\x72e\x6c\x6fa\x64";$bckqwe="\x6e\x61\x6d\x65";${"GL\x4f\x42\x41\x4c\x53"}["\x63\x6a\x62\x63mav\x6fpdt"]="KE\x52NE\x4c\x5f\x50\x52\x4fP_M\x41\x49\x4e";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x77yf\x75\x75h\x74a\x77\x65q"]}=request_uri().${${"\x47L\x4fBA\x4c\x53"}["\x79\x76\x67\x65\x75hr"]};${${"\x47L\x4fB\x41\x4cS"}["rr\x72\x72\x6b\x6dt\x69"]}=${${"G\x4c\x4fBA\x4cS"}["\x6f\x74\x71\x71\x63\x68\x6ev\x70l"]}["\x43O\x4f\x4bI\x45\x5fS\x45\x53\x53I\x4f\x4e"];${$bckqwe}=md5(${${"\x47\x4c\x4f\x42\x41LS"}["\x77\x79\x66\x75u\x68ta\x77\x65q"]}.$_COOKIE[${${"\x47\x4cO\x42A\x4c\x53"}["\x72\x72\x72\x72\x6b\x6d\x74\x69"]}]);foreach(self::${${"\x47L\x4f\x42\x41L\x53"}["\x63jb\x63m\x61\x76op\x64t"]}["ke\x72\x6eel.ex\x74\x65rnelF\x69\x6c\x65.type\x73"]as${${"\x47\x4cO\x42\x41LS"}["e\x75\x78\x78y\x75\x61\x67\x6a"]}){${"G\x4cOB\x41\x4cS"}["\x78\x74\x75\x78gd\x6b\x75v\x6b"]="\x74\x79p\x65";$lxnbyolcc="\x63\x6f\x6ete\x6e\x74";$vnjgnfzl="\x74\x79\x70\x65";$bwowcnrmodw="\x74y\x70\x65";switch(strtolower(${${"GL\x4f\x42\x41\x4cS"}["\x78\x74u\x78\x67\x64\x6bu\x76\x6b"]})){case"\x6a\x71u\x65r\x79":${${"\x47\x4cOBA\x4c\x53"}["\x76\x67\x64n\x77\x66e\x63\x72"]}="/* j\x51\x75ery f\x69l\x65\x20is \x67e\x6eerat\x65\x64 \x62y\x20do\x6c\x6cop */\n\$(\x66u\x6ection(){\n{$this->external_file[$type]}\n})\x3b\n";break;DEFAULT:${$lxnbyolcc}=$this->external_file[${$bwowcnrmodw}];break;}if(!empty($this->external_file[${$vnjgnfzl}])&&${${"\x47L\x4f\x42\x41\x4cS"}["eux\x78\x79u\x61\x67\x6a"]}!="\x6a\x73o\x6e"){$fxffiswbpg="t\x79\x70e";$nlrqbvj="n\x61m\x65";self::SESSION_SET(${$nlrqbvj},${${"GL\x4fB\x41\x4cS"}["\x76\x67\x64nw\x66\x65\x63\x72"]});self::includeByHtml("gene\x72\x61\x74ed?{$type}\x3d{$name}",str_replace("jq\x75e\x72\x79","\x6as",${$fxffiswbpg}),true);}elseIF(!empty($this->external_file[${${"\x47LOB\x41\x4c\x53"}["\x65\x75\x78\x78y\x75\x61g\x6a"]}])&&${${"\x47L\x4f\x42\x41\x4cS"}["e\x75\x78\x78y\x75a\x67j"]}=="\x6ason"){self::SESSION_SET(md5(constant("\x48\x45\x58").$this->external_file[${${"\x47\x4c\x4f\x42\x41L\x53"}["eux\x78\x79u\x61\x67\x6a"]}]),$this->external_file[${${"\x47\x4c\x4fB\x41LS"}["\x65\x75x\x78\x79uag\x6a"]}]);}}}public function glueCode($sector){${"G\x4c\x4f\x42A\x4c\x53"}["\x68\x69\x67z\x79\x78r\x77"]="\x73e\x63\x74\x6f\x72";global$CONFIGURATION;if(!is_array(${${"\x47\x4cO\x42A\x4c\x53"}["z\x74\x67\x77b\x78\x6a\x6e\x76"]}["g\x6cu\x65\x43\x6fd\x65"])OR!(bool)self::${${"\x47L\x4f\x42\x41LS"}["p\x71\x6dyv\x6dcl"]}["\x6ber\x6e\x65l.glueCo\x64e"])return false;${"\x47\x4c\x4f\x42\x41\x4c\x53"}["jpef\x78\x77\x62"]="\x67l\x75e_\x6e\x61\x6d\x65";${${"\x47L\x4f\x42\x41\x4c\x53"}["a\x77lj\x66v\x79\x62\x62\x67\x72"]}=array_search(${${"G\x4cOBA\x4c\x53"}["\x68\x69\x67\x7a\x79x\x72\x77"]},${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x7a\x74\x67\x77b\x78\x6a\x6e\x76"]}["\x67\x6cu\x65Co\x64e"]);if(!empty(${${"G\x4cOBA\x4c\x53"}["\x6a\x70e\x66\x78\x77\x62"]})){$pmfpunwcfl="\x76a\x72";$csjhgxnkts="\x69n\x63lude\x5f\x66\x69le";${"\x47LOB\x41L\x53"}["\x71\x70\x70\x6e\x75\x62\x72\x75\x64\x6d\x70"]="\x76\x61\x6c\x75\x65";$ldwtjhlg="\x43\x4f\x4e\x46\x49G\x55R\x41\x54\x49\x4f\x4e";${"G\x4c\x4f\x42A\x4cS"}["\x70\x79\x74\x63\x62b\x62\x61r\x6f"]="\x67lu\x65_n\x61\x6d\x65";${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x77\x77\x6ec\x63\x72"]}=${${"\x47L\x4f\x42\x41\x4cS"}["\x7atg\x77b\x78\x6a\x6ev"]}["\x67lu\x65C\x6fd\x65.i\x6e\x63"][${${"\x47\x4c\x4f\x42\x41L\x53"}["p\x79t\x63b\x62\x62\x61\x72\x6f"]}];$bxzaplku="C\x4fN\x46IGUR\x41TIO\x4e";foreach(${$ldwtjhlg}["\x67l\x75eC\x6fd\x65.\x76\x61\x72\x2e{$glue_name}"]as${$pmfpunwcfl}=>${${"\x47\x4cO\x42A\x4cS"}["q\x70\x70n\x75\x62\x72ud\x6d\x70"]}){eval("\$".${${"\x47\x4c\x4f\x42AL\x53"}["\x6f\x6csk\x6d\x70\x6a\x6e\x71\x72\x66"]}." = \x27".${${"\x47LO\x42\x41L\x53"}["\x70\x6aa\x68k\x71w"]}."';");}${${"\x47\x4cOBA\x4cS"}["k\x76bp\x6f\x7a\x75\x69\x79i\x79"]}=self::base_tag_folder_filter(${$csjhgxnkts});if(is_null(${$bxzaplku}["gl\x75\x65Co\x64e.r\x65\x71\x75e\x73\x74"][${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x61w\x6c\x6af\x76yb\x62\x67r"]}])){include(${${"G\x4cO\x42\x41\x4c\x53"}["\x6b\x76b\x70oz\x75\x69\x79\x69y"]});}elseIf(request_uri()==${${"G\x4c\x4fB\x41\x4c\x53"}["\x7at\x67\x77\x62x\x6a\x6ev"]}["glu\x65\x43o\x64\x65.r\x65q\x75\x65\x73\x74"][${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x61\x77\x6c\x6af\x76\x79\x62bg\x72"]}]){$tehusnrfq="\x72\x65\x61\x6c\x5f\x70\x61\x74\x68";include(${$tehusnrfq});}}}private function base_tag_additional($case){$jyllusah="\x43\x4fNF\x49G\x55R\x41\x54\x49ON";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["ekm\x6f\x74\x67\x69\x72"]="A\x72r\x61y";${"\x47\x4c\x4f\x42ALS"}["\x72\x75bd\x65b"]="\x6b\x65\x79";${"G\x4c\x4f\x42\x41\x4c\x53"}["go\x78\x6fmw\x68\x64\x6cj"]="C\x4fN\x46\x49\x47UR\x41\x54\x49\x4f\x4e";${"\x47\x4c\x4f\x42\x41\x4cS"}["\x65\x63\x68r\x6f\x71\x6d\x6bd\x68\x76"]="a";$rxyfnyjhcxxd="\x62";${"\x47\x4cO\x42AL\x53"}["\x74\x68\x70mj\x79\x68\x72\x73\x6b"]="v\x61\x6cu\x65";global$CONFIGURATION;$xpsmigrssp="\x61";$eynevpkovnj="\x43ON\x46\x49G\x55\x52\x41TIO\x4e";switch(${${"\x47\x4cOBAL\x53"}["b\x63\x77\x75\x74\x6b\x64\x6bw\x6f"]}){case 1:${${"GL\x4f\x42\x41\x4c\x53"}["\x72yh\x62v\x68\x70"]}=array();if(!is_array(${$jyllusah}["b\x61\x73e\x5f\x74ag"]))return null;foreach(${${"\x47\x4cO\x42A\x4c\x53"}["z\x74\x67\x77b\x78\x6a\x6e\x76"]}["ba\x73e\x5ft\x61\x67"]as${${"G\x4c\x4fBALS"}["\x72\x75\x62d\x65\x62"]}=>${${"\x47LO\x42\x41\x4cS"}["pj\x61h\x6b\x71\x77"]}){${${"\x47\x4c\x4fBA\x4c\x53"}["\x72y\x68\x62v\x68\x70"]}["{{$key}}"]=${${"GLO\x42\x41\x4c\x53"}["\x70\x6aa\x68k\x71\x77"]};}return${${"G\x4c\x4f\x42\x41\x4c\x53"}["e\x6bm\x6f\x74gi\x72"]};break;case 2:${${"G\x4c\x4f\x42ALS"}["\x65chr\x6f\x71\x6dkdhv"]}=array();${${"\x47\x4c\x4fBA\x4c\x53"}["\x6bu\x6e\x72u\x71qt"]}=array();if(!is_array(${$eynevpkovnj}["\x62\x61se\x5f\x74\x61\x67"]))return null;foreach(${${"G\x4c\x4f\x42A\x4cS"}["\x67\x6f\x78\x6f\x6dwh\x64l\x6a"]}["ba\x73e_\x74\x61\x67"]as${${"\x47\x4cOBA\x4c\x53"}["\x6e\x64\x62\x76\x75\x74\x6d\x79\x73\x6dl"]}=>${${"G\x4c\x4fB\x41L\x53"}["t\x68\x70\x6d\x6a\x79\x68r\x73k"]}){$ieihnrbad="\x61";array_push(${$ieihnrbad},"{{$key}}");array_push(${${"G\x4c\x4f\x42A\x4cS"}["\x6bu\x6er\x75\x71\x71t"]},${${"\x47L\x4fBA\x4cS"}["p\x6a\x61hkqw"]});}return array("\x74\x61gs"=>${$xpsmigrssp},"valu\x65\x73"=>${$rxyfnyjhcxxd});break;}}public function base_tag_folder($tag=null){$yhuslfmu="\x74\x61\x67";global$CONFIGURATION;if(is_null(${$yhuslfmu})){$bpstyds="CO\x4e\x46\x49\x47\x55R\x41\x54\x49\x4f\x4e";${"\x47L\x4f\x42\x41\x4cS"}["\x79g\x6f\x64k\x73\x61hoo\x75"]="\x61\x72r\x61\x79";${"\x47L\x4f\x42\x41LS"}["\x74\x70\x76\x6e\x6ap\x74\x71\x6b"]="\x43O\x4eF\x49G\x55R\x41\x54\x49ON";${"G\x4cOBA\x4c\x53"}["\x6f\x6ffeaq\x79\x6f\x76\x77"]="\x43\x4f\x4eFI\x47URA\x54\x49O\x4e";$wximcfhvw="CON\x46I\x47\x55\x52A\x54I\x4fN";${"GL\x4f\x42\x41\x4c\x53"}["\x6d\x70\x69\x7a\x6a\x76\x73\x62\x67y\x70"]="\x43\x4f\x4e\x46\x49GUR\x41\x54\x49\x4fN";${"\x47\x4cO\x42\x41LS"}["\x73k\x61j\x69ce\x78\x68\x6e"]="\x62";${"\x47\x4c\x4fB\x41\x4c\x53"}["\x69\x6fy\x77\x6e\x64\x68\x6f\x65\x6er"]="\x43\x4f\x4eFI\x47\x55\x52\x41\x54\x49\x4fN";${"G\x4c\x4f\x42A\x4c\x53"}["o\x65\x67\x66\x73tr\x66"]="a";$xdszwsoxjgdc="b";${"\x47L\x4f\x42A\x4c\x53"}["j\x78\x6d\x78\x6d\x71q\x65"]="\x61r\x72\x61y";${${"G\x4c\x4f\x42A\x4c\x53"}["\x6f\x65g\x66\x73t\x72\x66"]}=array("{\x73ys\x74\x65m}","{\x68k\x65y}","{\x73\x65ss\x69\x6fn}","{\x64es\x69gn}","{t\x68\x65mes}","{\x70\x6cu\x67\x69\x6e}","{mo\x64\x75\x6ce}","{a\x64\x64o\x6e\x73}","{jq\x75e\x72y}","{\x6cang\x75a\x67\x65}","{t\x65xt\x61\x72ea}","{s\x63r\x69pt\x61r\x65\x61}","{\x68ost}","{\x75se\x72s}","{up\x6c\x6f\x61\x64\x73}","{p\x75bl\x69\x63\x66ile\x73}","{\x6do\x62i\x6ce_j\x71ue\x72y}","{m\x6fb\x69le\x5f\x73\x74\x79le}");${"G\x4c\x4fB\x41\x4cS"}["\x77\x6b\x7a\x6cmy\x6cf"]="\x43\x4f\x4eF\x49\x47U\x52\x41\x54\x49O\x4e";${$xdszwsoxjgdc}=array(${${"G\x4c\x4f\x42\x41\x4cS"}["\x7at\x67w\x62\x78j\x6e\x76"]}["\x73o\x75\x72\x63e"],${${"GL\x4f\x42A\x4c\x53"}["\x7a\x74\x67\x77\x62xjn\x76"]}["\x68\x6b\x65\x79"],${${"\x47\x4cOB\x41\x4c\x53"}["\x7a\x74\x67w\x62\x78\x6a\x6e\x76"]}["s\x65ss\x69on\x5fdir"],${${"\x47\x4c\x4f\x42A\x4cS"}["\x7at\x67wb\x78\x6an\x76"]}["\x64\x65\x73i\x67n"],${${"\x47\x4cO\x42\x41\x4cS"}["\x74\x70\x76\x6ej\x70\x74\x71\x6b"]}["th\x65m\x65s"],${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x7a\x74\x67\x77\x62\x78\x6a\x6e\x76"]}["\x70lu\x67\x69\x6e"],${$wximcfhvw}["\x6dod\x75\x6ce"],${${"GL\x4f\x42\x41\x4cS"}["\x7a\x74g\x77\x62\x78\x6a\x6ev"]}["\x61d\x64o\x6es"],${${"G\x4cO\x42\x41\x4c\x53"}["ztg\x77\x62\x78\x6a\x6e\x76"]}["j\x71u\x65\x72\x79"],${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x7a\x74g\x77\x62\x78\x6an\x76"]}["\x6c\x61\x6e\x67u\x61\x67\x65"],${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x7a\x74\x67w\x62\x78\x6a\x6e\x76"]}["\x74\x65\x78\x74ar\x65\x61"],${${"GL\x4fB\x41\x4c\x53"}["oo\x66\x65\x61\x71\x79ovw"]}["\x73cri\x70tar\x65\x61"],HOST,${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x77\x6b\x7a\x6cm\x79\x6c\x66"]}["\x77eb\x73i\x74\x65\x55s\x65\x72\x73"],${${"GL\x4f\x42\x41\x4c\x53"}["\x7at\x67w\x62\x78\x6an\x76"]}["we\x62sit\x65\x55plo\x61ds"],${${"\x47\x4cOB\x41\x4c\x53"}["\x6d\x70\x69z\x6a\x76sbg\x79\x70"]}["p\x75b\x6c\x69\x63\x66\x69l\x65\x73"],${${"GL\x4f\x42\x41L\x53"}["ztg\x77\x62x\x6a\x6e\x76"]}["\x6dob\x69\x6c\x65_j\x71uer\x79"],${${"\x47\x4cO\x42ALS"}["\x69\x6f\x79\x77\x6ed\x68\x6fenr"]}["\x6d\x6fbi\x6c\x65\x5fst\x79\x6ce"]);${${"\x47LO\x42\x41\x4c\x53"}["j\x78m\x78mq\x71\x65"]}=array("\x74\x61\x67\x73"=>${${"\x47LO\x42\x41L\x53"}["m\x66z\x6f\x70\x65\x72rm\x76"]},"\x76\x61\x6cues"=>${${"G\x4c\x4f\x42\x41LS"}["s\x6ba\x6aic\x65\x78\x68\x6e"]});if(is_array(${$bpstyds}["ba\x73\x65\x5ftag"])){$omujylbnde="a\x72ra\x79";${${"G\x4c\x4f\x42AL\x53"}["\x6f\x67\x75\x6c\x70\x75\x75"]}=array_merge_recursive(${$omujylbnde},self::base_tag_additional(2));}return${${"\x47\x4c\x4fBA\x4c\x53"}["\x79\x67o\x64\x6b\x73\x61h\x6f\x6fu"]};}else{${"G\x4c\x4f\x42\x41LS"}["\x6cgilf\x74\x74\x66"]="\x61\x72\x72\x61\x79";$cukpeuj="C\x4f\x4e\x46\x49\x47UR\x41TI\x4f\x4e";$cfxprccoqbuf="CO\x4e\x46\x49\x47\x55\x52\x41T\x49O\x4e";$dcakmndakt="\x43\x4f\x4eF\x49G\x55\x52AT\x49O\x4e";${"G\x4c\x4f\x42AL\x53"}["\x6d\x68dqpo\x76"]="\x43\x4fN\x46\x49\x47\x55R\x41\x54\x49\x4f\x4e";${"\x47L\x4fBALS"}["\x72b\x65\x77\x71rh\x72\x68i\x6f\x6b"]="C\x4f\x4e\x46\x49\x47U\x52\x41\x54\x49\x4fN";${"\x47\x4cOB\x41\x4cS"}["vlu\x73\x78\x6d"]="\x43\x4f\x4eFI\x47UR\x41\x54\x49\x4fN";$ryufnilpehc="\x43\x4fN\x46\x49G\x55\x52\x41T\x49\x4f\x4e";$mbefoi="CO\x4eF\x49\x47\x55\x52A\x54\x49O\x4e";${"GL\x4fB\x41\x4cS"}["\x6fd\x78x\x75\x64\x66"]="\x43ON\x46\x49\x47\x55RA\x54\x49\x4f\x4e";${"\x47\x4cO\x42\x41\x4c\x53"}["t\x73f\x70\x79\x63\x6a"]="C\x4f\x4e\x46\x49GU\x52A\x54\x49O\x4e";${${"GL\x4f\x42\x41\x4c\x53"}["\x6cg\x69\x6cft\x74\x66"]}=array("{s\x79st\x65m}"=>${$dcakmndakt}["s\x6fu\x72c\x65"],"{\x68\x6bey}"=>${${"\x47L\x4f\x42\x41L\x53"}["\x7a\x74\x67\x77\x62\x78\x6a\x6ev"]}["\x68k\x65y"],"{ses\x73ion}"=>${${"\x47L\x4f\x42\x41\x4c\x53"}["\x7at\x67\x77\x62\x78\x6an\x76"]}["ses\x73\x69\x6f\x6e_d\x69r"],"{d\x65\x73ign}"=>${${"G\x4c\x4fBA\x4c\x53"}["m\x68\x64q\x70\x6fv"]}["de\x73i\x67n"],"{\x74\x68\x65m\x65\x73}"=>${${"\x47L\x4f\x42\x41\x4c\x53"}["\x76\x6c\x75sx\x6d"]}["t\x68\x65\x6d\x65\x73"],"{\x70\x6c\x75\x67\x69\x6e}"=>${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["z\x74\x67\x77bx\x6an\x76"]}["\x70lug\x69n"],"{mo\x64\x75\x6c\x65}"=>${${"\x47\x4c\x4f\x42A\x4cS"}["ts\x66\x70\x79\x63\x6a"]}["mod\x75\x6c\x65"],"{\x61\x64\x64o\x6e\x73}"=>${${"GL\x4f\x42\x41\x4c\x53"}["odx\x78u\x64\x66"]}["addons"],"{jq\x75\x65\x72y}"=>${$mbefoi}["\x6aqu\x65\x72\x79"],"{\x6ca\x6eg\x75a\x67e}"=>${$cfxprccoqbuf}["lan\x67\x75a\x67\x65"],"{t\x65xtar\x65a}"=>${${"G\x4c\x4fB\x41LS"}["zt\x67w\x62\x78j\x6e\x76"]}["t\x65\x78t\x61re\x61"],"{\x73c\x72i\x70ta\x72e\x61}"=>${${"\x47\x4c\x4f\x42\x41L\x53"}["r\x62\x65w\x71\x72\x68\x72h\x69\x6fk"]}["scr\x69\x70t\x61\x72\x65a"],"{ho\x73\x74}"=>HOST,"{\x75\x73er\x73}"=>${${"\x47L\x4f\x42\x41LS"}["\x7a\x74\x67\x77\x62xj\x6e\x76"]}["\x77\x65\x62\x73ite\x55s\x65\x72s"],"{u\x70l\x6fa\x64\x73}"=>${${"\x47\x4cO\x42\x41\x4c\x53"}["\x7a\x74g\x77\x62x\x6a\x6e\x76"]}["w\x65\x62\x73it\x65U\x70\x6c\x6f\x61\x64\x73"],"{\x70ub\x6c\x69c\x66\x69\x6c\x65s}"=>${${"\x47\x4c\x4fBA\x4cS"}["\x7a\x74g\x77\x62\x78\x6an\x76"]}["p\x75bl\x69cfi\x6c\x65s"],"{m\x6f\x62i\x6c\x65_jque\x72\x79}"=>${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x7at\x67\x77bxj\x6ev"]}["\x6dobil\x65_\x6a\x71\x75\x65ry"],"{\x6d\x6f\x62ile\x5f\x73t\x79le}"=>${$ryufnilpehc}["m\x6fbile\x5f\x73t\x79\x6c\x65"]);if(is_array(${$cukpeuj}["b\x61se_t\x61\x67"])){$bygmotpn="\x61r\x72\x61\x79";${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x6f\x67\x75l\x70\x75\x75"]}=array_merge_recursive(self::base_tag_additional(1),${$bygmotpn});}return${${"G\x4c\x4f\x42A\x4c\x53"}["\x6f\x67\x75l\x70u\x75"]}[${${"\x47\x4c\x4fBA\x4c\x53"}["\x72b\x61\x78\x6f\x6b\x71"]}];}}public function base_tag_folder_filter($value){${"\x47\x4cO\x42\x41LS"}["\x76\x68\x70\x78\x6f\x6a\x68"]="filt\x65\x72";${${"\x47\x4cO\x42AL\x53"}["o\x72gct\x70\x73"]}=self::base_tag_folder();${${"\x47L\x4fB\x41\x4c\x53"}["\x71c\x76\x76\x66\x65\x6dq\x63\x7a\x77\x71"]}=array("\x68ttp:/","//");${${"\x47\x4c\x4fB\x41\x4c\x53"}["\x6c\x6b\x63\x68o\x71\x79\x64\x7a\x64"]}=array("h\x74\x74\x70://","/");${"G\x4c\x4fBA\x4c\x53"}["d\x69jmh\x79\x6d\x66\x6e\x76\x79"]="a\x72r\x61y\x46\x69\x6cter\x52\x70\x6cs";return str_replace(${${"G\x4cO\x42A\x4c\x53"}["\x71\x63v\x76f\x65mqcz\x77q"]},${${"G\x4cO\x42\x41L\x53"}["d\x69\x6a\x6dhy\x6d\x66\x6e\x76\x79"]},str_replace(${${"GL\x4f\x42\x41\x4cS"}["o\x72g\x63\x74\x70\x73"]}["\x74a\x67s"],${${"GLO\x42\x41\x4c\x53"}["v\x68px\x6f\x6a\x68"]}["val\x75e\x73"],${${"G\x4c\x4fB\x41\x4c\x53"}["\x70\x6a\x61h\x6b\x71w"]}));}public static function base_tag($value){${"\x47L\x4fB\x41\x4c\x53"}["\x74o\x68\x6am\x75\x72"]="b\x61s\x65\x5f\x74\x61g\x5f\x61\x72\x72a\x79\x5f\x66\x69l\x74\x65\x72_glo\x62\x61l_\x76\x61\x6c\x75\x65\x5ft\x6f\x5f\x64o\x6c\x6c\x6fp\x5fs\x61ve\x5fr\x65\x70l\x61ce";global$base_tag_array_filter_global_value_to_dollop_save_search,$base_tag_array_filter_global_value_to_dollop_save_replace;${"GL\x4f\x42AL\x53"}["\x7ax\x7ax\x76i"]="\x62\x61se_tag_\x61rr\x61\x79_\x66\x69l\x74\x65\x72\x5f\x67\x6co\x62\x61\x6c\x5f\x76\x61\x6c\x75\x65\x5f\x74\x6f\x5f\x64\x6fl\x6c\x6f\x70_\x73\x61\x76\x65_\x73e\x61r\x63\x68";${"\x47\x4cO\x42\x41\x4c\x53"}["z\x6d\x65xqnw\x61h\x71\x6a\x78"]="\x52\x70\x6c";if(!is_array(${${"GL\x4f\x42\x41\x4c\x53"}["z\x78z\x78\x76\x69"]})||!is_array(${${"GL\x4f\x42ALS"}["\x74\x6f\x68\x6a\x6dur"]})){${"G\x4c\x4fBA\x4c\x53"}["\x63\x6esi\x62\x66\x63\x75\x76e\x68b"]="\x61r\x72ay\x46\x69\x6c\x74\x65r\x53\x72\x63h";${"\x47\x4c\x4f\x42\x41\x4c\x53"}["ym\x74\x6a\x6a\x79tl"]="f\x69\x6ct\x65\x72";${"\x47L\x4fBA\x4cS"}["uf\x74sb\x78\x6d"]="a\x72r\x61\x79\x46\x69\x6ct\x65\x72\x52p\x6c\x73";$vunaueztof="\x61\x72r\x61\x79Fi\x6ct\x65\x72\x52\x70\x6c\x73";$tyiskfdcmxi="\x53\x72\x63\x68";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x79\x6d\x74\x6a\x6ay\x74l"]}=self::base_tag_folder();${"G\x4c\x4f\x42AL\x53"}["v\x6a\x74\x63k\x64"]="ar\x72a\x79\x46\x69l\x74\x65rS\x72ch";${${"GL\x4f\x42\x41\x4c\x53"}["\x76j\x74ck\x64"]}=array();${${"G\x4cO\x42\x41\x4c\x53"}["lkc\x68o\x71\x79d\x7a\x64"]}=array();if(defined("\x4dO\x44U\x4cE\x5fD\x49\x52")){$zikxdjqyany="\x61rr\x61\x79\x46i\x6ct\x65r\x53r\x63\x68";$kclzoiqyyk="arr\x61y\x46\x69\x6c\x74\x65\x72\x52p\x6c\x73";${$zikxdjqyany}[]="{mo\x64\x75\x6ce\x5fdir}";${${"\x47\x4cO\x42\x41\x4cS"}["\x6c\x6b\x63\x68\x6f\x71y\x64zd"]}[]=constant("\x4dO\x44UL\x45_D\x49R");${${"\x47L\x4f\x42ALS"}["\x71\x63\x76\x76\x66e\x6d\x71c\x7a\x77\x71"]}[]="{\x6d\x6fd\x75le}";${$kclzoiqyyk}[]=constant("MODULE_DI\x52");}${"\x47\x4c\x4f\x42A\x4cS"}["y\x77\x6f\x74\x6e\x6br\x62\x7a"]="\x61\x72\x72\x61\x79F\x69\x6c\x74\x65r\x52\x70\x6c\x73";$mbusocmmf="\x61\x72\x72ayFi\x6ct\x65\x72\x53rc\x68";$hvgihbjj="\x61\x72\x72\x61\x79\x46i\x6c\x74e\x72\x53rc\x68";${${"G\x4c\x4f\x42\x41L\x53"}["\x71\x63v\x76f\x65mq\x63\x7a\x77\x71"]}[]="{re\x71\x75es\x74\x5f\x75r\x69}";${$vunaueztof}[]=request_uri();$vxeuycnd="\x61\x72\x72\x61\x79\x46i\x6c\x74er\x53\x72\x63h";${$mbusocmmf}[]="{\x72\x6f\x6ft}";${${"\x47\x4c\x4f\x42AL\x53"}["\x75ft\x73b\x78\x6d"]}[]=constant("\x52\x4fOT");${"G\x4c\x4f\x42\x41\x4c\x53"}["\x76\x67y\x70\x72\x73\x67"]="\x52\x70\x6c";${$vxeuycnd}[]="{\x75\x72i_\x70\x61t\x68}";$bnmkexcup="\x61\x72\x72ay\x46\x69l\x74er\x52\x70\x6cs";$opmyvyfjgf="f\x69\x6c\x74\x65\x72";${${"GL\x4f\x42AL\x53"}["\x6ckc\x68\x6f\x71y\x64\x7a\x64"]}[]=constant("\x55\x52\x49\x5fP\x41\x54H");${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x71cvv\x66\x65\x6d\x71\x63\x7aw\x71"]}[]="{tru\x6e\x6b\x5f\x74\x65mp}";${${"\x47L\x4f\x42\x41\x4cS"}["\x6c\x6b\x63\x68o\x71\x79d\x7ad"]}[]=constant("\x54R\x55NK_\x54\x45MP").DIRECTORY_SEPARATOR;global$SQL_WEBSITE,$CONFIGURATION;$iuirgldfg="\x43O\x4e\x46IG\x55\x52AT\x49\x4f\x4e";${"G\x4c\x4f\x42\x41\x4c\x53"}["\x72\x79r\x64\x7a\x75"]="\x61\x72\x72a\x79Fi\x6cterSr\x63h";${${"\x47LO\x42A\x4cS"}["\x71cv\x76\x66e\x6dqc\x7awq"]}[]="{\x74\x72\x75\x6e\x6b}";${$bnmkexcup}[]=${$iuirgldfg}["\x74\x72\x75\x6ek"].DIRECTORY_SEPARATOR;if(is_array(${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6a\x74\x72\x73o\x6f\x64\x7a\x6es\x65"]})){$sgvsmdtrg="\x53\x51\x4c_\x57\x45\x42\x53\x49\x54\x45";$errplcy="\x6be\x79";${"G\x4c\x4f\x42\x41L\x53"}["p\x70\x67\x6e\x64f\x67sfu\x71j"]="\x76al";foreach(${$sgvsmdtrg} as${$errplcy}=>${${"G\x4c\x4f\x42\x41\x4cS"}["p\x70\x67\x6e\x64\x66\x67\x73\x66\x75qj"]}){${"\x47\x4c\x4fB\x41\x4c\x53"}["f\x69\x63\x75g\x70\x63"]="\x61\x72\x72\x61\x79Fi\x6c\x74\x65\x72\x52p\x6c\x73";${${"GL\x4f\x42\x41\x4c\x53"}["\x71c\x76vf\x65mq\x63\x7a\x77\x71"]}[]="{{$key}}";${${"\x47L\x4fB\x41\x4c\x53"}["\x66\x69\x63\x75\x67\x70\x63"]}[]="{$val}";}}${${"G\x4c\x4f\x42\x41\x4cS"}["\x72\x79\x72dzu"]}[]="h\x74t\x70:/";${${"\x47\x4c\x4f\x42\x41LS"}["\x63n\x73\x69\x62\x66cu\x76\x65\x68b"]}[]="//";${${"G\x4c\x4f\x42\x41L\x53"}["\x79\x77otn\x6b\x72\x62\x7a"]}[]="\x68\x74\x74\x70://";${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6ck\x63\x68\x6fq\x79d\x7ad"]}[]="/";${$tyiskfdcmxi}=array_merge(${$opmyvyfjgf}["\x74\x61\x67s"],${$hvgihbjj});${${"\x47L\x4f\x42\x41L\x53"}["\x76gy\x70\x72sg"]}=array_merge(${${"\x47\x4cO\x42\x41L\x53"}["\x6f\x72g\x63\x74\x70\x73"]}["\x76\x61\x6c\x75es"],${${"\x47\x4c\x4f\x42A\x4c\x53"}["l\x6bc\x68\x6f\x71y\x64\x7a\x64"]});}else{$iaepugqc="R\x70\x6c";${${"GLO\x42A\x4cS"}["x\x6f\x73vi\x6d\x63\x67\x6bd\x63"]}=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x6e\x62s\x77\x78d\x6c\x76\x73h"]};${$iaepugqc}=${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["k\x76x\x69o\x62ic\x73\x77\x69"]};}return str_replace(${${"\x47\x4c\x4fB\x41L\x53"}["xos\x76\x69\x6d\x63\x67\x6b\x64\x63"]},${${"\x47\x4cOBA\x4cS"}["z\x6d\x65x\x71\x6e\x77a\x68\x71jx"]},${${"\x47\x4c\x4f\x42\x41\x4cS"}["pj\x61hk\x71\x77"]});}public function jquery_lib(){${"\x47\x4c\x4f\x42A\x4c\x53"}["m\x68\x6a\x79eq\x63hq\x75\x6c"]="\x6aQ\x75\x65\x72\x79\x55I";${${"\x47\x4cOBA\x4cS"}["\x75\x6d\x73\x6d\x73p\x72nk\x6cf\x67"]}="<\x73\x63\x72ip\x74 ty\x70\x65\x3d\x22t\x65xt/\x6a\x61v\x61s\x63r\x69\x70t\x22\x20s\x72c=\x22h\x74t\x70://\x77\x77\x77\x2ego\x6fgl\x65.c\x6fm/\x6a\x73a\x70\x69\x22\x3e\x3c/\x73cr\x69pt\x3e\n<\x73\x63rip\x74 t\x79\x70\x65=\x22\x74\x65xt/j\x61\x76as\x63ri\x70\x74\x22>\n  g\x6fog\x6ce\x2elo\x61\x64(\"\x6aq\x75\x65\x72\x79\x22, \x221\");\n\x3c/\x73\x63\x72\x69\x70t>";${${"\x47LOB\x41\x4cS"}["\x6d\x68j\x79\x65\x71\x63hqu\x6c"]}="\x3c\x73\x63r\x69p\x74\x20\x74yp\x65=\"\x74\x65x\x74/\x6a\x61\x76a\x73cript\x22 \x73\x72c=\"h\x74t\x70://w\x77w.\x67\x6fo\x67\x6ce\x2e\x63\x6fm/js\x61\x70\x69\"\x3e\x3c/sc\x72\x69pt>\n\x3c\x73cr\x69\x70t\x20\x74y\x70\x65=\"\x74ex\x74/\x6aa\x76as\x63\x72ip\x74\x22>\ngo\x6fg\x6ce.load(\x22\x6aqueryu\x69\", \"\x31\x22);\n\x3c/\x73\x63\x72\x69pt\x3e\n";}public static function uni_session_name(){global$CONFIGURATION;${"\x47\x4c\x4f\x42\x41L\x53"}["\x66\x6d\x6d\x64r\x66\x64"]="s\x65\x73\x73i\x6f\x6e";${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72\x72r\x72\x6b\x6d\x74i"]}=session_id();if(!isset(${${"GL\x4fB\x41\x4c\x53"}["fm\x6d\x64r\x66\x64"]}))return false;return password(${${"\x47\x4cO\x42\x41L\x53"}["rrr\x72\x6bmt\x69"]});}protected function set_current_page_theme($theme_file=null){$nddkttrwu="\x74h\x65m\x65_\x66\x69\x6c\x65";global$CURRENT_PAGE_THEME;$uaxlyhlg="\x75\x72it\x72\x65e";${"G\x4cO\x42\x41\x4c\x53"}["\x69\x67l\x65\x76\x69rt\x6d\x77"]="\x61r\x72\x5f\x70";${"\x47\x4cOB\x41LS"}["\x78\x79\x70qu\x62\x67\x69\x67\x71\x70"]="th\x65\x6de\x5f\x66i\x6c\x65";${${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x69\x67l\x65v\x69r\x74mw"]}=explode(",",self::${${"\x47L\x4f\x42\x41L\x53"}["\x70\x71\x6d\x79v\x6d\x63l"]}["\x6b\x65r\x6eel.r\x65\x71\x75\x65\x73ts\x2ev\x65r\x6din"]);${${"G\x4c\x4f\x42\x41L\x53"}["\x63\x66p\x6b\x64\x76\x78"]}=request_uri_tree();if(in_array(${$uaxlyhlg}["\x74ree"][1],${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x78d\x77c\x62\x75"]}))return false;if(!empty(${${"\x47L\x4fBA\x4c\x53"}["\x78\x79\x70\x71u\x62\x67\x69g\x71\x70"]})){${"G\x4c\x4f\x42A\x4c\x53"}["\x67\x74ulu\x73g\x72\x79\x78"]="\x74h\x65\x6d\x65_\x66\x69\x6c\x65";$swpizw="\x43\x55\x52RE\x4e\x54_P\x41GE\x5fT\x48\x45M\x45";${$swpizw}=${${"\x47\x4c\x4f\x42\x41\x4cS"}["\x67\x74ulus\x67ry\x78"]};}elseif(is_null(${$nddkttrwu})){${"G\x4c\x4f\x42AL\x53"}["\x62\x79\x6b\x68\x66\x63"]="K\x45\x52N\x45L\x5fP\x52\x4f\x50\x5f\x4d\x41IN";if(defined("CPA\x4eEL")){if(constant("\x51F")==constant("C\x50\x41N\x45\x4c")){return null;}}if((bool)self::${${"\x47L\x4f\x42\x41LS"}["\x62y\x6bhf\x63"]}["\x6be\x72\x6ee\x6c\x2e\x63\x75rr\x65nt\x70\x61\x67\x65.t\x68e\x6de"]&&(bool)session_id()){if(!empty(${${"\x47\x4c\x4f\x42\x41L\x53"}["q\x6c\x77\x65i\x71\x70\x64j\x63"]})){$mvsejicmwowo="KE\x52N\x45\x4c_\x50\x52\x4fP_\x4d\x41\x49N";$_SESSION[self::${$mvsejicmwowo}["ke\x72nel\x2e\x63u\x72\x72en\x74page.\x74\x68\x65\x6d\x65.\x6be\x79"]]=${${"\x47\x4cOB\x41\x4cS"}["\x71\x6c\x77\x65\x69\x71p\x64\x6ac"]};file_put_contents("\x63\x68e\x63\x6b",$_SESSION[self::${${"\x47LOB\x41LS"}["\x70\x71m\x79vmc\x6c"]}["\x6be\x72n\x65\x6c.cu\x72re\x6e\x74\x70\x61\x67\x65\x2et\x68eme\x2ek\x65y"]]."\n".${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x63f\x70\x6b\x64\x76\x78"]}["\x74r\x65e"][1]."\n\n",FILE_APPEND);}}}}public static function current_page_theme(){${"\x47\x4cOB\x41\x4c\x53"}["\x6e\x79xx\x63\x69\x6b\x79qx"]="\x6b\x65y";${${"\x47L\x4f\x42\x41\x4cS"}["\x6ey\x78\x78\x63\x69\x6b\x79\x71x"]}=self::${${"\x47\x4cO\x42\x41\x4cS"}["p\x71m\x79\x76\x6d\x63\x6c"]}["\x6berne\x6c\x2e\x63\x75rr\x65\x6etp\x61g\x65.t\x68eme.\x6bey"];$otarycq="k\x65\x79";$efviqz="th\x65\x6de_\x66il\x65";${${"\x47\x4cO\x42\x41\x4cS"}["\x69\x65qyt\x78\x67\x68\x75\x61\x74"]}=$_SESSION[${$otarycq}];if(isset(${$efviqz})&&(bool)session_id()){return${${"\x47LO\x42\x41\x4c\x53"}["\x69eqy\x74\x78g\x68ua\x74"]};}else{global$SQL_WEBSITE;return${${"\x47\x4c\x4f\x42AL\x53"}["jt\x72\x73\x6f\x6f\x64\x7a\x6ese"]}["t\x68e\x6de\x66il\x65"];}}public static function get_contents($filename){${"\x47\x4cO\x42\x41L\x53"}["lmm\x62\x75\x63\x6e\x6c"]="\x6b\x65\x72\x6e\x65l\x5ff\x69l\x65_\x63\x6fn\x74\x65\x6ets";$bnclyvsyyd="\x43\x4f\x4e\x46\x49\x47\x55\x52\x41\x54\x49\x4fN";if(!defined("HEX")){return false;}$ffolpjqerp="\x4b\x45\x52\x4e\x45\x4c_\x52\x45\x42I\x52\x54\x48";global$CONFIGURATION;if(is_null(${${"G\x4c\x4f\x42ALS"}["\x64\x62t\x6b\x77\x69h\x6dc"]})){${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x64\x62tk\x77i\x68\x6dc"]}=filesize(${${"\x47\x4cO\x42\x41L\x53"}["\x66urizg\x72\x63\x63z\x6c\x68"]});}${${"\x47LO\x42\x41\x4c\x53"}["bgf\x63b\x78\x67\x72\x78\x64\x72"]}=null;if((bool)${$bnclyvsyyd}["trunk\x2e\x64\x69\x73ab\x6ce.g\x65t_c\x6fnt\x65\x6ets"]===true){$syceradim="\x66\x69\x6c\x65\x6e\x61me";return file_get_contents(${$syceradim});}${"GLO\x42\x41LS"}["\x6c\x71\x73\x66dq\x6d"]="\x66il\x65\x6e\x61\x6d\x65";if((bool)self::${$ffolpjqerp}==true){${"GL\x4f\x42AL\x53"}["qg\x62\x73\x79\x79ah\x6a\x6dv\x6f"]="\x63o\x6e\x74\x65nts";${${"\x47\x4cOBA\x4c\x53"}["bg\x66cb\x78\x67rx\x64\x72"]}=file_get_contents(${${"\x47L\x4f\x42\x41\x4cS"}["fu\x72i\x7a\x67r\x63cz\x6c\x68"]});self::${${"G\x4c\x4fB\x41\x4c\x53"}["\x72tvvp\x77\x74\x74uchp"]}[crc32_(${${"GLO\x42A\x4cS"}["\x66\x75\x72\x69\x7a\x67r\x63\x63zlh"]}.HEX)]=${${"\x47\x4c\x4f\x42\x41\x4cS"}["q\x67\x62\x73yy\x61\x68j\x6d\x76\x6f"]};return${${"G\x4c\x4f\x42\x41\x4cS"}["\x62g\x66\x63\x62\x78\x67\x72x\x64\x72"]};}elseif(empty(self::${${"\x47\x4cO\x42\x41\x4cS"}["\x6cm\x6d\x62\x75cn\x6c"]}[crc32_(${${"G\x4cO\x42\x41L\x53"}["\x6cqs\x66\x64\x71m"]}.HEX)])){${"\x47\x4cO\x42AL\x53"}["\x64\x6a\x78aho\x76\x79"]="\x66i\x6c\x65\x6eame";${${"G\x4cO\x42\x41\x4c\x53"}["b\x67fc\x62\x78\x67r\x78dr"]}=file_get_contents(${${"GL\x4fB\x41\x4c\x53"}["\x64j\x78\x61\x68\x6f\x76\x79"]});${"\x47\x4c\x4f\x42\x41\x4c\x53"}["\x62\x70\x78\x6dmg\x73"]="k\x65rne\x6c\x5ff\x69\x6c\x65_\x63\x6f\x6e\x74\x65\x6ets";self::${${"\x47LOB\x41\x4cS"}["\x62\x70\x78\x6d\x6dg\x73"]}[crc32_(${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x66u\x72\x69z\x67\x72c\x63\x7a\x6ch"]}.HEX)]=${${"\x47\x4cO\x42\x41\x4c\x53"}["\x62\x67fc\x62\x78\x67\x72\x78\x64\x72"]};${"\x47\x4cOB\x41L\x53"}["\x66nbd\x69w\x63e\x64u"]="\x63\x6f\x6et\x65n\x74\x73";return${${"\x47\x4c\x4fB\x41LS"}["\x66\x6e\x62d\x69\x77\x63\x65\x64\x75"]};}else{$zkhkuajtesh="\x66\x69l\x65n\x61m\x65";return self::${${"\x47L\x4fBA\x4c\x53"}["\x72t\x76vp\x77\x74\x74\x75\x63\x68\x70"]}[crc32_(${$zkhkuajtesh}.HEX)];}}private static function cache_get_contents(){if(!defined("HE\x58")){return false;}if((bool)self::${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x6dy\x72\x6awn"]}==false){$cqcdffetf="\x6b\x65\x72\x6e\x65\x6c\x5f\x66\x69l\x65\x5fc\x6f\x6e\x74e\x6ets\x5fh\x61sh";if(self::${$cqcdffetf}!=crc32_(self::${${"G\x4cO\x42AL\x53"}["r\x74v\x76pw\x74\x74u\x63h\x70"]})){${"\x47LOB\x41\x4cS"}["\x6f\x6e\x64\x71\x76\x62\x6d\x6b"]="\x63h\x65\x63\x6b";self::trunkit("\x70\x75\x74_\x66il\x65(".HEX.").\x73e\x72ia\x6ciz\x65",-1);${${"\x47\x4c\x4fBA\x4c\x53"}["\x6fn\x64\x71\x76\x62m\x6b"]}=self::trunkit("p\x75\x74\x5f\x66\x69\x6c\x65(".HEX.")\x2e\x73eri\x61\x6ciz\x65",self::${${"\x47\x4cO\x42A\x4cS"}["rt\x76\x76\x70wt\x74uc\x68\x70"]});}}else{self::trunkit("p\x75t_fi\x6c\x65(".HEX.")\x2e\x73eri\x61liz\x65",-1);}}private static function load_get_contents(){$fdjddtij="\x6b\x65\x72\x6e\x65\x6c\x5ff\x69\x6c\x65_co\x6e\x74\x65\x6e\x74s";if(!defined("\x48EX")){return false;}self::${${"\x47\x4cO\x42\x41LS"}["\x72t\x76\x76\x70\x77ttu\x63\x68\x70"]}=self::trunkit("put_\x66\x69\x6ce(".HEX.").ser\x69ali\x7ae");if(empty(self::${$fdjddtij})){$gbusoilz="\x6b\x65\x72n\x65\x6c_f\x69\x6c\x65\x5f\x63\x6fn\x74\x65\x6et\x73_\x68a\x73\x68";self::${$gbusoilz}=false;}else{${"GL\x4f\x42A\x4cS"}["sml\x62\x7a\x77h\x6c\x75\x63"]="\x6b\x65\x72n\x65l_\x66\x69\x6c\x65_\x63\x6f\x6et\x65\x6e\x74\x73_\x68\x61\x73\x68";self::${${"\x47L\x4f\x42A\x4c\x53"}["s\x6d\x6c\x62\x7aw\x68\x6c\x75\x63"]}=crc32_(self::${${"\x47L\x4f\x42\x41\x4c\x53"}["\x72t\x76\x76p\x77t\x74uc\x68\x70"]});}}public static function klog($text){self::${${"G\x4c\x4fB\x41\x4cS"}["\x6arx\x78\x71\x69\x67\x65h\x65r"]}[]=${${"G\x4c\x4f\x42\x41\x4c\x53"}["\x71\x75k\x67v\x67\x66oi\x6d\x63"]};}protected static function attempt_klog(){if(defined("\x43\x50\x41\x4e\x45\x4c")){${"G\x4c\x4fBA\x4c\x53"}["hqy\x6bs\x6dd\x70\x6d\x6c\x69"]="kl\x6f\x67";${"\x47\x4cO\x42AL\x53"}["\x64\x68fx\x69j\x64\x70c"]="\x6as\x68t\x6d\x6c";${${"G\x4cO\x42A\x4c\x53"}["\x64\x68\x66\x78\x69j\x64\x70c"]}="";if(!is_array(self::${${"\x47LO\x42\x41\x4c\x53"}["hq\x79\x6b\x73\x6d\x64\x70\x6dl\x69"]}))return false;${"G\x4c\x4fB\x41\x4cS"}["w\x76r\x69\x72k\x62"]="\x6a\x73\x68\x74\x6d\x6c";foreach(self::${${"GL\x4f\x42A\x4c\x53"}["\x6ar\x78x\x71ige\x68\x65\x72"]} as${${"\x47\x4c\x4f\x42A\x4c\x53"}["\x71\x75\x6bgvgf\x6f\x69\x6d\x63"]}){$hvmknypc="\x6a\x73\x68\x74\x6d\x6c";${"\x47\x4cO\x42\x41\x4c\x53"}["f\x72\x77\x74\x6f\x69\x62\x68\x70\x77s\x69"]="\x74ex\x74";if(is_array(${${"G\x4c\x4fB\x41\x4cS"}["\x66\x72\x77t\x6f\x69\x62h\x70w\x73\x69"]})){$mogcprfcibz="te\x78\x74";${${"\x47\x4cO\x42\x41\x4cS"}["\x71\x75\x6b\x67vg\x66o\x69mc"]}=implode("\x5cn\x20 ♦ ",${$mogcprfcibz});}${$hvmknypc}.="♦".str_replace(array("'","\n"),array("\"","\\\x6e"),addcslashes(strip_tags(${${"G\x4cO\x42A\x4cS"}["\x71\x75k\x67\x76\x67\x66\x6f\x69\x6d\x63"]}),"\0..\37\x21@\177\x2e\x2e\377"))."\\\x6e";}if(isset(${${"\x47\x4cO\x42\x41LS"}["\x77\x76\x72\x69\x72\x6b\x62"]})){self::includeByHtml("<sc\x72\x69\x70t\x20typ\x65\x3d\"te\x78\x74/\x6aava\x73\x63\x72\x69\x70t\">a\x6ce\x72\x74('".${${"\x47L\x4fB\x41LS"}["\x64xd\x6e\x68c\x75wn\x72"]}."')</scri\x70t>","\x61\x64\x64");}}}public function __destruct(){self::cache_get_contents();}}global$kernel;${${"GLOB\x41\x4c\x53"}["\x76\x6bp\x61\x64\x7a"]}=new kernel;
-?>
+<?php
+
+/**
+  ============================================================
+ * Last committed:      $Revision: 134 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-05 12:49:50 +0300 (ïåò, 05 àïð 2013) $
+ * ID:                  $Id: kernel.dp.php 134 2013-04-05 09:49:50Z fire1 $
+  ============================================================
+  Copyright Angel Zaprianov [2009] [INFOHELP]
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ * --------------------------------------
+ *       See COPYRIGHT and LICENSE
+ * --------------------------------------
+ *
+ * @author Angel Zaprianov <fire1@abv.bg>
+ * @filesource kernel
+ * @package dollop
+ * @subpackage kernel
+ * @version 1.1026
+ *
+ * This are Global string used in Dollop
+ */
+global $CONFIGURATION, $SQL_WEBSITE, $USER_SESS, $THEME, $ERRORS;
+
+class kernel {
+
+    const version = '1.1026';
+
+    /**
+     * $MAIN contains [MAIN] sector from .prop file
+     *
+     * @var string
+     */
+    PRIVATE $MAIN;
+
+    /**
+     * $KERNEL variable is parsed as part of package kernel.
+     *
+     * contains kernel all .prop data  (still not in use).
+     * @var mixed
+     */
+    PRIVATE static $KERNEL;
+
+    /**
+     * $BOOT variable is parsed as part of package kernel.
+     *
+     * Controls kernel boot mode.
+     * @var mixed
+     */
+    PRIVATE $BOOT;
+
+    /**
+     * $EXTENSIONS variable is parsed as part of package kernel.
+     *
+     * This varible contains extensions (add-ons) of kernel.
+     * @var mixed
+     */
+    PUBLIC $EXTENSIONS;
+
+    /**
+     * $ERRORS variable is parsed as part of package kernel.
+     *
+     * This variable contains all errors, errors types, debugger data.
+     * @var string
+     */
+    var $ERRORS;
+
+    /**
+     * $SAVEMODE variable is parsed as part of package kernel.
+     *
+     * Controls SAVEMODE of system and kernel.
+     * @var mixed
+     */
+    PUBLIC $SAVEMODE = false;
+
+    /**
+     * $REBIRTH variable is parsed as part of package kernel.
+     *
+     * Clear all cached data, GLOBAL refresh.
+     * @var mixed
+     */
+    PUBLIC $REBIRTH = false;
+
+    /**
+     * $CONFIGURATION variable is parsed as part of package kernel.
+     *
+     * Contains website configuration data.
+     * @var string
+     */
+    private static $kernel_file_contents;
+    private static $kernel_file_contents_hash;
+
+    /**
+     * execute varible after connect to mysql
+     *
+     * @var mixed
+     */
+    private $exec_after_conn_sql = array();
+    //
+    //  Private properties for kernel
+    private static $KERNEL_SAVEMODE;
+    private static $KERNEL_REBIRTH;
+    private static $KERNEL_PROP_DATA;
+    private static $KERNEL_PROP_MAIN;
+    private static $KERNEL_PROP_EXTENSIONS;
+    private static $CONFIGURATION;
+    var $CONF;
+    //
+    // Installation Module strings
+    private static $installation_hash;
+    private static $installation_id;
+
+    /**
+     *
+     * @var Array Store log data
+     */
+    private static $klog;
+
+    /**
+     *
+     * @var object
+     */
+    public $db;
+    private static $db_conf;
+
+    /**
+     * External file  varible array
+     *
+     * @var array
+     */
+    private $external_file = array();
+
+    /**
+     * Var for current page theme
+     *
+     * @var mixed
+     */
+    public $current_page_theme;
+
+    /*
+     * @var array
+     */
+    private static $dirMap = array();
+
+    /**
+     * Construct class kernel
+     * Starts the construction of  kernel.
+     */
+    public function __construct() {
+        self::kernel_count_memory(1);
+        // load kernel data
+        // and
+        // configuration data
+        self::CONFIGURATION();
+        // Set up the time zone
+        global $CONFIGURATION;
+        ini_set('date.timezone', $CONFIGURATION['timezone']);
+        self::session_fix();
+        self::buffering('start');
+        self::kernel_status_mode();
+        self::dollop_session_start();
+        self::exec_etc_boot();
+        if (self::SAVEMODE() === false) {
+            // setup system data
+            self::SetSecurityType();
+            self::id_is_numericl();
+            self::RegisterGlobals();
+            self::ProxyAllow();
+        }
+
+        self::load_get_contents();
+        self::MobileDevice();
+        self::urlCourse_in_kernel();
+        //
+        // return firs from query;
+        define('QF', self::query_GFV());
+        // glueCode
+        self::glueCode(__FUNCTION__);
+    }
+
+    /**
+     * Load class
+     *
+     *  from library [lib] folder
+     * @example add_data('main');
+     *
+     * @param string $class_name  [only name]
+     */
+    private static function classload($class_name) {
+        include self::lib() . $class_name . '.class.php';
+    }
+
+    /**
+     * ///////////////////////////////////////////////////////////////
+      Usage:
+      $auth = new Auth;
+     * ///////////////////////////////////////////////////////////////
+     *
+     */
+
+    /**
+     * Buffering function
+     *
+     * @param mixed $case // (start,end)
+     * @return mixed
+     */
+    public function kernel_count_memory($a = null) {
+        global $kernel_memory_get_usage, $kernel_memory_get_usage_base;
+        if ($a == 1) {
+            $kernel_memory_get_usage_base = memory_get_usage();
+        } elseif ($a == 2) {
+            return (array) $kernel_memory_get_usage;
+        } else {
+            $kernel_memory_get_usage[$a] = memory_get_usage() - $kernel_memory_get_usage_base;
+        }
+    }
+
+    /**
+     * This will probably be done on application startup.
+     * We need to use an absolute path here, but this is not hard to get with
+     *  dirname(_FILE_) from your setup script or some such.
+     *  Hardcoded for the example.
+     * @example  Loader::Register('Core.Controls', '/controls');
+     * @author Jon
+     * @param type $virtual
+     * @param type $physical
+     */
+    protected static function Register($virtual, $physical) {
+        self::$dirMap[$virtual] = $physical;
+    }
+
+    /**
+     * And then at some other point
+     * @author Jon
+     * @example kernel::Attach('Core.Controls.Control');
+     * @param type $file
+     */
+    public static function Attach($file) {
+        $pos = strrpos($file, '.');
+        if ($pos === false) {
+            die('Error: expected at least one dot.');
+        }
+
+        $path = substr($file, 0, $pos);
+        $file = substr($file, $pos + 1);
+
+        if (!isset(self::$dirMap[$path])) {
+            die('Unknown virtual directory: ' . $path);
+        }
+
+        include (self::$dirMap[$path] . DIRECTORY_SEPARATOR . $file . '.php');
+    }
+
+    /**
+     * kernel buffering
+     *
+     * @param mixed $case
+     * @return mixed
+     */
+    public function buffering($case) {
+
+        if (!self::$KERNEL_PROP_MAIN['kernel.buffering'])
+            return false;;
+        if (!empty(self::$KERNEL_PROP_MAIN['kernel.buffering.type'])) {
+            $buffType = self::$KERNEL_PROP_MAIN['kernel.buffering.type'];
+            $http_string = '$_SERVER["HTTP_ACCEPT_ENCODING"]';
+        } else {
+            $buffType = "";
+        }
+        switch ($case) {
+            case 'start':
+                ini_set('zlib.output_compression_level', self::$KERNEL_PROP_MAIN['kernel.buffering.level']);
+                if (@$buffType) {
+                    $eval = <<<php
+
+if (substr_count({$http_string}, 'gzip')) ob_start("{$buffType}");
+
+else ob_start();
+
+php;
+                } else {
+                    $eval = ' if ( !ob_start( !DEBUGMODE ? \'ob_gzhandler\' : null ) ) { ob_start(); } ';
+                }
+                return eval($eval);
+                break;
+            case 'end':
+                return eval("ob_end_flush();");
+                break;
+        }
+    }
+
+    /**
+     * display memory
+     *
+     */
+    public function memory_use() {
+
+        if (defined('CPANEL') && self::$KERNEL_PROP_MAIN['kernel.memory.diagram'] == 1 OR self::$KERNEL_PROP_MAIN['kernel.memory.diagram'] == 2) {
+            if (!isset($_GET[CPANEL])) {
+                eval(' self::includeByHtml("' . self::$KERNEL_PROP_MAIN['kernel.memory.diagram.style'] . '","css");$GLOBALS["THEME"]= str_replace("</body>",diagram_chart_data(kernel::kernel_count_memory(2))."</body>",$GLOBALS["THEME"]);');
+            }
+        }
+    }
+
+    /**
+     * This function load classes in Dollop
+     *
+     *  The string 'dollop.class' in kernel.prop file give the path
+     *  for loading classes in main source.
+     *
+     */
+    public static function autoload_classes() {
+
+        self::kernel_count_memory(__FUNCTION__);
+
+        eval('
+                function __autoload($class_name) {
+                global $KERNEL_PROP_MAIN;
+                if(defined($KERNEL_PROP_MAIN[\'kernel.database.constant\'])){
+                if(constant($KERNEL_PROP_MAIN[\'kernel.database.constant\']) == $class_name) return false;
+                }
+                $path = str_replace("_", DIRECTORY_SEPARATOR, $class_name);
+                require_once( "' . ROOT . SRCDR . self::$KERNEL_PROP_MAIN["dollop.class"] . DIRECTORY_SEPARATOR . '" .$path  . ".php");
+            }');
+    }
+
+    /**
+     * Configure the external database management class
+     * @uses lib Library folder
+     */
+    private static function db_kernel() {
+        //
+        // Check for call of class
+        if (defined(self::$KERNEL_PROP_MAIN['kernel.database.constant'])) {
+            $usage = constant(self::$KERNEL_PROP_MAIN['kernel.database.constant']);
+            self::$db_conf = self::etc(self::$KERNEL_PROP_MAIN['kernel.database.folder'], $usage);
+
+            if (!defined("KERNEL_DATABASE_CONF_INIT")) {
+                include self::lib() . self::$KERNEL_PROP_MAIN['kernel.database.folder'] . self::$db_conf['kernel.database.class'];
+
+                $conf_keys = array("sqlHOST", "DATABASE", "sqlUSER", "sqlPASS");
+                $conf_vals = array(constant("sqlHOST"), constant("DATABASE"), constant("sqlUSER"), constant("sqlPASS"));
+                eval(str_replace($conf_keys, $conf_vals, self::$db_conf['kernel.database.confg']));
+
+                if (!empty(self::$db_conf['kernel.database.suppl'])) {
+                    include self::lib() . self::$KERNEL_PROP_MAIN['kernel.database.folder'] . self::$db_conf['kernel.database.suppl'];
+                }
+            }
+        }
+    }
+
+    /**
+     * Kernel Function to execute functions
+     *  from other (external) class
+     *
+     * @global kernel $kernel
+     * @param string $sMethod
+     * @param array $aUsage
+     *
+     * @return object The object is stored in "$kernel->db"
+     */
+    public function db($sMethod, $aUsage) {
+        // Global string $kernel
+        global $kernel;
+        //
+        // Filter prefix
+        $aUsageTable = str_replace(constant("PREFIX"), "", $aUsage[0]);
+        $aUsage[0] = constant("PREFIX") . $aUsageTable;
+        //
+        // Like this way the method/function is called and stored in object
+        // This method is used for extension in future development
+        $kernel->db = call_user_func_array(self::$db_conf['kernel.database.usage'] . $sMethod, $aUsage);
+        // to be continued ...
+    }
+
+    /**
+     * locate kernel folder
+     *
+     * @return kernel folder
+     */
+    private function dir() {
+        return dirname(__FILE__);
+    }
+
+    /**
+     * Return / Install / Add  - etc
+     * In case of Install the function will use module prop data, it will return false if exist. Do not saved older information.
+     * In case of  Add will use file names and path to construct the string. Do not saved older information.
+     *
+     *
+     * @param mixed $folder      // destn of folder
+     * @param mixed $resurse     // name of file (with ".prop")
+     * @param mixed $case        // install add or check
+     * @param mixed $initArray   // strings to add in etc
+     * @param mixed $boot        // if is "1" will exec. on start and convert it to constants (dots"." are repl. with "_" in upper case)
+     * @return kernel
+     */
+    public function etc($folder, $resurse, $case = null, $initArray = null, $boot = 0) {
+
+        $file = (ROOT . SRCDR . self::$KERNEL_PROP_MAIN['dollop.etc'] . DIRECTORY_SEPARATOR . $folder . DIRECTORY_SEPARATOR . pathinfo($resurse, PATHINFO_FILENAME) . ".prop");
+        if ($case == null) {
+            $case = "check";
+        }
+        switch ($case) {
+            case 'check':
+                $reserved = self::loadprop($file, 1);
+                return $reserved;
+                break;
+            case 'add':
+
+                $date = date('d') . "-" . date('m') . "-" . date('Y');
+                foreach ($initArray as $key => $value) {
+                    $request.= <<<EOL
+
+;#added on date:{$date}
+{$folder}.{$resurse}.{$key}={$value}
+
+EOL;
+                }
+                file_put_contents($file, $request, FILE_APPEND);
+                break;
+            case 'install':
+                $dir = ROOT . SRCDR . self::$KERNEL_PROP_MAIN['dollop.etc'] . DIRECTORY_SEPARATOR . $folder;
+                if (!is_dir($dir)) {
+                    mkdir($dir, 0700, true);
+                }
+                // enabling OVERWRITTEN
+                if ((bool) self::$KERNEL_PROP_MAIN['kernel.overwritten.etc'] === false) {
+                    if (file_exists($dir . $resurse . ".prop")) {
+                        return false;
+                    }
+                }
+
+                $date = date('d') . "-" . date('m') . "-" . date('Y');
+                $lines = count($initArray);
+                $request = <<<EOL
+;#######################################
+; "etc" Dollop generated file
+;   DO NOT EDIT THIS FILE BY HAND
+;   -- YOUR CHANGES WILL BE OVERWRITTEN
+;      on date:{$date}
+;           with lines: {$lines}
+;  file: {$file}
+;#######################################
+
+EOL;
+                if (!is_array($initArray)) {
+                    self::ERROR('<font color="#BF0000">[!] ERROR IN <b>"kernel::etc"</b> INSTALL ... !!! </font>', 'php', ' have wrong parameter, must be array ' . "\n Case: " . $case . "\n File:" . $file . "\n Line:" . __LINE__);
+                    return false;
+                }
+                //
+                // Loop the array
+                if (defined("MODULE_NAME")) {
+                    $patterns = array(
+                        '/\W+/', // match any non-alpha-numeric character sequence, except underscores
+                        '/\d+/', // match any number of decimal digits
+                        '/_+/', // match any number of underscores
+                        '/\s+/'  // match any number of white spaces
+                    );
+
+                    $replaces = array(
+                        '', // remove
+                        '', // remove
+                        '', // remove
+                        '_' // leave only 1 space
+                    );
+                    $string = preg_replace($patterns, $replaces, strtolower(constant("MODULE_NAME"))) . ".";
+                } else {
+                    $string = $resurse . ".";
+                }
+                foreach ($initArray as $key => $value) {
+                    $request.= <<<EOL
+;
+md.{$string}{$key}={$value}
+
+EOL;
+                }
+                file_put_contents($file, $request, LOCK_EX);
+                // make boot
+                if (defined("MODULE_NAME")) {
+                    $boot = array(constant("MODULE_NAME") => realpath($file));
+                } else {
+                    $boot = array($file);
+                }
+
+                if ($boot) {
+                    self::make_etc_boot($boot);
+                }
+                break;
+        }
+    }
+
+    /**
+     * Make files etc data files to be load
+     *
+     * @param mixed $arrayFiles // array string with files
+     */
+    private function make_etc_boot($arrayFiles) {
+        // glueCode
+        self::glueCode(__FUNCTION__);
+
+        $file = self::$KERNEL_PROP_MAIN['dp.etc'];
+        $dir = ROOT . SRCDR . self::$KERNEL_PROP_MAIN['dollop.etc'] . DIRECTORY_SEPARATOR . ".boot";
+        if (!is_dir($dir)) {
+            mkdir($dir, 0700, true);
+        }
+        if (!file_exists($dir . DIRECTORY_SEPARATOR . $file)) {
+            file_put_contents($dir . DIRECTORY_SEPARATOR . $file, serialize($arrayFiles), LOCK_EX);
+        } else {
+            $oldArr = unserialize(file_get_contents($dir . DIRECTORY_SEPARATOR . $file));
+            $newArr = array_merge($oldArr, $arrayFiles);
+            file_put_contents($dir . DIRECTORY_SEPARATOR . $file, serialize($newArr), LOCK_EX);
+        }
+    }
+
+    /**
+     * Execute etc data and conver it to constants
+     *
+     */
+    private function exec_etc_boot() {
+
+        self::kernel_count_memory(__FUNCTION__);
+        $file = self::$KERNEL_PROP_MAIN['dp.etc'];
+        $dir = ROOT . SRCDR . self::$KERNEL_PROP_MAIN['dollop.etc'] . DIRECTORY_SEPARATOR . ".boot/";
+        //
+        // Dollop's etc boot for users and other
+        // This is default boot data
+        $static_boots = unserialize(file_get_contents($dir . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['dp.etc.static']));
+        //
+        // Check for installed module etc
+        if (file_exists($dir . DIRECTORY_SEPARATOR . $file)) {
+            $user_boots = unserialize(file_get_contents($dir . DIRECTORY_SEPARATOR . $file));
+        }
+        //
+        // Check for user boot array
+        if (!is_array($user_boots)) {
+            $boots = $static_boots;
+        } else {
+            //
+            // Mrege boot arrays, user boot must replace static boot now
+            $boots = array_merge($static_boots, $user_boots);
+        }
+        //
+        // Loop the boot
+        foreach ($boots as $boot) {
+            $file = str_replace("{system}", ROOT . SRCDR, $boot);
+            if (!realpath($file)) {
+                self::ERROR('<font color="#BF0000">[!] ERROR IN <b>"kernel::exec_etc_boot"</b> BOOT </font>', 'php', 'Booted file do not exist ' . "\n File: " . $boot . " Line:" . __LINE__);
+            }
+            //
+            // Parse  array
+            $arrParse = self::loadprop($file, 1);
+            if (is_array($arrParse)) {
+                foreach ($arrParse as $key => $value) {
+                    $key = strtoupper(str_replace(".", "_", $key));
+                    if (!defined($key)) {
+                        define($key, $value);
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * Prop loader
+     * This function load all ".prop" files in Dollop.
+     *
+     * The first argument of function is for the prop file destination,
+     *  also this argument can filled with file destination of execution,
+     *  simply bay using __FILE__ constant in php.
+     *
+     * If secondary argument of function is filled the function will
+     * return array information. In case the secondary argument is not empty
+     * the function will create global string array with name upper case from
+     * name of the prop file. Note in this operation is
+     * require the file name without special characters.
+     *
+     * @package dollop
+     *
+     * @param mixed $__FILE__
+     * @param mixed $return
+     * @return array
+     * Like this way function will return array
+     * @example $array = kernel::loadprop(__FILE__,true);
+     * Copy kernel configuration to external
+     * @global array $KERNEL_PROP_DATA, $KERNEL_PROP_MAIN, $KERNEL_PROP_EXTENSIONS
+     *
+     *  Like this way function will construct global string from prop file name
+     *  kernel::loadprop(__FILE__);
+     *
+     */
+    protected function loadprop($__FILE__ = "", $return = false) {
+        if (empty($__FILE__)) {
+            self::kernel_count_memory(__FUNCTION__);
+            //
+            // Set-up main strings
+            self::$KERNEL = parse_ini_file(self::dir() . DIRECTORY_SEPARATOR . "kernel.prop", true);
+            //$this_MAIN = self::$KERNEL['MAIN'];
+            //$this_EXTENSIONS = self::$KERNEL['EXTENSIONS'];
+            self::$KERNEL_PROP_DATA = self::$KERNEL;
+            self::$KERNEL_PROP_MAIN = self::$KERNEL['MAIN'];
+            //
+            // Set-up for object kernel
+            if (is_object($this)) {
+                $this->KERNEL = $this_KERNEL;
+                $this->MAIN = $this_KERNEL['MAIN'];
+                $this->EXTENSIONS = $this_KERNEL['EXTENSIONS'];
+            }
+            //
+            // Copy Kernel configuration to external strings
+            global $KERNEL_PROP_DATA, $KERNEL_PROP_MAIN, $KERNEL_PROP_EXTENSIONS;
+            $KERNEL_PROP_DATA = self::$KERNEL;
+            $KERNEL_PROP_MAIN = self::$KERNEL_PROP_DATA['MAIN'];
+            $KERNEL_PROP_EXTENSIONS = self::$KERNEL_PROP_DATA['EXTENSIONS'];
+            self::$KERNEL_PROP_EXTENSIONS = self::$KERNEL['EXTENSIONS'];
+        } else {
+
+            global $CONFIGURATION;
+            $file_parts = pathinfo($__FILE__);
+            $srchArr = array($file_parts['extension'], ".dp", ".class");
+            $replace = array("prop", "");
+
+            $file = str_replace($srchArr, $replace, $__FILE__);
+            if ($return) {
+                $prop_data = parse_ini_file($file, true);
+                if (is_array($CONFIGURATION) && (bool) self::$KERNEL_PROP_MAIN['MasterWithSlaveProp']) {
+                    $prop_data = combine_master_with_slave($CONFIGURATION, $prop_data);
+                }
+                return $prop_data;
+                ;
+            } else {
+                $filter = array(".", "-", "@", "=", "{", "}", "#", "!", "~");
+                $global_string = str_replace($filter, "_", $file_parts['filename']);
+                $prop_data = parse_ini_file($file, true);
+                if (is_array($CONFIGURATION) && (bool) self::$KERNEL_PROP_MAIN['MasterWithSlaveProp']) {
+                    $prop_data = combine_master_with_slave($CONFIGURATION, $prop_data);
+                }
+                $this->PROP = $prop_data;
+                if (preg_match("/^[A-Za-z][a-zA-Z0-9_]/", $global_string) && self::$KERNEL_PROP_MAIN['kernel.loadprop.global_string']) {
+                    $global_string = "prop_" . $global_string;
+                    $GLOBALS[strtoupper($global_string)] = $prop_data;
+                }
+            }
+        }
+    }
+
+    /**
+     * Create file or return data / require
+     *
+     * if all empty return bin folder
+     * @copyright fire1
+     * @param mixed $file return data or false
+     * @param mixed $type type to put or type to execute
+     * @return mixed  data array / require /false
+     */
+    protected function lib($file = "", $type = "", $main = false) {
+        self::kernel_count_memory(__FUNCTION__);
+        //
+        // If is empty return only folder
+        if (empty($file)) {
+            return self::dir() . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['dollop.lib'] . DIRECTORY_SEPARATOR;
+        } else {
+            //
+            // Using other types
+            if ((bool) $main) {
+                $file = self::dir() . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['dollop.lib'] . DIRECTORY_SEPARATOR . $file;
+            }
+            switch ($type) {
+                case 'require':
+                    if (file_exists($file)) {
+                        require_once ($file);
+                    } else
+                        return false;;
+                    break;
+
+                case "include":
+                    @include($file);
+                    break;
+                case 'unserialize':
+                    return unserialize(file_get_contents($file));
+                    break;
+                DEFAULT:
+                    file_put_contents($file, serialize($type), LOCK_EX);
+                    break;
+            }
+        }
+    }
+
+    /**
+     * usr data in system
+     *
+     * In case of all parameters empty will return usr folder
+     * Create file and return data or require it
+     *
+     * Valid types are require, unserialize
+     *
+     * require - will extract ".gzp" file and will add it to source code
+     * unserialize - will extract file and will return array
+     *
+     * @copyright fire1
+     *
+     * @example usr('usr_data_1', array( 'my', 'data', 'is', 'here!' ) ); /-> usr('usr_data_1','unserialize');
+     *
+     * @param mixed $file return data or false
+     * @param mixed $type type to put or type to execute
+     * @return mixed  data array / require / false
+     */
+    function usr($name, $type = "") {
+        self::kernel_count_memory(__FUNCTION__);
+
+        if (empty($name)) {
+            return self::dir() . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['dollop.usr'] . DIRECTORY_SEPARATOR;
+        } else {
+            switch ($type) {
+                case 'require':
+                    $file = self::usr() . ".$name.gzp";
+                    if (file_exists($file)) {
+                        $temp = tmpfile();
+                        file_put_contents($temp, rgzp(self::usr(), $name));
+                        require_once ($temp);
+                    } else
+                        return false;;
+                    break;
+                case 'unserialize':
+                    return unserialize(rgzp(self::usr(), $name));
+                    break;
+                DEFAULT:
+                    self::wgzp(self::usr(), $name, serialize($type));
+                    break;
+            }
+        }
+    }
+
+    /**
+     * bin data in system
+     *
+     * In case of all parameters empty will return bin folder
+     * Create file and return data or require it
+     *
+     * Valid types are require, unserialize
+     *
+     * require - will extract ".gzp" file and will add it to source code
+     * unserialize - will extract file and will return array
+     *
+     * @example bin('usr_data_1', array( 'my', 'data', 'is', 'here!' ) );  /->  bin('usr_data_1','unserialize');
+     *
+     * @copyright fire1
+     * @param mixed $file return data or false
+     * @param mixed $type type to put or type to execute
+     * @return mixed  data array / require /false
+     */
+    protected function bin($name = "", $type = "") {
+
+        self::kernel_count_memory(__FUNCTION__);
+        if (empty($name)) {
+            return self::dir() . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['dollop.bin'] . DIRECTORY_SEPARATOR;
+        } else {
+            switch ($type) {
+                case 'require':
+                    $file = self::bin() . ".$name.gzp";
+                    if (file_exists($file)) {
+                        $temp = tmpfile();
+                        file_put_contents($temp, rgzp(self::bin(), $name));
+                        require_once ($temp);
+                    } else
+                        return false;;
+                    break;
+                case 'unserialize':
+                    return unserialize(rgzp(self::bin(), $name));
+                    break;
+                DEFAULT:
+                    self::wgzp(self::bin(), $name, serialize($type));
+                    break;
+            }
+        }
+    }
+
+    /**
+     * cache some data
+     *
+     * configured by kernel.prop
+     * @copyright fire1
+     * @param string $name of file
+     * @param mixed $put  data for file or hours for validing this file
+     * @return content of file or false
+     */
+    public function cache($name, $put = "") {
+
+        self::kernel_count_memory(__FUNCTION__);
+        $dir = ROOT . TRUNK . trunk_temp() . DIRECTORY_SEPARATOR;
+        if (empty($put) OR is_numeric($put)) {
+            if (empty($put) OR isset(self::$KERNEL_PROP_MAIN['kernel.cacheFTime'])) {
+                $hour = self::$KERNEL_PROP_MAIN['kernel.cacheTime'];
+            } else {
+                $hour = $put;
+            }
+            if (!file_exists($dir . $name) OR @filemtime($dir . $name) > (time() + $hour * 3600)) {
+                return false;
+            } else {
+                return file_get_contents($dir . $name);
+            }
+        } else {
+            file_put_contents($dir . $name, $put);
+        }
+    }
+
+    /**
+     * Check inmortant directories
+     */
+    private static function do_work_directories() {
+
+        if (!defined("TRUNK_WAY")) {
+            $trunk_d = constant("ROOT") . constant("TRUNK") . trunk_temp();
+
+            if (!is_dir($trunk_d)) {
+                if (!(bool) @readlink($trunk_d)) {
+                    mkdir($trunk_d, 0700, true);
+                }
+            }
+            define("TRUNK_WAY", $trunk_d);
+        } else {
+            $trunk_d = constant("TRUNK_WAY");
+        }
+        if (!defined("SESSI_WAY")) {
+            $sessi_d = rtrim(constant("ROOT") . constant("SSSDR"),DIRECTORY_SEPARATOR);
+
+            if (!is_dir($sessi_d)) {
+                if (!(bool) @readlink($sessi_d)) {
+                    mkdir($sessi_d, 0700, true);
+                }
+            }
+            define("SESSI_WAY", $sessi_d);
+        } else {
+            $sessi_d = constant("SESSI_WAY");
+        }
+
+        return array("trunk" => $trunk_d, "session" => $sessi_d);
+    }
+
+    /**
+     * Trunk some data for eval or serialize
+     *
+     * for  sql selected conf data
+     * configured by kernel.prop
+     * @copyright fire1
+     *
+     * @example trunkit([my functionality name],[my data],__FILE__)
+     *
+     * @param mixed $name of section
+     * @param string $put  empty / data or time
+     * @param string $FILE  __FILE__
+     * @return init and eval content data
+     */
+    protected static function trunkit($name, $put = "", $FILE = "") {
+
+        self::kernel_count_memory(__FUNCTION__);
+        // here must be changed with hash function
+        $mCrYptKey = crc32_(constant('HEX') . $name);
+        if (!self::$KERNEL_SAVEMODE) {
+            $type = $name;
+            if (empty(self::$KERNEL_PROP_MAIN['kernel.trunkExt'])) {
+                $ext = self::$KERNEL_PROP_EXTENSIONS['EXC'];
+            } else {
+                $ext = self::$KERNEL_PROP_MAIN['kernel.trunkExt'];
+            }
+            // Disable the hKey for system cache
+            //$filenameKey = self::hkey($name, basename($FILE));
+            $filenameKey = md5($name . self::$CONFIGURATION['SPR'] . self::$CONFIGURATION['KEY']);
+            $name = $filenameKey . '-{FILE_HASHE}-' . self::$KERNEL_PROP_MAIN['kernel.trunkExt'];
+            if (defined("TRUNK")) {
+                $d = self::do_work_directories();
+                $dir = $d['trunk'] . DIRECTORY_SEPARATOR;
+            }
+            // Check time or Unlink command
+            if (empty($put) OR is_numeric($put)) {
+                $unlink_this = false;
+                if (empty($put)) {
+                    $hour = self::$KERNEL_PROP_MAIN['kernel.trunkTime'];
+                } else {
+                    // If is negative unlink the file!
+                    if ($put < 0) {
+                        $unlink_this = true;
+                    } else {
+                        // Else use time limit
+                        $hour = $put;
+                    }
+                }
+                $searchStr = str_replace("{FILE_HASHE}", "*", $dir . $name);
+                $FolderFiles = glob($dir . $filenameKey . "*" . $ext);
+                if (is_array($FolderFiles) AND !empty($FolderFiles[0])) {
+                    $FolderFiles = $FolderFiles[0];
+                } else {
+                    self::ERROR('<b>CAN NOT</b> locate files for trunkit for:' . " <b>$type</b> ", 'file', $filenameKey);
+                    $FolderFiles = @$FolderFiles[0];
+                }
+                $srchrepl = explode('{FILE_HASHE}', $dir . $name);
+                $hasher1 = str_replace($srchrepl, "", $FolderFiles);
+                $hasher2 = @hash_file(self::$KERNEL_PROP_MAIN['kernel.trunkHash'], $FolderFiles); // return error
+                if ($hasher1 == $hasher2) {
+                    $file_my = $FolderFiles;
+                }
+
+                //debuger data
+                if (empty($file_my)) {
+                    self::ERROR('trunkit error: Can not load the trunk', 'file', $dir . $name);
+                }
+                // Clear trunk File!
+                if ($unlink_this === true) {
+                    self::trunk_flush();
+                }
+                if ((bool) self::$KERNEL_PROP_MAIN['kernel.emptying.trunk'] == true) {
+                    if ((bool) self::$KERNEL_REBIRTH == true && (bool) self::$CONFIGURATION['trunk.disable.cleaning'] === false) {
+                        foreach (glob(constant("ROOT") . constant("TRUNK") . "{$foldername}/*" . self::$KERNEL_PROP_MAIN['kernel.trunkExt']) as $un) {
+                            @unlink($un);
+                        }
+                    }
+                }
+                if (!file_exists($file_my) OR @filemtime($file_my) > (time() + $hour * 3600)) {
+                    @unlink($file_my);
+                    return false;
+                } else {
+                    $output = file_get_contents($file_my);
+                    $output = self::deCrypt($output, $mCrYptKey);
+                    $case = strtolower(substr($type, strrpos($type, '.') + 1));
+                    switch ($case) {
+                        case "serialize":
+                            return unserialize($output);
+                            break;
+                        case "eval":
+                            if (self::$KERNEL_PROP_MAIN['kernel.trunk64']) {
+                                $output = base64_decode($output);
+                            }
+                            eval($output);
+                            break;
+                        DEFAULT:
+                            if (self::$KERNEL_PROP_MAIN['kernel.trunk64']) {
+                                $output = base64_decode($output);
+                            }
+                            eval($output);
+                            break;
+                    }
+                    return true;
+                }
+            } else {
+                $case = strtolower(substr($type, strrpos($type, '.') + 1));
+                switch ($case) {
+                    case "serialize":
+                        $put = serialize($put);
+                        break;
+                    default:
+                        if (self::$KERNEL_PROP_MAIN['kernel.trunk64']) {
+                            $put = base64_encode($put);
+                        }
+                        break;
+                }
+                //echo $mCrYptKey;
+                if (!empty($mCrYptKey) && !empty($put)) {
+                    @file_put_contents($dir . $name, self::enCrypt($put, $mCrYptKey));
+                    $hash_file = @hash_file(self::$KERNEL_PROP_MAIN['kernel.trunkHash'], $dir . $name);
+                    $newname = str_replace('{FILE_HASHE}', $hash_file, $dir . $name);
+                    @rename($dir . $name, $newname);
+                    return false;
+                }
+            }
+            return false;
+        }
+    }
+
+    /**
+     * Clear the Dollop trunk
+     */
+    private function trunk_flush() {
+        $foldername = ROOT . TRUNK . trunk_temp();
+
+        exec("rm {$foldername}/* > /dev/null 2>/dev/null & ");
+    }
+
+    /**
+     * Handle keys for trunk data
+     *
+     * @param mixed $name
+     * @param mixed $destination
+     * @return string
+     */
+    private function hkey($name, $destination = "") {
+
+        if (!self::$KERNEL_SAVEMODE) {
+            $hex = md5($name . "+" . self::$KERNEL_PROP_MAIN['kernel.trunkKey']);
+            if (!empty($destination)) {
+                $dir = constant('HKEYS') . md5($destination);
+            } else {
+                $dir = constant('HKEYS') . $hex;
+            }
+            if (!is_dir(ROOT . $dir)) {
+                mkdir(ROOT . $dir, 0700, true);
+            }
+            $dir = $dir . DIRECTORY_SEPARATOR;
+            if (defined("HEX")) {
+                $hex = md5($hex . "-" . @constant("HEX"));
+            }
+            if (!file_exists($dir . $hex)) {
+                $new_key = md5(time() . "-" . $hex . "*" . rand(111, 999));
+                file_put_contents(ROOT . $dir . $hex, $new_key);
+                return $new_key;
+            } else {
+                $content = @file_get_contents($dir . $hex);
+                if ($content) {
+                    return $content;
+                } else {
+                    return false;
+                }
+            }
+        }
+    }
+
+    /**
+     * Cache dir for kernel
+     * configured by kernel.prop
+     * @return string with cache dir
+     */
+    private function chdr() {
+        $pathtree = explode(DIRECTORY_SEPARATOR, self::dir());
+        $dirs = count($pathtree);
+        foreach ($pathtree as $dir) {
+            $i++;
+            if ($dirs > $i AND !empty($dirs)) {
+
+            }
+        }
+        if (!defined("CACHE")) {
+            $cache = "cache";
+        } else {
+            $cache = constant("CACHE");
+        }
+        $cacheDir = $path . $cache;
+        if (!is_dir($cacheDir)) {
+            mkdir($cacheDir, 0755, true);
+        }
+        return $cacheDir . DIRECTORY_SEPARATOR;
+    }
+
+    /**
+     * Optimazi cache
+     *
+     */
+    private function opch($stat = null) {
+
+        if (self::SAVEMODE() === true)
+            return false;
+        if (!(bool) self::$KERNEL_PROP_MAIN['kernel.opty'])
+            return false;
+        //
+        // Folders for optymize
+        $folders = self::do_work_directories();
+        $trnk = $folders['trunk'];
+        $sssn = $folders['session'];
+        switch ($stat) {
+            default:
+                if (is_readable(self::$KERNEL_PROP_MAIN['kernel.opty.cache']) && is_writable(self::$KERNEL_PROP_MAIN['kernel.opty.cache'])) {
+
+                    if (!(bool) @readlink($trnk) || !(bool) @readlink($sssn)) {
+                        if (is_dir($trnk) OR is_dir($sssn)) {
+                            if (is_dir($trnk)) {
+                                @self::rrmdir($trnk . DIRECTORY_SEPARATOR);
+                            }
+                            if (is_dir($sssn)) {
+                                @self::rrmdir($sssn . DIRECTORY_SEPARATOR);
+                            }
+                            //
+                            // Build a trunk link
+                            if (!(bool) @readlink($trnk)) {
+                                @mkdir(self::$KERNEL_PROP_MAIN['kernel.opty.cache'] . DIRECTORY_SEPARATOR . "trunk-" . crc32_(HOST));
+                                symlink(self::$KERNEL_PROP_MAIN['kernel.opty.cache'] . DIRECTORY_SEPARATOR . "trunk-" . crc32_(HOST), $trnk . "");
+                            }
+                            //
+                            // Build a session link
+                            if (!(bool) @readlink($sssn)) {
+                                @mkdir(self::$KERNEL_PROP_MAIN['kernel.opty.cache'] . DIRECTORY_SEPARATOR . "session-" . crc32_(HOST));
+                                symlink(self::$KERNEL_PROP_MAIN['kernel.opty.cache'] . DIRECTORY_SEPARATOR . "session-" . crc32_(HOST), $sssn);
+                            }
+                            return true;
+                        }
+                    }
+                }
+                break;
+
+            case "clear":
+                if (is_link($trnk) || is_link($sssn)) {
+                    @unlink($trnk);
+                    @unlink($sssn);
+                }
+                break;
+        }
+    }
+
+    /**
+     * Recursively remove a directory
+     *
+     * @param string $dir
+     *
+     */
+    private function rrmdir($dir) {
+        foreach (glob($dir . '/*') as $file) {
+            if (is_dir($file))
+                rrmdir($file);
+            else
+                unlink($file);
+        }
+        rmdir($dir);
+    }
+
+    /**
+     * Read compressed files
+     *
+     * Read .gzp files and returns data uncompressed
+     * @param mixed $d directory
+     * @param mixed $f file name
+     * @return string
+     */
+    private function rgzp($d, $f) {
+        $file = $d . ".$f.gzp";
+        if (file_exists($file) and $fd = @fopen($file, 'r', true)) {
+            if ($buf = fread($fd, filesize($file))) {
+                return gzuncompress($buf);
+            } else {
+                return false;
+            }
+        } else
+            return false;
+    }
+
+    /**
+     * Write compressed files
+     *
+     * Write .gzp files and compress data
+     * @param mixed $d directory
+     * @param mixed $f file name
+     * @param mixed $i compress level
+     */
+    private function wgzp($d, $f, $i = 9) {
+        if (empty($d) OR empty($f) OR empty($i))
+            return false;;
+        $tempnam = tmpfile();
+        $fd = fopen($tempnam, 'w');
+        $param = array('blocks' => 9, 'work' => 0);
+        $filterArray = array("\n", "\t", "\r", "\0", "\x0B");
+        fwrite($fd, gzcompress(str_replace($filterArray, "", $insurt), $i));
+        fclose($fd);
+        rename($tempnam, $d . ".$f.gzp");
+        chmod($d . ".$f.gzp", 0600);
+    }
+
+    /**
+     * URL query lock id
+     *
+     * Lock query "id" string to be numericl
+     */
+    private function id_is_numericl() {
+        if (!empty($_GET['id'])) {
+            If (!is_numeric($_GET['id']) && $_GET['id'] <= 0) {
+                @mysql_close();
+                exit("<h1>Access denied to fire1 dollop:</h1> <h2> ERROR in URL address. <br>
+
+                        Report: " . link_report('807', $fire1_) . " </h2> <hr>Please set specify only the address of website. <!-- Error in \"URL\" address! -->");
+            }
+        }
+    }
+
+    /**
+     * Setup security type
+     *
+     * This function set security level of system.
+     * configured by kernel.prop
+     */
+    private function SetSecurityType() {
+
+        switch (self::$KERNEL_PROP_MAIN['SetSecurityType']) {
+            case '0':
+                break;
+            case 'advanced':
+                exit("inside advanced Security!!!!");
+                require_once (self::lib() . 'adv.security.class.php');
+                break;
+            case 'another':
+                require_once (self::$KERNEL_PROP_MAIN['AnotherSecurity']);
+                break;
+            default:
+                require_once (self::lib() . "def.security.class.php");
+                break;
+        }
+    }
+
+    /**
+     * Proxy Allow
+     *
+     * Block or Allow proxy users
+     * configured by kernel.prop
+     */
+    private function ProxyAllow() {
+        if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) || ($_SERVER['HTTP_USER_AGENT'] == '') || (@$_SERVER['HTTP_VIA'] != '')) {
+            @mysql_close();
+            exit("<h1>Access denied to fire1 dollop: </h1> <h2> ERROR report: " . link_report('809', $fire1_) . " </h2><hr> Website is locked for proxy users.<!-- Website is locked for proxy -->");
+        }
+    }
+
+    /**
+     * Register globals
+     *
+     * disable or enable it
+     * configured by kernel.prop
+     */
+    private function RegisterGlobals() {
+
+        if (self::$KERNEL_PROP_MAIN['RegisterGlobals']) {
+            while (list($global) = each($GLOBALS)) {
+                if (!preg_match('/^(_POST|_GET|_COOKIE|_SERVER|_FILES|GLOBALS|HTTP.*|_REQUEST|retrieve_prefs|eplug_admin|eTimingStart)|oblev_.*$/', $global)) {
+
+                }
+            }
+            if (self::$KERNEL_PROP_MAIN['UnsetRegisterGlobals']) {
+                unset($global);
+            }
+        }
+    }
+
+    /**
+     *  HTTPS Secure URL
+     *
+     * Check for valid https:// and will redirects to it
+     * configured by kernel.prop
+     */
+    private function HTTPSecure() {
+        $HTTPS = $_SERVER['HTTPS'];
+        $REQUEST_URI = $_SERVER['REQUEST_URI'];
+        if (!isset($HTTPS)) {
+            $str_fileRequest = $REQUEST_URI;
+            $parseUrl = parse_url(trim($Address));
+            $hosted_site = trim($parseUrl['host'] ? $parseUrl['host'] : array_shift(explode('/', $parseUrl['path'], 2)));
+            $str_ReLocation = 'https://' . $hosted_site . '/';
+            header_location($str_ReLocation);
+        }
+    }
+
+    /**
+     * Starting session in kernel
+     *
+     */
+    public function dollop_session_start() {
+
+        if (!(bool) self::$KERNEL_PROP_MAIN['kernel.session.start'])
+            return false;;
+        if (!isset($_SESSION)) {
+            session_start();
+            if (!isset($_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckUA']]) || !isset($_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckIP']]))
+                $_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckUA']] = $_SERVER['HTTP_USER_AGENT'];
+            $_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckIP']] = $_SERVER['REMOTE_ADDR'];
+        }
+    }
+
+    /**
+     * Check Up sessions for injected ID
+     * @package kernel
+     */
+    private function protect_session() {
+
+        if (!(bool) self::$KERNEL_PROP_MAIN['kernel.session.check'])
+            return false;;
+        if ($_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckUA']] != $_SERVER['HTTP_USER_AGENT'] || $_SESSION[self::$KERNEL_PROP_MAIN['kernel.session.strCheckIP']] != $_SERVER['REMOTE_ADDR']) {
+            kernel::ERROR('Session protection warning!', 'php', "Protection for session give back warning!");
+            @define("WEBSITE_RESPONSES", 205);
+            theme::content(dp_show_responses(constant("WEBSITE_RESPONSES"), "Session protection give back unexpected session values!"));
+            return false;
+        }
+    }
+
+    /**
+     * Detect mobile device
+     *
+     * If user use mobile device for browsing the website, the system will use mobile design.
+     * configured by kernel.prop
+     */
+    protected function MobileDevice() {
+        // glueCode
+        // self::glueCode(__FUNCTION__);
+
+        if (file_exists(self::lib() . self::$KERNEL_PROP_MAIN['MobileScript']) && self::$KERNEL_PROP_MAIN['MobileDevice']) {
+            require_once (self::lib() . self::$KERNEL_PROP_MAIN['MobileScript']);
+            $detect = new Mobile_Detect();
+            if ($detect->isMobile()) {
+                define('MOBILE_DEVICE', true);
+                return true;
+            }
+        }
+    }
+
+    /**
+     * Create users constant in kernel
+     *
+     */
+    public function users_const_data() {
+
+        $etc_folder = self::$KERNEL_PROP_MAIN['dollop.etc'];
+        $constants_folder = self::$KERNEL_PROP_MAIN['kernel.users.depend.folder'];
+        $constants_file = self::$KERNEL_PROP_MAIN['kernel.users.depend.constants'];
+        $prop = ROOT . SRCDR . $etc_folder . DIRECTORY_SEPARATOR . $constants_folder . DIRECTORY_SEPARATOR . $constants_file;
+        if (!file_exists($prop)) {
+            self::ERROR('ERROR ETC data for users constants do not exists', 'php', "Function: kernel::users_const_data\n File:{$prop}\n Line:" . __LINE__);
+            return false;
+            ;
+        }
+        $const = self::loadprop($prop, 1);
+        eval('$prefix = constant("PREFIX");');
+        foreach ($const as $key => $value) {
+            $const_key = strtoupper(str_replace(".", "_", $key));
+            if (!defined($const_key)) {
+                define($const_key, str_replace("{PREFIX}", $prefix, $value));
+            }
+        }
+    }
+
+    /**
+     * Fix sessions on seme servers
+     *
+     */
+    public function session_fix() {
+        global $CONFIGURATION;
+        // check session is active
+        if (empty($_COOKIE[$CONFIGURATION['COOKIE_SESSION']]) && isset($_COOKIE[ini_get('session.name')])) {
+            setcookie(ini_get('session.name'), "", 0, DIRECTORY_SEPARATOR);
+            // refresh
+            header_location(null, true);
+            return false;
+        } elseIf (!is_array($HTTP_COOKIE_VARS) && empty($_COOKIE[$CONFIGURATION['COOKIE_SESSION']]))
+            self::SESSION_SET('', '');
+        if (!defined("COOKIE_SESSION")) {
+            define("COOKIE_SESSION", $_COOKIE[$CONFIGURATION['COOKIE_SESSION']]);
+        }
+    }
+
+    /**
+     * Hash some values to create session from username
+     *
+     * @param mixed $username
+     * @return string
+     */
+    protected function username_session($username) {
+        return md5(md5(HEX) . ' \/ ' . $arr_sess['name']);
+    }
+
+    /**
+     * This function create users sessions and remember the user data for the maximum
+     * cookie time  of 30 days, by default set-up on all  public servers.
+     *
+     * The prop string in kernel prop ’session.gc_maxlifetime’ can give more time to cookies.
+     * @package kernel/users
+     * @todo more time for storing users data
+     */
+    private function users_session() {
+
+        // Fill  config to short varibles
+        $basic_key = self::$KERNEL_PROP_MAIN['kernel.users.session.remember'];
+        $uname_key = self::$KERNEL_PROP_MAIN['kernel.users.session.username'];
+        $upass_key = self::$KERNEL_PROP_MAIN['kernel.users.session.password'];
+        $cookieKey = self::$KERNEL_PROP_MAIN['kernel.users.session.cookie'];
+        $remain_tm = self::$KERNEL_PROP_MAIN['kernel.users.session.onremains'];
+        $parsUrlHost = parse_url(constant("HOST"), PHP_URL_HOST);
+        // Cookie for check and start redeclare dollop session
+        $cookie_user_id = constant("USERS_COOKIE_UID");
+        // Get the current Session Timeout Value
+        $currentTimeoutInSecs = ini_get('session.gc_maxlifetime');
+        // Set max time for cookie
+        $sessionCookieExpireTime = self::$KERNEL_PROP_MAIN['CookieTime'];
+        // Check if session is started
+        if (isset($_COOKIE[ini_get('session.name')]) && empty($_SESSION[$uname_key])) {
+            if (!(bool) session_id()) {
+                session_start();
+            }
+            if (isset($_SESSION[$basic_key])) {
+                $sessionCookieExpireTime = self::$KERNEL_PROP_MAIN['MaxCookieTime'];
+                self::$KERNEL_PROP_MAIN['CookieTime'] = self::$KERNEL_PROP_MAIN['MaxCookieTime'];
+            }
+            if (isset($_SESSION[$basic_key]) && !isset($_COOKIE[$cookieKey])) {
+                // Set dollop cookie to resolve time
+                setcookie($cookieKey, time() + $sessionCookieExpireTime, time() + $sessionCookieExpireTime, DIRECTORY_SEPARATOR, $parsUrlHost, check_secure_http('https'), check_secure_http('http'));
+                @session_set_cookie_params($sessionCookieExpireTime);
+                setcookie(ini_get('session.name'), $_COOKIE[ini_get('session.name')], time() + $sessionCookieExpireTime, DIRECTORY_SEPARATOR, $parsUrlHost, check_secure_http('https'), check_secure_http('http'));
+                //rebiuld dollop cookie
+                setcookie(self::CONFIGURATION('COOKIE_SESSION'), $_COOKIE[self::CONFIGURATION('COOKIE_SESSION')], time() + $sessionCookieExpireTime, "/", $parsUrlHost, check_secure_http('https'), check_secure_http('http'));
+                // Re declare session varibles
+                $_SESSION[$basic_key] = true;
+                $_SESSION[$uname_key] = $_SESSION[$uname_key];
+                $user_data = self::SESSION(self::username_session($_SESSION[$uname_key]));
+                $_SESSION['checked'] = "checked=\"checked\" ";
+            } elseIf (isset($_COOKIE[$cookieKey])) {
+                // Check for rebuild
+                $remains = time() - $_COOKIE[$cookieKey];
+                if ($remains < $remain_tm) {
+                    setcookie($cookieKey, time() + $sessionCookieExpireTime, time() + $sessionCookieExpireTime, DIRECTORY_SEPARATOR, $parsUrlHost, check_secure_http('https'), check_secure_http('http'));
+                    setcookie(ini_get('session.name'), $_COOKIE[ini_get('session.name')], time() + $sessionCookieExpireTime, DIRECTORY_SEPARATOR, $parsUrlHost, check_secure_http('https'), check_secure_http('http'));
+                }
+            }
+            if (!$_COOKIE[$cookie_user_id] && !empty($_SESSION[$uname_key])) {
+                return array("user" => $_SESSION[$uname_key], "pass" => $user_data['pass']);
+            } else
+                return false;;
+        }
+    }
+
+    /**
+     * This function is main setup of Dollop user cookies and protection of cookies.
+     * Also in this function execute function for users sessions.
+     * It is higly recommended to let this function to create user cookies data.
+     *
+     * In the case "$case" string have value to "set" will require data value
+     * for username or user email. Sub string "$reload" gives opportunity
+     * for reloading page in same request.
+     *
+     * In case of empty execution of values in this function will be executed process
+     *  for attestation of all user data in cookies.
+     *
+     *
+     * @package kernel/users
+     * @param mixed $case        // DEFAULT to check it or add
+     * @param mixed $user_name   // user name or email
+     */
+    public function ctrl_cookie($case = null, $user_name = null, $reload = false) {
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        kernel::protect_session();
+
+        $basic_key = self::$KERNEL_PROP_MAIN['kernel.users.session.remember'];
+        $privilege_file = self::$KERNEL_PROP_MAIN['kernel.users.depend.privilege'];
+        $constants_folder = self::$KERNEL_PROP_MAIN['kernel.users.depend.folder'];
+        $etc_folder = self::$KERNEL_PROP_MAIN['dollop.etc'];
+        // Get hex
+        $hex = constant("HEX");
+        /// sQL
+        $sql_user_table = constant("USERS_SQLTBL_MAIN");
+        $sql_user_table_row_uid = constant("USERS_SQLTBL_COL_UID");
+        $sql_user_table_row_uname = constant("USERS_SQLTBL_COL_UNAME");
+        $sql_user_table_row_upass = constant("USERS_SQLTBL_COL_UPASS");
+        $sql_user_table_row_umail = constant("USERS_SQLTBL_COL_UMAIL");
+        $sql_user_table_row_upriv = constant("USERS_SQLTBL_COL_UPRIV");
+        /// COOKIE
+        $cookie_user_name = constant("USERS_COOKIE_UNAME");
+        $cookie_user_id = constant("USERS_COOKIE_UID");
+        $cookie_user_ses = constant("USERS_COOKIE_USESS");
+        $conf = self::CONFIGURATION();
+        if (!is_array($conf)) {
+            self::ERROR("[!] Cannot extraction website configuration! ", "php", "error is in 'kernel::cpanel_cookie' function! \n Line:" . __LINE__);
+        }
+        $mktime = sprintf("%u", crc32('@' . time()));
+        ////////////////////////////////////////////////////////////////
+        // After session is checked and it is set-up to remember    ////
+        // re-declare the dollop file session                       ////
+        if (!$user_name && ($user_sesd = self::users_session())) { ////
+            $case = 'set';
+            $reload = true; ////
+            $user_name = addslashes($user_sesd['user']); ////
+            $sql_password = addslashes($user_sesd['pass']); ////
+            $sql_addrelogin = ////
+                    " AND `{$sql_user_table_row_upass}`='{$sql_password}' "; ////
+        } ////
+        ////////////////////////////////////////////////////////////////
+        // START SWITHING THE CLASS METHOD
+        switch ($case) {
+            // set data to cookie
+
+            case "set":
+                //
+                // Check For session
+                if (!(bool) session_id()) {
+                    session_start();
+                }
+                //
+                // View to remember user...
+                if (defined(strtoupper($basic_key)) OR ($_SESSION[$basic_key] === true)) {
+                    $CkTime = self::$KERNEL_PROP_MAIN['MaxCookieTime'];
+                } else {
+                    $CkTime = self::$KERNEL_PROP_MAIN['CookieTime'];
+                }
+                //
+                // SQL Query
+                $sql = "SELECT
+                    `$sql_user_table_row_uid`,
+                    `$sql_user_table_row_uname`,
+                    `$sql_user_table_row_upass`,
+                    `$sql_user_table_row_umail`,
+                    `$sql_user_table_row_upriv`
+                    FROM `$sql_user_table`
+                    WHERE  `$sql_user_table_row_uname`='$user_name' {$sql_addrelogin} OR
+                    `$sql_user_table_row_umail`='$user_name' {$sql_addrelogin} LIMIT 1; ";
+                global $db;
+                $sql_request = mysql_query($sql, $db) or die(mysql_error());
+                if ($row = mysql_fetch_array($sql_request)) {
+                    $data = $row[$sql_user_table_row_uname] . $hex . $mktime . $conf['KEY'] . $row[$sql_user_table_row_uid] . $_COOKIE[$conf['COOKIE_SESSION']];
+                    $unic_value = md5($data) . $conf['SPR'] . $mktime;
+                    // set cookie
+                    setcookie($cookie_user_name, $row[$sql_user_table_row_uname], time() + $CkTime, DIRECTORY_SEPARATOR, parse_url(constant("HOST"), PHP_URL_HOST), check_secure_http('https'), check_secure_http('http'));
+                    setcookie($cookie_user_id, $row[$sql_user_table_row_uid], time() + $CkTime, DIRECTORY_SEPARATOR, parse_url(constant("HOST"), PHP_URL_HOST), check_secure_http('https'), check_secure_http('http'));
+                    setcookie($cookie_user_ses, $unic_value, time() + $CkTime, "/", parse_url(constant("HOST"), PHP_URL_HOST), check_secure_http('https'), check_secure_http('http'));
+                    $arr_sess['name'] = $row[$sql_user_table_row_uname];
+                    $arr_sess['pass'] = $row[$sql_user_table_row_upass];
+                    $arr_sess['idin'] = $row[$sql_user_table_row_uid];
+                    $arr_sess['priv'] = $row[$sql_user_table_row_upriv];
+                    $arr_sess['sess'] = $unic_value;
+                    // set file session
+                    self::SESSION_SET(self::username_session($arr_sess['name']), $arr_sess);
+                }
+
+                self::$KERNEL_REBIRTH = true;
+                if ($reload) {
+                    header_location();
+                }
+                break;
+            DEFAULT:
+                global $CONFIGURATION;
+                //
+                // To cill cookie must use max cookie time
+                $CkTime = self::$KERNEL_PROP_MAIN['MaxCookieTime'];
+                If (!$_COOKIE[$cookie_user_name] AND !$_COOKIE[$cookie_user_id] AND !$_COOKIE[$cookie_user_ses])
+                    return false;;
+                // stoping use of website cache
+                // get time from cookie
+                $catch_time = explode($conf['SPR'], str_replace("--", "-", $_COOKIE[$cookie_user_ses]));
+                $mktime = $catch_time[1];
+                // get data from trunk
+                $arr_sess = self::SESSION(self::username_session($_COOKIE[$cookie_user_name]));
+                $data = $arr_sess['name'] . HEX . $mktime . $conf['KEY'] . $arr_sess['idin'] . $_COOKIE[$conf['COOKIE_SESSION']];
+                $unic_value = md5($data) . $conf['SPR'] . $mktime;
+                $unic_value = str_replace("--", "-", $unic_value);
+                $cookie_uname = $_COOKIE[$cookie_user_name];
+                $cookie_uidin = $_COOKIE[$cookie_user_id];
+                $cookie_usess = $_COOKIE[$cookie_user_ses];
+                $dollopCookie = $CONFIGURATION['COOKIE_SESSION'];
+                if ($cookie_uname != $arr_sess['name'] || $cookie_uidin != $arr_sess['idin'] || $cookie_usess != $arr_sess['sess'] || $unic_value != $cookie_usess) {
+                    // delete cookie
+                    unset_all_cookies(null);
+                    // delete session
+                    self::SESSION_CILL(self::username_session($row[$sql_user_table_row_uname]));
+                    header_location();
+                    return false;
+                    ;
+                } else {
+                    $privilege = self::loadprop(ROOT . SRCDR . $etc_folder . DIRECTORY_SEPARATOR . $constants_folder . DIRECTORY_SEPARATOR . $privilege_file, 1);
+                    global $USERS_PRIVILEGE;
+                    $USERS_PRIVILEGE = $privilege;
+                    define("USER_PRIV", $arr_sess['priv']);
+                    define("USER_PRIV_NAME", $privilege['users.privilege'][$arr_sess['priv']]);
+                    define("USER_NAME", $arr_sess['name']);
+                    define("USER_IDIN", $arr_sess['idin']);
+                    define("USER_ID", $arr_sess['idin']);
+                    if ($privilege['users.cpanel'] <= $arr_sess['priv']) {
+                        // manager
+                        define("CPANEL", md5($privilege['users.privilege'] . "!" . constant("USER_NAME") . $_COOKIE[$conf['COOKIE_SESSION']] . $conf['KEY']));
+                        define("CPANEL_MANAGER", $privilege['users.privilege'][$arr_sess['priv']]);
+                        define("MANAGER_FLDR", self::$KERNEL_PROP_MAIN['dp.manager.folder']);
+                    }
+                    return true;
+                    ;
+                }
+                break;
+            // END SWITHING THE CLASS METHOD
+        }
+        if (!defined("USER_PRIV")) {
+            define("USER_PRIV", "0");
+        }
+    }
+
+    /**
+     * shows cpanel
+     *
+     * [This function use obj $cpane]
+     */
+    public function manager_out() {
+        global $cpanel;
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        // refresh after rebirth
+        if (self::$KERNEL_REBIRTH) {
+            // closed to fix
+            //header_location(null,true);
+        }
+        if (defined("MOBILE_DEVICE"))
+            return false;
+        if (defined("CPANEL")) {
+            $cpanel->output();
+        }
+    }
+
+    /**
+     * function that loads cpanel classes.
+     * Classes setup can be controlled from the kernel prop.
+     * It is required cpanel classes to be compatible with kernel
+     * and other basic functionality of Dollop.
+     *
+     * Activation and deactivation of cpanel can be controlled from prop data.
+     *  It is strongly recommended this option to be used only
+     * of strongly arisen process problem of website.
+     *
+     * @package kernel.cpanel
+     */
+    private function cpanel() {
+
+        switch (strtolower(self::$KERNEL_PROP_MAIN['dp.cpanel'])) {
+            case '0':
+                return false;
+                break;
+            case '1':
+                if (defined("MOBILE_DEVICE"))
+                    return false;
+                self::classload(self::$KERNEL_PROP_MAIN['dp.cpanel.default']);
+                break;
+            case '2':
+                if (defined("MOBILE_DEVICE"))
+                    return false;
+                self::classload(self::$KERNEL_PROP_MAIN['dp.cpanel.default']);
+                break;
+            DEFAULT:
+                if (defined("MOBILE_DEVICE"))
+                    return false;
+                if (defined("CPANEL")) { ////////////////////////////////////////////////// NOT READY
+                    self::classload(self::$KERNEL_PROP_MAIN['dp.cpanel']);
+                }
+                break;
+        }
+    }
+
+    /**
+     * Execute Cpanel
+     * This function runs given class from function cpanel and
+     * fill data errors for showing in bar.
+     *
+     * @package kernel.cpanel
+     * @param mixed $error - content of errors
+     */
+    public function cpanel_execute() {
+        if (defined("MOBILE_DEVICE"))
+            return false;
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        global $cpanel;
+        self::kernel_count_memory(__FUNCTION__);
+        switch (self::$KERNEL_PROP_MAIN['dp.cpanel']) {
+            case "1":
+                self::cpanel();
+                if (class_exists(self::$KERNEL_PROP_MAIN['dp.cpanel.default'])) {
+                    $cpanel = new self::$KERNEL_PROP_MAIN['dp.cpanel.default'];
+                    $cpanel->errors(self::ERROR('', 'output'));
+                }
+                break;
+            case "2":
+                if (defined("CPANEL")) {
+                    self::kernel_status_mode('KERNEL_REBIRTH', 1);
+                    self::cpanel();
+                    if (class_exists(self::$KERNEL_PROP_MAIN['dp.cpanel.default'])) {
+                        $cpanel = new self::$KERNEL_PROP_MAIN['dp.cpanel.default'];
+                        $cpanel->errors(self::ERROR('', 'output'));
+                    }
+                } else {
+
+                }
+                break;
+            DEFAULT:
+                if (defined("CPANEL")) {
+                    self::cpanel();
+                    if (class_exists(self::$KERNEL_PROP_MAIN['dp.cpanel'])) {
+                        $cpanel = new self::$KERNEL_PROP_MAIN['dp.cpanel'];
+                        $cpanel->errors(self::ERROR('', 'output'));
+                    }
+                } else {
+
+                }
+                break;
+        }
+    }
+
+    /**
+     * Quick tag replace
+     *
+     * @param mixed $tags
+     * @param mixed $content
+     * @param mixed $template
+     */
+    private function template_exec($tags, $content, $template) {
+        return str_replace($tags, $content, file_get_contents($template));
+    }
+
+    /**
+     * Show messages from lan.prop sector repo.*
+     *
+     * @param mixed $repoName1   // title
+     * @param mixed $repoName2   //body
+     */
+    public function show_report($repoName1, $repoName2) {
+        global $language;
+        if (empty($language)) {
+            kernel::language();
+            ;
+        }
+        $tags[0] = "{TITLE_REPORT}";
+        $values[0] = $language['repo.' . $repoName1];
+        $tags[1] = "{BODY_REPORT}";
+        $values[1] = $language['repo.' . $repoName2];
+        echo kernel::template_exec($tags, $values, kernel::base_tag_folder_filter(self::$KERNEL_PROP_MAIN['kernel.repo.html']));
+        exit();
+    }
+
+    /**
+     * This function control status modes, save mode and rebirth.
+     * On status save mode for kernel, kernel uses basic
+     * functionality own class variables.
+     * On status rebirth mode for kernel, kernel rebiuld all
+     * caches and erases all old trunk data.
+     *
+     *
+     * @package kernel
+     * @todo strong rebirth
+     *
+     * @param mixed $key
+     * @param bool $status
+     * @return mixed
+     */
+    protected function kernel_status_mode($key = null, $status = 0) {
+        global $kernel_status_mode;
+        $unic = $_COOKIE[ini_get('session.name')] . $_COOKIE[self::CONFIGURATION('COOKIE_SESSION')];
+        $session = self::SESSION('kernel_status_mode_' . $unic);
+        if (!$key || !!$status) {
+            if ($session) {
+                self::$KERNEL_REBIRTH = $session['KERNEL_REBIRTH'];
+                self::$KERNEL_SAVEMODE = $session['KERNEL_SAVEMODE'];
+            }
+        }
+        If (!empty($key) && !!$status && !empty($session[$key])) {
+            return $session[$key];
+        }
+        If (!empty($key) && $status && ($session[$key] != $status)) {
+            $session['KERNEL_REBIRTH'] = self::$KERNEL_REBIRTH;
+            $session['KERNEL_SAVEMODE'] = self::$KERNEL_SAVEMODE;
+            $session[$key] = $status;
+            self::$KERNEL_REBIRTH = $session['KERNEL_REBIRTH'];
+            self::$KERNEL_SAVEMODE = $session['KERNEL_SAVEMODE'];
+            self::SESSION_SET('kernel_status_mode_' . $unic, $session);
+        }
+        $GLOBALS['kernel_status_mode'] = 'kernel::kernel_status_mode';
+    }
+
+    /**
+     * This function holds basic website data:
+     *  encryption keys, folders information for system and owner of website.
+     *
+     * @package kernel
+     *
+     * @copyright fire1
+     * @param mixed $KEY of configuration
+     * @return all configuration
+     */
+    public function CONFIGURATION($KEY = "") {
+        kernel::loadprop();
+        global $KERNEL_CONFIGURATION, $CONFIGURATION;
+        self::kernel_count_memory(__FUNCTION__);
+        if (defined('HEX')) {
+            if (!is_array($CONFIGURATION)) {
+                $ext = self::$KERNEL_PROP_DATA['MAIN']['kernel.trunkExt'];
+                $src = file_get_contents(@constant('TRUNK') . md5(@constant('HEX')) . $ext);
+                $denc = self::deCrypt($src, crc32(constant('HEX')));
+                self::$CONFIGURATION = unserialize($denc);
+                $GLOBALS['CONFIGURATION'] = self::$CONFIGURATION;
+                foreach (self::$CONFIGURATION as $key => $value) {
+                    $constant_name = str_replace(".", "_", $key);
+                    if (is_scalar($value)) {
+                        define(strtoupper($constant_name), $value);
+                    }
+                }
+            } else {
+                self::$CONFIGURATION = $CONFIGURATION;
+            }
+            if (empty($KEY)) {
+                return self::$CONFIGURATION;
+            } else {
+                if (empty(self::$CONFIGURATION[$KEY])) {
+                    return false;
+                    ;
+                } else {
+                    return self::$CONFIGURATION[$KEY];
+                    ;
+                }
+            }
+        } else {
+            if (!is_array(self::$CONFIGURATION)) {
+                self::$CONFIGURATION = parse_ini_file(self::$KERNEL_PROP_DATA['MAIN']['dp.boot']);
+                $this->BOOT = true;
+                if (self::SESSION('installation_dollop') == false) {
+                    self::SESSION_SET('installation_dollop', true);
+                }
+                self::dollop_installation();
+            }
+            if (empty(self::$CONFIGURATION[$KEY])) {
+                return false;
+                ;
+            } else {
+                return self::$CONFIGURATION[$KEY];
+                ;
+            }
+        }
+    }
+
+    /**
+     * SAVEMODE light
+     *  This function controls light regimen of the system save mode.
+     *  For switching to the light regimen "save mode" give value to function "true"
+     *
+     * @package kernel
+     *
+     * @copyright fire1
+     * @param mixed $IS false / true
+     * @return mode
+     */
+    public static function SAVEMODE($IS = "") {
+
+        if (self::$KERNEL_SAVEMODE == false AND $IS == true) {
+            self::$KERNEL_SAVEMODE = true;
+        }
+        return self::$KERNEL_SAVEMODE;
+    }
+
+    /**
+     * System ERRORs
+     *
+     * This function creates monitoring of the main functionality in Dollop
+     *
+     * @uses kernel / theme
+     *
+     * @copyright fire1
+     *
+     * @example kernel::ERROR('O no... error','php','in line 123 my.php file');
+     *
+     * @param string $error description
+     * @param string $case conf,file,sql,php,dbug
+     * @param string $moreInfo is for more information that can help
+     */
+    public function ERROR($error, $case = "", $moreInfo = '') {
+        // debug_backtrace(); to check all function
+        global $ERRORS;
+        $arr_ERRORS = "";
+        if (!empty($moreInfo)) {
+            $more = '[<span title="[More Info:' . $moreInfo . ']" > <u>more</u> </span>]<br /> ';
+        }
+        switch ($case) {
+            case "php":
+                $arr_ERRORS['php'][] = $error . $more;
+                break;
+            case "sql":
+                $arr_ERRORS['sql'][] = $error . $more;
+                if (self::$KERNEL_PROP_MAIN['sqlStopError']) {
+                    @mysql_close($db);
+                    exit($error . $more);
+                }
+                break;
+            case "file":
+                $arr_ERRORS['file'][] = $error . $more;
+                break;
+            case "conf":
+                $this->ERRORS['conf'][] = $error . $more;
+                break;
+            case 'dbug':
+                $arr_ERRORS['dbug'][] = $error . $more;
+                break;
+            DEFAULT:
+                $arr_ERRORS['other'][] = $error . $more;
+                break;
+            case 'output':
+                $err = $GLOBALS['ERRORS'];
+                if (!is_array($err)) {
+                    $errorend = '';
+                } else {
+                    $errorsend = $ERRORS;
+                    /* fore to open system errors uncomment "print_r" */
+                    //print_r($errorsend);
+                    $b = 0;
+                    $errorend = "<div style=''>";
+                    foreach ($errorsend as $myError) {
+                        foreach ($myError as $key => $err) {
+                            if (!empty($err)) {
+                                $err = str_replace("[!]", "<img src='" . HOST . "design/cpanel/icons/attention.png' alt='!' border='0' >", $err);
+                                $errorend.= "<div style='padding:5px;margin:2px;'><b>{$key}</b>: {$err[0]} </div>";
+                            }
+                        }
+                        $b++;
+                    }
+                    $errorend.= "</div>";
+                }
+                return array('content' => $errorend, 'array' => $b);
+                break;
+        }
+        if (is_array($arr_ERRORS)) {
+            $ERRORS[] = $arr_ERRORS;
+        }
+    }
+
+    /**
+     * Set Session
+     * This function create system protected session
+     *
+     * @package kernel.sessions
+     *
+     * @copyright fire1
+     * @param string $name of session
+     * @param string $value of session
+     * @param string $time of session (time() + $time)
+     *
+     */
+    public function SESSION_SET($name, $value, $time = false) {
+        global $CONFIGURATION;
+        //
+        // Fix installation Issues
+        // When installing the dollop form using kernel class like real class
+        // in other cases kernel class are only pack with function
+        if (empty($CONFIGURATION)) {
+            $GLOBALS['CONFIGURATION'] = self::$CONFIGURATION;
+        }
+        $mktime = round(time() * rand(1, 9), -3);
+        $key = sha1($CONFIGURATION['HEX'] . '"' . $CONFIGURATION['COOKIE_SESSION'] . "'})" . $mktime) . $CONFIGURATION['SPR'] . $mktime;
+        if (!$_COOKIE[$CONFIGURATION['COOKIE_SESSION']]) {
+            if (empty(self::$KERNEL_PROP_MAIN['CookieTime'])) {
+                self::$KERNEL_PROP_MAIN['CookieTime'] = 7200;
+            }
+            setcookie($CONFIGURATION['COOKIE_SESSION'], $key, time() + self::$KERNEL_PROP_MAIN['CookieTime'], DIRECTORY_SEPARATOR, parse_url(constant("HOST"), PHP_URL_HOST), check_secure_http('https'), check_secure_http('http'));
+            self::exec_after_mysqlConnect('add', 'header_location();');
+        } else {
+            $key_parts = explode($CONFIGURATION['SPR'], $_COOKIE[$CONFIGURATION['COOKIE_SESSION']]);
+            $key = sha1($CONFIGURATION['HEX'] . '"' . $CONFIGURATION['COOKIE_SESSION'] . "'})" . end($key_parts)) . $CONFIGURATION['SPR'] . end($key_parts);
+        }
+        $file = ROOT . $CONFIGURATION['session_dir'] . DIRECTORY_SEPARATOR . strtoupper($name) . $CONFIGURATION['SPR'] . sha1($key . $name);
+        if (!is_dir($CONFIGURATION['session_dir'])) {
+            if (!(bool) is_link($CONFIGURATION['session_dir']) && self::SAVEMODE() !== true) {
+
+                mkdir(ROOT . $CONFIGURATION['session_dir'], 0700, true);
+            }
+        }
+        $svalue = serialize($value);
+        // here must reate change of hash mode in mcrypt
+        $evalue = self::enCrypt($svalue, crc32($CONFIGURATION['HEX'] . $name));
+        if (file_put_contents($file, $evalue, LOCK_EX) !== FALSE) {
+            //
+            // Set-up the explire time
+            if ((bool) $time) {
+                //
+                // This is the touch time, we'll set it with $time string.
+                $time = time() + (int) $time;
+                if (!@touch($file, $time)) {
+                    return true;
+                }
+            }
+            return true;
+        } else if (self::SAVEMODE() !== true) {
+            //
+            // If dollop read/write in
+            self::opch("clear");
+        }
+    }
+
+    /**
+     *  Session value
+     * This function returns the already existing session value.
+     *
+     * @package kernel.sessions
+     *
+     * @copyright fire1
+     * @param string $name  of session
+     * @return string value or false
+     */
+    public function SESSION($name) {
+        global $KERNEL_CONFIGURATION;
+        self::kernel_count_memory(__FUNCTION__);
+        $key_parts = explode(self::$CONFIGURATION['SPR'], $_COOKIE[self::$CONFIGURATION['COOKIE_SESSION']]);
+        $key = sha1(self::$CONFIGURATION['HEX'] . '"' . self::$CONFIGURATION['COOKIE_SESSION'] . "'})" . end($key_parts)) . self::$CONFIGURATION['SPR'] . end($key_parts);
+        $file = self::$CONFIGURATION['session_dir'] . DIRECTORY_SEPARATOR . strtoupper($name) . self::$CONFIGURATION['SPR'] . sha1($key . $name);
+        if (file_exists($file)) {
+            $value = file_get_contents($file);
+            // here must reate change of hash mode in mcrypt
+            $value = self::deCrypt($value, crc32(self::$CONFIGURATION['HEX'] . $name));
+            return @unserialize($value);
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * Unset session
+     * Erase already existing session.
+     *
+     * @package kernel.sessions
+     *
+     * @copyright fire1
+     * @param string $name  of session
+     */
+    public function SESSION_CILL($name) {
+        global $KERNEL_CONFIGURATION;
+        $key_parts = explode(self::$CONFIGURATION['SPR'], $_COOKIE[self::$CONFIGURATION['COOKIE_SESSION']]);
+        $key = sha1(self::$CONFIGURATION['HEX'] . '"' . self::$CONFIGURATION['COOKIE_SESSION'] . "'})" . $key_parts[2]) . self::$CONFIGURATION['SPR'] . $key_parts[2];
+        $file = self::$CONFIGURATION['session_dir'] . DIRECTORY_SEPARATOR . strtoupper($name) . self::$CONFIGURATION['SPR'] . sha1($key . $name);
+        if (file_exists($file)) {
+            unlink($file);
+        }
+    }
+
+    /**
+     * Create new configuration file
+     *
+     * @copyright fire1
+     * @param string $file          [destionation of file]
+     * @param boolean $privilege    [privilege (0,1,2>>none,normal,high)]
+     * @param boolean $sections     [sectors in readed file]
+     * @param boolean $unlink       [delete file after add it]
+     * @param __METHOD__ $method    [method for use (kernel::etc adds to etc)]
+     * @param array $reset          [It will reinsert array from this varible]
+     */
+    protected function kernel_new_configuration($file, $privilege = 0, $sections = 0, $unlink = 0, $method = null, $reset = false) {
+
+        if (empty($file) && $privilege >= self::$KERNEL_PROP_MAIN['kernel.privilege.normal']) {
+            self::ERROR("New configuration called, but varible destination for file is empty!", 'conf', "file: <b>$file</b>");
+            if ($privilege == self::$KERNEL_PROP_MAIN['kernel.privilege.high']) {
+                exit(print_r($GLOBALS['ERRORS']));
+            }
+            return false;
+        }
+        if (is_array($reset)) {
+            $var = $reset;
+        } else {
+            $var = parse_ini_file($file, $sections);
+        }
+        if ($unlink == 1) {
+            @unlink($file);
+        }
+        $path_external = dirname($file);
+        $path_external = str_replace(ROOT, "", $path_external);
+        if (!empty($method) && $method == "kernel::etc") {
+            $dirtree = SRCDR . "etc" . DIRECTORY_SEPARATOR . $path_external;
+            $etc = true;
+        } else {
+            $etc = false;
+            $dirtree = self::CONFIGURATION('trunk') . DIRECTORY_SEPARATOR . $path_external;
+        }
+        self::mkdirTree($dirtree);
+        $puFile = $dirtree . DIRECTORY_SEPARATOR . self::kernel_file_configuration($file);
+        if ($etc == false) {
+            $put_var = self::enCrypt(serialize($var), crc32_(self::kernel_file_configuration($file) . HEX));
+        } else {
+            $put_var = serialize($var);
+        }
+        file_put_contents($puFile, $put_var);
+        if (file_exists($puFile)) {
+            return $var;
+        } else
+            return false;;
+    }
+
+    /**
+     *  make directories from path
+     *
+     * @param mixed $dirs path
+     */
+    protected function mkdirTree($dirs, $rights = 0755) {
+        if (!is_dir($dirs)) {
+            $dirs = str_replace(ROOT, "", $dirs);
+            @mkdir(ROOT . $dirs, $rights, true);
+        }
+    }
+
+    /**
+     * Load configuration from url tree
+     *
+     * @copyright fire1
+     * @param string $file empty or put full path and file
+     * @param boolean $privilege
+     * @param boolean $sections
+     * @return init or configuration;
+     */
+    protected function kernel_load_configuration($file = "", $privilege = 0, $sections = 0, $method = null) {
+        $path_external = str_replace(ROOT, "", dirname($file));
+        if (!empty($method) && $method == "kernel::etc") {
+            $dirtree = SRCDR . "etc" . DIRECTORY_SEPARATOR . $path_external;
+            $etc = true;
+        } else {
+            $etc = false;
+            $dirtree = self::CONFIGURATION('trunk') . DIRECTORY_SEPARATOR . $path_external;
+        }
+        $geFile = $dirtree . DIRECTORY_SEPARATOR . self::kernel_file_configuration($file);
+        if (!file_exists(ROOT . $geFile))
+            return false;;
+        $var = file_get_contents($geFile);
+        if (empty($var)) {
+            self::ERROR("Configuration called, but returnet string is empty :-/ ", 'conf', "file: <b>$file</b>");
+        } else {
+            if ($etc == false) {
+                $var = (self::deCrypt($var, crc32_(self::kernel_file_configuration($file) . HEX)));
+            }
+            $var = unserialize($var);
+        }
+        if (is_array($var)) {
+            return $var;
+        } else {
+            self::ERROR("Something is wrong, the configuration for module is not array :-/ ", 'conf', "file: <b>$file</b>");
+            return false;
+        }
+    }
+
+    /**
+     * Create file name for configuration
+     *
+     * @param mixed $file file source
+     */
+    private function kernel_file_configuration($file) {
+
+        return md5($file . HEX) . self::$KERNEL_PROP_MAIN['kernel.trunkExt'];
+    }
+
+    /**
+     * Encrypt
+     *
+     * encrypt $input value with password
+     * @copyright fire1
+     * @param string $input text
+     * @param string $key password
+     * @return string encrypted $input
+     */
+    protected function enCrypt($input, $key) {
+
+        $td = mcrypt_module_open(self::$KERNEL_PROP_MAIN['kernel.cryptCypher'], '', self::$KERNEL_PROP_MAIN['kernel.cryptMode'], '');
+        $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_RAND);
+        mcrypt_generic_init($td, $key, $iv);
+        $crypttext = mcrypt_generic($td, $input);
+        mcrypt_generic_deinit($td);
+        return $iv . $crypttext;
+    }
+
+    /**
+     * Dencrypt
+     *
+     * Dencrypt $input value with password
+     * @copyright fire1
+     * @param string $input text
+     * @param string $key password
+     * @return string dencrypted $input
+     */
+    protected function deCrypt($input, $key) {
+
+        $plaintext = '';
+        $td = mcrypt_module_open(self::$KERNEL_PROP_MAIN['kernel.cryptCypher'], '', self::$KERNEL_PROP_MAIN['kernel.cryptMode'], '');
+        $ivsize = mcrypt_enc_get_iv_size($td);
+        $iv = substr($input, 0, $ivsize);
+        $crypttext = substr($input, $ivsize);
+        if ($iv) {
+            mcrypt_generic_init($td, $key, $iv);
+            $plaintext = mdecrypt_generic($td, $crypttext);
+        }
+        return $plaintext;
+    }
+
+    /**
+     * Dollop $_GET
+     * Or simple secund section of website
+     *
+     * The function is alternative for "$_GET" use.
+     * This function given opportunity to use sub value in uri requests.
+     *
+     * This is only available when the sub value is numeric.
+     * In this order sub value can be used tor transmission of IDs.
+     *
+     * @package kernel
+     * @copyright fire1
+     * @example URL query: ?news=main:1  $str= _('news');  query "news" is "main" and $_GET["main"] is "1"
+     *
+     * @param string $GET n@me of URL string
+     * @returns   $_GET['id'] ;  $_GET['n@me']  ;
+     *  @global $_GET
+     */
+    public function _GET($GET) {
+        self::kernel_count_memory(__FUNCTION__);
+        if (empty(self::$CONFIGURATION["URL_EXTENSION"])) {
+            $ext = array(":", "%3A");
+        } else {
+            $ext = self::$CONFIGURATION["URL_EXTENSION"];
+        }
+        $_GET[$GET] = str_replace("{ExplodE}", "", $_GET[$GET]);
+        $sect_articles = str_replace($ext, "{ExplodE}", $_GET[$GET]);
+        $sect_articles = explode("{ExplodE}", $sect_articles);
+        if (!empty($sect_articles[1]) && is_numeric($sect_articles[1])) {
+            $this->URL_TREE[0] = $GET;
+            $this->URL_TREE[1] = $sect_articles[0];
+            $_GET['id'] = $sect_articles[1];
+            $_GET[$GET] = $sect_articles[0];
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * URL query GFV Navigator
+     * Get First Value
+     * @example ?home=wellcome&view=first -> [part 1]=[part 2]&[part 3] etc
+     * This function will return first value in request uri.
+     * For all Dollop systems first value from request is highly sensitive.
+     *
+     *
+     *
+     * @version 2
+     * @param int $part it will return part from request
+     * @package kernel
+     * @param string $_GET
+     * @return string first QUERY_STRING
+     */
+    function query_GFV($part = 0) {
+        $parts = array("&", "="); // geting  sign used in get //
+        $query_string = str_replace($parts, "{|}", $_SERVER['QUERY_STRING']); // replacing for  separation //
+        $qstring = explode("{|}", $query_string);
+        return $qstring[$part]; // return first var //
+    }
+
+    /**
+     * Send header date of website
+     *
+     * Header information for php system
+     * @copyright fire1
+     * @returns [send header data for website]
+     */
+    public function set_header() {
+        global $SQL_WEBSITE, $THEME;
+        if (!headers_sent() && !empty($SQL_WEBSITE)) {
+            // header ("Content-Type: text/html; charset=".$SQL_WEBSITE['charset']);
+            if (!defined("RESERVED_URI")) {
+                header("Content-Type: text/html; charset={$SQL_WEBSITE['charset']}; ");
+            }
+            $PageContent = ob_get_contents();
+            if (isset($PageContent) && (bool) self::$KERNEL_PROP_MAIN['kernel.content.cache']) {
+                // Generate unique Hash-ID by using MD5
+                $HashID = md5($PageContent);
+                // Specify the time when the page has
+                // been changed. For example this date
+                // can come from the database or any
+                // file. Here we define a fixed date value:
+                $LastChangeTime = 1144055759;
+                // Define the proxy or cache expire time
+                $ExpireTime = 3600; // seconds (= one hour)
+                // Get request headers:
+                $headers = apache_request_headers();
+                // you could also use getallheaders() or $_SERVER
+                // or HTTP_SERVER_VARS
+                // Add the content type of your page
+                //header('Content-Type: text/html');
+                // Content language
+                //header('Content-language: en');
+                // Set cache/proxy informations:
+                header('Cache-Control: max-age=' . $ExpireTime); // must-revalidate
+                header('Expires: ' . gmdate('D, d M Y H:i:s', time() + $ExpireTime) . ' GMT');
+                // Set last modified (this helps search engines
+                // and other web tools to determine if a page has
+                // been updated)
+                header('Last-Modified: ' . gmdate('D, d M Y H:i:s', $LastChangeTime) . ' GMT');
+                // Send a "ETag" which represents the content
+                // (this helps browsers to determine if the page
+                // has been changed or if it can be loaded from
+                // the cache - this will speed up the page loading)
+                header('ETag: ' . $HashID);
+                // The browser "asks" us if the requested page has
+                // been changed and sends the last modified date he
+                // has in it's internal cache. So now we can check
+                // if the submitted time equals our internal time value.
+                // If yes then the page did not get updated
+                $PageWasUpdated = !(isset($headers['If-Modified-Since']) and strtotime($headers['If-Modified-Since']) == $LastChangeTime);
+                // The second possibility is that the browser sends us
+                // the last Hash-ID he has. If he does we can determine
+                // if he has the latest version by comparing both IDs.
+                $DoIDsMatch = (isset($headers['If-None-Match']) and ($HashID == $headers['If-None-Match']));
+                // Does one of the two ways apply?
+                if (!$PageWasUpdated or $DoIDsMatch) {
+                    // Okay, the browser already has the
+                    // latest version of our page in his
+                    // cache. So just tell him that
+                    // the page was not modified and DON'T
+                    // send the content -> this saves bandwith and
+                    // speeds up the loading for the visitor
+                    header('HTTP/1.1 304 Not Modified');
+                    // That's all, now close the connection:
+                    header('Connection: close');
+                    // The magical part:
+                    // No content here ;-)
+                    // Just the headers
+                } else {
+                    // Okay, the browser does not have the
+                    // latest version or does not have any
+                    // version cached. So we have to send him
+                    // the full page.
+                    header('HTTP/1.1 200 OK');
+                    // Tell the browser which size the content
+                    header('Content-Length: ' . strlen($PageContent));
+                }
+            }
+        }
+    }
+
+    /**
+     * Execute installation for system
+     *
+     */
+    private function dollop_installation() {
+        if (strlen(request_uri()) > 1) {
+            header_location("/");
+        }
+        self::CONFIGURATION();
+        global $KERNEL_CONFIGURATION;
+        if (!file_exists(self::$CONFIGURATION['dp.config'])) {
+            self::SAVEMODE(TRUE);
+            $c = self::$CONFIGURATION['trunk'] . DIRECTORY_SEPARATOR . md5(self::$CONFIGURATION['HEX']) . self::$KERNEL_PROP_DATA['MAIN']['kernel.trunkExt'];
+            if (!file_exists($c) OR @filesize($c) > 1) {
+                $src = self::enCrypt(serialize(self::$CONFIGURATION), crc32(self::$CONFIGURATION['HEX']));
+                file_put_contents($c, $src, LOCK_EX);
+            }
+            require_once (self::$CONFIGURATION['install'] . self::$KERNEL_PROP_DATA['install']['indexFile']);
+            // system exit here
+        }
+    }
+
+    /**
+     * Function for reading of SQL files
+     *   This function will be executed only if can find website "PREFIX"
+     *    in order to replace it when ."sql" file is loaded.
+     *
+     *   Also can replace other tags in form "{$tag}".
+     *   For this use "$arrKey" must have name of tag and "$arrContent",
+     *   content that be replaced.
+     *
+     * @version 3.1.24
+     * @example read_sql('myfilewithsql.sql',[mytable],[mytablesigood])
+     * @author fire1@abv.bg
+     * @package kernel
+     *
+     * @param mixed $file //file name
+     * @param mixed $arrKey // key tags
+     * @param mixed $arrContent // content
+     */
+    public function read_sql($file, $arrKey = null, $arrContent = null) {
+        global $dpdb, $CONFIGURATION, $returnback_sqlresult;
+        $handle = @fopen($file, "r");
+        if (!defined("PREFIX")) {
+            return "Error! Cannot find SQL Prefix!";
+        }
+        if ($handle) {
+            $returnback_sqlresult = "";
+            if (!is_object($dpdb)) {
+                return "Connection closed! The file \"handle.database\" is missing from the library !";
+            }
+            While (!feof($handle)) {
+                $query.= fgets($handle, 4096);
+                if (substr(rtrim($query), -1) == ';') {
+                    // Placing prefix and other tags
+                    $query = str_replace('".PREFIX."', constant('PREFIX'), $query);
+                    $query = str_replace('{$' . $arrKey . '}', $arrContent, $query);
+                    if (!empty($CONFIGURATION['base_tag']['sqlcharset']) && !empty(self::$KERNEL_PROP_DATA['install']['sql.charset_tag'])) {
+                        $query = str_replace(self::$KERNEL_PROP_DATA['install']['sql.charset_tag'], $CONFIGURATION['base_tag']['sqlcharset'], $query);
+                    }
+                    $query = str_replace('{$' . $arrKey . '}', $arrContent, $query);
+                    $catch_table_sql = explode(constant('PREFIX'), $query);
+                    $catch_table = explode(" ", $catch_table_sql[1]);
+                    $returnback_sqlresult.= (db_query($query)) ? "{$catch_table[0]} is executed OK... \n " : " {$catch_table[0]} is NOT executed! Error:\n " . db_error() . " \n\n\n ";
+                    unset($query);
+                }
+            }
+            fclose($handle);
+            return $returnback_sqlresult . "";
+        } else {
+
+            return "File cannot be load!";
+        }
+    }
+
+    /**
+     * MySQL kernel cache
+     * This function query the MySQL database and cache the selected data,
+     * in case cpanel is in use, cache data are rebuilded.
+     * The time for uses of caches can be controled from kernel.prop
+     *
+     * @package kernel
+     * @copyright fire1
+     * @example sql_fetch_array('SELECT * FROM `pages` WHERE `id`=1;');
+     * @version 1.4
+     * @param mixed $query QUERY STRING
+     * @return  Parser|false
+     */
+    public function sql_fetch_array($query) {
+        global $trunkcount_check_same;
+
+        if (!self::$KERNEL_SAVEMODE) {
+            $arrCreateSQLname = explode(constant('PREFIX'), $query);
+            $table = explode(" ", $arrCreateSQLname[1]);
+            $table = $table[0];
+            $filterSRCH = array(" ", "*", "`", ",", ".");
+            $filterRPLS = array("_", "-", "", "+", "");
+            $table = str_replace($filterSRCH, $filterRPLS, $table);
+            $trunkIt = "sql_fetch_array(" . $table . "):" . crc32_($query . HEX . HOST . request_uri()) . ".serialize";
+            //clear file in trunk last try
+            if (!(bool) self::$KERNEL_REBIRTH) {
+                $trunk = self::trunkit($trunkIt);
+            } else {
+                self::trunkit($trunkIt, -1);
+            }
+            if ((bool) self::$CONFIGURATION['trunk.disable.sql_fetch'] == true) {
+                $trunk = false;
+            }
+            if ($trunk == false) {
+                $result = mysql_query($query) or die($error = mysql_error());
+                //
+                // show update data
+                self::ERROR("MySQL table ({$table}) trunk updated! ", 'dbug', 'SQL Query: ' . $query);
+                if ($error) {
+                    (kernel::ERROR(" <b>mysql_query</b> error for query [<span title='[Query:$query]\n[Error:" . $error . "]'> <u>more</u> </span>]<br /> ", "sql"));
+                }
+                $i = 0;
+                if ((bool) $result) {
+                    while ($array = mysql_fetch_array($result)) {
+                        $row[$i] = $array;
+                        $i++;
+                    }
+                }
+
+
+                if (empty($row)) {
+                    kernel::ERROR("Empty result in sql query [<span title='[$sql]'> <u>more</u> </span>] <br /> ");
+                    return false;
+                } else {
+                    // Use unlink Command
+                    //self::trunkit($trunkIt, -1);
+                    self::trunkit($trunkIt, $row);
+                    return $row;
+                }
+            } else {
+                return $trunk;
+            }
+        }
+    }
+
+    /**
+     * MySQL operation insert or update table
+     * It is highly recommended to... do not use this function for public inserts or updates!
+     *   This function will convert all post array data into mysql query.
+     *
+     * @package kernel
+     *
+     * @param mixed $table
+     * @param mixed $operation case : insert,update
+     * @param mixed $where - for update
+     */
+    public function sql_post_input_query($table, $operation, $where = null) {
+
+        // remuve "submit", "update", "login", "register", "signin" and "signup"
+        // see kernel prop to add mmore
+        if (is_array(self::$KERNEL_PROP_MAIN)) {
+            foreach (self::$KERNEL_PROP_MAIN['kernel.sql_post_input_query.unset'] as $unset) {
+                unset($_POST[$unset]);
+            }
+        }
+        switch ($operation) {
+            case "insert":
+                if ($where == null) {
+                    if (is_array($_POST)) {
+                        $post = $_POST;
+                    } else {
+                        return false;
+                    }
+                }
+                // fixing slashes... just in case, because I'm a maniac :)
+                stripslashes_deep($post);
+                array_walk_recursive($post, 'mysql_real_escape_string');
+                array_walk_recursive($post, 'addslashes');
+                $table_name = constant("PREFIX") . $table;
+                $columns = "";
+                $values = "";
+                foreach ($post as $column => $value) {
+                    $columns.= "`{$table_name}.{$column}`,";
+                    $values.= "'{$value}',";
+                }
+                $columns = "(" . substr($columns, 0, -1) . ")";
+                $values = "(" . substr($values, 0, -1) . ")";
+                $q = "INSERT INTO {$table_name} {$columns} VALUES {$values};";
+                break;
+            case "update":
+                if (is_array($_POST) && !empty($where)) {
+                    $post = $_POST;
+                } else {
+                    return false;
+                }
+                // fixing slashes... just in case, because I'm a maniac :)
+                $post = stripslashes_deep($post);
+                array_walk_recursive($post, 'mysql_real_escape_string');
+                array_walk_recursive($post, 'addslashes');
+                $table_name = constant("PREFIX") . $table;
+                $columns = "";
+                $values = "";
+                foreach ($post as $column => $value) {
+                    $columns_values.= "`{$table_name}.{$column}`='{$value}',";
+                }
+                $columns_values = "(" . substr($columns_values, 0, -1) . ")";
+                $q = "UPDATE {$table_name} SET {$columns_values} WHERE {$where};";
+                break;
+            DEFAULT:
+                self::ERROR(" Error in MySQL <b>{$operation}</b> for table {$table_name} ", "sql", "Use the function like this: \n kernel::sql_query('news','insert'); \n or \n kernel::sql_query('news','update','IDcolumn=1'); ");
+                return theme::content(dp_show_responses(003, "Unsuccessful implementation of information, filed for improper execution of function in the PHP script."));
+                break;
+        }
+        global $db;
+        $cq = mysql_query($q, $db) or theme::content(dp_show_responses(003, mysql_error()));
+        if ($cq)
+            return true;
+    }
+
+    /**
+     * Protect $_POST request for MySQL injection
+     *
+     */
+    public function sql_post_protection_simple($arr = null) {
+        if (!defined("MRES")) {
+            define("MRES", true);
+            $_POST = stripslashes_deep($_POST);
+            adsl_array($_POST, true);
+        }
+    }
+
+    /**
+     *  Program information
+     *
+     * What this does is get the program's information,
+     * and splits it into either the CPU Or MEM usage (COM).
+     *
+     * @copyright dweston@hotmail.co.uk
+     * @example GetProgCpuUsage('php','cpu');
+     * @param mixed $program name
+     * @return string usage of CPU or MEM
+     */
+    protected function GetProgCOMUsage($program, $case) {
+        if (!$program)
+            return -1;
+        $case = strtolower($case);
+        switch ($case) {
+            case 'cpu':
+                $c_pid = exec("ps aux | grep " . $program . " | grep -v grep | grep -v su | awk {'print $3'}");
+                break;
+            case 'mem':
+                $c_pid = exec("ps aux | grep " . $program . " | grep -v grep | grep -v su | awk {'print $4'}");
+                break;
+        }
+        return $c_pid;
+    }
+
+    /**
+     * This function can include "css" or "JavaScript" files in theme html source.
+     *  Also in the case string $type have value of `add` will add  tags for
+     *  JavaScript without "scr=" in it
+     *
+     *
+     * @param string $file 'destination to file'
+     * @param string $type  type of file (CSS/JS) (or "add" for script)
+     */
+    public function includeByHtml($file, $type, $external = false) {
+
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        if (empty(self::$KERNEL_PROP_MAIN))
+            self::loadprop();;
+        $parts = parse_url($file);
+        if (empty($parts['scheme'])) {
+            $HOST = HOST;
+        }
+        $type = strtolower($type);
+        switch ($type) {
+            case 'css':
+                //if(!file_exists(ROOT.$file) && $external === false ) return false;;
+                $GLOBALS['THEME'] = str_replace(self::$KERNEL_PROP_MAIN['include.TagStyleCSS'], '<link rel="stylesheet" type="text/css" href="' . $HOST . $file . '"/>' . "\n" . self::$KERNEL_PROP_MAIN['include.TagStyleCSS'] . "\n", $GLOBALS['THEME']);
+                break;
+            case 'js':
+                //if(!file_exists(ROOT.$file) && $external === false ) return false;;
+                $GLOBALS['THEME'] = str_replace(self::$KERNEL_PROP_MAIN['include.TagJavaScript'], '<script src="' . $HOST . $file . '" type="text/javascript"></script>' . "\n" . self::$KERNEL_PROP_MAIN['include.TagJavaScript'] . "\n", $GLOBALS['THEME']);
+                break;
+            case 'add':
+                $GLOBALS['THEME'] = str_replace(self::$KERNEL_PROP_MAIN['include.TagJavaScript'], $file . "\n" . self::$KERNEL_PROP_MAIN['include.TagJavaScript'] . "\n", $GLOBALS['THEME']);
+                break;
+        }
+    }
+
+    /**
+     * This function will execute php after connection to mysql is established
+     * In case `$case` will attach scripts with string `$add` that are
+     *  waiting for connection to mysql.
+     *
+     * @package kernel
+     *
+     * @param mixed $case // add or DEFAULT execute
+     * @param mixed $add  value of eval
+     */
+    public function exec_after_mysqlConnect($case = '', $add = '') {
+        self::kernel_count_memory(__FUNCTION__);
+        switch ($case) {
+            DEFAULT:
+                if (is_array($this->exec_after_conn_sql)) {
+                    foreach ($this->exec_after_conn_sql as $eval) {
+                        eval($eval);
+                        kernel::ERROR("[!] SQL INSTALL! <ul>{$GLOBALS['returnback_sqlresult']} ", 'dbug', '');
+                    }
+                }
+                self::sql_post_protection_simple();
+                break;
+            case "add":
+                $this->exec_after_conn_sql[] = $add;
+                break;
+        }
+    }
+
+    /**
+     * Dual script
+     *  Execute a command in the background without waiting for the result
+     *
+     * @package kernel
+     *
+     * @todo must test it well
+     * @copyright Martin Lakes
+     * @param mixed $argv_parameter
+     */
+    protected function DualScript($argv_parameter) {
+        /* NOTE
+         * First of all: put the full path to the php binary,
+         *  because this command will run under the apache user,
+         *  and you will probably not have command alias like php set in that user.
+         * Seccond: Note 2 things at the end of the command string:
+         * the '2>&1' and the '&'. The '2>&1'
+         * is for redirecting errors to the standard IO.
+         *  And the most important thing is the '&' at the end of the command string,
+         *  which tells the terminal not to wait for a response.
+         */
+        passthru("/usr/bin/php /path/to/script.php " . $argv_parameter . " >> /path/to/log_file.log 2>&1 &");
+    }
+
+    /**
+     * Install data from module
+     *
+     * @package kernel
+     *
+     * @param mixed $folder // folder of module
+     * @param mixed $install
+     */
+    private function urlCourse_install($folder, $install) {
+
+        $root = ROOT . $folder . $install;
+        $file_prop = $root . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['kernel.urlCourse.installProp'];
+        if (file_exists($file_prop)) {
+            $inprop = self::loadprop($file_prop, 1);
+        } else {
+            self::ERROR('[!] ERROR IN MODULE INSTALL ... !!! ', 'php', 'Searched file is: ' . $file_prop . "\n Line:" . __LINE__);
+            return false;
+        }
+
+        if (is_array($inprop[self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPropSector']])) {
+            //
+            // PHP/ETC/SQL Installation
+            foreach ($inprop[self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPropSector']] as $case => $value) {
+                $file = $root . DIRECTORY_SEPARATOR . $value;
+                //
+                //Switch between sectors
+                switch ($case) {
+                    case self::$KERNEL_PROP_MAIN['kernel.urlCourse.installEtc']: // etc
+                        $file = $root . DIRECTORY_SEPARATOR . $value;
+                        $fileinfo = pathinfo($file);
+                        $etcdata = self::loadprop($file, 1);
+                        self::etc($folder, $fileinfo['filename'], 'install', $etcdata, 1);
+                        break;
+                    case self::$KERNEL_PROP_MAIN['kernel.urlCourse.installSql']: // sql
+
+                        self::exec_after_mysqlConnect("add", 'self::$klog[]= kernel::read_sql("' . $file . '"); ');
+                        break;
+                    case self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPhp']: // php
+                        if (is_array($value)) {
+                            foreach ($value as $type => $file) {
+
+                            }
+                        }
+                        break;
+                    case self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu']: // menu
+
+                        break;
+                    DEFAULT:
+                        self::ERROR('[!] ERROR IN MODULE INSTALL ... !!! ', 'conf', 'Searched case keyword is: ' . $case . "\n Line:" . __LINE__);
+                        return false;
+                        break;
+                }
+            }
+        }
+        // un-quote to CLOSE for DEBBUGING fire1
+        // $inprop[self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPropMenu']] = null;
+        if (is_array($inprop[self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPropMenu']])) {
+            //
+            // Menu Installation
+            foreach ($inprop[self::$KERNEL_PROP_MAIN['kernel.urlCourse.installPropMenu']] as $menunam => $infile) {
+                //
+                // Get Configuration profile
+                $sqltable = self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu.table'];
+                $cellttle = self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu.tcll'];
+                $cellbody = self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu.bcll'];
+                $cellstte = self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu.scll'];
+                $cellsctp = self::$KERNEL_PROP_MAIN['kernel.urlCourse.installMnu.pcll'];
+                //
+                // Do the menu insert
+                $descramble = md5($menunam . HEX);
+                if (file_exists(ROOT . MODULE_DIR . $infile[$cellsctp])) {
+                    $attach = realpath(ROOT . MODULE_DIR . $infile[$cellsctp]);
+                    $storename_log[] = "Menu `" . $menunam . "` is installed! ";
+                    $script = <<<eol
+            include(\'$attach\');
+            theme::assign(\'$menunam\', $ $menunam);
+
+eol;
+                }
+                if (isset($attach)) {
+                    $sql = <<<eol
+   REPLACE INTO `".PREFIX."$sqltable` (`$cellttle`, `$cellbody`,`$cellsctp`, `$cellstte`)
+       VALUES ('{$infile[$cellttle]}', '{$infile[$cellbody]}','{$script}  ', '$descramble');
+eol;
+                    // Exec query after mysql is connected
+                    self::exec_after_mysqlConnect("add", ' mysql_query("' . $sql . '") or die(mysql_error()); ');
+                    $sql = null;
+                }
+            }
+        }
+        if (is_array($storename_log)) {
+            self::$klog[] = array_unique($storename_log);
+        }
+    }
+
+    /**
+     * Constructs constants for all configuration data from prop files.
+     * String $prop must contain array data by the model of execution from
+     *   function `parse ini`  with sections.
+     *
+     * @package kernel
+     *
+     * @param mixed $prop array
+     */
+    protected function _url_urlCourse_define($prop) {
+        if (is_array($prop)) {
+            foreach ($prop['MAIN'] as $key => $value) {
+
+                $constant_name = str_replace(".", "_", $key);
+                if (is_scalar($value)) {
+                    if (!defined(strtoupper($constant_name)))
+                        define(strtoupper($constant_name), $value);
+                }
+            }
+            $constant_name = "";
+            foreach ($prop['FACIAL'] as $key => $value) {
+                $constant_name = str_replace(".", "_", $key);
+                if (!defined(strtoupper($constant_name)))
+                    define(strtoupper($constant_name), $value);
+            }
+            //////////////////////////////////////////////////////////////////
+            if (!empty($prop['INSTALL']['kernel.install'])) {
+                define('MODULE_INSTALL', $prop['INSTALL']['kernel.install']);
+            }
+            //////////////////////////////////////////////////////////////////
+            $constant_name = "";
+            foreach ($prop['CPANEL'] as $key => $value) {
+                $constant_name = str_replace(".", "_", $key);
+                if (!defined(strtoupper($constant_name)))
+                    define(strtoupper($constant_name), $value);
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Execute reserved request uri script. Can create or edit data for reserved script.
+     *
+     * If string values are empty will execute reserved request script.
+     * If string `$case` have value check will return recordet data in etc for reserved requests.
+     * If string `$case` have value for add will record new line in etc reserved requests. This will
+     *  replace all previous information for reserved request uri.
+     *
+     * @package kernel
+     *
+     * @param mixed $case    // valid values: check,add,[DEFAULT]
+     * @param mixed $title   // in case add
+     * @param mixed $url     // in case add
+     * @param mixed $file    // in case add
+     * @return string or false
+     */
+    protected function url_reserved($case = "", $title = "", $url = "", $file = "") {
+
+        $file = SRCDR . self::$KERNEL_PROP_MAIN['kernel.reserved_request'];
+        switch ($case) {
+            case 'check':
+                global $reserved_request_uri;
+                $request = $title;
+                if (empty($reserved_request_uri)) {
+                    $reserved_request_uri = self::loadprop($file, 1);
+                }
+                return $reserved_request_uri['request.' . $request];
+                break;
+            case 'add':
+                $request = ";\n;\n;\t" . ucfirst($title) . "\n;\nrequest.{$url}\t\t={$file}\n;\n;";
+                file_put_contents($file, $request, FILE_APPEND);
+                break;
+            DEFAULT:
+                $request = request_uri();
+                $request = str_replace(array(DIRECTORY_SEPARATOR, "?", "="), "{|-url_reserved-|}", $request);
+                $request_folders = explode("{|-url_reserved-|}", $request);
+                if (empty($request_folders[0])) {
+                    $first_request = $request_folders[1];
+                } else {
+                    $first_request = $request_folders[0];
+                }
+                $reserved = self::loadprop($file, 1);
+                foreach ($reserved as $key => $value) {
+                    $prop_request = str_replace('request.', "", $key);
+                    $file_source = realpath(str_replace("[system]", SRCDR, $value));
+                    if ($prop_request == $first_request) {
+                        return $file_source;
+                    }
+                    $file_source = "";
+                }
+                return false;
+                break;
+        }
+    }
+
+    /**
+     * Creates constants from uri request.
+     *
+     * @package kernel
+     *
+     * @param mixed $request
+     * @param mixed $fileprop
+     * @return $folder_tree
+     */
+    protected function _url_constant($request, $fileprop) {
+        $folder_tree = false;
+        $parts = explode(DIRECTORY_SEPARATOR, $request);
+        foreach ($parts as $key => $value) {
+            if (!empty($value))
+                $folder_tree.= $value . DIRECTORY_SEPARATOR;
+            if (realpath(ROOT . $folder_tree . $fileprop))
+                return @$folder_tree;
+        }
+    }
+
+    /**
+     * This function execute Installation and definitions from request in website
+     * and prepare data for module.
+     *
+     * @group urlCourse
+     * @package kernel
+     *
+     */
+    private function urlCourse_in_kernel() {
+        global $CONFIGURATION;
+        //
+        // Fix dobble click for user login
+        if (!isset($_COOKIE[$CONFIGURATION['COOKIE_SESSION']])) {
+            self::SESSION_SET(null, null);
+            ;
+        }
+        //
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        $file_prop = self::$KERNEL_PROP_MAIN["kernel.urlCourse.configProp"];
+        $request = explode("?", request_uri());
+        define("URI_PATH", $request[0]);
+        //
+        // Get path to file prop
+        $module_dir = self::_url_constant($request[0], $file_prop);
+        $cnff = ROOT . $module_dir . $file_prop;
+        if (!defined("MODULE_PROP") && !empty($cnff)) {
+            define("MODULE_PROP", $cnff);
+        }
+        //
+        // Try to load prop file from Dollop's trunk
+        $trunK_prop = self::kernel_load_configuration($cnff);
+        //
+        // Check for reserved url request
+        if ((bool) $reserved = self::url_reserved()) {
+            define("RESERVED_URI", $reserved);
+            define("APP.INIT", true);
+            return true;
+        } elseIf ((strlen($request[0]) < 2) && !empty($request[1])) {
+            //
+            // Using ROOT scripts?
+            $root = self::query_GFV();
+            $file_root = ROOT . "root" . DIRECTORY_SEPARATOR . $root . DIRECTORY_SEPARATOR . "source.php";
+            if (realpath($file_root)) {
+                $module_dir_root = dirname($file_root);
+                foreach (glob($module_dir_root . "includes" . DIRECTORY_SEPARATOR . "*.inc") as $inc) {
+                    include_once ($inc);
+                }
+                define("MODULE_ROOT", $file_root);
+            } else {
+                self::ERROR('ERROR ... Root file do not exists', 'conf', 'First Query giving: ' . QF . '  Searched file is: ' . $file_root . "\n Line:" . __LINE__);
+                return false;
+            }
+            //
+            // If find the Dollop prop is array runs the module Conf. defines
+        } elseif (is_array($trunK_prop)) {
+            $prop = $trunK_prop;
+            self::_url_urlCourse_define($prop);
+        } elseIf (file_exists($cnff)) {
+            //
+            // Create hashes for installation Improvements
+            self::CreateInstallationModule($cnff);
+            //
+            // Asc for Approve from CPanel User to install Improvements
+            if (self::ApproveInstallationModule($cnff) OR $cnff == self::base_tag("{root}{users}/build.prop")) {
+                //
+                // Creates the Dollop prop file
+                $prop = self::kernel_new_configuration($cnff, 1, 1, self::$KERNEL_PROP_DATA['MAIN']['kernel.urlCourse.unlinkProp']);
+                //
+                // Define constants from props
+                self::_url_urlCourse_define($prop);
+                //
+                // Check build's installation string is defined
+                if (defined('MODULE_INSTALL')) {
+                    //
+                    // Be sure is defined
+                    if (!defined("MODULE_DIR")) {
+                        define("MODULE_DIR", $module_dir);
+                    }
+                    if (!defined("MODULE_PROP") && !empty($cnff)) {
+                        define("MODULE_PROP", $cnff);
+                    }
+                    //
+                    // Run the installation
+                    self::urlCourse_install($module_dir, constant('MODULE_INSTALL'));
+                }
+            }
+        } else {
+            self::ERROR('Problem ... Cannot load source file from "Query First" ', 'conf', 'First Query giving: ' . QF . '  Searched file is: ' . $cnff . "\n This can also be caused by the fact that it is not set start page.");
+        }
+
+        if (defined("RESERVED_URI")) {
+
+        } elseif (is_array($prop)) {
+            $module_request_folder = str_replace($module_dir, "", request_uri());
+            if (!defined('urlCourse_templates')) {
+                define('urlCourse_templates', $prop['MAIN']['module.templates']);
+                ;
+            }
+            if (!defined('MODULE_FACIAL')) {
+                define("MODULE_FACIAL", dirname(dirname($cnff) . DIRECTORY_SEPARATOR . $prop['FACIAL']['module.facial.source']) . DIRECTORY_SEPARATOR);
+                ;
+            }
+            if (!defined("MODULE_DIR")) {
+                define("MODULE_DIR", $module_dir);
+            }
+            if (!defined("MODULE_TPL_DIR")) {
+                define("MODULE_TPL_DIR", str_replace(constant("MODULE_DIR"), "", @constant("URI_PATH")));
+            }
+            if (!defined("MODULE_REQUESTS")) {
+                define("MODULE_REQUESTS", $module_request_folder);
+            }
+            define("APP.INIT", true);
+        } else {
+            self::ERROR('Problem ... module prop file data is not array ', 'conf', 'To fix check file name: ' . $cnff . " or empty module directory path in system trunk. ");
+            return false;
+        }
+    }
+
+    /**
+     * This function attach scripts before starts basic module process
+     *
+     * @group urlCourse
+     */
+    public function urlCourse_includes() {
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        if (defined("MODULE_FACIAL_INCLUDES")) {
+            $inclout = array();
+            foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_INCLUDES") . "*" . ".const.php" . "*") as $inc_files) {
+                array_push($inclout, $inc_files);
+            }
+            foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_INCLUDES") . "*" . ".inc.php" . "*") as $inc_files) {
+                array_push($inclout, $inc_files);
+            }
+            foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_INCLUDES") . "*" . ".class.php") as $inc_files) {
+                array_push($inclout, $inc_files);
+            }
+            // HTML ///////////////////////////////////////////////////////////////////////
+            foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_JAVASCRIPT") . "*" . ".js") as $inc_files) {
+                self::includeByHtml($inc_files, 'js');
+            }
+            foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_CSS") . "*" . ".css") as $inc_files) {
+                self::includeByHtml($inc_files, 'css');
+            }
+            self::db_kernel();
+            return $inclout;
+        } else
+            return false;;
+    }
+
+    /**
+     * This function control basic process from request in website.
+     *
+     * @group urlCourse
+     */
+    public function urlCourse() {
+        global $SQL_WEBSITE;
+        /**
+         * *  LANGUAGE section for module
+         */
+        if (defined("MODULE_LANGUAGE") || defined("MODULE_FACIAL_LAN_FILE")) {
+            $lan_file = constant("MODULE_DIR") . constant("MODULE_LANGUAGE") . $SQL_WEBSITE['lan'] . DIRECTORY_SEPARATOR . constant("MODULE_FACIAL_LAN_FILE");
+            if (file_exists($lan_file)) {
+                self::language($lan_file);
+            }
+        }
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        self::kernel_count_memory(__FUNCTION__);
+        if (defined('MODULE_ROOT')) {
+            require_once (constant('RESERVED_URI'));
+            ;
+            return false;
+        }
+        if (defined('RESERVED_URI')) {
+            return (constant('RESERVED_URI'));
+            ;
+            return false;
+        }
+        /**
+         * debuggin the module and check configuration.
+         * creating the require once file.
+         */
+        if (defined("APP.INIT")) {
+            if (defined("MODULE_FACIAL_KERNEL")) {
+                foreach (glob(constant("MODULE_DIR") . constant("MODULE_FACIAL_KERNEL") . "*" . ".inc" . "*") as $inc_files) {
+                    @include_once ($inc_files);
+                }
+            }
+            $requested = explode("/", request_uri());
+            $onlyModuleDir = explode(DIRECTORY_SEPARATOR, constant("MODULE_DIR"));
+            $request_file_at_end = explode("?", $requested[count($onlyModuleDir)]);
+            if (is_array($request_file_at_end)) {
+                $request_file_end = current($request_file_at_end);
+            } else {
+                $request_file_end = $request_file_at_end;
+            }
+            /* change include path */
+            if (defined("MODULE_FACIAL_INCLUDE_PATH") && (constant("MODULE_FACIAL_INCLUDE_PATH") === true)) {
+                set_include_path(constant("MODULE_DIR"));
+            }
+            if (realpath(constant("ROOT") . constant("MODULE_DIR") . @constant('MODULE_FACIAL_SOURCE'))) {
+                $source = constant("ROOT") . constant("MODULE_DIR") . constant('MODULE_FACIAL_SOURCE');
+                if (!defined("MODULE_DIR_FILE")) {
+                    define("MODULE_DIR_FILE", dirname($source));
+                }
+                if (!defined("MODULE_INCLUDE_FILE")) {
+                    define("MODULE_INCLUDE_FILE", $source);
+                }
+            } elseIf (defined("MODULE_FACIAL_URL_" . strtoupper($request_file_end)) AND realpath(constant("ROOT") . constant("MODULE_DIR") . constant("MODULE_FACIAL_URL_" . strtoupper($request_file_end)))) {
+                $source = constant("ROOT") . constant("MODULE_DIR") . constant("MODULE_FACIAL_URL_" . strtoupper($request_file_end));
+                if (!defined("MODULE_DIR_FILE")) {
+                    define("MODULE_DIR_FILE", dirname($source));
+                }
+                if (!defined("MODULE_INCLUDE_FILE")) {
+                    define("MODULE_INCLUDE_FILE", $source);
+                }
+            } else {
+                self::ERROR('<b>ERROR</b> File source: " ' . $source . ' ", DO NOT EXISTS !', 'file', 'To fix check ".prop" and erase module directory path in system trunk. ');
+                return false;
+            }
+        } else {
+            self::ERROR('<b>ERROR</b> File source: " ' . $source . ' ", DO NOT EXISTS !', 'file', 'To fix check ".prop" and erase module directory path in system trunk. ');
+            define("WEBSITE_RESPONSES", 404);
+            return false;
+        }
+        return constant("MODULE_INCLUDE_FILE");
+    }
+
+    /**
+     * Closing request
+     * @group urlCourse
+     */
+    public function urlCourse_close() {
+        if (defined("MODULE_FACIAL_INCLUDE_PATH")) {
+            ini_restore('include_path');
+        }
+        //
+        // Creating link in server RAM
+        self::opch();
+    }
+
+    /**
+     * Create Installation hash
+     *
+     * @group PreventRandomInstallation
+     * @param string $module_build Path to file
+     */
+    private function CreateInstallationModule($module_build) {
+
+        self::$installation_id = uniqid("installation");
+        self::$installation_hash = sha1(self::$CONFIGURATION['KEY'] . self::$CONFIGURATION['SPR'] . self::$installation_id . self::$CONFIGURATION['SPR'] . $module_build);
+    }
+
+    /**
+     * Approve Installation hash
+     *
+     * @group PreventRandomInstallation
+     * @param type $module_build
+     * @return boolean
+     */
+    private function ApproveInstallationModule($module_build) {
+        //
+        // Regenerate Hash
+        if ($_GET['module_hash'] == sha1(self::$CONFIGURATION['KEY'] . self::$CONFIGURATION['SPR'] . $_GET['module_hash_id'] . self::$CONFIGURATION['SPR'] . $module_build)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Approve Installation hash
+     *
+     * @group PreventRandomInstallation
+     * @global $language $language
+     * @return boolean
+     */
+    protected function GenerateAnstallationModule() {
+        global $language;
+
+        if (!defined("CPANEL"))
+            return false;
+        if (!empty($_GET['module_hash']) && !empty($_GET['module_hash_id']))
+            return false;
+        if (empty(self::$installation_hash) OR empty(self::$installation_id))
+            return false;
+
+        $hash = self::$installation_hash;
+        $id = self::$installation_id;
+        $module_name = MODULE_PROP;
+        $installation = kernel::base_tag("{host}{request_uri}?module_hash={$hash}&module_hash_id={$id}");
+        $js = <<<EOL
+
+                  var checkconfirm =confirm('{$language['main.cp.question.alt']} {$language['lw.install']}: \\n {$module_name} ?!');
+                    if (checkconfirm==true){
+                        window.location = "{$installation}" ;
+                    }
+
+EOL;
+
+        kernel::includeByHtml('<script type="text/javascript">' . $js . '</script>', "add");
+    }
+
+    /**
+     * Function will redirect to start page record set in
+     * MySQL if is empty request uri
+     *
+     * @param mixed $configuration // of website
+     */
+    public function first_page($configuration) {
+        $request = str_replace(array("/", "?", "#"), "", request_uri());
+        if (empty($request)) {
+            header_location($configuration['start_page']);
+        }
+    }
+
+    /**
+     *  This function adds language file to script
+     *  There are available tow type of file that can be attached
+     *
+     * with ".php" and ".prop"
+     * @author fire1
+     * @global $language
+     * @param mixed $lan_file
+     *
+     */
+    public function language($lan_file = NULL) {
+        global $SQL_WEBSITE;
+        // glueCode
+        self::glueCode(__FUNCTION__);
+        if (is_null($lan_file)) {
+            $lan_folder = self::CONFIGURATION("language");
+            $lan_file = $lan_folder . $SQL_WEBSITE['lan'] . DIRECTORY_SEPARATOR . self::$KERNEL_PROP_MAIN['kernel.languageFileMain'];
+        }
+        $ext = explode(".", $lan_file);
+        if (file_exists($lan_file)) {
+            if (end($ext) == 'php') {
+                require_once ($lan_file);
+            } elseIf (end($ext) == 'prop') {
+                $GLOBALS['language'] = self::loadprop($lan_file, 1);
+            }
+        } else {
+            return false;
+            ;
+        }
+    }
+
+    /**
+     * Simply convert prop string to constant and return value of it
+     *
+     * @param mixed $prop_var // prop varible prop_constant("module.manager.cover");
+     * @return mixed
+     */
+    public function prop_constant($prop_var) {
+        $const = strtoupper(str_replace(".", "_", $prop_var));
+        if (defined($const)) {
+            return constant($const);
+        } else {
+            return false;
+            ;
+        }
+    }
+
+    /**
+     * Analyzes the file that is placed this function and
+     * decide on the implementation of the system.
+     *
+     * @param mixed $file // file execution
+     */
+    public function analyzer($file) {
+
+    }
+
+    /**
+     * This function will generate external file
+     * with types JS,CSS and JSON
+     * NOTE in case of using JSON generated file:
+     *   The generated file name is hashed with md5 hash with HEX constant
+     *   example for the hashed json file name: md5(constant("HEX") . $json_content );
+     *   "$json_content" - is content of json
+     *
+     * @example kernel->external_file('css','.test{color:white;}');
+     *
+     * @package kernel
+     *
+     * @param mixed $type
+     * @param mixed $content
+     */
+    public function external_file($type, $content) {
+
+        $aval_types = self::$KERNEL_PROP_MAIN['kernel.externelFile.types'];
+        if (in_array($type, $aval_types)) {
+            $this->external_file[$type].= $content;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * This function will generate external file
+     * with types JS,CSS and JSON
+     * NOTE in case of using JSON generated file:
+     *   The generated file name is hashed with md5 hash with HEX constant
+     *   example for the hashed json file name: md5(constant("HEX") . $json_content );
+     *   "$json_content" - is content of json
+     *
+     */
+    protected function generete_external_file() {
+        global $CONFIGURATION;
+        if (isset($_POST)) {
+            $post_reload = time();
+        } else {
+            $post_reload = null;
+        }
+        $request = request_uri() . $post_reload;
+        $session = $CONFIGURATION['COOKIE_SESSION'];
+        $name = md5($request . $_COOKIE[$session]);
+        foreach (self::$KERNEL_PROP_MAIN['kernel.externelFile.types'] as $type) {
+            switch (strtolower($type)) {
+                case 'jquery':
+                    $content = <<<eol
+/* jQuery file is generated by dollop */
+$(function(){
+{$this->external_file[$type]}
+});
+
+eol;
+
+                    break;
+                DEFAULT:
+                    $content = $this->external_file[$type];
+                    break;
+            }
+            if (!empty($this->external_file[$type]) && $type != 'json') {
+                self::SESSION_SET($name, $content);
+                self::includeByHtml("generated?{$type}={$name}", str_replace('jquery', "js", $type), true);
+            } elseIF (!empty($this->external_file[$type]) && $type == 'json') {
+                self::SESSION_SET(md5(constant("HEX") . $this->external_file[$type]), $this->external_file[$type]);
+            }
+        }
+    }
+
+    /**
+     * This function exec external scripts
+     * loadet from Dollop boot file
+     *
+     * @param mixed $function
+     */
+    public function glueCode($sector) {
+        global $CONFIGURATION;
+        if (!is_array($CONFIGURATION['glueCode']) OR !(bool) self::$KERNEL_PROP_MAIN['kernel.glueCode'])
+            return false;;
+        $glue_name = array_search($sector, $CONFIGURATION['glueCode']);
+        if (!empty($glue_name)) {
+            $include_file = $CONFIGURATION['glueCode.inc'][$glue_name];
+            foreach ($CONFIGURATION["glueCode.var.{$glue_name}"] as $var => $value) {
+                eval('$' . $var . ' = \'' . $value . '\';');
+            }
+            $real_path = self::base_tag_folder_filter($include_file);
+            if (is_null($CONFIGURATION['glueCode.request'][$glue_name])) {
+                include ($real_path);
+            } elseIf (request_uri() == $CONFIGURATION['glueCode.request'][$glue_name]) {
+                include ($real_path);
+            }
+        }
+    }
+
+    /**
+     * additional base tags
+     *
+     * @param mixed $case
+     */
+    private function base_tag_additional($case) {
+        global $CONFIGURATION;
+        switch ($case) {
+            case 1:
+                $Array = array();
+                if (!is_array($CONFIGURATION['base_tag']))
+                    return null;
+                foreach ($CONFIGURATION['base_tag'] as $key => $value) {
+                    $Array["{{$key}}"] = $value;
+                }
+                return $Array;
+                break;
+            case 2:
+                $a = array();
+                $b = array();
+                if (!is_array($CONFIGURATION['base_tag']))
+                    return null;
+                foreach ($CONFIGURATION['base_tag'] as $key => $value) {
+                    array_push($a, "{{$key}}");
+                    array_push($b, $value);
+                }
+                return array("tags" => $a, "values" => $b);
+                break;
+        }
+    }
+
+    /**
+     * Tags used for dollop folders
+     *
+     * @example base_tag_folder("{system}'");
+     *
+     * NOTE if you use base_tag_folder(); function will return array with keys: tags,values
+     * tags - folders tags
+     * tags - folders values
+     *
+     * @param mixed $tag
+     * @return mixed / array
+     */
+    public function base_tag_folder($tag = null) {
+        global $CONFIGURATION;
+        if (is_null($tag)) {
+            $a = array('{system}', '{hkey}', '{session}', '{design}', '{themes}', '{plugin}', '{module}', '{addons}', '{jquery}', '{language}', '{textarea}', '{scriptarea}', '{host}', '{users}', '{uploads}', '{publicfiles}', '{mobile_jquery}', '{mobile_style}');
+            $b = array($CONFIGURATION['source'], $CONFIGURATION['hkey'], $CONFIGURATION['session_dir'], $CONFIGURATION['design'], $CONFIGURATION['themes'], $CONFIGURATION['plugin'], $CONFIGURATION['module'], $CONFIGURATION['addons'], $CONFIGURATION['jquery'], $CONFIGURATION['language'], $CONFIGURATION['textarea'], $CONFIGURATION['scriptarea'], HOST, $CONFIGURATION['websiteUsers'], $CONFIGURATION['websiteUploads'], $CONFIGURATION['publicfiles'], $CONFIGURATION['mobile_jquery'], $CONFIGURATION['mobile_style']);
+            $array = array("tags" => $a, "values" => $b);
+            if (is_array($CONFIGURATION['base_tag'])) {
+                $array = array_merge_recursive($array, self::base_tag_additional(2));
+            }
+            return $array;
+        } else {
+            $array = array('{system}' => $CONFIGURATION['source'], '{hkey}' => $CONFIGURATION['hkey'], '{session}' => $CONFIGURATION['session_dir'], '{design}' => $CONFIGURATION['design'], '{themes}' => $CONFIGURATION['themes'], '{plugin}' => $CONFIGURATION['plugin'], '{module}' => $CONFIGURATION['module'], '{addons}' => $CONFIGURATION['addons'], '{jquery}' => $CONFIGURATION['jquery'], '{language}' => $CONFIGURATION['language'], '{textarea}' => $CONFIGURATION['textarea'], '{scriptarea}' => $CONFIGURATION['scriptarea'], '{host}' => HOST, '{users}' => $CONFIGURATION['websiteUsers'], '{uploads}' => $CONFIGURATION['websiteUploads'], '{publicfiles}' => $CONFIGURATION['publicfiles'], '{mobile_jquery}' => $CONFIGURATION['mobile_jquery'], '{mobile_style}' => $CONFIGURATION['mobile_style']);
+            if (is_array($CONFIGURATION['base_tag'])) {
+                $array = array_merge_recursive(self::base_tag_additional(1), $array);
+            }
+            return $array[$tag];
+        }
+    }
+
+    /**
+     * Filter folder tags
+     *
+     * @example $system_file =base_tag_folder_filter("{system}/lib/file.inc");
+     *
+     * @package kernel
+     * @param mixed $value
+     * @return mixed
+     */
+    public function base_tag_folder_filter($value) {
+        $filter = self::base_tag_folder();
+        $arrayFilterSrch = array("http:/", "//");
+        $arrayFilterRpls = array("http://", "/");
+        return str_replace($arrayFilterSrch, $arrayFilterRpls, str_replace($filter['tags'], $filter['values'], $value));
+    }
+
+    /**
+     * Same as base_tag_folder_filter and
+     *  can replace "mudule_dir","request_uri","{uri_path}"
+     *
+     *
+     * @version 1.01
+     *
+     * @example $system_file =base_tag("{system}/lib/file.inc");
+     *
+     * @package kernel
+     * @param mixed $value
+     * @return mixed replaced tags
+     */
+    public static function base_tag($value) {
+        global $base_tag_array_filter_global_value_to_dollop_save_search, $base_tag_array_filter_global_value_to_dollop_save_replace;
+        if (!is_array($base_tag_array_filter_global_value_to_dollop_save_search) || !is_array($base_tag_array_filter_global_value_to_dollop_save_replace)) {
+            //
+            // Getting base tag folders
+            $filter = self::base_tag_folder();
+            $arrayFilterSrch = array();
+            $arrayFilterRpls = array();
+            //
+            // Attaching module dir
+            if (defined("MODULE_DIR")) {
+                $arrayFilterSrch[] = "{module_dir}";
+                $arrayFilterRpls[] = constant("MODULE_DIR");
+                $arrayFilterSrch[] = "{module}";
+                $arrayFilterRpls[] = constant("MODULE_DIR");
+            }
+            // attaches
+            $arrayFilterSrch[] = "{request_uri}";
+            $arrayFilterRpls[] = request_uri();
+            // attaches
+            $arrayFilterSrch[] = "{root}";
+            $arrayFilterRpls[] = constant("ROOT");
+            // attaches
+            $arrayFilterSrch[] = "{uri_path}";
+            $arrayFilterRpls[] = @constant("URI_PATH");
+            // attaches
+            $arrayFilterSrch[] = "{trunk_temp}";
+            $arrayFilterRpls[] = @constant("TRUNK_TEMP") . DIRECTORY_SEPARATOR;
+            // atach mysql data
+            global $SQL_WEBSITE, $CONFIGURATION;
+            // attaches
+            $arrayFilterSrch[] = "{trunk}";
+            $arrayFilterRpls[] = $CONFIGURATION['trunk'] . DIRECTORY_SEPARATOR;
+            if (is_array($SQL_WEBSITE)) {
+                foreach ($SQL_WEBSITE as $key => $val) {
+                    $arrayFilterSrch[] = "{{$key}}";
+                    $arrayFilterRpls[] = "{$val}";
+                }
+            }
+            // end fix
+            $arrayFilterSrch[] = "http:/";
+            $arrayFilterSrch[] = "//";
+            $arrayFilterRpls[] = "http://";
+            $arrayFilterRpls[] = "/";
+            $Srch = array_merge($filter['tags'], $arrayFilterSrch);
+            $Rpl = array_merge($filter['values'], $arrayFilterRpls);
+        } else {
+            //
+            // If is allready set-up array data, use it.
+            $Srch = $base_tag_array_filter_global_value_to_dollop_save_search;
+            $Rpl = $base_tag_array_filter_global_value_to_dollop_save_replace;
+        }
+        return str_replace($Srch, $Rpl, $value);
+    }
+
+    /**
+     * JQuery kernel library
+     *
+     * @todo not ready at all ...
+     */
+    public function jquery_lib() {
+        // more info at http://code.google.com/apis/libraries/devguide.html#jquery
+        // You may specify partial version numbers, such as "1" or "1.3",
+        //  with the same result. Doing so will automatically load the
+        //  latest version matching that partial revision pattern
+        //  (e.g. 1.3 would load 1.3.2 today and 1 would load 1.6.4).
+        /*
+
+
+         */
+        $jQuery = <<<JAVASCRIPT
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+  google.load("jquery", "1");
+</script>
+JAVASCRIPT;
+        $jQueryUI = <<<JAVASCRIPT
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">
+google.load("jqueryui", "1");
+</script>
+
+JAVASCRIPT;
+    }
+
+    /**
+     * Give back unique session from system session
+     * @return mixed session / false
+     */
+    public static function uni_session_name() {
+        global $CONFIGURATION;
+        $session = session_id();
+        if (!isset($session))
+            return false;;
+        return password($session);
+    }
+
+    /**
+     * Saving current page theme
+     * Note this function is sensitive with "kernel.requests.vermin"
+     *
+     * @param mixed $theme_file // this will set  the theme file
+     *
+     */
+    protected function set_current_page_theme($theme_file = null) {
+        // get and set configuration
+        global $CURRENT_PAGE_THEME;
+        $arr_p = explode(",", self::$KERNEL_PROP_MAIN['kernel.requests.vermin']);
+        $uritree = request_uri_tree();
+        // close the function if request is vermin
+        if (in_array($uritree['tree'][1], $arr_p))
+            return false;
+        if (!empty($theme_file)) {
+            // set the theme
+            $CURRENT_PAGE_THEME = $theme_file;
+        } elseif (is_null($theme_file)) {
+            // Do NOT set theme from cpanel only user view will set it
+            if (defined("CPANEL")) {
+                if (constant("QF") == constant("CPANEL")) {
+                    return null;
+                }
+            }
+            if ((bool) self::$KERNEL_PROP_MAIN['kernel.currentpage.theme'] && (bool) session_id()) {
+                if (!empty($CURRENT_PAGE_THEME)) {
+                    $_SESSION[self::$KERNEL_PROP_MAIN['kernel.currentpage.theme.key']] = $CURRENT_PAGE_THEME;
+                    //file_put_contents("check", $_SESSION[self::$KERNEL_PROP_MAIN['kernel.currentpage.theme.key']] . "\n" . $uritree['tree'][1] . "\n\n", FILE_APPEND);
+                }
+            }
+        }
+    }
+
+    /**
+     * Get use of current theme
+     *
+     */
+    public static function current_page_theme() {
+
+        $key = self::$KERNEL_PROP_MAIN['kernel.currentpage.theme.key'];
+        $theme_file = $_SESSION[$key];
+        if (isset($theme_file) && (bool) session_id()) {
+            return $theme_file;
+        } else {
+            // return def file
+            global $SQL_WEBSITE;
+            return $SQL_WEBSITE['themefile'];
+        }
+    }
+
+    /**
+     * Cache And read file
+     * This function is similar to file_get_contents(), but
+     * NO additional options.
+     *
+     * @global array    $CONFIGURATION      Global Configuration of Dollop
+     * @param string    $filename           Name of the file to read.
+     * @return resource                     The function returns the read data or FALSE on failure.
+     */
+    public static function get_contents($filename) {
+
+        if (!defined("HEX")) {
+            return false;
+        }
+        global $CONFIGURATION;
+        if (is_null($maxlen)) {
+            $maxlen = filesize($filename);
+        }
+        $contents = null;
+        if ((bool) $CONFIGURATION['trunk.disable.get_contents'] === true) {
+            return file_get_contents($filename);
+        }
+        // Check for rebirth
+        if ((bool) self::$KERNEL_REBIRTH == true) {
+            // Rebiuld on rebirth
+            $contents = @file_get_contents($filename) or (self::klog("ERROR: Cannot locate $filename to open and cache it!"));
+            self::$kernel_file_contents[crc32_($filename . HEX)] = $contents;
+            return $contents;
+        } elseif (empty(self::$kernel_file_contents[crc32_($filename . HEX)])) {
+            // Normal mode
+            if (!empty($filename)) {
+                $contents = file_get_contents($filename);
+            }
+            self::$kernel_file_contents[crc32_($filename . HEX)] = $contents;
+            return $contents;
+        } else {
+            return self::$kernel_file_contents[crc32_($filename . HEX)];
+        }
+    }
+
+    /*
+     * Self kernel put files in  cached
+     */
+
+    private static function cache_get_contents() {
+        if (!defined("HEX")) {
+            return false;
+            ;
+        }
+        // Check for rebirth
+        if ((bool) self::$KERNEL_REBIRTH == false) {
+            if (self::$kernel_file_contents_hash != crc32_(self::$kernel_file_contents)) {
+                // Using Unlink Command for old file
+                self::trunkit("put_file(" . HEX . ").serialize", -1);
+                $check = self::trunkit("put_file(" . HEX . ").serialize", self::$kernel_file_contents);
+            }
+        } else {
+            // Using Unlink Command for old file
+            self::trunkit("put_file(" . HEX . ").serialize", -1);
+        }
+    }
+
+    /*
+     * Self kernel load files from cached
+     */
+
+    private static function load_get_contents() {
+        if (!defined("HEX")) {
+            return false;
+        }
+        self::$kernel_file_contents = self::trunkit("put_file(" . HEX . ").serialize");
+        if (empty(self::$kernel_file_contents)) {
+            self::$kernel_file_contents_hash = false;
+        } else {
+            self::$kernel_file_contents_hash = crc32_(self::$kernel_file_contents);
+        }
+    }
+
+    public static function klog($text) {
+        self::$klog[] = $text;
+    }
+
+    protected static function attempt_klog() {
+        if (defined("CPANEL")) {
+
+            $jshtml = '';
+            if (!is_array(self::$klog))
+                return false;
+            foreach (self::$klog as $text) {
+                if (is_array($text)) {
+                    $text = implode("\\n  * ", $text);
+                }
+                $jshtml .= "*" . str_replace(array("'", "\n"), array('"', "\\n"), addcslashes(strip_tags($text), "\0..\37!@\177..\377")) . "\\n";
+            }
+            if (isset($jshtml)) {
+                self::includeByHtml('<script type="text/javascript">alert(\'' . $jshtml . '\')</script>', "add");
+            }
+        }
+    }
+
+    public function __destruct() {
+        global $dbli;
+        //
+        // Closing mysql Connection
+        if ($dbli) {
+            @mysqli_close($dbli);
+        }
+        self::cache_get_contents();
+    }
+
+}
+
+/**
+ * Execute class kernel
+ * Basic process is executed from here.
+ * @var kernel
+ */
+global $kernel;
+$kernel = new kernel;
+/**
+         *   End of Dollop kernel file
+         *   Script continue with design script
+         *   file is writen by fire1 (Angel Zaprianov)
+         */

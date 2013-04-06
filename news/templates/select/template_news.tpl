@@ -15,5 +15,5 @@
     <br />
 </div>
 <!-- Include the comments -->
-<script src="/website/comments/javascript/static.process.js" type="text/javascript"></script>
+<script src="/website/comments/static.process.js" type="text/javascript"></script>
 <!--// news template html file [end] //-->

@@ -218,7 +218,7 @@ CREATE TABLE IF NOT EXISTS `".PREFIX."users_fields` (
   `fld_name` varchar(60) NOT NULL DEFAULT '',
   `fld_title` varchar(120) NOT NULL,
   `fld_descr` varchar(250) NOT NULL DEFAULT '',
-  `fld_require` int(1) DEFAULT NULL,
+  `fld_require` varchar(24) DEFAULT NULL,
   `fld_type` varchar(22) DEFAULT NULL,
   `row_type` varchar(60) NOT NULL COMMENT 'users db alert type of row',
   `fld_value` text,
@@ -256,7 +256,7 @@ INSERT INTO  `".PREFIX."links` (`ID` ,`url` ,`title` ,`position` ,`target`)
 VALUES ('2' , 'users/main', 'users', '2', '_self');
 
 INSERT INTO `".PREFIX."pages` (`ID`, `title`, `body`, `admin`, `dates`, `class_view`, `comment`, `com_user`, `preference`, `effects`) VALUES
-(1, 'welcome to fire1 CMS','<h2>Successfully Installed Dollop 4.</h2>
+(1, 'welcome to Dollop CMS','<h2>Successfully Installed Dollop 4.</h2>
 <pre>   Welcome to your new dollop 4 website!
    This page content is example of   activity and you may erase the page from control panel.</pre>
 <p>Please follow these steps to complete installation procedure and start using your new website:</p>
@@ -287,3 +287,57 @@ For more information, please refer to the <strong>dollop website</strong> in the
 <a href=\"http://fire1.eu/\">fire1.eu</a>
 </p>
 <h2>&nbsp;</h2>', '', NULL, NULL, NULL, NULL, NULL, '0;0;0;0');
+
+
+-- --------------------------------------------------------
+--
+--  Fixing table for missing erase cel
+--  This MySQL function is not tested well
+--  @ver - 01
+--
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS addFieldIfNotExists
+$$# MySQL returned an empty result set (i.e. zero rows).
+
+
+DROP FUNCTION IF EXISTS isFieldExisting
+$$# MySQL returned an empty result set (i.e. zero rows).
+
+
+CREATE FUNCTION isFieldExisting (table_name_IN VARCHAR(100), field_name_IN VARCHAR(100))
+RETURNS INT
+RETURN (
+    SELECT COUNT(COLUMN_NAME)
+    FROM INFORMATION_SCHEMA.columns
+    WHERE TABLE_SCHEMA = DATABASE()
+    AND TABLE_NAME = table_name_IN
+    AND COLUMN_NAME = field_name_IN
+)
+$$# MySQL returned an empty result set (i.e. zero rows).
+
+CREATE PROCEDURE addFieldIfNotExists (
+    IN table_name_IN VARCHAR(100)
+    , IN field_name_IN VARCHAR(100)
+    , IN field_definition_IN VARCHAR(100)
+)
+BEGIN
+
+    -- http://javajon.blogspot.com/2012/10/mysql-alter-table-add-column-if-not.html
+
+    SET @isFieldThere = isFieldExisting(table_name_IN, field_name_IN);
+    IF (@isFieldThere = 0) THEN
+
+        SET @ddl = CONCAT('ALTER TABLE ', table_name_IN);
+        SET @ddl = CONCAT(@ddl, ' ', 'ADD COLUMN') ;
+        SET @ddl = CONCAT(@ddl, ' ', field_name_IN);
+        SET @ddl = CONCAT(@ddl, ' ', field_definition_IN);
+
+        PREPARE stmt FROM @ddl;
+        EXECUTE stmt;
+        DEALLOCATE PREPARE stmt;
+
+    END IF;
+
+END;
+$$# MySQL returned an empty result set (i.e. zero rows).

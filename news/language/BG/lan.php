@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /**
   ============================================================
@@ -21,9 +21,11 @@
  *       See COPYRIGHT and LICENSE
  * ----------------------------------------------------------
  */
+
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
+
 /**
  *
  * @filesource

@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:     $Revision: 121 $
- * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:       $Id: view.php 121 2013-03-01 13:54:10Z fire $
+ * Last committed:     $Revision: 133 $
+ * Last changed by:    $Author: fire1 $
+ * Last changed date:    $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:       $Id: view.php 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -68,7 +68,7 @@ if (is_numeric($_GET['cat'])) {
         $rs[] = $r;
     }
     //
-    // Show buuto for rss link
+    // Show button for rss link
     $proposed .='<a href="rss?id=' . $_GET['cat'] . '" class="rss"><span> </span>' . $language['ns.rssc'] . $rs['category'] . '</a>';
 } else {
     //
@@ -120,8 +120,8 @@ if (is_array($comb_rows)) {
             $news_title = $row['title'];
             $news_text = $row['body'];
         } elseIf ((bool) @constant("NEWS_CONTLIMIT")) {
-            $read_more = "<A href=\"select?n={$row['ID']}\" >{$language['ns.more']}</A>";
-            $news_text = truncate($row['body'], @constant("NEWS_CONTLIMIT"), $suffix = $read_more, $isHTML = true);
+            $read_more = "<A href=\"select?n={$row['ID']}\" class=\"button\" >{$language['ns.more']}</A>";
+            $news_text = truncate_content(strip_tags($row['body']), @constant("NEWS_CONTLIMIT"), $read_more, true);
         } else {
             $news_text = $row['body'];
         }

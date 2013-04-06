@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 86 $
+ * Last committed:     $Revision: 123 $
  * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2012-10-30 14:12:58 +0200 (вторник, 30 Октомври 2012) $
- * ID:       $Id: channels.php 86 2012-10-30 12:12:58Z fire $
+ * Last changed date:    $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+ * ID:       $Id: channels.php 123 2013-03-09 12:54:46Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -57,9 +57,9 @@ function select_opt($level = null) {
             $slct = null;
         }
         $option.= <<<HTML
-     <option value="{$key}" {$slct}>{$privilege}</option>   
+     <option value="{$key}" {$slct}>{$privilege}</option>
 HTML;
-        
+
     }
     return $option;
 }
@@ -70,7 +70,8 @@ $tbl->addCell($language['lchat.channels'], null, 'header', array('width' => '30%
 $tbl->addCell($language['lchat.ch.name'], null, 'header', array('width' => '35%'));
 $tbl->addCell($language['lchat.ch.aval'], null, 'header', array('width' => '15%'));
 $tbl->addCell("&nbsp;", null, 'header', array('width' => '5%'));
-if ((bool)$mysql->Select("chat_chanels")) {
+$mysql->Select("chat_chanels");
+if (is_array($mysql->aArrayedResults)) {
     foreach ($mysql->aArrayedResults as $row) {
         $intSlct = true;
         $tbl->addRow();
@@ -99,22 +100,22 @@ $SUBBODY[$sector_insert] = <<<eol
                 <th> {$language['lchat.ch.aval']} </th>
             </tr>
             <tr>
-            
+
                 <td> <input type="text" name="title" value="" />   </td>
                 <td> <textarea name="description" style="width:80%" rows="2"> </textarea>  </td>
                 <td> <select name="available" > {$opt} </select> </td>
-                
+
             </tr>
-            
+
             <tr>
-            
+
                 <td colspan="3" align="center"> <input type="submit" name="{$sector_insert}" id="button" value="{$language['lan.submit']}" />  </td>
-                
+
             </tr>
-            
+
     </table>
     </form>
-    
+
 eol;
 if (isset($_POST[$sector_edit])) {
     $row = "";
@@ -123,7 +124,7 @@ if (isset($_POST[$sector_edit])) {
         $opt = select_opt($row['available']);
         $SUBBODY[$sector_edit] = <<<eol
 <p align="center">
-&nbsp; 
+&nbsp;
 </p>
     <form method="post" action="#{$sector}">
     <input type="hidden" name="ID" value="{$row['ID']}"  readonly>
@@ -134,24 +135,24 @@ if (isset($_POST[$sector_edit])) {
                 <th> {$language['lchat.ch.aval']} </th>
             </tr>
             <tr>
-            
+
                 <td> <input type="text" name="title" value="{$row['title']}" />   </td>
                 <td> <textarea name="description" style="width:80%" rows="2"> {$row['description']} </textarea>  </td>
                 <td> <select name="available" > {$opt} </select> </td>
-                
+
             </tr>
-            
+
             <tr>
-            
+
                 <td colspan="3" align="center"> <input type="submit" name="{$sector_edit}_button" id="button" value="{$language['lan.submit']}" />  </td>
-                
+
             </tr>
-            
+
     </table>
     </form>
-    
+
 eol;
-        
+
     } else {
     }
 }

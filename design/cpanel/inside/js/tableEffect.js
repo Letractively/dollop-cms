@@ -1,9 +1,9 @@
 ﻿/**
   ============================================================
- * Last committed:      $Revision: 119 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
- * ID:                  $Id: tableEffect.js 119 2013-02-22 14:58:55Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: tableEffect.js 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,7 +41,8 @@ var $topbar  =$('<div id="cp-menu-head">'+
             // Scroll controlls
             var  scroller = $(window).scrollLeft();
             var  offset = $("#" + sectortbl).offset();
-            $("div#" + sectortbl + " table ").find('tr').hide();
+            $("#" + sectortbl + "  table").find('tr').hide();
+
             $(window).scroll(function() {
                 scroller = $(window).scrollLeft();
                 offset = $("#" + sectortbl).offset();
@@ -96,23 +97,29 @@ $(document).ready(function(){
     if(isInIFrame==false){
         //*******************************enter fullscreen*****************************
         document_width     = $(window).width();
+        document_height     = $(window).height() - 83;
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         //  stretch contents
         //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         $('body').find('.full-content').each(   function(c){
             $(this).width(document_width);
+            $(this).height(document_height);
         });
         $('body').find('.content').each(        function(c){
             $(this).width(document_width);
+            $(this).height(document_height);
         });
         $('body').find('.sub-content').each(    function(c){
             $(this).width(document_width);
+            $(this).height(document_height);
         });
         $('body').find('.content').each(        function(c){
             $(this).width(document_width);
+            $(this).height(document_height);
         });
         $('body').find('#cp-scrollbar').each(   function(c){
             $(this).width(document_width);
+            $(this).height(document_height);
         });
         $('body').find('.cp-title').each(       function(b){
             $(this).css({

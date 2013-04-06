@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 127 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: process.php 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+ * ID:                  $Id: process.php 127 2013-03-27 07:19:53Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage class
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     @header_remove();
@@ -47,7 +47,7 @@ class users_process {
     public function users_db() {
         global $db;
         $this->db = $db;
-        if (!$this->db) {
+        if (!(bool)$this->db) {
             $this->db = mysql_connect(DB_SERVER, DB_USER, DB_PASS) or die(mysql_error());
             mysql_select_db(DB_NAME, $this->db) or die(mysql_error());
         }
@@ -66,11 +66,11 @@ class users_process {
             $password = addslashes($password);
         }
         if (defined("USERS_MAIL_LOGIN")) {
-            $sql = "SELECT `" . USERS_SQLTBL_COL_UID . "`,`" . USERS_SQLTBL_COL_UNAME . "`,`" . USERS_SQLTBL_COL_UPASS . "`,`" . USERS_SQLTBL_COL_UMAIL . "` 
+            $sql = "SELECT `" . USERS_SQLTBL_COL_UID . "`,`" . USERS_SQLTBL_COL_UNAME . "`,`" . USERS_SQLTBL_COL_UPASS . "`,`" . USERS_SQLTBL_COL_UMAIL . "`
 
                 FROM `" . USERS_SQLTBL_MAIN . "` WHERE `" . USERS_SQLTBL_COL_UMAIL . "`='$username'   OR  `" . USERS_SQLTBL_COL_UNAME . "`='$username' LIMIT 1;";
         } else {
-            $sql = "SELECT `" . USERS_SQLTBL_COL_UID . "`,`" . USERS_SQLTBL_COL_UNAME . "`,`" . USERS_SQLTBL_COL_UPASS . "`,`" . USERS_SQLTBL_COL_UMAIL . "`  
+            $sql = "SELECT `" . USERS_SQLTBL_COL_UID . "`,`" . USERS_SQLTBL_COL_UNAME . "`,`" . USERS_SQLTBL_COL_UPASS . "`,`" . USERS_SQLTBL_COL_UMAIL . "`
 
                 FROM `" . USERS_SQLTBL_MAIN . "` WHERE `" . USERS_SQLTBL_COL_UNAME . "`='$username' LIMIT 1;";
         }
@@ -149,15 +149,15 @@ class users_process {
                 }
                 $html.= <<<html
 <tr>
-<td class="fld-title"><font face="Arial" size="+2" color="Red">{$rqr}</font> {$field['fld_title']}  </td> 
-</tr> 
-<tr>        
+<td class="fld-title"><font face="Arial" size="+2" color="Red">{$rqr}</font> {$field['fld_title']}  </td>
+</tr>
+<tr>
 <td class="fld-content" ><div id="{$field['fld_name']}"> {$html_field} <div class="{$field['fld_name']}"> </div></div> </td>
-</tr> 
-<tr> 
-<td class="fld-descr">{$field['fld_descr']}</td> 
-</tr> 
-<tr> <td class="fld-space">&nbsp; </td> </tr>       
+</tr>
+<tr>
+<td class="fld-descr">{$field['fld_descr']}</td>
+</tr>
+<tr> <td class="fld-space">&nbsp; </td> </tr>
 html;
             }
             //////////////////////////////////////
@@ -176,9 +176,9 @@ html;
     public function select_check_mail($usermail, $protect = true) {
         if ((bool) $protect)
             $usermail = mysql_real_escape_string($usermail);;
-        $result = mysql_query("SELECT 
+        $result = mysql_query("SELECT
 
-                    `" . USERS_SQLTBL_COL_UMAIL . "` 
+                    `" . USERS_SQLTBL_COL_UMAIL . "`
 
                     FROM `" . USERS_SQLTBL_MAIN . "`
 
@@ -196,9 +196,9 @@ html;
     public function select_check_uname($username, $protect = true) {
         if ((bool) $protect)
             $username = mysql_real_escape_string($username);;
-        return mysql_query("SELECT 
-                `" . USERS_SQLTBL_COL_UNAME . "` FROM 
-                `" . USERS_SQLTBL_MAIN . "` WHERE 
+        return mysql_query("SELECT
+                `" . USERS_SQLTBL_COL_UNAME . "` FROM
+                `" . USERS_SQLTBL_MAIN . "` WHERE
                 `" . USERS_SQLTBL_COL_UNAME . "`='{$username}' LIMIT 1;");
     }
 
@@ -285,11 +285,11 @@ html;
         $hex = md5(HEX);
         $hash_key = "$hex-{$post['username']}-";
         $post['userpass'] = password($post['userpass']);
-        $sql = "INSERT INTO `" . USERS_SQLTBL_MAIN . "` 
+        $sql = "INSERT INTO `" . USERS_SQLTBL_MAIN . "`
 
 
 
-            ({$user_name_row} `" . USERS_SQLTBL_COL_UMAIL . "`,`" . USERS_SQLTBL_COL_UPASS . "` {$sql_cols}, 
+            ({$user_name_row} `" . USERS_SQLTBL_COL_UMAIL . "`,`" . USERS_SQLTBL_COL_UPASS . "` {$sql_cols},
 
 
 
@@ -338,19 +338,19 @@ html;
                             }
                             $text.= <<<eol
 
-<script type="text/javascript"> 
+<script type="text/javascript">
 
-    $(document).ready(function() {        
+    $(document).ready(function() {
 
-             jQuery("#{$field}").css('backgroundColor', 'rgba(245,100,100,0.5)');    
+             jQuery("#{$field}").css('backgroundColor', 'rgba(245,100,100,0.5)');
 
-      });       
+      });
 
              </script>
 
-             
 
-             <div class="usr-err">{$te}  <b>{$title_fld}</b> </div>            
+
+             <div class="usr-err">{$te}  <b>{$title_fld}</b> </div>
 
 eol;
                         }
@@ -367,15 +367,15 @@ eol;
      */
     public function my_user() {
         $sql = "SELECT * FROM `" . USERS_SQLTBL_MAIN . "` WHERE `" . USERS_SQLTBL_COL_UID . "`='" . USER_ID . "' LIMIT 1;";
-        $request = mysql_query($sql) or die(mysql_error());
-        if ($row = mysql_fetch_array($request)) {
+        $request = db_query($sql) or die(mysql_error());
+        if ((bool)$row = db_fetch($request,"assoc","current")) {
             return $row;
             ;
         }
     }
 
     public function user_content() {
-        
+
     }
 
     /**

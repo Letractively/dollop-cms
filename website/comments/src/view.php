@@ -1,21 +1,22 @@
 <?php
+
 /**
- ============================================================
- * Last committed:     $Revision: 86 $
+  ============================================================
+ * Last committed:     $Revision: 127 $
  * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2012-10-30 14:12:58 +0200 (вторник, 30 Октомври 2012) $
- * ID:       $Id: view.php 86 2012-10-30 12:12:58Z fire $
- ============================================================
- Copyright Angel Zaprianov [2009] [INFOHELP]
- Licensed under the Apache License, Version 2.0 (the "License");
- you may not use this file except in compliance with the License.
- You may obtain a copy of the License at
- http://www.apache.org/licenses/LICENSE-2.0
- Unless required by applicable law or agreed to in writing, software
- distributed under the License is distributed on an "AS IS" BASIS,
- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
- limitations under the License.
+ * Last changed date:    $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+ * ID:       $Id: view.php 127 2013-03-27 07:19:53Z fire $
+  ============================================================
+  Copyright Angel Zaprianov [2009] [INFOHELP]
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
@@ -28,4 +29,7 @@ if (!defined('FIRE1_INIT')) {
  * @filesource
  * News sorceode
  */
-//theme::content( array( ucfirst($pageTitle),$content ));
+
+global $language;
+
+theme::content(array(ucfirst($language['md.error.title']), $language['md.error.body']));

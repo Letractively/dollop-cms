@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 121 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:                  $Id: uploader.source.image.inc 121 2013-03-01 13:54:10Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: uploader.source.image.inc 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,15 +29,18 @@
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
-if (!defined('FIRE1_INIT')) {
-    exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
-}
+
 /**
  *
  * @filesource
  * Uploadify Source Code file
  */
 global $CONFIGURATION, $kernel, $jquery, $requestTarget, $dir, $upload_prop, $fileTypes, $uploadFolder, $language, $USERS_PRIVILEGE;
+
+
+
+$show_text = ((bool) $_GET['text']) ?  $_GET['text'] : "For Reload click here";
+
 $js = <<<eol
 $(document).ready(function() {
     var options = {
@@ -46,8 +49,6 @@ $(document).ready(function() {
            url:       '{$requestTarget}',
         dataType:  'json'
     };
-
-
             $('#form-upload').bind('submit', function(e) {
             e.preventDefault(); // <-- important
             $(this).ajaxSubmit(options);
@@ -67,13 +68,8 @@ $(document).ready(function() {
   });
 
   $("#link_uploaded").live("click",function(){
-
-  parent.location.reload();
-
-
+    parent.location.reload();
   });
-
-
 
 });
 
@@ -87,19 +83,24 @@ function showRequest(formData, jqForm, options) {
     return true;
 }
 
-
+var realoadparent = '{$_GET['reload']}';
 function showResponse(data, statusText)  {
     $("#loadingMessage").hide();
     if (statusText == 'success') {
         var msg = data.error.replace("##", "<br />");
         if (data.img != '') {
             $('#result').html('<img src="{$uploadFolder}{$upload_prop['upload.thumb.folder']}' + data.img + '" id="img-thumb"/>');
-            //msg +
-            $('#message').html('<br /><a href="#" id="link_uploaded">For Reload click here</a>');
+            //
+            // Show Message on upload
+            $('#message').html('<br /><a href="#" id="link_uploaded">{$show_text}</a>');
                 var inputimg = parent.document.getElementById('image');
              $(".upload_image",window.parent.document).val(data.img);
              $(".upload_image",window.parent.document).css({color:"green"});
              $(".upload_image",window.parent.document).addClass("trigger-attention");
+
+             if(realoadparent){
+               window.parent.document.location.reload();
+            }
 
             $('#formcont').html('');
         } else {
@@ -111,30 +112,51 @@ function showResponse(data, statusText)  {
 }
 
 eol;
+
+
+
 if (constant("USER_PRIV") >= $USERS_PRIVILEGE['users.cpanel']) {
     $host = constant("HOST");
     $source_imgFolder = kernel::base_tag_folder_filter(ROOT . "/" . $uploadFolder . "/" . $upload_prop['upload.thumb.folder']);
-    $img_in = '<div id="browse-files-container">   <div class="browse-file colse" id="browse-file"> X </div>';
+    $img_in = <<<eol
+
+    <div id="browse-files-container" border="0" width="99%" >
+<div class="browse-colse" id="browse-file"> X </div>
+eol;
     $arrFiles = dir_read($source_imgFolder);
-    if (is_array($arrFiles)) {
+
+    if (is_array($arrFiles)) {$is=0;
         foreach ($arrFiles as $images_in) {
+            $imgs = "{$uploadFolder}{$upload_prop['upload.image.folder']}{$images_in}";
+            $thms = "{$uploadFolder}{$upload_prop['upload.thumb.folder']}{$images_in}";
+
+            $imgs =(file_exists($imgs)) ? "<img src=\"$imgs\" border=\"0\"  class=\"thumb\" />" : "<div class=\"none\"></div>" ;
+            $thms =(file_exists($thms)) ? "<img src=\"$thms\" border=\"0\"  class=\"image\" />" : "<div class=\"none\"></div>" ;
             $img_in.= <<<feol
+ <div class="browse-file">
 
- <div class="browse-file" id="browse-file">
+     <div class="browse-file-thumb">
+            <div class="show-big"></div>
+            <div class="forma"> {$thms}</div>
+            <div class="browse-file-info">
+                <input type="text" name="thimg-$is"  value="{$host}{$uploadFolder}{$upload_prop['upload.thumb.folder']}{$images_in}"  readonly/><br />
+                <label for="thimg-$is">  $images_in</label>
+            </div>
+      </div>
 
- <div class="browse-file-thumb">
- <img src="{$uploadFolder}{$upload_prop['upload.thumb.folder']}{$images_in}" border="0"  alt="thumb" id="img-thumb" />
- </div>
- <div class="browse-file-name">
- <input type="text" name="" value="{$host}{$uploadFolder}{$upload_prop['upload.thumb.folder']}{$images_in}"  readonly>
+      <div class="browse-file-image">
+       {$imgs}
 
- </div>
- <div class="browse-file-realp">
-  <input type="text" name="" value="{$host}{$uploadFolder}{$upload_prop['upload.image.folder']}{$images_in}"  readonly>
- </div>
- </div>
+        <div class="browse-file-info">
+            <input type="text" name="rlimg-$is" value="{$host}{$uploadFolder}{$upload_prop['upload.image.folder']}{$images_in}"  readonly/><br />
+            <label for="rlimg-$is"> $images_in</label>
+        </div>
+    </div>
+</div>
 
 feol;
+        $images_in=null;
+  $is++;
         }
     } else {
         $img_in.= '<div class="browse-file" id="browse-file">';

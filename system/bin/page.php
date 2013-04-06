@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 121 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:                  $Id: page.php 121 2013-03-01 13:54:10Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: page.php 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -44,19 +44,27 @@ If (isset($_GET['index'])) {
 }
 // Show Pages
 if (is_numeric($_GET['view'])) {
-    $_GET['view'] = mysql_real_escape_string($_GET['view']);
+
     $sqlquery = "SELECT * FROM " . PREFIX . "pages WHERE ID = '" . $_GET['view'] . "' LIMIT 1;";
     if (class_exists('kernel')) {
         $row = kernel::sql_fetch_array($sqlquery);
     } else {
-        $queryresult = mysql_query($sqlquery) or die(mysql_error());
-        $row = mysql_fetch_array($queryresult);
+        $queryresult = db_query($sqlquery) or die(db_error());
+        $row = db_fetch($queryresult, "assoc", "current");
     }
-    if (is_array($row)) {
+    if (!empty($row)) {
         //Header tag / advanced
         foreach ($row as $row) {
+            if ($row['com_user']) {
+                if ((bool) $comments = propc("md.comments.destination")) {
+                    $comment = <<<eol
+                        <br />
+                        <script src="$comments/static.process.js" type="text/javascript"></script>
+eol;
+                }
+            }
             $TITLE = $row['title'];
-            $BODY = $row['body'];
+            $BODY = $row['body'] . $comment;
             // eval php script in to selected page
             if (!empty($row['phpcripts'])) {
                 eval(" {$row['phpcripts']} ");
@@ -86,11 +94,11 @@ if (is_numeric($_GET['view'])) {
 
 
         if (!(bool) $email = filter_var($_POST['u_email'], FILTER_VALIDATE_EMAIL)) {
-            $err = "<b>{$language['lw.from']} (email)</b> <br />".$language['users.err.valid.email'];
+            $err = "<b>{$language['lw.from']} (email)</b> <br />" . $language['users.err.valid.email'];
         }
         if (isset($_GET['share'])) {
             if (!(bool) $tmail = filter_var($_POST['to_email'], FILTER_VALIDATE_EMAIL)) {
-                $err = "<b>{$language['lw.to']} (email)</b> <br />".$language['users.err.valid.email'];
+                $err = "<b>{$language['lw.to']} (email)</b> <br />" . $language['users.err.valid.email'];
             }
         } else {
             // Use website email
@@ -105,7 +113,7 @@ if (is_numeric($_GET['view'])) {
             $mail->from = $email;
             $mail->to = $tmail;
             $mail->subject = $_POST['subject'];
-            $body = nl2br (stripallslashes( addslashes($_POST['body'])));
+            $body = nl2br(stripallslashes(addslashes($_POST['body'])));
 
             $mail->body = <<<eol
             <p>
@@ -123,7 +131,7 @@ if (is_numeric($_GET['view'])) {
 eol;
             $mail->setHeaders();
             if ($mail->send()) {
-                $_SESSION['contact_info']=null;
+                $_SESSION['contact_info'] = null;
                 $html = <<<eol
                 <p align="center"><b> $show_message</b> </p>
                     <br />
@@ -150,6 +158,7 @@ eol;
         $captcha = captcha();
         if (defined("USER_ID")) {
             $mtitle = (isset($_GET['share'])) ? ucfirst($language['users.lan.uname']) : ucfirst($language['lw.title']);
+            $descr = (isset($_GET['share'])) ? ucfirst($language['lw.description']) : ucfirst($language['cont.from.mss']);
             $my = new mysql_ai;
             $my->Select(USERS_SQLTBL_MAIN, array(USERS_SQLTBL_COL_UID => constant("USER_ID")));
             $email = $my->aArrayedResults[0][USERS_SQLTBL_COL_UMAIL];
@@ -159,9 +168,10 @@ eol;
             $email = "";
             $closemail = "";
             $username = (isset($_GET['share'])) ? ucfirst($language['shr.mail.ttl']) : ucfirst($_SESSION['contact_title']);
-            $mtitle = ucfirst($language['lw.title']);
+            $mtitle = ucfirst($language['cont.from.ttl']);
+            $descr = ucfirst($language['cont.from.mss']);
         }
-
+        $information = (isset($_SESSION['contact_info'])) ? ucfirst($_SESSION['contact_info']) : null;
         if (isset($_GET['share'])) {
             $share = <<<eol
         <label for="to_email">{$language['lw.to']} (email):</label>
@@ -171,7 +181,7 @@ eol;
         }
         //$_SESSION['contact_body']
 
-        $information = (isset($_SESSION['contact_info'])) ? ucfirst($_SESSION['contact_info']) : null;
+
         $action = request_uri();
         $title = $language['main.cp.mail'];
         $html = <<<eol
@@ -203,7 +213,7 @@ eol;
       <td height="10" colspan="3"></td>
     </tr>
     <tr>
-      <td colspan="3"><label for="uname">{$language['lw.description']}:</label>
+      <td colspan="3"><label for="uname">{$descr}:</label>
         <textarea name="body"></textarea></td>
     </tr>
     <tr>
@@ -226,4 +236,98 @@ eol;
     }
 
     theme::content(array($title, $html));
+} elseif (isset($_GET['tabs'])) {
+    //
+    // Convert Request to Dollop type
+    $request = _GET("tabs");
+    if (is_numeric($_GET['id'])) {
+
+        global $theme, $kernel;
+        $theme->jquery_ui($_GET['ui']);
+        $tabs = "tabs";
+        $sqlquery = "SELECT * FROM " . PREFIX . "pages WHERE ID = '" . $_GET['id'] . "' LIMIT 1;";
+        $row = kernel::sql_fetch_array($sqlquery);
+        $tab_name = "$tabs-1";
+        if (!empty($row)) {
+            $class_view = db_escape_string($request);
+            $sqlquery = "SELECT ID,title FROM " . PREFIX . "pages WHERE `class_view` = '" . $class_view . "' ";
+            $trows = kernel::sql_fetch_array($sqlquery);
+            $JScript = $theme->custom_template("tabs-jscript", array("TAB_NAME" => "#$tabs"));
+            if (is_array($trows)) {
+                $li_tab = null;
+                foreach ($trows as $trow) {
+                    if ($trow['ID'] == $_GET['id']) {
+                        $tab_link = "#" . $tab_name;
+                    } else {
+                        $tab_link = "/page?clear={$trow['ID']}&body=1";
+                    }
+                    $li_tab .= $theme->custom_template("tabs-li", array("tab_link" => $tab_link, "tab_title" => $trow['title']));
+                }
+            }
+            foreach ($row as $row) {
+                if ($row['com_user']) {
+                    if ((bool) $comments = propc("md.comments.destination")) {
+                        $comment = <<<eol
+                        <br />
+                        <script src="$comments/static.process.js" type="text/javascript"></script>
+eol;
+                    }
+                }
+                $TITLE = $row['title'];
+                $BODY = $theme->custom_template("tabs-body", array("TAB_NAME" => "$tabs", "NAV_CONTENT" => $li_tab, "BODY_CONTENT" => $row['body'] . $comment, "TAB_CURRENT" => $tab_name));
+                // eval php script in to selected page
+                if (!empty($row['phpcripts'])) {
+                    eval(" {$row['phpcripts']} ");
+                }
+                // Attach jQuery script in to page
+                if (!empty($row['jscripts'])) {
+
+                    $JScript .= $row['jscripts'];
+                }
+            }
+
+            $kernel->external_file('jquery', $JScript);
+            theme::content(array($TITLE, $BODY));
+        } else {
+            theme::responses(404);
+        }
+    }
+    //
+    // Only Page Content
+} elseIf (is_numeric($_GET['clear'])) {
+
+
+    $sqlquery = "SELECT * FROM " . PREFIX . "pages WHERE ID = '" . $_GET['clear'] . "' LIMIT 1;";
+    if (class_exists('kernel')) {
+        $row = kernel::sql_fetch_array($sqlquery);
+    } else {
+        $queryresult = db_query($sqlquery) or die(db_error());
+        $row = db_fetch($queryresult, "assoc", "current");
+    }
+    if (!empty($row)) {
+        //Header tag / advanced
+
+
+
+
+        foreach ($row as $row) {
+            if ((bool) $_GET['title']) {
+                $TITLE = $row['title'];
+            } else {
+                $TITLE = NULL;
+            }
+            if ((bool) $_GET['body']) {
+                $BODY = $row['body'];
+            } else {
+                $BODY = NULL;
+            }
+            if ((bool) $_GET['template']) {
+                $GLOBALS['THEME'] = theme::content(array($TITLE, $BODY), "BODY", true);
+            } else {
+                $GLOBALS['THEME'] = $TITLE . "\n" . $BODY;
+            }
+        }
+    } else {
+        theme::responses(404);
+    }
 }

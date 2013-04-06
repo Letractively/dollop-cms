@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 119 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-22 16:58:55 +0200 (ïåò, 22 ôåâð 2013) $
- * ID:                  $Id: handle.header.inc 119 2013-02-22 14:58:55Z fire $
+ * Last committed:      $Revision: 133 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
+ * ID:                  $Id: handle.header.inc 133 2013-04-02 17:13:15Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +20,11 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
+ *
  * @filesource Main Dollop
  * @package dollop kernel
  * @subpackage functions
- * 
+ *
  */
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
@@ -45,12 +45,12 @@ function meta_keywords($text = null) {
             $tags = strip_tags(@$match[1]);
         }
     } else {
-        
+
     }
 }
 
 function meta_description($words) {
-    
+
 }
 
 /**
@@ -132,7 +132,7 @@ function header_location($uri = null, $exit = false, $debug = false) {
     if ($b['name'] != "Unknown" OR !empty($b['name'])) {
         $try = 3;
     } else {
-        $try = 0;
+        $try = -1;
     }
 
     if (is_array($HTTP_COOKIE_VARS)) {

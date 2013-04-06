@@ -1,9 +1,9 @@
 ﻿/**
   ============================================================
- * Last committed:      $Revision: 115 $
+ * Last committed:      $Revision: 129 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
- * ID:                  $Id: init.js 115 2013-02-08 16:27:29Z fire $
+ * Last changed date:   $Date: 2013-03-28 13:31:47 +0200 (÷åòâ, 28 ìàðò 2013) $
+ * ID:                  $Id: init.js 129 2013-03-28 11:31:47Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,28 +18,86 @@
  * --------------------------------------
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
- * 
- * @filesource Dollop CPanel  
+ *
+ * @filesource Dollop CPanel
  * @package Dollop
  * @subpackage CPanel
- * 
+ *
  */
-$(document).ready(function() {
+
+/**
+ * Function Filter table
+ *
+ */
+(function($) {
+    $.fn.extend({
+        filter_table: function(options) {
+            options = $.extend( {}, $.filterTable.defaults, options );
+
+            this.each(function() {
+                new $.filterTable(this,options);
+            });
+            return this;
+        }
+    });
+
+    // input is the element, options is the set of defaults + user options
+    $.filterTable = function( input, options ) {
+        $(input).keyup(function(){
+
+            //hide all the rows
+            $(options['table']).find("tr").hide();
+            //split the current value of searchInput
+            var data = this.value.split(" ");
+            //create a jquery object of the rows
+            var jo = $(options['table']).find("tr");
+            //Recursively filter the jquery object to get results.
+            $.each(data, function(i, v){
+                jo = jo.filter("*:contains('"+v+"')");
+            });
+            //show the rows that match.
+            jo.show();
+        //Removes the placeholder text
+        }).focus(function(){
+            this.value="";
+            $(this).css({
+                "color":options['color_b']
+                });
+            $(this).unbind('focus');
+        }).css({
+            "color":options['color_a']
+            });
+    };
+
+    // option defaults
+    $.filterTable.defaults = {
+        table: "#list",
+        color_a: "#C0C0C0",
+        color_b: "black"
+    };
+
+})(jQuery);
+
+$(function() {
     $.localScroll({
         axis:'xy',
         duration:1500,
-        hash:true, 
-        queue:false //one axis at a time
+        hash:true,
+        queue:true //one axis at a time
     });
     //$.localScroll.hash();
     var isInIFrame = (window.location != window.parent.location) ? true : false;
     if(isInIFrame==false){
-        $('.viewport').height($(window).height()-85);
-        $('#cp-scrollbar').height($(window).height()-100);
+
+        $('.viewport').height($(window).height()-80);
+        $('#cp-scrollbar').height($(window).height()-83);
+
     }else{
         $('.viewport').height($(window).height());
         $('#cp-scrollbar').height($(window).height());
+
     }
+    /*
     var c=null;
     var h=0;
     var hc=$('.viewport');
@@ -49,8 +107,9 @@ $(document).ready(function() {
             hc = h;
         }
     });
+    */
 
-    $('#end-viewport').height($(window).height());
+    //$('#end-viewport').height($(window).height());
 
 });
 

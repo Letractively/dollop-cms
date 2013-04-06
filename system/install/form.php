@@ -30,9 +30,9 @@ if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
 
-if (!defined('FIRE1_INIT')) {
-    exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
-}
+global $language;
+$language['lan.submit'] = "submit";
+
 //STEP 1
 if (file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_dollop')) {
     // in set up sql connection
@@ -42,7 +42,8 @@ if (file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_d
     require_once (self::$KERNEL['MAIN']['dp.db']);
 }
 if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_dollop')) {
-    $txt = '      <h2><span>Set-up</span>  MySQL</h2>
+    $txt = <<<eol
+    <h2><span>Set-up</span>  MySQL</h2>
         <form id="form1" name="form1" method="post" action="">
         <div class="td">
         <strong>Database</strong> host location:<br />
@@ -63,9 +64,21 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
         <div class="td">
         <strong>Database</strong> prefix:<br />
         <input type="text" name="prefix" />
+         </div>
+         <div class="td">
+      <strong>Database</strong> Type:<br />
+      <select name="dbtype">
+        <option value="sqli">MySQLi</option>
+        <option value="pdo">MySQL PDO</option>
+        <option value="none">None</option>
+      </select>
         </div>
-         <input name="button" type="image" src="design/buttons/EN/submit-white.gif" alt="submit" align="middle" />
-        </form>';
+         <input type="submit" value="{$language['lan.submit']}" />
+        </form>
+
+eol;
+
+
     $sect = '<span>1</span> <a href="#">2</a>  <a href="#">3</a> <a href="#">4</a>';
     //STEP 2
 } elseif ($_POST && !file_exists(self::$KERNEL['MAIN']['dp.db'])) {
@@ -80,17 +93,20 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
     $data_db = "";
     $fp = "";
     if (file_exists(self::$KERNEL['MAIN']['dp.db'])) {
-        $txt = '      <h2><span>Successfully</span> created the website MySQL file</h2>
+        $txt = '      <h2><span>Successfully</span> created the configuration file for website MySQL </h2>
             <p>
-            MySQL  configuration file is created successfully.
+            MySQL configuration file is created successfully.
             </p>
+
+
             <p>
             Go to the next step  for installation of  mysql tables.</p><br />
-            <a href="" style="padding:10px; background-color:#E0E0E0;"> NEXT >> </a>
+            <a href="" class="button"> NEXT &raquo; </a>
+
             <p> &nbsp;</p>
             <p>
             <div class="comment"><b>In case of problem:</b><br />
-            <small> You do not have Apache write permission on this server. Please fix this to contionue.</small>
+            <small> You do not have Apache/PHP file write permission on this server. Please fix this to contionue.</small>
             </div>
             </p>
             ';
@@ -132,7 +148,7 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
             Inserting MySQL tables in server.
             <p>
             Go to next step  if all sql data is executed! <br />
-            <div class="handle_back" id="resize-dataq" > <pre>{$handle_back}</pre> </div>
+            <div class="handle_back" id="resize-dataq" style="resize:vertical; overflow-y: visible;overflow-x:hidden;"> <pre>{$handle_back}</pre> </div>
             </p>
 
             <p>
@@ -155,7 +171,7 @@ if (!$_POST && !file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('in
 
 
 
-            <input name="superadmin" type="image" src="design/buttons/EN/submit-white.gif" alt="submit" value="true" align="middle" />
+            <input type="submit" value="{$language['lan.submit']}" />
             <input type="hidden" name="superadmin" value="true">
             </form>
             </p>
@@ -171,11 +187,11 @@ eol;
         $txt = '      <h2><span>installation</span> PROBLEM! </h2>
             Can not find:  ' . self::$CONFIGURATION['install'] . "/install.sql" . ' file.
             <p> Please check folder and restore the file to continue... instalation</p>
-            <a href="' . $_SERVER['PHP_SELF'] . '" style="padding:10px; background-color:#E0E0E0;"> NEXT >> </a>
+            <a href="' . $_SERVER['PHP_SELF'] . '" class="button"> NEXT >> </a>
             ';
     }
     //STEP 4
-} elseIf (file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_dollop') && mysql_query(" SELECT `ID`  FROM `" . PREFIX . "preferences` WHERE " . PREFIX . "preferences.ID='1'; ") && isset($_POST['superadmin']) && !file_exists("config.php")) {
+} elseIf (file_exists(self::$KERNEL['MAIN']['dp.db']) && self::SESSION('installation_dollop') && db_query(" SELECT `ID`  FROM `" . PREFIX . "preferences` WHERE " . PREFIX . "preferences.ID='1'; ") && isset($_POST['superadmin']) && !file_exists("config.php")) {
     $sect = '<a href="#">1</a>  <a href="#">2</a> <a href="#">3</a> <span>4</span> ';
     $txt = '<h1> <span>Installation</span> of the configuration in Dollop is Successful ! </h1>
         ';
@@ -194,9 +210,9 @@ eol;
             );";
         /// Set def mail
         if (!empty($_POST['email'])) {
-            mysql_query("UPDATE `" . PREFIX . "preferences` SET `site_mail`='{$_POST['email']}' WHERE `ID`=1; ");
+            db_query("UPDATE `" . PREFIX . "preferences` SET `site_mail`='{$_POST['email']}' WHERE `ID`=1; ");
         }
-        if (mysql_query($sql)) {
+        if (db_query($sql)) {
             $txt.= <<<eol
         <p>&nbsp;</p>
         <p>
@@ -210,7 +226,7 @@ eol;
         </p>
 eol;
         } else {
-            $mysql_error = mysql_error();
+            $mysql_error = db_error();
             $txt.= <<<eol
             <p>{$_POST['username']}, we have BAD news .... for you.</p>
             It was the last step of installation and the process cannot reversed to process that can make a fix.<br />
@@ -222,7 +238,7 @@ eol;
 eol;
         }
     }
-    $txt.= '<br />      <a href="" style="padding:10px; background-color:#E0E0E0;"> NEXT >> </a>  ';
+    $txt.= '<br />      <a href="" class="button"> NEXT >> </a>  ';
     require_once (self::$CONFIGURATION['install'] . "/createdbconn.php");
     $fp = fopen("config.php", "w+");
     fwrite($fp, $data_confINIT);
@@ -281,8 +297,8 @@ var new_height = $(window).height();
 
 
     $('.page').height(new_height);
-    $('.body').height(new_height -433);
-    $('.gadget').height(new_height -430);
+    $('.body').height(new_height -233);
+    $('.gadget').height(new_height -230);
 
     $('.page').fadeIn(2000);
     $('.body').delay(2000).show(1200);
@@ -294,12 +310,12 @@ var new_height = $(window).height();
 
 <body class="page">
 
-<div class="top"></div>
+<div class="top"><img src="/design/ads/logo-small.png" alt="dollop"  border="0" align="right" id="logo" /></div>
 
 <div class="content">
 <div class="gadget">
 <enter>
-<img src="design/ads/dollop.png" alt="dollop" width="160" height="45" border="0" align="right" /><br />
+<img src="/design/ads/dollop.png" alt="dollop"  border="0" align="right" /><br />
 <div class="codename"><small>code name:</small>{$script_codename}</div>
 </center>
 <div class="clr"></div>

@@ -34,14 +34,14 @@ $verifyToken = md5(HEX . $CONFIGURATION['SPR'] . $_POST['timestamp'] . $CONFIGUR
 $cat = str_replace(" ", "_", preg_replace("[A-Za-z0-9_]", "", $_POST['cat']));
 
 if (!empty($_FILES) && $_POST['token'] == $verifyToken) {
-    $targetPath = $_SERVER['DOCUMENT_ROOT'] . "/" . kernel::base_tag("{publicfiles}" . MODULE_DIR . $cat) . "/";
+    $targetPath = $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR . kernel::base_tag("{publicfiles}" . MODULE_DIR . $cat) . DIRECTORY_SEPARATOR;
     $imgFolder = $targetPath . kernel::base_tag("{images}");
     $thmFolder = $targetPath . kernel::base_tag("{thumbs}");
-    
+
     if (!is_dir($imgFolder)):
         mkdir($imgFolder, 0755, true);
     endif;
-    
+
     if (!is_dir($thmFolder)):
         mkdir($thmFolder, 0755, true);
     endif;
@@ -70,7 +70,7 @@ if (!empty($_FILES) && $_POST['token'] == $verifyToken) {
     $foto_upload->the_file = $_FILES['Filedata']['name'];
     $foto_upload->http_error = $_FILES['Filedata']['error'];
     $foto_upload->rename_file = true;
-    
+
     if ($foto_upload->upload()) {
         $foto_upload->process_image(false, true, true, 90);
         $json['img'] = $foto_upload->file_copy;

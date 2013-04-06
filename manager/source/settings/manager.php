@@ -29,6 +29,8 @@
 if (!defined('FIRE1_INIT')) {
     exit("<div style='background-color: #FFAAAA; '> error..1001</div>");
 }
+
+
 //
 // Get conf
 global $language, $KERNEL_PROP_MAIN, $CONFIGURATION;
@@ -41,7 +43,7 @@ $this->show_sublink[] = $sector_boot;
 // Save new Dollop Props
 if (isset($_POST["submit_{$sector}"])) {
     unset($_POST["submit_{$sector}"]);
-    $result = array_merge($CONFIGURATION, $_POST);
+    $result = array_merge($CONFIGURATION, $_POST['conf']);
     $ext = $KERNEL_PROP_MAIN['kernel.trunkExt'];
     $enc = kernel::enCrypt(serialize($result), crc32(constant('HEX')));
     file_put_contents(@constant('TRUNK') . md5(@constant('HEX')) . $ext, $enc);
@@ -75,14 +77,14 @@ foreach ($CONFIGURATION as $key => $val) {
                 $tbl->addRow();
                 $tbl->addCell($i++);
                 $tbl->addCell("<b>$key &rarr;</b> $sk");
-                $tbl->addCell(html_form_input('text', "{$key}[{$sk}]", $sv, "id=\"fld-$i\""));
+                $tbl->addCell(html_form_input('text', "conf[$key][{$sk}]", $sv, "id=\"fld-$i\""));
                 $tbl->addCell("none");
             }
         } else {
             $tbl->addRow();
             $tbl->addCell($i++);
             $tbl->addCell("<b>$key</b>");
-            $tbl->addCell(html_form_input('text', $key, addslashes($val), "id=\"fld-$i\""));
+            $tbl->addCell(html_form_input('text',"conf[$key]", addslashes($val), "id=\"fld-$i\""));
             $tbl->addCell("none");
         }
     }
@@ -90,6 +92,9 @@ foreach ($CONFIGURATION as $key => $val) {
 $BODY .=$tbl->display() . <<<eol
         <p align="center"><input type="submit" name="submit_{$sector}" value="{$language['lan.submit']}" id="button"> </p>
    </form>
+   <br />
+   <br />
+   <br />
 eol;
 //
 // Boot manager
@@ -145,9 +150,9 @@ eol;
     $tbl->addCell(html_form_input('text', "new_val", null));
     $tbl->addCell("-");
     if ($i >= 1) {
-        $SUBBODY[$sector_boot] = "<form method='post' name='$sector_boot' action='#{$sector_boot}'>" . $tbl->display() . <<<eol
+        $SUBBODY[$sector_boot] = "<p align=\"center\"><form method='post' name='$sector_boot' action='#{$sector_boot}'>" . $tbl->display() . <<<eol
         <p align="center"><input type="submit" name="submit_{$sector_boot}" value="{$language['lan.submit']}" id="button"> </p>
-   </form>
+   </form></p>
 eol;
     }
 }

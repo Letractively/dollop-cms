@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 3 $
- * Last changed by:    $Author: fire1.A.Zaprianov@gmail.com $
- * Last changed date:    $Date: 2013-02-03 13:57:44 +0200 (íåä, 03 ôåâð 2013) $
- * ID:       $Id: datediff.php 3 2013-02-03 11:57:44Z fire1.A.Zaprianov@gmail.com $
+ * Last committed:     $Revision: 127 $
+ * Last changed by:    $Author: fire $
+ * Last changed date:    $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+ * ID:       $Id: datediff.php 127 2013-03-27 07:19:53Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,13 +20,13 @@
  *       See COPYRIGHT and LICENSE
  * --------------------------------------
  */
-    if (!defined('FIRE1_INIT')) { exit("<div style='background-color: #FFAAAA; '> error..1001</div>"); }  
+    if (!defined('FIRE1_INIT')) { exit("<div style='background-color: #FFAAAA; '> error..1001</div>"); }
 
 
 
 /**
 * put your comment there...
-* 
+*
 * @param mixed $interval
 * @param int $datefrom
 * @param int $dateto
@@ -48,15 +48,15 @@ function datediff($interval, $datefrom, $dateto, $using_timestamps = false) {
     n - Number of full minutes
     s - Number of full seconds (default)
     */
-    
+
     if (!$using_timestamps) {
         $datefrom = strtotime($datefrom, 0);
         $dateto = strtotime($dateto, 0);
     }
     $difference = $dateto - $datefrom; // Difference in seconds
-     
+
     switch($interval) {
-     
+
     case 'yyyy': // Number of full years
 
         $years_difference = floor($difference / 31536000);
@@ -134,7 +134,7 @@ function datediff($interval, $datefrom, $dateto, $using_timestamps = false) {
 
         $datediff = $difference;
         break;
-    }    
+    }
 
     return $datediff;
 

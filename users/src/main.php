@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 121 $
+ * Last committed:      $Revision: 127 $
  * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-03-01 15:54:10 +0200 (ïåò, 01 ìàðò 2013) $
- * ID:                  $Id: main.php 121 2013-03-01 13:54:10Z fire $
+ * Last changed date:   $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
+ * ID:                  $Id: main.php 127 2013-03-27 07:19:53Z fire $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -72,7 +72,7 @@ if (!$_COOKIE[USERS_COOKIE_UNAME] || !$_COOKIE[USERS_COOKIE_UID] || !$_COOKIE[US
         $sign_up_err = '<div class="signin-err">' . $users_db->signUp() . '</div>';
     }
     global $theme;
-    $theme->jquery_ui();
+    $theme->jquery_ui($_GET['ui']);
     //
     // Entry template tags
     $tags = array();
@@ -112,7 +112,7 @@ if (!$_COOKIE[USERS_COOKIE_UNAME] || !$_COOKIE[USERS_COOKIE_UID] || !$_COOKIE[US
     /////////////////////////////////////////////////
     $users_process = new users_process();
     /////////////////////////////////////////////////
-    if ($usr = $users_process->my_user()) {
+    if ((bool)$usr = $users_process->my_user()) {
         $users_process->signUp_fields();
         $title = $language['users.welcome'] . " " . $usr[USERS_SQLTBL_COL_UNAME] . " ";
         //users.sqltbl.col.lastchange
@@ -146,9 +146,7 @@ oth;
     <meta property="og:url" content="{$url}">
     <script type="text/javascript">
 $(document).ready(function(){
-            $(".usr-avt").hover(function(){
-            $(".usr-avt-option").slideToggle(500);
-  });
+
 });
 </script>
 js;
@@ -162,6 +160,11 @@ js;
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "ALTMAIL";
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "CHANGES";
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "LASTCHANGE";
+        $MERGE_TEMPLATE["REVIEW"]['sector'][] = "USERFROM";
+        $MERGE_TEMPLATE["REVIEW"]['sector'][] = "USERFROMTL";
+        $MERGE_TEMPLATE["REVIEW"]['sector'][] = "AUTHPROVTL";
+        $MERGE_TEMPLATE["REVIEW"]['sector'][] = "AUTHPROV";
+        $MERGE_TEMPLATE["REVIEW"]['sector'][] = "EDITPHOTO";
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "OTHER";
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "MESSAGES";
         $MERGE_TEMPLATE["REVIEW"]['sector'][] = "PREDIT";
@@ -175,6 +178,11 @@ js;
         $tags['ALTMAIL'] = $alt_mail;
         $tags['CHANGES'] = $language['users.lan.changes'];
         $tags['LASTCHANGE'] = $usr[USERS_SQLTBL_COL_LASTCHANGE];
+        $tags['USERFROM'] = datediff(date('Y-m-d ', $usr['hash_generated']), date('Y-m-d', time()))." ".$language['users.days'];
+        $tags['USERFROMTL'] = $language['users.revw.usrfromt'];
+        $tags['AUTHPROVTL'] = $language['users.revw.authprov'];
+        $tags['AUTHPROV'] = ((bool)$usr['auth_provider'])? $usr['auth_provider'] : $language['users.revw.authnone'];
+        $tags['EDITPHOTO'] = $language['users.revw.changeph'];
         $tags['OTHER'] = (isset($other)) ? $other : "&nbsp; ";
         $tags['MESSAGES'] = $language['users.lan.messages'];
         $tags['PREDIT'] = $language['users.lan.editprof'];

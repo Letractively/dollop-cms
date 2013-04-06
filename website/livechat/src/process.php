@@ -1,10 +1,10 @@
 <?php
 /**
  ============================================================
- * Last committed:     $Revision: 86 $
+ * Last committed:     $Revision: 123 $
  * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2012-10-30 14:12:58 +0200 (вторник, 30 Октомври 2012) $
- * ID:       $Id: process.php 86 2012-10-30 12:12:58Z fire $
+ * Last changed date:    $Date: 2013-03-09 14:54:46 +0200 (ñúá, 09 ìàðò 2013) $
+ * ID:       $Id: process.php 123 2013-03-09 12:54:46Z fire $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -85,24 +85,25 @@ if ($_GET['id'] && is_numeric($_GET['id'])) {
         if (!empty($mysql->aArrayedResults)) {
             $arrFilter = array("\n");
             $arrElement = array("<br />");
+            livechat_emotions_show();
             foreach ($language['lchat.icon'] as $key => $val) {
                 array_push($arrFilter, " {$key}");
-                array_push($arrElement, '<img src="' . HOST . MODULE_DIR . 'emotions/' . $val . '.png" border="0" class="emotions" alt="' . $key . '" />');
+                array_push($arrElement, ' <img src="' . HOST . MODULE_DIR . 'emotions/' . $val . '.gif" border="0" class="emotions" alt="" /> ');
             }
             foreach ($mysql->aArrayedResults as $row) {
-                $text = str_replace($arrFilter, $arrElement, htmlspecialchars(stripslashes(($row['chat_message']))));
+                $text = str_replace($arrFilter, $arrElement, htmlspecialchars(stripslashes((" ".$row['chat_message']))));
                 $text = setlinks($text, "http://");
                 $text = setlinks($text, "https://");
                 $text = setlinks($text, "mailto:");
+
                 $THEME.= <<<eol
                 <div class="chat-message">
                 <div class="chat-username">{$row['username']}:</div>
                 <div class="chat-message-content">{$text}
                 </div>
-                </div>        
-                
+                </div>
 eol;
-                
+
             }
         }
     } else {
