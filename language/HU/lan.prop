@@ -1,0 +1,374 @@
+; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Hiba az "URL" linkre! Kérjük, ellenőrizze a linket.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'Hír'.
+web.news.articles           = 'Cikk'.
+web.news.last               = 'Friss hírek a nap'.
+web.news.mont               = 'Hírek ebben a hónapban'.
+web.news.empty              ='Nincs hír még nem.'
+web.news.nonew              ='Nincs változás.'
+
+web.captcha                    ='Írja be a képen látható biztonsági kódot':
+web.captcha.err                ='Sajnáljuk, de a biztonsági kód érvénytelen! Kérjük, próbálja meg újra.'
+web.messages.in             ='<br />
+You are receiving this message because the user ( {username} ) wishes to share content with you.
+<strong>{link}</strong>
+<p>If you think that getting this message is abuse, please contact us {site_mail}.</p>
+'
+web.mess.button.t           =' Ossza meg a tartalmat Személyes üzenet'
+web.emailing.in             ='Link ezt a cikket küld meg e-mail címét.'
+web.mail.button.t           ='Ossza meg a tartalmat az e-mail';
+web.emailing.sn.b           ='Az e-mail üzenetet küldtek Sikeres!<br /><br /> Köszönjük, hogy a mi mail formájában'
+web.emailing.sn.a           ='Köszönjük, hogy használja a kapcsolatfelvételi űrlap'
+soc.mess.ttl                ='Üzenetek';
+soc.mail.ttl                ='Mailing';
+shr.mail.ttl                ='Content Share';
+
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        = 'vissza'
+lan.submit                      ='kattintson'
+lan.update                      ='frissíteni'
+lan.reset                       ='rejteget'
+lan.empty                       ='Üres lapja website'.
+lan.need.users                  ='Meg kell lennie <b>használó</b> A webhely <b>hozzáférés</b> ez pag!'
+lan.choose.file                 ='válassza ki a fájlt'
+
+lan.months.jan        ='január'
+lan.months.feb        ='február'
+lan.months.mar        ='március'
+lan.months.apr        ='április'
+lan.months.may        ='május'
+lan.months.jun        ='június'
+lan.months.jul        ='július'
+lan.months.aug        ='augusztus'
+lan.months.sep        ='szeptember'
+lan.months.oct        ='október'
+lan.months.nov        ='november'
+lan.months.dec        ='december'
+
+cont.from.ttl           ="tárgy"
+cont.from.mss           ="üzenet"
+
+
+;---------------------------------------------------------------------------------------
+;NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='Hír'
+main.cp.pages               ='Oldalak'
+main.cp.manus               ='menük'
+main.cp.mail                ='Mailing'
+main.cp.logs                ='Naplók'
+main.cp.links               ='Linkek'
+main.cp.users               ='Felhasználói'
+main.cp.update              ='frissíteni'
+main.cp.preferences         ='Preferences'
+main.cp.theme               ='Téma'
+main.cp.flash               ='Flash'
+main.cp.comments            ='Comments'
+main.cp.require             ='Kérjük, töltse ki a szükséges szöveges mezők'
+main.cp.question.erase      ='Biztos benne, hogy törölni szeretné'
+main.cp.question.alt        ='Nem szeretné'
+
+repo.cpanel.expire.title    = " Session lejárt"
+repo.cpanel.expire.body     = 'Session is használt felhasználói profilt lejárt. <p> <b>Kérjük, jelentkezzen be újra!</b> </p> Használhatja a link <A href="Felhasználói/kilátás">alapértelmezett felhasználói szakasz</A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='megszakított (*) kötelező mező!'
+users.err.taken.name        ='A felhasználónév már használatban van.'
+users.err.pass.match        ='A jelszavak nem egyeznek.'
+users.err.valid.email       ='Nem egy érvényes e-mail.'
+users.err.nosuch.user       ='Nincs ilyen felhasználó.'
+users.err.taken.mail        ='E-mail cím már létezik.'
+users.err.req.signin        ='Csak tagok tekinthetik meg a tartalmat!'
+
+users.lan.login             ='Bejelentkezés'
+users.lan.registration      ='Regisztrálj'
+users.lan.uname             ='Felhasználónév'
+users.lan.upass             ='Felhasználói jelszó'
+users.lan.newpass           ='Új jelszó'
+users.lan.confirm           ='Még a jelszót'
+users.lan.email             ='E-mail'
+users.lan.photo             ='A fényképed'
+users.lan.status            ='profil prioritás'
+users.lan.signature         ='aláírás'
+users.lan.signout           ='Kijelentkezés'
+users.lan.changes           ='Utolsó változások'
+users.lan.welcome           ='Fogadtatás'
+users.lan.profile           ='Profilod'
+users.lan.messages          ='Inbox'
+users.lan.editprof          ='profil szerkesztése'
+
+users.passreset             ='Elfelejtette a jelszavát?'
+users.passreset.mail        ='Adja meg e-mail címét és mi elküldjük az új jelszót.'
+users.passreset.err.mail    ='Ez az e-mail nem létezik az adatbázisban.'
+users.passreset.send        ='Ellenőrizze az e-mail most.'
+users.passreset.mail.title  ='Elfelejtett jelszó (nincs válasz) '
+users.passreset.mail.content="
+ Ez az e-mail-ben küldött, mert elfelejtette a jelszavát.
+
+ Kérjük, kattintson az alábbi linkre a jelszó.
+ Van egy két óra ülés (alapértelmezés szerint) ahol elvégezheti a módosításokat"
+
+userrs.pass.recov.uerr      ="Vegye fel a kapcsolatot az alkalmazás a weboldal, hogy a problémát az Ön profilját"
+users.pm                    ='Személyes üzenet.'
+users.signup.ok             ='Sikeresen feliratkozott ezt a weboldalt.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Használd a szociális háló profilok:"
+users.soc.mess                  ="Van már egy fiókot az egyik az ilyen helyeket? Kattintson a logóra bejelentkezni itt:";
+users.soc.loginw                ="Jelentkezz be a: "
+
+users.soc.wreq.ttl              ="További felhasználói információk"
+users.soc.wreq.txt              ='A <b>"{webhely_neve}"</b> website igényelnek felhasználói mező.'
+
+sys.countdown                   ="<b> másodperc van hátra </b> írja az adatokat!"
+sys.countout                  ="<b>Kérjük, próbálja újra!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='tartalom'
+lw.title='cím'
+lw.titles='címek'
+lw.new='új'
+lw.address='cím'
+lw.addresses='címek'
+lw.position='pozíció'
+lw.positions='pozíciók'
+lw.target='target'
+lw.targets='targets'
+lw.option='option'
+lw.options='options'
+lw.category='category'
+lw.categories='categories'
+lw.create='create'
+lw.templates='sablonok'
+lw.template='sablon'
+lw.templates='sablonok'
+lw.theme='Téma'
+lw.themes='Témák'
+lw.body='szerv'
+lw.section='szakasz'
+lw.sections='szakaszok'
+lw.default='alapértelmezett'
+lw.menu='menü'
+lw.menus='menük'
+lw.erase= 'törlése'
+lw.delete='töröl'
+lw.image='kép'
+lw.activate='aktiválja a'
+lw.active='aktív'
+lw.refresh='felfrissít'
+lw.user='használó'
+lw.users='Felhasználói'
+lw.text='szöveg'
+lw.texts='szövegek'
+lw.area='terület'
+lw.areas='területek'
+lw.sounds='hangok'
+lw.sound='hangzik'
+lw.log='hajónapló'
+lw.logs='Naplók'
+lw.page='oldal'
+lw.pages='Oldalak'
+lw.recordet='feljegyzett'
+lw.date='dátum'
+lw.dates='dátumok'
+lw.disclaimer='lemondás'
+lw.website='weboldal'
+lw.name='név'
+lw.meta='meta'
+lw.description='leírás'
+lw.additional='kiegészítő'
+lw.addons='addons'
+lw.addon='addon'
+lw.plugin='plugin'
+lw.plugins='plugins'
+lw.module='modul'
+lw.modules='modulok'
+lw.general='általános'
+lw.installed='telepített'
+lw.install='felszerel'
+lw.installing='telepítése'
+lw.other='más'
+lw.info='info'
+lw.information='információ'
+lw.simple='egyszerű'
+lw.host='vendéglátó'
+lw.charset='charset'
+lw.keywords='kulcsszavak'
+lw.contact='érintkezés'
+lw.e-mail='e-mail'
+lw.language='nyelv'
+lw.copyright='copyright'
+lw.icon='favicon'
+lw.save='megóv'
+lw.saved='mentett'
+lw.action='akció'
+lw.start='start'
+lw.home='otthon'
+lw.class='osztály'
+lw.level='szint'
+lw.admin='admin'
+lw.admins='admins'
+lw.manager='menedzser'
+lw.manage='kezel'
+lw.priority='prioritás'
+lw.problem='probléma'
+lw.execute='végrehajt'
+lw.reading='olvasás'
+lw.processing='feldolgozás'
+lw.deny='tagad'
+lw.denied='tiltott'
+lw.update='frissíteni'
+lw.sucessfully='sikeresen'
+lw.progress='haladás'
+lw.error='hiba'
+lw.errors='hibák'
+lw.edit='szerkeszt'
+lw.edits='szerkesztések'
+lw.empty='üres'
+lw.field='mező'
+lw.fields='mezők'
+lw.time='idő'
+lw.times='szer'
+lw.tag='címke'
+lw.tags='címkék'
+lw.process='folyamat'
+lw.full='teljesen'
+lw.require='kíván'
+lw.registration='bejegyzés'
+lw.login='bejelentkezés'
+lw.username='felhasználónév'
+lw.password='jelszó'
+lw.link='link'
+lw.links='Linkek'
+lw.editor='szerkesztő'
+lw.editors='szerkesztők'
+lw.change='változás'
+lw.changes='változások'
+lw.prevent='megelőzése'
+lw.prevents='megakadályozza'
+lw.setting='beállítás'
+lw.settings='beállítások'
+lw.view='kilátás'
+lw.views='megtekintés'
+lw.viewing='megtekintők'
+lw.show='mutat'
+lw.shows='mutatja'
+lw.showing='mutató'
+lw.topic='téma'
+lw.topics='témák'
+lw.post='berakni'
+lw.posts='hozzászólás'
+lw.last='utolsó'
+lw.lasts='tart'
+lw.reply='válasz'
+lw.replys='válasz'
+lw.reset='rejteget'
+lw.resets='visszaállítja'
+lw.first='első'
+lw.analyzing='elemzése'
+lw.additions='kiegészítések'
+lw.author='szerző'
+lw.version='változat'
+lw.max='max'
+lw.size='méret'
+lw.upload='feltöltés'
+lw.data='adat'
+lw.has='területén'
+lw.logged='rögzítve'
+lw.loggedin="bejelentkezve"
+lw.sub='sub-'
+lw.for='a'
+lw.from='-tól'
+lw.to='a'
+lw.the='a'
+lw.while='míg'
+lw.this='ezt'
+lw.your='a'
+lw.you='Ön'
+lw.do='csinál'
+lw.like='mint'
+lw.is= 'a'
+lw.tick='kullancs'
+lw.some='néhány'
+lw.be='lehet'
+lw.more='több'
+lw.date='dátum'
+lw.end='vég'
+lw.start='indul'
+lw.startpage='kezdőlap'
+lw.may='lehet'
+lw.not='nem'
+lw.allow='lehetővé'
+lw.now='most'
+lw.one='egy'
+lw.moment='pillanat'
+lw.ok='ok'
+lw.close='közeli'
+lw.cancel='töröl'
+lw.press='présel'
+lw.click='csattant'
+lw.already='már'
+lw.ready='kész'
+lw.exist='létezik'
+lw.here='itt'
+lw.type='típus'
+lw.on='on'
+lw.really='tényleg'
+lw.want='akar'
+lw.auto='auto'
+lw.radio='rádió'
+lw.check='ellenőriz'
+lw.select='választ'
+lw.selected='kiválasztott'
+lw.checkbox='jelölőnégyzetet'
+lw.in='-ban'
+lw.with='-val'
+lw.cause='ok'
+lw.all='minden'
+lw.current='jelenlegi'
+; Added new 19.02.2013
+lw.search='keresés'
+lw.search.title='Weboldal keresés'
+lw.search.menu='A keresés típusa és nyomd meg az Entert'

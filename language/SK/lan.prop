@@ -1,0 +1,375 @@
+; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Chyba v "URL" odkaz! Skontrolujte prosím odkaz.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'Správy.'
+web.news.articles           = 'Článok.'
+web.news.last               = 'Posledné správy dňa.'
+web.news.mont               = 'Novinky z tohto mesiaca.'
+web.news.empty              ='Zatiaľ žiadne novinky.'
+web.news.nonew              ='žiadna zmena.'
+
+web.captcha                    ='Opíšte prosím bezpečnostný kód z obrázku:'
+web.captcha.err                ='Je nám ľúto, bezpečnostný kód je neplatný! Skúste to prosím znova.'
+web.messages.in             ='<br />
+You are receiving this message because the user ( {username} ) wishes to share content with you.
+<strong>{link}</strong>
+<p>If you think that getting this message is abuse, please contact us {site_mail}.</p>
+'
+web.mess.button.t           =' Zdieľať obsah s osobným správy'
+web.emailing.in             ='Odkaz na tento článok bude odoslaná na e-mailovej adresy.'
+web.mail.button.t           ='Zdieľať obsah s e-mailom';
+web.emailing.sn.b           ='E-mailová správa bola úspešne zaslaná!<br /><br /> Ďakujeme Vám za používanie nášho mailový formulár'
+web.emailing.sn.a           ='Ďakujeme Vám za používanie nášho kontaktného formulára'
+soc.mess.ttl                ='správy';
+soc.mail.ttl                ='mailing';
+shr.mail.ttl                ='obsah Share';
+
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        = 'staré'
+lan.submit                      ='predložiť'
+lan.update                      ='aktualizovať'
+lan.reset                       ='obnoviť'
+lan.empty                       ='Prázdny stránka webu.'
+lan.need.users                  ='Musíte byť <b> užívateľ </ b> z webu <b> prístupu </ b> na túto stránku!'
+lan.choose.file                 ='vyberte súbor'
+
+lan.months.jan        ='január'
+lan.months.feb        ='február'
+lan.months.mar        ='marec'
+lan.months.apr        ='apríl'
+lan.months.may        ='máj'
+lan.months.jun        ='jún'
+lan.months.jul        ='júl'
+lan.months.aug        ='august'
+lan.months.sep        ='septembra'
+lan.months.oct        ='október'
+lan.months.nov        ='november'
+lan.months.dec        ='december'
+
+cont.from.ttl           ="Predmet"
+cont.from.mss           ="správa"
+
+
+;---------------------------------------------------------------------------------------
+;NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='správy'
+main.cp.pages               ='stránky'
+main.cp.manus               ='menu'
+main.cp.mail                ='pošta'
+main.cp.logs                ='záznamy'
+main.cp.links               ='odkazy'
+main.cp.users               ='Užívatelia'
+main.cp.update              ='aktualizovať'
+main.cp.preferences         ='predvoľby'
+main.cp.theme               ='téma'
+main.cp.flash               ='Flash'
+main.cp.comments            ='Komentáre'
+main.cp.require             ='Prosím vyplňte požadované textových polí'
+main.cp.question.erase      ='Ste si istí, že chcete zmazať'
+main.cp.question.alt        ='Páči sa vám naozaj chcete'
+
+repo.cpanel.expire.title    = " session vypršala"
+repo.cpanel.expire.body     = 'Session, ktorá bola použitá v profile užívateľa vypršala. <p> <b>Prihláste sa prosím znova!</b> </p> Môžete použiť odkaz pre <A href="users/view">default user section</A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='Missed (*) povinné polia!'
+users.err.taken.name        ='Užívateľské meno je už v prevádzke.'
+users.err.pass.match        ='Heslá sa nezhodujú.'
+users.err.valid.email       ='Nie je platný e-mail.'
+users.err.nosuch.user       ='Neexistuje žiadny takýto užívateľ.'
+users.err.taken.mail        ='E-mail už existuje.'
+users.err.req.signin        ='Iba členovia môžu prezerať tento obsah!'
+
+users.lan.login             ='Prihlásiť sa'
+users.lan.registration      ='Zaregistrujte sa'
+users.lan.uname             ='užívateľské meno'
+users.lan.upass             ='užívateľské heslo'
+users.lan.newpass           ='nové heslo'
+users.lan.confirm           ='potvrdenie hesla'
+users.lan.email             ='E-mail'
+users.lan.photo             ='vaše fotografie'
+users.lan.status            ='profil prioritou'
+users.lan.signature         ='podpis'
+users.lan.signout           ='Odhlásiť sa'
+users.lan.changes           ='Posledné zmeny'
+users.lan.welcome           ='Vitajte '
+users.lan.profile           ='Váš profil'
+users.lan.messages          ='Inbox'
+users.lan.editprof          ='upraviť profil'
+
+users.passreset             ='Zabudli ste heslo?'
+users.passreset.mail        ='Zadajte svoj ​​e-mail a my Vám zašleme nové heslo.'
+users.passreset.err.mail    ='Táto e-mail neexistuje v našej databáze. '
+users.passreset.send        ='Skontrolujte, či vaše e-maily teraz.'
+users.passreset.mail.title  ='Zabudnuté heslo (bez odpovede)'
+users.passreset.mail.content="
+
+Tento e-mail bol odoslaný, pretože ste zabudli svoje heslo.
+
+ Prosím, kliknite na odkaz nižšie pre resetovanie hesla.
+ Máte dve hodiny sedenia (v predvolenom nastavení), v ktorom môžete vykonať zmeny "
+
+userrs.pass.recov.uerr      ="Prosím, kontaktujte sa správou internetových stránok na vyriešenie problému s vaším profilom"
+users.pm                    ='Osobné správa.'
+users.signup.ok             ='Úspešne ste sa zaregistrovali na týchto stránkach.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Použite svoje sociálne sieťových profilov:"
+users.soc.mess                  ="Máte už účet na jednom z týchto miest? Kliknite na logo sa prihlásiť s ním tu:";
+users.soc.loginw                ="Prihlás sa: "
+
+users.soc.wreq.ttl              ="Ďalšie informácie o užívateľovi"
+users.soc.wreq.txt              ='<b> "{SITE_NAME}" </ b> stránky vyžadujú viac užívateľských polí.'
+
+sys.countdown                   ="<b> sekúnd zostáva </b> zadajte svoje údaje!"
+sys.countout                  ="<b>Skúste to prosím znova!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='obsah'
+lw.title='titul'
+lw.titles='tituly'
+lw.new='nový'
+lw.address='adresa'
+lw.addresses='adresy'
+lw.position='pozície'
+lw.positions='pozície'
+lw.target='cieľ'
+lw.targets='ciele'
+lw.option='voľba'
+lw.options='možnosti'
+lw.category='kategórie'
+lw.categories='kategórie'
+lw.create='vytvoriť'
+lw.templates='šablóny'
+lw.template='šablóna'
+lw.templates='šablóny'
+lw.theme='téma'
+lw.themes='Témy'
+lw.body='telo'
+lw.section='časť'
+lw.sections='sekcie'
+lw.default='štandardné'
+lw.menu='menu'
+lw.menus='menu'
+lw.erase= 'vymazať'
+lw.delete='vymazať'
+lw.image='obraz'
+lw.activate='aktivovať'
+lw.active='aktívny'
+lw.refresh='občerstviť'
+lw.user='užívateľ'
+lw.users='Užívatelia'
+lw.text='text'
+lw.texts='texty'
+lw.area='oblasť'
+lw.areas='oblasti'
+lw.sounds='zvuky'
+lw.sound='zvuk'
+lw.log='prihlásiť'
+lw.logs='protokoly'
+lw.page='strana'
+lw.pages='stránky'
+lw.recordet='zaznamená'
+lw.date='dátum'
+lw.dates='dáta'
+lw.disclaimer='	poprenie'
+lw.website='website'
+lw.name='meno'
+lw.meta='meta'
+lw.description='opis'
+lw.additional='ďalšie'
+lw.addons='addons'
+lw.addon='addon'
+lw.plugin='plugin'
+lw.plugins='plugins'
+lw.module='modul'
+lw.modules='moduly'
+lw.general='všeobecný'
+lw.installed='nainštalovaný'
+lw.install='inštalovať'
+lw.installing='inštalácia'
+lw.other='ďalšie'
+lw.info='info'
+lw.information='informácie'
+lw.simple='jednoduchý'
+lw.host='hostiteľ'
+lw.charset='charset'
+lw.keywords='kľúčové slová'
+lw.contact='kontakt'
+lw.e-mail='e-mail'
+lw.language='jazyk'
+lw.copyright='copyright'
+lw.icon='favicon'
+lw.save='uložiť'
+lw.saved='uložiť'
+lw.action='akcie'
+lw.start='start'
+lw.home='domáci'
+lw.class='trieda'
+lw.level='úroveň'
+lw.admin='admin'
+lw.admins='admins'
+lw.manager='manažér'
+lw.manage='riadiť'
+lw.priority='priorita'
+lw.problem='problém'
+lw.execute='vykonať'
+lw.reading='čítania'
+lw.processing='spracovanie'
+lw.deny='poprieť'
+lw.denied='odmietnutý'
+lw.update='aktualizovať'
+lw.sucessfully='úspešne'
+lw.progress='pokrok'
+lw.error='chyba'
+lw.errors='chyby'
+lw.edit='upraviť'
+lw.edits='editácia'
+lw.empty='prázdny'
+lw.field='poľa'
+lw.fields='poľa'
+lw.time='čas'
+lw.times='doba'
+lw.tag='štítok'
+lw.tags='tagy'
+lw.process='proces'
+lw.full='plný'
+lw.require='požadovať'
+lw.registration='registrácia'
+lw.login='prihlásenie'
+lw.username='meno'
+lw.password='heslo'
+lw.link='odkaz'
+lw.links='odkazy'
+lw.editor='editor'
+lw.editors='editors'
+lw.change='zmena'
+lw.changes='zmeny'
+lw.prevent='zabrániť'
+lw.prevents='bráni'
+lw.setting='nastavenie'
+lw.settings='Nastavenie'
+lw.view='pohľad'
+lw.views='zobrazenie'
+lw.viewing='prehliadanie'
+lw.show='ukázať'
+lw.shows='ukazuje'
+lw.showing='zobrazené'
+lw.topic='tému'
+lw.topics='Témy'
+lw.post='zverejniť'
+lw.posts='príspevkov'
+lw.last='posledný'
+lw.lasts='trvá'
+lw.reply='odpovedať'
+lw.replys='odpovede'
+lw.reset='obnoviť'
+lw.resets='resetuje'
+lw.first='prvý'
+lw.analyzing='analýzu'
+lw.additions='prírastky'
+lw.author='autor'
+lw.version='verzia'
+lw.max='max'
+lw.size='veľkosť'
+lw.upload='nahrať'
+lw.data='dáta'
+lw.has='má'
+lw.logged='prihlásený'
+lw.loggedin="prihlásený"
+lw.sub='náhradník-'
+lw.for='pre'
+lw.from='od'
+lw.to='na'
+lw.the='ten'
+lw.while='zatiaľ čo'
+lw.this='tento'
+lw.your='váš'
+lw.you='vy'
+lw.do='robiť'
+lw.like='ako'
+lw.is= 'je'
+lw.tick='kliešť'
+lw.some='niektorí'
+lw.be='byť'
+lw.more='viac'
+lw.date='dátum'
+lw.end='koniec'
+lw.start='start'
+lw.startpage='line Galéria'
+lw.may='smieť'
+lw.not='nie'
+lw.allow='povoliť'
+lw.now='teraz'
+lw.one='jeden'
+lw.moment='moment'
+lw.ok='ok'
+lw.close='zavrieť'
+lw.cancel='zrušiť'
+lw.press='stlačiť'
+lw.click='click'
+lw.already='už'
+lw.ready='pripravený'
+lw.exist='existovať'
+lw.here='tu'
+lw.type='typ'
+lw.on='na'
+lw.really='naozaj'
+lw.want='chcieť'
+lw.auto='auto'
+lw.radio='rádio'
+lw.check='skontrolovať'
+lw.select='vybrať'
+lw.selected='vybraný'
+lw.checkbox='checkbox'
+lw.in='v'
+lw.with='s'
+lw.cause='spôsobiť'
+lw.all='všetko'
+lw.current='prúd'
+; Added new 19.02.2013
+lw.search='pozrite'
+lw.search.title='Vyhľadávanie na webovej stránke'
+lw.search.menu='Ak chcete vyhľadať typ a stlačte klávesu Enter'

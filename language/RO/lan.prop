@@ -1,0 +1,376 @@
+; ============================================================
+; Last committed:     $Revision: 118 $
+; Last changed by:    $Author: fire $
+; Last changed date:    $Date: 2013-02-14 16:45:23 +0200 (÷åòâ, 14 ôåâð 2013) $
+; ID:            $Id: lan.prop 118 2013-02-14 14:45:23Z fire $
+; ============================================================
+; Copyright Angel Zaprianov [2009] [INFOHELP]
+; Licensed under the Apache License, Version 2.0 (the "License");
+; you may not use this file except in compliance with the License.
+; You may obtain a copy of the License at
+; http://www.apache.org/licenses/LICENSE-2.0
+; Unless required by applicable law or agreed to in writing, software
+; distributed under the License is distributed on an "AS IS" BASIS,
+; WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+; See the License for the specific language governing permissions and
+; limitations under the License.
+; * --------------------------------------
+; *       See COPYRIGHT and LICENSE
+; * --------------------------------------
+
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+; language file : English
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+error.numerical             = 'Error in"URL" link! Please check the link.'
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   News
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+web.news                    = 'știri.'
+web.news.articles           = 'articol.'
+web.news.last               = 'Ultimele stiri de zile.'
+web.news.mont               = 'Știri din această lună.'
+web.news.empty              ='Nu sunt știri pentru încă.'
+web.news.nonew              ='nici o schimbare.'
+
+web.captcha                    ='Codul de securitate de tip din imagine:'
+web.captcha.err                ='Ne pare rău, codul de securitate este invalid! Vă rugăm să încercați din nou.'
+web.messages.in             ='<br />
+Ați primit acest mesaj deoarece utilizatorul( {username} ) dorește să împărtășească conținut cu tine.
+<strong>{link}</strong>
+<p>Dacă credeți că obtinerea acestui mesaj este un abuz, va rugam sa ne contactati {site_mail}.</p>
+'
+web.mess.button.t           =' Trimiteți conținut cu mesaj personal'
+web.emailing.in             ='Link catre acest articol va fi trimis pentru a specifica adresele e-mail.'
+web.mail.button.t           ='Trimiteți conținut cu e-mail-ul';
+web.emailing.sn.b           ='Mesajul e-mail a fost trimis cu succes!<br /><br /> Vă mulțumim pentru utilizarea formularului nostru de mail'
+web.emailing.sn.a           ='Vă mulțumim pentru utilizarea formularul de contact'
+soc.mess.ttl                ='Mesagerie';
+soc.mail.ttl                ='mailing';
+shr.mail.ttl                ='Conținutul Impartasiti';
+
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   General
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+lan.back                        = 'înapoi'
+lan.submit                      ='prezenta'
+lan.update                      ='actualiza'
+lan.reset                       ='restabili'
+lan.empty                       ='Pagina gol a site-ului.'
+lan.need.users                  ='Trebuie să fii un utilizator <b> </ b> a site-ului la <b> de acces </ b> această pagină!'
+lan.choose.file                 ='alegeți fișierul'
+
+lan.months.jan        ='Ianuarie'
+lan.months.feb        ='Februarie'
+lan.months.mar        ='Martie'
+lan.months.apr        ='Aprilie'
+lan.months.may        ='Mai'
+lan.months.jun        ='Iunie'
+lan.months.jul        ='Iulie'
+lan.months.aug        ='August'
+lan.months.sep        ='Septembrie'
+lan.months.oct        ='Octombrie'
+lan.months.nov        ='Noiembrie'
+lan.months.dec        ='Decembrie'
+
+cont.from.ttl           ="subiect"
+cont.from.mss           ="mesaj"
+
+
+;---------------------------------------------------------------------------------------
+;NOTE value must end with empty space "text  "
+;---------------------------------------------------------------------------------------
+
+main.cp.news                ='știri'
+main.cp.pages               ='pagini'
+main.cp.manus               ='meniuri'
+main.cp.mail                ='Mailing'
+main.cp.logs                ='înregistri'
+main.cp.links               ='Link-uri'
+main.cp.users               ='utilizatorii'
+main.cp.update              ='Actualizați'
+main.cp.preferences         ='Preferințe'
+main.cp.theme               ='temă'
+main.cp.flash               ='Flash'
+main.cp.comments            ='Comentarii'
+main.cp.require             ='Va rugam sa completati campurile obligatorii de text'
+main.cp.question.erase      ='Sunteți sigur că doriți să ștergeți'
+main.cp.question.alt        ='Chiar vrei să'
+
+repo.cpanel.expire.title    = "sesiunea a expirat"
+repo.cpanel.expire.body     = 'Sesiunea, care a fost utilizat de profilul de utilizator a expirat. <b> <p> rugam sa va logati din nou! </ b> </ p> Puteți folosi link-ul pentru <A href="users/view">default user section></A>.'
+
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   Users
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+users.err.require           ='Pierdute (*) obligatoriu camp!'
+users.err.taken.name        ='Nume de utilizator este deja în uz.'
+users.err.pass.match        ='Parolele nu se potrivesc.'
+users.err.valid.email       ='Nu este o adresă de e-mail.'
+users.err.nosuch.user       ='Nu există nici un astfel de utilizator.'
+users.err.taken.mail        ='E-mail există deja.'
+users.err.req.signin        ='Numai membrii pot vizualiza acest conținut!'
+
+users.lan.login             ='Conectați-vă'
+users.lan.registration      ='inscriere'
+users.lan.uname             ='nume utilizator'
+users.lan.upass             ='parola utilizatorului'
+users.lan.newpass           ='nouă parolă'
+users.lan.confirm           ='Confirmați parola'
+users.lan.email             ='E-mail'
+users.lan.photo             ='foto'
+users.lan.status            ='profil prioritate'
+users.lan.signature         ='semnătură'
+users.lan.signout           ='Sign out'
+users.lan.changes           ='ultimele modificări'
+users.lan.welcome           ='bine ai venit '
+users.lan.profile           ='din profilul '
+users.lan.messages          ='Primite'
+users.lan.editprof          ='Editare profil'
+
+users.passreset             ='Am uitat parola?'
+users.passreset.mail        ='Introduceți adresa dvs. de e-mail si va vom trimite parola noua.'
+users.passreset.err.mail    ='Acest e-mail nu exista in baza noastra de date.'
+users.passreset.send        ='Verificați-vă e-mail acum.'
+users.passreset.mail.title  ='Am uitat parola (nici un răspuns) '
+users.passreset.mail.content="
+
+Acest e-mail a fost trimis pentru ca ti-ai uitat parola.
+
+ Vă rugăm să faceți clic pe link-ul de mai jos pentru a reseta parola.
+ Ai un zbor din două sesiuni de ore (implicit), în care se pot face modificările"
+
+userrs.pass.recov.uerr      ="Please contact with administration of website to resolving the problem with your profileVă rugăm să contactați cu administrarea de site-ul pentru a rezolva problema cu profilul"
+users.pm                    ='personală mesaj.'
+users.signup.ok             ='Ai succes a semnat pentru acest site.'
+
+; Social Networks SignIn/SignUp lan
+users.soc.sign                  ="Folosiți-vă profilurile de rețele sociale:"
+users.soc.mess                  ="Ai deja un cont pe unul dintre aceste site-uri? Faceți clic pe logo-ul pentru a vă conecta cu ea aici:";
+users.soc.loginw                ="Autentifica-te cu: "
+
+users.soc.wreq.ttl              ="Informații suplimentare de utilizare"
+users.soc.wreq.txt              ='
+<b> "{SITE_NAME}" </ b> site-ul necesită mai multe domenii de utilizare.'
+
+sys.countdown                   ="<b> secunde rămase </ b> pentru a introduce datele !"
+sys.countout                  ="<b>Vă rugăm să încercați din nou!</b>"
+
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;   List of words
+;^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+;---------------------------------------------------------------------------------------
+;NOTE value must ends with empty space "text  "
+;---------------------------------------------------------------------------------------
+lw.content='conținut'
+lw.title='titlu'
+lw.titles='titluri'
+lw.new='nou'
+lw.address='adresă'
+lw.addresses='adrese'
+lw.position='poziție'
+lw.positions='pozitiile'
+lw.target='țintă'
+lw.targets='obiective'
+lw.option='opțiune'
+lw.options='Opțiuni'
+lw.category='categorie'
+lw.categories='categorii'
+lw.create='crea'
+lw.templates='șabloane'
+lw.template='șablon'
+lw.templates='șabloane'
+lw.theme='temă'
+lw.themes='tematică'
+lw.body='corp'
+lw.section='secțiune'
+lw.sections='secțiuni'
+lw.default='neprezentare'
+lw.menu='meniu'
+lw.menus='meniuri'
+lw.erase= 'șterge'
+lw.delete='șterge'
+lw.image='imagine'
+lw.activate='activa'
+lw.active='activ'
+lw.refresh='reîmprospăta'
+lw.user='utilizator'
+lw.users='utilizatori'
+lw.text='text'
+lw.texts='Texte'
+lw.area='zonă'
+lw.areas='domenii'
+lw.sounds='sunete'
+lw.sound='suna'
+lw.log='log'
+lw.logs='logs'
+lw.page='pagină'
+lw.pages='pagini'
+lw.recordet='inregistrata'
+lw.date='data'
+lw.dates='datele'
+lw.disclaimer='act de renunțare'
+lw.website='website'
+lw.name='nume'
+lw.meta='meta'
+lw.description='descriere'
+lw.additional='suplimentar'
+lw.addons='addons'
+lw.addon='addon'
+lw.plugin='plugin'
+lw.plugins='plugins'
+lw.module='modul'
+lw.modules='module'
+lw.general='general'
+lw.installed='instalată'
+lw.install='instala'
+lw.installing='instalarea'
+lw.other='alte'
+lw.info='info'
+lw.information='informații'
+lw.simple='simplu'
+lw.host='gazdă'
+lw.charset='charset'
+lw.keywords='cuvinte cheie'
+lw.contact='contact'
+lw.e-mail='e-mail'
+lw.language='limbă'
+lw.copyright='drepturi de autor'
+lw.icon='favicon'
+lw.save='salva'
+lw.saved='salvate'
+lw.action='acțiune'
+lw.start='start'
+lw.home='acasă'
+lw.class='clasă'
+lw.level='nivel'
+lw.admin='admin'
+lw.admins='adminii'
+lw.manager='manager'
+lw.manage='administra'
+lw.priority='prioritate'
+lw.problem='problemă'
+lw.execute='executa'
+lw.reading='lectură'
+lw.processing='prelucrare'
+lw.deny='nega'
+lw.denied='negat'
+lw.update='actualiza'
+lw.sucessfully='reușit'
+lw.progress='progres'
+lw.error='eroare'
+lw.errors='erori'
+lw.edit='edita'
+lw.edits='modificări'
+lw.empty='gol'
+lw.field='câmp'
+lw.fields='domenii'
+lw.time='timp'
+lw.times='ori'
+lw.tag='tag'
+lw.tags='tags'
+lw.process='proces'
+lw.full='complet'
+lw.require='necesita'
+lw.registration='înregistrare'
+lw.login='login'
+lw.username='nume de utilizator'
+lw.password='parolă'
+lw.link='link'
+lw.links='links'
+lw.editor='editor'
+lw.editors='editori'
+lw.change='schimba'
+lw.changes='modificări'
+lw.prevent='împiedica'
+lw.prevents='previne'
+lw.setting='instalare'
+lw.settings='setări'
+lw.view='vedere'
+lw.views='Vizualizari'
+lw.viewing='vizionează'
+lw.show='arăta'
+lw.shows='spectacole'
+lw.showing='arătând'
+lw.topic='subiect'
+lw.topics='subiecte'
+lw.post='post'
+lw.posts='posturi'
+lw.last='ultimul'
+lw.lasts='durează'
+lw.reply='răspunde'
+lw.replys='raspunsuri'
+lw.reset='restabili'
+lw.resets='resetează'
+lw.first='în primul rând'
+lw.analyzing='analiza'
+lw.additions='completări'
+lw.author='autor'
+lw.version='versiune'
+lw.max='max'
+lw.size='dimensiune'
+lw.upload='încărca'
+lw.data='de date'
+lw.has='are'
+lw.logged='autentificat'
+lw.loggedin="autentificat"
+lw.sub='sub-'
+lw.for='pentru'
+lw.from='de la'
+lw.to='la'
+lw.the='cel'
+lw.while='în timp ce'
+lw.this='acest'
+lw.your='dumneavoastră'
+lw.you='tu'
+lw.do='face'
+lw.like='ca'
+lw.is= 'este'
+lw.tick='bifa'
+lw.some='unele'
+lw.be='fi'
+lw.more='mai mult'
+lw.date='data'
+lw.end='capăt'
+lw.start='start'
+lw.startpage='startpage'
+lw.may='putea'
+lw.not='nu'
+lw.allow='permite'
+lw.now='acum'
+lw.one='o'
+lw.moment='moment'
+lw.ok='bine'
+lw.close='închide'
+lw.cancel='anula'
+lw.press='apăsa'
+lw.click='clic'
+lw.already='deja'
+lw.ready='gata'
+lw.exist='exista'
+lw.here='aici'
+lw.type='tip'
+lw.on='pe'
+lw.really='într-adevăr'
+lw.want='vrea'
+lw.auto='auto'
+lw.radio='radio'
+lw.check='verifica'
+lw.select='selecta'
+lw.selected='selectate'
+lw.checkbox='checkbox'
+lw.in='în'
+lw.with='cu'
+lw.cause='provoca'
+lw.all='toate'
+lw.current='curent'
+; Added new 19.02.2013
+lw.search='căutare'
+lw.search.title='Site-ul de căutare'
+lw.search.menu='Pentru a căuta tipul și a lovit introduceți'
