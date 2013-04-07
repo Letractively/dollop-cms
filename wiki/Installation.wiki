@@ -104,7 +104,11 @@ INSTALLATION
 a). If you get problems with connection to MySQL  just delete the 'db.php' file from server.
      The installation manager will ask again for MySQL information.
      This option is available to the moment  "[BOOT].dp" file exists on website root. 
+
 b). Always make a backup for "[BOOT].dp"  in cases  your  upgrading to newer version.
+
 c). The Boot file can replace  whole properties given by "*.prop" files.
+
 d). Custom data for User's social networks are moved to Boot file in order   reduction, conflicts in case of updating newer version.
+
 e). The Boot file have option to attach other major PHP scripts by using glue code function. 
