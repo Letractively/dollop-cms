@@ -4,18 +4,29 @@
     \\-->
 
 <div class="social"><br />
-                    <br />
-<p align="center">{SOCTXTMES}<br /><br />
-<a href="twitter" rel="external">      {SLOGINTXT}<br />
-        <img src="{DESTINATION}images/tr.png" border="0"/>
+    <br />
+    <div align="center">
+        {SOCTXTMES}
+        <br />
+        <br />
+        <a href="facebook" class="facebook social-button"  accesskey="f">
+            <img class="icon" src="{DESTINATION}images/facebook.png" border="0" alt="login with facebook"/>
+            <span class="label">{SLOGINTXT}</span>
+            <span class="social-title">facebook</span>
+            <div class="clearfix"></div>
         </a>
-<a href="facebook" rel="external">     {SLOGINTXT}<br />
-        <img src="{DESTINATION}images/fb.png"  border="0"/>
+        <a href="twitter" class="google social-button" accesskey="t">
+            <img class="icon" src="{DESTINATION}images/google.png" border="0" alt="login with google"/>
+            <span class="label">{SLOGINTXT}</span>
+            <span class="social-title">google</span>
+            <div class="clearfix"></div>
         </a>
-<a href="google" rel="external">       {SLOGINTXT}<br />
-        <img src="{DESTINATION}images/gl.png" border="0"/>
+        <a href="google" class="twitter social-button" accesskey="g">
+            <img class="icon" src="{DESTINATION}images/twitter.png" border="0" alt="login with twitter"/>
+            <span class="label">{SLOGINTXT}</span>
+            <span class="social-title">twitter</span>
+            <div class="clearfix"></div>
         </a>
-</p>
 </div>
-
+</div>
 <!--//[social login template]\\-->

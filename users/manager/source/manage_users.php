@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 126 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-03-22 17:58:47 +0200 (ïåò, 22 ìàðò 2013) $
- * ID:                  $Id: manage_users.php 126 2013-03-22 15:58:47Z fire $
+ * Last committed:      $Revision: 136 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:                  $Id: manage_users.php 136 2013-04-23 09:12:36Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -41,13 +41,13 @@ if ($_POST[$priority] && $_POST['userid'] && $_POST['userlevel']) {
 
     $_POST = stripslashes_deep($_POST);
     array_map('addslashes', $_POST);
+    $userlevel = propc("users.sqltbl.col.upriv");
+    $current_user_level = constant("USER_PRIV");
+    if ($current_user_level > $_POST['userlevel']) {
+        $slq = db_query("UPDATE  `" . USERS_SQLTBL_MAIN . "` SET `$userlevel`='{$_POST['userlevel']}'
 
-    if (constant("USER_PRIV") > $_POST['userlevel']) {
-        $slq = db_query("UPDATE  `" . USERS_SQLTBL_MAIN . "` SET `userlevel`='{$_POST['userlevel']}'
-
-    WHERE `userid`='{$_POST['userid']}'; ") or ( $mysql_error = db_error());
+    WHERE `userid`='{$_POST['userid']}' AND `$userlevel`<'$current_user_level' ; ") or ( $mysql_error = db_error());
     } else {
-
         $alert_error = $this->mysql_alert_box("Cannot set-up this user level with bigger from your own level!", $sector);
     }
 }

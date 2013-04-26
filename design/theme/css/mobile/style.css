@@ -331,7 +331,16 @@ background: linear-gradient(to bottom,  rgba(224,224,224,1) 0%,rgba(204,204,204,
 #content .body.content{
     padding: 5px 12px;
 }
-
+#content .body a.social-button{
+    text-align: center;
+     width: 28%;
+}
+#content .body a.social-button .social-title{
+     color: rgba(255,255,255,0.75);
+     font-size: 0.8em;
+     width: 50%;
+     text-align: center;
+}
 #content .body.content h1,#content .body.content h2,#content .body.content h3,#content .body.content h4,#content .sub.title {
     border-width: 1px;
     border-style: solid;

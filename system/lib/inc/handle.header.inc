@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 133 $
+ * Last committed:      $Revision: 136 $
  * Last changed by:     $Author: fire1 $
- * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
- * ID:                  $Id: handle.header.inc 133 2013-04-02 17:13:15Z fire1 $
+ * Last changed date:   $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:                  $Id: handle.header.inc 136 2013-04-23 09:12:36Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -134,7 +134,14 @@ function header_location($uri = null, $exit = false, $debug = false) {
     } else {
         $try = -1;
     }
-
+    if (!session_id()) {
+        session_start();
+    }
+    //
+    // Execute callback on global point
+    if (isset($_SESSION['callback'])) {
+        $uri = $_SESSION['callback'] . "#callbacked";
+    }
     if (is_array($HTTP_COOKIE_VARS)) {
         $chk = "true";
         if (session_id() != '' AND request_uri() == $uri) {
@@ -144,12 +151,6 @@ function header_location($uri = null, $exit = false, $debug = false) {
                 (int) $_SESSION['header_location']++;
                 ;
             }
-        }
-        if (!session_id()) {
-            session_start();
-        }
-        if (isset($_SESSION['callback'])) {
-            $uri = $_SESSION['callback'] . "#callbacked";
         }
         // standart redirect
         header("location: {$uri} ");

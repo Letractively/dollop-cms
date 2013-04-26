@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:     $Revision: 124 $
- * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
- * ID:       $Id: index.php 124 2013-03-19 13:00:12Z fire $
+ * Last committed:     $Revision: 135 $
+ * Last changed by:    $Author: fire1 $
+ * Last changed date:    $Date: 2013-04-19 12:50:06 +0300 (ïåò, 19 àïð 2013) $
+ * ID:       $Id: index.php 135 2013-04-19 09:50:06Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -94,6 +94,7 @@ kernel_add_scripts(kernel::urlCourse_includes());
 // Attachment classes called by the main module script
 kernel::autoload_classes();
 // Attachment of main module script from the kernel course
+users_privilege();
 kernel_include_script(kernel::urlCourse());
 // Closing the kernel course
 kernel::urlCourse_close();

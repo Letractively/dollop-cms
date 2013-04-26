@@ -1,8 +1,8 @@
 ; ============================================================
-; Last committed:     	$Revision: 115 $
-; Last changed by:    	$Author: fire $
-; Last changed date:    $Date: 2013-02-08 18:27:29 +0200 (ïåò, 08 ôåâð 2013) $
-; ID:            		$Id: build.prop 115 2013-02-08 16:27:29Z fire $
+; Last committed:     	$Revision: 135 $
+; Last changed by:    	$Author: fire1 $
+; Last changed date:    $Date: 2013-04-19 12:50:06 +0300 (ïåò, 19 àïð 2013) $
+; ID:            		$Id: build.prop 135 2013-04-19 09:50:06Z fire1 $
 ; ============================================================
 ; Copyright Angel Zaprianov [2009] [INFOHELP]
 ; Licensed under the Apache License, Version 2.0 (the "License");
@@ -30,7 +30,7 @@
 ;;;;;;;;;;;;;;;;;;;
 ; About this file ;
 ;;;;;;;;;;;;;;;;;;;
-; This file controls many aspects of Dollop's behavior.  
+; This file controls many aspects of Dollop's behavior.
 ;
 ; The syntax of the file is extremely simple.  Whitespace and Lines
 ; beginning with a semicolon are silently ignored (as you probably guessed).
@@ -81,4 +81,5 @@
 
 
 responses=1
-html_form_field=1
+html.form.field=1
+users.privilege=1

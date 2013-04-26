@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 133 $
+ * Last committed:      $Revision: 136 $
  * Last changed by:     $Author: fire1 $
- * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
- * ID:                  $Id: panel.php 133 2013-04-02 17:13:15Z fire1 $
+ * Last changed date:   $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:                  $Id: panel.php 136 2013-04-23 09:12:36Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -63,10 +63,9 @@ class panel extends cpanel {
             /** @type \kernel::loadprop $this->panel__prop */
             $this->panel__prop = kernel::loadprop(__FILE__, 1);
             $bool_module = $this->module_prop();
-
-
             if ($bool_module && is_array($this->module_prop)) {
                 $module_dir = kernel::_url_constant($_GET[CPANEL], $this->module_prop);
+
                 if (!defined("MODULE_DIR")) {
                     define("MODULE_DIR", $_GET[CPANEL]);
                 }
@@ -651,13 +650,14 @@ html;
 eol;
             }
 
-            $jscript = '
+
+            $jscripttpl = '
             <!-- JQuery -->
-            <script src="' . $host . 'jquery/jquery.js" type="text/javascript"></script>
-            <script src="' . $host . 'jquery/ui/jquery-ui-custom.min.js" type="text/javascript"></script>
+            <script src="{jquery}/{jquery_file}" type="text/javascript"></script>
+            <script src="{ui_jquery}" type="text/javascript"></script>
             <!-- JQuery -->
             ';
-
+             $jscript = $jqui = kernel::base_tag($jscripttpl);
             foreach ($this->panel__prop['panel.theme.jscript'] as $js_file) {
 
                 $jscript .=<<<eol
@@ -874,62 +874,7 @@ error;
 
             $url = "'" . CPANEL . "':'" . $_GET[CPANEL] . "'";
             $host = HOST;
-            /**
-              $js =<<<js
-              $(document).ready(function() {
 
-              function split( val ) {
-              return val.split( {$this->panel__prop['panel.autocomplete.delimiter']} );
-              };
-              function extractLast( term ) {
-              return split( term ).pop();
-              };
-
-              $('#{$textareaID}')
-
-              .bind( "keydown", function( event ) {
-              if ( event.keyCode === $.ui.keyCode.TAB &&
-              $( this ).data( "autocomplete" ).menu.active ) {
-              event.preventDefault();
-              }
-              })
-              .autocomplete({
-              source: function( request, response ) {
-              $.getJSON( "{$host}panel" , {
-              {$url},
-              type:'{$type}',
-              term: extractLast( request.term )
-
-              }, response );
-              },
-              search: function() {
-
-              var term = extractLast( this.value );
-              if ( term.length < {$this->panel__prop['panel.autocomplete.minChars']} ) {
-              return false;
-              }
-              },
-              focus: function() {
-
-              return false;
-              },
-              select: function( event, ui ) {
-              var terms = split( this.value );
-
-              terms.pop();
-
-              terms.push( ui.item.value );
-
-              terms.push( " " );
-              this.value = terms.join( "();  " );
-              return false;
-              }
-              });
-
-
-              });
-              js;
-             * */
             $js = <<<js
     $(function() {
         function log( message ) {

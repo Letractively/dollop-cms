@@ -87,7 +87,7 @@ a:visited{
     list-style-type:none;
 }
 .header nav ul li{
-    float: right;
+    float: left;
     display:inline-block;
     list-style-type: none;
     position: relative;
