@@ -1,9 +1,9 @@
 /**
  ============================================================
- * Last committed:     $Revision: 127 $
- * Last changed by:    $Author: fire $
- * Last changed date:    $Date: 2013-03-27 09:19:53 +0200 (ñð, 27 ìàðò 2013) $
- * ID:       $Id: ui.css 127 2013-03-27 07:19:53Z fire $
+ * Last committed:     $Revision: 136 $
+ * Last changed by:    $Author: fire1 $
+ * Last changed date:    $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:       $Id: ui.css 136 2013-04-23 09:12:36Z fire1 $
  ============================================================
  Copyright Angel Zaprianov [2009] [INFOHELP]
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -103,34 +103,19 @@
 }
 .users-opener{padding: 10px;           position:relative;}
 .users-head-entry{
-    background: rgba(220,220,220,0.5);
+    border-bottom: double 1px rgba(127,127,127,0.5);
     padding: 10px;
+    cursor: pointer;
+    outline-color: rgba(127,127,127,0.5);
 }
 .social{
     width: auto;
     margin-left: auto;
     margin-right: auto;
 }
-.social img{width: 60%;margin-top: 5px;box-shadow: 0 0 10px #fff;}
-.social a{
-    font-weight: normal;
-    text-align: center;
-    width: 28%;
-    padding: 1%;
-    border: solid 2px #eee;
-    margin: 1%;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 80%;
-    background-color: rgba(255,255,255,0.2);
-    box-shadow: 0 0 10px #888;
-    color:#999;
-    border-radius:5px;
-}
+
 #user_list{ color: #336699; font-weight: bold; padding: 5px;margin-top: 15px;}
 #user-uname,#user-fname{color: #336699;margin-left: 2px;}
-
-.social a:hover{ border-color: #fff;box-shadow: 0 0 15px #666;color:#32A3E7; text-shadow:0 0 10px #ccc;}
 .mail-border{clear: both; width: auto; min-height: 20px; background-repeat: repeat-x;background-image: url('../images/mail-border.png')}
 li.ui-menu-item a{font-size: 0.6em;}
 #user-uname{font-weight: bold}

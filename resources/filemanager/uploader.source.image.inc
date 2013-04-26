@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 133 $
+ * Last committed:      $Revision: 136 $
  * Last changed by:     $Author: fire1 $
- * Last changed date:   $Date: 2013-04-02 20:13:15 +0300 (âò, 02 àïð 2013) $
- * ID:                  $Id: uploader.source.image.inc 133 2013-04-02 17:13:15Z fire1 $
+ * Last changed date:   $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:                  $Id: uploader.source.image.inc 136 2013-04-23 09:12:36Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -146,7 +146,7 @@ eol;
 
       <div class="browse-file-image">
        {$imgs}
-
+           <span id="close-big">x</span>
         <div class="browse-file-info">
             <input type="text" name="rlimg-$is" value="{$host}{$uploadFolder}{$upload_prop['upload.image.folder']}{$images_in}"  readonly/><br />
             <label for="rlimg-$is"> $images_in</label>
@@ -163,7 +163,8 @@ feol;
         $img_in.= " {$language['lw.empty']} !</div>";
     }
     $img_in.= '</div>   ';
-    $browse_link = ' &nbsp;| &nbsp; <a href="#browse" id="browse-files">browse files</a>';
+    $browse_link = (defined("CPANEL"))?' &nbsp;| &nbsp; <a href="#browse" id="browse-files">browse files</a>':"";
+    $refres_link = (defined("CPANEL"))? ' &nbsp;| &nbsp; <a href="#refresh" onClick="window.location=window.location.href">refresh</a>':"";
     $browse_js = kernel::base_tag_folder_filter("{host}{design}/upload/browse-file.js");
     $browse_css = kernel::base_tag_folder_filter("{host}{design}/upload/browse-file.css");
     $js_attach = <<<aeol
@@ -193,7 +194,7 @@ $GLOBALS['THEME'] = <<<eol
 <form id="form-upload" name="form-upload" method="post" action="">
     <input type="hidden" name="MAX_FILE_SIZE" value="{$upload_prop['upload.max.size']}" />
 
-   <div class="size-info"> {$language['lw.image']} {$language['lw.max']} {$language['lw.size']} {$maxFileSize} {$browse_link}</div>
+   <div class="size-info"> {$language['lw.image']} {$language['lw.max']} {$language['lw.size']} {$maxFileSize} {$browse_link}  {$refres_link}</div>
     <div class="fake-file boxshadow border">{$language['lan.choose.file']} <input type="text" name="fake" id="fake-input" readonly></div>
         <input type="file" name="fileToUpload" id="fileToUpload"  />
         <input type="Submit" value="{$language['lan.submit']}" id="buttonForm" class="button boxshadow border" />

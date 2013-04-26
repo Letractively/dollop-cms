@@ -35,5 +35,9 @@ $('.browse-file .show-big').click(function(){
     $(".browse-file-image").hide(400);
     $(this).parent().parent().find(".browse-file-image").show(400);
 });
+$(".browse-file-image #close-big").click(function(){
+    $(this).parent().hide(600);
+
+});
 
 });

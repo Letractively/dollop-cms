@@ -2,10 +2,10 @@
 
 /**
   ============================================================
- * Last committed:      $Revision: 124 $
- * Last changed by:     $Author: fire $
- * Last changed date:   $Date: 2013-03-19 15:00:12 +0200 (âò, 19 ìàðò 2013) $
- * ID:                  $Id: cpanel.class.php 124 2013-03-19 13:00:12Z fire $
+ * Last committed:      $Revision: 136 $
+ * Last changed by:     $Author: fire1 $
+ * Last changed date:   $Date: 2013-04-23 12:12:36 +0300 (âò, 23 àïð 2013) $
+ * ID:                  $Id: cpanel.class.php 136 2013-04-23 09:12:36Z fire1 $
   ============================================================
   Copyright Angel Zaprianov [2009] [INFOHELP]
   Licensed under the Apache License, Version 2.0 (the "License");
@@ -150,13 +150,13 @@ $(".iframe-cpanel").height(windowheight - winmin);
 
 #         $(".'.$click.'_debugger").css("background-image", "url(design/debugger/img/anand-button-a.png)");
         foreach ($this->js as $click) {
-
-            if (in_array($click, $this->fullscreen)) {
-                $js_fs = '$(".overlay").toggle(0);  $(".overlay").height($(document).height());';
-            } else {
-                $js_fs = "";
+            if (!empty($this->fullscreen)) {
+                if (in_array($click, $this->fullscreen)) {
+                    $js_fs = '$(".overlay").toggle(0);  $(".overlay").height($(document).height());';
+                } else {
+                    $js_fs = "";
+                }
             }
-
             if (!empty($this->url[$click])) {
 
                 $host = $_SERVER['HTTP_HOST'];
