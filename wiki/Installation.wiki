@@ -59,32 +59,17 @@ INSTALLATION
     
 1. Download and extract Dollop
 
-   You can obtain the latest Dollop release from http://fire1.eu. "dollop files"
-   are available in   .zip formats and can be extracted using most
-   compression tools.
-
-   To download and extract the files, on a typical Unix/Linux command line, use
-   the following commands:
-
-   $  wget http://(for now is not available)
-   $  tar -zxvf dollop-[code name].xx.tar.gz
-
-   This will create a new `dollop-[code name].xx/` containing all Dollop files and directories. Next move the contents of that directory into a directory within your web server's document root or your public HTML directory, continue with this command:
-
-   $  mv dollop-[code name].xx/* dollop-[code name].xx/.htaccess /path/to/your/installation
+You can obtain the latest Dollop release from http://fire1.eu/ 
+   available in   ".zip" formats and can be extracted using most compression tools.
+Extract the files from archive in folder that is pointed from  Apache as "Document Root". 
 
 2. Optionally, download a translation
 
-   By default, Dollop is installed in English, and other languages may be installed later. If you prefer to install Dollop in another language from the start do the following:
-
-
-   - Download a translation file for the correct Dollop version and language
-     from the translation server: http://(for now is not available)
-
-   - Place the file into your language directory. 
-       language/
-
-   For detailed instructions, visit http://fire1.eu/
+By default, Dollop is installed in English, and other languages may be installed later. If you prefer to install Dollop in another language from the start do the following:
+  - Download a translation file for the correct Dollop version and language
+    from the translation server: http://(for now is not available)
+  - Place the file into your language directory. (by default is named "language/" folder).
+ For detailed instructions, visit Dollop Languages
 
 
 3. Run the install script
