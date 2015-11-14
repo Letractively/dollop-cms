@@ -1,0 +1,100 @@
+Dollop - Installation
+
+
+CONTENTS OF THIS FILE:
+  * Known issues
+  * Requirements and notes
+  * Installation preparations
+  * Installation
+  * More information
+
+
+
+KNOWN ISSUES
+
+
+> NOTE:
+> This version of Dollop is unstable and not all of its problems have been identified.
+> Feel free to help us establish all shortcomings of Dollop.
+
+> - VERY IMPORTANT: the `.htaccess` file must be loaded by Apache.
+> - The installation manager doesn't always show the main content of installation manager
+> (refresh it in this case).
+> > - The requirements checker is not tested thoroughly and may have some problems with establishing Dollop requirements.
+
+
+
+REQUIREMENTS AND NOTES
+
+
+
+> - LINUX web server.
+> - Apache version 2.0 (or higher) is recommended.
+> - **The `RewriteEngine` is required! Check the `.htaccess` file for more info.
+> - PHP 5.3 (or higher) (http://www.php.net/).
+> - MySQL 4.4+ (or higher) (http://www.mysql.com/).**
+
+> NOTE:
+> At the moment Dollop can be run properly only on a Linux server with “Apache 2” and Mysql database.
+
+
+
+INSTALLATION PREPARATIONS
+
+
+> - Confirm that the user under which Apache runs has permission to write into the website directory.
+> - Check can be done e.g. via `ls -la` command on the website root directory.
+> - Confirm that the mcrypt extension is installed and running properly .
+> - For installation on Ubuntu server just use `sudo apt-get install php5-mcrypt` for installation.
+> - Confirm that the GD Library is installed and running properly (bundle library).
+> - For installation on Ubuntu server just use `sudo apt-get install php5-gd` for installation.
+> - Confirm that the Mysql process is running on the server.
+
+
+
+
+
+INSTALLATION
+
+
+1. Download and extract Dollop
+
+You can obtain the latest Dollop release from http://fire1.eu/
+> available in   ".zip" formats and can be extracted using most compression tools.
+Extract the files from archive in folder that is pointed from  Apache as "Document Root".
+
+2. Optionally, download a translation
+
+By default, Dollop is installed in English, and other languages may be installed later. If you prefer to install Dollop in another language from the start do the following:
+> - Download a translation file for the correct Dollop version and language
+> > from the translation server: http://(for now is not available)
+
+> - Place the file into your language directory. (by default is named "language/" folder).
+> For detailed instructions, visit Dollop Languages
+
+
+3. Run the install script
+
+> You will be guided through several screens to set up the database, add the
+> site maintenance account (the first user, also known as user/1 (superadmin) ), and provide all web site settings.
+
+> During installation, several files and directories need to be created, which
+> the install script will try to do automatically. However, on some hosting
+> environments, manual steps are required, and the install script will tell
+> you that it cannot proceed until you fix certain issues.
+
+> This is normal and does not indicate a problem with your server.
+
+4. Tips
+
+a). If you get problems with connection to MySQL  just delete the 'db.php' file from server.
+> The installation manager will ask again for MySQL information.
+> This option is available to the moment  "[BOOT](BOOT.md).dp" file exists on website root.
+
+b). Always make a backup for "[BOOT](BOOT.md).dp"  in cases  your  upgrading to newer version.
+
+c). The Boot file can replace  whole properties given by "**.prop" files.**
+
+d). Custom data for User's social networks are moved to Boot file in order   reduction, conflicts in case of updating newer version.
+
+e). The Boot file have option to attach other major PHP scripts by using glue code function.
